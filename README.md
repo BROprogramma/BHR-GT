@@ -28,7 +28,6 @@ U kunt ook [alle gemelde issues][3] bekijken.
 8. Klik op **Submit new issue** om het issue op te slaan. 
   
 
-
 [1]: https://github.com/BROprogramma/blob/gh-pages/Catalogus Booronderzoek geotechnische boormonsterbeschrijving werkversie 1mrt2018.pdf
 [2]: https://github.com/BROprogramma/BHR-GT/issues/7
 [3]: https://github.com/BROprogramma/BHR-GT/issues
