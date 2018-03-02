@@ -1,7 +1,7 @@
 # Booronderzoek - geotechniek
 Deze repository wordt gebruikt voor het ontwikkelen van de BRO catalogus Booronderzoek - geotechniek, voor het verzamelen van issues hierover, en voor consultaties. 
 
-De BRO catalogus Booronderzoek Geotechnische boormonsterbeschrijving is benaderbaar via:
+# De BRO catalogus Booronderzoek Geotechnische boormonsterbeschrijving is benaderbaar via:
 - [BRO catalogus Booronderzoek Geotechnische boormonsterbeschrijving][1]
 
 Opmerkingen en vragen moeten in het Github platform middels issues worden geplaatst. 
