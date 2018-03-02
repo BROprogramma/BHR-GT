@@ -2,7 +2,7 @@
 Deze repository wordt gebruikt voor het ontwikkelen van de BRO catalogus Booronderzoek - geotechniek, voor het verzamelen van issues hierover, en voor consultaties. 
 
 De BRO catalogus Booronderzoek Geotechnische boormonsterbeschrijving is benaderbaar via:
-- [BRO catalogus Booronderzoek Geotechnische boormonsterbeschrijving]: [1]
+- [BRO catalogus Booronderzoek Geotechnische boormonsterbeschrijving][1]
 
 Opmerkingen en vragen moeten in het Github platform middels issues worden geplaatst. 
 
@@ -15,7 +15,7 @@ Bij het aanmaken van het issue dienen de volgende gegevens te worden opgenomen:
 
 Zie [voorbeeld melding][2].
 
-U kunt ook [alle gemelde issues][3] bekijken.
+U kunt ook [alle gemelde issues] [3] bekijken.
 **Let op:** om issues te plaatsen, moet u een Github gebruikersaccount hebben. [Klik hier om een account te maken][4]. 
 
 1. Download de BRO catalogus Booronderzoek geotechnische boormonsterbeschrijving. [Klik hier om de catalogus te downloaden][1]. 
