@@ -5,7 +5,6 @@ De BRO catalogus Booronderzoek Geotechnische boormonsterbeschrijving is benaderb
 - [BRO catalogus Booronderzoek Geotechnische boormonsterbeschrijving][1]
 
 Opmerkingen en vragen moeten in het Github platform middels issues worden geplaatst. 
-
 Bij het aanmaken van het issue dienen de volgende gegevens te worden opgenomen:
 
 - Duidelijke aanwijzing van de plek in het document waar de issue betrekking op heeft (paragraaf, bladzijde).
@@ -15,7 +14,7 @@ Bij het aanmaken van het issue dienen de volgende gegevens te worden opgenomen:
 
 Zie [voorbeeld melding][2].
 
-U kunt ook alle gemelde issues bekijken [3].
+U kunt ook [alle gemelde issues][3] bekijken.
 **Let op:** om issues te plaatsen, moet u een Github gebruikersaccount hebben. [Klik hier om een account te maken][4]. 
 
 1. Download de BRO catalogus Booronderzoek geotechnische boormonsterbeschrijving. [Klik hier om de catalogus te downloaden][1]. 
