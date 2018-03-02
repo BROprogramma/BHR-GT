@@ -15,7 +15,7 @@ Bij het aanmaken van het issue dienen de volgende gegevens te worden opgenomen:
 
 Zie [voorbeeld melding][2].
 
-U kunt ook [alle gemelde issues] [3] bekijken.
+U kunt ook alle gemelde issues bekijken [3].
 **Let op:** om issues te plaatsen, moet u een Github gebruikersaccount hebben. [Klik hier om een account te maken][4]. 
 
 1. Download de BRO catalogus Booronderzoek geotechnische boormonsterbeschrijving. [Klik hier om de catalogus te downloaden][1]. 
@@ -28,7 +28,7 @@ U kunt ook [alle gemelde issues] [3] bekijken.
 8. Klik op **Submit new issue** om het issue op te slaan. 
   
 
-[1]: https://github.com/BROprogramma/blob/gh-pages/Catalogus Booronderzoek geotechnische boormonsterbeschrijving werkversie 1mrt2018.pdf
+[1]: https://github.com/BROprogramma/blob/gh-pages/Catalogus%20Booronderzoek%20geotechnische%20boormonsterbeschrijving%20werkversie%201mrt2018.pdf
 [2]: https://github.com/BROprogramma/BHR-GT/issues/7
 [3]: https://github.com/BROprogramma/BHR-GT/issues
 [4]: https://github.com/join
