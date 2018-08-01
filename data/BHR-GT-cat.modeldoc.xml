@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_4532D2FB_BE47_4dc9_BBAD_0F65D43D52FB"
       generator-version="1.46.3"
-      generator-date="2018-08-01T11:09:46Z">
+      generator-date="2018-08-01T11:44:34Z">
    <section type="DOMAIN"
             name="Domeinmodel BRO BHR-GT bmb"
             id="global_package_DomeinmodelBROBHRGTBmb">
@@ -53,6 +53,10 @@
                <part type="CFG-DOC-HERKOMST">
                   <item>Herkomst</item>
                   <item>BRO</item>
+               </part>
+               <part type="CFG-DOC-DEFINITIE">
+                  <item>Definitie</item>
+                  <item>De gegevens die het booronderzoek identificeren en inzicht geven in de geschiedenis van het object voorafgaand aan opname in de registratie ondergrond.</item>
                </part>
                <part type="CFG-DOC-HERKOMSTDEFINITIE">
                   <item>Herkomst definitie</item>
@@ -524,9 +528,17 @@
                   <item>Herkomst</item>
                   <item>BRO</item>
                </part>
+               <part type="CFG-DOC-DEFINITIE">
+                  <item>Definitie</item>
+                  <item>De gegevens over de plaats van het booronderzoek op het aardoppervlak, zoals die zijn aangeleverd aan de basisregistratie ondergrond.</item>
+               </part>
                <part type="CFG-DOC-HERKOMSTDEFINITIE">
                   <item>Herkomst definitie</item>
                   <item>BRO</item>
+               </part>
+               <part type="CFG-DOC-TOELICHTING">
+                  <item>Toelichting</item>
+                  <item>De locatie van booronderzoek is gedefinieerd als een punt.</item>
                </part>
             </content>
             <section type="SHORT-ATTRIBUTES">
@@ -614,403 +626,403 @@
                <item id="global_class_DomeinmodelBROBHRGTBmb_Apparaattype"
                      uuid="EAID_0C8F4B1B_D833_4e05_94E2_9EDB34C689BF"
                      idref="detail_class_DomeinmodelBROBHRGTBmb_Apparaattype">Apparaattype</item>
-               <item/>
+               <item>Het apparaat dat gebruikt is voor het nemen van kernen en steekmonsters getypeerd naar de onderdelen die de kwaliteit van de bemonstering beïnvloeden.</item>
             </part>
             <part>
                <item id="global_class_DomeinmodelBROBHRGTBmb_Bemonsteringskwaliteit"
                      uuid="EAID_1C79B72F_53B6_4b08_A945_F755F851F773"
                      idref="detail_class_DomeinmodelBROBHRGTBmb_Bemonsteringskwaliteit">Bemonsteringskwaliteit</item>
-               <item/>
+               <item>De aanduiding die aangeeft wat de beoogde monsterkwaliteit is.</item>
             </part>
             <part>
                <item id="global_class_DomeinmodelBROBHRGTBmb_Bemonsteringsmethode"
                      uuid="EAID_35F98CB3_2FDF_48fb_9C96_AFFFFA5D1218"
                      idref="detail_class_DomeinmodelBROBHRGTBmb_Bemonsteringsmethode">Bemonsteringsmethode</item>
-               <item/>
+               <item>De manier waarop de monsters uit de ondergrond zijn genomen.</item>
             </part>
             <part>
                <item id="global_class_DomeinmodelBROBHRGTBmb_Bemonsteringsprocedure"
                      uuid="EAID_E892CB9C_F4FC_4c29_8E67_0EC2EBD69490"
                      idref="detail_class_DomeinmodelBROBHRGTBmb_Bemonsteringsprocedure">Bemonsteringsprocedure</item>
-               <item/>
+               <item>De procedure die aangeeft onder welke afspraken het bemonsteren is uitgevoerd.</item>
             </part>
             <part>
                <item id="global_class_DomeinmodelBROBHRGTBmb_BeschrevenMateriaal"
                      uuid="EAID_B4356FB3_E144_48bb_85FF_FD49854E9B7B"
                      idref="detail_class_DomeinmodelBROBHRGTBmb_BeschrevenMateriaal">BeschrevenMateriaal</item>
-               <item/>
+               <item>De omschrijving van het materiaal dat is beschreven in het profiel.</item>
             </part>
             <part>
                <item id="global_class_DomeinmodelBROBHRGTBmb_Beschrijfkwaliteit"
                      uuid="EAID_1FDC54E2_CAD9_49bd_8DE1_30E9D672F927"
                      idref="detail_class_DomeinmodelBROBHRGTBmb_Beschrijfkwaliteit">Beschrijfkwaliteit</item>
-               <item/>
+               <item>De aanduiding voor de mate van detail waarmee de opbouw van de ondergrond in het boorprofiel is beschreven.</item>
             </part>
             <part>
                <item id="global_class_DomeinmodelBROBHRGTBmb_Beschrijflocatie"
                      uuid="EAID_3C49748E_1CCF_476d_B2F4_A16C1F4E5AE2"
                      idref="detail_class_DomeinmodelBROBHRGTBmb_Beschrijflocatie">Beschrijflocatie</item>
-               <item/>
+               <item>De plek waar de beschrijving waarop het boorprofiel is gebaseerd is gemaakt.</item>
             </part>
             <part>
                <item id="global_class_DomeinmodelBROBHRGTBmb_Beschrijfprocedure"
                      uuid="EAID_4784367A_F8E1_49b6_9A1C_0EAF793C5CD7"
                      idref="detail_class_DomeinmodelBROBHRGTBmb_Beschrijfprocedure">Beschrijfprocedure</item>
-               <item/>
+               <item>De procedure die aangeeft onder welke afspraken de monsters zijn beschreven.</item>
             </part>
             <part>
                <item id="global_class_DomeinmodelBROBHRGTBmb_BijzonderBestanddeel"
                      uuid="EAID_9EECF01E_CC46_406e_9BA1_603AF1287D74"
                      idref="detail_class_DomeinmodelBROBHRGTBmb_BijzonderBestanddeel">BijzonderBestanddeel</item>
-               <item/>
+               <item>Een bestanddeel dat uit materiaal bestaat dat niet tot een grondsoort wordt gerekend en niet bepalend is voor de geotechnische eigenschappen van grond met, wanneer relevant, aanduiding van de relatieve hoeveelheid ervan.</item>
             </part>
             <part>
                <item id="global_class_DomeinmodelBROBHRGTBmb_BijzonderGesteentebestanddeel"
                      uuid="EAID_B208C0E6_7FCA_4ca4_AAF8_73F3A9F353C5"
                      idref="detail_class_DomeinmodelBROBHRGTBmb_BijzonderGesteentebestanddeel">BijzonderGesteentebestanddeel</item>
-               <item/>
+               <item>Een bestanddeel dat niet in de naam van het gesteente is opgenomen.</item>
             </part>
             <part>
                <item id="global_class_DomeinmodelBROBHRGTBmb_BijzonderMateriaal"
                      uuid="EAID_D592B312_291E_4bd4_8170_DD63BB17F8F5"
                      idref="detail_class_DomeinmodelBROBHRGTBmb_BijzonderMateriaal">BijzonderMateriaal</item>
-               <item/>
+               <item>De naam van het materiaal waaruit een laag waarvan de inhoud niet als grond of gesteente wordt beschouwd, bestaat.</item>
             </part>
             <part>
                <item id="global_class_DomeinmodelBROBHRGTBmb_Bodemgebruik"
                      uuid="EAID_9CB2A401_AB63_478d_9326_DF127FE50C97"
                      idref="detail_class_DomeinmodelBROBHRGTBmb_Bodemgebruik">Bodemgebruik</item>
-               <item/>
+               <item>Het doel waarvoor de bodem waarop de locatie van het booronderzoek ligt in gebruik is.</item>
             </part>
             <part>
                <item id="global_class_DomeinmodelBROBHRGTBmb_Boorprocedure"
                      uuid="EAID_66F571AD_F126_4011_87B8_7D443AC1C1A2"
                      idref="detail_class_DomeinmodelBROBHRGTBmb_Boorprocedure">Boorprocedure</item>
-               <item/>
+               <item>De procedure die aangeeft onder welke afspraken het boren is uitgevoerd.</item>
             </part>
             <part>
                <item id="global_class_DomeinmodelBROBHRGTBmb_Boortechniek"
                      uuid="EAID_2D8E9F86_7F14_4424_B534_A1B3A84FD5C4"
                      idref="detail_class_DomeinmodelBROBHRGTBmb_Boortechniek">Boortechniek</item>
-               <item/>
+               <item>De techniek die gebruikt is om over een bepaald diepte-interval een gat met een bepaalde diameter in de ondergrond te maken.</item>
             </part>
             <part>
                <item id="global_class_DomeinmodelBROBHRGTBmb_Breedteklasse"
                      uuid="EAID_197CC87E_DE92_45cf_9892_376A38E217B2"
                      idref="detail_class_DomeinmodelBROBHRGTBmb_Breedteklasse">Breedteklasse</item>
-               <item/>
+               <item>De kortste afstand tussen de twee vlakken die een discontinuïteit begrenzen die zich toont als een dun lichaam, uitgedrukt in een klasse.</item>
             </part>
             <part>
                <item id="global_class_DomeinmodelBROBHRGTBmb_Buismateriaal"
                      uuid="EAID_C840947E_FC7B_45fc_BF39_DF60F1678638"
                      idref="detail_class_DomeinmodelBROBHRGTBmb_Buismateriaal">Buismateriaal</item>
-               <item/>
+               <item>Het materiaal waaruit de op de gegeven diepte achtergebleven buizen bestaan.</item>
             </part>
             <part>
                <item id="global_class_DomeinmodelBROBHRGTBmb_Cementsoort"
                      uuid="EAID_7E36C1BF_6594_420b_8EB4_7487AB198F40"
                      idref="detail_class_DomeinmodelBROBHRGTBmb_Cementsoort">Cementsoort</item>
-               <item/>
+               <item>De naam van het materiaal dat ervoor zorgt dat sedimentaire gesteenten die uit minerale fragmenten zijn opgebouwd een geheel vormen.</item>
             </part>
             <part>
                <item id="global_class_DomeinmodelBROBHRGTBmb_ConsistentieFijneGrond"
                      uuid="EAID_3B6D4C10_680E_472e_BED6_C2815FB9B483"
                      idref="detail_class_DomeinmodelBROBHRGTBmb_ConsistentieFijneGrond">ConsistentieFijneGrond</item>
-               <item/>
+               <item>De stijfheid van fijne grond uitgedrukt in een klasse.</item>
             </part>
             <part>
                <item id="global_class_DomeinmodelBROBHRGTBmb_ConsistentieOrganischeGrond"
                      uuid="EAID_4025413B_1478_4f8c_AB13_07DCEFE25D9D"
                      idref="detail_class_DomeinmodelBROBHRGTBmb_ConsistentieOrganischeGrond">ConsistentieOrganischeGrond</item>
-               <item/>
+               <item>De stijfheid van organische grond uitgedrukt in een klasse.</item>
             </part>
             <part>
                <item id="global_class_DomeinmodelBROBHRGTBmb_Desintegratie"
                      uuid="EAID_A952FF9F_FCCB_49b0_9EF2_D019775B32CF"
                      idref="detail_class_DomeinmodelBROBHRGTBmb_Desintegratie">Desintegratie</item>
-               <item/>
+               <item>De mate waarin de oorspronkelijke samenhang van het gesteente is afgenomen uitgedrukt in een klasse.</item>
             </part>
             <part>
                <item id="global_class_DomeinmodelBROBHRGTBmb_DisperseInhomogeniteit"
                      uuid="EAID_74A763CA_AD85_40d2_B71B_13A0D092127F"
                      idref="detail_class_DomeinmodelBROBHRGTBmb_DisperseInhomogeniteit">DisperseInhomogeniteit</item>
-               <item/>
+               <item>De typering van willekeurig verspreid voorkomende concentraties van een afwijkende grond- of gesteentesoort naar hoeveelheid en materiaal.</item>
             </part>
             <part>
                <item id="global_class_DomeinmodelBROBHRGTBmb_GelaagdeInhomogeniteit"
                      uuid="EAID_3B064A77_3940_463a_BC6E_72FC8F434BA6"
                      idref="detail_class_DomeinmodelBROBHRGTBmb_GelaagdeInhomogeniteit">GelaagdeInhomogeniteit</item>
-               <item/>
+               <item>De afwijkende laagjes in een samengestelde laag getypeerd naar dikte en soort grond of gesteente.</item>
             </part>
             <part>
                <item id="global_class_DomeinmodelBROBHRGTBmb_Gelaagdheid"
                      uuid="EAID_A781FD52_DCA5_4302_BB1D_D55B59BDA60C"
                      idref="detail_class_DomeinmodelBROBHRGTBmb_Gelaagdheid">Gelaagdheid</item>
-               <item/>
+               <item>De typering van een laag die uit laagjes van hetzelfde materiaal bestaat, naar dikte van de laagjes.</item>
             </part>
             <part>
                <item id="global_class_DomeinmodelBROBHRGTBmb_GeotechnischeAfzettingskarakteristiek"
                      uuid="EAID_8DD821F8_1354_4588_8DC2_C90D62BBDB38"
                      idref="detail_class_DomeinmodelBROBHRGTBmb_GeotechnischeAfzettingskarakteristiek">GeotechnischeAfzettingskarakteristiek</item>
-               <item/>
+               <item>De typering van het sediment waaruit de grond bestaat naar milieu van afzetting voor zover dat vanuit geotechnisch perspectief relevant is.</item>
             </part>
             <part>
                <item id="global_class_DomeinmodelBROBHRGTBmb_GeotechnischeGrondsoort"
                      uuid="EAID_A07255D0_818E_4fc8_9A1C_48D78CAC6A09"
                      idref="detail_class_DomeinmodelBROBHRGTBmb_GeotechnischeGrondsoort">GeotechnischeGrondsoort</item>
-               <item/>
+               <item>De naam van de grondsoort vanuit geotechnisch perspectief.</item>
             </part>
             <part>
                <item id="global_class_DomeinmodelBROBHRGTBmb_Gesteentesoort"
                      uuid="EAID_D61525EA_5E42_48ac_BCC1_F82BB3F20541"
                      idref="detail_class_DomeinmodelBROBHRGTBmb_Gesteentesoort">Gesteentesoort</item>
-               <item/>
+               <item>De naam van het gesteente.</item>
             </part>
             <part>
                <item id="global_class_DomeinmodelBROBHRGTBmb_Grensbepaling"
                      uuid="EAID_4BC79A88_5CEF_466c_B6DD_6F1E7D7C2204"
                      idref="detail_class_DomeinmodelBROBHRGTBmb_Grensbepaling">Grensbepaling</item>
-               <item/>
+               <item>De manier waarop de bovengrens van de laag is bepaald, met in het geval de grens op een in de monsters waargenomen verandering is gebaseerd een aanduiding van hoe scherp de grens is.</item>
             </part>
             <part>
                <item id="global_class_DomeinmodelBROBHRGTBmb_Grindmediaanklasse"
                      uuid="EAID_A43134D5_8394_4946_8229_919B55544456"
                      idref="detail_class_DomeinmodelBROBHRGTBmb_Grindmediaanklasse">Grindmediaanklasse</item>
-               <item/>
+               <item>De mediaan van de grindfractie uitgedrukt in een klasse.</item>
             </part>
             <part>
                <item id="global_class_DomeinmodelBROBHRGTBmb_Groottefractie"
                      uuid="EAID_311BDFB2_0A24_4e4c_B2B0_57C9763B8326"
                      idref="detail_class_DomeinmodelBROBHRGTBmb_Groottefractie">Groottefractie</item>
-               <item/>
+               <item>De korrels waarvan de diameter binnen een bepaald groottebereik ligt.</item>
             </part>
             <part>
                <item id="global_class_DomeinmodelBROBHRGTBmb_Hoekigheid"
                      uuid="EAID_C6397E25_DC8F_4f1c_863B_1A0B4DEB5473"
                      idref="detail_class_DomeinmodelBROBHRGTBmb_Hoekigheid">Hoekigheid</item>
-               <item/>
+               <item>De hoekigheid van de korrel uitgedrukt in een klasse.</item>
             </part>
             <part>
                <item id="global_class_DomeinmodelBROBHRGTBmb_Holteverdeling"
                      uuid="EAID_2F8F6196_4534_4324_B62E_3935C50F049B"
                      idref="detail_class_DomeinmodelBROBHRGTBmb_Holteverdeling">Holteverdeling</item>
-               <item/>
+               <item>De gelijkmatigheid van het voorkomen van de holtes in het gesteente.</item>
             </part>
             <part>
                <item id="global_class_DomeinmodelBROBHRGTBmb_KaderAanlevering"
                      uuid="EAID_110E6B0A_1F82_4d27_88E5_4B170F6B034C"
                      idref="detail_class_DomeinmodelBROBHRGTBmb_KaderAanlevering">KaderAanlevering</item>
-               <item/>
+               <item>De rechtsgrond op basis waarvan, of bij afwezigheid daarvan, de activiteit naar aanleiding waarvan, het betreffende gegeven is aangeleverd aan de basisregistratie ondergrond.</item>
             </part>
             <part>
                <item id="global_class_DomeinmodelBROBHRGTBmb_KaderInwinning"
                      uuid="EAID_68A59454_538B_421d_B422_620D1C36231F"
                      idref="detail_class_DomeinmodelBROBHRGTBmb_KaderInwinning">KaderInwinning</item>
-               <item/>
+               <item>Het doel waarvoor het onderzoek is uitgevoerd.</item>
             </part>
             <part>
                <item id="global_class_DomeinmodelBROBHRGTBmb_KaderstellendeProcedure"
                      uuid="EAID_66DE1A6F_0977_4660_9841_DD88ECF3C459"
                      idref="detail_class_DomeinmodelBROBHRGTBmb_KaderstellendeProcedure">KaderstellendeProcedure</item>
-               <item/>
+               <item>De procedure die de uitvoering van projecten waarbinnen het booronderzoek wordt uitgevoerd reguleert en daarmee de kaders bepaalt voor de uitvoering van het booronderzoek.</item>
             </part>
             <part>
                <item id="global_class_DomeinmodelBROBHRGTBmb_Kalkgehalteklasse"
                      uuid="EAID_A18E1755_5211_45bb_AF4A_16A941470F52"
                      idref="detail_class_DomeinmodelBROBHRGTBmb_Kalkgehalteklasse">Kalkgehalteklasse</item>
-               <item/>
+               <item>Het gehalte aan koolzure kalk uitgedrukt in een klasse.</item>
             </part>
             <part>
                <item id="global_class_DomeinmodelBROBHRGTBmb_Kleur"
                      uuid="EAID_CF09F5C8_DA2D_4117_8DB7_972F949312A4"
                      idref="detail_class_DomeinmodelBROBHRGTBmb_Kleur">Kleur</item>
-               <item/>
+               <item>De kleur van het gesteente.</item>
             </part>
             <part>
                <item id="global_class_DomeinmodelBROBHRGTBmb_LiggingOpGrondlichaam"
                      uuid="EAID_4799F3A6_09A6_4f3e_B44D_57F5C723BA85"
                      idref="detail_class_DomeinmodelBROBHRGTBmb_LiggingOpGrondlichaam">LiggingOpGrondlichaam</item>
-               <item/>
+               <item>De omschrijving van de plaats van de boring op een grondlichaam.</item>
             </part>
             <part>
                <item id="global_class_DomeinmodelBROBHRGTBmb_LokaalVerticaalReferentiepunt"
                      uuid="EAID_15FC54BD_7ADE_47f2_9C65_ABA137F8514C"
                      idref="detail_class_DomeinmodelBROBHRGTBmb_LokaalVerticaalReferentiepunt">LokaalVerticaalReferentiepunt</item>
-               <item/>
+               <item>Het punt dat in het booronderzoek is gebruikt als nulpunt voor de diepte.</item>
             </part>
             <part>
                <item id="global_class_DomeinmodelBROBHRGTBmb_MethodeLocatiebepaling"
                      uuid="EAID_34A0795E_C140_486c_9202_7254C347344B"
                      idref="detail_class_DomeinmodelBROBHRGTBmb_MethodeLocatiebepaling">MethodeLocatiebepaling</item>
-               <item/>
+               <item>De werkwijze die is gevolgd voor de bepaling van de plaats van het booronderzoek op het aardoppervlak.</item>
             </part>
             <part>
                <item id="global_class_DomeinmodelBROBHRGTBmb_MethodePositiebepalingSliblaag"
                      uuid="EAID_92023550_063F_49e3_ABD5_A7CA29C1FBFD"
                      idref="detail_class_DomeinmodelBROBHRGTBmb_MethodePositiebepalingSliblaag">MethodePositiebepalingSliblaag</item>
-               <item/>
+               <item>De werkwijze die is gevolgd voor de bepaling van de bovenkant van de sliblaag.</item>
             </part>
             <part>
                <item id="global_class_DomeinmodelBROBHRGTBmb_MethodeVerticalePositiebepaling"
                      uuid="EAID_2C5A2794_FDCB_4d02_84D5_6D0B3BDABFC0"
                      idref="detail_class_DomeinmodelBROBHRGTBmb_MethodeVerticalePositiebepaling">MethodeVerticalePositiebepaling</item>
-               <item/>
+               <item>De werkwijze die is gevolgd voor de bepaling van de verticale positie van het lokaal verticaal referentiepunt.</item>
             </part>
             <part>
                <item id="global_class_DomeinmodelBROBHRGTBmb_Monstervochtigheid"
                      uuid="EAID_420EB847_9A48_4d81_8F5B_6F565EA70F60"
                      idref="detail_class_DomeinmodelBROBHRGTBmb_Monstervochtigheid">Monstervochtigheid</item>
-               <item/>
+               <item>De vochtigheidstoestand van de grondmonsters op het moment van beschrijven.</item>
             </part>
             <part>
                <item id="global_class_DomeinmodelBROBHRGTBmb_Omzetting"
                      uuid="EAID_5DEAE77E_7AC9_4c95_9813_D9CF28C3A215"
                      idref="detail_class_DomeinmodelBROBHRGTBmb_Omzetting">Omzetting</item>
-               <item/>
+               <item>De mate waarin de oorspronkelijke minerale samenstelling van het gesteente is veranderd uitgedrukt in een klasse.</item>
             </part>
             <part>
                <item id="global_class_DomeinmodelBROBHRGTBmb_Opvulmateriaal"
                      uuid="EAID_3A673E03_4FDB_41dd_AF4A_76C2D34869E6"
                      idref="detail_class_DomeinmodelBROBHRGTBmb_Opvulmateriaal">Opvulmateriaal</item>
-               <item/>
+               <item>Het materiaal waarmee de ruimte is opgevuld die een discontinuïteit die zich toont als een dun lichaam inneemt.</item>
             </part>
             <part>
                <item id="global_class_DomeinmodelBROBHRGTBmb_OrganischeStofgehalteklasse"
                      uuid="EAID_353D8A42_1836_4b73_B0E6_926914E91320"
                      idref="detail_class_DomeinmodelBROBHRGTBmb_OrganischeStofgehalteklasse">OrganischeStofgehalteklasse</item>
-               <item/>
+               <item>Het gehalte aan organische stof uitgedrukt in een klasse.</item>
             </part>
             <part>
                <item id="global_class_DomeinmodelBROBHRGTBmb_OuderdomAfzetting"
                      uuid="EAID_79950B14_F9BE_4754_BCAB_C824B7E16188"
                      idref="detail_class_DomeinmodelBROBHRGTBmb_OuderdomAfzetting">OuderdomAfzetting</item>
-               <item/>
+               <item>De globale ouderdom van het sediment waaruit de grond bestaat.</item>
             </part>
             <part>
                <item id="global_class_DomeinmodelBROBHRGTBmb_RedenNietBeschreven"
                      uuid="EAID_44D4BCDA_85AA_48e8_ADAF_C027166FF144"
                      idref="detail_class_DomeinmodelBROBHRGTBmb_RedenNietBeschreven">RedenNietBeschreven</item>
-               <item/>
+               <item>De reden waarom het interval niet is beschreven.</item>
             </part>
             <part>
                <item id="global_class_DomeinmodelBROBHRGTBmb_Ruwheid"
                      uuid="EAID_C2CE914C_5324_427c_BDC3_283F04495082"
                      idref="detail_class_DomeinmodelBROBHRGTBmb_Ruwheid">Ruwheid</item>
-               <item/>
+               <item>De ruwheid van het korreloppervlak.</item>
             </part>
             <part>
                <item id="global_class_DomeinmodelBROBHRGTBmb_Sfericiteit"
                      uuid="EAID_A1BAE28C_CB10_4482_B6CE_4255941DA84B"
                      idref="detail_class_DomeinmodelBROBHRGTBmb_Sfericiteit">Sfericiteit</item>
-               <item/>
+               <item>De mate van bolrondheid van de korrel ingedeeld op grond van de verhouding tussen de drie dimensies.</item>
             </part>
             <part>
                <item id="global_class_DomeinmodelBROBHRGTBmb_Spoelingtoeslag"
                      uuid="EAID_CEC16B9E_2AD6_4cef_B139_600BC470B932"
                      idref="detail_class_DomeinmodelBROBHRGTBmb_Spoelingtoeslag">Spoelingtoeslag</item>
-               <item/>
+               <item>De specificatie van het materiaal dat aan het werkwater is toegevoegd om de spoeling voldoende massa te geven.</item>
             </part>
             <part>
                <item id="global_class_DomeinmodelBROBHRGTBmb_Stabiliteit"
                      uuid="EAID_1379FBF8_05A1_48e2_BD75_0937F835783D"
                      idref="detail_class_DomeinmodelBROBHRGTBmb_Stabiliteit">Stabiliteit</item>
-               <item/>
+               <item>De veranderlijkheid van het gesteente bij blootstelling aan water of lucht uitgedrukt in een klasse.</item>
             </part>
             <part>
                <item id="global_class_DomeinmodelBROBHRGTBmb_Sterkteklasse"
                      uuid="EAID_CF650203_7D21_49fd_A58C_BD3FE95A3985"
                      idref="detail_class_DomeinmodelBROBHRGTBmb_Sterkteklasse">Sterkteklasse</item>
-               <item/>
+               <item>De sterkte van het gesteente uitgedrukt in een klasse.</item>
             </part>
             <part>
                <item id="global_class_DomeinmodelBROBHRGTBmb_Stopcriterium"
                      uuid="EAID_BC350428_7576_4ea7_AB40_BE5D65573B7C"
                      idref="detail_class_DomeinmodelBROBHRGTBmb_Stopcriterium">Stopcriterium</item>
-               <item/>
+               <item>De reden waarom de uitvoerder van de boring met boren is opgehouden.</item>
             </part>
             <part>
                <item id="global_class_DomeinmodelBROBHRGTBmb_TextuurOrganischeGrond"
                      uuid="EAID_CA4839F0_9694_484b_979A_F42B212F2FA9"
                      idref="detail_class_DomeinmodelBROBHRGTBmb_TextuurOrganischeGrond">TextuurOrganischeGrond</item>
-               <item/>
+               <item>De mate van vezeligheid van organische grond uitgedrukt in een klasse.</item>
             </part>
             <part>
                <item id="global_class_DomeinmodelBROBHRGTBmb_TijdelijkeVerandering"
                      uuid="EAID_7D9A52D7_8F86_4821_B3FA_D8214DA2246F"
                      idref="detail_class_DomeinmodelBROBHRGTBmb_TijdelijkeVerandering">TijdelijkeVerandering</item>
-               <item/>
+               <item>Een tijdelijke verandering in de gegeven toestand van het terrein.</item>
             </part>
             <part>
                <item id="global_class_DomeinmodelBROBHRGTBmb_TreksterkteOrganischeGrond"
                      uuid="EAID_EA065593_0F6B_4fb9_A8DB_AAA495808158"
                      idref="detail_class_DomeinmodelBROBHRGTBmb_TreksterkteOrganischeGrond">TreksterkteOrganischeGrond</item>
-               <item/>
+               <item>De treksterkte van de organische grond uitgedrukt in een klasse.</item>
             </part>
             <part>
                <item id="global_class_DomeinmodelBROBHRGTBmb_TypeDiscontinuTeit"
                      uuid="EAID_B377CC4A_0D20_4db0_8D78_3999D1B67985"
                      idref="detail_class_DomeinmodelBROBHRGTBmb_TypeDiscontinuTeit">TypeDiscontinuïteit</item>
-               <item/>
+               <item>De typering van het vlak dat de laagopbouw verstoort naar oorsprong.</item>
             </part>
             <part>
                <item id="global_class_DomeinmodelBROBHRGTBmb_TypeIngreep"
                      uuid="EAID_BEFA3413_90AB_4f12_A82D_00736623C34B"
                      idref="detail_class_DomeinmodelBROBHRGTBmb_TypeIngreep">TypeIngreep</item>
-               <item/>
+               <item>De omschrijving van de wijze waarop de mens in de opbouw van de ondergrond heeft ingegrepen.</item>
             </part>
             <part>
                <item id="global_class_DomeinmodelBROBHRGTBmb_TypeVermenging"
                      uuid="EAID_7958C517_B973_497f_BFC6_EB7841147761"
                      idref="detail_class_DomeinmodelBROBHRGTBmb_TypeVermenging">TypeVermenging</item>
-               <item/>
+               <item>De omschrijving van het natuurlijk proces dat tot vermenging van de grond heeft geleid.</item>
             </part>
             <part>
                <item id="global_class_DomeinmodelBROBHRGTBmb_Vakgebied"
                      uuid="EAID_3B53A244_78BB_4a08_9465_82FD0706DAEC"
                      idref="detail_class_DomeinmodelBROBHRGTBmb_Vakgebied">Vakgebied</item>
-               <item/>
+               <item>De discipline waarbinnen het booronderzoek is uitgevoerd.</item>
             </part>
             <part>
                <item id="global_class_DomeinmodelBROBHRGTBmb_Veensoort"
                      uuid="EAID_E3ABE777_AFF4_4516_B104_F112756BD808"
                      idref="detail_class_DomeinmodelBROBHRGTBmb_Veensoort">Veensoort</item>
-               <item/>
+               <item>Een nadere typering van het als veen omschreven bestanddeel van grond.</item>
             </part>
             <part>
                <item id="global_class_DomeinmodelBROBHRGTBmb_Verkleuring"
                      uuid="EAID_063A3FC9_3D6F_424e_8F38_A5A3C7724110"
                      idref="detail_class_DomeinmodelBROBHRGTBmb_Verkleuring">Verkleuring</item>
-               <item/>
+               <item>De mate waarin de oorspronkelijke kleur is veranderd uitgedrukt in een klasse.</item>
             </part>
             <part>
                <item id="global_class_DomeinmodelBROBHRGTBmb_VerticaalReferentievlak"
                      uuid="EAID_A7FFD11C_EB3A_4cc8_9017_3670277DD46C"
                      idref="detail_class_DomeinmodelBROBHRGTBmb_VerticaalReferentievlak">VerticaalReferentievlak</item>
-               <item/>
+               <item>Het referentieniveau voor de verticale positie van het lokaal verticaal referentiepunt.</item>
             </part>
             <part>
                <item id="global_class_DomeinmodelBROBHRGTBmb_Voorbehandeling"
                      uuid="EAID_62204E00_C6A4_4d4e_9656_34BD7AD0EFAF"
                      idref="detail_class_DomeinmodelBROBHRGTBmb_Voorbehandeling">Voorbehandeling</item>
-               <item/>
+               <item>De werkzaamheden die tijdens het boren zijn uitgevoerd om een bepaald diepte-interval te prepareren ten behoeve van de bemonstering.</item>
             </part>
             <part>
                <item id="global_class_DomeinmodelBROBHRGTBmb_Voorbereiding"
                      uuid="EAID_ED88CF55_FBE2_46f4_85A9_D0D082B29FC5"
                      idref="detail_class_DomeinmodelBROBHRGTBmb_Voorbereiding">Voorbereiding</item>
-               <item/>
+               <item>De voorbereidende werkzaamheden die binnen het onderzoek voorafgaand aan het boren zijn uitgevoerd en de eigenschappen van de ondergrond kunnen beïnvloeden.</item>
             </part>
             <part>
                <item id="global_class_DomeinmodelBROBHRGTBmb_WeggegravenMateriaal"
                      uuid="EAID_43473D0D_AF5E_4e08_B49F_76FA6F64CEC0"
                      idref="detail_class_DomeinmodelBROBHRGTBmb_WeggegravenMateriaal">WeggegravenMateriaal</item>
-               <item/>
+               <item>De omschrijving van het materiaal waaruit de weggegraven laag bestaat.</item>
             </part>
             <part>
                <item id="global_class_DomeinmodelBROBHRGTBmb_Zandmediaanklasse"
                      uuid="EAID_10F23997_DD90_466b_A2C4_99D35F8392BC"
                      idref="detail_class_DomeinmodelBROBHRGTBmb_Zandmediaanklasse">Zandmediaanklasse</item>
-               <item/>
+               <item>De mediaan van de zandfractie uitgedrukt in een klasse.</item>
             </part>
          </content>
       </section>
@@ -2244,7 +2256,7 @@
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>Het apparaat dat gebruikt is voor het nemen van kernen en steekmonsters getypeerd naar de onderdelen die de kwaliteit van de bemonstering beïnvloeden.</item>
                   </part>
                </content>
                <content>
@@ -2301,7 +2313,7 @@
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>De aanduiding die aangeeft wat de beoogde monsterkwaliteit is.</item>
                   </part>
                </content>
                <content>
@@ -2343,7 +2355,7 @@
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>De manier waarop de monsters uit de ondergrond zijn genomen.</item>
                   </part>
                </content>
                <content>
@@ -2395,7 +2407,7 @@
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>De procedure die aangeeft onder welke afspraken het bemonsteren is uitgevoerd.</item>
                   </part>
                </content>
                <content>
@@ -2422,7 +2434,7 @@
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>De omschrijving van het materiaal dat is beschreven in het profiel.</item>
                   </part>
                </content>
                <content>
@@ -2454,7 +2466,7 @@
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>De aanduiding voor de mate van detail waarmee de opbouw van de ondergrond in het boorprofiel is beschreven.</item>
                   </part>
                </content>
                <content>
@@ -2491,7 +2503,7 @@
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>De plek waar de beschrijving waarop het boorprofiel is gebaseerd is gemaakt.</item>
                   </part>
                </content>
                <content>
@@ -2518,7 +2530,7 @@
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>De procedure die aangeeft onder welke afspraken de monsters zijn beschreven.</item>
                   </part>
                </content>
                <content>
@@ -2545,7 +2557,7 @@
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>Een bestanddeel dat uit materiaal bestaat dat niet tot een grondsoort wordt gerekend en niet bepalend is voor de geotechnische eigenschappen van grond met, wanneer relevant, aanduiding van de relatieve hoeveelheid ervan.</item>
                   </part>
                </content>
                <content>
@@ -2742,7 +2754,7 @@
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>Een bestanddeel dat niet in de naam van het gesteente is opgenomen.</item>
                   </part>
                </content>
                <content>
@@ -2804,7 +2816,7 @@
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>De naam van het materiaal waaruit een laag waarvan de inhoud niet als grond of gesteente wordt beschouwd, bestaat.</item>
                   </part>
                </content>
                <content>
@@ -2926,7 +2938,7 @@
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>Het doel waarvoor de bodem waarop de locatie van het booronderzoek ligt in gebruik is.</item>
                   </part>
                </content>
                <content>
@@ -2993,7 +3005,7 @@
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>De procedure die aangeeft onder welke afspraken het boren is uitgevoerd.</item>
                   </part>
                </content>
                <content>
@@ -3015,7 +3027,7 @@
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>De techniek die gebruikt is om over een bepaald diepte-interval een gat met een bepaalde diameter in de ondergrond te maken.</item>
                   </part>
                </content>
                <content>
@@ -3112,7 +3124,7 @@
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>De kortste afstand tussen de twee vlakken die een discontinuïteit begrenzen die zich toont als een dun lichaam, uitgedrukt in een klasse.</item>
                   </part>
                </content>
                <content>
@@ -3159,7 +3171,7 @@
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>Het materiaal waaruit de op de gegeven diepte achtergebleven buizen bestaan.</item>
                   </part>
                </content>
                <content>
@@ -3211,7 +3223,7 @@
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>De naam van het materiaal dat ervoor zorgt dat sedimentaire gesteenten die uit minerale fragmenten zijn opgebouwd een geheel vormen.</item>
                   </part>
                </content>
                <content>
@@ -3248,7 +3260,7 @@
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>De stijfheid van fijne grond uitgedrukt in een klasse.</item>
                   </part>
                </content>
                <content>
@@ -3290,7 +3302,7 @@
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>De stijfheid van organische grond uitgedrukt in een klasse.</item>
                   </part>
                </content>
                <content>
@@ -3337,7 +3349,7 @@
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>De mate waarin de oorspronkelijke samenhang van het gesteente is afgenomen uitgedrukt in een klasse.</item>
                   </part>
                </content>
                <content>
@@ -3369,7 +3381,7 @@
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>De typering van willekeurig verspreid voorkomende concentraties van een afwijkende grond- of gesteentesoort naar hoeveelheid en materiaal.</item>
                   </part>
                </content>
                <content>
@@ -3541,7 +3553,7 @@
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>De afwijkende laagjes in een samengestelde laag getypeerd naar dikte en soort grond of gesteente.</item>
                   </part>
                </content>
                <content>
@@ -4258,7 +4270,7 @@
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>De typering van een laag die uit laagjes van hetzelfde materiaal bestaat, naar dikte van de laagjes.</item>
                   </part>
                </content>
                <content>
@@ -4295,7 +4307,7 @@
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>De typering van het sediment waaruit de grond bestaat naar milieu van afzetting voor zover dat vanuit geotechnisch perspectief relevant is.</item>
                   </part>
                </content>
                <content>
@@ -4392,7 +4404,7 @@
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>De naam van de grondsoort vanuit geotechnisch perspectief.</item>
                   </part>
                </content>
                <content>
@@ -4754,7 +4766,7 @@
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>De naam van het gesteente.</item>
                   </part>
                </content>
                <content>
@@ -4891,7 +4903,7 @@
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>De manier waarop de bovengrens van de laag is bepaald, met in het geval de grens op een in de monsters waargenomen verandering is gebaseerd een aanduiding van hoe scherp de grens is.</item>
                   </part>
                </content>
                <content>
@@ -4943,7 +4955,7 @@
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>De mediaan van de grindfractie uitgedrukt in een klasse.</item>
                   </part>
                </content>
                <content>
@@ -4975,7 +4987,7 @@
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>De korrels waarvan de diameter binnen een bepaald groottebereik ligt.</item>
                   </part>
                </content>
                <content>
@@ -5012,7 +5024,7 @@
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>De hoekigheid van de korrel uitgedrukt in een klasse.</item>
                   </part>
                </content>
                <content>
@@ -5059,7 +5071,7 @@
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>De gelijkmatigheid van het voorkomen van de holtes in het gesteente.</item>
                   </part>
                </content>
                <content>
@@ -5086,7 +5098,7 @@
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>De rechtsgrond op basis waarvan, of bij afwezigheid daarvan, de activiteit naar aanleiding waarvan, het betreffende gegeven is aangeleverd aan de basisregistratie ondergrond.</item>
                   </part>
                </content>
                <content>
@@ -5133,7 +5145,7 @@
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>Het doel waarvoor het onderzoek is uitgevoerd.</item>
                   </part>
                </content>
                <content>
@@ -5215,7 +5227,7 @@
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>De procedure die de uitvoering van projecten waarbinnen het booronderzoek wordt uitgevoerd reguleert en daarmee de kaders bepaalt voor de uitvoering van het booronderzoek.</item>
                   </part>
                </content>
                <content>
@@ -5237,7 +5249,7 @@
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>Het gehalte aan koolzure kalk uitgedrukt in een klasse.</item>
                   </part>
                </content>
                <content>
@@ -5269,7 +5281,7 @@
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>De kleur van het gesteente.</item>
                   </part>
                </content>
                <content>
@@ -5401,7 +5413,7 @@
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>De omschrijving van de plaats van de boring op een grondlichaam.</item>
                   </part>
                </content>
                <content>
@@ -5443,7 +5455,7 @@
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>Het punt dat in het booronderzoek is gebruikt als nulpunt voor de diepte.</item>
                   </part>
                </content>
                <content>
@@ -5470,7 +5482,7 @@
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>De werkwijze die is gevolgd voor de bepaling van de plaats van het booronderzoek op het aardoppervlak.</item>
                   </part>
                </content>
                <content>
@@ -5527,7 +5539,7 @@
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>De werkwijze die is gevolgd voor de bepaling van de bovenkant van de sliblaag.</item>
                   </part>
                </content>
                <content>
@@ -5594,7 +5606,7 @@
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>De werkwijze die is gevolgd voor de bepaling van de verticale positie van het lokaal verticaal referentiepunt.</item>
                   </part>
                </content>
                <content>
@@ -5656,7 +5668,7 @@
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>De vochtigheidstoestand van de grondmonsters op het moment van beschrijven.</item>
                   </part>
                </content>
                <content>
@@ -5688,7 +5700,7 @@
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>De mate waarin de oorspronkelijke minerale samenstelling van het gesteente is veranderd uitgedrukt in een klasse.</item>
                   </part>
                </content>
                <content>
@@ -5720,7 +5732,7 @@
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>Het materiaal waarmee de ruimte is opgevuld die een discontinuïteit die zich toont als een dun lichaam inneemt.</item>
                   </part>
                </content>
                <content>
@@ -5777,7 +5789,7 @@
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>Het gehalte aan organische stof uitgedrukt in een klasse.</item>
                   </part>
                </content>
                <content>
@@ -5814,7 +5826,7 @@
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>De globale ouderdom van het sediment waaruit de grond bestaat.</item>
                   </part>
                </content>
                <content>
@@ -5851,7 +5863,7 @@
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>De reden waarom het interval niet is beschreven.</item>
                   </part>
                </content>
                <content>
@@ -5898,7 +5910,7 @@
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>De ruwheid van het korreloppervlak.</item>
                   </part>
                </content>
                <content>
@@ -5925,7 +5937,7 @@
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>De mate van bolrondheid van de korrel ingedeeld op grond van de verhouding tussen de drie dimensies.</item>
                   </part>
                </content>
                <content>
@@ -5957,7 +5969,7 @@
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>De specificatie van het materiaal dat aan het werkwater is toegevoegd om de spoeling voldoende massa te geven.</item>
                   </part>
                </content>
                <content>
@@ -5999,7 +6011,7 @@
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>De veranderlijkheid van het gesteente bij blootstelling aan water of lucht uitgedrukt in een klasse.</item>
                   </part>
                </content>
                <content>
@@ -6031,7 +6043,7 @@
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>De sterkte van het gesteente uitgedrukt in een klasse.</item>
                   </part>
                </content>
                <content>
@@ -6083,7 +6095,7 @@
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>De reden waarom de uitvoerder van de boring met boren is opgehouden.</item>
                   </part>
                </content>
                <content>
@@ -6160,7 +6172,7 @@
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>De mate van vezeligheid van organische grond uitgedrukt in een klasse.</item>
                   </part>
                </content>
                <content>
@@ -6202,7 +6214,7 @@
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>Een tijdelijke verandering in de gegeven toestand van het terrein.</item>
                   </part>
                </content>
                <content>
@@ -6254,7 +6266,7 @@
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>De treksterkte van de organische grond uitgedrukt in een klasse.</item>
                   </part>
                </content>
                <content>
@@ -6291,7 +6303,7 @@
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>De typering van het vlak dat de laagopbouw verstoort naar oorsprong.</item>
                   </part>
                </content>
                <content>
@@ -6328,7 +6340,7 @@
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>De omschrijving van de wijze waarop de mens in de opbouw van de ondergrond heeft ingegrepen.</item>
                   </part>
                </content>
                <content>
@@ -6360,7 +6372,7 @@
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>De omschrijving van het natuurlijk proces dat tot vermenging van de grond heeft geleid.</item>
                   </part>
                </content>
                <content>
@@ -6392,7 +6404,7 @@
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>De discipline waarbinnen het booronderzoek is uitgevoerd.</item>
                   </part>
                </content>
                <content>
@@ -6429,7 +6441,7 @@
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>Een nadere typering van het als veen omschreven bestanddeel van grond.</item>
                   </part>
                </content>
                <content>
@@ -6481,7 +6493,7 @@
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>De mate waarin de oorspronkelijke kleur is veranderd uitgedrukt in een klasse.</item>
                   </part>
                </content>
                <content>
@@ -6513,7 +6525,7 @@
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>Het referentieniveau voor de verticale positie van het lokaal verticaal referentiepunt.</item>
                   </part>
                </content>
                <content>
@@ -6545,7 +6557,7 @@
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>De werkzaamheden die tijdens het boren zijn uitgevoerd om een bepaald diepte-interval te prepareren ten behoeve van de bemonstering.</item>
                   </part>
                </content>
                <content>
@@ -6577,7 +6589,7 @@
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>De voorbereidende werkzaamheden die binnen het onderzoek voorafgaand aan het boren zijn uitgevoerd en de eigenschappen van de ondergrond kunnen beïnvloeden.</item>
                   </part>
                </content>
                <content>
@@ -6624,7 +6636,7 @@
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>De omschrijving van het materiaal waaruit de weggegraven laag bestaat.</item>
                   </part>
                </content>
                <content>
@@ -6686,7 +6698,7 @@
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>De mediaan van de zandfractie uitgedrukt in een klasse.</item>
                   </part>
                </content>
                <content>
