@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_4532D2FB_BE47_4dc9_BBAD_0F65D43D52FB"
       generator-version="1.46.3"
-      generator-date="2018-08-01T11:06:04Z">
+      generator-date="2018-08-01T11:09:46Z">
    <section type="DOMAIN"
             name="Domeinmodel BRO BHR-GT bmb"
             id="global_package_DomeinmodelBROBHRGTBmb">
@@ -608,7 +608,7 @@
                <item id="global_class_DomeinmodelBROBHRGTBmb_Aanvulmateriaal"
                      uuid="EAID_5218077B_9E25_4105_80C5_2B8811BC6031"
                      idref="detail_class_DomeinmodelBROBHRGTBmb_Aanvulmateriaal">Aanvulmateriaal</item>
-               <item/>
+               <item>Het materiaal waarmee de ruimte die door het boren op een bepaalde diepte in de ondergrond is ontstaan geheel of gedeeltelijk is opgevuld.</item>
             </part>
             <part>
                <item id="global_class_DomeinmodelBROBHRGTBmb_Apparaattype"
@@ -2117,7 +2117,7 @@
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>Het materiaal waarmee de ruimte die door het boren op een bepaalde diepte in de ondergrond is ontstaan geheel of gedeeltelijk is opgevuld.</item>
                   </part>
                </content>
                <content>
