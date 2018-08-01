@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_4532D2FB_BE47_4dc9_BBAD_0F65D43D52FB"
       generator-version="1.46.3"
-      generator-date="2018-08-01T09:56:04Z">
+      generator-date="2018-08-01T10:05:55Z">
    <section type="DOMAIN"
             name="Domeinmodel BRO BHR-GT bmb"
             id="global_package_DomeinmodelBROBHRGTBmb">
@@ -49,6 +49,14 @@
                <part type="CFG-DOC-NAAM">
                   <item>Naam</item>
                   <item>Booronderzoek</item>
+               </part>
+               <part type="CFG-DOC-HERKOMST">
+                  <item>Herkomst</item>
+                  <item>BRO</item>
+               </part>
+               <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                  <item>Herkomst definitie</item>
+                  <item>BRO</item>
                </part>
             </content>
             <section type="SHORT-ATTRIBUTES">
@@ -6673,6 +6681,14 @@
                   <item>Naam</item>
                   <item>Gestandaardiseerde locatie</item>
                </part>
+               <part type="CFG-DOC-HERKOMST">
+                  <item>Herkomst</item>
+                  <item>BRO</item>
+               </part>
+               <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                  <item>Herkomst definitie</item>
+                  <item>BRO</item>
+               </part>
             </content>
             <section type="SHORT-ATTRIBUTES">
                <content>
@@ -7094,6 +7110,10 @@ toegankelijk.</item>
                   <item>Naam</item>
                   <item>Coördinatenpaar</item>
                </part>
+               <part type="CFG-DOC-HERKOMST">
+                  <item>Herkomst</item>
+                  <item>BRO</item>
+               </part>
             </content>
             <section type="SHORT-DATAELEMENTS">
                <content>
@@ -7135,6 +7155,10 @@ toegankelijk.</item>
                <part type="CFG-DOC-NAAM">
                   <item>Naam</item>
                   <item>Datum</item>
+               </part>
+               <part type="CFG-DOC-HERKOMST">
+                  <item>Herkomst</item>
+                  <item>BRO</item>
                </part>
             </content>
             <section type="SHORT-DATAELEMENTS">
@@ -7207,6 +7231,10 @@ Wanneer een attribuut een domein van het type DatumTijd heeft is het voldoende d
                   <item>Naam</item>
                   <item>KvK-nummer</item>
                </part>
+               <part type="CFG-DOC-HERKOMST">
+                  <item>Herkomst</item>
+                  <item>BRO</item>
+               </part>
             </content>
             <section type="SHORT-DATAELEMENTS">
                <content>
@@ -7238,6 +7266,10 @@ Wanneer een attribuut een domein van het type DatumTijd heeft is het voldoende d
                   <item>Naam</item>
                   <item>Meetwaarde</item>
                </part>
+               <part type="CFG-DOC-HERKOMST">
+                  <item>Herkomst</item>
+                  <item>BRO</item>
+               </part>
             </content>
          </section>
          <section name="Registratieobjectcode"
@@ -7248,6 +7280,10 @@ Wanneer een attribuut een domein van het type DatumTijd heeft is het voldoende d
                <part type="CFG-DOC-NAAM">
                   <item>Naam</item>
                   <item>Registratieobjectcode</item>
+               </part>
+               <part type="CFG-DOC-HERKOMST">
+                  <item>Herkomst</item>
+                  <item>BRO</item>
                </part>
             </content>
             <section type="SHORT-DATAELEMENTS">
@@ -7280,6 +7316,10 @@ Wanneer een attribuut een domein van het type DatumTijd heeft is het voldoende d
                   <item>Naam</item>
                   <item>Tekst200</item>
                </part>
+               <part type="CFG-DOC-HERKOMST">
+                  <item>Herkomst</item>
+                  <item>BRO</item>
+               </part>
             </content>
             <section type="SHORT-DATAELEMENTS">
                <content>
@@ -7310,6 +7350,10 @@ Wanneer een attribuut een domein van het type DatumTijd heeft is het voldoende d
                <part type="CFG-DOC-NAAM">
                   <item>Naam</item>
                   <item>Tekst100</item>
+               </part>
+               <part type="CFG-DOC-HERKOMST">
+                  <item>Herkomst</item>
+                  <item>BRO</item>
                </part>
             </content>
             <section type="SHORT-DATAELEMENTS">
