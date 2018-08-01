@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_4532D2FB_BE47_4dc9_BBAD_0F65D43D52FB"
       generator-version="1.46.3"
-      generator-date="2018-08-01T12:01:28Z">
+      generator-date="2018-08-01T12:21:10Z">
    <section type="DOMAIN"
             name="Domeinmodel BRO BHR-GT bmb"
             id="global_package_DomeinmodelBROBHRGTBmb">
@@ -8969,6 +8969,10 @@ Ook hiervoor geldt dat akkoord van de bronhouder vereist is.</item>
                         <item>Naam</item>
                         <item>coördinaat1</item>
                      </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
                         <item>1</item>
@@ -8987,6 +8991,10 @@ Ook hiervoor geldt dat akkoord van de bronhouder vereist is.</item>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
                         <item>coördinaat2</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
@@ -9011,6 +9019,10 @@ Ook hiervoor geldt dat akkoord van de bronhouder vereist is.</item>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
                         <item>waarde</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
@@ -9064,6 +9076,10 @@ Ook hiervoor geldt dat akkoord van de bronhouder vereist is.</item>
                         <item>Naam</item>
                         <item>waarde</item>
                      </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
                         <item>1</item>
@@ -9089,6 +9105,10 @@ Ook hiervoor geldt dat akkoord van de bronhouder vereist is.</item>
                         <item>Naam</item>
                         <item>waarde</item>
                      </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
                         <item>1</item>
@@ -9113,6 +9133,10 @@ Ook hiervoor geldt dat akkoord van de bronhouder vereist is.</item>
                         <item>Naam</item>
                         <item>waarde</item>
                      </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
                         <item>1</item>
@@ -9136,6 +9160,10 @@ Ook hiervoor geldt dat akkoord van de bronhouder vereist is.</item>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
                         <item>waarde</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
