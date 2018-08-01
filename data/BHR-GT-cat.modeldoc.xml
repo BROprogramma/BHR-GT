@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_4532D2FB_BE47_4dc9_BBAD_0F65D43D52FB"
       generator-version="1.46.3"
-      generator-date="2018-08-01T11:44:34Z">
+      generator-date="2018-08-01T12:01:28Z">
    <section type="DOMAIN"
             name="Domeinmodel BRO BHR-GT bmb"
             id="global_package_DomeinmodelBROBHRGTBmb">
@@ -1042,9 +1042,17 @@
                         <item>Naam</item>
                         <item>kader aanlevering</item>
                      </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
                         <item>De rechtsgrond op basis waarvan, of bij afwezigheid daarvan, de activiteit naar aanleiding waarvan, het betreffende gegeven is aangeleverd aan de basisregistratie ondergrond.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-TOELICHTING">
                         <item>Toelichting</item>
@@ -1085,9 +1093,17 @@
                         <item>Naam</item>
                         <item>kader inwinning</item>
                      </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
                         <item>Het doel waarvoor het onderzoek is uitgevoerd.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-TOELICHTING">
                         <item>Toelichting</item>
@@ -1128,9 +1144,17 @@
                         <item>Naam</item>
                         <item>vakgebied</item>
                      </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
                         <item>De discipline waarbinnen het booronderzoek is uitgevoerd.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-TOELICHTING">
                         <item>Toelichting</item>
@@ -1171,9 +1195,17 @@
                         <item>Naam</item>
                         <item>kaderstellende procedure</item>
                      </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
                         <item>De procedure die de uitvoering van projecten waarbinnen het booronderzoek wordt uitgevoerd reguleert en daarmee de kaders bepaalt voor de uitvoering van het booronderzoek.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-TOELICHTING">
                         <item>Toelichting</item>
@@ -1214,9 +1246,17 @@
                         <item>Naam</item>
                         <item>rapportagedatum</item>
                      </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
                         <item>De datum waarop de uitvoerder van het booronderzoek alle gegevens van het booronderzoek heeft vastgelegd en het resultaat aan de opdrachtgever kan worden aangeboden, dan wel de feitelijk datum van rapportage.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -1253,9 +1293,17 @@
                         <item>Naam</item>
                         <item>uitvoerder onderzoek</item>
                      </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
                         <item>De identificatie die de organisatie die voor de bronhouder geldt als verantwoordelijk voor de uitvoering van het booronderzoek, als onderneming in het Handelsregister heeft.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-TOELICHTING">
                         <item>Toelichting</item>
@@ -1296,9 +1344,17 @@
                         <item>Naam</item>
                         <item>terreintoestand bepaald</item>
                      </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
                         <item>De aanduiding die aangeeft of in het onderzoek gegevens over de toestand van het terrein zijn vastgelegd die van betekenis zijn voor de beoordeling van de resultaten.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -1335,9 +1391,17 @@
                         <item>Naam</item>
                         <item>boorgat bemeten</item>
                      </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
                         <item>De aanduiding die aangeeft of het uitvoeren van boorgatmetingen onderdeel van het onderzoek is.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-TOELICHTING">
                         <item>Toelichting</item>
@@ -1378,9 +1442,17 @@
                         <item>Naam</item>
                         <item>boormonsters beschreven</item>
                      </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
                         <item>De aanduiding die aangeeft of het beschrijven van boormonsters onderdeel van het onderzoek is.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -1417,9 +1489,17 @@
                         <item>Naam</item>
                         <item>boormonsters onderzocht</item>
                      </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
                         <item>De aanduiding die aangeeft of het onderzoeken van boormonsters onderdeel van het onderzoek is.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-TOELICHTING">
                         <item>Toelichting</item>
@@ -1460,9 +1540,17 @@
                         <item>Naam</item>
                         <item>boormonsters gefotografeerd</item>
                      </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
                         <item>De aanduiding die aangeeft of het maken van foto's van boormonsters onderdeel van het onderzoek is.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-TOELICHTING">
                         <item>Toelichting</item>
@@ -6773,9 +6861,17 @@
                   <item>Herkomst</item>
                   <item>BRO</item>
                </part>
+               <part type="CFG-DOC-DEFINITIE">
+                  <item>Definitie</item>
+                  <item>De gegevens over de plaats van het booronderzoek op het aardoppervlak zoals die door de basisregistratie ondergrond zijn getransformeerd.</item>
+               </part>
                <part type="CFG-DOC-HERKOMSTDEFINITIE">
                   <item>Herkomst definitie</item>
                   <item>BRO</item>
+               </part>
+               <part type="CFG-DOC-TOELICHTING">
+                  <item>Toelichting</item>
+                  <item>De gegevens staan niet in een brondocument. De gestandaardiseerde locatie wordt door de basisregistratie ondergrond berekend ten behoeve van afnemers. Het maakt het mogelijk alle gegevens in de registratie ondergrond in een en hetzelfde referentiestelsel te ontsluiten.</item>
                </part>
             </content>
             <section type="SHORT-ATTRIBUTES">
@@ -7202,6 +7298,10 @@ toegankelijk.</item>
                   <item>Herkomst</item>
                   <item>BRO</item>
                </part>
+               <part type="CFG-DOC-DEFINITIE">
+                  <item>Definitie</item>
+                  <item>Het domein coördinatenpaar wordt gebruikt om de positie van een punt op het aardoppervlak vast te leggen. De positie wordt bepaald in een specifiek referentiestelsel en uitgedrukt in twee coördinaten. Ieder van de coördinaten heeft een getalswaarde en de notatie voor het paar is (coördinaat 1, coördinaat 2).</item>
+               </part>
             </content>
             <section type="SHORT-DATAELEMENTS">
                <content>
@@ -7247,6 +7347,11 @@ toegankelijk.</item>
                <part type="CFG-DOC-HERKOMST">
                   <item>Herkomst</item>
                   <item>BRO</item>
+               </part>
+               <part type="CFG-DOC-DEFINITIE">
+                  <item>Definitie</item>
+                  <item>Het domein Datum geeft een datum volgens de Gregoriaanse kalender tot op de dag nauwkeurig. De opbouw is JJJJ-MM-DD.
+Wanneer een attribuut een domein van het type Datum heeft is het voldoende de naam te geven, omdat de opbouw altijd hetzelfde is.</item>
                </part>
             </content>
             <section type="SHORT-DATAELEMENTS">
@@ -7323,6 +7428,10 @@ Wanneer een attribuut een domein van het type DatumTijd heeft is het voldoende d
                   <item>Herkomst</item>
                   <item>BRO</item>
                </part>
+               <part type="CFG-DOC-DEFINITIE">
+                  <item>Definitie</item>
+                  <item>Het domein KvK-nummer geeft het identificerende gegeven van een onderneming in het Handelsregister. De opbouw is NNNNNNNN.</item>
+               </part>
             </content>
             <section type="SHORT-DATAELEMENTS">
                <content>
@@ -7358,6 +7467,16 @@ Wanneer een attribuut een domein van het type DatumTijd heeft is het voldoende d
                   <item>Herkomst</item>
                   <item>BRO</item>
                </part>
+               <part type="CFG-DOC-DEFINITIE">
+                  <item>Definitie</item>
+                  <item>Het domein meetwaarde wordt in de basisregistratie ondergrond gebruikt voor gegevens die gemeten, berekend of anderszins bepaald zijn. Het is een getal en bij het getal hoort een eenheid. De basisregistratie ondergrond gebruikt voor de eenheden de codes uit het UCUM (Unified Code for Units of Measure)-systeem. In bijzondere gevallen is de eenheid dimensieloos.</item>
+               </part>
+               <part type="CFG-DOC-TOELICHTING">
+                  <item>Toelichting</item>
+                  <item>Het getal is altijd een rationaal getal, een getal met een decimaal scheidingsteken. Door het scheidingteken krijgt het een opbouw. Het aantal cijfers voor het scheidingsteken is variabel maar begrensd. Het aantal cijfers achter het scheidingsteken ligt vast.
+Gewoonlijk wordt niet alleen de opbouw van het getal benoemd, maar wordt het domein verder ingeperkt door een bereik te specificeren. Het bereik geeft de minimale en de maximale waarde aan die een attribuut kan hebben.
+Wanneer een attribuut een domein van het type meetwaarde heeft wordt de opbouw, de eenheid en indien van toepassing het bereik gegeven. De opbouw wordt aangeduid als N.N waarde. N staat voor het maximum aantal cijfers voor, resp. het aantal cijfers achter het scheidingsteken.</item>
+               </part>
             </content>
          </section>
          <section name="Registratieobjectcode"
@@ -7372,6 +7491,10 @@ Wanneer een attribuut een domein van het type DatumTijd heeft is het voldoende d
                <part type="CFG-DOC-HERKOMST">
                   <item>Herkomst</item>
                   <item>BRO</item>
+               </part>
+               <part type="CFG-DOC-DEFINITIE">
+                  <item>Definitie</item>
+                  <item>De code voor het identificeren van een object dat in de registratie ondergrond is opgenomen. Formaat voor een registratieobject zijnde een mijnbouwwetvergunning: EPLNNNNNNNNNNNN.</item>
                </part>
             </content>
             <section type="SHORT-DATAELEMENTS">
@@ -7408,6 +7531,11 @@ Wanneer een attribuut een domein van het type DatumTijd heeft is het voldoende d
                   <item>Herkomst</item>
                   <item>BRO</item>
                </part>
+               <part type="CFG-DOC-DEFINITIE">
+                  <item>Definitie</item>
+                  <item>Een domein van het type tekst bestaat uit een stuk tekst van een bepaalde maximale lengte. De tekst mag alleen bestaan uit de tekens die voorkomen in de MES-1 set. De MES-1 set omvat 335 tekens en wordt gebruikt binnen de landen van de Europese Unie die een Latijns schrift kennen.
+Een domein van het type tekst wordt volledig gespecificeerd door met de aanduiding tekst ook de maximale lengte mee te geven. In het domeinmodel wordt het domein aangeduid als TekstN, waarbij N de maximale lengte aangeeft.</item>
+               </part>
             </content>
             <section type="SHORT-DATAELEMENTS">
                <content>
@@ -7442,6 +7570,11 @@ Wanneer een attribuut een domein van het type DatumTijd heeft is het voldoende d
                <part type="CFG-DOC-HERKOMST">
                   <item>Herkomst</item>
                   <item>BRO</item>
+               </part>
+               <part type="CFG-DOC-DEFINITIE">
+                  <item>Definitie</item>
+                  <item>Een domein van het type tekst bestaat uit een stuk tekst van een bepaalde maximale lengte. De tekst mag alleen bestaan uit de tekens die voorkomen in de MES-1 set. De MES-1 set omvat 335 tekens en wordt gebruikt binnen de landen van de Europese Unie die een Latijns schrift kennen.
+Een domein van het type tekst wordt volledig gespecificeerd door met de aanduiding tekst ook de maximale lengte mee te geven. In het domeinmodel wordt het domein aangeduid als TekstN, waarbij N de maximale lengte aangeeft.</item>
                </part>
             </content>
             <section type="SHORT-DATAELEMENTS">
@@ -7479,7 +7612,7 @@ Wanneer een attribuut een domein van het type DatumTijd heeft is het voldoende d
                <item id="global_class_DomeinmodelBROCommon_Referentiestelsel"
                      uuid="EAID_6AEADCEE_4C4D_48e5_8D50_3B0EB7972FFF"
                      idref="detail_class_DomeinmodelBROCommon_Referentiestelsel">Referentiestelsel</item>
-               <item/>
+               <item>Systeem voor het uitdrukken van een plaats op het aardoppervlak, zijnde een punt, een lijn of een vlak. De lijst met toegestane waarden is een uitbreidbare opsomming van waarden.</item>
             </part>
             <part>
                <item id="global_class_DomeinmodelBROCommon_Registratiestatus"
@@ -7495,19 +7628,19 @@ Wanneer een attribuut een domein van het type DatumTijd heeft is het voldoende d
                <item id="global_class_DomeinmodelBROCommon_IndicatieJaNee"
                      uuid="EAID_29AB2F8F_B584_4ca9_AC1B_08BBB8BFF464"
                      idref="detail_class_DomeinmodelBROCommon_IndicatieJaNee">IndicatieJaNee</item>
-               <item/>
+               <item>Een domein in de vorm van een keuzelijst met een limitatieve opsomming van waarden. Uitbreiding van de keuzelijst is niet mogelijk.</item>
             </part>
             <part>
                <item id="global_class_DomeinmodelBROCommon_IndicatieJaNeeOnbekend"
                      uuid="EAID_620BE74D_34B7_4eda_91CC_CE6EB77C1FD0"
                      idref="detail_class_DomeinmodelBROCommon_IndicatieJaNeeOnbekend">IndicatieJaNeeOnbekend</item>
-               <item/>
+               <item>Een domein in de vorm van een keuzelijst met een limitatieve opsomming van waarden. Uitbreiding van de keuzelijst is niet mogelijk.</item>
             </part>
             <part>
                <item id="global_class_DomeinmodelBROCommon_Kwaliteitsregime"
                      uuid="EAID_96BB03E5_DC46_484f_B4D4_AFE216C8D46E"
                      idref="detail_class_DomeinmodelBROCommon_Kwaliteitsregime">Kwaliteitsregime</item>
-               <item/>
+               <item>Een domein in de vorm van een keuzelijst met een limitatieve opsomming van waarden voor het duiden van de kwaliteitseis waaraan de gegevens van het object voldoen. Uitbreiding van de keuzelijst is niet mogelijk.</item>
             </part>
          </content>
       </section>
@@ -7526,9 +7659,17 @@ Wanneer een attribuut een domein van het type DatumTijd heeft is het voldoende d
                         <item>Naam</item>
                         <item>coördinaten</item>
                      </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
                         <item>De coördinaten in het standaard referentiestelsel.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -7565,9 +7706,17 @@ Wanneer een attribuut een domein van het type DatumTijd heeft is het voldoende d
                         <item>Naam</item>
                         <item>referentiestelsel</item>
                      </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
                         <item>Het referentiestelsel van de gestandaardiseerde coördinaten.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -7604,9 +7753,17 @@ Wanneer een attribuut een domein van het type DatumTijd heeft is het voldoende d
                         <item>Naam</item>
                         <item>coördinaattransformatie</item>
                      </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
                         <item>De methode die de basisregistratie ondergrond heeft gebruikt voor het omzetten van de aangeleverde coördinaten.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -9034,7 +9191,7 @@ Ook hiervoor geldt dat akkoord van de bronhouder vereist is.</item>
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>Systeem voor het uitdrukken van een plaats op het aardoppervlak, zijnde een punt, een lijn of een vlak. De lijst met toegestane waarden is een uitbreidbare opsomming van waarden.</item>
                   </part>
                </content>
                <content>
@@ -9100,7 +9257,7 @@ Ook hiervoor geldt dat akkoord van de bronhouder vereist is.</item>
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>Een domein in de vorm van een keuzelijst met een limitatieve opsomming van waarden. Uitbreiding van de keuzelijst is niet mogelijk.</item>
                   </part>
                </content>
                <content>
@@ -9127,7 +9284,7 @@ Ook hiervoor geldt dat akkoord van de bronhouder vereist is.</item>
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>Een domein in de vorm van een keuzelijst met een limitatieve opsomming van waarden. Uitbreiding van de keuzelijst is niet mogelijk.</item>
                   </part>
                </content>
                <content>
@@ -9159,7 +9316,7 @@ Ook hiervoor geldt dat akkoord van de bronhouder vereist is.</item>
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>Een domein in de vorm van een keuzelijst met een limitatieve opsomming van waarden voor het duiden van de kwaliteitseis waaraan de gegevens van het object voldoen. Uitbreiding van de keuzelijst is niet mogelijk.</item>
                   </part>
                </content>
                <content>
