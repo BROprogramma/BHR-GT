@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_4532D2FB_BE47_4dc9_BBAD_0F65D43D52FB"
       generator-version="1.46.3"
-      generator-date="2018-08-01T10:07:58Z">
+      generator-date="2018-08-01T11:06:04Z">
    <section type="DOMAIN"
             name="Domeinmodel BRO BHR-GT bmb"
             id="global_package_DomeinmodelBROBHRGTBmb">
@@ -71,7 +71,7 @@
                         <item type="detail"
                               idref="detail_attribute_DomeinmodelBROBHRGTBmb_Booronderzoek_kaderAanlevering">kader aanlevering</item>
                      </item>
-                     <item/>
+                     <item>De rechtsgrond op basis waarvan, of bij afwezigheid daarvan, de activiteit naar aanleiding waarvan, het betreffende gegeven is aangeleverd aan de basisregistratie ondergrond.</item>
                      <item>
                         <item type="global"
                               idref="global_class_DomeinmodelBROBHRGTBmb_KaderAanlevering">KaderAanlevering</item>
@@ -83,7 +83,7 @@
                         <item type="detail"
                               idref="detail_attribute_DomeinmodelBROBHRGTBmb_Booronderzoek_kaderInwinning">kader inwinning</item>
                      </item>
-                     <item/>
+                     <item>Het doel waarvoor het onderzoek is uitgevoerd.</item>
                      <item>
                         <item type="global"
                               idref="global_class_DomeinmodelBROBHRGTBmb_KaderInwinning">KaderInwinning</item>
@@ -95,7 +95,7 @@
                         <item type="detail"
                               idref="detail_attribute_DomeinmodelBROBHRGTBmb_Booronderzoek_vakgebied">vakgebied</item>
                      </item>
-                     <item/>
+                     <item>De discipline waarbinnen het booronderzoek is uitgevoerd.</item>
                      <item>
                         <item type="global" idref="global_class_DomeinmodelBROBHRGTBmb_Vakgebied">Vakgebied</item>
                      </item>
@@ -106,7 +106,7 @@
                         <item type="detail"
                               idref="detail_attribute_DomeinmodelBROBHRGTBmb_Booronderzoek_kaderstellendeProcedure">kaderstellende procedure</item>
                      </item>
-                     <item/>
+                     <item>De procedure die de uitvoering van projecten waarbinnen het booronderzoek wordt uitgevoerd reguleert en daarmee de kaders bepaalt voor de uitvoering van het booronderzoek.</item>
                      <item>
                         <item type="global"
                               idref="global_class_DomeinmodelBROBHRGTBmb_KaderstellendeProcedure">KaderstellendeProcedure</item>
@@ -118,7 +118,7 @@
                         <item type="detail"
                               idref="detail_attribute_DomeinmodelBROBHRGTBmb_Booronderzoek_rapportagedatum">rapportagedatum</item>
                      </item>
-                     <item/>
+                     <item>De datum waarop de uitvoerder van het booronderzoek alle gegevens van het booronderzoek heeft vastgelegd en het resultaat aan de opdrachtgever kan worden aangeboden, dan wel de feitelijk datum van rapportage.</item>
                      <item>
                         <item type="global" idref="global_class_DomeinmodelBROCommon_Datum">Datum</item>
                      </item>
@@ -129,7 +129,7 @@
                         <item type="detail"
                               idref="detail_attribute_DomeinmodelBROBHRGTBmb_Booronderzoek_uitvoerderOnderzoek">uitvoerder onderzoek</item>
                      </item>
-                     <item/>
+                     <item>De identificatie die de organisatie die voor de bronhouder geldt als verantwoordelijk voor de uitvoering van het booronderzoek, als onderneming in het Handelsregister heeft.</item>
                      <item>
                         <item type="global" idref="global_class_DomeinmodelBROCommon_KvKNummer">KvK-nummer</item>
                      </item>
@@ -140,7 +140,7 @@
                         <item type="detail"
                               idref="detail_attribute_DomeinmodelBROBHRGTBmb_Booronderzoek_terreintoestandBepaald">terreintoestand bepaald</item>
                      </item>
-                     <item/>
+                     <item>De aanduiding die aangeeft of in het onderzoek gegevens over de toestand van het terrein zijn vastgelegd die van betekenis zijn voor de beoordeling van de resultaten.</item>
                      <item>
                         <item type="global" idref="global_class_DomeinmodelBROCommon_IndicatieJaNee">IndicatieJaNee</item>
                      </item>
@@ -151,7 +151,7 @@
                         <item type="detail"
                               idref="detail_attribute_DomeinmodelBROBHRGTBmb_Booronderzoek_boorgatBemeten">boorgat bemeten</item>
                      </item>
-                     <item/>
+                     <item>De aanduiding die aangeeft of het uitvoeren van boorgatmetingen onderdeel van het onderzoek is.</item>
                      <item>
                         <item type="global" idref="global_class_DomeinmodelBROCommon_IndicatieJaNee">IndicatieJaNee</item>
                      </item>
@@ -162,7 +162,7 @@
                         <item type="detail"
                               idref="detail_attribute_DomeinmodelBROBHRGTBmb_Booronderzoek_boormonstersBeschreven">boormonsters beschreven</item>
                      </item>
-                     <item/>
+                     <item>De aanduiding die aangeeft of het beschrijven van boormonsters onderdeel van het onderzoek is.</item>
                      <item>
                         <item type="global" idref="global_class_DomeinmodelBROCommon_IndicatieJaNee">IndicatieJaNee</item>
                      </item>
@@ -173,7 +173,7 @@
                         <item type="detail"
                               idref="detail_attribute_DomeinmodelBROBHRGTBmb_Booronderzoek_boormonstersOnderzocht">boormonsters onderzocht</item>
                      </item>
-                     <item/>
+                     <item>De aanduiding die aangeeft of het onderzoeken van boormonsters onderdeel van het onderzoek is.</item>
                      <item>
                         <item type="global" idref="global_class_DomeinmodelBROCommon_IndicatieJaNee">IndicatieJaNee</item>
                      </item>
@@ -184,7 +184,7 @@
                         <item type="detail"
                               idref="detail_attribute_DomeinmodelBROBHRGTBmb_Booronderzoek_boormonstersGefotografeerd">boormonsters gefotografeerd</item>
                      </item>
-                     <item/>
+                     <item>De aanduiding die aangeeft of het maken van foto's van boormonsters onderdeel van het onderzoek is.</item>
                      <item>
                         <item type="global" idref="global_class_DomeinmodelBROCommon_IndicatieJaNee">IndicatieJaNee</item>
                      </item>
@@ -1030,6 +1030,14 @@
                         <item>Naam</item>
                         <item>kader aanlevering</item>
                      </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>De rechtsgrond op basis waarvan, of bij afwezigheid daarvan, de activiteit naar aanleiding waarvan, het betreffende gegeven is aangeleverd aan de basisregistratie ondergrond.</item>
+                     </part>
+                     <part type="CFG-DOC-TOELICHTING">
+                        <item>Toelichting</item>
+                        <item>De wetgever stipuleert dat het gegeven moet zijn vastgelegd om inzicht te geven in de relatie met de taken van een bestuursorgaan. Het gegeven geeft inzicht in de maatschappelijke betekenis van de informatie.</item>
+                     </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
                         <item>Nee</item>
@@ -1064,6 +1072,14 @@
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
                         <item>kader inwinning</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>Het doel waarvoor het onderzoek is uitgevoerd.</item>
+                     </part>
+                     <part type="CFG-DOC-TOELICHTING">
+                        <item>Toelichting</item>
+                        <item>Onderzoek wordt normaliter projectmatig uitgevoerd, zelfs als het direct gebonden is aan een publieke taak. Het gegeven beschrijft het hogere doel van het project waarvoor het onderzoek is uitgevoerd of preciseert de taak.</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -1100,6 +1116,14 @@
                         <item>Naam</item>
                         <item>vakgebied</item>
                      </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>De discipline waarbinnen het booronderzoek is uitgevoerd.</item>
+                     </part>
+                     <part type="CFG-DOC-TOELICHTING">
+                        <item>Toelichting</item>
+                        <item>De gegevensdefinitie dekt het vakgebied geotechniek volledig, maar dat betekent niet dat alle geotechnisch booronderzoek er volledig mee beschreven kan worden. In de uitvoeringspraktijk komt het namelijk voor dat een geotechnisch booronderzoek de grenzen van het vakgebied enigszins overschrijdt en er naast geotechnische gegevens gegevens worden vastgelegd die eigenlijk in het domein van de milieukunde of de archeologie thuishoren. Omdat die disciplines buiten het bereik van de basisregistratie ondergrond liggen, zijn die extra gegevens niet gedefinieerd. Geotechnisch booronderzoek met een dergelijk multidisciplinair karakter wordt in de basisregistratie ondergrond opgenomen maar zonder die extra gegevens. Om gebruikers duidelijk te maken dat de onderzoeksresultaten niet volledig geregistreerd zijn wordt als waarde voor het vakgebied niet de waarde geotechniek vermeld, maar een waarde als geotechniekArcheologie.</item>
+                     </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
                         <item>Nee</item>
@@ -1134,6 +1158,14 @@
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
                         <item>kaderstellende procedure</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>De procedure die de uitvoering van projecten waarbinnen het booronderzoek wordt uitgevoerd reguleert en daarmee de kaders bepaalt voor de uitvoering van het booronderzoek.</item>
+                     </part>
+                     <part type="CFG-DOC-TOELICHTING">
+                        <item>Toelichting</item>
+                        <item>De procedure beschrijft de manier van werken, de passende hulpmiddelen en de eisen waaraan de uitvoering moet voldoen. Procedures zijn in het algemeen vastgelegd in een norm, protocol of richtlijn. Dat kan overigens een richtlijn zijn die de uitvoerder voor zichzelf gebruikt. Het gegeven is opgenomen omdat het inzicht biedt in de kwaliteit van het werk.</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -1170,6 +1202,10 @@
                         <item>Naam</item>
                         <item>rapportagedatum</item>
                      </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>De datum waarop de uitvoerder van het booronderzoek alle gegevens van het booronderzoek heeft vastgelegd en het resultaat aan de opdrachtgever kan worden aangeboden, dan wel de feitelijk datum van rapportage.</item>
+                     </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
                         <item>Nee</item>
@@ -1204,6 +1240,14 @@
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
                         <item>uitvoerder onderzoek</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>De identificatie die de organisatie die voor de bronhouder geldt als verantwoordelijk voor de uitvoering van het booronderzoek, als onderneming in het Handelsregister heeft.</item>
+                     </part>
+                     <part type="CFG-DOC-TOELICHTING">
+                        <item>Toelichting</item>
+                        <item>Het gegeven wordt alleen uitgeleverd aan de dataleverancier en de bronhouder.</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -1240,6 +1284,10 @@
                         <item>Naam</item>
                         <item>terreintoestand bepaald</item>
                      </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>De aanduiding die aangeeft of in het onderzoek gegevens over de toestand van het terrein zijn vastgelegd die van betekenis zijn voor de beoordeling van de resultaten.</item>
+                     </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
                         <item>Nee</item>
@@ -1274,6 +1322,14 @@
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
                         <item>boorgat bemeten</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>De aanduiding die aangeeft of het uitvoeren van boorgatmetingen onderdeel van het onderzoek is.</item>
+                     </part>
+                     <part type="CFG-DOC-TOELICHTING">
+                        <item>Toelichting</item>
+                        <item>Bij de registratie van een geotechnische boormonsterbeschrijving wordt direct vastgelegd of een boorgatmeting ook onderdeel is geweest van het booronderzoek. De resultaten van die activiteit zullen in een latere fase van de totstandkoming van de basisregistratie ondergrond aan de boormonsterbeschrijving worden toegevoegd.</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -1310,6 +1366,10 @@
                         <item>Naam</item>
                         <item>boormonsters beschreven</item>
                      </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>De aanduiding die aangeeft of het beschrijven van boormonsters onderdeel van het onderzoek is.</item>
+                     </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
                         <item>Nee</item>
@@ -1345,6 +1405,14 @@
                         <item>Naam</item>
                         <item>boormonsters onderzocht</item>
                      </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>De aanduiding die aangeeft of het onderzoeken van boormonsters onderdeel van het onderzoek is.</item>
+                     </part>
+                     <part type="CFG-DOC-TOELICHTING">
+                        <item>Toelichting</item>
+                        <item>Bij de registratie van een geotechnische boormonsterbeschrijving wordt direct vastgelegd of het onderzoeken van boormonsters ook onderdeel is geweest van het booronderzoek. De resultaten van die activiteit zullen in een latere fase van de totstandkoming van de basisregistratie ondergrond aan de boormonsterbeschrijving worden toegevoegd.</item>
+                     </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
                         <item>Nee</item>
@@ -1379,6 +1447,14 @@
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
                         <item>boormonsters gefotografeerd</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>De aanduiding die aangeeft of het maken van foto's van boormonsters onderdeel van het onderzoek is.</item>
+                     </part>
+                     <part type="CFG-DOC-TOELICHTING">
+                        <item>Toelichting</item>
+                        <item>Bij de registratie van een geotechnische boormonsterbeschrijving wordt direct vastgelegd of het fotograferen van boormonsters ook onderdeel is geweest van het booronderzoek. De resultaten van die activiteit zullen in een latere fase van de totstandkoming van de basisregistratie ondergrond aan de boormonsterbeschrijving worden toegevoegd.</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
