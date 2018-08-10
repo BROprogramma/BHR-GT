@@ -4,11 +4,101 @@
       type="BASISMODEL"
       id="EAPK_4532D2FB_BE47_4dc9_BBAD_0F65D43D52FB"
       generator-version="1.46.3"
-      generator-date="2018-08-06T09:46:07Z">
+      generator-date="2018-08-10T07:08:58Z">
    <section type="DOMAIN"
             name="Domeinmodel BRO Common"
             id="global_package_DomeinmodelBROCommon">
+      <section type="IMAGEMAPS"
+               name="Domeinmodel BRO Common-imagemap"
+               id="imagemap_package_DomeinmodelBROCommon">
+         <section type="IMAGEMAP"
+                  name="Domeinmodel BRO Common berichten"
+                  id="EAID_9622B421_821B_4b02_8E3B_FD23757E6F0A">
+            <content>
+               <part type="CFG-DOC-NAAM">
+                  <item>Naam</item>
+                  <item>Domeinmodel BRO Common berichten</item>
+               </part>
+               <part type="CFG-DOC-DESCRIPTION">
+                  <item>Omschrijving</item>
+                  <item/>
+               </part>
+            </content>
+         </section>
+         <section type="IMAGEMAP"
+                  name="Domeinmodel BRO Common gegevens"
+                  id="EAID_1C22F185_7D30_49f7_AAE8_D74070FE5B68">
+            <content>
+               <part type="CFG-DOC-NAAM">
+                  <item>Naam</item>
+                  <item>Domeinmodel BRO Common gegevens</item>
+               </part>
+               <part type="CFG-DOC-DESCRIPTION">
+                  <item>Omschrijving</item>
+                  <item/>
+               </part>
+            </content>
+         </section>
+         <section type="IMAGEMAP"
+                  name="Domeinmodel BRO Common codelijsten"
+                  id="EAID_017A2C66_9B5F_4e00_8C87_D97161B3A8D8">
+            <content>
+               <part type="CFG-DOC-NAAM">
+                  <item>Naam</item>
+                  <item>Domeinmodel BRO Common codelijsten</item>
+               </part>
+               <part type="CFG-DOC-DESCRIPTION">
+                  <item>Omschrijving</item>
+                  <item/>
+               </part>
+            </content>
+         </section>
+      </section>
       <section type="OVERVIEW-OBJECTTYPE">
+         <section name="Abstract Registratieobject"
+                  type="OBJECTTYPE"
+                  id="global_class_DomeinmodelBROCommon_AbstractRegistratieobject"
+                  uuid="EAID_4A54DAD2_C13E_430d_B9DC_E043A59DC753">
+            <content>
+               <part type="CFG-DOC-NAAM">
+                  <item>Naam</item>
+                  <item>Abstract Registratieobject</item>
+               </part>
+               <part type="CFG-DOC-HERKOMST">
+                  <item>Herkomst</item>
+                  <item>BRO</item>
+               </part>
+               <part type="CFG-DOC-DEFINITIE">
+                  <item>Definitie</item>
+                  <item>TODO</item>
+               </part>
+               <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                  <item>Herkomst definitie</item>
+                  <item>BRO</item>
+               </part>
+            </content>
+            <section type="SHORT-ATTRIBUTES">
+               <content>
+                  <itemtype/>
+                  <itemtype type="ATTRIBUTE-NAME"/>
+                  <itemtype type="ATTRIBUTE-DEFINITION"/>
+                  <itemtype type="ATTRIBUTE-FORMAT"/>
+                  <itemtype type="ATTRIBUTE-CARD"/>
+                  <part>
+                     <item>
+                        <item type="detail"
+                              idref="detail_attribute_DomeinmodelBROCommon_AbstractRegistratieobject_bROID">BRO-ID</item>
+                     </item>
+                     <item>TODO</item>
+                     <item>
+                        <item type="global"
+                              idref="global_class_DomeinmodelBROCommon_Registratieobjectcode">Registratieobjectcode</item>
+                     </item>
+                     <item>1</item>
+                  </part>
+               </content>
+            </section>
+         </section>
          <section name="Bericht van verzending gegevens"
                   type="OBJECTTYPE"
                   id="global_class_DomeinmodelBROCommon_BerichtVanVerzendingGegevens"
@@ -129,18 +219,6 @@
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_DomeinmodelBROCommon_ObjectUitRegistratie_bROID">BRO-ID</item>
-                     </item>
-                     <item>TODO</item>
-                     <item>
-                        <item type="global"
-                              idref="global_class_DomeinmodelBROCommon_Registratieobjectcode">Registratieobjectcode</item>
-                     </item>
-                     <item>1</item>
-                  </part>
-                  <part>
-                     <item>
-                        <item type="detail"
                               idref="detail_attribute_DomeinmodelBROCommon_ObjectUitRegistratie_uitRegistratieGenomen">uit registratie genomen</item>
                      </item>
                      <item>TODO</item>
@@ -159,6 +237,40 @@
                         <item type="global" idref="global_class_DomeinmodelBROCommon_DatumTijd">DatumTijd</item>
                      </item>
                      <item>1</item>
+                  </part>
+               </content>
+            </section>
+            <section type="SHORT-ASSOCIATIONS">
+               <content approach="association">
+                  <itemtype/>
+                  <itemtype type="ASSOCIATION-NAME"/>
+                  <itemtype type="ASSOCIATION-DEFINITION"/>
+                  <part>
+                     <item>
+                        <item>Object uit registratie</item>
+                        <item>is specialisatie van</item>
+                        <item>
+                           <item type="global"
+                                 idref="global_class_DomeinmodelBROCommon_AbstractRegistratieobject">Abstract Registratieobject</item>
+                        </item>
+                     </item>
+                     <item>TODO</item>
+                  </part>
+               </content>
+               <content approach="target">
+                  <itemtype/>
+                  <itemtype type="ROLE-NAME"/>
+                  <itemtype type="ROLE-DEFINITION"/>
+                  <part>
+                     <item>
+                        <item>Object uit registratie</item>
+                        <item>is specialisatie van</item>
+                        <item>
+                           <item type="global"
+                                 idref="global_class_DomeinmodelBROCommon_AbstractRegistratieobject">Abstract Registratieobject</item>
+                        </item>
+                     </item>
+                     <item>TODO</item>
                   </part>
                </content>
             </section>
@@ -192,18 +304,6 @@
                   <itemtype type="ATTRIBUTE-DEFINITION"/>
                   <itemtype type="ATTRIBUTE-FORMAT"/>
                   <itemtype type="ATTRIBUTE-CARD"/>
-                  <part>
-                     <item>
-                        <item type="detail"
-                              idref="detail_attribute_DomeinmodelBROCommon_Registratieobject_bROID">BRO-ID</item>
-                     </item>
-                     <item>De identificatie van een object dat in de registratie ondergrond is opgenomen.</item>
-                     <item>
-                        <item type="global"
-                              idref="global_class_DomeinmodelBROCommon_Registratieobjectcode">Registratieobjectcode</item>
-                     </item>
-                     <item>1</item>
-                  </part>
                   <part>
                      <item>
                         <item type="detail"
@@ -248,6 +348,40 @@
                               idref="global_class_DomeinmodelBROCommon_IndicatieJaNeeOnbekend">IndicatieJaNeeOnbekend</item>
                      </item>
                      <item>1</item>
+                  </part>
+               </content>
+            </section>
+            <section type="SHORT-ASSOCIATIONS">
+               <content approach="association">
+                  <itemtype/>
+                  <itemtype type="ASSOCIATION-NAME"/>
+                  <itemtype type="ASSOCIATION-DEFINITION"/>
+                  <part>
+                     <item>
+                        <item>Registratieobject</item>
+                        <item>is specialisatie van</item>
+                        <item>
+                           <item type="global"
+                                 idref="global_class_DomeinmodelBROCommon_AbstractRegistratieobject">Abstract Registratieobject</item>
+                        </item>
+                     </item>
+                     <item>TODO</item>
+                  </part>
+               </content>
+               <content approach="target">
+                  <itemtype/>
+                  <itemtype type="ROLE-NAME"/>
+                  <itemtype type="ROLE-DEFINITION"/>
+                  <part>
+                     <item>
+                        <item>Registratieobject</item>
+                        <item>is specialisatie van</item>
+                        <item>
+                           <item type="global"
+                                 idref="global_class_DomeinmodelBROCommon_AbstractRegistratieobject">Abstract Registratieobject</item>
+                        </item>
+                     </item>
+                     <item>TODO</item>
                   </part>
                </content>
             </section>
@@ -733,6 +867,62 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
       </section>
       <section type="DETAILS">
          <section type="DETAILS-OBJECTTYPE">
+            <section name="Abstract Registratieobject"
+                     type="OBJECTTYPE"
+                     id="detail_class_DomeinmodelBROCommon_AbstractRegistratieobject"
+                     id-global="global_class_DomeinmodelBROCommon_AbstractRegistratieobject">
+               <section name="BRO-ID"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_DomeinmodelBROCommon_AbstractRegistratieobject_bROID"
+                        id-global="global_attribute_DomeinmodelBROCommon_AbstractRegistratieobject_bROID">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>BRO-ID</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>TODO</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Overig</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>Registratieobjectcode</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                  </content>
+               </section>
+            </section>
             <section name="Bericht van verzending gegevens"
                      type="OBJECTTYPE"
                      id="detail_class_DomeinmodelBROCommon_BerichtVanVerzendingGegevens"
@@ -776,7 +966,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      </part>
                      <part type="CFG-DOC-INDICATIEAUTHENTIEK">
                         <item>Indicatie authentiek</item>
-                        <item>Ja</item>
+                        <item>Overig</item>
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
@@ -827,7 +1017,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      </part>
                      <part type="CFG-DOC-INDICATIEAUTHENTIEK">
                         <item>Indicatie authentiek</item>
-                        <item>Ja</item>
+                        <item>Overig</item>
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
@@ -878,7 +1068,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      </part>
                      <part type="CFG-DOC-INDICATIEAUTHENTIEK">
                         <item>Indicatie authentiek</item>
-                        <item>Ja</item>
+                        <item>Overig</item>
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
@@ -929,7 +1119,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      </part>
                      <part type="CFG-DOC-INDICATIEAUTHENTIEK">
                         <item>Indicatie authentiek</item>
-                        <item>Ja</item>
+                        <item>Overig</item>
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
@@ -980,7 +1170,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      </part>
                      <part type="CFG-DOC-INDICATIEAUTHENTIEK">
                         <item>Indicatie authentiek</item>
-                        <item>Ja</item>
+                        <item>Overig</item>
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
@@ -997,57 +1187,6 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      type="OBJECTTYPE"
                      id="detail_class_DomeinmodelBROCommon_ObjectUitRegistratie"
                      id-global="global_class_DomeinmodelBROCommon_ObjectUitRegistratie">
-               <section name="BRO-ID"
-                        type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_DomeinmodelBROCommon_ObjectUitRegistratie_bROID"
-                        id-global="global_attribute_DomeinmodelBROCommon_ObjectUitRegistratie_bROID">
-                  <content>
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>BRO-ID</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMST">
-                        <item>Herkomst</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-DEFINITIE">
-                        <item>Definitie</item>
-                        <item>TODO</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
-                        <item>Herkomst definitie</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                        <item>Mogelijk geen waarde</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                        <item>Indicatie materiële historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                        <item>Indicatie formele historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>1</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                        <item>Indicatie authentiek</item>
-                        <item>Ja</item>
-                     </part>
-                     <part type="CFG-DOC-FORMAAT">
-                        <item>Formaat</item>
-                        <item>Registratieobjectcode</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
-                        <item>Indicatie afleidbaar</item>
-                        <item>Nee</item>
-                     </part>
-                  </content>
-               </section>
                <section name="uit registratie genomen"
                         type="DETAIL-ATTRIBUTE"
                         id="detail_attribute_DomeinmodelBROCommon_ObjectUitRegistratie_uitRegistratieGenomen"
@@ -1087,7 +1226,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      </part>
                      <part type="CFG-DOC-INDICATIEAUTHENTIEK">
                         <item>Indicatie authentiek</item>
-                        <item>Ja</item>
+                        <item>Overig</item>
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
@@ -1138,7 +1277,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      </part>
                      <part type="CFG-DOC-INDICATIEAUTHENTIEK">
                         <item>Indicatie authentiek</item>
-                        <item>Ja</item>
+                        <item>Overig</item>
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
@@ -1155,61 +1294,6 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      type="OBJECTTYPE"
                      id="detail_class_DomeinmodelBROCommon_Registratieobject"
                      id-global="global_class_DomeinmodelBROCommon_Registratieobject">
-               <section name="BRO-ID"
-                        type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_DomeinmodelBROCommon_Registratieobject_bROID"
-                        id-global="global_attribute_DomeinmodelBROCommon_Registratieobject_bROID">
-                  <content>
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>BRO-ID</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMST">
-                        <item>Herkomst</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-DEFINITIE">
-                        <item>Definitie</item>
-                        <item>De identificatie van een object dat in de registratie ondergrond is opgenomen.</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
-                        <item>Herkomst definitie</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-TOELICHTING">
-                        <item>Toelichting</item>
-                        <item>De basisregistratie ondergrond kent bij registratie automatisch de juiste waarde aan het object toe.</item>
-                     </part>
-                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                        <item>Mogelijk geen waarde</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                        <item>Indicatie materiële historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                        <item>Indicatie formele historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>1</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                        <item>Indicatie authentiek</item>
-                        <item>Ja</item>
-                     </part>
-                     <part type="CFG-DOC-FORMAAT">
-                        <item>Formaat</item>
-                        <item>Registratieobjectcode</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
-                        <item>Indicatie afleidbaar</item>
-                        <item>Nee</item>
-                     </part>
-                  </content>
-               </section>
                <section name="bronhouder"
                         type="DETAIL-ATTRIBUTE"
                         id="detail_attribute_DomeinmodelBROCommon_Registratieobject_bronhouder"
@@ -1249,7 +1333,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      </part>
                      <part type="CFG-DOC-INDICATIEAUTHENTIEK">
                         <item>Indicatie authentiek</item>
-                        <item>Ja</item>
+                        <item>Overig</item>
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
@@ -1304,7 +1388,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      </part>
                      <part type="CFG-DOC-INDICATIEAUTHENTIEK">
                         <item>Indicatie authentiek</item>
-                        <item>Nee</item>
+                        <item>Overig</item>
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
@@ -1359,7 +1443,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      </part>
                      <part type="CFG-DOC-INDICATIEAUTHENTIEK">
                         <item>Indicatie authentiek</item>
-                        <item>Nee</item>
+                        <item>Overig</item>
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
@@ -1414,7 +1498,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      </part>
                      <part type="CFG-DOC-INDICATIEAUTHENTIEK">
                         <item>Indicatie authentiek</item>
-                        <item>Ja</item>
+                        <item>Overig</item>
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
@@ -4125,7 +4209,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      </part>
                      <part type="CFG-DOC-INDICATIEAUTHENTIEK">
                         <item>Indicatie authentiek</item>
-                        <item>Ja</item>
+                        <item>Overig</item>
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
@@ -4176,7 +4260,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      </part>
                      <part type="CFG-DOC-INDICATIEAUTHENTIEK">
                         <item>Indicatie authentiek</item>
-                        <item>Ja</item>
+                        <item>Overig</item>
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
@@ -4227,7 +4311,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      </part>
                      <part type="CFG-DOC-INDICATIEAUTHENTIEK">
                         <item>Indicatie authentiek</item>
-                        <item>Ja</item>
+                        <item>Overig</item>
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
@@ -4278,7 +4362,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      </part>
                      <part type="CFG-DOC-INDICATIEAUTHENTIEK">
                         <item>Indicatie authentiek</item>
-                        <item>Ja</item>
+                        <item>Overig</item>
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
@@ -4329,7 +4413,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      </part>
                      <part type="CFG-DOC-INDICATIEAUTHENTIEK">
                         <item>Indicatie authentiek</item>
-                        <item>Ja</item>
+                        <item>Overig</item>
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
@@ -14147,21 +14231,6 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      </item>
                      <item>Innameverzoek, dat een dataleverancier (ofwel tevens bronhouder danwel in opdracht van de bronhouder) aanbiedt bij de innameservice van het BRO systeem, waarmee nieuwe gegevens, die net beschikbaar zijn gekomen, aan de BRO worden overdragen.</item>
                   </part>
-                  <part>
-                     <item>
-                        <item>Registratieverzoek</item>
-                        <item>[ 1 ]</item>
-                        <item>
-                           <item type="detail"
-                                 idref="detail_association_BHRGTInnameberichten_Registratieverzoek">brondocument</item>
-                        </item>
-                        <item>
-                           <item type="global" idref="global_class_BHRGTInnameberichten_Brondocument">Brondocument</item>
-                        </item>
-                        <item>[ 1 ]</item>
-                     </item>
-                     <item/>
-                  </part>
                </content>
                <content approach="target">
                   <itemtype/>
@@ -14177,21 +14246,6 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         </item>
                      </item>
                      <item>Innameverzoek, dat een dataleverancier (ofwel tevens bronhouder danwel in opdracht van de bronhouder) aanbiedt bij de innameservice van het BRO systeem, waarmee nieuwe gegevens, die net beschikbaar zijn gekomen, aan de BRO worden overdragen.</item>
-                  </part>
-                  <part>
-                     <item>
-                        <item>Registratieverzoek</item>
-                        <item>[ 1 ]</item>
-                        <item>
-                           <item type="detail"
-                                 idref="detail_association_BHRGTInnameberichten_Registratieverzoek">brondocument</item>
-                        </item>
-                        <item>
-                           <item type="global" idref="global_class_BHRGTInnameberichten_Brondocument">Brondocument</item>
-                        </item>
-                        <item>[ 1 ]</item>
-                     </item>
-                     <item/>
                   </part>
                </content>
             </section>
@@ -14360,7 +14414,8 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                   <part type="COMPOSER">
                      <item>
                         <value>
-                           <item type="detail" idref="detail_class_BHRGTCommon_AangeleverdeLocatie">aangeleverde locatie</item>
+                           <item type="detail"
+                                 idref="detail_class_BHRGTInnameberichten_AangeleverdeLocatie">aangeleverde locatie</item>
                         </value>
                      </item>
                      <item>
@@ -14374,7 +14429,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                   <part type="COMPOSED">
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_BHRGTCommon_AangeleverdeLocatie_coRdinaten">coördinaten</item>
+                              idref="detail_attribute_BHRGTInnameberichten_AangeleverdeLocatie_coRdinaten">coördinaten</item>
                      </item>
                      <item>De coördinaten die zijn aangeleverd.</item>
                      <item>
@@ -14385,7 +14440,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                   <part type="COMPOSED">
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_BHRGTCommon_AangeleverdeLocatie_referentiestelsel">referentiestelsel</item>
+                              idref="detail_attribute_BHRGTInnameberichten_AangeleverdeLocatie_referentiestelsel">referentiestelsel</item>
                      </item>
                      <item>Het referentiestelsel van de aangeleverde coördinaten.</item>
                      <item>
@@ -14397,7 +14452,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                   <part type="COMPOSED">
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_BHRGTCommon_AangeleverdeLocatie_datumLocatiebepaling">datum locatiebepaling</item>
+                              idref="detail_attribute_BHRGTInnameberichten_AangeleverdeLocatie_datumLocatiebepaling">datum locatiebepaling</item>
                      </item>
                      <item>De datum waarop de plaats van het booronderzoek op het aardoppervlak is bepaald.</item>
                      <item>
@@ -14408,7 +14463,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                   <part type="COMPOSED">
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_BHRGTCommon_AangeleverdeLocatie_methodeLocatiebepaling">methode locatiebepaling</item>
+                              idref="detail_attribute_BHRGTInnameberichten_AangeleverdeLocatie_methodeLocatiebepaling">methode locatiebepaling</item>
                      </item>
                      <item>De werkwijze die is gevolgd voor de bepaling van de plaats van het booronderzoek op het aardoppervlak.</item>
                      <item>
@@ -14419,7 +14474,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                   <part type="COMPOSED">
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_BHRGTCommon_AangeleverdeLocatie_uitvoerderLocatiebepaling">uitvoerder locatiebepaling</item>
+                              idref="detail_attribute_BHRGTInnameberichten_AangeleverdeLocatie_uitvoerderLocatiebepaling">uitvoerder locatiebepaling</item>
                      </item>
                      <item>De identificatie die de organisatie die voor de bronhouder geldt als verantwoordelijk voor de uitvoering van de plaatsbepaling, als onderneming in het Handelsregister heeft.</item>
                      <item>
@@ -14431,7 +14486,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      <item>
                         <value>
                            <item type="detail"
-                                 idref="detail_class_BHRGTCommon_AangeleverdeVerticalePositie">aangeleverde vertical positie</item>
+                                 idref="detail_class_BHRGTInnameberichten_AangeleverdeVerticalePositie">aangeleverde vertical positie</item>
                         </value>
                      </item>
                      <item>
@@ -14445,7 +14500,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                   <part type="COMPOSED">
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_BHRGTCommon_AangeleverdeVerticalePositie_lokaalVerticaalReferentiepunt">lokaal verticaal referentiepunt</item>
+                              idref="detail_attribute_BHRGTInnameberichten_AangeleverdeVerticalePositie_lokaalVerticaalReferentiepunt">lokaal verticaal referentiepunt</item>
                      </item>
                      <item>Het punt dat in het booronderzoek is gebruikt als nulpunt voor de diepte.</item>
                      <item>
@@ -14457,7 +14512,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                   <part type="COMPOSED">
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_BHRGTCommon_AangeleverdeVerticalePositie_verschuiving">verschuiving</item>
+                              idref="detail_attribute_BHRGTInnameberichten_AangeleverdeVerticalePositie_verschuiving">verschuiving</item>
                      </item>
                      <item>De verticale positie van het lokaal verticaal referentiepunt t.o.v. het verticaal referentievlak.</item>
                      <item>
@@ -14468,7 +14523,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                   <part type="COMPOSED">
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_BHRGTCommon_AangeleverdeVerticalePositie_waterdiepte">waterdiepte</item>
+                              idref="detail_attribute_BHRGTInnameberichten_AangeleverdeVerticalePositie_waterdiepte">waterdiepte</item>
                      </item>
                      <item>De positie van de waterbodem ten opzichte van het wateroppervlak.</item>
                      <item>
@@ -14479,7 +14534,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                   <part type="COMPOSED">
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_BHRGTCommon_AangeleverdeVerticalePositie_verticaalReferentievlak">verticaal referentievlak</item>
+                              idref="detail_attribute_BHRGTInnameberichten_AangeleverdeVerticalePositie_verticaalReferentievlak">verticaal referentievlak</item>
                      </item>
                      <item>Het referentieniveau voor de verticale positie van het lokaal verticaal referentiepunt.</item>
                      <item>
@@ -14490,7 +14545,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                   <part type="COMPOSED">
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_BHRGTCommon_AangeleverdeVerticalePositie_datumVerticalePositiebepaling">datum verticale positiebepaling</item>
+                              idref="detail_attribute_BHRGTInnameberichten_AangeleverdeVerticalePositie_datumVerticalePositiebepaling">datum verticale positiebepaling</item>
                      </item>
                      <item>De datum waarop de verticale positie van het lokaal verticaal referentiepunt is bepaald.</item>
                      <item>
@@ -14501,7 +14556,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                   <part type="COMPOSED">
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_BHRGTCommon_AangeleverdeVerticalePositie_methodeVerticalePositiebepaling">methode verticale positiebepaling</item>
+                              idref="detail_attribute_BHRGTInnameberichten_AangeleverdeVerticalePositie_methodeVerticalePositiebepaling">methode verticale positiebepaling</item>
                      </item>
                      <item>De werkwijze die is gevolgd voor de bepaling van de verticale positie van het lokaal verticaal referentiepunt.</item>
                      <item>
@@ -14513,99 +14568,11 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                   <part type="COMPOSED">
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_BHRGTCommon_AangeleverdeVerticalePositie_uitvoerderVerticalePositiebepaling">uitvoerder verticale positiebepaling</item>
+                              idref="detail_attribute_BHRGTInnameberichten_AangeleverdeVerticalePositie_uitvoerderVerticalePositiebepaling">uitvoerder verticale positiebepaling</item>
                      </item>
                      <item>De identificatie die de organisatie die voor de bronhouder geldt als verantwoordelijk voor de uitvoering van de bepaling van de verticale positie, als onderneming in het Handelsregister heeft.</item>
                      <item>
                         <item type="global" idref="global_class_DomeinmodelBROCommon_KvKNummer">KvK-nummer</item>
-                     </item>
-                     <item>0 .. 1</item>
-                  </part>
-               </content>
-            </section>
-            <section type="SHORT-ASSOCIATIONS">
-               <content approach="association">
-                  <itemtype/>
-                  <itemtype type="ASSOCIATION-NAME"/>
-                  <itemtype type="ASSOCIATION-DEFINITION"/>
-                  <part>
-                     <item>
-                        <item>BRG-Booronderzoek</item>
-                        <item>[ 1 ]</item>
-                        <item>
-                           <item type="detail"
-                                 idref="detail_association_BHRGTInnameberichten_BRGBooronderzoek">uitgevoerd op</item>
-                        </item>
-                        <item>
-                           <item type="global"
-                                 idref="global_class_DomeinmodelBROBHRGTBmb_AangeleverdeLocatie">Aangeleverde locatie</item>
-                        </item>
-                        <item>[ 1 ]</item>
-                     </item>
-                     <item/>
-                  </part>
-               </content>
-               <content approach="target">
-                  <itemtype/>
-                  <itemtype type="ROLE-NAME"/>
-                  <itemtype type="ROLE-DEFINITION"/>
-                  <part>
-                     <item>
-                        <item>BRG-Booronderzoek</item>
-                        <item>[ 1 ]</item>
-                        <item>
-                           <item type="detail"
-                                 idref="detail_association_BHRGTInnameberichten_BRGBooronderzoek">uitgevoerd op</item>
-                        </item>
-                        <item>
-                           <item type="global"
-                                 idref="global_class_DomeinmodelBROBHRGTBmb_AangeleverdeLocatie">Aangeleverde locatie</item>
-                        </item>
-                        <item>[ 1 ]</item>
-                     </item>
-                     <item/>
-                  </part>
-               </content>
-            </section>
-         </section>
-      </section>
-      <!--removed empty content-->
-      <!--removed empty content-->
-      <section type="OVERVIEW-UNION">
-         <section name="Brondocument"
-                  type="UNION"
-                  id="global_class_BHRGTInnameberichten_Brondocument"
-                  uuid="EAID_676FC6DC_0A58_47fd_B20D_0E58D860539D">
-            <content>
-               <part type="CFG-DOC-NAAM">
-                  <item>Naam</item>
-                  <item>Brondocument</item>
-               </part>
-               <part type="CFG-DOC-HERKOMST">
-                  <item>Herkomst</item>
-                  <item>BRO</item>
-               </part>
-               <part type="CFG-DOC-DEFINITIE">
-                  <item>Definitie</item>
-                  <item>De lijst met mogelijke brondocumenten, waarvan een registratieverzoek er één kan bevatten.</item>
-               </part>
-            </content>
-            <section type="SHORT-UNIONELEMENTS">
-               <content>
-                  <itemtype/>
-                  <itemtype type="UNIONELEMENT-NAME"/>
-                  <itemtype type="UNIONELEMENT-DEFINITION"/>
-                  <itemtype type="UNIONELEMENT-FORMAT"/>
-                  <itemtype type="UNIONELEMENT-CARD"/>
-                  <part>
-                     <item>
-                        <item type="detail"
-                              idref="detail_attribute_BHRGTInnameberichten_Brondocument_bRGBooronderzoek">BRG-Booronderzoek</item>
-                     </item>
-                     <item/>
-                     <item>
-                        <item type="global"
-                              idref="global_class_BHRGTInnameberichten_BRGBooronderzoek">BRG-Booronderzoek</item>
                      </item>
                      <item>1</item>
                   </part>
@@ -14617,6 +14584,9 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
       <!--removed empty content-->
       <!--removed empty content-->
       <!--removed empty content-->
+      <!--removed empty content-->
+      <!--removed empty content-->
+      <!--removed empty content-->
       <section type="DETAILS">
          <section type="DETAILS-OBJECTTYPE">
             <section name="Registratieverzoek"
@@ -14624,26 +14594,10 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      id="detail_class_BHRGTInnameberichten_Registratieverzoek"
                      id-global="global_class_BHRGTInnameberichten_Registratieverzoek">
                <section name="brondocument"
-                        type="DETAIL-ASSOCIATION"
-                        id="detail_association_BHRGTInnameberichten_Registratieverzoek"
-                        id-global="global_association_BHRGTInnameberichten_Registratieverzoek">
-                  <content approach="association">
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>brondocument</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>1</item>
-                     </part>
-                     <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
-                        <item>Gerelateerd obecttype</item>
-                        <item>
-                           <item type="global" idref="global_class_BHRGTInnameberichten_Brondocument">Brondocument</item>
-                        </item>
-                     </part>
-                  </content>
-                  <content approach="target">
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_BHRGTInnameberichten_Registratieverzoek_brondocument"
+                        id-global="global_attribute_BHRGTInnameberichten_Registratieverzoek_brondocument">
+                  <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
                         <item>brondocument</item>
@@ -14652,15 +14606,29 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>Mogelijk geen waarde</item>
                         <item>Nee</item>
                      </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
                         <item>1</item>
                      </part>
-                     <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
-                        <item>Gerelateerd obecttype</item>
-                        <item>
-                           <item type="global" idref="global_class_BHRGTInnameberichten_Brondocument">Brondocument</item>
-                        </item>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Overig</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>BRG-Booronderzoek</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
                      </part>
                   </content>
                </section>
@@ -14712,7 +14680,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      </part>
                      <part type="CFG-DOC-INDICATIEAUTHENTIEK">
                         <item>Indicatie authentiek</item>
-                        <item>Ja</item>
+                        <item>Overig</item>
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
@@ -15275,8 +15243,8 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                </section>
                <section name="Aangeleverde locatie"
                         type="DETAIL-COMPOSITE"
-                        id="detail_class_BHRGTCommon_AangeleverdeLocatie"
-                        id-global="global_class_BHRGTCommon_AangeleverdeLocatie">
+                        id="detail_class_BHRGTInnameberichten_AangeleverdeLocatie"
+                        id-global="global_class_BHRGTInnameberichten_AangeleverdeLocatie">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -15301,11 +15269,12 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                   </content>
                   <section name="coördinaten"
                            type="DETAIL-COMPOSITE-ATTRIBUTE"
-                           id="detail_attribute_BHRGTCommon_AangeleverdeLocatie_coRdinaten"
-                           id-global="global_attribute_BHRGTCommon_AangeleverdeLocatie_coRdinaten">
+                           id="detail_attribute_BHRGTInnameberichten_AangeleverdeLocatie_coRdinaten"
+                           id-global="global_attribute_BHRGTInnameberichten_AangeleverdeLocatie_coRdinaten">
                      <content>
                         <part type="COMPOSER">
-                           <item type="global" idref="global_class_BHRGTCommon_AangeleverdeLocatie">Aangeleverde locatie</item>
+                           <item type="global"
+                                 idref="global_class_BHRGTInnameberichten_AangeleverdeLocatie">Aangeleverde locatie</item>
                         </part>
                         <part type="CFG-DOC-NAAM">
                            <item>Naam</item>
@@ -15339,10 +15308,6 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                            <item>Indicatie kardinaliteit</item>
                            <item>1</item>
                         </part>
-                        <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                           <item>Indicatie authentiek</item>
-                           <item>Ja</item>
-                        </part>
                         <part type="CFG-DOC-FORMAAT">
                            <item>Formaat</item>
                            <item>Coördinatenpaar</item>
@@ -15351,11 +15316,12 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                   </section>
                   <section name="referentiestelsel"
                            type="DETAIL-COMPOSITE-ATTRIBUTE"
-                           id="detail_attribute_BHRGTCommon_AangeleverdeLocatie_referentiestelsel"
-                           id-global="global_attribute_BHRGTCommon_AangeleverdeLocatie_referentiestelsel">
+                           id="detail_attribute_BHRGTInnameberichten_AangeleverdeLocatie_referentiestelsel"
+                           id-global="global_attribute_BHRGTInnameberichten_AangeleverdeLocatie_referentiestelsel">
                      <content>
                         <part type="COMPOSER">
-                           <item type="global" idref="global_class_BHRGTCommon_AangeleverdeLocatie">Aangeleverde locatie</item>
+                           <item type="global"
+                                 idref="global_class_BHRGTInnameberichten_AangeleverdeLocatie">Aangeleverde locatie</item>
                         </part>
                         <part type="CFG-DOC-NAAM">
                            <item>Naam</item>
@@ -15389,10 +15355,6 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                            <item>Indicatie kardinaliteit</item>
                            <item>1</item>
                         </part>
-                        <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                           <item>Indicatie authentiek</item>
-                           <item>Ja</item>
-                        </part>
                         <part type="CFG-DOC-FORMAAT">
                            <item>Formaat</item>
                            <item>Referentiestelsel</item>
@@ -15401,11 +15363,12 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                   </section>
                   <section name="datum locatiebepaling"
                            type="DETAIL-COMPOSITE-ATTRIBUTE"
-                           id="detail_attribute_BHRGTCommon_AangeleverdeLocatie_datumLocatiebepaling"
-                           id-global="global_attribute_BHRGTCommon_AangeleverdeLocatie_datumLocatiebepaling">
+                           id="detail_attribute_BHRGTInnameberichten_AangeleverdeLocatie_datumLocatiebepaling"
+                           id-global="global_attribute_BHRGTInnameberichten_AangeleverdeLocatie_datumLocatiebepaling">
                      <content>
                         <part type="COMPOSER">
-                           <item type="global" idref="global_class_BHRGTCommon_AangeleverdeLocatie">Aangeleverde locatie</item>
+                           <item type="global"
+                                 idref="global_class_BHRGTInnameberichten_AangeleverdeLocatie">Aangeleverde locatie</item>
                         </part>
                         <part type="CFG-DOC-NAAM">
                            <item>Naam</item>
@@ -15439,10 +15402,6 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                            <item>Indicatie kardinaliteit</item>
                            <item>1</item>
                         </part>
-                        <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                           <item>Indicatie authentiek</item>
-                           <item>Ja</item>
-                        </part>
                         <part type="CFG-DOC-FORMAAT">
                            <item>Formaat</item>
                            <item>Datum</item>
@@ -15451,11 +15410,12 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                   </section>
                   <section name="methode locatiebepaling"
                            type="DETAIL-COMPOSITE-ATTRIBUTE"
-                           id="detail_attribute_BHRGTCommon_AangeleverdeLocatie_methodeLocatiebepaling"
-                           id-global="global_attribute_BHRGTCommon_AangeleverdeLocatie_methodeLocatiebepaling">
+                           id="detail_attribute_BHRGTInnameberichten_AangeleverdeLocatie_methodeLocatiebepaling"
+                           id-global="global_attribute_BHRGTInnameberichten_AangeleverdeLocatie_methodeLocatiebepaling">
                      <content>
                         <part type="COMPOSER">
-                           <item type="global" idref="global_class_BHRGTCommon_AangeleverdeLocatie">Aangeleverde locatie</item>
+                           <item type="global"
+                                 idref="global_class_BHRGTInnameberichten_AangeleverdeLocatie">Aangeleverde locatie</item>
                         </part>
                         <part type="CFG-DOC-NAAM">
                            <item>Naam</item>
@@ -15489,10 +15449,6 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                            <item>Indicatie kardinaliteit</item>
                            <item>1</item>
                         </part>
-                        <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                           <item>Indicatie authentiek</item>
-                           <item>Ja</item>
-                        </part>
                         <part type="CFG-DOC-FORMAAT">
                            <item>Formaat</item>
                            <item>MethodeLocatiebepaling</item>
@@ -15501,11 +15457,12 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                   </section>
                   <section name="uitvoerder locatiebepaling"
                            type="DETAIL-COMPOSITE-ATTRIBUTE"
-                           id="detail_attribute_BHRGTCommon_AangeleverdeLocatie_uitvoerderLocatiebepaling"
-                           id-global="global_attribute_BHRGTCommon_AangeleverdeLocatie_uitvoerderLocatiebepaling">
+                           id="detail_attribute_BHRGTInnameberichten_AangeleverdeLocatie_uitvoerderLocatiebepaling"
+                           id-global="global_attribute_BHRGTInnameberichten_AangeleverdeLocatie_uitvoerderLocatiebepaling">
                      <content>
                         <part type="COMPOSER">
-                           <item type="global" idref="global_class_BHRGTCommon_AangeleverdeLocatie">Aangeleverde locatie</item>
+                           <item type="global"
+                                 idref="global_class_BHRGTInnameberichten_AangeleverdeLocatie">Aangeleverde locatie</item>
                         </part>
                         <part type="CFG-DOC-NAAM">
                            <item>Naam</item>
@@ -15539,10 +15496,6 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                            <item>Indicatie kardinaliteit</item>
                            <item>1</item>
                         </part>
-                        <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                           <item>Indicatie authentiek</item>
-                           <item>Ja</item>
-                        </part>
                         <part type="CFG-DOC-FORMAAT">
                            <item>Formaat</item>
                            <item>KvK-nummer</item>
@@ -15552,8 +15505,8 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                </section>
                <section name="Aangeleverde verticale positie"
                         type="DETAIL-COMPOSITE"
-                        id="detail_class_BHRGTCommon_AangeleverdeVerticalePositie"
-                        id-global="global_class_BHRGTCommon_AangeleverdeVerticalePositie">
+                        id="detail_class_BHRGTInnameberichten_AangeleverdeVerticalePositie"
+                        id-global="global_class_BHRGTInnameberichten_AangeleverdeVerticalePositie">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -15574,12 +15527,12 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                   </content>
                   <section name="lokaal verticaal referentiepunt"
                            type="DETAIL-COMPOSITE-ATTRIBUTE"
-                           id="detail_attribute_BHRGTCommon_AangeleverdeVerticalePositie_lokaalVerticaalReferentiepunt"
-                           id-global="global_attribute_BHRGTCommon_AangeleverdeVerticalePositie_lokaalVerticaalReferentiepunt">
+                           id="detail_attribute_BHRGTInnameberichten_AangeleverdeVerticalePositie_lokaalVerticaalReferentiepunt"
+                           id-global="global_attribute_BHRGTInnameberichten_AangeleverdeVerticalePositie_lokaalVerticaalReferentiepunt">
                      <content>
                         <part type="COMPOSER">
                            <item type="global"
-                                 idref="global_class_BHRGTCommon_AangeleverdeVerticalePositie">Aangeleverde verticale positie</item>
+                                 idref="global_class_BHRGTInnameberichten_AangeleverdeVerticalePositie">Aangeleverde verticale positie</item>
                         </part>
                         <part type="CFG-DOC-NAAM">
                            <item>Naam</item>
@@ -15613,10 +15566,6 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                            <item>Indicatie kardinaliteit</item>
                            <item>1</item>
                         </part>
-                        <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                           <item>Indicatie authentiek</item>
-                           <item>Ja</item>
-                        </part>
                         <part type="CFG-DOC-FORMAAT">
                            <item>Formaat</item>
                            <item>LokaalVerticaalReferentiepunt</item>
@@ -15625,12 +15574,12 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                   </section>
                   <section name="verschuiving"
                            type="DETAIL-COMPOSITE-ATTRIBUTE"
-                           id="detail_attribute_BHRGTCommon_AangeleverdeVerticalePositie_verschuiving"
-                           id-global="global_attribute_BHRGTCommon_AangeleverdeVerticalePositie_verschuiving">
+                           id="detail_attribute_BHRGTInnameberichten_AangeleverdeVerticalePositie_verschuiving"
+                           id-global="global_attribute_BHRGTInnameberichten_AangeleverdeVerticalePositie_verschuiving">
                      <content>
                         <part type="COMPOSER">
                            <item type="global"
-                                 idref="global_class_BHRGTCommon_AangeleverdeVerticalePositie">Aangeleverde verticale positie</item>
+                                 idref="global_class_BHRGTInnameberichten_AangeleverdeVerticalePositie">Aangeleverde verticale positie</item>
                         </part>
                         <part type="CFG-DOC-NAAM">
                            <item>Naam</item>
@@ -15664,10 +15613,6 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                            <item>Indicatie kardinaliteit</item>
                            <item>1</item>
                         </part>
-                        <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                           <item>Indicatie authentiek</item>
-                           <item>Ja</item>
-                        </part>
                         <part type="CFG-DOC-FORMAAT">
                            <item>Formaat</item>
                            <item>Meetwaarde</item>
@@ -15676,12 +15621,12 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                   </section>
                   <section name="waterdiepte"
                            type="DETAIL-COMPOSITE-ATTRIBUTE"
-                           id="detail_attribute_BHRGTCommon_AangeleverdeVerticalePositie_waterdiepte"
-                           id-global="global_attribute_BHRGTCommon_AangeleverdeVerticalePositie_waterdiepte">
+                           id="detail_attribute_BHRGTInnameberichten_AangeleverdeVerticalePositie_waterdiepte"
+                           id-global="global_attribute_BHRGTInnameberichten_AangeleverdeVerticalePositie_waterdiepte">
                      <content>
                         <part type="COMPOSER">
                            <item type="global"
-                                 idref="global_class_BHRGTCommon_AangeleverdeVerticalePositie">Aangeleverde verticale positie</item>
+                                 idref="global_class_BHRGTInnameberichten_AangeleverdeVerticalePositie">Aangeleverde verticale positie</item>
                         </part>
                         <part type="CFG-DOC-NAAM">
                            <item>Naam</item>
@@ -15715,10 +15660,6 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                            <item>Indicatie kardinaliteit</item>
                            <item>0 .. 1</item>
                         </part>
-                        <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                           <item>Indicatie authentiek</item>
-                           <item>Ja</item>
-                        </part>
                         <part type="CFG-DOC-FORMAAT">
                            <item>Formaat</item>
                            <item>Meetwaarde</item>
@@ -15727,12 +15668,12 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                   </section>
                   <section name="verticaal referentievlak"
                            type="DETAIL-COMPOSITE-ATTRIBUTE"
-                           id="detail_attribute_BHRGTCommon_AangeleverdeVerticalePositie_verticaalReferentievlak"
-                           id-global="global_attribute_BHRGTCommon_AangeleverdeVerticalePositie_verticaalReferentievlak">
+                           id="detail_attribute_BHRGTInnameberichten_AangeleverdeVerticalePositie_verticaalReferentievlak"
+                           id-global="global_attribute_BHRGTInnameberichten_AangeleverdeVerticalePositie_verticaalReferentievlak">
                      <content>
                         <part type="COMPOSER">
                            <item type="global"
-                                 idref="global_class_BHRGTCommon_AangeleverdeVerticalePositie">Aangeleverde verticale positie</item>
+                                 idref="global_class_BHRGTInnameberichten_AangeleverdeVerticalePositie">Aangeleverde verticale positie</item>
                         </part>
                         <part type="CFG-DOC-NAAM">
                            <item>Naam</item>
@@ -15766,10 +15707,6 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                            <item>Indicatie kardinaliteit</item>
                            <item>1</item>
                         </part>
-                        <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                           <item>Indicatie authentiek</item>
-                           <item>Ja</item>
-                        </part>
                         <part type="CFG-DOC-FORMAAT">
                            <item>Formaat</item>
                            <item>VerticaalReferentievlak</item>
@@ -15778,12 +15715,12 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                   </section>
                   <section name="datum verticale positiebepaling"
                            type="DETAIL-COMPOSITE-ATTRIBUTE"
-                           id="detail_attribute_BHRGTCommon_AangeleverdeVerticalePositie_datumVerticalePositiebepaling"
-                           id-global="global_attribute_BHRGTCommon_AangeleverdeVerticalePositie_datumVerticalePositiebepaling">
+                           id="detail_attribute_BHRGTInnameberichten_AangeleverdeVerticalePositie_datumVerticalePositiebepaling"
+                           id-global="global_attribute_BHRGTInnameberichten_AangeleverdeVerticalePositie_datumVerticalePositiebepaling">
                      <content>
                         <part type="COMPOSER">
                            <item type="global"
-                                 idref="global_class_BHRGTCommon_AangeleverdeVerticalePositie">Aangeleverde verticale positie</item>
+                                 idref="global_class_BHRGTInnameberichten_AangeleverdeVerticalePositie">Aangeleverde verticale positie</item>
                         </part>
                         <part type="CFG-DOC-NAAM">
                            <item>Naam</item>
@@ -15817,10 +15754,6 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                            <item>Indicatie kardinaliteit</item>
                            <item>1</item>
                         </part>
-                        <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                           <item>Indicatie authentiek</item>
-                           <item>Ja</item>
-                        </part>
                         <part type="CFG-DOC-FORMAAT">
                            <item>Formaat</item>
                            <item>Datum</item>
@@ -15829,12 +15762,12 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                   </section>
                   <section name="methode verticale positiebepaling"
                            type="DETAIL-COMPOSITE-ATTRIBUTE"
-                           id="detail_attribute_BHRGTCommon_AangeleverdeVerticalePositie_methodeVerticalePositiebepaling"
-                           id-global="global_attribute_BHRGTCommon_AangeleverdeVerticalePositie_methodeVerticalePositiebepaling">
+                           id="detail_attribute_BHRGTInnameberichten_AangeleverdeVerticalePositie_methodeVerticalePositiebepaling"
+                           id-global="global_attribute_BHRGTInnameberichten_AangeleverdeVerticalePositie_methodeVerticalePositiebepaling">
                      <content>
                         <part type="COMPOSER">
                            <item type="global"
-                                 idref="global_class_BHRGTCommon_AangeleverdeVerticalePositie">Aangeleverde verticale positie</item>
+                                 idref="global_class_BHRGTInnameberichten_AangeleverdeVerticalePositie">Aangeleverde verticale positie</item>
                         </part>
                         <part type="CFG-DOC-NAAM">
                            <item>Naam</item>
@@ -15868,10 +15801,6 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                            <item>Indicatie kardinaliteit</item>
                            <item>1</item>
                         </part>
-                        <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                           <item>Indicatie authentiek</item>
-                           <item>Ja</item>
-                        </part>
                         <part type="CFG-DOC-FORMAAT">
                            <item>Formaat</item>
                            <item>MethodeVerticalePositiebepaling</item>
@@ -15880,12 +15809,12 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                   </section>
                   <section name="uitvoerder verticale positiebepaling"
                            type="DETAIL-COMPOSITE-ATTRIBUTE"
-                           id="detail_attribute_BHRGTCommon_AangeleverdeVerticalePositie_uitvoerderVerticalePositiebepaling"
-                           id-global="global_attribute_BHRGTCommon_AangeleverdeVerticalePositie_uitvoerderVerticalePositiebepaling">
+                           id="detail_attribute_BHRGTInnameberichten_AangeleverdeVerticalePositie_uitvoerderVerticalePositiebepaling"
+                           id-global="global_attribute_BHRGTInnameberichten_AangeleverdeVerticalePositie_uitvoerderVerticalePositiebepaling">
                      <content>
                         <part type="COMPOSER">
                            <item type="global"
-                                 idref="global_class_BHRGTCommon_AangeleverdeVerticalePositie">Aangeleverde verticale positie</item>
+                                 idref="global_class_BHRGTInnameberichten_AangeleverdeVerticalePositie">Aangeleverde verticale positie</item>
                         </part>
                         <part type="CFG-DOC-NAAM">
                            <item>Naam</item>
@@ -15917,11 +15846,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         </part>
                         <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                            <item>Indicatie kardinaliteit</item>
-                           <item>0 .. 1</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                           <item>Indicatie authentiek</item>
-                           <item>Ja</item>
+                           <item>1</item>
                         </part>
                         <part type="CFG-DOC-FORMAAT">
                            <item>Formaat</item>
@@ -15930,79 +15855,11 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      </content>
                   </section>
                </section>
-               <section name="uitgevoerd op"
-                        type="DETAIL-ASSOCIATION"
-                        id="detail_association_BHRGTInnameberichten_BRGBooronderzoek"
-                        id-global="global_association_BHRGTInnameberichten_BRGBooronderzoek">
-                  <content approach="association">
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>uitgevoerd op</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>1</item>
-                     </part>
-                     <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
-                        <item>Gerelateerd obecttype</item>
-                        <item>
-                           <item type="global"
-                                 idref="global_class_DomeinmodelBROBHRGTBmb_AangeleverdeLocatie">Aangeleverde locatie</item>
-                        </item>
-                     </part>
-                  </content>
-                  <content approach="target">
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>uitgevoerd op</item>
-                     </part>
-                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                        <item>Mogelijk geen waarde</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>1</item>
-                     </part>
-                     <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
-                        <item>Gerelateerd obecttype</item>
-                        <item>
-                           <item type="global"
-                                 idref="global_class_DomeinmodelBROBHRGTBmb_AangeleverdeLocatie">Aangeleverde locatie</item>
-                        </item>
-                     </part>
-                  </content>
-               </section>
             </section>
          </section>
          <!--removed empty content-->
          <!--removed empty content-->
-         <section type="DETAILS-UNION">
-            <section name="Brondocument"
-                     type="KEUZE"
-                     id="detail_class_BHRGTInnameberichten_Brondocument"
-                     id-global="global_class_BHRGTInnameberichten_Brondocument">
-               <section name="BRG-Booronderzoek"
-                        type="DETAIL-UNIONELEMENT"
-                        id="detail_attribute_BHRGTInnameberichten_Brondocument_bRGBooronderzoek"
-                        id-global="global_attribute_BHRGTInnameberichten_Brondocument_bRGBooronderzoek">
-                  <content>
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>BRG-Booronderzoek</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>1</item>
-                     </part>
-                     <part type="CFG-DOC-FORMAAT">
-                        <item>Formaat</item>
-                        <item>BRG-Booronderzoek</item>
-                     </part>
-                  </content>
-               </section>
-            </section>
-         </section>
+         <!--removed empty content-->
          <!--removed empty content-->
          <!--removed empty content-->
          <!--removed empty content-->
@@ -16043,65 +15900,22 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                </part>
             </content>
          </section>
-      </section>
-      <section type="OVERVIEW-OBJECTTYPE">
-         <section name="Booronderzoek2"
-                  type="OBJECTTYPE"
-                  id="global_class_BHRGTUitgifteberichten_Booronderzoek2"
-                  uuid="EAID_2DAA3F08_0417_4971_96F8_5588D3913892">
+         <section type="IMAGEMAP"
+                  name="BHR-GT uitgifteberichten"
+                  id="EAID_80926628_1B2C_471e_96D5_B16270F9EEA7">
             <content>
                <part type="CFG-DOC-NAAM">
                   <item>Naam</item>
-                  <item>Booronderzoek2</item>
+                  <item>BHR-GT uitgifteberichten</item>
                </part>
-               <part type="CFG-DOC-HERKOMST">
-                  <item>Herkomst</item>
-                  <item>BRO</item>
-               </part>
-               <part type="CFG-DOC-DEFINITIE">
-                  <item>Definitie</item>
-                  <item>TODO</item>
-               </part>
-               <part type="CFG-DOC-HERKOMSTDEFINITIE">
-                  <item>Herkomst definitie</item>
-                  <item>BRO</item>
+               <part type="CFG-DOC-DESCRIPTION">
+                  <item>Omschrijving</item>
+                  <item/>
                </part>
             </content>
-            <section type="SHORT-ASSOCIATIONS">
-               <content approach="association">
-                  <itemtype/>
-                  <itemtype type="ASSOCIATION-NAME"/>
-                  <itemtype type="ASSOCIATION-DEFINITION"/>
-                  <part>
-                     <item>
-                        <item>Booronderzoek2</item>
-                        <item>is specialisatie van</item>
-                        <item>
-                           <item type="global"
-                                 idref="global_class_DomeinmodelBROCommon_Registratieobject">Registratieobject</item>
-                        </item>
-                     </item>
-                     <item>Het geheel van gegevens dat betrekking heeft op het recht van een bepaalde partij een bepaalde mijnbouwactiviteit in een bepaald deel van de ondergrond van Nederland en zijn Exclusieve Economische Zone uit te voeren, en dat onder de verantwoordelijkheid van het ministerie van Economische Zaken en Klimaat aan de registerbeheerder van de basisregistratie ondergrond is aangeleverd en door de laatste in de registratie ondergrond is opgenomen.</item>
-                  </part>
-               </content>
-               <content approach="target">
-                  <itemtype/>
-                  <itemtype type="ROLE-NAME"/>
-                  <itemtype type="ROLE-DEFINITION"/>
-                  <part>
-                     <item>
-                        <item>Booronderzoek2</item>
-                        <item>is specialisatie van</item>
-                        <item>
-                           <item type="global"
-                                 idref="global_class_DomeinmodelBROCommon_Registratieobject">Registratieobject</item>
-                        </item>
-                     </item>
-                     <item>Het geheel van gegevens dat betrekking heeft op het recht van een bepaalde partij een bepaalde mijnbouwactiviteit in een bepaald deel van de ondergrond van Nederland en zijn Exclusieve Economische Zone uit te voeren, en dat onder de verantwoordelijkheid van het ministerie van Economische Zaken en Klimaat aan de registerbeheerder van de basisregistratie ondergrond is aangeleverd en door de laatste in de registratie ondergrond is opgenomen.</item>
-                  </part>
-               </content>
-            </section>
          </section>
+      </section>
+      <section type="OVERVIEW-OBJECTTYPE">
          <section name="Bericht van verzending gegevens"
                   type="OBJECTTYPE"
                   id="global_class_BHRGTUitgifteberichten_BerichtVanVerzendingGegevens"
@@ -16140,21 +15954,6 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      </item>
                      <item>TODO</item>
                   </part>
-                  <part>
-                     <item>
-                        <item>Bericht van verzending gegevens</item>
-                        <item>[ 1 ]</item>
-                        <item>
-                           <item type="detail"
-                                 idref="detail_association_BHRGTUitgifteberichten_BerichtVanVerzendingGegevens">uitgiftedocument</item>
-                        </item>
-                        <item>
-                           <item type="global" idref="global_class_BHRGTUitgifteberichten_Gegevens">Gegevens</item>
-                        </item>
-                        <item>[ 0 .. 1 ]</item>
-                     </item>
-                     <item/>
-                  </part>
                </content>
                <content approach="target">
                   <itemtype/>
@@ -16170,21 +15969,6 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         </item>
                      </item>
                      <item>TODO</item>
-                  </part>
-                  <part>
-                     <item>
-                        <item>Bericht van verzending gegevens</item>
-                        <item>[ 1 ]</item>
-                        <item>
-                           <item type="detail"
-                                 idref="detail_association_BHRGTUitgifteberichten_BerichtVanVerzendingGegevens">uitgiftedocument</item>
-                        </item>
-                        <item>
-                           <item type="global" idref="global_class_BHRGTUitgifteberichten_Gegevens">Gegevens</item>
-                        </item>
-                        <item>[ 0 .. 1 ]</item>
-                     </item>
-                     <item/>
                   </part>
                </content>
             </section>
@@ -16272,17 +16056,6 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item type="global" idref="global_class_DomeinmodelBROCommon_Datum">Datum</item>
                      </item>
                      <item>1</item>
-                  </part>
-                  <part>
-                     <item>
-                        <item type="detail"
-                              idref="detail_attribute_BHRGTUitgifteberichten_Booronderzoek_uitvoerderOnderzoek">uitvoerder onderzoek</item>
-                     </item>
-                     <item>De identificatie die de organisatie die voor de bronhouder geldt als verantwoordelijk voor de uitvoering van het booronderzoek, als onderneming in het Handelsregister heeft.</item>
-                     <item>
-                        <item type="global" idref="global_class_DomeinmodelBROCommon_KvKNummer">KvK-nummer</item>
-                     </item>
-                     <item>0 .. 1</item>
                   </part>
                   <part>
                      <item>
@@ -16490,7 +16263,8 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                   <part type="COMPOSER">
                      <item>
                         <value>
-                           <item type="detail" idref="detail_class_BHRGTCommon_AangeleverdeLocatie">aangeleverde locatie</item>
+                           <item type="detail"
+                                 idref="detail_class_BHRGTUitgifteberichten_AangeleverdeLocatie">aangeleverde locatie</item>
                         </value>
                      </item>
                      <item>
@@ -16504,7 +16278,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                   <part type="COMPOSED">
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_BHRGTCommon_AangeleverdeLocatie_coRdinaten">coördinaten</item>
+                              idref="detail_attribute_BHRGTUitgifteberichten_AangeleverdeLocatie_coRdinaten">coördinaten</item>
                      </item>
                      <item>De coördinaten die zijn aangeleverd.</item>
                      <item>
@@ -16515,7 +16289,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                   <part type="COMPOSED">
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_BHRGTCommon_AangeleverdeLocatie_referentiestelsel">referentiestelsel</item>
+                              idref="detail_attribute_BHRGTUitgifteberichten_AangeleverdeLocatie_referentiestelsel">referentiestelsel</item>
                      </item>
                      <item>Het referentiestelsel van de aangeleverde coördinaten.</item>
                      <item>
@@ -16527,7 +16301,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                   <part type="COMPOSED">
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_BHRGTCommon_AangeleverdeLocatie_datumLocatiebepaling">datum locatiebepaling</item>
+                              idref="detail_attribute_BHRGTUitgifteberichten_AangeleverdeLocatie_datumLocatiebepaling">datum locatiebepaling</item>
                      </item>
                      <item>De datum waarop de plaats van het booronderzoek op het aardoppervlak is bepaald.</item>
                      <item>
@@ -16538,22 +16312,11 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                   <part type="COMPOSED">
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_BHRGTCommon_AangeleverdeLocatie_methodeLocatiebepaling">methode locatiebepaling</item>
+                              idref="detail_attribute_BHRGTUitgifteberichten_AangeleverdeLocatie_methodeLocatiebepaling">methode locatiebepaling</item>
                      </item>
                      <item>De werkwijze die is gevolgd voor de bepaling van de plaats van het booronderzoek op het aardoppervlak.</item>
                      <item>
                         <item type="global" idref="global_class_BHRGTCommon_MethodeLocatiebepaling">MethodeLocatiebepaling</item>
-                     </item>
-                     <item>1</item>
-                  </part>
-                  <part type="COMPOSED">
-                     <item>
-                        <item type="detail"
-                              idref="detail_attribute_BHRGTCommon_AangeleverdeLocatie_uitvoerderLocatiebepaling">uitvoerder locatiebepaling</item>
-                     </item>
-                     <item>De identificatie die de organisatie die voor de bronhouder geldt als verantwoordelijk voor de uitvoering van de plaatsbepaling, als onderneming in het Handelsregister heeft.</item>
-                     <item>
-                        <item type="global" idref="global_class_DomeinmodelBROCommon_KvKNummer">KvK-nummer</item>
                      </item>
                      <item>1</item>
                   </part>
@@ -16611,7 +16374,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      <item>
                         <value>
                            <item type="detail"
-                                 idref="detail_class_BHRGTCommon_AangeleverdeVerticalePositie">aangeleverde verticale positie</item>
+                                 idref="detail_class_BHRGTUitgifteberichten_AangeleverdeVerticalePositie">aangeleverde verticale positie</item>
                         </value>
                      </item>
                      <item>
@@ -16625,7 +16388,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                   <part type="COMPOSED">
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_BHRGTCommon_AangeleverdeVerticalePositie_lokaalVerticaalReferentiepunt">lokaal verticaal referentiepunt</item>
+                              idref="detail_attribute_BHRGTUitgifteberichten_AangeleverdeVerticalePositie_lokaalVerticaalReferentiepunt">lokaal verticaal referentiepunt</item>
                      </item>
                      <item>Het punt dat in het booronderzoek is gebruikt als nulpunt voor de diepte.</item>
                      <item>
@@ -16637,7 +16400,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                   <part type="COMPOSED">
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_BHRGTCommon_AangeleverdeVerticalePositie_verschuiving">verschuiving</item>
+                              idref="detail_attribute_BHRGTUitgifteberichten_AangeleverdeVerticalePositie_verschuiving">verschuiving</item>
                      </item>
                      <item>De verticale positie van het lokaal verticaal referentiepunt t.o.v. het verticaal referentievlak.</item>
                      <item>
@@ -16648,7 +16411,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                   <part type="COMPOSED">
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_BHRGTCommon_AangeleverdeVerticalePositie_waterdiepte">waterdiepte</item>
+                              idref="detail_attribute_BHRGTUitgifteberichten_AangeleverdeVerticalePositie_waterdiepte">waterdiepte</item>
                      </item>
                      <item>De positie van de waterbodem ten opzichte van het wateroppervlak.</item>
                      <item>
@@ -16659,7 +16422,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                   <part type="COMPOSED">
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_BHRGTCommon_AangeleverdeVerticalePositie_verticaalReferentievlak">verticaal referentievlak</item>
+                              idref="detail_attribute_BHRGTUitgifteberichten_AangeleverdeVerticalePositie_verticaalReferentievlak">verticaal referentievlak</item>
                      </item>
                      <item>Het referentieniveau voor de verticale positie van het lokaal verticaal referentiepunt.</item>
                      <item>
@@ -16670,7 +16433,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                   <part type="COMPOSED">
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_BHRGTCommon_AangeleverdeVerticalePositie_datumVerticalePositiebepaling">datum verticale positiebepaling</item>
+                              idref="detail_attribute_BHRGTUitgifteberichten_AangeleverdeVerticalePositie_datumVerticalePositiebepaling">datum verticale positiebepaling</item>
                      </item>
                      <item>De datum waarop de verticale positie van het lokaal verticaal referentiepunt is bepaald.</item>
                      <item>
@@ -16681,7 +16444,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                   <part type="COMPOSED">
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_BHRGTCommon_AangeleverdeVerticalePositie_methodeVerticalePositiebepaling">methode verticale positiebepaling</item>
+                              idref="detail_attribute_BHRGTUitgifteberichten_AangeleverdeVerticalePositie_methodeVerticalePositiebepaling">methode verticale positiebepaling</item>
                      </item>
                      <item>De werkwijze die is gevolgd voor de bepaling van de verticale positie van het lokaal verticaal referentiepunt.</item>
                      <item>
@@ -16689,17 +16452,6 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                               idref="global_class_BHRGTCommon_MethodeVerticalePositiebepaling">MethodeVerticalePositiebepaling</item>
                      </item>
                      <item>1</item>
-                  </part>
-                  <part type="COMPOSED">
-                     <item>
-                        <item type="detail"
-                              idref="detail_attribute_BHRGTCommon_AangeleverdeVerticalePositie_uitvoerderVerticalePositiebepaling">uitvoerder verticale positiebepaling</item>
-                     </item>
-                     <item>De identificatie die de organisatie die voor de bronhouder geldt als verantwoordelijk voor de uitvoering van de bepaling van de verticale positie, als onderneming in het Handelsregister heeft.</item>
-                     <item>
-                        <item type="global" idref="global_class_DomeinmodelBROCommon_KvKNummer">KvK-nummer</item>
-                     </item>
-                     <item>0 .. 1</item>
                   </part>
                </content>
             </section>
@@ -16719,81 +16471,6 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      </item>
                      <item>Het geheel van gegevens dat betrekking heeft op het recht van een bepaalde partij een bepaalde mijnbouwactiviteit in een bepaald deel van de ondergrond van Nederland en zijn Exclusieve Economische Zone uit te voeren, en dat onder de verantwoordelijkheid van het ministerie van Economische Zaken en Klimaat aan de registerbeheerder van de basisregistratie ondergrond is aangeleverd en door de laatste in de registratie ondergrond is opgenomen.</item>
                   </part>
-                  <part>
-                     <item>
-                        <item>Booronderzoek</item>
-                        <item>[ 1 ]</item>
-                        <item>
-                           <item type="detail"
-                                 idref="detail_association_BHRGTUitgifteberichten_Booronderzoek">heeft</item>
-                        </item>
-                        <item>
-                           <item type="global" idref="global_class_BHRGTCommon_Terreintoestand">Terreintoestand</item>
-                        </item>
-                        <item>[ 0 .. 1 ]</item>
-                     </item>
-                     <item/>
-                  </part>
-                  <part>
-                     <item>
-                        <item>Booronderzoek</item>
-                        <item>[ 1 ]</item>
-                        <item>
-                           <item type="detail"
-                                 idref="detail_association_BHRGTUitgifteberichten_Booronderzoek">heeft</item>
-                        </item>
-                        <item>
-                           <item type="global" idref="global_class_BHRGTCommon_Sliblaag">Sliblaag</item>
-                        </item>
-                        <item>[ 0 .. 1 ]</item>
-                     </item>
-                     <item/>
-                  </part>
-                  <part>
-                     <item>
-                        <item>Booronderzoek</item>
-                        <item>[ 1 ]</item>
-                        <item>
-                           <item type="detail"
-                                 idref="detail_association_BHRGTUitgifteberichten_Booronderzoek">aan ondergrond ontsloten door</item>
-                        </item>
-                        <item>
-                           <item type="global" idref="global_class_BHRGTCommon_Boring">Boring</item>
-                        </item>
-                        <item>[ 1 ]</item>
-                     </item>
-                     <item/>
-                  </part>
-                  <part>
-                     <item>
-                        <item>Booronderzoek</item>
-                        <item>[ 1 ]</item>
-                        <item>
-                           <item type="detail"
-                                 idref="detail_association_BHRGTUitgifteberichten_Booronderzoek">heeft</item>
-                        </item>
-                        <item>
-                           <item type="global" idref="global_class_BHRGTCommon_Boormonsteronderzoek">Boormonsteronderzoek</item>
-                        </item>
-                        <item>[ 0 .. 1 ]</item>
-                     </item>
-                     <item/>
-                  </part>
-                  <part>
-                     <item>
-                        <item>Booronderzoek</item>
-                        <item>[ 1 ]</item>
-                        <item>
-                           <item type="detail"
-                                 idref="detail_association_BHRGTUitgifteberichten_Booronderzoek">heeft</item>
-                        </item>
-                        <item>
-                           <item type="global" idref="global_class_BHRGTCommon_Boormonsterbeschrijving">Boormonsterbeschrijving</item>
-                        </item>
-                        <item>[ 0 .. 1 ]</item>
-                     </item>
-                     <item/>
-                  </part>
                </content>
                <content approach="target">
                   <itemtype/>
@@ -16810,96 +16487,17 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      </item>
                      <item>Het geheel van gegevens dat betrekking heeft op het recht van een bepaalde partij een bepaalde mijnbouwactiviteit in een bepaald deel van de ondergrond van Nederland en zijn Exclusieve Economische Zone uit te voeren, en dat onder de verantwoordelijkheid van het ministerie van Economische Zaken en Klimaat aan de registerbeheerder van de basisregistratie ondergrond is aangeleverd en door de laatste in de registratie ondergrond is opgenomen.</item>
                   </part>
-                  <part>
-                     <item>
-                        <item>Booronderzoek</item>
-                        <item>[ 1 ]</item>
-                        <item>
-                           <item type="detail"
-                                 idref="detail_association_BHRGTUitgifteberichten_Booronderzoek">heeft</item>
-                        </item>
-                        <item>
-                           <item type="global" idref="global_class_BHRGTCommon_Terreintoestand">Terreintoestand</item>
-                        </item>
-                        <item>[ 0 .. 1 ]</item>
-                     </item>
-                     <item/>
-                  </part>
-                  <part>
-                     <item>
-                        <item>Booronderzoek</item>
-                        <item>[ 1 ]</item>
-                        <item>
-                           <item type="detail"
-                                 idref="detail_association_BHRGTUitgifteberichten_Booronderzoek">heeft</item>
-                        </item>
-                        <item>
-                           <item type="global" idref="global_class_BHRGTCommon_Sliblaag">Sliblaag</item>
-                        </item>
-                        <item>[ 0 .. 1 ]</item>
-                     </item>
-                     <item/>
-                  </part>
-                  <part>
-                     <item>
-                        <item>Booronderzoek</item>
-                        <item>[ 1 ]</item>
-                        <item>
-                           <item type="detail"
-                                 idref="detail_association_BHRGTUitgifteberichten_Booronderzoek">aan ondergrond ontsloten door</item>
-                        </item>
-                        <item>
-                           <item type="global" idref="global_class_BHRGTCommon_Boring">Boring</item>
-                        </item>
-                        <item>[ 1 ]</item>
-                     </item>
-                     <item/>
-                  </part>
-                  <part>
-                     <item>
-                        <item>Booronderzoek</item>
-                        <item>[ 1 ]</item>
-                        <item>
-                           <item type="detail"
-                                 idref="detail_association_BHRGTUitgifteberichten_Booronderzoek">heeft</item>
-                        </item>
-                        <item>
-                           <item type="global" idref="global_class_BHRGTCommon_Boormonsteronderzoek">Boormonsteronderzoek</item>
-                        </item>
-                        <item>[ 0 .. 1 ]</item>
-                     </item>
-                     <item/>
-                  </part>
-                  <part>
-                     <item>
-                        <item>Booronderzoek</item>
-                        <item>[ 1 ]</item>
-                        <item>
-                           <item type="detail"
-                                 idref="detail_association_BHRGTUitgifteberichten_Booronderzoek">heeft</item>
-                        </item>
-                        <item>
-                           <item type="global" idref="global_class_BHRGTCommon_Boormonsterbeschrijving">Boormonsterbeschrijving</item>
-                        </item>
-                        <item>[ 0 .. 1 ]</item>
-                     </item>
-                     <item/>
-                  </part>
                </content>
             </section>
          </section>
-      </section>
-      <!--removed empty content-->
-      <!--removed empty content-->
-      <section type="OVERVIEW-UNION">
-         <section name="Gegevens"
-                  type="UNION"
-                  id="global_class_BHRGTUitgifteberichten_Gegevens"
-                  uuid="EAID_7A020155_BA92_42a8_8C16_B40E3CA14F0F">
+         <section name="Booronderzoek voor dataleverancier"
+                  type="OBJECTTYPE"
+                  id="global_class_BHRGTUitgifteberichten_BooronderzoekVoorDataleverancier"
+                  uuid="EAID_2DAA3F08_0417_4971_96F8_5588D3913892">
             <content>
                <part type="CFG-DOC-NAAM">
                   <item>Naam</item>
-                  <item>Gegevens</item>
+                  <item>Booronderzoek voor dataleverancier</item>
                </part>
                <part type="CFG-DOC-HERKOMST">
                   <item>Herkomst</item>
@@ -16909,48 +16507,82 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                   <item>Definitie</item>
                   <item>TODO</item>
                </part>
+               <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                  <item>Herkomst definitie</item>
+                  <item>BRO</item>
+               </part>
             </content>
-            <section type="SHORT-UNIONELEMENTS">
+            <section type="SHORT-ATTRIBUTES">
                <content>
                   <itemtype/>
-                  <itemtype type="UNIONELEMENT-NAME"/>
-                  <itemtype type="UNIONELEMENT-DEFINITION"/>
-                  <itemtype type="UNIONELEMENT-FORMAT"/>
-                  <itemtype type="UNIONELEMENT-CARD"/>
+                  <itemtype type="ATTRIBUTE-NAME"/>
+                  <itemtype type="ATTRIBUTE-DEFINITION"/>
+                  <itemtype type="ATTRIBUTE-FORMAT"/>
+                  <itemtype type="ATTRIBUTE-CARD"/>
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_BHRGTUitgifteberichten_Gegevens_bRO_DO">BRO_DO</item>
+                              idref="detail_attribute_BHRGTUitgifteberichten_BooronderzoekVoorDataleverancier_uitvoerderOnderzoek">uitvoerder onderzoek</item>
                      </item>
-                     <item/>
+                     <item>De identificatie die de organisatie die voor de bronhouder geldt als verantwoordelijk voor de uitvoering van het booronderzoek, als onderneming in het Handelsregister heeft.</item>
                      <item>
-                        <item type="global"
-                              idref="global_class_DomeinmodelBROCommon_ObjectUitRegistratie">Object uit registratie</item>
+                        <item type="global" idref="global_class_DomeinmodelBROCommon_KvKNummer">KvK-nummer</item>
                      </item>
                      <item>1</item>
                   </part>
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_BHRGTUitgifteberichten_Gegevens_bRG_O_DP">BRG_O_DP</item>
+                              idref="detail_attribute_BHRGTUitgifteberichten_BooronderzoekVoorDataleverancier_uitvoerderLocatiebepaling">uitvoerder locatiebepaling</item>
                      </item>
-                     <item/>
+                     <item>De identificatie die de organisatie die voor de bronhouder geldt als verantwoordelijk voor de uitvoering van de plaatsbepaling, als onderneming in het Handelsregister heeft.</item>
                      <item>
-                        <item type="global" idref="global_class_BHRGTUitgifteberichten_Booronderzoek">Booronderzoek</item>
+                        <item type="global" idref="global_class_DomeinmodelBROCommon_KvKNummer">KvK-nummer</item>
                      </item>
                      <item>1</item>
                   </part>
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_BHRGTUitgifteberichten_Gegevens_bRG_O">BRG_O</item>
+                              idref="detail_attribute_BHRGTUitgifteberichten_BooronderzoekVoorDataleverancier_uitvoerderVerticalePositiebepaling">uitvoerder verticale positiebepaling</item>
                      </item>
-                     <item/>
+                     <item>De identificatie die de organisatie die voor de bronhouder geldt als verantwoordelijk voor de uitvoering van de bepaling van de verticale positie, als onderneming in het Handelsregister heeft.</item>
                      <item>
-                        <item type="global"
-                              idref="global_class_BHRGTUitgifteberichten_Booronderzoek2">Booronderzoek2</item>
+                        <item type="global" idref="global_class_DomeinmodelBROCommon_KvKNummer">KvK-nummer</item>
                      </item>
                      <item>1</item>
+                  </part>
+               </content>
+            </section>
+            <section type="SHORT-ASSOCIATIONS">
+               <content approach="association">
+                  <itemtype/>
+                  <itemtype type="ASSOCIATION-NAME"/>
+                  <itemtype type="ASSOCIATION-DEFINITION"/>
+                  <part>
+                     <item>
+                        <item>Booronderzoek voor dataleverancier</item>
+                        <item>is specialisatie van</item>
+                        <item>
+                           <item type="global" idref="global_class_BHRGTUitgifteberichten_Booronderzoek">Booronderzoek</item>
+                        </item>
+                     </item>
+                     <item>De gegevens die het booronderzoek identificeren en inzicht geven in de geschiedenis van het object voorafgaand aan opname in de registratie ondergrond.</item>
+                  </part>
+               </content>
+               <content approach="target">
+                  <itemtype/>
+                  <itemtype type="ROLE-NAME"/>
+                  <itemtype type="ROLE-DEFINITION"/>
+                  <part>
+                     <item>
+                        <item>Booronderzoek voor dataleverancier</item>
+                        <item>is specialisatie van</item>
+                        <item>
+                           <item type="global" idref="global_class_BHRGTUitgifteberichten_Booronderzoek">Booronderzoek</item>
+                        </item>
+                     </item>
+                     <item>De gegevens die het booronderzoek identificeren en inzicht geven in de geschiedenis van het object voorafgaand aan opname in de registratie ondergrond.</item>
                   </part>
                </content>
             </section>
@@ -16960,50 +16592,51 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
       <!--removed empty content-->
       <!--removed empty content-->
       <!--removed empty content-->
+      <!--removed empty content-->
+      <!--removed empty content-->
+      <!--removed empty content-->
       <section type="DETAILS">
-         <section type="DETAILS-OBJECTTYPE"><!--removed empty content-->
+         <section type="DETAILS-OBJECTTYPE">
             <section name="Bericht van verzending gegevens"
                      type="OBJECTTYPE"
                      id="detail_class_BHRGTUitgifteberichten_BerichtVanVerzendingGegevens"
                      id-global="global_class_BHRGTUitgifteberichten_BerichtVanVerzendingGegevens">
                <section name="uitgiftedocument"
-                        type="DETAIL-ASSOCIATION"
-                        id="detail_association_BHRGTUitgifteberichten_BerichtVanVerzendingGegevens"
-                        id-global="global_association_BHRGTUitgifteberichten_BerichtVanVerzendingGegevens">
-                  <content approach="association">
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_BHRGTUitgifteberichten_BerichtVanVerzendingGegevens_uitgiftedocument"
+                        id-global="global_attribute_BHRGTUitgifteberichten_BerichtVanVerzendingGegevens_uitgiftedocument">
+                  <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
                         <item>uitgiftedocument</item>
                      </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>0 .. 1</item>
-                     </part>
-                     <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
-                        <item>Gerelateerd obecttype</item>
-                        <item>
-                           <item type="global" idref="global_class_BHRGTUitgifteberichten_Gegevens">Gegevens</item>
-                        </item>
-                     </part>
-                  </content>
-                  <content approach="target">
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>uitgiftedocument</item>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>TODO</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
                         <item>Nee</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
                         <item>0 .. 1</item>
                      </part>
-                     <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
-                        <item>Gerelateerd obecttype</item>
-                        <item>
-                           <item type="global" idref="global_class_BHRGTUitgifteberichten_Gegevens">Gegevens</item>
-                        </item>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>Abstract Registratieobject</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
                      </part>
                   </content>
                </section>
@@ -17256,57 +16889,6 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
                         <item>Datum</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
-                        <item>Indicatie afleidbaar</item>
-                        <item>Nee</item>
-                     </part>
-                  </content>
-               </section>
-               <section name="uitvoerder onderzoek"
-                        type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_BHRGTUitgifteberichten_Booronderzoek_uitvoerderOnderzoek"
-                        id-global="global_attribute_BHRGTUitgifteberichten_Booronderzoek_uitvoerderOnderzoek">
-                  <content>
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>uitvoerder onderzoek</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMST">
-                        <item>Herkomst</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-DEFINITIE">
-                        <item>Definitie</item>
-                        <item>De identificatie die de organisatie die voor de bronhouder geldt als verantwoordelijk voor de uitvoering van het booronderzoek, als onderneming in het Handelsregister heeft.</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
-                        <item>Herkomst definitie</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-TOELICHTING">
-                        <item>Toelichting</item>
-                        <item>Het gegeven wordt alleen uitgeleverd aan de dataleverancier en de bronhouder.</item>
-                     </part>
-                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                        <item>Mogelijk geen waarde</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                        <item>Indicatie materiële historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                        <item>Indicatie formele historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>0 .. 1</item>
-                     </part>
-                     <part type="CFG-DOC-FORMAAT">
-                        <item>Formaat</item>
-                        <item>KvK-nummer</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
@@ -17634,7 +17216,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         </part>
                         <part type="CFG-DOC-INDICATIEAUTHENTIEK">
                            <item>Indicatie authentiek</item>
-                           <item>Ja</item>
+                           <item>Overig</item>
                         </part>
                         <part type="CFG-DOC-FORMAAT">
                            <item>Formaat</item>
@@ -17685,7 +17267,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         </part>
                         <part type="CFG-DOC-INDICATIEAUTHENTIEK">
                            <item>Indicatie authentiek</item>
-                           <item>Ja</item>
+                           <item>Overig</item>
                         </part>
                         <part type="CFG-DOC-FORMAAT">
                            <item>Formaat</item>
@@ -17740,7 +17322,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         </part>
                         <part type="CFG-DOC-INDICATIEAUTHENTIEK">
                            <item>Indicatie authentiek</item>
-                           <item>Ja</item>
+                           <item>Overig</item>
                         </part>
                         <part type="CFG-DOC-FORMAAT">
                            <item>Formaat</item>
@@ -17795,7 +17377,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         </part>
                         <part type="CFG-DOC-INDICATIEAUTHENTIEK">
                            <item>Indicatie authentiek</item>
-                           <item>Ja</item>
+                           <item>Overig</item>
                         </part>
                         <part type="CFG-DOC-FORMAAT">
                            <item>Formaat</item>
@@ -17846,7 +17428,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         </part>
                         <part type="CFG-DOC-INDICATIEAUTHENTIEK">
                            <item>Indicatie authentiek</item>
-                           <item>Ja</item>
+                           <item>Overig</item>
                         </part>
                         <part type="CFG-DOC-FORMAAT">
                            <item>Formaat</item>
@@ -17897,7 +17479,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         </part>
                         <part type="CFG-DOC-INDICATIEAUTHENTIEK">
                            <item>Indicatie authentiek</item>
-                           <item>Ja</item>
+                           <item>Overig</item>
                         </part>
                         <part type="CFG-DOC-FORMAAT">
                            <item>Formaat</item>
@@ -17952,7 +17534,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         </part>
                         <part type="CFG-DOC-INDICATIEAUTHENTIEK">
                            <item>Indicatie authentiek</item>
-                           <item>Ja</item>
+                           <item>Overig</item>
                         </part>
                         <part type="CFG-DOC-FORMAAT">
                            <item>Formaat</item>
@@ -18003,7 +17585,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         </part>
                         <part type="CFG-DOC-INDICATIEAUTHENTIEK">
                            <item>Indicatie authentiek</item>
-                           <item>Ja</item>
+                           <item>Overig</item>
                         </part>
                         <part type="CFG-DOC-FORMAAT">
                            <item>Formaat</item>
@@ -18059,7 +17641,7 @@ De registerbeheerder zal een object alleen bij hoge uitzondering uit registratie
                         </part>
                         <part type="CFG-DOC-INDICATIEAUTHENTIEK">
                            <item>Indicatie authentiek</item>
-                           <item>Ja</item>
+                           <item>Overig</item>
                         </part>
                         <part type="CFG-DOC-FORMAAT">
                            <item>Formaat</item>
@@ -18110,7 +17692,7 @@ De registerbeheerder zal een object alleen bij hoge uitzondering uit registratie
                         </part>
                         <part type="CFG-DOC-INDICATIEAUTHENTIEK">
                            <item>Indicatie authentiek</item>
-                           <item>Ja</item>
+                           <item>Overig</item>
                         </part>
                         <part type="CFG-DOC-FORMAAT">
                            <item>Formaat</item>
@@ -18166,7 +17748,7 @@ Ook hiervoor geldt dat akkoord van de bronhouder vereist is.</item>
                         </part>
                         <part type="CFG-DOC-INDICATIEAUTHENTIEK">
                            <item>Indicatie authentiek</item>
-                           <item>Ja</item>
+                           <item>Overig</item>
                         </part>
                         <part type="CFG-DOC-FORMAAT">
                            <item>Formaat</item>
@@ -18217,7 +17799,7 @@ Ook hiervoor geldt dat akkoord van de bronhouder vereist is.</item>
                         </part>
                         <part type="CFG-DOC-INDICATIEAUTHENTIEK">
                            <item>Indicatie authentiek</item>
-                           <item>Ja</item>
+                           <item>Overig</item>
                         </part>
                         <part type="CFG-DOC-FORMAAT">
                            <item>Formaat</item>
@@ -18228,8 +17810,8 @@ Ook hiervoor geldt dat akkoord van de bronhouder vereist is.</item>
                </section>
                <section name="Aangeleverde locatie"
                         type="DETAIL-COMPOSITE"
-                        id="detail_class_BHRGTCommon_AangeleverdeLocatie"
-                        id-global="global_class_BHRGTCommon_AangeleverdeLocatie">
+                        id="detail_class_BHRGTUitgifteberichten_AangeleverdeLocatie"
+                        id-global="global_class_BHRGTUitgifteberichten_AangeleverdeLocatie">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -18254,11 +17836,12 @@ Ook hiervoor geldt dat akkoord van de bronhouder vereist is.</item>
                   </content>
                   <section name="coördinaten"
                            type="DETAIL-COMPOSITE-ATTRIBUTE"
-                           id="detail_attribute_BHRGTCommon_AangeleverdeLocatie_coRdinaten"
-                           id-global="global_attribute_BHRGTCommon_AangeleverdeLocatie_coRdinaten">
+                           id="detail_attribute_BHRGTUitgifteberichten_AangeleverdeLocatie_coRdinaten"
+                           id-global="global_attribute_BHRGTUitgifteberichten_AangeleverdeLocatie_coRdinaten">
                      <content>
                         <part type="COMPOSER">
-                           <item type="global" idref="global_class_BHRGTCommon_AangeleverdeLocatie">Aangeleverde locatie</item>
+                           <item type="global"
+                                 idref="global_class_BHRGTUitgifteberichten_AangeleverdeLocatie">Aangeleverde locatie</item>
                         </part>
                         <part type="CFG-DOC-NAAM">
                            <item>Naam</item>
@@ -18292,10 +17875,6 @@ Ook hiervoor geldt dat akkoord van de bronhouder vereist is.</item>
                            <item>Indicatie kardinaliteit</item>
                            <item>1</item>
                         </part>
-                        <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                           <item>Indicatie authentiek</item>
-                           <item>Ja</item>
-                        </part>
                         <part type="CFG-DOC-FORMAAT">
                            <item>Formaat</item>
                            <item>Coördinatenpaar</item>
@@ -18304,11 +17883,12 @@ Ook hiervoor geldt dat akkoord van de bronhouder vereist is.</item>
                   </section>
                   <section name="referentiestelsel"
                            type="DETAIL-COMPOSITE-ATTRIBUTE"
-                           id="detail_attribute_BHRGTCommon_AangeleverdeLocatie_referentiestelsel"
-                           id-global="global_attribute_BHRGTCommon_AangeleverdeLocatie_referentiestelsel">
+                           id="detail_attribute_BHRGTUitgifteberichten_AangeleverdeLocatie_referentiestelsel"
+                           id-global="global_attribute_BHRGTUitgifteberichten_AangeleverdeLocatie_referentiestelsel">
                      <content>
                         <part type="COMPOSER">
-                           <item type="global" idref="global_class_BHRGTCommon_AangeleverdeLocatie">Aangeleverde locatie</item>
+                           <item type="global"
+                                 idref="global_class_BHRGTUitgifteberichten_AangeleverdeLocatie">Aangeleverde locatie</item>
                         </part>
                         <part type="CFG-DOC-NAAM">
                            <item>Naam</item>
@@ -18342,10 +17922,6 @@ Ook hiervoor geldt dat akkoord van de bronhouder vereist is.</item>
                            <item>Indicatie kardinaliteit</item>
                            <item>1</item>
                         </part>
-                        <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                           <item>Indicatie authentiek</item>
-                           <item>Ja</item>
-                        </part>
                         <part type="CFG-DOC-FORMAAT">
                            <item>Formaat</item>
                            <item>Referentiestelsel</item>
@@ -18354,11 +17930,12 @@ Ook hiervoor geldt dat akkoord van de bronhouder vereist is.</item>
                   </section>
                   <section name="datum locatiebepaling"
                            type="DETAIL-COMPOSITE-ATTRIBUTE"
-                           id="detail_attribute_BHRGTCommon_AangeleverdeLocatie_datumLocatiebepaling"
-                           id-global="global_attribute_BHRGTCommon_AangeleverdeLocatie_datumLocatiebepaling">
+                           id="detail_attribute_BHRGTUitgifteberichten_AangeleverdeLocatie_datumLocatiebepaling"
+                           id-global="global_attribute_BHRGTUitgifteberichten_AangeleverdeLocatie_datumLocatiebepaling">
                      <content>
                         <part type="COMPOSER">
-                           <item type="global" idref="global_class_BHRGTCommon_AangeleverdeLocatie">Aangeleverde locatie</item>
+                           <item type="global"
+                                 idref="global_class_BHRGTUitgifteberichten_AangeleverdeLocatie">Aangeleverde locatie</item>
                         </part>
                         <part type="CFG-DOC-NAAM">
                            <item>Naam</item>
@@ -18392,10 +17969,6 @@ Ook hiervoor geldt dat akkoord van de bronhouder vereist is.</item>
                            <item>Indicatie kardinaliteit</item>
                            <item>1</item>
                         </part>
-                        <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                           <item>Indicatie authentiek</item>
-                           <item>Ja</item>
-                        </part>
                         <part type="CFG-DOC-FORMAAT">
                            <item>Formaat</item>
                            <item>Datum</item>
@@ -18404,11 +17977,12 @@ Ook hiervoor geldt dat akkoord van de bronhouder vereist is.</item>
                   </section>
                   <section name="methode locatiebepaling"
                            type="DETAIL-COMPOSITE-ATTRIBUTE"
-                           id="detail_attribute_BHRGTCommon_AangeleverdeLocatie_methodeLocatiebepaling"
-                           id-global="global_attribute_BHRGTCommon_AangeleverdeLocatie_methodeLocatiebepaling">
+                           id="detail_attribute_BHRGTUitgifteberichten_AangeleverdeLocatie_methodeLocatiebepaling"
+                           id-global="global_attribute_BHRGTUitgifteberichten_AangeleverdeLocatie_methodeLocatiebepaling">
                      <content>
                         <part type="COMPOSER">
-                           <item type="global" idref="global_class_BHRGTCommon_AangeleverdeLocatie">Aangeleverde locatie</item>
+                           <item type="global"
+                                 idref="global_class_BHRGTUitgifteberichten_AangeleverdeLocatie">Aangeleverde locatie</item>
                         </part>
                         <part type="CFG-DOC-NAAM">
                            <item>Naam</item>
@@ -18442,63 +18016,9 @@ Ook hiervoor geldt dat akkoord van de bronhouder vereist is.</item>
                            <item>Indicatie kardinaliteit</item>
                            <item>1</item>
                         </part>
-                        <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                           <item>Indicatie authentiek</item>
-                           <item>Ja</item>
-                        </part>
                         <part type="CFG-DOC-FORMAAT">
                            <item>Formaat</item>
                            <item>MethodeLocatiebepaling</item>
-                        </part>
-                     </content>
-                  </section>
-                  <section name="uitvoerder locatiebepaling"
-                           type="DETAIL-COMPOSITE-ATTRIBUTE"
-                           id="detail_attribute_BHRGTCommon_AangeleverdeLocatie_uitvoerderLocatiebepaling"
-                           id-global="global_attribute_BHRGTCommon_AangeleverdeLocatie_uitvoerderLocatiebepaling">
-                     <content>
-                        <part type="COMPOSER">
-                           <item type="global" idref="global_class_BHRGTCommon_AangeleverdeLocatie">Aangeleverde locatie</item>
-                        </part>
-                        <part type="CFG-DOC-NAAM">
-                           <item>Naam</item>
-                           <item>uitvoerder locatiebepaling</item>
-                        </part>
-                        <part type="CFG-DOC-HERKOMST">
-                           <item>Herkomst</item>
-                           <item>BRO</item>
-                        </part>
-                        <part type="CFG-DOC-DEFINITIE">
-                           <item>Definitie</item>
-                           <item>De identificatie die de organisatie die voor de bronhouder geldt als verantwoordelijk voor de uitvoering van de plaatsbepaling, als onderneming in het Handelsregister heeft.</item>
-                        </part>
-                        <part type="CFG-DOC-HERKOMSTDEFINITIE">
-                           <item>Herkomst definitie</item>
-                           <item>BRO</item>
-                        </part>
-                        <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                           <item>Mogelijk geen waarde</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                           <item>Indicatie materiële historie</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                           <item>Indicatie formele historie</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                           <item>Indicatie kardinaliteit</item>
-                           <item>1</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                           <item>Indicatie authentiek</item>
-                           <item>Ja</item>
-                        </part>
-                        <part type="CFG-DOC-FORMAAT">
-                           <item>Formaat</item>
-                           <item>KvK-nummer</item>
                         </part>
                      </content>
                   </section>
@@ -18673,8 +18193,8 @@ Ook hiervoor geldt dat akkoord van de bronhouder vereist is.</item>
                </section>
                <section name="Aangeleverde verticale positie"
                         type="DETAIL-COMPOSITE"
-                        id="detail_class_BHRGTCommon_AangeleverdeVerticalePositie"
-                        id-global="global_class_BHRGTCommon_AangeleverdeVerticalePositie">
+                        id="detail_class_BHRGTUitgifteberichten_AangeleverdeVerticalePositie"
+                        id-global="global_class_BHRGTUitgifteberichten_AangeleverdeVerticalePositie">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -18695,12 +18215,12 @@ Ook hiervoor geldt dat akkoord van de bronhouder vereist is.</item>
                   </content>
                   <section name="lokaal verticaal referentiepunt"
                            type="DETAIL-COMPOSITE-ATTRIBUTE"
-                           id="detail_attribute_BHRGTCommon_AangeleverdeVerticalePositie_lokaalVerticaalReferentiepunt"
-                           id-global="global_attribute_BHRGTCommon_AangeleverdeVerticalePositie_lokaalVerticaalReferentiepunt">
+                           id="detail_attribute_BHRGTUitgifteberichten_AangeleverdeVerticalePositie_lokaalVerticaalReferentiepunt"
+                           id-global="global_attribute_BHRGTUitgifteberichten_AangeleverdeVerticalePositie_lokaalVerticaalReferentiepunt">
                      <content>
                         <part type="COMPOSER">
                            <item type="global"
-                                 idref="global_class_BHRGTCommon_AangeleverdeVerticalePositie">Aangeleverde verticale positie</item>
+                                 idref="global_class_BHRGTUitgifteberichten_AangeleverdeVerticalePositie">Aangeleverde verticale positie</item>
                         </part>
                         <part type="CFG-DOC-NAAM">
                            <item>Naam</item>
@@ -18734,10 +18254,6 @@ Ook hiervoor geldt dat akkoord van de bronhouder vereist is.</item>
                            <item>Indicatie kardinaliteit</item>
                            <item>1</item>
                         </part>
-                        <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                           <item>Indicatie authentiek</item>
-                           <item>Ja</item>
-                        </part>
                         <part type="CFG-DOC-FORMAAT">
                            <item>Formaat</item>
                            <item>LokaalVerticaalReferentiepunt</item>
@@ -18746,12 +18262,12 @@ Ook hiervoor geldt dat akkoord van de bronhouder vereist is.</item>
                   </section>
                   <section name="verschuiving"
                            type="DETAIL-COMPOSITE-ATTRIBUTE"
-                           id="detail_attribute_BHRGTCommon_AangeleverdeVerticalePositie_verschuiving"
-                           id-global="global_attribute_BHRGTCommon_AangeleverdeVerticalePositie_verschuiving">
+                           id="detail_attribute_BHRGTUitgifteberichten_AangeleverdeVerticalePositie_verschuiving"
+                           id-global="global_attribute_BHRGTUitgifteberichten_AangeleverdeVerticalePositie_verschuiving">
                      <content>
                         <part type="COMPOSER">
                            <item type="global"
-                                 idref="global_class_BHRGTCommon_AangeleverdeVerticalePositie">Aangeleverde verticale positie</item>
+                                 idref="global_class_BHRGTUitgifteberichten_AangeleverdeVerticalePositie">Aangeleverde verticale positie</item>
                         </part>
                         <part type="CFG-DOC-NAAM">
                            <item>Naam</item>
@@ -18785,10 +18301,6 @@ Ook hiervoor geldt dat akkoord van de bronhouder vereist is.</item>
                            <item>Indicatie kardinaliteit</item>
                            <item>1</item>
                         </part>
-                        <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                           <item>Indicatie authentiek</item>
-                           <item>Ja</item>
-                        </part>
                         <part type="CFG-DOC-FORMAAT">
                            <item>Formaat</item>
                            <item>Meetwaarde</item>
@@ -18797,12 +18309,12 @@ Ook hiervoor geldt dat akkoord van de bronhouder vereist is.</item>
                   </section>
                   <section name="waterdiepte"
                            type="DETAIL-COMPOSITE-ATTRIBUTE"
-                           id="detail_attribute_BHRGTCommon_AangeleverdeVerticalePositie_waterdiepte"
-                           id-global="global_attribute_BHRGTCommon_AangeleverdeVerticalePositie_waterdiepte">
+                           id="detail_attribute_BHRGTUitgifteberichten_AangeleverdeVerticalePositie_waterdiepte"
+                           id-global="global_attribute_BHRGTUitgifteberichten_AangeleverdeVerticalePositie_waterdiepte">
                      <content>
                         <part type="COMPOSER">
                            <item type="global"
-                                 idref="global_class_BHRGTCommon_AangeleverdeVerticalePositie">Aangeleverde verticale positie</item>
+                                 idref="global_class_BHRGTUitgifteberichten_AangeleverdeVerticalePositie">Aangeleverde verticale positie</item>
                         </part>
                         <part type="CFG-DOC-NAAM">
                            <item>Naam</item>
@@ -18836,10 +18348,6 @@ Ook hiervoor geldt dat akkoord van de bronhouder vereist is.</item>
                            <item>Indicatie kardinaliteit</item>
                            <item>0 .. 1</item>
                         </part>
-                        <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                           <item>Indicatie authentiek</item>
-                           <item>Ja</item>
-                        </part>
                         <part type="CFG-DOC-FORMAAT">
                            <item>Formaat</item>
                            <item>Meetwaarde</item>
@@ -18848,12 +18356,12 @@ Ook hiervoor geldt dat akkoord van de bronhouder vereist is.</item>
                   </section>
                   <section name="verticaal referentievlak"
                            type="DETAIL-COMPOSITE-ATTRIBUTE"
-                           id="detail_attribute_BHRGTCommon_AangeleverdeVerticalePositie_verticaalReferentievlak"
-                           id-global="global_attribute_BHRGTCommon_AangeleverdeVerticalePositie_verticaalReferentievlak">
+                           id="detail_attribute_BHRGTUitgifteberichten_AangeleverdeVerticalePositie_verticaalReferentievlak"
+                           id-global="global_attribute_BHRGTUitgifteberichten_AangeleverdeVerticalePositie_verticaalReferentievlak">
                      <content>
                         <part type="COMPOSER">
                            <item type="global"
-                                 idref="global_class_BHRGTCommon_AangeleverdeVerticalePositie">Aangeleverde verticale positie</item>
+                                 idref="global_class_BHRGTUitgifteberichten_AangeleverdeVerticalePositie">Aangeleverde verticale positie</item>
                         </part>
                         <part type="CFG-DOC-NAAM">
                            <item>Naam</item>
@@ -18887,10 +18395,6 @@ Ook hiervoor geldt dat akkoord van de bronhouder vereist is.</item>
                            <item>Indicatie kardinaliteit</item>
                            <item>1</item>
                         </part>
-                        <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                           <item>Indicatie authentiek</item>
-                           <item>Ja</item>
-                        </part>
                         <part type="CFG-DOC-FORMAAT">
                            <item>Formaat</item>
                            <item>VerticaalReferentievlak</item>
@@ -18899,12 +18403,12 @@ Ook hiervoor geldt dat akkoord van de bronhouder vereist is.</item>
                   </section>
                   <section name="datum verticale positiebepaling"
                            type="DETAIL-COMPOSITE-ATTRIBUTE"
-                           id="detail_attribute_BHRGTCommon_AangeleverdeVerticalePositie_datumVerticalePositiebepaling"
-                           id-global="global_attribute_BHRGTCommon_AangeleverdeVerticalePositie_datumVerticalePositiebepaling">
+                           id="detail_attribute_BHRGTUitgifteberichten_AangeleverdeVerticalePositie_datumVerticalePositiebepaling"
+                           id-global="global_attribute_BHRGTUitgifteberichten_AangeleverdeVerticalePositie_datumVerticalePositiebepaling">
                      <content>
                         <part type="COMPOSER">
                            <item type="global"
-                                 idref="global_class_BHRGTCommon_AangeleverdeVerticalePositie">Aangeleverde verticale positie</item>
+                                 idref="global_class_BHRGTUitgifteberichten_AangeleverdeVerticalePositie">Aangeleverde verticale positie</item>
                         </part>
                         <part type="CFG-DOC-NAAM">
                            <item>Naam</item>
@@ -18938,10 +18442,6 @@ Ook hiervoor geldt dat akkoord van de bronhouder vereist is.</item>
                            <item>Indicatie kardinaliteit</item>
                            <item>1</item>
                         </part>
-                        <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                           <item>Indicatie authentiek</item>
-                           <item>Ja</item>
-                        </part>
                         <part type="CFG-DOC-FORMAAT">
                            <item>Formaat</item>
                            <item>Datum</item>
@@ -18950,12 +18450,12 @@ Ook hiervoor geldt dat akkoord van de bronhouder vereist is.</item>
                   </section>
                   <section name="methode verticale positiebepaling"
                            type="DETAIL-COMPOSITE-ATTRIBUTE"
-                           id="detail_attribute_BHRGTCommon_AangeleverdeVerticalePositie_methodeVerticalePositiebepaling"
-                           id-global="global_attribute_BHRGTCommon_AangeleverdeVerticalePositie_methodeVerticalePositiebepaling">
+                           id="detail_attribute_BHRGTUitgifteberichten_AangeleverdeVerticalePositie_methodeVerticalePositiebepaling"
+                           id-global="global_attribute_BHRGTUitgifteberichten_AangeleverdeVerticalePositie_methodeVerticalePositiebepaling">
                      <content>
                         <part type="COMPOSER">
                            <item type="global"
-                                 idref="global_class_BHRGTCommon_AangeleverdeVerticalePositie">Aangeleverde verticale positie</item>
+                                 idref="global_class_BHRGTUitgifteberichten_AangeleverdeVerticalePositie">Aangeleverde verticale positie</item>
                         </part>
                         <part type="CFG-DOC-NAAM">
                            <item>Naam</item>
@@ -18989,250 +18489,160 @@ Ook hiervoor geldt dat akkoord van de bronhouder vereist is.</item>
                            <item>Indicatie kardinaliteit</item>
                            <item>1</item>
                         </part>
-                        <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                           <item>Indicatie authentiek</item>
-                           <item>Ja</item>
-                        </part>
                         <part type="CFG-DOC-FORMAAT">
                            <item>Formaat</item>
                            <item>MethodeVerticalePositiebepaling</item>
                         </part>
                      </content>
                   </section>
-                  <section name="uitvoerder verticale positiebepaling"
-                           type="DETAIL-COMPOSITE-ATTRIBUTE"
-                           id="detail_attribute_BHRGTCommon_AangeleverdeVerticalePositie_uitvoerderVerticalePositiebepaling"
-                           id-global="global_attribute_BHRGTCommon_AangeleverdeVerticalePositie_uitvoerderVerticalePositiebepaling">
-                     <content>
-                        <part type="COMPOSER">
-                           <item type="global"
-                                 idref="global_class_BHRGTCommon_AangeleverdeVerticalePositie">Aangeleverde verticale positie</item>
-                        </part>
-                        <part type="CFG-DOC-NAAM">
-                           <item>Naam</item>
-                           <item>uitvoerder verticale positiebepaling</item>
-                        </part>
-                        <part type="CFG-DOC-HERKOMST">
-                           <item>Herkomst</item>
-                           <item>BRO</item>
-                        </part>
-                        <part type="CFG-DOC-DEFINITIE">
-                           <item>Definitie</item>
-                           <item>De identificatie die de organisatie die voor de bronhouder geldt als verantwoordelijk voor de uitvoering van de bepaling van de verticale positie, als onderneming in het Handelsregister heeft.</item>
-                        </part>
-                        <part type="CFG-DOC-HERKOMSTDEFINITIE">
-                           <item>Herkomst definitie</item>
-                           <item>BRO</item>
-                        </part>
-                        <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                           <item>Mogelijk geen waarde</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                           <item>Indicatie materiële historie</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                           <item>Indicatie formele historie</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                           <item>Indicatie kardinaliteit</item>
-                           <item>0 .. 1</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                           <item>Indicatie authentiek</item>
-                           <item>Ja</item>
-                        </part>
-                        <part type="CFG-DOC-FORMAAT">
-                           <item>Formaat</item>
-                           <item>KvK-nummer</item>
-                        </part>
-                     </content>
-                  </section>
                </section>
-               <section name="heeft"
-                        type="DETAIL-ASSOCIATION"
-                        id="detail_association_BHRGTUitgifteberichten_Booronderzoek"
-                        id-global="global_association_BHRGTUitgifteberichten_Booronderzoek">
-                  <content approach="association">
+            </section>
+            <section name="Booronderzoek voor dataleverancier"
+                     type="OBJECTTYPE"
+                     id="detail_class_BHRGTUitgifteberichten_BooronderzoekVoorDataleverancier"
+                     id-global="global_class_BHRGTUitgifteberichten_BooronderzoekVoorDataleverancier">
+               <section name="uitvoerder onderzoek"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_BHRGTUitgifteberichten_BooronderzoekVoorDataleverancier_uitvoerderOnderzoek"
+                        id-global="global_attribute_BHRGTUitgifteberichten_BooronderzoekVoorDataleverancier_uitvoerderOnderzoek">
+                  <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>heeft</item>
+                        <item>uitvoerder onderzoek</item>
                      </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>0 .. 1</item>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
                      </part>
-                     <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
-                        <item>Gerelateerd obecttype</item>
-                        <item>
-                           <item type="global" idref="global_class_BHRGTCommon_Terreintoestand">Terreintoestand</item>
-                        </item>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>De identificatie die de organisatie die voor de bronhouder geldt als verantwoordelijk voor de uitvoering van het booronderzoek, als onderneming in het Handelsregister heeft.</item>
                      </part>
-                  </content>
-                  <content approach="target">
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>heeft</item>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
                      </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>0 .. 1</item>
+                     <part type="CFG-DOC-TOELICHTING">
+                        <item>Toelichting</item>
+                        <item>Het gegeven wordt alleen uitgeleverd aan de dataleverancier en de bronhouder.</item>
                      </part>
-                     <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
-                        <item>Gerelateerd obecttype</item>
-                        <item>
-                           <item type="global" idref="global_class_BHRGTCommon_Terreintoestand">Terreintoestand</item>
-                        </item>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
                      </part>
-                  </content>
-               </section>
-               <section name="heeft"
-                        type="DETAIL-ASSOCIATION"
-                        id="detail_association_BHRGTUitgifteberichten_Booronderzoek"
-                        id-global="global_association_BHRGTUitgifteberichten_Booronderzoek">
-                  <content approach="association">
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>heeft</item>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
                      </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>0 .. 1</item>
-                     </part>
-                     <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
-                        <item>Gerelateerd obecttype</item>
-                        <item>
-                           <item type="global" idref="global_class_BHRGTCommon_Sliblaag">Sliblaag</item>
-                        </item>
-                     </part>
-                  </content>
-                  <content approach="target">
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>heeft</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>0 .. 1</item>
-                     </part>
-                     <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
-                        <item>Gerelateerd obecttype</item>
-                        <item>
-                           <item type="global" idref="global_class_BHRGTCommon_Sliblaag">Sliblaag</item>
-                        </item>
-                     </part>
-                  </content>
-               </section>
-               <section name="aan ondergrond ontsloten door"
-                        type="DETAIL-ASSOCIATION"
-                        id="detail_association_BHRGTUitgifteberichten_Booronderzoek"
-                        id-global="global_association_BHRGTUitgifteberichten_Booronderzoek">
-                  <content approach="association">
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>aan ondergrond ontsloten door</item>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
                         <item>1</item>
                      </part>
-                     <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
-                        <item>Gerelateerd obecttype</item>
-                        <item>
-                           <item type="global" idref="global_class_BHRGTCommon_Boring">Boring</item>
-                        </item>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>KvK-nummer</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
                      </part>
                   </content>
-                  <content approach="target">
+               </section>
+               <section name="uitvoerder locatiebepaling"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_BHRGTUitgifteberichten_BooronderzoekVoorDataleverancier_uitvoerderLocatiebepaling"
+                        id-global="global_attribute_BHRGTUitgifteberichten_BooronderzoekVoorDataleverancier_uitvoerderLocatiebepaling">
+                  <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>aan ondergrond ontsloten door</item>
+                        <item>uitvoerder locatiebepaling</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>De identificatie die de organisatie die voor de bronhouder geldt als verantwoordelijk voor de uitvoering van de plaatsbepaling, als onderneming in het Handelsregister heeft.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
                         <item>1</item>
                      </part>
-                     <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
-                        <item>Gerelateerd obecttype</item>
-                        <item>
-                           <item type="global" idref="global_class_BHRGTCommon_Boring">Boring</item>
-                        </item>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>KvK-nummer</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
                      </part>
                   </content>
                </section>
-               <section name="heeft"
-                        type="DETAIL-ASSOCIATION"
-                        id="detail_association_BHRGTUitgifteberichten_Booronderzoek"
-                        id-global="global_association_BHRGTUitgifteberichten_Booronderzoek">
-                  <content approach="association">
+               <section name="uitvoerder verticale positiebepaling"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_BHRGTUitgifteberichten_BooronderzoekVoorDataleverancier_uitvoerderVerticalePositiebepaling"
+                        id-global="global_attribute_BHRGTUitgifteberichten_BooronderzoekVoorDataleverancier_uitvoerderVerticalePositiebepaling">
+                  <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>heeft</item>
+                        <item>uitvoerder verticale positiebepaling</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>De identificatie die de organisatie die voor de bronhouder geldt als verantwoordelijk voor de uitvoering van de bepaling van de verticale positie, als onderneming in het Handelsregister heeft.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
-                        <item>0 .. 1</item>
+                        <item>1</item>
                      </part>
-                     <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
-                        <item>Gerelateerd obecttype</item>
-                        <item>
-                           <item type="global" idref="global_class_BHRGTCommon_Boormonsteronderzoek">Boormonsteronderzoek</item>
-                        </item>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>KvK-nummer</item>
                      </part>
-                  </content>
-                  <content approach="target">
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>heeft</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>0 .. 1</item>
-                     </part>
-                     <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
-                        <item>Gerelateerd obecttype</item>
-                        <item>
-                           <item type="global" idref="global_class_BHRGTCommon_Boormonsteronderzoek">Boormonsteronderzoek</item>
-                        </item>
-                     </part>
-                  </content>
-               </section>
-               <section name="heeft"
-                        type="DETAIL-ASSOCIATION"
-                        id="detail_association_BHRGTUitgifteberichten_Booronderzoek"
-                        id-global="global_association_BHRGTUitgifteberichten_Booronderzoek">
-                  <content approach="association">
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>heeft</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>0 .. 1</item>
-                     </part>
-                     <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
-                        <item>Gerelateerd obecttype</item>
-                        <item>
-                           <item type="global" idref="global_class_BHRGTCommon_Boormonsterbeschrijving">Boormonsterbeschrijving</item>
-                        </item>
-                     </part>
-                  </content>
-                  <content approach="target">
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>heeft</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>0 .. 1</item>
-                     </part>
-                     <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
-                        <item>Gerelateerd obecttype</item>
-                        <item>
-                           <item type="global" idref="global_class_BHRGTCommon_Boormonsterbeschrijving">Boormonsterbeschrijving</item>
-                        </item>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
                      </part>
                   </content>
                </section>
@@ -19240,70 +18650,7 @@ Ook hiervoor geldt dat akkoord van de bronhouder vereist is.</item>
          </section>
          <!--removed empty content-->
          <!--removed empty content-->
-         <section type="DETAILS-UNION">
-            <section name="Gegevens"
-                     type="KEUZE"
-                     id="detail_class_BHRGTUitgifteberichten_Gegevens"
-                     id-global="global_class_BHRGTUitgifteberichten_Gegevens">
-               <section name="BRO_DO"
-                        type="DETAIL-UNIONELEMENT"
-                        id="detail_attribute_BHRGTUitgifteberichten_Gegevens_bRO_DO"
-                        id-global="global_attribute_BHRGTUitgifteberichten_Gegevens_bRO_DO">
-                  <content>
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>BRO_DO</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>1</item>
-                     </part>
-                     <part type="CFG-DOC-FORMAAT">
-                        <item>Formaat</item>
-                        <item>Object uit registratie</item>
-                     </part>
-                  </content>
-               </section>
-               <section name="BRG_O_DP"
-                        type="DETAIL-UNIONELEMENT"
-                        id="detail_attribute_BHRGTUitgifteberichten_Gegevens_bRG_O_DP"
-                        id-global="global_attribute_BHRGTUitgifteberichten_Gegevens_bRG_O_DP">
-                  <content>
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>BRG_O_DP</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>1</item>
-                     </part>
-                     <part type="CFG-DOC-FORMAAT">
-                        <item>Formaat</item>
-                        <item>Booronderzoek</item>
-                     </part>
-                  </content>
-               </section>
-               <section name="BRG_O"
-                        type="DETAIL-UNIONELEMENT"
-                        id="detail_attribute_BHRGTUitgifteberichten_Gegevens_bRG_O"
-                        id-global="global_attribute_BHRGTUitgifteberichten_Gegevens_bRG_O">
-                  <content>
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>BRG_O</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>1</item>
-                     </part>
-                     <part type="CFG-DOC-FORMAAT">
-                        <item>Formaat</item>
-                        <item>Booronderzoek2</item>
-                     </part>
-                  </content>
-               </section>
-            </section>
-         </section>
+         <!--removed empty content-->
          <!--removed empty content-->
          <!--removed empty content-->
          <!--removed empty content-->
