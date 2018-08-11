@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_4532D2FB_BE47_4dc9_BBAD_0F65D43D52FB"
       generator-version="1.46.3"
-      generator-date="2018-08-10T07:17:10Z">
+      generator-date="2018-08-11T09:39:37Z">
    <section type="DOMAIN"
             name="Domeinmodel BRO Common"
             id="global_package_DomeinmodelBROCommon">
@@ -624,45 +624,6 @@ Wanneer een attribuut een domein van het type DatumTijd heeft is het voldoende d
                </content>
             </section>
          </section>
-         <section name="KvK-nummer"
-                  type="STRUCTUREDDATATYPE"
-                  id="global_class_DomeinmodelBROCommon_KvKNummer"
-                  uuid="EAID_4BE1D7A1_E440_4f6e_A685_5C36E7E7FE44">
-            <content>
-               <part type="CFG-DOC-NAAM">
-                  <item>Naam</item>
-                  <item>KvK-nummer</item>
-               </part>
-               <part type="CFG-DOC-HERKOMST">
-                  <item>Herkomst</item>
-                  <item>BRO</item>
-               </part>
-               <part type="CFG-DOC-DEFINITIE">
-                  <item>Definitie</item>
-                  <item>Het domein KvK-nummer geeft het identificerende gegeven van een onderneming in het Handelsregister. De opbouw is NNNNNNNN.</item>
-               </part>
-            </content>
-            <section type="SHORT-DATAELEMENTS">
-               <content>
-                  <itemtype/>
-                  <itemtype type="DATAELEMENT-NAME"/>
-                  <itemtype type="DATAELEMENT-DEFINITION"/>
-                  <itemtype type="DATAELEMENT-FORMAT"/>
-                  <itemtype type="DATAELEMENT-CARD"/>
-                  <part>
-                     <item>
-                        <item type="detail"
-                              idref="detail_attribute_DomeinmodelBROCommon_KvKNummer_waarde">waarde</item>
-                     </item>
-                     <item/>
-                     <item>
-                        <item type="global">Integer</item>
-                     </item>
-                     <item>1</item>
-                  </part>
-               </content>
-            </section>
-         </section>
          <section name="Meetwaarde"
                   type="STRUCTUREDDATATYPE"
                   id="global_class_DomeinmodelBROCommon_Meetwaarde"
@@ -687,45 +648,6 @@ Gewoonlijk wordt niet alleen de opbouw van het getal benoemd, maar wordt het dom
 Wanneer een attribuut een domein van het type meetwaarde heeft wordt de opbouw, de eenheid en indien van toepassing het bereik gegeven. De opbouw wordt aangeduid als N.N waarde. N staat voor het maximum aantal cijfers voor, resp. het aantal cijfers achter het scheidingsteken.</item>
                </part>
             </content>
-         </section>
-         <section name="Registratieobjectcode"
-                  type="STRUCTUREDDATATYPE"
-                  id="global_class_DomeinmodelBROCommon_Registratieobjectcode"
-                  uuid="EAID_93C0AD25_0254_4f38_94CC_27E233062A44">
-            <content>
-               <part type="CFG-DOC-NAAM">
-                  <item>Naam</item>
-                  <item>Registratieobjectcode</item>
-               </part>
-               <part type="CFG-DOC-HERKOMST">
-                  <item>Herkomst</item>
-                  <item>BRO</item>
-               </part>
-               <part type="CFG-DOC-DEFINITIE">
-                  <item>Definitie</item>
-                  <item>De code voor het identificeren van een object dat in de registratie ondergrond is opgenomen. Formaat voor een registratieobject zijnde een mijnbouwwetvergunning: EPLNNNNNNNNNNNN.</item>
-               </part>
-            </content>
-            <section type="SHORT-DATAELEMENTS">
-               <content>
-                  <itemtype/>
-                  <itemtype type="DATAELEMENT-NAME"/>
-                  <itemtype type="DATAELEMENT-DEFINITION"/>
-                  <itemtype type="DATAELEMENT-FORMAT"/>
-                  <itemtype type="DATAELEMENT-CARD"/>
-                  <part>
-                     <item>
-                        <item type="detail"
-                              idref="detail_attribute_DomeinmodelBROCommon_Registratieobjectcode_waarde">waarde</item>
-                     </item>
-                     <item/>
-                     <item>
-                        <item type="global">CHARACTERSTRING</item>
-                     </item>
-                     <item>1</item>
-                  </part>
-               </content>
-            </section>
          </section>
          <section name="Tekst200"
                   type="STRUCTUREDDATATYPE"
@@ -808,7 +730,38 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
             </section>
          </section>
       </section>
-      <!--removed empty content-->
+      <section type="OVERVIEW-PRIMITIVEDATATYPE">
+         <section name="KvK-nummer"
+                  type="PRIMITIVEDATATYPE"
+                  id="global_class_DomeinmodelBROCommon_KvKNummer"
+                  uuid="EAID_4BE1D7A1_E440_4f6e_A685_5C36E7E7FE44">
+            <content>
+               <part type="CFG-DOC-NAAM">
+                  <item>Naam</item>
+                  <item>KvK-nummer</item>
+               </part>
+               <part type="CFG-DOC-DEFINITIE">
+                  <item>Definitie</item>
+                  <item>Het domein KvK-nummer geeft het identificerende gegeven van een onderneming in het Handelsregister. De opbouw is NNNNNNNN.</item>
+               </part>
+            </content>
+         </section>
+         <section name="Registratieobjectcode"
+                  type="PRIMITIVEDATATYPE"
+                  id="global_class_DomeinmodelBROCommon_Registratieobjectcode"
+                  uuid="EAID_93C0AD25_0254_4f38_94CC_27E233062A44">
+            <content>
+               <part type="CFG-DOC-NAAM">
+                  <item>Naam</item>
+                  <item>Registratieobjectcode</item>
+               </part>
+               <part type="CFG-DOC-DEFINITIE">
+                  <item>Definitie</item>
+                  <item>De code voor het identificeren van een object dat in de registratie ondergrond is opgenomen. Formaat voor een registratieobject zijnde een mijnbouwwetvergunning: EPLNNNNNNNNNNNN.</item>
+               </part>
+            </content>
+         </section>
+      </section>
       <section type="OVERVIEW-CODELIST">
          <content>
             <part>
@@ -1867,63 +1820,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                   </content>
                </section>
             </section>
-            <section name="KvK-nummer"
-                     type="GESTRUCTUREERD DATATYPE"
-                     id="detail_class_DomeinmodelBROCommon_KvKNummer"
-                     id-global="global_class_DomeinmodelBROCommon_KvKNummer">
-               <section name="waarde"
-                        type="DETAIL-DATAELEMENT"
-                        id="detail_attribute_DomeinmodelBROCommon_KvKNummer_waarde"
-                        id-global="global_attribute_DomeinmodelBROCommon_KvKNummer_waarde">
-                  <content>
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>waarde</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMST">
-                        <item>Herkomst</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>1</item>
-                     </part>
-                     <part type="CFG-DOC-FORMAAT">
-                        <item>Formaat</item>
-                        <item>Integer</item>
-                     </part>
-                  </content>
-               </section>
-            </section>
             <!--removed empty content-->
-            <section name="Registratieobjectcode"
-                     type="GESTRUCTUREERD DATATYPE"
-                     id="detail_class_DomeinmodelBROCommon_Registratieobjectcode"
-                     id-global="global_class_DomeinmodelBROCommon_Registratieobjectcode">
-               <section name="waarde"
-                        type="DETAIL-DATAELEMENT"
-                        id="detail_attribute_DomeinmodelBROCommon_Registratieobjectcode_waarde"
-                        id-global="global_attribute_DomeinmodelBROCommon_Registratieobjectcode_waarde">
-                  <content>
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>waarde</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMST">
-                        <item>Herkomst</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>1</item>
-                     </part>
-                     <part type="CFG-DOC-FORMAAT">
-                        <item>Formaat</item>
-                        <item>CHARACTERSTRING</item>
-                     </part>
-                  </content>
-               </section>
-            </section>
             <section name="Tekst200"
                      type="GESTRUCTUREERD DATATYPE"
                      id="detail_class_DomeinmodelBROCommon_Tekst200"
