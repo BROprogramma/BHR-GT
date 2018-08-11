@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_4532D2FB_BE47_4dc9_BBAD_0F65D43D52FB"
       generator-version="1.46.3"
-      generator-date="2018-08-11T10:24:37Z">
+      generator-date="2018-08-11T11:12:43Z">
    <section type="DOMAIN"
             name="Domeinmodel BRO Common"
             id="global_package_DomeinmodelBROCommon">
@@ -15443,18 +15443,14 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         </part>
                      </content>
                   </section>
-                  <section name="verschuiving"
-                           type="DETAIL-COMPOSITE-ATTRIBUTE"
-                           id="detail_attribute_BHRGTInnameberichten_AangeleverdeVerticalePositie_verschuiving"
-                           id-global="global_attribute_BHRGTInnameberichten_AangeleverdeVerticalePositie_verschuiving">
+                  <section name="Meetwaarde"
+                           type="DETAIL-COMPOSITE"
+                           id="detail_class_DomeinmodelBROCommon_Meetwaarde"
+                           id-global="global_class_DomeinmodelBROCommon_Meetwaarde">
                      <content>
-                        <part type="COMPOSER">
-                           <item type="global"
-                                 idref="global_class_BHRGTInnameberichten_AangeleverdeVerticalePositie">Aangeleverde verticale positie</item>
-                        </part>
                         <part type="CFG-DOC-NAAM">
                            <item>Naam</item>
-                           <item>verschuiving</item>
+                           <item>Meetwaarde</item>
                         </part>
                         <part type="CFG-DOC-HERKOMST">
                            <item>Herkomst</item>
@@ -15462,46 +15458,28 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         </part>
                         <part type="CFG-DOC-DEFINITIE">
                            <item>Definitie</item>
-                           <item>De verticale positie van het lokaal verticaal referentiepunt t.o.v. het verticaal referentievlak.</item>
+                           <item>Het domein meetwaarde wordt in de basisregistratie ondergrond gebruikt voor gegevens die gemeten, berekend of anderszins bepaald zijn. Het is een getal en bij het getal hoort een eenheid. De basisregistratie ondergrond gebruikt voor de eenheden de codes uit het UCUM (Unified Code for Units of Measure)-systeem. In bijzondere gevallen is de eenheid dimensieloos.</item>
                         </part>
                         <part type="CFG-DOC-HERKOMSTDEFINITIE">
                            <item>Herkomst definitie</item>
                            <item>BRO</item>
                         </part>
-                        <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                           <item>Mogelijk geen waarde</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                           <item>Indicatie materiële historie</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                           <item>Indicatie formele historie</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                           <item>Indicatie kardinaliteit</item>
-                           <item>1</item>
-                        </part>
-                        <part type="CFG-DOC-FORMAAT">
-                           <item>Formaat</item>
-                           <item>Meetwaarde</item>
+                        <part type="CFG-DOC-TOELICHTING">
+                           <item>Toelichting</item>
+                           <item>Het getal is altijd een rationaal getal, een getal met een decimaal scheidingsteken. Door het scheidingteken krijgt het een opbouw. Het aantal cijfers voor het scheidingsteken is variabel maar begrensd. Het aantal cijfers achter het scheidingsteken ligt vast.
+Gewoonlijk wordt niet alleen de opbouw van het getal benoemd, maar wordt het domein verder ingeperkt door een bereik te specificeren. Het bereik geeft de minimale en de maximale waarde aan die een attribuut kan hebben.
+Wanneer een attribuut een domein van het type meetwaarde heeft wordt de opbouw, de eenheid en indien van toepassing het bereik gegeven. De opbouw wordt aangeduid als N.N waarde. N staat voor het maximum aantal cijfers voor, resp. het aantal cijfers achter het scheidingsteken.</item>
                         </part>
                      </content>
                   </section>
-                  <section name="waterdiepte"
-                           type="DETAIL-COMPOSITE-ATTRIBUTE"
-                           id="detail_attribute_BHRGTInnameberichten_AangeleverdeVerticalePositie_waterdiepte"
-                           id-global="global_attribute_BHRGTInnameberichten_AangeleverdeVerticalePositie_waterdiepte">
+                  <section name="Meetwaarde"
+                           type="DETAIL-COMPOSITE"
+                           id="detail_class_DomeinmodelBROCommon_Meetwaarde"
+                           id-global="global_class_DomeinmodelBROCommon_Meetwaarde">
                      <content>
-                        <part type="COMPOSER">
-                           <item type="global"
-                                 idref="global_class_BHRGTInnameberichten_AangeleverdeVerticalePositie">Aangeleverde verticale positie</item>
-                        </part>
                         <part type="CFG-DOC-NAAM">
                            <item>Naam</item>
-                           <item>waterdiepte</item>
+                           <item>Meetwaarde</item>
                         </part>
                         <part type="CFG-DOC-HERKOMST">
                            <item>Herkomst</item>
@@ -15509,31 +15487,17 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         </part>
                         <part type="CFG-DOC-DEFINITIE">
                            <item>Definitie</item>
-                           <item>De positie van de waterbodem ten opzichte van het wateroppervlak.</item>
+                           <item>Het domein meetwaarde wordt in de basisregistratie ondergrond gebruikt voor gegevens die gemeten, berekend of anderszins bepaald zijn. Het is een getal en bij het getal hoort een eenheid. De basisregistratie ondergrond gebruikt voor de eenheden de codes uit het UCUM (Unified Code for Units of Measure)-systeem. In bijzondere gevallen is de eenheid dimensieloos.</item>
                         </part>
                         <part type="CFG-DOC-HERKOMSTDEFINITIE">
                            <item>Herkomst definitie</item>
                            <item>BRO</item>
                         </part>
-                        <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                           <item>Mogelijk geen waarde</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                           <item>Indicatie materiële historie</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                           <item>Indicatie formele historie</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                           <item>Indicatie kardinaliteit</item>
-                           <item>0 .. 1</item>
-                        </part>
-                        <part type="CFG-DOC-FORMAAT">
-                           <item>Formaat</item>
-                           <item>Meetwaarde</item>
+                        <part type="CFG-DOC-TOELICHTING">
+                           <item>Toelichting</item>
+                           <item>Het getal is altijd een rationaal getal, een getal met een decimaal scheidingsteken. Door het scheidingteken krijgt het een opbouw. Het aantal cijfers voor het scheidingsteken is variabel maar begrensd. Het aantal cijfers achter het scheidingsteken ligt vast.
+Gewoonlijk wordt niet alleen de opbouw van het getal benoemd, maar wordt het domein verder ingeperkt door een bereik te specificeren. Het bereik geeft de minimale en de maximale waarde aan die een attribuut kan hebben.
+Wanneer een attribuut een domein van het type meetwaarde heeft wordt de opbouw, de eenheid en indien van toepassing het bereik gegeven. De opbouw wordt aangeduid als N.N waarde. N staat voor het maximum aantal cijfers voor, resp. het aantal cijfers achter het scheidingsteken.</item>
                         </part>
                      </content>
                   </section>
@@ -18131,18 +18095,14 @@ Ook hiervoor geldt dat akkoord van de bronhouder vereist is.</item>
                         </part>
                      </content>
                   </section>
-                  <section name="verschuiving"
-                           type="DETAIL-COMPOSITE-ATTRIBUTE"
-                           id="detail_attribute_BHRGTUitgifteberichten_AangeleverdeVerticalePositie_verschuiving"
-                           id-global="global_attribute_BHRGTUitgifteberichten_AangeleverdeVerticalePositie_verschuiving">
+                  <section name="Meetwaarde"
+                           type="DETAIL-COMPOSITE"
+                           id="detail_class_DomeinmodelBROCommon_Meetwaarde"
+                           id-global="global_class_DomeinmodelBROCommon_Meetwaarde">
                      <content>
-                        <part type="COMPOSER">
-                           <item type="global"
-                                 idref="global_class_BHRGTUitgifteberichten_AangeleverdeVerticalePositie">Aangeleverde verticale positie</item>
-                        </part>
                         <part type="CFG-DOC-NAAM">
                            <item>Naam</item>
-                           <item>verschuiving</item>
+                           <item>Meetwaarde</item>
                         </part>
                         <part type="CFG-DOC-HERKOMST">
                            <item>Herkomst</item>
@@ -18150,46 +18110,28 @@ Ook hiervoor geldt dat akkoord van de bronhouder vereist is.</item>
                         </part>
                         <part type="CFG-DOC-DEFINITIE">
                            <item>Definitie</item>
-                           <item>De verticale positie van het lokaal verticaal referentiepunt t.o.v. het verticaal referentievlak.</item>
+                           <item>Het domein meetwaarde wordt in de basisregistratie ondergrond gebruikt voor gegevens die gemeten, berekend of anderszins bepaald zijn. Het is een getal en bij het getal hoort een eenheid. De basisregistratie ondergrond gebruikt voor de eenheden de codes uit het UCUM (Unified Code for Units of Measure)-systeem. In bijzondere gevallen is de eenheid dimensieloos.</item>
                         </part>
                         <part type="CFG-DOC-HERKOMSTDEFINITIE">
                            <item>Herkomst definitie</item>
                            <item>BRO</item>
                         </part>
-                        <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                           <item>Mogelijk geen waarde</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                           <item>Indicatie materiële historie</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                           <item>Indicatie formele historie</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                           <item>Indicatie kardinaliteit</item>
-                           <item>1</item>
-                        </part>
-                        <part type="CFG-DOC-FORMAAT">
-                           <item>Formaat</item>
-                           <item>Meetwaarde</item>
+                        <part type="CFG-DOC-TOELICHTING">
+                           <item>Toelichting</item>
+                           <item>Het getal is altijd een rationaal getal, een getal met een decimaal scheidingsteken. Door het scheidingteken krijgt het een opbouw. Het aantal cijfers voor het scheidingsteken is variabel maar begrensd. Het aantal cijfers achter het scheidingsteken ligt vast.
+Gewoonlijk wordt niet alleen de opbouw van het getal benoemd, maar wordt het domein verder ingeperkt door een bereik te specificeren. Het bereik geeft de minimale en de maximale waarde aan die een attribuut kan hebben.
+Wanneer een attribuut een domein van het type meetwaarde heeft wordt de opbouw, de eenheid en indien van toepassing het bereik gegeven. De opbouw wordt aangeduid als N.N waarde. N staat voor het maximum aantal cijfers voor, resp. het aantal cijfers achter het scheidingsteken.</item>
                         </part>
                      </content>
                   </section>
-                  <section name="waterdiepte"
-                           type="DETAIL-COMPOSITE-ATTRIBUTE"
-                           id="detail_attribute_BHRGTUitgifteberichten_AangeleverdeVerticalePositie_waterdiepte"
-                           id-global="global_attribute_BHRGTUitgifteberichten_AangeleverdeVerticalePositie_waterdiepte">
+                  <section name="Meetwaarde"
+                           type="DETAIL-COMPOSITE"
+                           id="detail_class_DomeinmodelBROCommon_Meetwaarde"
+                           id-global="global_class_DomeinmodelBROCommon_Meetwaarde">
                      <content>
-                        <part type="COMPOSER">
-                           <item type="global"
-                                 idref="global_class_BHRGTUitgifteberichten_AangeleverdeVerticalePositie">Aangeleverde verticale positie</item>
-                        </part>
                         <part type="CFG-DOC-NAAM">
                            <item>Naam</item>
-                           <item>waterdiepte</item>
+                           <item>Meetwaarde</item>
                         </part>
                         <part type="CFG-DOC-HERKOMST">
                            <item>Herkomst</item>
@@ -18197,31 +18139,17 @@ Ook hiervoor geldt dat akkoord van de bronhouder vereist is.</item>
                         </part>
                         <part type="CFG-DOC-DEFINITIE">
                            <item>Definitie</item>
-                           <item>De positie van de waterbodem ten opzichte van het wateroppervlak.</item>
+                           <item>Het domein meetwaarde wordt in de basisregistratie ondergrond gebruikt voor gegevens die gemeten, berekend of anderszins bepaald zijn. Het is een getal en bij het getal hoort een eenheid. De basisregistratie ondergrond gebruikt voor de eenheden de codes uit het UCUM (Unified Code for Units of Measure)-systeem. In bijzondere gevallen is de eenheid dimensieloos.</item>
                         </part>
                         <part type="CFG-DOC-HERKOMSTDEFINITIE">
                            <item>Herkomst definitie</item>
                            <item>BRO</item>
                         </part>
-                        <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                           <item>Mogelijk geen waarde</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                           <item>Indicatie materiële historie</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                           <item>Indicatie formele historie</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                           <item>Indicatie kardinaliteit</item>
-                           <item>0 .. 1</item>
-                        </part>
-                        <part type="CFG-DOC-FORMAAT">
-                           <item>Formaat</item>
-                           <item>Meetwaarde</item>
+                        <part type="CFG-DOC-TOELICHTING">
+                           <item>Toelichting</item>
+                           <item>Het getal is altijd een rationaal getal, een getal met een decimaal scheidingsteken. Door het scheidingteken krijgt het een opbouw. Het aantal cijfers voor het scheidingsteken is variabel maar begrensd. Het aantal cijfers achter het scheidingsteken ligt vast.
+Gewoonlijk wordt niet alleen de opbouw van het getal benoemd, maar wordt het domein verder ingeperkt door een bereik te specificeren. Het bereik geeft de minimale en de maximale waarde aan die een attribuut kan hebben.
+Wanneer een attribuut een domein van het type meetwaarde heeft wordt de opbouw, de eenheid en indien van toepassing het bereik gegeven. De opbouw wordt aangeduid als N.N waarde. N staat voor het maximum aantal cijfers voor, resp. het aantal cijfers achter het scheidingsteken.</item>
                         </part>
                      </content>
                   </section>
