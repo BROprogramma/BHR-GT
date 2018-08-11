@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_4532D2FB_BE47_4dc9_BBAD_0F65D43D52FB"
       generator-version="1.46.3"
-      generator-date="2018-08-11T09:39:37Z">
+      generator-date="2018-08-11T10:24:37Z">
    <section type="DOMAIN"
             name="Domeinmodel BRO Common"
             id="global_package_DomeinmodelBROCommon">
@@ -623,31 +623,6 @@ Wanneer een attribuut een domein van het type DatumTijd heeft is het voldoende d
                   </part>
                </content>
             </section>
-         </section>
-         <section name="Meetwaarde"
-                  type="STRUCTUREDDATATYPE"
-                  id="global_class_DomeinmodelBROCommon_Meetwaarde"
-                  uuid="EAID_25F322D9_26D9_4965_AC5A_1DC5898A2852">
-            <content>
-               <part type="CFG-DOC-NAAM">
-                  <item>Naam</item>
-                  <item>Meetwaarde</item>
-               </part>
-               <part type="CFG-DOC-HERKOMST">
-                  <item>Herkomst</item>
-                  <item>BRO</item>
-               </part>
-               <part type="CFG-DOC-DEFINITIE">
-                  <item>Definitie</item>
-                  <item>Het domein meetwaarde wordt in de basisregistratie ondergrond gebruikt voor gegevens die gemeten, berekend of anderszins bepaald zijn. Het is een getal en bij het getal hoort een eenheid. De basisregistratie ondergrond gebruikt voor de eenheden de codes uit het UCUM (Unified Code for Units of Measure)-systeem. In bijzondere gevallen is de eenheid dimensieloos.</item>
-               </part>
-               <part type="CFG-DOC-TOELICHTING">
-                  <item>Toelichting</item>
-                  <item>Het getal is altijd een rationaal getal, een getal met een decimaal scheidingsteken. Door het scheidingteken krijgt het een opbouw. Het aantal cijfers voor het scheidingsteken is variabel maar begrensd. Het aantal cijfers achter het scheidingsteken ligt vast.
-Gewoonlijk wordt niet alleen de opbouw van het getal benoemd, maar wordt het domein verder ingeperkt door een bereik te specificeren. Het bereik geeft de minimale en de maximale waarde aan die een attribuut kan hebben.
-Wanneer een attribuut een domein van het type meetwaarde heeft wordt de opbouw, de eenheid en indien van toepassing het bereik gegeven. De opbouw wordt aangeduid als N.N waarde. N staat voor het maximum aantal cijfers voor, resp. het aantal cijfers achter het scheidingsteken.</item>
-               </part>
-            </content>
          </section>
          <section name="Tekst200"
                   type="STRUCTUREDDATATYPE"
@@ -1820,7 +1795,6 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                   </content>
                </section>
             </section>
-            <!--removed empty content-->
             <section name="Tekst200"
                      type="GESTRUCTUREERD DATATYPE"
                      id="detail_class_DomeinmodelBROCommon_Tekst200"
