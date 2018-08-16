@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_4532D2FB_BE47_4dc9_BBAD_0F65D43D52FB"
       generator-version="1.46.3"
-      generator-date="2018-08-11T11:12:43Z">
+      generator-date="2018-08-16T09:09:22Z">
    <section type="DOMAIN"
             name="Domeinmodel BRO Common"
             id="global_package_DomeinmodelBROCommon">
@@ -16159,56 +16159,6 @@ Wanneer een attribuut een domein van het type meetwaarde heeft wordt de opbouw, 
                      <item>
                         <value>
                            <item type="detail"
-                                 idref="detail_class_DomeinmodelBROCommon_GestandaardiseerdeLocatie">gestandaardiseerde locatie</item>
-                        </value>
-                     </item>
-                     <item>
-                        <value>De gegevens over de plaats van het booronderzoek op het aardoppervlak zoals die door de basisregistratie ondergrond zijn getransformeerd.</value>
-                     </item>
-                     <item/>
-                     <item>
-                        <value>1</value>
-                     </item>
-                  </part>
-                  <part type="COMPOSED">
-                     <item>
-                        <item type="detail"
-                              idref="detail_attribute_DomeinmodelBROCommon_GestandaardiseerdeLocatie_coRdinaten">coördinaten</item>
-                     </item>
-                     <item>De coördinaten in het standaard referentiestelsel.</item>
-                     <item>
-                        <item type="global" idref="global_class_DomeinmodelBROCommon_CoRdinatenpaar">Coördinatenpaar</item>
-                     </item>
-                     <item>1</item>
-                  </part>
-                  <part type="COMPOSED">
-                     <item>
-                        <item type="detail"
-                              idref="detail_attribute_DomeinmodelBROCommon_GestandaardiseerdeLocatie_referentiestelsel">referentiestelsel</item>
-                     </item>
-                     <item>Het referentiestelsel van de gestandaardiseerde coördinaten.</item>
-                     <item>
-                        <item type="global"
-                              idref="global_class_DomeinmodelBROCommon_Referentiestelsel">Referentiestelsel</item>
-                     </item>
-                     <item>1</item>
-                  </part>
-                  <part type="COMPOSED">
-                     <item>
-                        <item type="detail"
-                              idref="detail_attribute_DomeinmodelBROCommon_GestandaardiseerdeLocatie_coRdinaattransformatie">coördinaattransformatie</item>
-                     </item>
-                     <item>De methode die de basisregistratie ondergrond heeft gebruikt voor het omzetten van de aangeleverde coördinaten.</item>
-                     <item>
-                        <item type="global"
-                              idref="global_class_DomeinmodelBROCommon_CoRdinaattransformatie">Coördinaattransformatie</item>
-                     </item>
-                     <item>1</item>
-                  </part>
-                  <part type="COMPOSER">
-                     <item>
-                        <value>
-                           <item type="detail"
                                  idref="detail_class_BHRGTUitgifteberichten_AangeleverdeVerticalePositie">aangeleverde verticale positie</item>
                         </value>
                      </item>
@@ -16285,6 +16235,56 @@ Wanneer een attribuut een domein van het type meetwaarde heeft wordt de opbouw, 
                      <item>
                         <item type="global"
                               idref="global_class_BHRGTCommon_MethodeVerticalePositiebepaling">MethodeVerticalePositiebepaling</item>
+                     </item>
+                     <item>1</item>
+                  </part>
+                  <part type="COMPOSER">
+                     <item>
+                        <value>
+                           <item type="detail"
+                                 idref="detail_class_DomeinmodelBROCommon_GestandaardiseerdeLocatie">gestandaardiseerde locatie</item>
+                        </value>
+                     </item>
+                     <item>
+                        <value>De gegevens over de plaats van het booronderzoek op het aardoppervlak zoals die door de basisregistratie ondergrond zijn getransformeerd.</value>
+                     </item>
+                     <item/>
+                     <item>
+                        <value>1</value>
+                     </item>
+                  </part>
+                  <part type="COMPOSED">
+                     <item>
+                        <item type="detail"
+                              idref="detail_attribute_DomeinmodelBROCommon_GestandaardiseerdeLocatie_coRdinaten">coördinaten</item>
+                     </item>
+                     <item>De coördinaten in het standaard referentiestelsel.</item>
+                     <item>
+                        <item type="global" idref="global_class_DomeinmodelBROCommon_CoRdinatenpaar">Coördinatenpaar</item>
+                     </item>
+                     <item>1</item>
+                  </part>
+                  <part type="COMPOSED">
+                     <item>
+                        <item type="detail"
+                              idref="detail_attribute_DomeinmodelBROCommon_GestandaardiseerdeLocatie_referentiestelsel">referentiestelsel</item>
+                     </item>
+                     <item>Het referentiestelsel van de gestandaardiseerde coördinaten.</item>
+                     <item>
+                        <item type="global"
+                              idref="global_class_DomeinmodelBROCommon_Referentiestelsel">Referentiestelsel</item>
+                     </item>
+                     <item>1</item>
+                  </part>
+                  <part type="COMPOSED">
+                     <item>
+                        <item type="detail"
+                              idref="detail_attribute_DomeinmodelBROCommon_GestandaardiseerdeLocatie_coRdinaattransformatie">coördinaattransformatie</item>
+                     </item>
+                     <item>De methode die de basisregistratie ondergrond heeft gebruikt voor het omzetten van de aangeleverde coördinaten.</item>
+                     <item>
+                        <item type="global"
+                              idref="global_class_DomeinmodelBROCommon_CoRdinaattransformatie">Coördinaattransformatie</item>
                      </item>
                      <item>1</item>
                   </part>
@@ -17858,174 +17858,6 @@ Ook hiervoor geldt dat akkoord van de bronhouder vereist is.</item>
                      </content>
                   </section>
                </section>
-               <section name="Gestandaardiseerde locatie"
-                        type="DETAIL-COMPOSITE"
-                        id="detail_class_DomeinmodelBROCommon_GestandaardiseerdeLocatie"
-                        id-global="global_class_DomeinmodelBROCommon_GestandaardiseerdeLocatie">
-                  <content>
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>Gestandaardiseerde locatie</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMST">
-                        <item>Herkomst</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-DEFINITIE">
-                        <item>Definitie</item>
-                        <item>De gegevens over de plaats van het booronderzoek op het aardoppervlak zoals die door de basisregistratie ondergrond zijn getransformeerd.</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
-                        <item>Herkomst definitie</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-TOELICHTING">
-                        <item>Toelichting</item>
-                        <item>De gegevens staan niet in een brondocument. De gestandaardiseerde locatie wordt door de basisregistratie ondergrond berekend ten behoeve van afnemers. Het maakt het mogelijk alle gegevens in de registratie ondergrond in een en hetzelfde referentiestelsel te ontsluiten.</item>
-                     </part>
-                  </content>
-                  <section name="coördinaten"
-                           type="DETAIL-COMPOSITE-ATTRIBUTE"
-                           id="detail_attribute_DomeinmodelBROCommon_GestandaardiseerdeLocatie_coRdinaten"
-                           id-global="global_attribute_DomeinmodelBROCommon_GestandaardiseerdeLocatie_coRdinaten">
-                     <content>
-                        <part type="COMPOSER">
-                           <item type="global"
-                                 idref="global_class_DomeinmodelBROCommon_GestandaardiseerdeLocatie">Gestandaardiseerde locatie</item>
-                        </part>
-                        <part type="CFG-DOC-NAAM">
-                           <item>Naam</item>
-                           <item>coördinaten</item>
-                        </part>
-                        <part type="CFG-DOC-HERKOMST">
-                           <item>Herkomst</item>
-                           <item>BRO</item>
-                        </part>
-                        <part type="CFG-DOC-DEFINITIE">
-                           <item>Definitie</item>
-                           <item>De coördinaten in het standaard referentiestelsel.</item>
-                        </part>
-                        <part type="CFG-DOC-HERKOMSTDEFINITIE">
-                           <item>Herkomst definitie</item>
-                           <item>BRO</item>
-                        </part>
-                        <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                           <item>Mogelijk geen waarde</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                           <item>Indicatie materiële historie</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                           <item>Indicatie formele historie</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                           <item>Indicatie kardinaliteit</item>
-                           <item>1</item>
-                        </part>
-                        <part type="CFG-DOC-FORMAAT">
-                           <item>Formaat</item>
-                           <item>Coördinatenpaar</item>
-                        </part>
-                     </content>
-                  </section>
-                  <section name="referentiestelsel"
-                           type="DETAIL-COMPOSITE-ATTRIBUTE"
-                           id="detail_attribute_DomeinmodelBROCommon_GestandaardiseerdeLocatie_referentiestelsel"
-                           id-global="global_attribute_DomeinmodelBROCommon_GestandaardiseerdeLocatie_referentiestelsel">
-                     <content>
-                        <part type="COMPOSER">
-                           <item type="global"
-                                 idref="global_class_DomeinmodelBROCommon_GestandaardiseerdeLocatie">Gestandaardiseerde locatie</item>
-                        </part>
-                        <part type="CFG-DOC-NAAM">
-                           <item>Naam</item>
-                           <item>referentiestelsel</item>
-                        </part>
-                        <part type="CFG-DOC-HERKOMST">
-                           <item>Herkomst</item>
-                           <item>BRO</item>
-                        </part>
-                        <part type="CFG-DOC-DEFINITIE">
-                           <item>Definitie</item>
-                           <item>Het referentiestelsel van de gestandaardiseerde coördinaten.</item>
-                        </part>
-                        <part type="CFG-DOC-HERKOMSTDEFINITIE">
-                           <item>Herkomst definitie</item>
-                           <item>BRO</item>
-                        </part>
-                        <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                           <item>Mogelijk geen waarde</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                           <item>Indicatie materiële historie</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                           <item>Indicatie formele historie</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                           <item>Indicatie kardinaliteit</item>
-                           <item>1</item>
-                        </part>
-                        <part type="CFG-DOC-FORMAAT">
-                           <item>Formaat</item>
-                           <item>Referentiestelsel</item>
-                        </part>
-                     </content>
-                  </section>
-                  <section name="coördinaattransformatie"
-                           type="DETAIL-COMPOSITE-ATTRIBUTE"
-                           id="detail_attribute_DomeinmodelBROCommon_GestandaardiseerdeLocatie_coRdinaattransformatie"
-                           id-global="global_attribute_DomeinmodelBROCommon_GestandaardiseerdeLocatie_coRdinaattransformatie">
-                     <content>
-                        <part type="COMPOSER">
-                           <item type="global"
-                                 idref="global_class_DomeinmodelBROCommon_GestandaardiseerdeLocatie">Gestandaardiseerde locatie</item>
-                        </part>
-                        <part type="CFG-DOC-NAAM">
-                           <item>Naam</item>
-                           <item>coördinaattransformatie</item>
-                        </part>
-                        <part type="CFG-DOC-HERKOMST">
-                           <item>Herkomst</item>
-                           <item>BRO</item>
-                        </part>
-                        <part type="CFG-DOC-DEFINITIE">
-                           <item>Definitie</item>
-                           <item>De methode die de basisregistratie ondergrond heeft gebruikt voor het omzetten van de aangeleverde coördinaten.</item>
-                        </part>
-                        <part type="CFG-DOC-HERKOMSTDEFINITIE">
-                           <item>Herkomst definitie</item>
-                           <item>BRO</item>
-                        </part>
-                        <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                           <item>Mogelijk geen waarde</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                           <item>Indicatie materiële historie</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                           <item>Indicatie formele historie</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                           <item>Indicatie kardinaliteit</item>
-                           <item>1</item>
-                        </part>
-                        <part type="CFG-DOC-FORMAAT">
-                           <item>Formaat</item>
-                           <item>Coördinaattransformatie</item>
-                        </part>
-                     </content>
-                  </section>
-               </section>
                <section name="Aangeleverde verticale positie"
                         type="DETAIL-COMPOSITE"
                         id="detail_class_BHRGTUitgifteberichten_AangeleverdeVerticalePositie"
@@ -18291,6 +18123,174 @@ Wanneer een attribuut een domein van het type meetwaarde heeft wordt de opbouw, 
                         <part type="CFG-DOC-FORMAAT">
                            <item>Formaat</item>
                            <item>MethodeVerticalePositiebepaling</item>
+                        </part>
+                     </content>
+                  </section>
+               </section>
+               <section name="Gestandaardiseerde locatie"
+                        type="DETAIL-COMPOSITE"
+                        id="detail_class_DomeinmodelBROCommon_GestandaardiseerdeLocatie"
+                        id-global="global_class_DomeinmodelBROCommon_GestandaardiseerdeLocatie">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>Gestandaardiseerde locatie</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>De gegevens over de plaats van het booronderzoek op het aardoppervlak zoals die door de basisregistratie ondergrond zijn getransformeerd.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-TOELICHTING">
+                        <item>Toelichting</item>
+                        <item>De gegevens staan niet in een brondocument. De gestandaardiseerde locatie wordt door de basisregistratie ondergrond berekend ten behoeve van afnemers. Het maakt het mogelijk alle gegevens in de registratie ondergrond in een en hetzelfde referentiestelsel te ontsluiten.</item>
+                     </part>
+                  </content>
+                  <section name="coördinaten"
+                           type="DETAIL-COMPOSITE-ATTRIBUTE"
+                           id="detail_attribute_DomeinmodelBROCommon_GestandaardiseerdeLocatie_coRdinaten"
+                           id-global="global_attribute_DomeinmodelBROCommon_GestandaardiseerdeLocatie_coRdinaten">
+                     <content>
+                        <part type="COMPOSER">
+                           <item type="global"
+                                 idref="global_class_DomeinmodelBROCommon_GestandaardiseerdeLocatie">Gestandaardiseerde locatie</item>
+                        </part>
+                        <part type="CFG-DOC-NAAM">
+                           <item>Naam</item>
+                           <item>coördinaten</item>
+                        </part>
+                        <part type="CFG-DOC-HERKOMST">
+                           <item>Herkomst</item>
+                           <item>BRO</item>
+                        </part>
+                        <part type="CFG-DOC-DEFINITIE">
+                           <item>Definitie</item>
+                           <item>De coördinaten in het standaard referentiestelsel.</item>
+                        </part>
+                        <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                           <item>Herkomst definitie</item>
+                           <item>BRO</item>
+                        </part>
+                        <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                           <item>Mogelijk geen waarde</item>
+                           <item>Nee</item>
+                        </part>
+                        <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                           <item>Indicatie materiële historie</item>
+                           <item>Nee</item>
+                        </part>
+                        <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                           <item>Indicatie formele historie</item>
+                           <item>Nee</item>
+                        </part>
+                        <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                           <item>Indicatie kardinaliteit</item>
+                           <item>1</item>
+                        </part>
+                        <part type="CFG-DOC-FORMAAT">
+                           <item>Formaat</item>
+                           <item>Coördinatenpaar</item>
+                        </part>
+                     </content>
+                  </section>
+                  <section name="referentiestelsel"
+                           type="DETAIL-COMPOSITE-ATTRIBUTE"
+                           id="detail_attribute_DomeinmodelBROCommon_GestandaardiseerdeLocatie_referentiestelsel"
+                           id-global="global_attribute_DomeinmodelBROCommon_GestandaardiseerdeLocatie_referentiestelsel">
+                     <content>
+                        <part type="COMPOSER">
+                           <item type="global"
+                                 idref="global_class_DomeinmodelBROCommon_GestandaardiseerdeLocatie">Gestandaardiseerde locatie</item>
+                        </part>
+                        <part type="CFG-DOC-NAAM">
+                           <item>Naam</item>
+                           <item>referentiestelsel</item>
+                        </part>
+                        <part type="CFG-DOC-HERKOMST">
+                           <item>Herkomst</item>
+                           <item>BRO</item>
+                        </part>
+                        <part type="CFG-DOC-DEFINITIE">
+                           <item>Definitie</item>
+                           <item>Het referentiestelsel van de gestandaardiseerde coördinaten.</item>
+                        </part>
+                        <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                           <item>Herkomst definitie</item>
+                           <item>BRO</item>
+                        </part>
+                        <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                           <item>Mogelijk geen waarde</item>
+                           <item>Nee</item>
+                        </part>
+                        <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                           <item>Indicatie materiële historie</item>
+                           <item>Nee</item>
+                        </part>
+                        <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                           <item>Indicatie formele historie</item>
+                           <item>Nee</item>
+                        </part>
+                        <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                           <item>Indicatie kardinaliteit</item>
+                           <item>1</item>
+                        </part>
+                        <part type="CFG-DOC-FORMAAT">
+                           <item>Formaat</item>
+                           <item>Referentiestelsel</item>
+                        </part>
+                     </content>
+                  </section>
+                  <section name="coördinaattransformatie"
+                           type="DETAIL-COMPOSITE-ATTRIBUTE"
+                           id="detail_attribute_DomeinmodelBROCommon_GestandaardiseerdeLocatie_coRdinaattransformatie"
+                           id-global="global_attribute_DomeinmodelBROCommon_GestandaardiseerdeLocatie_coRdinaattransformatie">
+                     <content>
+                        <part type="COMPOSER">
+                           <item type="global"
+                                 idref="global_class_DomeinmodelBROCommon_GestandaardiseerdeLocatie">Gestandaardiseerde locatie</item>
+                        </part>
+                        <part type="CFG-DOC-NAAM">
+                           <item>Naam</item>
+                           <item>coördinaattransformatie</item>
+                        </part>
+                        <part type="CFG-DOC-HERKOMST">
+                           <item>Herkomst</item>
+                           <item>BRO</item>
+                        </part>
+                        <part type="CFG-DOC-DEFINITIE">
+                           <item>Definitie</item>
+                           <item>De methode die de basisregistratie ondergrond heeft gebruikt voor het omzetten van de aangeleverde coördinaten.</item>
+                        </part>
+                        <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                           <item>Herkomst definitie</item>
+                           <item>BRO</item>
+                        </part>
+                        <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                           <item>Mogelijk geen waarde</item>
+                           <item>Nee</item>
+                        </part>
+                        <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                           <item>Indicatie materiële historie</item>
+                           <item>Nee</item>
+                        </part>
+                        <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                           <item>Indicatie formele historie</item>
+                           <item>Nee</item>
+                        </part>
+                        <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                           <item>Indicatie kardinaliteit</item>
+                           <item>1</item>
+                        </part>
+                        <part type="CFG-DOC-FORMAAT">
+                           <item>Formaat</item>
+                           <item>Coördinaattransformatie</item>
                         </part>
                      </content>
                   </section>
