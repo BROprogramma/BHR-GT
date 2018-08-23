@@ -3,7 +3,7 @@ Deze repository wordt gebruikt voor het ontwikkelen van de BRO catalogus Boorond
 
 De BRO catalogus Booronderzoek Geotechnische boormonsterbeschrijving is benaderbaar via:
 - [BRO catalogus Booronderzoek Geotechnische boormonsterbeschrijving][1]
-let op dit is een oude versie van de catalogus.
+let op dit is een oude versie van de catalogus, binnenkort volgt een update.
 
 De gegevensdefinities voor samenstellingsonderzoek en samendrukkingsproef als onderdeel van het Boormonsteronderzoek zijn benaderbaar via:
 - [BRO gegevensdefinitie Boormonsteronderzoek samenstellingsonderzoek][2]
