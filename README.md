@@ -18,7 +18,7 @@ Bij het aanmaken van het issue dienen de volgende gegevens te worden opgenomen:
 - Beschrijving: een duidelijke beschrijving van wat er onjuist of onvolledig is opgenomen.
 - Oplossingsrichting: een voorstel voor concrete oplossing van de melding in de documentatie.
 
-Zie [voorbeeld melding][4].
+[Een nieuwe melding maken][4].
 
 U kunt ook [alle gemelde issues][5] bekijken.
 **Let op:** om issues te plaatsen, moet u een Github gebruikersaccount hebben. [Klik hier om een account te maken][6]. 
@@ -36,6 +36,6 @@ U kunt ook [alle gemelde issues][5] bekijken.
 [1]: https://github.com/BROprogramma/BHR-GT/blob/gh-pages/Catalogus%20Booronderzoek%20geotechnische%20boormonsterbeschrijving%20werkversie%201mrt2018.pdf
 [2]: https://github.com/BROprogramma/BHR-GT/blob/gh-pages/gegevensdefinitie%20Boormonsteronderzoek%20samenstellingsonderzoek%20werkversie%2020180717.pdf
 [3]: https://github.com/BROprogramma/BHR-GT/blob/gh-pages/Gegevensdefinitie%20Boormonsteronderzoek%20samendrukkingsproef%20werkversie%2020180717.pdf
-[4]: https://github.com/BROprogramma/BHR-GT/issues/7
+[4]: https://github.com/BROprogramma/BHR-GT/issues/new?template=issue_template.md
 [5]: https://github.com/BROprogramma/BHR-GT/issues
 [6]: https://github.com/join
