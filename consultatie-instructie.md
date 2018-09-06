@@ -1,3 +1,5 @@
+# Consultatie instructie
+
 Opmerkingen en vragen moeten in het Github platform middels issues worden geplaatst. 
 Bij het aanmaken van het issue dienen de volgende gegevens te worden opgenomen:
 
