@@ -23,6 +23,6 @@ U kunt ook [alle gemelde issues][5] bekijken.
 8. Klik op **Submit new issue** om het issue op te slaan. 
   
 
-[4]: https://github.com/BROprogramma/BHR-GT/issues/new?template=issue_template.md
+[4]: https://github.com/BROprogramma/BHR-GT/issues/new
 [5]: https://github.com/BROprogramma/BHR-GT/issues
 [6]: https://github.com/join
