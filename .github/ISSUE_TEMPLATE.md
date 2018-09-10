@@ -1,3 +1,6 @@
+## Type issue
+Publieke consultatie/Review sessie [verwijderen wat niet van toepassing is]
+
 ## Waar
 [Geef aan over welke plek in het document de melding gaat. Bijvoorbeeld: 'Paragraaf x.x', 'pagina y'.]
 
