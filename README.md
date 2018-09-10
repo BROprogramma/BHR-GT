@@ -2,11 +2,11 @@
 Deze repository wordt gebruikt voor het ontwikkelen van de BRO catalogus Booronderzoek - geotechniek, voor het verzamelen van issues hierover, en voor consultaties. 
 
 ## Publieke consultatie
-Van 10 september tot 22 oktober loopt de consultatie over de catalogus “[Booronderzoek - Geotechnische boormonsterbeschrijving][1]". Tegelijkertijd is de NEN norm NEN-EN-ISO 14688 in consultatie. De consultatie van de norm verloopt via de website http://normontwerpen.nen.nl.
+Van 10 september tot 22 oktober loopt de consultatie over de catalogus “[Booronderzoek - Geotechnische boormonsterbeschrijving][1]". Tegelijkertijd is de NEN norm NEN-EN-ISO 14688 in consultatie. De consultatie van de norm verloopt via de website http://normontwerpen.nen.nl. N.B. de consultatie van de NEN norm is nog niet gestart. Verwachting is dat dit voor 15 september a.s. zal gebeuren. Op dat moment verlengen we de duur van de BRO consultatie zodat beide standaarden tenminste 6 weken gelijktijdig te raadplegen zijn geweest.
 
 [Instructies voor de publieke consultatie][7]
 
-De catalogus bevat alleen het deel dat in de Ministeriële Regeling komt. Voor meer achtergrondinformatie, zie ook [Hoofdstuk 1 2 3][8]. 
+De catalogus bevat alleen het deel dat in de Ministeriële Regeling komt. Voor meer achtergrondinformatie, zie ook [Inleiding Catalogus][8]. 
 
 ## Reviewsessie
 Daarnaast zijn onderstaande documenten beschikbaar voor de reviewsessies. Om te reageren, zie de [instructie][7].
