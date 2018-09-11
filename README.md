@@ -17,7 +17,7 @@ De gegevensdefinities voor samenstellingsonderzoek en samendrukkingsproef als on
 
 
 
-[1]: https://github.com/BROprogramma/BHR-GT/blob/gh-pages/Catalogus%20Booronderzoek%20geotechnische%20boormonsterbeschrijving%20v0.9%20publieke%20consultatie%205sept2018.pdf
+[1]: https://github.com/BROprogramma/BHR-GT/blob/gh-pages/Catalogus%20Booronderzoek%20geotechnische%20boormonsterbeschrijving%20v0.9%20publieke%20consultatie%2011sept2018.pdf
 [2]: https://github.com/BROprogramma/BHR-GT/blob/gh-pages/gegevensdefinitie%20Boormonsteronderzoek%20samenstellingsonderzoek%20werkversie%2020180717.pdf
 [3]: https://github.com/BROprogramma/BHR-GT/blob/gh-pages/Gegevensdefinitie%20Boormonsteronderzoek%20samendrukkingsproef%20werkversie%2020180717.pdf
 [7]: https://github.com/BROprogramma/BHR-GT/blob/gh-pages/consultatie-instructie.md
