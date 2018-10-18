@@ -1,10 +1,10 @@
 <h2>Catalogus</h2>
 <p class="note" title="Over deze catalogus">
    Deze catalogus is automatisch samengesteld op basis van het UML model 
-   "Geotechnisch booronderzoek (BHR-GT)" door Imvertor 1.47.5 op October 18, 2018 at 11:24:31.
+   "Geotechnisch booronderzoek (BHR-GT)" door Imvertor 1.47.5 op October 18, 2018 at 12:08:58.
    <br>
    Wanneer je technische fouten of onvolkomenheden aantreft, geef dit dan door aan <i></i> en geef de code 
-   <i>"Conceptualmodel-GeotechnischbooronderzoekBHR-GT-1.0-0-20181008-20181018-132433"</i> door. 
+   <i>"Conceptualmodel-GeotechnischbooronderzoekBHR-GT-1.0-0-20181008-20181018-140900"</i> door. 
    
 </p><a class="anchor" name="global_package_DomeinmodelBROCommon"></a><section id="global_package_DomeinmodelBROCommon">
    <h3>Domein Domeinmodel BRO Common</h3>
@@ -1564,8 +1564,8 @@
    <h3>Domein Domeinmodel BRO BHR-GT bmb</h3>
    <section id="">
       <h4>Objecttypen </h4>
-      <a class="anchor" name="graph_EAID_5FADDBCB_E4B7_4eeb_BC48_BC13D22EE5F2"></a><a class="anchor" name="global_class_DomeinmodelBROBHRGTBmb_Registratieobject"></a><section id="global_class_DomeinmodelBROBHRGTBmb_Registratieobject">
-         <h5>Objecttype Registratieobject</h5>
+      <a class="anchor" name="graph_EAID_FEC6D48A_0434_4105_9576_F6FEC3D4EF01"></a><a class="anchor" name="global_class_DomeinmodelBROBHRGTBmb_AangeleverdeLocatie"></a><section id="global_class_DomeinmodelBROBHRGTBmb_AangeleverdeLocatie">
+         <h5>Objecttype Aangeleverde locatie</h5>
          
          <table>
             <colgroup width="30%"></colgroup>
@@ -1573,7 +1573,7 @@
             <tbody>
                <tr>
                   <th>Naam</th>
-                  <td>Registratieobject</td>
+                  <td>Aangeleverde locatie</td>
                </tr>
                <tr>
                   <th>Herkomst</th>
@@ -1581,13 +1581,152 @@
                </tr>
                <tr>
                   <th>Definitie</th>
-                  <td>Het geheel van gegevens dat betrekking heeft op het recht van een bepaalde partij
-                     een bepaalde mijnbouwactiviteit in een bepaald deel van de ondergrond van Nederland
-                     en zijn Exclusieve Economische Zone uit te voeren, en dat onder de verantwoordelijkheid
-                     van het ministerie van Economische Zaken en Klimaat aan de registerbeheerder van de
-                     basisregistratie ondergrond is aangeleverd en door de laatste in de registratie ondergrond
-                     is opgenomen.
+                  <td>De gegevens over de plaats van het booronderzoek op het aardoppervlak, zoals die zijn
+                     aangeleverd aan de basisregistratie ondergrond.
                   </td>
+               </tr>
+               <tr>
+                  <th>Herkomst definitie</th>
+                  <td>BRO</td>
+               </tr>
+               <tr>
+                  <th>Toelichting</th>
+                  <td>De locatie van booronderzoek is gedefinieerd als een punt.</td>
+               </tr>
+            </tbody>
+         </table>
+         
+         <h6>Overzicht attributen</h6>
+         
+         <table>
+            <colgroup width="30%"></colgroup>
+            <colgroup width="50%"></colgroup>
+            <colgroup width="10%"></colgroup>
+            <colgroup width="10%"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Attribuutnaam</th>
+                  <th>Definitie</th>
+                  <th>Formaat</th>
+                  <th>Card</th>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeLocatie_coRdinaten">coördinaten</a>
+                     
+                  </td>
+                  <td>De coördinaten die zijn aangeleverd.</td>
+                  <td>
+                     <a class="link" href="#global_class_DomeinmodelBROCommon_CoRdinatenpaar">Coördinatenpaar</a>
+                     
+                  </td>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeLocatie_referentiestelsel">referentiestelsel</a>
+                     
+                  </td>
+                  <td>Het referentiestelsel van de aangeleverde coördinaten.</td>
+                  <td>
+                     <a class="link" href="#global_class_DomeinmodelBROBHRGTBmb_Referentiestelsel">Referentiestelsel</a>
+                     
+                  </td>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeLocatie_datumLocatiebepaling">datum locatiebepaling</a>
+                     
+                  </td>
+                  <td>De datum waarop de plaats van het booronderzoek op het aardoppervlak is bepaald.</td>
+                  <td>
+                     <a class="link" href="#global_class_DomeinmodelBROCommon_Datum">Datum</a>
+                     
+                  </td>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeLocatie_methodeLocatiebepaling">methode locatiebepaling</a>
+                     
+                  </td>
+                  <td>De werkwijze die is gevolgd voor de bepaling van de plaats van het booronderzoek op
+                     het aardoppervlak.
+                  </td>
+                  <td>
+                     <a class="link" href="#global_class_DomeinmodelBROBHRGTBmb_MethodeLocatiebepaling">MethodeLocatiebepaling</a>
+                     
+                  </td>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeLocatie_uitvoerderLocatiebepaling">uitvoerder locatiebepaling</a>
+                     
+                  </td>
+                  <td>De identificatie die de organisatie die voor de bronhouder geldt als verantwoordelijk
+                     voor de uitvoering van de plaatsbepaling, als onderneming in het Handelsregister heeft.
+                  </td>
+                  <td>
+                     <a class="link" href="#global_class_DomeinmodelBROCommon_Organisatie">Organisatie</a>
+                     
+                  </td>
+                  <td>0 .. 1</td>
+               </tr>
+            </tbody>
+         </table>
+         
+         
+         <h6>Overzicht relaties</h6>
+         
+         
+         <table>
+            <colgroup width="50%"></colgroup>
+            <colgroup width="50%"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Rol naam met kardinaliteiten</th>
+                  <th>Definitie</th>
+               </tr>
+               <tr>
+                  <td>
+                     
+                     <a class="link" href="#global_class_DomeinmodelBROBHRGTBmb_Booronderzoek">Booronderzoek</a>
+                     
+                     [ 1 ]
+                     
+                     <a class="link" href="#detail_association_DomeinmodelBROBHRGTBmb_Booronderzoek">uitgevoerd op</a>
+                     
+                     Aangeleverde locatie
+                     [ 1 ]
+                     
+                  </td>
+                  <td></td>
+               </tr>
+            </tbody>
+         </table>
+         
+         
+      </section>
+      <a class="anchor" name="graph_EAID_D119934B_C04E_45c4_9302_C7C76C8F2C7B"></a><a class="anchor" name="global_class_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie"></a><section id="global_class_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie">
+         <h5>Objecttype Aangeleverde verticale positie</h5>
+         
+         <table>
+            <colgroup width="30%"></colgroup>
+            <colgroup width="70%"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Naam</th>
+                  <td>Aangeleverde verticale positie</td>
+               </tr>
+               <tr>
+                  <th>Herkomst</th>
+                  <td>BRO</td>
+               </tr>
+               <tr>
+                  <th>Definitie</th>
+                  <td>TODO</td>
                </tr>
                <tr>
                   <th>Herkomst definitie</th>
@@ -1612,66 +1751,124 @@
                </tr>
                <tr>
                   <td>
-                     <a class="link" href="#detail_attribute_DomeinmodelBROBHRGTBmb_Registratieobject_bROID">BRO-ID</a>
+                     <a class="link" href="#detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_lokaalVerticaalReferentiepunt">lokaal verticaal referentiepunt</a>
                      
                   </td>
-                  <td>TODO</td>
+                  <td>Het punt dat in het booronderzoek is gebruikt als nulpunt voor de diepte.</td>
                   <td>
-                     <a class="link" href="#global_class_DomeinmodelBROCommon_Registratieobjectcode">Registratieobjectcode</a>
+                     <a class="link" href="#global_class_DomeinmodelBROBHRGTBmb_LokaalVerticaalReferentiepunt">LokaalVerticaalReferentiepunt</a>
                      
                   </td>
                   <td>1</td>
                </tr>
                <tr>
                   <td>
-                     <a class="link" href="#detail_attribute_DomeinmodelBROBHRGTBmb_Registratieobject_bronhouder">bronhouder</a>
+                     <a class="link" href="#detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_verschuiving">verschuiving</a>
                      
                   </td>
-                  <td>TODO</td>
+                  <td>De verticale positie van het lokaal verticaal referentiepunt t.o.v. het verticaal
+                     referentievlak.
+                  </td>
+                  <td>
+                     <a class="link" href="#global_class_DomeinmodelBROCommon_Meetwaarde">Meetwaarde</a>
+                     
+                  </td>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_waterdiepte">waterdiepte</a>
+                     
+                  </td>
+                  <td>De positie van de waterbodem ten opzichte van het wateroppervlak.</td>
+                  <td>
+                     <a class="link" href="#global_class_DomeinmodelBROCommon_Meetwaarde">Meetwaarde</a>
+                     
+                  </td>
+                  <td>0 .. 1</td>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_verticaalReferentievlak">verticaal referentievlak</a>
+                     
+                  </td>
+                  <td>Het referentieniveau voor de verticale positie van het lokaal verticaal referentiepunt.</td>
+                  <td>
+                     <a class="link" href="#global_class_DomeinmodelBROBHRGTBmb_VerticaalReferentievlak">VerticaalReferentievlak</a>
+                     
+                  </td>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_datumVerticalePositiebepaling">datum verticale positiebepaling</a>
+                     
+                  </td>
+                  <td>De datum waarop de verticale positie van het lokaal verticaal referentiepunt is bepaald.</td>
+                  <td>
+                     <a class="link" href="#global_class_DomeinmodelBROCommon_Datum">Datum</a>
+                     
+                  </td>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_methodeVerticalePositiebepaling">methode verticale positiebepaling</a>
+                     
+                  </td>
+                  <td>De werkwijze die is gevolgd voor de bepaling van de verticale positie van het lokaal
+                     verticaal referentiepunt.
+                  </td>
+                  <td>
+                     <a class="link" href="#global_class_DomeinmodelBROBHRGTBmb_MethodeVerticalePositiebepaling">MethodeVerticalePositiebepaling</a>
+                     
+                  </td>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_uitvoerderVerticalePositiebepaling">uitvoerder verticale positiebepaling</a>
+                     
+                  </td>
+                  <td>De identificatie die de organisatie die voor de bronhouder geldt als verantwoordelijk
+                     voor de uitvoering van de bepaling van de verticale positie, als onderneming in het
+                     Handelsregister heeft.
+                  </td>
                   <td>
                      <a class="link" href="#global_class_DomeinmodelBROCommon_Organisatie">Organisatie</a>
                      
                   </td>
-                  <td>1</td>
+                  <td>0 .. 1</td>
+               </tr>
+            </tbody>
+         </table>
+         
+         
+         <h6>Overzicht relaties</h6>
+         
+         
+         <table>
+            <colgroup width="50%"></colgroup>
+            <colgroup width="50%"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Rol naam met kardinaliteiten</th>
+                  <th>Definitie</th>
                </tr>
                <tr>
                   <td>
-                     <a class="link" href="#detail_attribute_DomeinmodelBROBHRGTBmb_Registratieobject_objectIDBronhouder">object-ID bronhouder</a>
+                     
+                     <a class="link" href="#global_class_DomeinmodelBROBHRGTBmb_Booronderzoek">Booronderzoek</a>
+                     
+                     [ 1 ]
+                     
+                     <a class="link" href="#detail_association_DomeinmodelBROBHRGTBmb_Booronderzoek">heeft</a>
+                     
+                     Aangeleverde verticale positie
+                     [ 1 ]
                      
                   </td>
-                  <td>De identificatie die door of voor de bronhouder is gebruikt om het object in de eigen
-                     administratie te kunnen vinden, voordat het was geregistreerd in de basisregistratie
-                     ondergrond.
-                  </td>
-                  <td>
-                     <a class="link" href="#global_class_DomeinmodelBROCommon_Tekst200">Tekst200</a>
-                     
-                  </td>
-                  <td>1</td>
-               </tr>
-               <tr>
-                  <td>
-                     <a class="link" href="#detail_attribute_DomeinmodelBROBHRGTBmb_Registratieobject_dataleverancier">dataleverancier</a>
-                     
-                  </td>
-                  <td>TODO</td>
-                  <td>
-                     <a class="link" href="#global_class_DomeinmodelBROCommon_Organisatie">Organisatie</a>
-                     
-                  </td>
-                  <td>1</td>
-               </tr>
-               <tr>
-                  <td>
-                     <a class="link" href="#detail_attribute_DomeinmodelBROBHRGTBmb_Registratieobject_kwaliteitsregime">kwaliteitsregime</a>
-                     
-                  </td>
-                  <td>De aanduiding van de kwaliteitseis waaraan de gegevens van het object voldoen.</td>
-                  <td>
-                     <a class="link" href="#global_class_DomeinmodelBROCommon_Kwaliteitsregime">Kwaliteitsregime</a>
-                     
-                  </td>
-                  <td>1</td>
+                  <td></td>
                </tr>
             </tbody>
          </table>
@@ -2043,8 +2240,8 @@
          
          
       </section>
-      <a class="anchor" name="graph_EAID_FEC6D48A_0434_4105_9576_F6FEC3D4EF01"></a><a class="anchor" name="global_class_DomeinmodelBROBHRGTBmb_AangeleverdeLocatie"></a><section id="global_class_DomeinmodelBROBHRGTBmb_AangeleverdeLocatie">
-         <h5>Objecttype Aangeleverde locatie</h5>
+      <a class="anchor" name="graph_EAID_5FADDBCB_E4B7_4eeb_BC48_BC13D22EE5F2"></a><a class="anchor" name="global_class_DomeinmodelBROBHRGTBmb_Registratieobject"></a><section id="global_class_DomeinmodelBROBHRGTBmb_Registratieobject">
+         <h5>Objecttype Registratieobject</h5>
          
          <table>
             <colgroup width="30%"></colgroup>
@@ -2052,7 +2249,7 @@
             <tbody>
                <tr>
                   <th>Naam</th>
-                  <td>Aangeleverde locatie</td>
+                  <td>Registratieobject</td>
                </tr>
                <tr>
                   <th>Herkomst</th>
@@ -2060,17 +2257,17 @@
                </tr>
                <tr>
                   <th>Definitie</th>
-                  <td>De gegevens over de plaats van het booronderzoek op het aardoppervlak, zoals die zijn
-                     aangeleverd aan de basisregistratie ondergrond.
+                  <td>Het geheel van gegevens dat betrekking heeft op het recht van een bepaalde partij
+                     een bepaalde mijnbouwactiviteit in een bepaald deel van de ondergrond van Nederland
+                     en zijn Exclusieve Economische Zone uit te voeren, en dat onder de verantwoordelijkheid
+                     van het ministerie van Economische Zaken en Klimaat aan de registerbeheerder van de
+                     basisregistratie ondergrond is aangeleverd en door de laatste in de registratie ondergrond
+                     is opgenomen.
                   </td>
                </tr>
                <tr>
                   <th>Herkomst definitie</th>
                   <td>BRO</td>
-               </tr>
-               <tr>
-                  <th>Toelichting</th>
-                  <td>De locatie van booronderzoek is gedefinieerd als een punt.</td>
                </tr>
             </tbody>
          </table>
@@ -2091,374 +2288,66 @@
                </tr>
                <tr>
                   <td>
-                     <a class="link" href="#detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeLocatie_coRdinaten">coördinaten</a>
+                     <a class="link" href="#detail_attribute_DomeinmodelBROBHRGTBmb_Registratieobject_bROID">BRO-ID</a>
                      
                   </td>
-                  <td>De coördinaten die zijn aangeleverd.</td>
+                  <td>TODO</td>
                   <td>
-                     <a class="link" href="#global_class_DomeinmodelBROCommon_CoRdinatenpaar">Coördinatenpaar</a>
+                     <a class="link" href="#global_class_DomeinmodelBROCommon_Registratieobjectcode">Registratieobjectcode</a>
                      
                   </td>
                   <td>1</td>
                </tr>
                <tr>
                   <td>
-                     <a class="link" href="#detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeLocatie_referentiestelsel">referentiestelsel</a>
+                     <a class="link" href="#detail_attribute_DomeinmodelBROBHRGTBmb_Registratieobject_bronhouder">bronhouder</a>
                      
                   </td>
-                  <td>Het referentiestelsel van de aangeleverde coördinaten.</td>
-                  <td>
-                     <a class="link" href="#global_class_DomeinmodelBROBHRGTBmb_Referentiestelsel">Referentiestelsel</a>
-                     
-                  </td>
-                  <td>1</td>
-               </tr>
-               <tr>
-                  <td>
-                     <a class="link" href="#detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeLocatie_datumLocatiebepaling">datum locatiebepaling</a>
-                     
-                  </td>
-                  <td>De datum waarop de plaats van het booronderzoek op het aardoppervlak is bepaald.</td>
-                  <td>
-                     <a class="link" href="#global_class_DomeinmodelBROCommon_Datum">Datum</a>
-                     
-                  </td>
-                  <td>1</td>
-               </tr>
-               <tr>
-                  <td>
-                     <a class="link" href="#detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeLocatie_methodeLocatiebepaling">methode locatiebepaling</a>
-                     
-                  </td>
-                  <td>De werkwijze die is gevolgd voor de bepaling van de plaats van het booronderzoek op
-                     het aardoppervlak.
-                  </td>
-                  <td>
-                     <a class="link" href="#global_class_DomeinmodelBROBHRGTBmb_MethodeLocatiebepaling">MethodeLocatiebepaling</a>
-                     
-                  </td>
-                  <td>1</td>
-               </tr>
-               <tr>
-                  <td>
-                     <a class="link" href="#detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeLocatie_uitvoerderLocatiebepaling">uitvoerder locatiebepaling</a>
-                     
-                  </td>
-                  <td>De identificatie die de organisatie die voor de bronhouder geldt als verantwoordelijk
-                     voor de uitvoering van de plaatsbepaling, als onderneming in het Handelsregister heeft.
-                  </td>
+                  <td>TODO</td>
                   <td>
                      <a class="link" href="#global_class_DomeinmodelBROCommon_Organisatie">Organisatie</a>
                      
                   </td>
-                  <td>0 .. 1</td>
-               </tr>
-            </tbody>
-         </table>
-         
-         
-         <h6>Overzicht relaties</h6>
-         
-         
-         <table>
-            <colgroup width="50%"></colgroup>
-            <colgroup width="50%"></colgroup>
-            <tbody>
-               <tr>
-                  <th>Rol naam met kardinaliteiten</th>
-                  <th>Definitie</th>
+                  <td>1</td>
                </tr>
                <tr>
                   <td>
-                     
-                     <a class="link" href="#global_class_DomeinmodelBROBHRGTBmb_Booronderzoek">Booronderzoek</a>
-                     
-                     [ 1 ]
-                     
-                     <a class="link" href="#detail_association_DomeinmodelBROBHRGTBmb_Booronderzoek">uitgevoerd op</a>
-                     
-                     Aangeleverde locatie
-                     [ 1 ]
+                     <a class="link" href="#detail_attribute_DomeinmodelBROBHRGTBmb_Registratieobject_objectIDBronhouder">object-ID bronhouder</a>
                      
                   </td>
-                  <td></td>
-               </tr>
-            </tbody>
-         </table>
-         
-         
-      </section>
-      <a class="anchor" name="graph_EAID_D119934B_C04E_45c4_9302_C7C76C8F2C7B"></a><a class="anchor" name="global_class_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie"></a><section id="global_class_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie">
-         <h5>Objecttype Aangeleverde verticale positie</h5>
-         
-         <table>
-            <colgroup width="30%"></colgroup>
-            <colgroup width="70%"></colgroup>
-            <tbody>
-               <tr>
-                  <th>Naam</th>
-                  <td>Aangeleverde verticale positie</td>
+                  <td>De identificatie die door of voor de bronhouder is gebruikt om het object in de eigen
+                     administratie te kunnen vinden, voordat het was geregistreerd in de basisregistratie
+                     ondergrond.
+                  </td>
+                  <td>
+                     <a class="link" href="#global_class_DomeinmodelBROCommon_Tekst200">Tekst200</a>
+                     
+                  </td>
+                  <td>1</td>
                </tr>
                <tr>
-                  <th>Herkomst</th>
-                  <td>BRO</td>
-               </tr>
-               <tr>
-                  <th>Definitie</th>
+                  <td>
+                     <a class="link" href="#detail_attribute_DomeinmodelBROBHRGTBmb_Registratieobject_dataleverancier">dataleverancier</a>
+                     
+                  </td>
                   <td>TODO</td>
-               </tr>
-               <tr>
-                  <th>Herkomst definitie</th>
-                  <td>BRO</td>
-               </tr>
-            </tbody>
-         </table>
-         
-         <h6>Overzicht attributen</h6>
-         
-         <table>
-            <colgroup width="30%"></colgroup>
-            <colgroup width="50%"></colgroup>
-            <colgroup width="10%"></colgroup>
-            <colgroup width="10%"></colgroup>
-            <tbody>
-               <tr>
-                  <th>Attribuutnaam</th>
-                  <th>Definitie</th>
-                  <th>Formaat</th>
-                  <th>Card</th>
-               </tr>
-               <tr>
-                  <td>
-                     <a class="link" href="#detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_lokaalVerticaalReferentiepunt">lokaal verticaal referentiepunt</a>
-                     
-                  </td>
-                  <td>Het punt dat in het booronderzoek is gebruikt als nulpunt voor de diepte.</td>
-                  <td>
-                     <a class="link" href="#global_class_DomeinmodelBROBHRGTBmb_LokaalVerticaalReferentiepunt">LokaalVerticaalReferentiepunt</a>
-                     
-                  </td>
-                  <td>1</td>
-               </tr>
-               <tr>
-                  <td>
-                     <a class="link" href="#detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_verschuiving">verschuiving</a>
-                     
-                  </td>
-                  <td>De verticale positie van het lokaal verticaal referentiepunt t.o.v. het verticaal
-                     referentievlak.
-                  </td>
-                  <td>
-                     <a class="link" href="#global_class_DomeinmodelBROCommon_Meetwaarde">Meetwaarde</a>
-                     
-                  </td>
-                  <td>1</td>
-               </tr>
-               <tr>
-                  <td>
-                     <a class="link" href="#detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_waterdiepte">waterdiepte</a>
-                     
-                  </td>
-                  <td>De positie van de waterbodem ten opzichte van het wateroppervlak.</td>
-                  <td>
-                     <a class="link" href="#global_class_DomeinmodelBROCommon_Meetwaarde">Meetwaarde</a>
-                     
-                  </td>
-                  <td>0 .. 1</td>
-               </tr>
-               <tr>
-                  <td>
-                     <a class="link" href="#detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_verticaalReferentievlak">verticaal referentievlak</a>
-                     
-                  </td>
-                  <td>Het referentieniveau voor de verticale positie van het lokaal verticaal referentiepunt.</td>
-                  <td>
-                     <a class="link" href="#global_class_DomeinmodelBROBHRGTBmb_VerticaalReferentievlak">VerticaalReferentievlak</a>
-                     
-                  </td>
-                  <td>1</td>
-               </tr>
-               <tr>
-                  <td>
-                     <a class="link" href="#detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_datumVerticalePositiebepaling">datum verticale positiebepaling</a>
-                     
-                  </td>
-                  <td>De datum waarop de verticale positie van het lokaal verticaal referentiepunt is bepaald.</td>
-                  <td>
-                     <a class="link" href="#global_class_DomeinmodelBROCommon_Datum">Datum</a>
-                     
-                  </td>
-                  <td>1</td>
-               </tr>
-               <tr>
-                  <td>
-                     <a class="link" href="#detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_methodeVerticalePositiebepaling">methode verticale positiebepaling</a>
-                     
-                  </td>
-                  <td>De werkwijze die is gevolgd voor de bepaling van de verticale positie van het lokaal
-                     verticaal referentiepunt.
-                  </td>
-                  <td>
-                     <a class="link" href="#global_class_DomeinmodelBROBHRGTBmb_MethodeVerticalePositiebepaling">MethodeVerticalePositiebepaling</a>
-                     
-                  </td>
-                  <td>1</td>
-               </tr>
-               <tr>
-                  <td>
-                     <a class="link" href="#detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_uitvoerderVerticalePositiebepaling">uitvoerder verticale positiebepaling</a>
-                     
-                  </td>
-                  <td>De identificatie die de organisatie die voor de bronhouder geldt als verantwoordelijk
-                     voor de uitvoering van de bepaling van de verticale positie, als onderneming in het
-                     Handelsregister heeft.
-                  </td>
                   <td>
                      <a class="link" href="#global_class_DomeinmodelBROCommon_Organisatie">Organisatie</a>
                      
                   </td>
-                  <td>0 .. 1</td>
-               </tr>
-            </tbody>
-         </table>
-         
-         
-         <h6>Overzicht relaties</h6>
-         
-         
-         <table>
-            <colgroup width="50%"></colgroup>
-            <colgroup width="50%"></colgroup>
-            <tbody>
-               <tr>
-                  <th>Rol naam met kardinaliteiten</th>
-                  <th>Definitie</th>
+                  <td>1</td>
                </tr>
                <tr>
                   <td>
-                     
-                     <a class="link" href="#global_class_DomeinmodelBROBHRGTBmb_Booronderzoek">Booronderzoek</a>
-                     
-                     [ 1 ]
-                     
-                     <a class="link" href="#detail_association_DomeinmodelBROBHRGTBmb_Booronderzoek">heeft</a>
-                     
-                     Aangeleverde verticale positie
-                     [ 1 ]
+                     <a class="link" href="#detail_attribute_DomeinmodelBROBHRGTBmb_Registratieobject_kwaliteitsregime">kwaliteitsregime</a>
                      
                   </td>
-                  <td></td>
-               </tr>
-            </tbody>
-         </table>
-         
-         
-      </section>
-      <a class="anchor" name="graph_EAID_BDE32A45_717B_458b_B1B4_CA5D40A5B3C4"></a><a class="anchor" name="global_class_DomeinmodelBROBHRGTBmb_Terreintoestand"></a><section id="global_class_DomeinmodelBROBHRGTBmb_Terreintoestand">
-         <h5>Objecttype Terreintoestand</h5>
-         
-         <table>
-            <colgroup width="30%"></colgroup>
-            <colgroup width="70%"></colgroup>
-            <tbody>
-               <tr>
-                  <th>Naam</th>
-                  <td>Terreintoestand</td>
-               </tr>
-               <tr>
-                  <th>Herkomst</th>
-                  <td>BRO</td>
-               </tr>
-               <tr>
-                  <th>Definitie</th>
-                  <td>TODO</td>
-               </tr>
-               <tr>
-                  <th>Herkomst definitie</th>
-                  <td>BRO</td>
-               </tr>
-            </tbody>
-         </table>
-         
-         <h6>Overzicht attributen</h6>
-         
-         <table>
-            <colgroup width="30%"></colgroup>
-            <colgroup width="50%"></colgroup>
-            <colgroup width="10%"></colgroup>
-            <colgroup width="10%"></colgroup>
-            <tbody>
-               <tr>
-                  <th>Attribuutnaam</th>
-                  <th>Definitie</th>
-                  <th>Formaat</th>
-                  <th>Card</th>
-               </tr>
-               <tr>
+                  <td>De aanduiding van de kwaliteitseis waaraan de gegevens van het object voldoen.</td>
                   <td>
-                     <a class="link" href="#detail_attribute_DomeinmodelBROBHRGTBmb_Terreintoestand_bodemgebruik">bodemgebruik</a>
+                     <a class="link" href="#global_class_DomeinmodelBROCommon_Kwaliteitsregime">Kwaliteitsregime</a>
                      
                   </td>
-                  <td>TODO</td>
-                  <td>
-                     <a class="link" href="#global_class_DomeinmodelBROBHRGTBmb_Bodemgebruik">Bodemgebruik</a>
-                     
-                  </td>
-                  <td>0 .. 1</td>
-               </tr>
-               <tr>
-                  <td>
-                     <a class="link" href="#detail_attribute_DomeinmodelBROBHRGTBmb_Terreintoestand_liggingOpGrondlichaam">ligging op grondlichaam</a>
-                     
-                  </td>
-                  <td>TODO</td>
-                  <td>
-                     <a class="link" href="#global_class_DomeinmodelBROBHRGTBmb_LiggingOpGrondlichaam">LiggingOpGrondlichaam</a>
-                     
-                  </td>
-                  <td>0 .. 1</td>
-               </tr>
-               <tr>
-                  <td>
-                     <a class="link" href="#detail_attribute_DomeinmodelBROBHRGTBmb_Terreintoestand_tijdelijkeVerandering">tijdelijke verandering</a>
-                     
-                  </td>
-                  <td>TODO</td>
-                  <td>
-                     <a class="link" href="#global_class_DomeinmodelBROBHRGTBmb_TijdelijkeVerandering">TijdelijkeVerandering</a>
-                     
-                  </td>
-                  <td>0 .. 1</td>
-               </tr>
-            </tbody>
-         </table>
-         
-         
-         <h6>Overzicht relaties</h6>
-         
-         
-         <table>
-            <colgroup width="50%"></colgroup>
-            <colgroup width="50%"></colgroup>
-            <tbody>
-               <tr>
-                  <th>Rol naam met kardinaliteiten</th>
-                  <th>Definitie</th>
-               </tr>
-               <tr>
-                  <td>
-                     
-                     <a class="link" href="#global_class_DomeinmodelBROBHRGTBmb_Booronderzoek">Booronderzoek</a>
-                     
-                     [ 1 ]
-                     
-                     <a class="link" href="#detail_association_DomeinmodelBROBHRGTBmb_Booronderzoek">heeft</a>
-                     
-                     Terreintoestand
-                     [ 0 .. 1 ]
-                     
-                  </td>
-                  <td></td>
+                  <td>1</td>
                </tr>
             </tbody>
          </table>
@@ -2578,6 +2467,117 @@
                      <a class="link" href="#detail_association_DomeinmodelBROBHRGTBmb_Booronderzoek">heeft</a>
                      
                      Sliblaag
+                     [ 0 .. 1 ]
+                     
+                  </td>
+                  <td></td>
+               </tr>
+            </tbody>
+         </table>
+         
+         
+      </section>
+      <a class="anchor" name="graph_EAID_BDE32A45_717B_458b_B1B4_CA5D40A5B3C4"></a><a class="anchor" name="global_class_DomeinmodelBROBHRGTBmb_Terreintoestand"></a><section id="global_class_DomeinmodelBROBHRGTBmb_Terreintoestand">
+         <h5>Objecttype Terreintoestand</h5>
+         
+         <table>
+            <colgroup width="30%"></colgroup>
+            <colgroup width="70%"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Naam</th>
+                  <td>Terreintoestand</td>
+               </tr>
+               <tr>
+                  <th>Herkomst</th>
+                  <td>BRO</td>
+               </tr>
+               <tr>
+                  <th>Definitie</th>
+                  <td>TODO</td>
+               </tr>
+               <tr>
+                  <th>Herkomst definitie</th>
+                  <td>BRO</td>
+               </tr>
+            </tbody>
+         </table>
+         
+         <h6>Overzicht attributen</h6>
+         
+         <table>
+            <colgroup width="30%"></colgroup>
+            <colgroup width="50%"></colgroup>
+            <colgroup width="10%"></colgroup>
+            <colgroup width="10%"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Attribuutnaam</th>
+                  <th>Definitie</th>
+                  <th>Formaat</th>
+                  <th>Card</th>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_DomeinmodelBROBHRGTBmb_Terreintoestand_bodemgebruik">bodemgebruik</a>
+                     
+                  </td>
+                  <td>TODO</td>
+                  <td>
+                     <a class="link" href="#global_class_DomeinmodelBROBHRGTBmb_Bodemgebruik">Bodemgebruik</a>
+                     
+                  </td>
+                  <td>0 .. 1</td>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_DomeinmodelBROBHRGTBmb_Terreintoestand_liggingOpGrondlichaam">ligging op grondlichaam</a>
+                     
+                  </td>
+                  <td>TODO</td>
+                  <td>
+                     <a class="link" href="#global_class_DomeinmodelBROBHRGTBmb_LiggingOpGrondlichaam">LiggingOpGrondlichaam</a>
+                     
+                  </td>
+                  <td>0 .. 1</td>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_DomeinmodelBROBHRGTBmb_Terreintoestand_tijdelijkeVerandering">tijdelijke verandering</a>
+                     
+                  </td>
+                  <td>TODO</td>
+                  <td>
+                     <a class="link" href="#global_class_DomeinmodelBROBHRGTBmb_TijdelijkeVerandering">TijdelijkeVerandering</a>
+                     
+                  </td>
+                  <td>0 .. 1</td>
+               </tr>
+            </tbody>
+         </table>
+         
+         
+         <h6>Overzicht relaties</h6>
+         
+         
+         <table>
+            <colgroup width="50%"></colgroup>
+            <colgroup width="50%"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Rol naam met kardinaliteiten</th>
+                  <th>Definitie</th>
+               </tr>
+               <tr>
+                  <td>
+                     
+                     <a class="link" href="#global_class_DomeinmodelBROBHRGTBmb_Booronderzoek">Booronderzoek</a>
+                     
+                     [ 1 ]
+                     
+                     <a class="link" href="#detail_association_DomeinmodelBROBHRGTBmb_Booronderzoek">heeft</a>
+                     
+                     Terreintoestand
                      [ 0 .. 1 ]
                      
                   </td>
@@ -2950,9 +2950,9 @@
    <section id="">
       <h4>Attribuut- en relatiesoort details</h4>
       
-      <a class="anchor" name="detail_class_DomeinmodelBROBHRGTBmb_Registratieobject"></a><section id="detail_class_DomeinmodelBROBHRGTBmb_Registratieobject">
-         <h6>Objecttype Registratieobject</h6>
-         <a class="anchor" name="detail_attribute_DomeinmodelBROBHRGTBmb_Registratieobject_bROID"></a><section id="detail_attribute_DomeinmodelBROBHRGTBmb_Registratieobject_bROID"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROBHRGTBmb_Registratieobject">Registratieobject</a> BRO-ID</strong>
+      <a class="anchor" name="detail_class_DomeinmodelBROBHRGTBmb_AangeleverdeLocatie"></a><section id="detail_class_DomeinmodelBROBHRGTBmb_AangeleverdeLocatie">
+         <h6>Objecttype Aangeleverde locatie</h6>
+         <a class="anchor" name="detail_class_DomeinmodelBROCommon_CoRdinatenpaar"></a><section id="detail_class_DomeinmodelBROCommon_CoRdinatenpaar"><strong>Gegevensgroeptype details <a href="#global_class_DomeinmodelBROBHRGTBmb_AangeleverdeLocatie">Aangeleverde locatie</a> Coördinatenpaar</strong>
             
             <table>
                <colgroup width="30%"></colgroup>
@@ -2960,7 +2960,7 @@
                <tbody>
                   <tr>
                      <th>Naam</th>
-                     <td>BRO-ID</td>
+                     <td>Coördinatenpaar</td>
                   </tr>
                   <tr>
                      <th>Herkomst</th>
@@ -2968,7 +2968,319 @@
                   </tr>
                   <tr>
                      <th>Definitie</th>
-                     <td>TODO</td>
+                     <td>Het domein coördinatenpaar wordt gebruikt om de positie van een punt op het aardoppervlak
+                        vast te leggen. De positie wordt bepaald in een specifiek referentiestelsel en uitgedrukt
+                        in twee coördinaten. Ieder van de coördinaten heeft een getalswaarde en de notatie
+                        voor het paar is (coördinaat 1, coördinaat 2).
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
+                  </tr>
+               </tbody>
+            </table>
+            <a class="anchor" name="detail_attribute_DomeinmodelBROCommon_CoRdinatenpaar_coRdinaat1"></a><section id="detail_attribute_DomeinmodelBROCommon_CoRdinatenpaar_coRdinaat1" class="notoc"><strong>Attribuutsoort coördinaat1  Coördinatenpaar</strong>
+               
+               <table>
+                  <tbody>
+                     <tr></tr>
+                     <tr>
+                        <th>Naam</th>
+                        <td>coördinaat1</td>
+                     </tr>
+                     <tr>
+                        <th>Herkomst</th>
+                        <td>BRO</td>
+                     </tr>
+                     <tr>
+                        <th>Mogelijk geen waarde</th>
+                        <td>Nee</td>
+                     </tr>
+                     <tr>
+                        <th>Indicatie kardinaliteit</th>
+                        <td>1</td>
+                     </tr>
+                     <tr>
+                        <th>Formaat</th>
+                        <td>REAL</td>
+                     </tr>
+                  </tbody>
+               </table>
+               
+            </section>
+            <a class="anchor" name="detail_attribute_DomeinmodelBROCommon_CoRdinatenpaar_coRdinaat2"></a><section id="detail_attribute_DomeinmodelBROCommon_CoRdinatenpaar_coRdinaat2" class="notoc"><strong>Attribuutsoort coördinaat2  Coördinatenpaar</strong>
+               
+               <table>
+                  <tbody>
+                     <tr></tr>
+                     <tr>
+                        <th>Naam</th>
+                        <td>coördinaat2</td>
+                     </tr>
+                     <tr>
+                        <th>Herkomst</th>
+                        <td>BRO</td>
+                     </tr>
+                     <tr>
+                        <th>Mogelijk geen waarde</th>
+                        <td>Nee</td>
+                     </tr>
+                     <tr>
+                        <th>Indicatie kardinaliteit</th>
+                        <td>1</td>
+                     </tr>
+                     <tr>
+                        <th>Formaat</th>
+                        <td>Meetwaarde</td>
+                     </tr>
+                  </tbody>
+               </table>
+               
+            </section>
+            
+         </section>
+         <a class="anchor" name="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeLocatie_referentiestelsel"></a><section id="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeLocatie_referentiestelsel"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROBHRGTBmb_AangeleverdeLocatie">Aangeleverde locatie</a> referentiestelsel</strong>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>referentiestelsel</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>Het referentiestelsel van de aangeleverde coördinaten.</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie authentiek</th>
+                     <td>Overig</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>Referentiestelsel</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+         <a class="anchor" name="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeLocatie_datumLocatiebepaling"></a><section id="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeLocatie_datumLocatiebepaling"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROBHRGTBmb_AangeleverdeLocatie">Aangeleverde locatie</a> datum locatiebepaling</strong>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>datum locatiebepaling</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>De datum waarop de plaats van het booronderzoek op het aardoppervlak is bepaald.</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie authentiek</th>
+                     <td>Overig</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>Datum</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+         <a class="anchor" name="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeLocatie_methodeLocatiebepaling"></a><section id="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeLocatie_methodeLocatiebepaling"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROBHRGTBmb_AangeleverdeLocatie">Aangeleverde locatie</a> methode locatiebepaling</strong>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>methode locatiebepaling</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>De werkwijze die is gevolgd voor de bepaling van de plaats van het booronderzoek op
+                        het aardoppervlak.
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie authentiek</th>
+                     <td>Overig</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>MethodeLocatiebepaling</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+         <a class="anchor" name="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeLocatie_uitvoerderLocatiebepaling"></a><section id="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeLocatie_uitvoerderLocatiebepaling"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROBHRGTBmb_AangeleverdeLocatie">Aangeleverde locatie</a> uitvoerder locatiebepaling</strong>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>uitvoerder locatiebepaling</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>De identificatie die de organisatie die voor de bronhouder geldt als verantwoordelijk
+                        voor de uitvoering van de plaatsbepaling, als onderneming in het Handelsregister heeft.
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>0 .. 1</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie authentiek</th>
+                     <td>Overig</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>Organisatie</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+         
+      </section>
+      <a class="anchor" name="detail_class_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie"></a><section id="detail_class_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie">
+         <h6>Objecttype Aangeleverde verticale positie</h6>
+         <a class="anchor" name="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_lokaalVerticaalReferentiepunt"></a><section id="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_lokaalVerticaalReferentiepunt"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie">Aangeleverde verticale positie</a> lokaal verticaal referentiepunt</strong>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>lokaal verticaal referentiepunt</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>Het punt dat in het booronderzoek is gebruikt als nulpunt voor de diepte.</td>
                   </tr>
                   <tr>
                      <th>Herkomst definitie</th>
@@ -2996,7 +3308,7 @@
                   </tr>
                   <tr>
                      <th>Formaat</th>
-                     <td>Registratieobjectcode</td>
+                     <td>LokaalVerticaalReferentiepunt</td>
                   </tr>
                   <tr>
                      <th>Indicatie afleidbaar</th>
@@ -3006,7 +3318,7 @@
             </table>
             
          </section>
-         <a class="anchor" name="detail_attribute_DomeinmodelBROBHRGTBmb_Registratieobject_bronhouder"></a><section id="detail_attribute_DomeinmodelBROBHRGTBmb_Registratieobject_bronhouder"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROBHRGTBmb_Registratieobject">Registratieobject</a> bronhouder</strong>
+         <a class="anchor" name="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_verschuiving"></a><section id="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_verschuiving"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie">Aangeleverde verticale positie</a> verschuiving</strong>
             
             <table>
                <colgroup width="30%"></colgroup>
@@ -3014,7 +3326,7 @@
                <tbody>
                   <tr>
                      <th>Naam</th>
-                     <td>bronhouder</td>
+                     <td>verschuiving</td>
                   </tr>
                   <tr>
                      <th>Herkomst</th>
@@ -3022,7 +3334,9 @@
                   </tr>
                   <tr>
                      <th>Definitie</th>
-                     <td>TODO</td>
+                     <td>De verticale positie van het lokaal verticaal referentiepunt t.o.v. het verticaal
+                        referentievlak.
+                     </td>
                   </tr>
                   <tr>
                      <th>Herkomst definitie</th>
@@ -3046,193 +3360,286 @@
                   </tr>
                   <tr>
                      <th>Indicatie authentiek</th>
-                     <td>Overig</td>
+                     <td>Authentiek</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>Meetwaarde</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+         <a class="anchor" name="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_waterdiepte"></a><section id="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_waterdiepte"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie">Aangeleverde verticale positie</a> waterdiepte</strong>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>waterdiepte</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>De positie van de waterbodem ten opzichte van het wateroppervlak.</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>0 .. 1</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie authentiek</th>
+                     <td>Authentiek</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>Meetwaarde</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+         <a class="anchor" name="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_verticaalReferentievlak"></a><section id="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_verticaalReferentievlak"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie">Aangeleverde verticale positie</a> verticaal referentievlak</strong>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>verticaal referentievlak</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>Het referentieniveau voor de verticale positie van het lokaal verticaal referentiepunt.</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie authentiek</th>
+                     <td>Authentiek</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>VerticaalReferentievlak</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+         <a class="anchor" name="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_datumVerticalePositiebepaling"></a><section id="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_datumVerticalePositiebepaling"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie">Aangeleverde verticale positie</a> datum verticale positiebepaling</strong>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>datum verticale positiebepaling</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>De datum waarop de verticale positie van het lokaal verticaal referentiepunt is bepaald.</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie authentiek</th>
+                     <td>Authentiek</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>Datum</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+         <a class="anchor" name="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_methodeVerticalePositiebepaling"></a><section id="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_methodeVerticalePositiebepaling"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie">Aangeleverde verticale positie</a> methode verticale positiebepaling</strong>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>methode verticale positiebepaling</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>De werkwijze die is gevolgd voor de bepaling van de verticale positie van het lokaal
+                        verticaal referentiepunt.
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie authentiek</th>
+                     <td>Authentiek</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>MethodeVerticalePositiebepaling</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+         <a class="anchor" name="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_uitvoerderVerticalePositiebepaling"></a><section id="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_uitvoerderVerticalePositiebepaling"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie">Aangeleverde verticale positie</a> uitvoerder verticale positiebepaling</strong>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>uitvoerder verticale positiebepaling</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>De identificatie die de organisatie die voor de bronhouder geldt als verantwoordelijk
+                        voor de uitvoering van de bepaling van de verticale positie, als onderneming in het
+                        Handelsregister heeft.
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>0 .. 1</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie authentiek</th>
+                     <td>Authentiek</td>
                   </tr>
                   <tr>
                      <th>Formaat</th>
                      <td>Organisatie</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie afleidbaar</th>
-                     <td>Nee</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         <a class="anchor" name="detail_attribute_DomeinmodelBROBHRGTBmb_Registratieobject_objectIDBronhouder"></a><section id="detail_attribute_DomeinmodelBROBHRGTBmb_Registratieobject_objectIDBronhouder"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROBHRGTBmb_Registratieobject">Registratieobject</a> object-ID bronhouder</strong>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>object-ID bronhouder</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Definitie</th>
-                     <td>De identificatie die door of voor de bronhouder is gebruikt om het object in de eigen
-                        administratie te kunnen vinden, voordat het was geregistreerd in de basisregistratie
-                        ondergrond.
-                     </td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst definitie</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Toelichting</th>
-                     <td>Het gegeven wordt alleen uitgeleverd aan de dataleverancier en de bronhouder. Het
-                        is in de registratie opgenomen om de communicatie tussen de registerbeheerder en de
-                        bronhouder of dataleverancier te vergemakkelijken.
-                     </td>
-                  </tr>
-                  <tr>
-                     <th>Mogelijk geen waarde</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie materiële historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie formele historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>1</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie authentiek</th>
-                     <td>Overig</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>Tekst200</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie afleidbaar</th>
-                     <td>Nee</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         <a class="anchor" name="detail_attribute_DomeinmodelBROBHRGTBmb_Registratieobject_dataleverancier"></a><section id="detail_attribute_DomeinmodelBROBHRGTBmb_Registratieobject_dataleverancier"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROBHRGTBmb_Registratieobject">Registratieobject</a> dataleverancier</strong>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>dataleverancier</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Definitie</th>
-                     <td>TODO</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst definitie</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Toelichting</th>
-                     <td>Het gegeven is door de dataleverancier bij de overdracht meegegeven. Het wordt alleen
-                        uitgeleverd aan de dataleverancier en de bronhouder.
-                     </td>
-                  </tr>
-                  <tr>
-                     <th>Mogelijk geen waarde</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie materiële historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie formele historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>1</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie authentiek</th>
-                     <td>Overig</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>Organisatie</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie afleidbaar</th>
-                     <td>Nee</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         <a class="anchor" name="detail_attribute_DomeinmodelBROBHRGTBmb_Registratieobject_kwaliteitsregime"></a><section id="detail_attribute_DomeinmodelBROBHRGTBmb_Registratieobject_kwaliteitsregime"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROBHRGTBmb_Registratieobject">Registratieobject</a> kwaliteitsregime</strong>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>kwaliteitsregime</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Definitie</th>
-                     <td>De aanduiding van de kwaliteitseis waaraan de gegevens van het object voldoen.</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst definitie</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Toelichting</th>
-                     <td>Het gegeven is door de dataleverancier bij de overdracht meegegeven.</td>
-                  </tr>
-                  <tr>
-                     <th>Mogelijk geen waarde</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie materiële historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie formele historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>1</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie authentiek</th>
-                     <td>Overig</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>Kwaliteitsregime</td>
                   </tr>
                   <tr>
                      <th>Indicatie afleidbaar</th>
@@ -4189,9 +4596,9 @@
          </section>
          
       </section>
-      <a class="anchor" name="detail_class_DomeinmodelBROBHRGTBmb_AangeleverdeLocatie"></a><section id="detail_class_DomeinmodelBROBHRGTBmb_AangeleverdeLocatie">
-         <h6>Objecttype Aangeleverde locatie</h6>
-         <a class="anchor" name="detail_class_DomeinmodelBROCommon_CoRdinatenpaar"></a><section id="detail_class_DomeinmodelBROCommon_CoRdinatenpaar"><strong>Gegevensgroeptype details <a href="#global_class_DomeinmodelBROBHRGTBmb_AangeleverdeLocatie">Aangeleverde locatie</a> Coördinatenpaar</strong>
+      <a class="anchor" name="detail_class_DomeinmodelBROBHRGTBmb_Registratieobject"></a><section id="detail_class_DomeinmodelBROBHRGTBmb_Registratieobject">
+         <h6>Objecttype Registratieobject</h6>
+         <a class="anchor" name="detail_attribute_DomeinmodelBROBHRGTBmb_Registratieobject_bROID"></a><section id="detail_attribute_DomeinmodelBROBHRGTBmb_Registratieobject_bROID"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROBHRGTBmb_Registratieobject">Registratieobject</a> BRO-ID</strong>
             
             <table>
                <colgroup width="30%"></colgroup>
@@ -4199,7 +4606,7 @@
                <tbody>
                   <tr>
                      <th>Naam</th>
-                     <td>Coördinatenpaar</td>
+                     <td>BRO-ID</td>
                   </tr>
                   <tr>
                      <th>Herkomst</th>
@@ -4207,95 +4614,7 @@
                   </tr>
                   <tr>
                      <th>Definitie</th>
-                     <td>Het domein coördinatenpaar wordt gebruikt om de positie van een punt op het aardoppervlak
-                        vast te leggen. De positie wordt bepaald in een specifiek referentiestelsel en uitgedrukt
-                        in twee coördinaten. Ieder van de coördinaten heeft een getalswaarde en de notatie
-                        voor het paar is (coördinaat 1, coördinaat 2).
-                     </td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst definitie</th>
-                     <td>BRO</td>
-                  </tr>
-               </tbody>
-            </table>
-            <a class="anchor" name="detail_attribute_DomeinmodelBROCommon_CoRdinatenpaar_coRdinaat1"></a><section id="detail_attribute_DomeinmodelBROCommon_CoRdinatenpaar_coRdinaat1" class="notoc"><strong>Attribuutsoort coördinaat1  Coördinatenpaar</strong>
-               
-               <table>
-                  <tbody>
-                     <tr></tr>
-                     <tr>
-                        <th>Naam</th>
-                        <td>coördinaat1</td>
-                     </tr>
-                     <tr>
-                        <th>Herkomst</th>
-                        <td>BRO</td>
-                     </tr>
-                     <tr>
-                        <th>Mogelijk geen waarde</th>
-                        <td>Nee</td>
-                     </tr>
-                     <tr>
-                        <th>Indicatie kardinaliteit</th>
-                        <td>1</td>
-                     </tr>
-                     <tr>
-                        <th>Formaat</th>
-                        <td>REAL</td>
-                     </tr>
-                  </tbody>
-               </table>
-               
-            </section>
-            <a class="anchor" name="detail_attribute_DomeinmodelBROCommon_CoRdinatenpaar_coRdinaat2"></a><section id="detail_attribute_DomeinmodelBROCommon_CoRdinatenpaar_coRdinaat2" class="notoc"><strong>Attribuutsoort coördinaat2  Coördinatenpaar</strong>
-               
-               <table>
-                  <tbody>
-                     <tr></tr>
-                     <tr>
-                        <th>Naam</th>
-                        <td>coördinaat2</td>
-                     </tr>
-                     <tr>
-                        <th>Herkomst</th>
-                        <td>BRO</td>
-                     </tr>
-                     <tr>
-                        <th>Mogelijk geen waarde</th>
-                        <td>Nee</td>
-                     </tr>
-                     <tr>
-                        <th>Indicatie kardinaliteit</th>
-                        <td>1</td>
-                     </tr>
-                     <tr>
-                        <th>Formaat</th>
-                        <td>Meetwaarde</td>
-                     </tr>
-                  </tbody>
-               </table>
-               
-            </section>
-            
-         </section>
-         <a class="anchor" name="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeLocatie_referentiestelsel"></a><section id="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeLocatie_referentiestelsel"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROBHRGTBmb_AangeleverdeLocatie">Aangeleverde locatie</a> referentiestelsel</strong>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>referentiestelsel</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Definitie</th>
-                     <td>Het referentiestelsel van de aangeleverde coördinaten.</td>
+                     <td>TODO</td>
                   </tr>
                   <tr>
                      <th>Herkomst definitie</th>
@@ -4319,11 +4638,11 @@
                   </tr>
                   <tr>
                      <th>Indicatie authentiek</th>
-                     <td>Overig</td>
+                     <td>Authentiek</td>
                   </tr>
                   <tr>
                      <th>Formaat</th>
-                     <td>Referentiestelsel</td>
+                     <td>Registratieobjectcode</td>
                   </tr>
                   <tr>
                      <th>Indicatie afleidbaar</th>
@@ -4333,7 +4652,7 @@
             </table>
             
          </section>
-         <a class="anchor" name="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeLocatie_datumLocatiebepaling"></a><section id="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeLocatie_datumLocatiebepaling"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROBHRGTBmb_AangeleverdeLocatie">Aangeleverde locatie</a> datum locatiebepaling</strong>
+         <a class="anchor" name="detail_attribute_DomeinmodelBROBHRGTBmb_Registratieobject_bronhouder"></a><section id="detail_attribute_DomeinmodelBROBHRGTBmb_Registratieobject_bronhouder"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROBHRGTBmb_Registratieobject">Registratieobject</a> bronhouder</strong>
             
             <table>
                <colgroup width="30%"></colgroup>
@@ -4341,7 +4660,7 @@
                <tbody>
                   <tr>
                      <th>Naam</th>
-                     <td>datum locatiebepaling</td>
+                     <td>bronhouder</td>
                   </tr>
                   <tr>
                      <th>Herkomst</th>
@@ -4349,7 +4668,7 @@
                   </tr>
                   <tr>
                      <th>Definitie</th>
-                     <td>De datum waarop de plaats van het booronderzoek op het aardoppervlak is bepaald.</td>
+                     <td>TODO</td>
                   </tr>
                   <tr>
                      <th>Herkomst definitie</th>
@@ -4370,118 +4689,6 @@
                   <tr>
                      <th>Indicatie kardinaliteit</th>
                      <td>1</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie authentiek</th>
-                     <td>Overig</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>Datum</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie afleidbaar</th>
-                     <td>Nee</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         <a class="anchor" name="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeLocatie_methodeLocatiebepaling"></a><section id="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeLocatie_methodeLocatiebepaling"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROBHRGTBmb_AangeleverdeLocatie">Aangeleverde locatie</a> methode locatiebepaling</strong>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>methode locatiebepaling</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Definitie</th>
-                     <td>De werkwijze die is gevolgd voor de bepaling van de plaats van het booronderzoek op
-                        het aardoppervlak.
-                     </td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst definitie</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Mogelijk geen waarde</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie materiële historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie formele historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>1</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie authentiek</th>
-                     <td>Overig</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>MethodeLocatiebepaling</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie afleidbaar</th>
-                     <td>Nee</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         <a class="anchor" name="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeLocatie_uitvoerderLocatiebepaling"></a><section id="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeLocatie_uitvoerderLocatiebepaling"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROBHRGTBmb_AangeleverdeLocatie">Aangeleverde locatie</a> uitvoerder locatiebepaling</strong>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>uitvoerder locatiebepaling</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Definitie</th>
-                     <td>De identificatie die de organisatie die voor de bronhouder geldt als verantwoordelijk
-                        voor de uitvoering van de plaatsbepaling, als onderneming in het Handelsregister heeft.
-                     </td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst definitie</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Mogelijk geen waarde</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie materiële historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie formele historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>0 .. 1</td>
                   </tr>
                   <tr>
                      <th>Indicatie authentiek</th>
@@ -4499,11 +4706,7 @@
             </table>
             
          </section>
-         
-      </section>
-      <a class="anchor" name="detail_class_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie"></a><section id="detail_class_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie">
-         <h6>Objecttype Aangeleverde verticale positie</h6>
-         <a class="anchor" name="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_lokaalVerticaalReferentiepunt"></a><section id="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_lokaalVerticaalReferentiepunt"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie">Aangeleverde verticale positie</a> lokaal verticaal referentiepunt</strong>
+         <a class="anchor" name="detail_attribute_DomeinmodelBROBHRGTBmb_Registratieobject_objectIDBronhouder"></a><section id="detail_attribute_DomeinmodelBROBHRGTBmb_Registratieobject_objectIDBronhouder"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROBHRGTBmb_Registratieobject">Registratieobject</a> object-ID bronhouder</strong>
             
             <table>
                <colgroup width="30%"></colgroup>
@@ -4511,7 +4714,7 @@
                <tbody>
                   <tr>
                      <th>Naam</th>
-                     <td>lokaal verticaal referentiepunt</td>
+                     <td>object-ID bronhouder</td>
                   </tr>
                   <tr>
                      <th>Herkomst</th>
@@ -4519,62 +4722,9 @@
                   </tr>
                   <tr>
                      <th>Definitie</th>
-                     <td>Het punt dat in het booronderzoek is gebruikt als nulpunt voor de diepte.</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst definitie</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Mogelijk geen waarde</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie materiële historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie formele historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>1</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie authentiek</th>
-                     <td>Authentiek</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>LokaalVerticaalReferentiepunt</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie afleidbaar</th>
-                     <td>Nee</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         <a class="anchor" name="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_verschuiving"></a><section id="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_verschuiving"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie">Aangeleverde verticale positie</a> verschuiving</strong>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>verschuiving</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Definitie</th>
-                     <td>De verticale positie van het lokaal verticaal referentiepunt t.o.v. het verticaal
-                        referentievlak.
+                     <td>De identificatie die door of voor de bronhouder is gebruikt om het object in de eigen
+                        administratie te kunnen vinden, voordat het was geregistreerd in de basisregistratie
+                        ondergrond.
                      </td>
                   </tr>
                   <tr>
@@ -4582,222 +4732,71 @@
                      <td>BRO</td>
                   </tr>
                   <tr>
-                     <th>Mogelijk geen waarde</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie materiële historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie formele historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>1</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie authentiek</th>
-                     <td>Authentiek</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>Meetwaarde</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie afleidbaar</th>
-                     <td>Nee</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         <a class="anchor" name="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_waterdiepte"></a><section id="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_waterdiepte"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie">Aangeleverde verticale positie</a> waterdiepte</strong>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>waterdiepte</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Definitie</th>
-                     <td>De positie van de waterbodem ten opzichte van het wateroppervlak.</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst definitie</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Mogelijk geen waarde</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie materiële historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie formele historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>0 .. 1</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie authentiek</th>
-                     <td>Authentiek</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>Meetwaarde</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie afleidbaar</th>
-                     <td>Nee</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         <a class="anchor" name="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_verticaalReferentievlak"></a><section id="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_verticaalReferentievlak"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie">Aangeleverde verticale positie</a> verticaal referentievlak</strong>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>verticaal referentievlak</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Definitie</th>
-                     <td>Het referentieniveau voor de verticale positie van het lokaal verticaal referentiepunt.</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst definitie</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Mogelijk geen waarde</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie materiële historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie formele historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>1</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie authentiek</th>
-                     <td>Authentiek</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>VerticaalReferentievlak</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie afleidbaar</th>
-                     <td>Nee</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         <a class="anchor" name="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_datumVerticalePositiebepaling"></a><section id="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_datumVerticalePositiebepaling"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie">Aangeleverde verticale positie</a> datum verticale positiebepaling</strong>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>datum verticale positiebepaling</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Definitie</th>
-                     <td>De datum waarop de verticale positie van het lokaal verticaal referentiepunt is bepaald.</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst definitie</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Mogelijk geen waarde</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie materiële historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie formele historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>1</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie authentiek</th>
-                     <td>Authentiek</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>Datum</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie afleidbaar</th>
-                     <td>Nee</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         <a class="anchor" name="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_methodeVerticalePositiebepaling"></a><section id="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_methodeVerticalePositiebepaling"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie">Aangeleverde verticale positie</a> methode verticale positiebepaling</strong>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>methode verticale positiebepaling</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Definitie</th>
-                     <td>De werkwijze die is gevolgd voor de bepaling van de verticale positie van het lokaal
-                        verticaal referentiepunt.
+                     <th>Toelichting</th>
+                     <td>Het gegeven wordt alleen uitgeleverd aan de dataleverancier en de bronhouder. Het
+                        is in de registratie opgenomen om de communicatie tussen de registerbeheerder en de
+                        bronhouder of dataleverancier te vergemakkelijken.
                      </td>
                   </tr>
                   <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie authentiek</th>
+                     <td>Overig</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>Tekst200</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+         <a class="anchor" name="detail_attribute_DomeinmodelBROBHRGTBmb_Registratieobject_dataleverancier"></a><section id="detail_attribute_DomeinmodelBROBHRGTBmb_Registratieobject_dataleverancier"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROBHRGTBmb_Registratieobject">Registratieobject</a> dataleverancier</strong>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>dataleverancier</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>TODO</td>
+                  </tr>
+                  <tr>
                      <th>Herkomst definitie</th>
                      <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Toelichting</th>
+                     <td>Het gegeven is door de dataleverancier bij de overdracht meegegeven. Het wordt alleen
+                        uitgeleverd aan de dataleverancier en de bronhouder.
+                     </td>
                   </tr>
                   <tr>
                      <th>Mogelijk geen waarde</th>
@@ -4817,64 +4816,7 @@
                   </tr>
                   <tr>
                      <th>Indicatie authentiek</th>
-                     <td>Authentiek</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>MethodeVerticalePositiebepaling</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie afleidbaar</th>
-                     <td>Nee</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         <a class="anchor" name="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_uitvoerderVerticalePositiebepaling"></a><section id="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_uitvoerderVerticalePositiebepaling"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie">Aangeleverde verticale positie</a> uitvoerder verticale positiebepaling</strong>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>uitvoerder verticale positiebepaling</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Definitie</th>
-                     <td>De identificatie die de organisatie die voor de bronhouder geldt als verantwoordelijk
-                        voor de uitvoering van de bepaling van de verticale positie, als onderneming in het
-                        Handelsregister heeft.
-                     </td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst definitie</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Mogelijk geen waarde</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie materiële historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie formele historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>0 .. 1</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie authentiek</th>
-                     <td>Authentiek</td>
+                     <td>Overig</td>
                   </tr>
                   <tr>
                      <th>Formaat</th>
@@ -4888,11 +4830,7 @@
             </table>
             
          </section>
-         
-      </section>
-      <a class="anchor" name="detail_class_DomeinmodelBROBHRGTBmb_Terreintoestand"></a><section id="detail_class_DomeinmodelBROBHRGTBmb_Terreintoestand">
-         <h6>Objecttype Terreintoestand</h6>
-         <a class="anchor" name="detail_attribute_DomeinmodelBROBHRGTBmb_Terreintoestand_bodemgebruik"></a><section id="detail_attribute_DomeinmodelBROBHRGTBmb_Terreintoestand_bodemgebruik"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROBHRGTBmb_Terreintoestand">Terreintoestand</a> bodemgebruik</strong>
+         <a class="anchor" name="detail_attribute_DomeinmodelBROBHRGTBmb_Registratieobject_kwaliteitsregime"></a><section id="detail_attribute_DomeinmodelBROBHRGTBmb_Registratieobject_kwaliteitsregime"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROBHRGTBmb_Registratieobject">Registratieobject</a> kwaliteitsregime</strong>
             
             <table>
                <colgroup width="30%"></colgroup>
@@ -4900,7 +4838,7 @@
                <tbody>
                   <tr>
                      <th>Naam</th>
-                     <td>bodemgebruik</td>
+                     <td>kwaliteitsregime</td>
                   </tr>
                   <tr>
                      <th>Herkomst</th>
@@ -4908,11 +4846,15 @@
                   </tr>
                   <tr>
                      <th>Definitie</th>
-                     <td>TODO</td>
+                     <td>De aanduiding van de kwaliteitseis waaraan de gegevens van het object voldoen.</td>
                   </tr>
                   <tr>
                      <th>Herkomst definitie</th>
                      <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Toelichting</th>
+                     <td>Het gegeven is door de dataleverancier bij de overdracht meegegeven.</td>
                   </tr>
                   <tr>
                      <th>Mogelijk geen waarde</th>
@@ -4928,123 +4870,15 @@
                   </tr>
                   <tr>
                      <th>Indicatie kardinaliteit</th>
-                     <td>0 .. 1</td>
+                     <td>1</td>
                   </tr>
                   <tr>
                      <th>Indicatie authentiek</th>
-                     <td>Authentiek</td>
+                     <td>Overig</td>
                   </tr>
                   <tr>
                      <th>Formaat</th>
-                     <td>Bodemgebruik</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie afleidbaar</th>
-                     <td>Nee</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         <a class="anchor" name="detail_attribute_DomeinmodelBROBHRGTBmb_Terreintoestand_liggingOpGrondlichaam"></a><section id="detail_attribute_DomeinmodelBROBHRGTBmb_Terreintoestand_liggingOpGrondlichaam"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROBHRGTBmb_Terreintoestand">Terreintoestand</a> ligging op grondlichaam</strong>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>ligging op grondlichaam</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Definitie</th>
-                     <td>TODO</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst definitie</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Mogelijk geen waarde</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie materiële historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie formele historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>0 .. 1</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie authentiek</th>
-                     <td>Authentiek</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>LiggingOpGrondlichaam</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie afleidbaar</th>
-                     <td>Nee</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         <a class="anchor" name="detail_attribute_DomeinmodelBROBHRGTBmb_Terreintoestand_tijdelijkeVerandering"></a><section id="detail_attribute_DomeinmodelBROBHRGTBmb_Terreintoestand_tijdelijkeVerandering"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROBHRGTBmb_Terreintoestand">Terreintoestand</a> tijdelijke verandering</strong>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>tijdelijke verandering</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Definitie</th>
-                     <td>TODO</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst definitie</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Mogelijk geen waarde</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie materiële historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie formele historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>0 .. 1</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie authentiek</th>
-                     <td>Authentiek</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>TijdelijkeVerandering</td>
+                     <td>Kwaliteitsregime</td>
                   </tr>
                   <tr>
                      <th>Indicatie afleidbaar</th>
@@ -5265,6 +5099,172 @@
                   <tr>
                      <th>Formaat</th>
                      <td>MethodePositiebepalingSliblaag</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+         
+      </section>
+      <a class="anchor" name="detail_class_DomeinmodelBROBHRGTBmb_Terreintoestand"></a><section id="detail_class_DomeinmodelBROBHRGTBmb_Terreintoestand">
+         <h6>Objecttype Terreintoestand</h6>
+         <a class="anchor" name="detail_attribute_DomeinmodelBROBHRGTBmb_Terreintoestand_bodemgebruik"></a><section id="detail_attribute_DomeinmodelBROBHRGTBmb_Terreintoestand_bodemgebruik"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROBHRGTBmb_Terreintoestand">Terreintoestand</a> bodemgebruik</strong>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>bodemgebruik</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>TODO</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>0 .. 1</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie authentiek</th>
+                     <td>Authentiek</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>Bodemgebruik</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+         <a class="anchor" name="detail_attribute_DomeinmodelBROBHRGTBmb_Terreintoestand_liggingOpGrondlichaam"></a><section id="detail_attribute_DomeinmodelBROBHRGTBmb_Terreintoestand_liggingOpGrondlichaam"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROBHRGTBmb_Terreintoestand">Terreintoestand</a> ligging op grondlichaam</strong>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>ligging op grondlichaam</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>TODO</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>0 .. 1</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie authentiek</th>
+                     <td>Authentiek</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>LiggingOpGrondlichaam</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+         <a class="anchor" name="detail_attribute_DomeinmodelBROBHRGTBmb_Terreintoestand_tijdelijkeVerandering"></a><section id="detail_attribute_DomeinmodelBROBHRGTBmb_Terreintoestand_tijdelijkeVerandering"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROBHRGTBmb_Terreintoestand">Terreintoestand</a> tijdelijke verandering</strong>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>tijdelijke verandering</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>TODO</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>0 .. 1</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie authentiek</th>
+                     <td>Authentiek</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>TijdelijkeVerandering</td>
                   </tr>
                   <tr>
                      <th>Indicatie afleidbaar</th>

@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_4532D2FB_BE47_4dc9_BBAD_0F65D43D52FB"
       generator-version="1.47.5"
-      generator-date="2018-10-18T11:24:31Z">
+      generator-date="2018-10-18T12:08:58Z">
    <section type="DOMAIN"
             name="Domeinmodel BRO Common"
             id="global_package_DomeinmodelBROCommon"><!--removed empty content-->
@@ -1211,14 +1211,14 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
             name="Domeinmodel BRO BHR-GT bmb"
             id="global_package_DomeinmodelBROBHRGTBmb"><!--removed empty content-->
       <section type="OVERVIEW-OBJECTTYPE">
-         <section name="Registratieobject"
+         <section name="Aangeleverde locatie"
                   type="OBJECTTYPE"
-                  id="global_class_DomeinmodelBROBHRGTBmb_Registratieobject"
-                  uuid="EAID_5FADDBCB_E4B7_4eeb_BC48_BC13D22EE5F2">
+                  id="global_class_DomeinmodelBROBHRGTBmb_AangeleverdeLocatie"
+                  uuid="EAID_FEC6D48A_0434_4105_9576_F6FEC3D4EF01">
             <content>
                <part type="CFG-DOC-NAAM">
                   <item>Naam</item>
-                  <item>Registratieobject</item>
+                  <item>Aangeleverde locatie</item>
                </part>
                <part type="CFG-DOC-HERKOMST">
                   <item>Herkomst</item>
@@ -1226,7 +1226,142 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                </part>
                <part type="CFG-DOC-DEFINITIE">
                   <item>Definitie</item>
-                  <item>Het geheel van gegevens dat betrekking heeft op het recht van een bepaalde partij een bepaalde mijnbouwactiviteit in een bepaald deel van de ondergrond van Nederland en zijn Exclusieve Economische Zone uit te voeren, en dat onder de verantwoordelijkheid van het ministerie van Economische Zaken en Klimaat aan de registerbeheerder van de basisregistratie ondergrond is aangeleverd en door de laatste in de registratie ondergrond is opgenomen.</item>
+                  <item>De gegevens over de plaats van het booronderzoek op het aardoppervlak, zoals die zijn aangeleverd aan de basisregistratie ondergrond.</item>
+               </part>
+               <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                  <item>Herkomst definitie</item>
+                  <item>BRO</item>
+               </part>
+               <part type="CFG-DOC-TOELICHTING">
+                  <item>Toelichting</item>
+                  <item>De locatie van booronderzoek is gedefinieerd als een punt.</item>
+               </part>
+            </content>
+            <section type="SHORT-ATTRIBUTES">
+               <content>
+                  <itemtype/>
+                  <itemtype type="ATTRIBUTE-NAME"/>
+                  <itemtype type="ATTRIBUTE-DEFINITION"/>
+                  <itemtype type="ATTRIBUTE-FORMAT"/>
+                  <itemtype type="ATTRIBUTE-CARD"/>
+                  <part>
+                     <item>
+                        <item type="detail"
+                              idref="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeLocatie_coRdinaten">coördinaten</item>
+                     </item>
+                     <item>De coördinaten die zijn aangeleverd.</item>
+                     <item>
+                        <item type="global" idref="global_class_DomeinmodelBROCommon_CoRdinatenpaar">Coördinatenpaar</item>
+                     </item>
+                     <item>1</item>
+                  </part>
+                  <part>
+                     <item>
+                        <item type="detail"
+                              idref="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeLocatie_referentiestelsel">referentiestelsel</item>
+                     </item>
+                     <item>Het referentiestelsel van de aangeleverde coördinaten.</item>
+                     <item>
+                        <item type="global"
+                              idref="global_class_DomeinmodelBROBHRGTBmb_Referentiestelsel">Referentiestelsel</item>
+                     </item>
+                     <item>1</item>
+                  </part>
+                  <part>
+                     <item>
+                        <item type="detail"
+                              idref="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeLocatie_datumLocatiebepaling">datum locatiebepaling</item>
+                     </item>
+                     <item>De datum waarop de plaats van het booronderzoek op het aardoppervlak is bepaald.</item>
+                     <item>
+                        <item type="global" idref="global_class_DomeinmodelBROCommon_Datum">Datum</item>
+                     </item>
+                     <item>1</item>
+                  </part>
+                  <part>
+                     <item>
+                        <item type="detail"
+                              idref="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeLocatie_methodeLocatiebepaling">methode locatiebepaling</item>
+                     </item>
+                     <item>De werkwijze die is gevolgd voor de bepaling van de plaats van het booronderzoek op het aardoppervlak.</item>
+                     <item>
+                        <item type="global"
+                              idref="global_class_DomeinmodelBROBHRGTBmb_MethodeLocatiebepaling">MethodeLocatiebepaling</item>
+                     </item>
+                     <item>1</item>
+                  </part>
+                  <part>
+                     <item>
+                        <item type="detail"
+                              idref="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeLocatie_uitvoerderLocatiebepaling">uitvoerder locatiebepaling</item>
+                     </item>
+                     <item>De identificatie die de organisatie die voor de bronhouder geldt als verantwoordelijk voor de uitvoering van de plaatsbepaling, als onderneming in het Handelsregister heeft.</item>
+                     <item>
+                        <item type="global" idref="global_class_DomeinmodelBROCommon_Organisatie">Organisatie</item>
+                     </item>
+                     <item>0 .. 1</item>
+                  </part>
+               </content>
+            </section>
+            <section type="SHORT-ASSOCIATIONS">
+               <content approach="association">
+                  <itemtype/>
+                  <itemtype type="ASSOCIATION-NAME"/>
+                  <itemtype type="ASSOCIATION-DEFINITION"/>
+                  <part>
+                     <item>
+                        <item>
+                           <item type="global" idref="global_class_DomeinmodelBROBHRGTBmb_Booronderzoek">Booronderzoek</item>
+                        </item>
+                        <item>[ 1 ]</item>
+                        <item>
+                           <item type="detail"
+                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Booronderzoek">uitgevoerd op</item>
+                        </item>
+                        <item>Aangeleverde locatie</item>
+                        <item>[ 1 ]</item>
+                     </item>
+                     <item/>
+                  </part>
+               </content>
+               <content approach="target">
+                  <itemtype/>
+                  <itemtype type="ROLE-NAME"/>
+                  <itemtype type="ROLE-DEFINITION"/>
+                  <part>
+                     <item>
+                        <item>
+                           <item type="global" idref="global_class_DomeinmodelBROBHRGTBmb_Booronderzoek">Booronderzoek</item>
+                        </item>
+                        <item>[ 1 ]</item>
+                        <item>
+                           <item type="detail"
+                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Booronderzoek">uitgevoerd op</item>
+                        </item>
+                        <item>Aangeleverde locatie</item>
+                        <item>[ 1 ]</item>
+                     </item>
+                     <item/>
+                  </part>
+               </content>
+            </section>
+         </section>
+         <section name="Aangeleverde verticale positie"
+                  type="OBJECTTYPE"
+                  id="global_class_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie"
+                  uuid="EAID_D119934B_C04E_45c4_9302_C7C76C8F2C7B">
+            <content>
+               <part type="CFG-DOC-NAAM">
+                  <item>Naam</item>
+                  <item>Aangeleverde verticale positie</item>
+               </part>
+               <part type="CFG-DOC-HERKOMST">
+                  <item>Herkomst</item>
+                  <item>BRO</item>
+               </part>
+               <part type="CFG-DOC-DEFINITIE">
+                  <item>Definitie</item>
+                  <item>TODO</item>
                </part>
                <part type="CFG-DOC-HERKOMSTDEFINITIE">
                   <item>Herkomst definitie</item>
@@ -1243,59 +1378,124 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_DomeinmodelBROBHRGTBmb_Registratieobject_bROID">BRO-ID</item>
+                              idref="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_lokaalVerticaalReferentiepunt">lokaal verticaal referentiepunt</item>
                      </item>
-                     <item>TODO</item>
+                     <item>Het punt dat in het booronderzoek is gebruikt als nulpunt voor de diepte.</item>
                      <item>
                         <item type="global"
-                              idref="global_class_DomeinmodelBROCommon_Registratieobjectcode">Registratieobjectcode</item>
+                              idref="global_class_DomeinmodelBROBHRGTBmb_LokaalVerticaalReferentiepunt">LokaalVerticaalReferentiepunt</item>
                      </item>
                      <item>1</item>
                   </part>
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_DomeinmodelBROBHRGTBmb_Registratieobject_bronhouder">bronhouder</item>
+                              idref="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_verschuiving">verschuiving</item>
                      </item>
-                     <item>TODO</item>
+                     <item>De verticale positie van het lokaal verticaal referentiepunt t.o.v. het verticaal referentievlak.</item>
+                     <item>
+                        <item type="global" idref="global_class_DomeinmodelBROCommon_Meetwaarde">Meetwaarde</item>
+                     </item>
+                     <item>1</item>
+                  </part>
+                  <part>
+                     <item>
+                        <item type="detail"
+                              idref="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_waterdiepte">waterdiepte</item>
+                     </item>
+                     <item>De positie van de waterbodem ten opzichte van het wateroppervlak.</item>
+                     <item>
+                        <item type="global" idref="global_class_DomeinmodelBROCommon_Meetwaarde">Meetwaarde</item>
+                     </item>
+                     <item>0 .. 1</item>
+                  </part>
+                  <part>
+                     <item>
+                        <item type="detail"
+                              idref="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_verticaalReferentievlak">verticaal referentievlak</item>
+                     </item>
+                     <item>Het referentieniveau voor de verticale positie van het lokaal verticaal referentiepunt.</item>
+                     <item>
+                        <item type="global"
+                              idref="global_class_DomeinmodelBROBHRGTBmb_VerticaalReferentievlak">VerticaalReferentievlak</item>
+                     </item>
+                     <item>1</item>
+                  </part>
+                  <part>
+                     <item>
+                        <item type="detail"
+                              idref="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_datumVerticalePositiebepaling">datum verticale positiebepaling</item>
+                     </item>
+                     <item>De datum waarop de verticale positie van het lokaal verticaal referentiepunt is bepaald.</item>
+                     <item>
+                        <item type="global" idref="global_class_DomeinmodelBROCommon_Datum">Datum</item>
+                     </item>
+                     <item>1</item>
+                  </part>
+                  <part>
+                     <item>
+                        <item type="detail"
+                              idref="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_methodeVerticalePositiebepaling">methode verticale positiebepaling</item>
+                     </item>
+                     <item>De werkwijze die is gevolgd voor de bepaling van de verticale positie van het lokaal verticaal referentiepunt.</item>
+                     <item>
+                        <item type="global"
+                              idref="global_class_DomeinmodelBROBHRGTBmb_MethodeVerticalePositiebepaling">MethodeVerticalePositiebepaling</item>
+                     </item>
+                     <item>1</item>
+                  </part>
+                  <part>
+                     <item>
+                        <item type="detail"
+                              idref="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_uitvoerderVerticalePositiebepaling">uitvoerder verticale positiebepaling</item>
+                     </item>
+                     <item>De identificatie die de organisatie die voor de bronhouder geldt als verantwoordelijk voor de uitvoering van de bepaling van de verticale positie, als onderneming in het Handelsregister heeft.</item>
                      <item>
                         <item type="global" idref="global_class_DomeinmodelBROCommon_Organisatie">Organisatie</item>
                      </item>
-                     <item>1</item>
+                     <item>0 .. 1</item>
                   </part>
+               </content>
+            </section>
+            <section type="SHORT-ASSOCIATIONS">
+               <content approach="association">
+                  <itemtype/>
+                  <itemtype type="ASSOCIATION-NAME"/>
+                  <itemtype type="ASSOCIATION-DEFINITION"/>
                   <part>
                      <item>
-                        <item type="detail"
-                              idref="detail_attribute_DomeinmodelBROBHRGTBmb_Registratieobject_objectIDBronhouder">object-ID bronhouder</item>
+                        <item>
+                           <item type="global" idref="global_class_DomeinmodelBROBHRGTBmb_Booronderzoek">Booronderzoek</item>
+                        </item>
+                        <item>[ 1 ]</item>
+                        <item>
+                           <item type="detail"
+                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Booronderzoek">heeft</item>
+                        </item>
+                        <item>Aangeleverde verticale positie</item>
+                        <item>[ 1 ]</item>
                      </item>
-                     <item>De identificatie die door of voor de bronhouder is gebruikt om het object in de eigen administratie te kunnen vinden, voordat het was geregistreerd in de basisregistratie ondergrond.</item>
-                     <item>
-                        <item type="global" idref="global_class_DomeinmodelBROCommon_Tekst200">Tekst200</item>
-                     </item>
-                     <item>1</item>
+                     <item/>
                   </part>
+               </content>
+               <content approach="target">
+                  <itemtype/>
+                  <itemtype type="ROLE-NAME"/>
+                  <itemtype type="ROLE-DEFINITION"/>
                   <part>
                      <item>
-                        <item type="detail"
-                              idref="detail_attribute_DomeinmodelBROBHRGTBmb_Registratieobject_dataleverancier">dataleverancier</item>
+                        <item>
+                           <item type="global" idref="global_class_DomeinmodelBROBHRGTBmb_Booronderzoek">Booronderzoek</item>
+                        </item>
+                        <item>[ 1 ]</item>
+                        <item>
+                           <item type="detail"
+                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Booronderzoek">heeft</item>
+                        </item>
+                        <item>Aangeleverde verticale positie</item>
+                        <item>[ 1 ]</item>
                      </item>
-                     <item>TODO</item>
-                     <item>
-                        <item type="global" idref="global_class_DomeinmodelBROCommon_Organisatie">Organisatie</item>
-                     </item>
-                     <item>1</item>
-                  </part>
-                  <part>
-                     <item>
-                        <item type="detail"
-                              idref="detail_attribute_DomeinmodelBROBHRGTBmb_Registratieobject_kwaliteitsregime">kwaliteitsregime</item>
-                     </item>
-                     <item>De aanduiding van de kwaliteitseis waaraan de gegevens van het object voldoen.</item>
-                     <item>
-                        <item type="global"
-                              idref="global_class_DomeinmodelBROCommon_Kwaliteitsregime">Kwaliteitsregime</item>
-                     </item>
-                     <item>1</item>
+                     <item/>
                   </part>
                </content>
             </section>
@@ -1774,14 +1974,14 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                </content>
             </section>
          </section>
-         <section name="Aangeleverde locatie"
+         <section name="Registratieobject"
                   type="OBJECTTYPE"
-                  id="global_class_DomeinmodelBROBHRGTBmb_AangeleverdeLocatie"
-                  uuid="EAID_FEC6D48A_0434_4105_9576_F6FEC3D4EF01">
+                  id="global_class_DomeinmodelBROBHRGTBmb_Registratieobject"
+                  uuid="EAID_5FADDBCB_E4B7_4eeb_BC48_BC13D22EE5F2">
             <content>
                <part type="CFG-DOC-NAAM">
                   <item>Naam</item>
-                  <item>Aangeleverde locatie</item>
+                  <item>Registratieobject</item>
                </part>
                <part type="CFG-DOC-HERKOMST">
                   <item>Herkomst</item>
@@ -1789,15 +1989,11 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                </part>
                <part type="CFG-DOC-DEFINITIE">
                   <item>Definitie</item>
-                  <item>De gegevens over de plaats van het booronderzoek op het aardoppervlak, zoals die zijn aangeleverd aan de basisregistratie ondergrond.</item>
+                  <item>Het geheel van gegevens dat betrekking heeft op het recht van een bepaalde partij een bepaalde mijnbouwactiviteit in een bepaald deel van de ondergrond van Nederland en zijn Exclusieve Economische Zone uit te voeren, en dat onder de verantwoordelijkheid van het ministerie van Economische Zaken en Klimaat aan de registerbeheerder van de basisregistratie ondergrond is aangeleverd en door de laatste in de registratie ondergrond is opgenomen.</item>
                </part>
                <part type="CFG-DOC-HERKOMSTDEFINITIE">
                   <item>Herkomst definitie</item>
                   <item>BRO</item>
-               </part>
-               <part type="CFG-DOC-TOELICHTING">
-                  <item>Toelichting</item>
-                  <item>De locatie van booronderzoek is gedefinieerd als een punt.</item>
                </part>
             </content>
             <section type="SHORT-ATTRIBUTES">
@@ -1810,364 +2006,59 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeLocatie_coRdinaten">coördinaten</item>
+                              idref="detail_attribute_DomeinmodelBROBHRGTBmb_Registratieobject_bROID">BRO-ID</item>
                      </item>
-                     <item>De coördinaten die zijn aangeleverd.</item>
-                     <item>
-                        <item type="global" idref="global_class_DomeinmodelBROCommon_CoRdinatenpaar">Coördinatenpaar</item>
-                     </item>
-                     <item>1</item>
-                  </part>
-                  <part>
-                     <item>
-                        <item type="detail"
-                              idref="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeLocatie_referentiestelsel">referentiestelsel</item>
-                     </item>
-                     <item>Het referentiestelsel van de aangeleverde coördinaten.</item>
+                     <item>TODO</item>
                      <item>
                         <item type="global"
-                              idref="global_class_DomeinmodelBROBHRGTBmb_Referentiestelsel">Referentiestelsel</item>
+                              idref="global_class_DomeinmodelBROCommon_Registratieobjectcode">Registratieobjectcode</item>
                      </item>
                      <item>1</item>
                   </part>
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeLocatie_datumLocatiebepaling">datum locatiebepaling</item>
+                              idref="detail_attribute_DomeinmodelBROBHRGTBmb_Registratieobject_bronhouder">bronhouder</item>
                      </item>
-                     <item>De datum waarop de plaats van het booronderzoek op het aardoppervlak is bepaald.</item>
-                     <item>
-                        <item type="global" idref="global_class_DomeinmodelBROCommon_Datum">Datum</item>
-                     </item>
-                     <item>1</item>
-                  </part>
-                  <part>
-                     <item>
-                        <item type="detail"
-                              idref="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeLocatie_methodeLocatiebepaling">methode locatiebepaling</item>
-                     </item>
-                     <item>De werkwijze die is gevolgd voor de bepaling van de plaats van het booronderzoek op het aardoppervlak.</item>
-                     <item>
-                        <item type="global"
-                              idref="global_class_DomeinmodelBROBHRGTBmb_MethodeLocatiebepaling">MethodeLocatiebepaling</item>
-                     </item>
-                     <item>1</item>
-                  </part>
-                  <part>
-                     <item>
-                        <item type="detail"
-                              idref="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeLocatie_uitvoerderLocatiebepaling">uitvoerder locatiebepaling</item>
-                     </item>
-                     <item>De identificatie die de organisatie die voor de bronhouder geldt als verantwoordelijk voor de uitvoering van de plaatsbepaling, als onderneming in het Handelsregister heeft.</item>
+                     <item>TODO</item>
                      <item>
                         <item type="global" idref="global_class_DomeinmodelBROCommon_Organisatie">Organisatie</item>
                      </item>
-                     <item>0 .. 1</item>
+                     <item>1</item>
                   </part>
-               </content>
-            </section>
-            <section type="SHORT-ASSOCIATIONS">
-               <content approach="association">
-                  <itemtype/>
-                  <itemtype type="ASSOCIATION-NAME"/>
-                  <itemtype type="ASSOCIATION-DEFINITION"/>
-                  <part>
-                     <item>
-                        <item>
-                           <item type="global" idref="global_class_DomeinmodelBROBHRGTBmb_Booronderzoek">Booronderzoek</item>
-                        </item>
-                        <item>[ 1 ]</item>
-                        <item>
-                           <item type="detail"
-                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Booronderzoek">uitgevoerd op</item>
-                        </item>
-                        <item>Aangeleverde locatie</item>
-                        <item>[ 1 ]</item>
-                     </item>
-                     <item/>
-                  </part>
-               </content>
-               <content approach="target">
-                  <itemtype/>
-                  <itemtype type="ROLE-NAME"/>
-                  <itemtype type="ROLE-DEFINITION"/>
-                  <part>
-                     <item>
-                        <item>
-                           <item type="global" idref="global_class_DomeinmodelBROBHRGTBmb_Booronderzoek">Booronderzoek</item>
-                        </item>
-                        <item>[ 1 ]</item>
-                        <item>
-                           <item type="detail"
-                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Booronderzoek">uitgevoerd op</item>
-                        </item>
-                        <item>Aangeleverde locatie</item>
-                        <item>[ 1 ]</item>
-                     </item>
-                     <item/>
-                  </part>
-               </content>
-            </section>
-         </section>
-         <section name="Aangeleverde verticale positie"
-                  type="OBJECTTYPE"
-                  id="global_class_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie"
-                  uuid="EAID_D119934B_C04E_45c4_9302_C7C76C8F2C7B">
-            <content>
-               <part type="CFG-DOC-NAAM">
-                  <item>Naam</item>
-                  <item>Aangeleverde verticale positie</item>
-               </part>
-               <part type="CFG-DOC-HERKOMST">
-                  <item>Herkomst</item>
-                  <item>BRO</item>
-               </part>
-               <part type="CFG-DOC-DEFINITIE">
-                  <item>Definitie</item>
-                  <item>TODO</item>
-               </part>
-               <part type="CFG-DOC-HERKOMSTDEFINITIE">
-                  <item>Herkomst definitie</item>
-                  <item>BRO</item>
-               </part>
-            </content>
-            <section type="SHORT-ATTRIBUTES">
-               <content>
-                  <itemtype/>
-                  <itemtype type="ATTRIBUTE-NAME"/>
-                  <itemtype type="ATTRIBUTE-DEFINITION"/>
-                  <itemtype type="ATTRIBUTE-FORMAT"/>
-                  <itemtype type="ATTRIBUTE-CARD"/>
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_lokaalVerticaalReferentiepunt">lokaal verticaal referentiepunt</item>
+                              idref="detail_attribute_DomeinmodelBROBHRGTBmb_Registratieobject_objectIDBronhouder">object-ID bronhouder</item>
                      </item>
-                     <item>Het punt dat in het booronderzoek is gebruikt als nulpunt voor de diepte.</item>
+                     <item>De identificatie die door of voor de bronhouder is gebruikt om het object in de eigen administratie te kunnen vinden, voordat het was geregistreerd in de basisregistratie ondergrond.</item>
                      <item>
-                        <item type="global"
-                              idref="global_class_DomeinmodelBROBHRGTBmb_LokaalVerticaalReferentiepunt">LokaalVerticaalReferentiepunt</item>
+                        <item type="global" idref="global_class_DomeinmodelBROCommon_Tekst200">Tekst200</item>
                      </item>
                      <item>1</item>
                   </part>
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_verschuiving">verschuiving</item>
+                              idref="detail_attribute_DomeinmodelBROBHRGTBmb_Registratieobject_dataleverancier">dataleverancier</item>
                      </item>
-                     <item>De verticale positie van het lokaal verticaal referentiepunt t.o.v. het verticaal referentievlak.</item>
-                     <item>
-                        <item type="global" idref="global_class_DomeinmodelBROCommon_Meetwaarde">Meetwaarde</item>
-                     </item>
-                     <item>1</item>
-                  </part>
-                  <part>
-                     <item>
-                        <item type="detail"
-                              idref="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_waterdiepte">waterdiepte</item>
-                     </item>
-                     <item>De positie van de waterbodem ten opzichte van het wateroppervlak.</item>
-                     <item>
-                        <item type="global" idref="global_class_DomeinmodelBROCommon_Meetwaarde">Meetwaarde</item>
-                     </item>
-                     <item>0 .. 1</item>
-                  </part>
-                  <part>
-                     <item>
-                        <item type="detail"
-                              idref="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_verticaalReferentievlak">verticaal referentievlak</item>
-                     </item>
-                     <item>Het referentieniveau voor de verticale positie van het lokaal verticaal referentiepunt.</item>
-                     <item>
-                        <item type="global"
-                              idref="global_class_DomeinmodelBROBHRGTBmb_VerticaalReferentievlak">VerticaalReferentievlak</item>
-                     </item>
-                     <item>1</item>
-                  </part>
-                  <part>
-                     <item>
-                        <item type="detail"
-                              idref="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_datumVerticalePositiebepaling">datum verticale positiebepaling</item>
-                     </item>
-                     <item>De datum waarop de verticale positie van het lokaal verticaal referentiepunt is bepaald.</item>
-                     <item>
-                        <item type="global" idref="global_class_DomeinmodelBROCommon_Datum">Datum</item>
-                     </item>
-                     <item>1</item>
-                  </part>
-                  <part>
-                     <item>
-                        <item type="detail"
-                              idref="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_methodeVerticalePositiebepaling">methode verticale positiebepaling</item>
-                     </item>
-                     <item>De werkwijze die is gevolgd voor de bepaling van de verticale positie van het lokaal verticaal referentiepunt.</item>
-                     <item>
-                        <item type="global"
-                              idref="global_class_DomeinmodelBROBHRGTBmb_MethodeVerticalePositiebepaling">MethodeVerticalePositiebepaling</item>
-                     </item>
-                     <item>1</item>
-                  </part>
-                  <part>
-                     <item>
-                        <item type="detail"
-                              idref="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_uitvoerderVerticalePositiebepaling">uitvoerder verticale positiebepaling</item>
-                     </item>
-                     <item>De identificatie die de organisatie die voor de bronhouder geldt als verantwoordelijk voor de uitvoering van de bepaling van de verticale positie, als onderneming in het Handelsregister heeft.</item>
+                     <item>TODO</item>
                      <item>
                         <item type="global" idref="global_class_DomeinmodelBROCommon_Organisatie">Organisatie</item>
                      </item>
-                     <item>0 .. 1</item>
-                  </part>
-               </content>
-            </section>
-            <section type="SHORT-ASSOCIATIONS">
-               <content approach="association">
-                  <itemtype/>
-                  <itemtype type="ASSOCIATION-NAME"/>
-                  <itemtype type="ASSOCIATION-DEFINITION"/>
-                  <part>
-                     <item>
-                        <item>
-                           <item type="global" idref="global_class_DomeinmodelBROBHRGTBmb_Booronderzoek">Booronderzoek</item>
-                        </item>
-                        <item>[ 1 ]</item>
-                        <item>
-                           <item type="detail"
-                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Booronderzoek">heeft</item>
-                        </item>
-                        <item>Aangeleverde verticale positie</item>
-                        <item>[ 1 ]</item>
-                     </item>
-                     <item/>
-                  </part>
-               </content>
-               <content approach="target">
-                  <itemtype/>
-                  <itemtype type="ROLE-NAME"/>
-                  <itemtype type="ROLE-DEFINITION"/>
-                  <part>
-                     <item>
-                        <item>
-                           <item type="global" idref="global_class_DomeinmodelBROBHRGTBmb_Booronderzoek">Booronderzoek</item>
-                        </item>
-                        <item>[ 1 ]</item>
-                        <item>
-                           <item type="detail"
-                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Booronderzoek">heeft</item>
-                        </item>
-                        <item>Aangeleverde verticale positie</item>
-                        <item>[ 1 ]</item>
-                     </item>
-                     <item/>
-                  </part>
-               </content>
-            </section>
-         </section>
-         <section name="Terreintoestand"
-                  type="OBJECTTYPE"
-                  id="global_class_DomeinmodelBROBHRGTBmb_Terreintoestand"
-                  uuid="EAID_BDE32A45_717B_458b_B1B4_CA5D40A5B3C4">
-            <content>
-               <part type="CFG-DOC-NAAM">
-                  <item>Naam</item>
-                  <item>Terreintoestand</item>
-               </part>
-               <part type="CFG-DOC-HERKOMST">
-                  <item>Herkomst</item>
-                  <item>BRO</item>
-               </part>
-               <part type="CFG-DOC-DEFINITIE">
-                  <item>Definitie</item>
-                  <item>TODO</item>
-               </part>
-               <part type="CFG-DOC-HERKOMSTDEFINITIE">
-                  <item>Herkomst definitie</item>
-                  <item>BRO</item>
-               </part>
-            </content>
-            <section type="SHORT-ATTRIBUTES">
-               <content>
-                  <itemtype/>
-                  <itemtype type="ATTRIBUTE-NAME"/>
-                  <itemtype type="ATTRIBUTE-DEFINITION"/>
-                  <itemtype type="ATTRIBUTE-FORMAT"/>
-                  <itemtype type="ATTRIBUTE-CARD"/>
-                  <part>
-                     <item>
-                        <item type="detail"
-                              idref="detail_attribute_DomeinmodelBROBHRGTBmb_Terreintoestand_bodemgebruik">bodemgebruik</item>
-                     </item>
-                     <item>TODO</item>
-                     <item>
-                        <item type="global" idref="global_class_DomeinmodelBROBHRGTBmb_Bodemgebruik">Bodemgebruik</item>
-                     </item>
-                     <item>0 .. 1</item>
+                     <item>1</item>
                   </part>
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_DomeinmodelBROBHRGTBmb_Terreintoestand_liggingOpGrondlichaam">ligging op grondlichaam</item>
+                              idref="detail_attribute_DomeinmodelBROBHRGTBmb_Registratieobject_kwaliteitsregime">kwaliteitsregime</item>
                      </item>
-                     <item>TODO</item>
+                     <item>De aanduiding van de kwaliteitseis waaraan de gegevens van het object voldoen.</item>
                      <item>
                         <item type="global"
-                              idref="global_class_DomeinmodelBROBHRGTBmb_LiggingOpGrondlichaam">LiggingOpGrondlichaam</item>
+                              idref="global_class_DomeinmodelBROCommon_Kwaliteitsregime">Kwaliteitsregime</item>
                      </item>
-                     <item>0 .. 1</item>
-                  </part>
-                  <part>
-                     <item>
-                        <item type="detail"
-                              idref="detail_attribute_DomeinmodelBROBHRGTBmb_Terreintoestand_tijdelijkeVerandering">tijdelijke verandering</item>
-                     </item>
-                     <item>TODO</item>
-                     <item>
-                        <item type="global"
-                              idref="global_class_DomeinmodelBROBHRGTBmb_TijdelijkeVerandering">TijdelijkeVerandering</item>
-                     </item>
-                     <item>0 .. 1</item>
-                  </part>
-               </content>
-            </section>
-            <section type="SHORT-ASSOCIATIONS">
-               <content approach="association">
-                  <itemtype/>
-                  <itemtype type="ASSOCIATION-NAME"/>
-                  <itemtype type="ASSOCIATION-DEFINITION"/>
-                  <part>
-                     <item>
-                        <item>
-                           <item type="global" idref="global_class_DomeinmodelBROBHRGTBmb_Booronderzoek">Booronderzoek</item>
-                        </item>
-                        <item>[ 1 ]</item>
-                        <item>
-                           <item type="detail"
-                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Booronderzoek">heeft</item>
-                        </item>
-                        <item>Terreintoestand</item>
-                        <item>[ 0 .. 1 ]</item>
-                     </item>
-                     <item/>
-                  </part>
-               </content>
-               <content approach="target">
-                  <itemtype/>
-                  <itemtype type="ROLE-NAME"/>
-                  <itemtype type="ROLE-DEFINITION"/>
-                  <part>
-                     <item>
-                        <item>
-                           <item type="global" idref="global_class_DomeinmodelBROBHRGTBmb_Booronderzoek">Booronderzoek</item>
-                        </item>
-                        <item>[ 1 ]</item>
-                        <item>
-                           <item type="detail"
-                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Booronderzoek">heeft</item>
-                        </item>
-                        <item>Terreintoestand</item>
-                        <item>[ 0 .. 1 ]</item>
-                     </item>
-                     <item/>
+                     <item>1</item>
                   </part>
                </content>
             </section>
@@ -2285,6 +2176,115 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                                  idref="detail_association_DomeinmodelBROBHRGTBmb_Booronderzoek">heeft</item>
                         </item>
                         <item>Sliblaag</item>
+                        <item>[ 0 .. 1 ]</item>
+                     </item>
+                     <item/>
+                  </part>
+               </content>
+            </section>
+         </section>
+         <section name="Terreintoestand"
+                  type="OBJECTTYPE"
+                  id="global_class_DomeinmodelBROBHRGTBmb_Terreintoestand"
+                  uuid="EAID_BDE32A45_717B_458b_B1B4_CA5D40A5B3C4">
+            <content>
+               <part type="CFG-DOC-NAAM">
+                  <item>Naam</item>
+                  <item>Terreintoestand</item>
+               </part>
+               <part type="CFG-DOC-HERKOMST">
+                  <item>Herkomst</item>
+                  <item>BRO</item>
+               </part>
+               <part type="CFG-DOC-DEFINITIE">
+                  <item>Definitie</item>
+                  <item>TODO</item>
+               </part>
+               <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                  <item>Herkomst definitie</item>
+                  <item>BRO</item>
+               </part>
+            </content>
+            <section type="SHORT-ATTRIBUTES">
+               <content>
+                  <itemtype/>
+                  <itemtype type="ATTRIBUTE-NAME"/>
+                  <itemtype type="ATTRIBUTE-DEFINITION"/>
+                  <itemtype type="ATTRIBUTE-FORMAT"/>
+                  <itemtype type="ATTRIBUTE-CARD"/>
+                  <part>
+                     <item>
+                        <item type="detail"
+                              idref="detail_attribute_DomeinmodelBROBHRGTBmb_Terreintoestand_bodemgebruik">bodemgebruik</item>
+                     </item>
+                     <item>TODO</item>
+                     <item>
+                        <item type="global" idref="global_class_DomeinmodelBROBHRGTBmb_Bodemgebruik">Bodemgebruik</item>
+                     </item>
+                     <item>0 .. 1</item>
+                  </part>
+                  <part>
+                     <item>
+                        <item type="detail"
+                              idref="detail_attribute_DomeinmodelBROBHRGTBmb_Terreintoestand_liggingOpGrondlichaam">ligging op grondlichaam</item>
+                     </item>
+                     <item>TODO</item>
+                     <item>
+                        <item type="global"
+                              idref="global_class_DomeinmodelBROBHRGTBmb_LiggingOpGrondlichaam">LiggingOpGrondlichaam</item>
+                     </item>
+                     <item>0 .. 1</item>
+                  </part>
+                  <part>
+                     <item>
+                        <item type="detail"
+                              idref="detail_attribute_DomeinmodelBROBHRGTBmb_Terreintoestand_tijdelijkeVerandering">tijdelijke verandering</item>
+                     </item>
+                     <item>TODO</item>
+                     <item>
+                        <item type="global"
+                              idref="global_class_DomeinmodelBROBHRGTBmb_TijdelijkeVerandering">TijdelijkeVerandering</item>
+                     </item>
+                     <item>0 .. 1</item>
+                  </part>
+               </content>
+            </section>
+            <section type="SHORT-ASSOCIATIONS">
+               <content approach="association">
+                  <itemtype/>
+                  <itemtype type="ASSOCIATION-NAME"/>
+                  <itemtype type="ASSOCIATION-DEFINITION"/>
+                  <part>
+                     <item>
+                        <item>
+                           <item type="global" idref="global_class_DomeinmodelBROBHRGTBmb_Booronderzoek">Booronderzoek</item>
+                        </item>
+                        <item>[ 1 ]</item>
+                        <item>
+                           <item type="detail"
+                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Booronderzoek">heeft</item>
+                        </item>
+                        <item>Terreintoestand</item>
+                        <item>[ 0 .. 1 ]</item>
+                     </item>
+                     <item/>
+                  </part>
+               </content>
+               <content approach="target">
+                  <itemtype/>
+                  <itemtype type="ROLE-NAME"/>
+                  <itemtype type="ROLE-DEFINITION"/>
+                  <part>
+                     <item>
+                        <item>
+                           <item type="global" idref="global_class_DomeinmodelBROBHRGTBmb_Booronderzoek">Booronderzoek</item>
+                        </item>
+                        <item>[ 1 ]</item>
+                        <item>
+                           <item type="detail"
+                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Booronderzoek">heeft</item>
+                        </item>
+                        <item>Terreintoestand</item>
                         <item>[ 0 .. 1 ]</item>
                      </item>
                      <item/>
@@ -2731,18 +2731,18 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
       <!--removed empty content-->
       <section type="DETAILS">
          <section type="DETAILS-OBJECTTYPE">
-            <section name="Registratieobject"
+            <section name="Aangeleverde locatie"
                      type="OBJECTTYPE"
-                     id="detail_class_DomeinmodelBROBHRGTBmb_Registratieobject"
-                     id-global="global_class_DomeinmodelBROBHRGTBmb_Registratieobject">
-               <section name="BRO-ID"
-                        type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_DomeinmodelBROBHRGTBmb_Registratieobject_bROID"
-                        id-global="global_attribute_DomeinmodelBROBHRGTBmb_Registratieobject_bROID">
+                     id="detail_class_DomeinmodelBROBHRGTBmb_AangeleverdeLocatie"
+                     id-global="global_class_DomeinmodelBROBHRGTBmb_AangeleverdeLocatie">
+               <section name="Coördinatenpaar"
+                        type="DETAIL-COMPOSITE"
+                        id="detail_class_DomeinmodelBROCommon_CoRdinatenpaar"
+                        id-global="global_class_DomeinmodelBROCommon_CoRdinatenpaar">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>BRO-ID</item>
+                        <item>Coördinatenpaar</item>
                      </part>
                      <part type="CFG-DOC-HERKOMST">
                         <item>Herkomst</item>
@@ -2750,7 +2750,299 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
-                        <item>TODO</item>
+                        <item>Het domein coördinatenpaar wordt gebruikt om de positie van een punt op het aardoppervlak vast te leggen. De positie wordt bepaald in een specifiek referentiestelsel en uitgedrukt in twee coördinaten. Ieder van de coördinaten heeft een getalswaarde en de notatie voor het paar is (coördinaat 1, coördinaat 2).</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
+                     </part>
+                  </content>
+                  <section name="coördinaat1"
+                           type="DETAIL-COMPOSITE-ATTRIBUTE"
+                           id="detail_attribute_DomeinmodelBROCommon_CoRdinatenpaar_coRdinaat1"
+                           id-global="global_attribute_DomeinmodelBROCommon_CoRdinatenpaar_coRdinaat1">
+                     <content>
+                        <part type="COMPOSER">
+                           <item type="global" idref="global_class_DomeinmodelBROCommon_CoRdinatenpaar">Coördinatenpaar</item>
+                        </part>
+                        <part type="CFG-DOC-NAAM">
+                           <item>Naam</item>
+                           <item>coördinaat1</item>
+                        </part>
+                        <part type="CFG-DOC-HERKOMST">
+                           <item>Herkomst</item>
+                           <item>BRO</item>
+                        </part>
+                        <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                           <item>Mogelijk geen waarde</item>
+                           <item>Nee</item>
+                        </part>
+                        <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                           <item>Indicatie kardinaliteit</item>
+                           <item>1</item>
+                        </part>
+                        <part type="CFG-DOC-FORMAAT">
+                           <item>Formaat</item>
+                           <item>REAL</item>
+                        </part>
+                     </content>
+                  </section>
+                  <section name="coördinaat2"
+                           type="DETAIL-COMPOSITE-ATTRIBUTE"
+                           id="detail_attribute_DomeinmodelBROCommon_CoRdinatenpaar_coRdinaat2"
+                           id-global="global_attribute_DomeinmodelBROCommon_CoRdinatenpaar_coRdinaat2">
+                     <content>
+                        <part type="COMPOSER">
+                           <item type="global" idref="global_class_DomeinmodelBROCommon_CoRdinatenpaar">Coördinatenpaar</item>
+                        </part>
+                        <part type="CFG-DOC-NAAM">
+                           <item>Naam</item>
+                           <item>coördinaat2</item>
+                        </part>
+                        <part type="CFG-DOC-HERKOMST">
+                           <item>Herkomst</item>
+                           <item>BRO</item>
+                        </part>
+                        <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                           <item>Mogelijk geen waarde</item>
+                           <item>Nee</item>
+                        </part>
+                        <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                           <item>Indicatie kardinaliteit</item>
+                           <item>1</item>
+                        </part>
+                        <part type="CFG-DOC-FORMAAT">
+                           <item>Formaat</item>
+                           <item>Meetwaarde</item>
+                        </part>
+                     </content>
+                  </section>
+               </section>
+               <section name="referentiestelsel"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeLocatie_referentiestelsel"
+                        id-global="global_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeLocatie_referentiestelsel">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>referentiestelsel</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>Het referentiestelsel van de aangeleverde coördinaten.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Overig</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>Referentiestelsel</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                  </content>
+               </section>
+               <section name="datum locatiebepaling"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeLocatie_datumLocatiebepaling"
+                        id-global="global_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeLocatie_datumLocatiebepaling">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>datum locatiebepaling</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>De datum waarop de plaats van het booronderzoek op het aardoppervlak is bepaald.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Overig</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>Datum</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                  </content>
+               </section>
+               <section name="methode locatiebepaling"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeLocatie_methodeLocatiebepaling"
+                        id-global="global_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeLocatie_methodeLocatiebepaling">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>methode locatiebepaling</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>De werkwijze die is gevolgd voor de bepaling van de plaats van het booronderzoek op het aardoppervlak.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Overig</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>MethodeLocatiebepaling</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                  </content>
+               </section>
+               <section name="uitvoerder locatiebepaling"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeLocatie_uitvoerderLocatiebepaling"
+                        id-global="global_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeLocatie_uitvoerderLocatiebepaling">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>uitvoerder locatiebepaling</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>De identificatie die de organisatie die voor de bronhouder geldt als verantwoordelijk voor de uitvoering van de plaatsbepaling, als onderneming in het Handelsregister heeft.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>0 .. 1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Overig</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>Organisatie</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                  </content>
+               </section>
+            </section>
+            <section name="Aangeleverde verticale positie"
+                     type="OBJECTTYPE"
+                     id="detail_class_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie"
+                     id-global="global_class_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie">
+               <section name="lokaal verticaal referentiepunt"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_lokaalVerticaalReferentiepunt"
+                        id-global="global_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_lokaalVerticaalReferentiepunt">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>lokaal verticaal referentiepunt</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>Het punt dat in het booronderzoek is gebruikt als nulpunt voor de diepte.</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
@@ -2778,7 +3070,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
-                        <item>Registratieobjectcode</item>
+                        <item>LokaalVerticaalReferentiepunt</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
@@ -2786,14 +3078,14 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      </part>
                   </content>
                </section>
-               <section name="bronhouder"
+               <section name="verschuiving"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_DomeinmodelBROBHRGTBmb_Registratieobject_bronhouder"
-                        id-global="global_attribute_DomeinmodelBROBHRGTBmb_Registratieobject_bronhouder">
+                        id="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_verschuiving"
+                        id-global="global_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_verschuiving">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>bronhouder</item>
+                        <item>verschuiving</item>
                      </part>
                      <part type="CFG-DOC-HERKOMST">
                         <item>Herkomst</item>
@@ -2801,7 +3093,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
-                        <item>TODO</item>
+                        <item>De verticale positie van het lokaal verticaal referentiepunt t.o.v. het verticaal referentievlak.</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
@@ -2825,176 +3117,266 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      </part>
                      <part type="CFG-DOC-INDICATIEAUTHENTIEK">
                         <item>Indicatie authentiek</item>
-                        <item>Overig</item>
+                        <item>Authentiek</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>Meetwaarde</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                  </content>
+               </section>
+               <section name="waterdiepte"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_waterdiepte"
+                        id-global="global_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_waterdiepte">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>waterdiepte</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>De positie van de waterbodem ten opzichte van het wateroppervlak.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>0 .. 1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Authentiek</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>Meetwaarde</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                  </content>
+               </section>
+               <section name="verticaal referentievlak"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_verticaalReferentievlak"
+                        id-global="global_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_verticaalReferentievlak">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>verticaal referentievlak</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>Het referentieniveau voor de verticale positie van het lokaal verticaal referentiepunt.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Authentiek</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>VerticaalReferentievlak</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                  </content>
+               </section>
+               <section name="datum verticale positiebepaling"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_datumVerticalePositiebepaling"
+                        id-global="global_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_datumVerticalePositiebepaling">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>datum verticale positiebepaling</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>De datum waarop de verticale positie van het lokaal verticaal referentiepunt is bepaald.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Authentiek</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>Datum</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                  </content>
+               </section>
+               <section name="methode verticale positiebepaling"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_methodeVerticalePositiebepaling"
+                        id-global="global_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_methodeVerticalePositiebepaling">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>methode verticale positiebepaling</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>De werkwijze die is gevolgd voor de bepaling van de verticale positie van het lokaal verticaal referentiepunt.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Authentiek</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>MethodeVerticalePositiebepaling</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                  </content>
+               </section>
+               <section name="uitvoerder verticale positiebepaling"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_uitvoerderVerticalePositiebepaling"
+                        id-global="global_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_uitvoerderVerticalePositiebepaling">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>uitvoerder verticale positiebepaling</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>De identificatie die de organisatie die voor de bronhouder geldt als verantwoordelijk voor de uitvoering van de bepaling van de verticale positie, als onderneming in het Handelsregister heeft.</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>0 .. 1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Authentiek</item>
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
                         <item>Organisatie</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
-                        <item>Indicatie afleidbaar</item>
-                        <item>Nee</item>
-                     </part>
-                  </content>
-               </section>
-               <section name="object-ID bronhouder"
-                        type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_DomeinmodelBROBHRGTBmb_Registratieobject_objectIDBronhouder"
-                        id-global="global_attribute_DomeinmodelBROBHRGTBmb_Registratieobject_objectIDBronhouder">
-                  <content>
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>object-ID bronhouder</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMST">
-                        <item>Herkomst</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-DEFINITIE">
-                        <item>Definitie</item>
-                        <item>De identificatie die door of voor de bronhouder is gebruikt om het object in de eigen administratie te kunnen vinden, voordat het was geregistreerd in de basisregistratie ondergrond.</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
-                        <item>Herkomst definitie</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-TOELICHTING">
-                        <item>Toelichting</item>
-                        <item>Het gegeven wordt alleen uitgeleverd aan de dataleverancier en de bronhouder. Het is in de registratie opgenomen om de communicatie tussen de registerbeheerder en de bronhouder of dataleverancier te vergemakkelijken.</item>
-                     </part>
-                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                        <item>Mogelijk geen waarde</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                        <item>Indicatie materiële historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                        <item>Indicatie formele historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>1</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                        <item>Indicatie authentiek</item>
-                        <item>Overig</item>
-                     </part>
-                     <part type="CFG-DOC-FORMAAT">
-                        <item>Formaat</item>
-                        <item>Tekst200</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
-                        <item>Indicatie afleidbaar</item>
-                        <item>Nee</item>
-                     </part>
-                  </content>
-               </section>
-               <section name="dataleverancier"
-                        type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_DomeinmodelBROBHRGTBmb_Registratieobject_dataleverancier"
-                        id-global="global_attribute_DomeinmodelBROBHRGTBmb_Registratieobject_dataleverancier">
-                  <content>
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>dataleverancier</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMST">
-                        <item>Herkomst</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-DEFINITIE">
-                        <item>Definitie</item>
-                        <item>TODO</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
-                        <item>Herkomst definitie</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-TOELICHTING">
-                        <item>Toelichting</item>
-                        <item>Het gegeven is door de dataleverancier bij de overdracht meegegeven. Het wordt alleen uitgeleverd aan de dataleverancier en de bronhouder.</item>
-                     </part>
-                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                        <item>Mogelijk geen waarde</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                        <item>Indicatie materiële historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                        <item>Indicatie formele historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>1</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                        <item>Indicatie authentiek</item>
-                        <item>Overig</item>
-                     </part>
-                     <part type="CFG-DOC-FORMAAT">
-                        <item>Formaat</item>
-                        <item>Organisatie</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
-                        <item>Indicatie afleidbaar</item>
-                        <item>Nee</item>
-                     </part>
-                  </content>
-               </section>
-               <section name="kwaliteitsregime"
-                        type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_DomeinmodelBROBHRGTBmb_Registratieobject_kwaliteitsregime"
-                        id-global="global_attribute_DomeinmodelBROBHRGTBmb_Registratieobject_kwaliteitsregime">
-                  <content>
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>kwaliteitsregime</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMST">
-                        <item>Herkomst</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-DEFINITIE">
-                        <item>Definitie</item>
-                        <item>De aanduiding van de kwaliteitseis waaraan de gegevens van het object voldoen.</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
-                        <item>Herkomst definitie</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-TOELICHTING">
-                        <item>Toelichting</item>
-                        <item>Het gegeven is door de dataleverancier bij de overdracht meegegeven.</item>
-                     </part>
-                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                        <item>Mogelijk geen waarde</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                        <item>Indicatie materiële historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                        <item>Indicatie formele historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>1</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                        <item>Indicatie authentiek</item>
-                        <item>Overig</item>
-                     </part>
-                     <part type="CFG-DOC-FORMAAT">
-                        <item>Formaat</item>
-                        <item>Kwaliteitsregime</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
@@ -3976,101 +4358,18 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                   </content>
                </section>
             </section>
-            <section name="Aangeleverde locatie"
+            <section name="Registratieobject"
                      type="OBJECTTYPE"
-                     id="detail_class_DomeinmodelBROBHRGTBmb_AangeleverdeLocatie"
-                     id-global="global_class_DomeinmodelBROBHRGTBmb_AangeleverdeLocatie">
-               <section name="Coördinatenpaar"
-                        type="DETAIL-COMPOSITE"
-                        id="detail_class_DomeinmodelBROCommon_CoRdinatenpaar"
-                        id-global="global_class_DomeinmodelBROCommon_CoRdinatenpaar">
-                  <content>
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>Coördinatenpaar</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMST">
-                        <item>Herkomst</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-DEFINITIE">
-                        <item>Definitie</item>
-                        <item>Het domein coördinatenpaar wordt gebruikt om de positie van een punt op het aardoppervlak vast te leggen. De positie wordt bepaald in een specifiek referentiestelsel en uitgedrukt in twee coördinaten. Ieder van de coördinaten heeft een getalswaarde en de notatie voor het paar is (coördinaat 1, coördinaat 2).</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
-                        <item>Herkomst definitie</item>
-                        <item>BRO</item>
-                     </part>
-                  </content>
-                  <section name="coördinaat1"
-                           type="DETAIL-COMPOSITE-ATTRIBUTE"
-                           id="detail_attribute_DomeinmodelBROCommon_CoRdinatenpaar_coRdinaat1"
-                           id-global="global_attribute_DomeinmodelBROCommon_CoRdinatenpaar_coRdinaat1">
-                     <content>
-                        <part type="COMPOSER">
-                           <item type="global" idref="global_class_DomeinmodelBROCommon_CoRdinatenpaar">Coördinatenpaar</item>
-                        </part>
-                        <part type="CFG-DOC-NAAM">
-                           <item>Naam</item>
-                           <item>coördinaat1</item>
-                        </part>
-                        <part type="CFG-DOC-HERKOMST">
-                           <item>Herkomst</item>
-                           <item>BRO</item>
-                        </part>
-                        <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                           <item>Mogelijk geen waarde</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                           <item>Indicatie kardinaliteit</item>
-                           <item>1</item>
-                        </part>
-                        <part type="CFG-DOC-FORMAAT">
-                           <item>Formaat</item>
-                           <item>REAL</item>
-                        </part>
-                     </content>
-                  </section>
-                  <section name="coördinaat2"
-                           type="DETAIL-COMPOSITE-ATTRIBUTE"
-                           id="detail_attribute_DomeinmodelBROCommon_CoRdinatenpaar_coRdinaat2"
-                           id-global="global_attribute_DomeinmodelBROCommon_CoRdinatenpaar_coRdinaat2">
-                     <content>
-                        <part type="COMPOSER">
-                           <item type="global" idref="global_class_DomeinmodelBROCommon_CoRdinatenpaar">Coördinatenpaar</item>
-                        </part>
-                        <part type="CFG-DOC-NAAM">
-                           <item>Naam</item>
-                           <item>coördinaat2</item>
-                        </part>
-                        <part type="CFG-DOC-HERKOMST">
-                           <item>Herkomst</item>
-                           <item>BRO</item>
-                        </part>
-                        <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                           <item>Mogelijk geen waarde</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                           <item>Indicatie kardinaliteit</item>
-                           <item>1</item>
-                        </part>
-                        <part type="CFG-DOC-FORMAAT">
-                           <item>Formaat</item>
-                           <item>Meetwaarde</item>
-                        </part>
-                     </content>
-                  </section>
-               </section>
-               <section name="referentiestelsel"
+                     id="detail_class_DomeinmodelBROBHRGTBmb_Registratieobject"
+                     id-global="global_class_DomeinmodelBROBHRGTBmb_Registratieobject">
+               <section name="BRO-ID"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeLocatie_referentiestelsel"
-                        id-global="global_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeLocatie_referentiestelsel">
+                        id="detail_attribute_DomeinmodelBROBHRGTBmb_Registratieobject_bROID"
+                        id-global="global_attribute_DomeinmodelBROBHRGTBmb_Registratieobject_bROID">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>referentiestelsel</item>
+                        <item>BRO-ID</item>
                      </part>
                      <part type="CFG-DOC-HERKOMST">
                         <item>Herkomst</item>
@@ -4078,7 +4377,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
-                        <item>Het referentiestelsel van de aangeleverde coördinaten.</item>
+                        <item>TODO</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
@@ -4102,11 +4401,11 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      </part>
                      <part type="CFG-DOC-INDICATIEAUTHENTIEK">
                         <item>Indicatie authentiek</item>
-                        <item>Overig</item>
+                        <item>Authentiek</item>
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
-                        <item>Referentiestelsel</item>
+                        <item>Registratieobjectcode</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
@@ -4114,14 +4413,14 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      </part>
                   </content>
                </section>
-               <section name="datum locatiebepaling"
+               <section name="bronhouder"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeLocatie_datumLocatiebepaling"
-                        id-global="global_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeLocatie_datumLocatiebepaling">
+                        id="detail_attribute_DomeinmodelBROBHRGTBmb_Registratieobject_bronhouder"
+                        id-global="global_attribute_DomeinmodelBROBHRGTBmb_Registratieobject_bronhouder">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>datum locatiebepaling</item>
+                        <item>bronhouder</item>
                      </part>
                      <part type="CFG-DOC-HERKOMST">
                         <item>Herkomst</item>
@@ -4129,7 +4428,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
-                        <item>De datum waarop de plaats van het booronderzoek op het aardoppervlak is bepaald.</item>
+                        <item>TODO</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
@@ -4150,108 +4449,6 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
                         <item>1</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                        <item>Indicatie authentiek</item>
-                        <item>Overig</item>
-                     </part>
-                     <part type="CFG-DOC-FORMAAT">
-                        <item>Formaat</item>
-                        <item>Datum</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
-                        <item>Indicatie afleidbaar</item>
-                        <item>Nee</item>
-                     </part>
-                  </content>
-               </section>
-               <section name="methode locatiebepaling"
-                        type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeLocatie_methodeLocatiebepaling"
-                        id-global="global_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeLocatie_methodeLocatiebepaling">
-                  <content>
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>methode locatiebepaling</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMST">
-                        <item>Herkomst</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-DEFINITIE">
-                        <item>Definitie</item>
-                        <item>De werkwijze die is gevolgd voor de bepaling van de plaats van het booronderzoek op het aardoppervlak.</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
-                        <item>Herkomst definitie</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                        <item>Mogelijk geen waarde</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                        <item>Indicatie materiële historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                        <item>Indicatie formele historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>1</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                        <item>Indicatie authentiek</item>
-                        <item>Overig</item>
-                     </part>
-                     <part type="CFG-DOC-FORMAAT">
-                        <item>Formaat</item>
-                        <item>MethodeLocatiebepaling</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
-                        <item>Indicatie afleidbaar</item>
-                        <item>Nee</item>
-                     </part>
-                  </content>
-               </section>
-               <section name="uitvoerder locatiebepaling"
-                        type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeLocatie_uitvoerderLocatiebepaling"
-                        id-global="global_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeLocatie_uitvoerderLocatiebepaling">
-                  <content>
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>uitvoerder locatiebepaling</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMST">
-                        <item>Herkomst</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-DEFINITIE">
-                        <item>Definitie</item>
-                        <item>De identificatie die de organisatie die voor de bronhouder geldt als verantwoordelijk voor de uitvoering van de plaatsbepaling, als onderneming in het Handelsregister heeft.</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
-                        <item>Herkomst definitie</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                        <item>Mogelijk geen waarde</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                        <item>Indicatie materiële historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                        <item>Indicatie formele historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>0 .. 1</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEAUTHENTIEK">
                         <item>Indicatie authentiek</item>
@@ -4267,19 +4464,14 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      </part>
                   </content>
                </section>
-            </section>
-            <section name="Aangeleverde verticale positie"
-                     type="OBJECTTYPE"
-                     id="detail_class_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie"
-                     id-global="global_class_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie">
-               <section name="lokaal verticaal referentiepunt"
+               <section name="object-ID bronhouder"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_lokaalVerticaalReferentiepunt"
-                        id-global="global_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_lokaalVerticaalReferentiepunt">
+                        id="detail_attribute_DomeinmodelBROBHRGTBmb_Registratieobject_objectIDBronhouder"
+                        id-global="global_attribute_DomeinmodelBROBHRGTBmb_Registratieobject_objectIDBronhouder">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>lokaal verticaal referentiepunt</item>
+                        <item>object-ID bronhouder</item>
                      </part>
                      <part type="CFG-DOC-HERKOMST">
                         <item>Herkomst</item>
@@ -4287,11 +4479,15 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
-                        <item>Het punt dat in het booronderzoek is gebruikt als nulpunt voor de diepte.</item>
+                        <item>De identificatie die door of voor de bronhouder is gebruikt om het object in de eigen administratie te kunnen vinden, voordat het was geregistreerd in de basisregistratie ondergrond.</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
                         <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-TOELICHTING">
+                        <item>Toelichting</item>
+                        <item>Het gegeven wordt alleen uitgeleverd aan de dataleverancier en de bronhouder. Het is in de registratie opgenomen om de communicatie tussen de registerbeheerder en de bronhouder of dataleverancier te vergemakkelijken.</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -4311,11 +4507,11 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      </part>
                      <part type="CFG-DOC-INDICATIEAUTHENTIEK">
                         <item>Indicatie authentiek</item>
-                        <item>Authentiek</item>
+                        <item>Overig</item>
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
-                        <item>LokaalVerticaalReferentiepunt</item>
+                        <item>Tekst200</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
@@ -4323,14 +4519,14 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      </part>
                   </content>
                </section>
-               <section name="verschuiving"
+               <section name="dataleverancier"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_verschuiving"
-                        id-global="global_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_verschuiving">
+                        id="detail_attribute_DomeinmodelBROBHRGTBmb_Registratieobject_dataleverancier"
+                        id-global="global_attribute_DomeinmodelBROBHRGTBmb_Registratieobject_dataleverancier">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>verschuiving</item>
+                        <item>dataleverancier</item>
                      </part>
                      <part type="CFG-DOC-HERKOMST">
                         <item>Herkomst</item>
@@ -4338,11 +4534,15 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
-                        <item>De verticale positie van het lokaal verticaal referentiepunt t.o.v. het verticaal referentievlak.</item>
+                        <item>TODO</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
                         <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-TOELICHTING">
+                        <item>Toelichting</item>
+                        <item>Het gegeven is door de dataleverancier bij de overdracht meegegeven. Het wordt alleen uitgeleverd aan de dataleverancier en de bronhouder.</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -4362,262 +4562,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      </part>
                      <part type="CFG-DOC-INDICATIEAUTHENTIEK">
                         <item>Indicatie authentiek</item>
-                        <item>Authentiek</item>
-                     </part>
-                     <part type="CFG-DOC-FORMAAT">
-                        <item>Formaat</item>
-                        <item>Meetwaarde</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
-                        <item>Indicatie afleidbaar</item>
-                        <item>Nee</item>
-                     </part>
-                  </content>
-               </section>
-               <section name="waterdiepte"
-                        type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_waterdiepte"
-                        id-global="global_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_waterdiepte">
-                  <content>
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>waterdiepte</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMST">
-                        <item>Herkomst</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-DEFINITIE">
-                        <item>Definitie</item>
-                        <item>De positie van de waterbodem ten opzichte van het wateroppervlak.</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
-                        <item>Herkomst definitie</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                        <item>Mogelijk geen waarde</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                        <item>Indicatie materiële historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                        <item>Indicatie formele historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>0 .. 1</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                        <item>Indicatie authentiek</item>
-                        <item>Authentiek</item>
-                     </part>
-                     <part type="CFG-DOC-FORMAAT">
-                        <item>Formaat</item>
-                        <item>Meetwaarde</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
-                        <item>Indicatie afleidbaar</item>
-                        <item>Nee</item>
-                     </part>
-                  </content>
-               </section>
-               <section name="verticaal referentievlak"
-                        type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_verticaalReferentievlak"
-                        id-global="global_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_verticaalReferentievlak">
-                  <content>
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>verticaal referentievlak</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMST">
-                        <item>Herkomst</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-DEFINITIE">
-                        <item>Definitie</item>
-                        <item>Het referentieniveau voor de verticale positie van het lokaal verticaal referentiepunt.</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
-                        <item>Herkomst definitie</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                        <item>Mogelijk geen waarde</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                        <item>Indicatie materiële historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                        <item>Indicatie formele historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>1</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                        <item>Indicatie authentiek</item>
-                        <item>Authentiek</item>
-                     </part>
-                     <part type="CFG-DOC-FORMAAT">
-                        <item>Formaat</item>
-                        <item>VerticaalReferentievlak</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
-                        <item>Indicatie afleidbaar</item>
-                        <item>Nee</item>
-                     </part>
-                  </content>
-               </section>
-               <section name="datum verticale positiebepaling"
-                        type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_datumVerticalePositiebepaling"
-                        id-global="global_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_datumVerticalePositiebepaling">
-                  <content>
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>datum verticale positiebepaling</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMST">
-                        <item>Herkomst</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-DEFINITIE">
-                        <item>Definitie</item>
-                        <item>De datum waarop de verticale positie van het lokaal verticaal referentiepunt is bepaald.</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
-                        <item>Herkomst definitie</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                        <item>Mogelijk geen waarde</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                        <item>Indicatie materiële historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                        <item>Indicatie formele historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>1</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                        <item>Indicatie authentiek</item>
-                        <item>Authentiek</item>
-                     </part>
-                     <part type="CFG-DOC-FORMAAT">
-                        <item>Formaat</item>
-                        <item>Datum</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
-                        <item>Indicatie afleidbaar</item>
-                        <item>Nee</item>
-                     </part>
-                  </content>
-               </section>
-               <section name="methode verticale positiebepaling"
-                        type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_methodeVerticalePositiebepaling"
-                        id-global="global_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_methodeVerticalePositiebepaling">
-                  <content>
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>methode verticale positiebepaling</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMST">
-                        <item>Herkomst</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-DEFINITIE">
-                        <item>Definitie</item>
-                        <item>De werkwijze die is gevolgd voor de bepaling van de verticale positie van het lokaal verticaal referentiepunt.</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
-                        <item>Herkomst definitie</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                        <item>Mogelijk geen waarde</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                        <item>Indicatie materiële historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                        <item>Indicatie formele historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>1</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                        <item>Indicatie authentiek</item>
-                        <item>Authentiek</item>
-                     </part>
-                     <part type="CFG-DOC-FORMAAT">
-                        <item>Formaat</item>
-                        <item>MethodeVerticalePositiebepaling</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
-                        <item>Indicatie afleidbaar</item>
-                        <item>Nee</item>
-                     </part>
-                  </content>
-               </section>
-               <section name="uitvoerder verticale positiebepaling"
-                        type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_uitvoerderVerticalePositiebepaling"
-                        id-global="global_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_uitvoerderVerticalePositiebepaling">
-                  <content>
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>uitvoerder verticale positiebepaling</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMST">
-                        <item>Herkomst</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-DEFINITIE">
-                        <item>Definitie</item>
-                        <item>De identificatie die de organisatie die voor de bronhouder geldt als verantwoordelijk voor de uitvoering van de bepaling van de verticale positie, als onderneming in het Handelsregister heeft.</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
-                        <item>Herkomst definitie</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                        <item>Mogelijk geen waarde</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                        <item>Indicatie materiële historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                        <item>Indicatie formele historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>0 .. 1</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                        <item>Indicatie authentiek</item>
-                        <item>Authentiek</item>
+                        <item>Overig</item>
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
@@ -4629,19 +4574,14 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      </part>
                   </content>
                </section>
-            </section>
-            <section name="Terreintoestand"
-                     type="OBJECTTYPE"
-                     id="detail_class_DomeinmodelBROBHRGTBmb_Terreintoestand"
-                     id-global="global_class_DomeinmodelBROBHRGTBmb_Terreintoestand">
-               <section name="bodemgebruik"
+               <section name="kwaliteitsregime"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_DomeinmodelBROBHRGTBmb_Terreintoestand_bodemgebruik"
-                        id-global="global_attribute_DomeinmodelBROBHRGTBmb_Terreintoestand_bodemgebruik">
+                        id="detail_attribute_DomeinmodelBROBHRGTBmb_Registratieobject_kwaliteitsregime"
+                        id-global="global_attribute_DomeinmodelBROBHRGTBmb_Registratieobject_kwaliteitsregime">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>bodemgebruik</item>
+                        <item>kwaliteitsregime</item>
                      </part>
                      <part type="CFG-DOC-HERKOMST">
                         <item>Herkomst</item>
@@ -4649,11 +4589,15 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
-                        <item>TODO</item>
+                        <item>De aanduiding van de kwaliteitseis waaraan de gegevens van het object voldoen.</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
                         <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-TOELICHTING">
+                        <item>Toelichting</item>
+                        <item>Het gegeven is door de dataleverancier bij de overdracht meegegeven.</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -4669,117 +4613,15 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
-                        <item>0 .. 1</item>
+                        <item>1</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEAUTHENTIEK">
                         <item>Indicatie authentiek</item>
-                        <item>Authentiek</item>
+                        <item>Overig</item>
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
-                        <item>Bodemgebruik</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
-                        <item>Indicatie afleidbaar</item>
-                        <item>Nee</item>
-                     </part>
-                  </content>
-               </section>
-               <section name="ligging op grondlichaam"
-                        type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_DomeinmodelBROBHRGTBmb_Terreintoestand_liggingOpGrondlichaam"
-                        id-global="global_attribute_DomeinmodelBROBHRGTBmb_Terreintoestand_liggingOpGrondlichaam">
-                  <content>
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>ligging op grondlichaam</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMST">
-                        <item>Herkomst</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-DEFINITIE">
-                        <item>Definitie</item>
-                        <item>TODO</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
-                        <item>Herkomst definitie</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                        <item>Mogelijk geen waarde</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                        <item>Indicatie materiële historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                        <item>Indicatie formele historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>0 .. 1</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                        <item>Indicatie authentiek</item>
-                        <item>Authentiek</item>
-                     </part>
-                     <part type="CFG-DOC-FORMAAT">
-                        <item>Formaat</item>
-                        <item>LiggingOpGrondlichaam</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
-                        <item>Indicatie afleidbaar</item>
-                        <item>Nee</item>
-                     </part>
-                  </content>
-               </section>
-               <section name="tijdelijke verandering"
-                        type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_DomeinmodelBROBHRGTBmb_Terreintoestand_tijdelijkeVerandering"
-                        id-global="global_attribute_DomeinmodelBROBHRGTBmb_Terreintoestand_tijdelijkeVerandering">
-                  <content>
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>tijdelijke verandering</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMST">
-                        <item>Herkomst</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-DEFINITIE">
-                        <item>Definitie</item>
-                        <item>TODO</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
-                        <item>Herkomst definitie</item>
-                        <item>BRO</item>
-                     </part>
-                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                        <item>Mogelijk geen waarde</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                        <item>Indicatie materiële historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                        <item>Indicatie formele historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>0 .. 1</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                        <item>Indicatie authentiek</item>
-                        <item>Authentiek</item>
-                     </part>
-                     <part type="CFG-DOC-FORMAAT">
-                        <item>Formaat</item>
-                        <item>TijdelijkeVerandering</item>
+                        <item>Kwaliteitsregime</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
@@ -4989,6 +4831,164 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
                         <item>MethodePositiebepalingSliblaag</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                  </content>
+               </section>
+            </section>
+            <section name="Terreintoestand"
+                     type="OBJECTTYPE"
+                     id="detail_class_DomeinmodelBROBHRGTBmb_Terreintoestand"
+                     id-global="global_class_DomeinmodelBROBHRGTBmb_Terreintoestand">
+               <section name="bodemgebruik"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_DomeinmodelBROBHRGTBmb_Terreintoestand_bodemgebruik"
+                        id-global="global_attribute_DomeinmodelBROBHRGTBmb_Terreintoestand_bodemgebruik">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>bodemgebruik</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>TODO</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>0 .. 1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Authentiek</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>Bodemgebruik</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                  </content>
+               </section>
+               <section name="ligging op grondlichaam"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_DomeinmodelBROBHRGTBmb_Terreintoestand_liggingOpGrondlichaam"
+                        id-global="global_attribute_DomeinmodelBROBHRGTBmb_Terreintoestand_liggingOpGrondlichaam">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>ligging op grondlichaam</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>TODO</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>0 .. 1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Authentiek</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>LiggingOpGrondlichaam</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                  </content>
+               </section>
+               <section name="tijdelijke verandering"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_DomeinmodelBROBHRGTBmb_Terreintoestand_tijdelijkeVerandering"
+                        id-global="global_attribute_DomeinmodelBROBHRGTBmb_Terreintoestand_tijdelijkeVerandering">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>tijdelijke verandering</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>TODO</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>0 .. 1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Authentiek</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>TijdelijkeVerandering</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
