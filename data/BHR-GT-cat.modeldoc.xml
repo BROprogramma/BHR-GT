@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_4532D2FB_BE47_4dc9_BBAD_0F65D43D52FB"
       generator-version="1.47.5"
-      generator-date="2018-10-22T10:09:01Z">
+      generator-date="2018-10-22T11:57:07Z">
    <section type="DOMAIN"
             name="Domeinmodel BRO Common"
             id="global_package_DomeinmodelBROCommon"><!--removed empty content-->
@@ -1666,7 +1666,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>is specialisatie van</item>
                         <item>
                            <item type="global"
-                                 idref="global_class_DomeinmodelBrocommonbrocommonconceptueelMIM_Registratieobject">Registratieobject</item>
+                                 idref="global_class_DomeinmodelBROBHRGTBmb_Registratieobject">Registratieobject</item>
                         </item>
                      </item>
                      <item>Het geheel van gegevens dat betrekking heeft op het recht van een bepaalde partij een bepaalde mijnbouwactiviteit in een bepaald deel van de ondergrond van Nederland en zijn Exclusieve Economische Zone uit te voeren, en dat onder de verantwoordelijkheid van het ministerie van Economische Zaken en Klimaat aan de registerbeheerder van de basisregistratie ondergrond is aangeleverd en door de laatste in de registratie ondergrond is opgenomen.</item>
@@ -1824,7 +1824,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>is specialisatie van</item>
                         <item>
                            <item type="global"
-                                 idref="global_class_DomeinmodelBrocommonbrocommonconceptueelMIM_Registratieobject">Registratieobject</item>
+                                 idref="global_class_DomeinmodelBROBHRGTBmb_Registratieobject">Registratieobject</item>
                         </item>
                      </item>
                      <item>Het geheel van gegevens dat betrekking heeft op het recht van een bepaalde partij een bepaalde mijnbouwactiviteit in een bepaald deel van de ondergrond van Nederland en zijn Exclusieve Economische Zone uit te voeren, en dat onder de verantwoordelijkheid van het ministerie van Economische Zaken en Klimaat aan de registerbeheerder van de basisregistratie ondergrond is aangeleverd en door de laatste in de registratie ondergrond is opgenomen.</item>
