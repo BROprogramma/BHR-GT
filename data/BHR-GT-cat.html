@@ -1,10 +1,10 @@
 <h2>Catalogus</h2>
 <p class="note" title="Over deze catalogus">
    Deze catalogus is automatisch samengesteld op basis van het UML model 
-   "Geotechnisch booronderzoek (BHR-GT)" door Imvertor 1.47.6 op November 9, 2018 at 13:56:04.
+   "Geotechnisch booronderzoek (BHR-GT)" door Imvertor 1.48.0 op November 21, 2018 at 16:11:31.
    <br>
    Wanneer je technische fouten of onvolkomenheden aantreft, geef dit dan door aan <i></i> en geef de code 
-   <i>"Conceptualmodel-GeotechnischbooronderzoekBHR-GT-1.0-0-20181008-20181109-145606"</i> door. 
+   <i>"Conceptualmodel-GeotechnischbooronderzoekBHR-GT-1.0-0-20181008-20181121-171133"</i> door. 
    
 </p><a class="anchor" name="global_package_DomeinmodelBROCommon"></a><section id="global_package_DomeinmodelBROCommon">
    <h3>Domein Domeinmodel BRO Common</h3>
@@ -127,6 +127,21 @@
                </tr>
                <tr>
                   <td>
+                     <a class="link" href="#detail_attribute_DomeinmodelBROCommon_Registratieobject_objectIDBronhouder">object-ID bronhouder</a>
+                     
+                  </td>
+                  <td>De identificatie die door of voor de bronhouder is gebruikt om het object in de eigen
+                     administratie te kunnen vinden, voordat het was geregistreerd in de basisregistratie
+                     ondergrond.
+                  </td>
+                  <td>
+                     <a class="link" href="#global_class_DomeinmodelBROCommon_Tekst200">Tekst200</a>
+                     
+                  </td>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <td>
                      <a class="link" href="#detail_attribute_DomeinmodelBROCommon_Registratieobject_dataleverancier">dataleverancier</a>
                      
                   </td>
@@ -145,21 +160,6 @@
                   <td>De aanduiding van de kwaliteitseis waaraan de gegevens van het object voldoen.</td>
                   <td>
                      <a class="link" href="#global_class_DomeinmodelBROCommon_Kwaliteitsregime">Kwaliteitsregime</a>
-                     
-                  </td>
-                  <td>1</td>
-               </tr>
-               <tr>
-                  <td>
-                     <a class="link" href="#detail_attribute_DomeinmodelBROCommon_Registratieobject_objectIDBronhouder">object-ID bronhouder</a>
-                     
-                  </td>
-                  <td>De identificatie die door of voor de bronhouder is gebruikt om het object in de eigen
-                     administratie te kunnen vinden, voordat het was geregistreerd in de basisregistratie
-                     ondergrond.
-                  </td>
-                  <td>
-                     <a class="link" href="#global_class_DomeinmodelBROCommon_Tekst200">Tekst200</a>
                      
                   </td>
                   <td>1</td>
@@ -240,6 +240,18 @@
                   </tr>
                   <tr>
                      <td>
+                        <a class="link" href="#detail_attribute_DomeinmodelBROCommon_OnvolledigeDatum_volledigeDatum">volledige datum</a>
+                        
+                     </td>
+                     <td></td>
+                     <td>
+                        <a class="link" href="#global_class_DomeinmodelBROCommon_Datum">Datum</a>
+                        
+                     </td>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <td>
                         <a class="link" href="#detail_attribute_DomeinmodelBROCommon_OnvolledigeDatum_jaarEnMaand">jaar en maand</a>
                         
                      </td>
@@ -270,18 +282,6 @@
                      <td></td>
                      <td>
                         <a class="link" href="#global_class_DomeinmodelBROCommon_RedenGeenWaarde">RedenGeenWaarde</a>
-                        
-                     </td>
-                     <td>1</td>
-                  </tr>
-                  <tr>
-                     <td>
-                        <a class="link" href="#detail_attribute_DomeinmodelBROCommon_OnvolledigeDatum_volledigeDatum">volledige datum</a>
-                        
-                     </td>
-                     <td></td>
-                     <td>
-                        <a class="link" href="#global_class_DomeinmodelBROCommon_Datum">Datum</a>
                         
                      </td>
                      <td>1</td>
@@ -331,24 +331,24 @@
                   </tr>
                   <tr>
                      <td>
-                        <a class="link" href="#detail_attribute_DomeinmodelBROCommon_Organisatie_europeesHandelsnummer">Europees handelsnummer</a>
-                        
-                     </td>
-                     <td></td>
-                     <td>
-                        <a class="link" href="#global_class_DomeinmodelBROCommon_Tekst40">Tekst40</a>
-                        
-                     </td>
-                     <td>1</td>
-                  </tr>
-                  <tr>
-                     <td>
                         <a class="link" href="#detail_attribute_DomeinmodelBROCommon_Organisatie_kvKNummer">KvK-nummer</a>
                         
                      </td>
                      <td></td>
                      <td>
                         <a class="link" href="#global_class_DomeinmodelBROCommon_KvKNummer">KvK-nummer</a>
+                        
+                     </td>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <a class="link" href="#detail_attribute_DomeinmodelBROCommon_Organisatie_europeesHandelsnummer">Europees handelsnummer</a>
+                        
+                     </td>
+                     <td></td>
+                     <td>
+                        <a class="link" href="#global_class_DomeinmodelBROCommon_Tekst40">Tekst40</a>
                         
                      </td>
                      <td>1</td>
@@ -898,6 +898,70 @@
             </table>
             
          </section>
+         <a class="anchor" name="detail_attribute_DomeinmodelBROCommon_Registratieobject_objectIDBronhouder"></a><section id="detail_attribute_DomeinmodelBROCommon_Registratieobject_objectIDBronhouder"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROCommon_Registratieobject">Registratieobject</a> object-ID bronhouder</strong>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>object-ID bronhouder</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>De identificatie die door of voor de bronhouder is gebruikt om het object in de eigen
+                        administratie te kunnen vinden, voordat het was geregistreerd in de basisregistratie
+                        ondergrond.
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Toelichting</th>
+                     <td>Het gegeven wordt alleen uitgeleverd aan de dataleverancier en de bronhouder. Het
+                        is in de registratie opgenomen om de communicatie tussen de registerbeheerder en de
+                        bronhouder of dataleverancier te vergemakkelijken.
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie authentiek</th>
+                     <td>Overig</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>Tekst200</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
          <a class="anchor" name="detail_attribute_DomeinmodelBROCommon_Registratieobject_dataleverancier"></a><section id="detail_attribute_DomeinmodelBROCommon_Registratieobject_dataleverancier"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROCommon_Registratieobject">Registratieobject</a> dataleverancier</strong>
             
             <table>
@@ -1016,70 +1080,6 @@
             </table>
             
          </section>
-         <a class="anchor" name="detail_attribute_DomeinmodelBROCommon_Registratieobject_objectIDBronhouder"></a><section id="detail_attribute_DomeinmodelBROCommon_Registratieobject_objectIDBronhouder"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROCommon_Registratieobject">Registratieobject</a> object-ID bronhouder</strong>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>object-ID bronhouder</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Definitie</th>
-                     <td>De identificatie die door of voor de bronhouder is gebruikt om het object in de eigen
-                        administratie te kunnen vinden, voordat het was geregistreerd in de basisregistratie
-                        ondergrond.
-                     </td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst definitie</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Toelichting</th>
-                     <td>Het gegeven wordt alleen uitgeleverd aan de dataleverancier en de bronhouder. Het
-                        is in de registratie opgenomen om de communicatie tussen de registerbeheerder en de
-                        bronhouder of dataleverancier te vergemakkelijken.
-                     </td>
-                  </tr>
-                  <tr>
-                     <th>Mogelijk geen waarde</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie materiële historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie formele historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>1</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie authentiek</th>
-                     <td>Overig</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>Tekst200</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie afleidbaar</th>
-                     <td>Nee</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
          
       </section>
       
@@ -1088,6 +1088,28 @@
       
       <a class="anchor" name="detail_class_DomeinmodelBROCommon_OnvolledigeDatum"></a><section id="detail_class_DomeinmodelBROCommon_OnvolledigeDatum">
          <h6>Keuze Onvolledige datum</h6>
+         <a class="anchor" name="detail_attribute_DomeinmodelBROCommon_OnvolledigeDatum_volledigeDatum"></a><section id="detail_attribute_DomeinmodelBROCommon_OnvolledigeDatum_volledigeDatum"><strong>Union element details <a href="#global_class_DomeinmodelBROCommon_OnvolledigeDatum">Onvolledige datum</a> volledige datum</strong>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>volledige datum</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>Datum</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
          <a class="anchor" name="detail_attribute_DomeinmodelBROCommon_OnvolledigeDatum_jaarEnMaand"></a><section id="detail_attribute_DomeinmodelBROCommon_OnvolledigeDatum_jaarEnMaand"><strong>Union element details <a href="#global_class_DomeinmodelBROCommon_OnvolledigeDatum">Onvolledige datum</a> jaar en maand</strong>
             
             <table>
@@ -1154,54 +1176,10 @@
             </table>
             
          </section>
-         <a class="anchor" name="detail_attribute_DomeinmodelBROCommon_OnvolledigeDatum_volledigeDatum"></a><section id="detail_attribute_DomeinmodelBROCommon_OnvolledigeDatum_volledigeDatum"><strong>Union element details <a href="#global_class_DomeinmodelBROCommon_OnvolledigeDatum">Onvolledige datum</a> volledige datum</strong>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>volledige datum</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>1</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>Datum</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
          
       </section>
       <a class="anchor" name="detail_class_DomeinmodelBROCommon_Organisatie"></a><section id="detail_class_DomeinmodelBROCommon_Organisatie">
          <h6>Keuze Organisatie</h6>
-         <a class="anchor" name="detail_attribute_DomeinmodelBROCommon_Organisatie_europeesHandelsnummer"></a><section id="detail_attribute_DomeinmodelBROCommon_Organisatie_europeesHandelsnummer"><strong>Union element details <a href="#global_class_DomeinmodelBROCommon_Organisatie">Organisatie</a> Europees handelsnummer</strong>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>Europees handelsnummer</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>1</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>Tekst40</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
          <a class="anchor" name="detail_attribute_DomeinmodelBROCommon_Organisatie_kvKNummer"></a><section id="detail_attribute_DomeinmodelBROCommon_Organisatie_kvKNummer"><strong>Union element details <a href="#global_class_DomeinmodelBROCommon_Organisatie">Organisatie</a> KvK-nummer</strong>
             
             <table>
@@ -1219,6 +1197,28 @@
                   <tr>
                      <th>Formaat</th>
                      <td>KvK-nummer</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+         <a class="anchor" name="detail_attribute_DomeinmodelBROCommon_Organisatie_europeesHandelsnummer"></a><section id="detail_attribute_DomeinmodelBROCommon_Organisatie_europeesHandelsnummer"><strong>Union element details <a href="#global_class_DomeinmodelBROCommon_Organisatie">Organisatie</a> Europees handelsnummer</strong>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>Europees handelsnummer</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>Tekst40</td>
                   </tr>
                </tbody>
             </table>
@@ -1259,16 +1259,6 @@
                </tr>
                <tr>
                   <td></td>
-                  <td>7parameterTransformatie</td>
-                  <td>TODO</td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>7parameterTransformatie1989</td>
-                  <td>TODO</td>
-               </tr>
-               <tr>
-                  <td></td>
                   <td>nietGetransformeerd</td>
                   <td>De gegevens zijn aangeleverd in ETRS89; transformatie was niet nodig.</td>
                </tr>
@@ -1288,6 +1278,16 @@
                      is uitgegaan van 0 m NAP. RDNAPTRANS? is de officiële transformatie tussen RD/NAP
                      en ETRS89 afkomstig van het Kadaster.
                   </td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>7parameterTransformatie</td>
+                  <td>TODO</td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>7parameterTransformatie1989</td>
+                  <td>TODO</td>
                </tr>
             </tbody>
          </table>
@@ -1367,18 +1367,18 @@
                </tr>
                <tr>
                   <td></td>
-                  <td>aangevuld</td>
-                  <td>Het registeren van de gegevens van het object heeft na de start van de registratie
-                     een vervolg gekregen. De gegevens in de registratie ondergrond zijn minimaal een keer
-                     aangevuld met nieuwe gegevens.
-                  </td>
-               </tr>
-               <tr>
-                  <td></td>
                   <td>geregistreerd</td>
                   <td>Het registeren van de gegevens van het object is gestart. De gegevens uit het eerste
                      brondocument zijn in de registratie ondergrond vastgelegd. Er zijn daarna geen nieuwe
                      gegevens geregistreerd.
+                  </td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>aangevuld</td>
+                  <td>Het registeren van de gegevens van het object heeft na de start van de registratie
+                     een vervolg gekregen. De gegevens in de registratie ondergrond zijn minimaal een keer
+                     aangevuld met nieuwe gegevens.
                   </td>
                </tr>
                <tr>
@@ -1624,6 +1624,18 @@
                </tr>
                <tr>
                   <td>
+                     <a class="link" href="#detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeLocatie_referentiestelsel">referentiestelsel</a>
+                     
+                  </td>
+                  <td></td>
+                  <td>
+                     <a class="link" href="#global_class_DomeinmodelBROBHRGTBmb_Referentiestelsel">Referentiestelsel</a>
+                     
+                  </td>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <td>
                      <a class="link" href="#detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeLocatie_datumLocatiebepaling">datum locatiebepaling</a>
                      
                   </td>
@@ -1739,24 +1751,62 @@
                </tr>
                <tr>
                   <td>
-                     <a class="link" href="#detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_datumVerticalePositiebepaling">datum verticale positiebepaling</a>
-                     
-                  </td>
-                  <td>De datum waarop de verticale positie van het lokaal verticaal referentiepunt is bepaald.</td>
-                  <td>
-                     <a class="link" href="#global_class_DomeinmodelBROCommon_Datum">Datum</a>
-                     
-                  </td>
-                  <td>1</td>
-               </tr>
-               <tr>
-                  <td>
                      <a class="link" href="#detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_lokaalVerticaalReferentiepunt">lokaal verticaal referentiepunt</a>
                      
                   </td>
                   <td>Het punt dat in het booronderzoek is gebruikt als nulpunt voor de diepte.</td>
                   <td>
                      <a class="link" href="#global_class_DomeinmodelBROBHRGTBmb_LokaalVerticaalReferentiepunt">LokaalVerticaalReferentiepunt</a>
+                     
+                  </td>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_verschuiving">verschuiving</a>
+                     
+                  </td>
+                  <td>De verticale positie van het lokaal verticaal referentiepunt t.o.v. het verticaal
+                     referentievlak.
+                  </td>
+                  <td>
+                     <a class="link" href="#global_class_DomeinmodelBROCommon_Meetwaarde">Meetwaarde</a>
+                     
+                  </td>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_waterdiepte">waterdiepte</a>
+                     
+                  </td>
+                  <td>De positie van de waterbodem ten opzichte van het wateroppervlak.</td>
+                  <td>
+                     <a class="link" href="#global_class_DomeinmodelBROCommon_Meetwaarde">Meetwaarde</a>
+                     
+                  </td>
+                  <td>0 .. 1</td>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_verticaalReferentievlak">verticaal referentievlak</a>
+                     
+                  </td>
+                  <td>Het referentieniveau voor de verticale positie van het lokaal verticaal referentiepunt.</td>
+                  <td>
+                     <a class="link" href="#global_class_DomeinmodelBROBHRGTBmb_VerticaalReferentievlak">VerticaalReferentievlak</a>
+                     
+                  </td>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_datumVerticalePositiebepaling">datum verticale positiebepaling</a>
+                     
+                  </td>
+                  <td>De datum waarop de verticale positie van het lokaal verticaal referentiepunt is bepaald.</td>
+                  <td>
+                     <a class="link" href="#global_class_DomeinmodelBROCommon_Datum">Datum</a>
                      
                   </td>
                   <td>1</td>
@@ -1786,44 +1836,6 @@
                   </td>
                   <td>
                      <a class="link" href="#global_class_DomeinmodelBROCommon_Organisatie">Organisatie</a>
-                     
-                  </td>
-                  <td>0 .. 1</td>
-               </tr>
-               <tr>
-                  <td>
-                     <a class="link" href="#detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_verschuiving">verschuiving</a>
-                     
-                  </td>
-                  <td>De verticale positie van het lokaal verticaal referentiepunt t.o.v. het verticaal
-                     referentievlak.
-                  </td>
-                  <td>
-                     <a class="link" href="#global_class_DomeinmodelBROCommon_Meetwaarde">Meetwaarde</a>
-                     
-                  </td>
-                  <td>1</td>
-               </tr>
-               <tr>
-                  <td>
-                     <a class="link" href="#detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_verticaalReferentievlak">verticaal referentievlak</a>
-                     
-                  </td>
-                  <td>Het referentieniveau voor de verticale positie van het lokaal verticaal referentiepunt.</td>
-                  <td>
-                     <a class="link" href="#global_class_DomeinmodelBROBHRGTBmb_VerticaalReferentievlak">VerticaalReferentievlak</a>
-                     
-                  </td>
-                  <td>1</td>
-               </tr>
-               <tr>
-                  <td>
-                     <a class="link" href="#detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_waterdiepte">waterdiepte</a>
-                     
-                  </td>
-                  <td>De positie van de waterbodem ten opzichte van het wateroppervlak.</td>
-                  <td>
-                     <a class="link" href="#global_class_DomeinmodelBROCommon_Meetwaarde">Meetwaarde</a>
                      
                   </td>
                   <td>0 .. 1</td>
@@ -1907,6 +1919,101 @@
                </tr>
                <tr>
                   <td>
+                     <a class="link" href="#detail_attribute_DomeinmodelBROBHRGTBmb_Booronderzoek_kaderAanlevering">kader aanlevering</a>
+                     
+                  </td>
+                  <td>De rechtsgrond op basis waarvan, of bij afwezigheid daarvan, de activiteit naar aanleiding
+                     waarvan, het betreffende gegeven is aangeleverd aan de basisregistratie ondergrond.
+                  </td>
+                  <td>
+                     <a class="link" href="#global_class_DomeinmodelBROBHRGTBmb_KaderAanlevering">KaderAanlevering</a>
+                     
+                  </td>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_DomeinmodelBROBHRGTBmb_Booronderzoek_kaderInwinning">kader inwinning</a>
+                     
+                  </td>
+                  <td>Het doel waarvoor het onderzoek is uitgevoerd.</td>
+                  <td>
+                     <a class="link" href="#global_class_DomeinmodelBROBHRGTBmb_KaderInwinning">KaderInwinning</a>
+                     
+                  </td>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_DomeinmodelBROBHRGTBmb_Booronderzoek_vakgebied">vakgebied</a>
+                     
+                  </td>
+                  <td>De discipline waarbinnen het booronderzoek is uitgevoerd.</td>
+                  <td>
+                     <a class="link" href="#global_class_DomeinmodelBROBHRGTBmb_Vakgebied">Vakgebied</a>
+                     
+                  </td>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_DomeinmodelBROBHRGTBmb_Booronderzoek_kaderstellendeProcedure">kaderstellende procedure</a>
+                     
+                  </td>
+                  <td>De procedure die de uitvoering van projecten waarbinnen het booronderzoek wordt uitgevoerd
+                     reguleert en daarmee de kaders bepaalt voor de uitvoering van het booronderzoek.
+                  </td>
+                  <td>
+                     <a class="link" href="#global_class_DomeinmodelBROBHRGTBmb_KaderstellendeProcedure">KaderstellendeProcedure</a>
+                     
+                  </td>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_DomeinmodelBROBHRGTBmb_Booronderzoek_rapportagedatum">rapportagedatum</a>
+                     
+                  </td>
+                  <td>De datum waarop de uitvoerder van het booronderzoek alle gegevens van het booronderzoek
+                     heeft vastgelegd en het resultaat aan de opdrachtgever kan worden aangeboden, dan
+                     wel de feitelijk datum van rapportage.
+                  </td>
+                  <td>
+                     <a class="link" href="#global_class_DomeinmodelBROCommon_Datum">Datum</a>
+                     
+                  </td>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_DomeinmodelBROBHRGTBmb_Booronderzoek_uitvoerderOnderzoek">uitvoerder onderzoek</a>
+                     
+                  </td>
+                  <td>De identificatie die de organisatie die voor de bronhouder geldt als verantwoordelijk
+                     voor de uitvoering van het booronderzoek, als onderneming in het Handelsregister heeft.
+                  </td>
+                  <td>
+                     <a class="link" href="#global_class_DomeinmodelBROCommon_Organisatie">Organisatie</a>
+                     
+                  </td>
+                  <td>0 .. 1</td>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_DomeinmodelBROBHRGTBmb_Booronderzoek_terreintoestandBepaald">terreintoestand bepaald</a>
+                     
+                  </td>
+                  <td>De aanduiding die aangeeft of in het onderzoek gegevens over de toestand van het terrein
+                     zijn vastgelegd die van betekenis zijn voor de beoordeling van de resultaten.
+                  </td>
+                  <td>
+                     <a class="link" href="#global_class_DomeinmodelBROCommon_IndicatieJaNee">IndicatieJaNee</a>
+                     
+                  </td>
+                  <td>0 .. 1</td>
+               </tr>
+               <tr>
+                  <td>
                      <a class="link" href="#detail_attribute_DomeinmodelBROBHRGTBmb_Booronderzoek_boorgatBemeten">boorgat bemeten</a>
                      
                   </td>
@@ -1957,101 +2064,6 @@
                   </td>
                   <td>
                      <a class="link" href="#global_class_DomeinmodelBROCommon_IndicatieJaNee">IndicatieJaNee</a>
-                     
-                  </td>
-                  <td>1</td>
-               </tr>
-               <tr>
-                  <td>
-                     <a class="link" href="#detail_attribute_DomeinmodelBROBHRGTBmb_Booronderzoek_kaderAanlevering">kader aanlevering</a>
-                     
-                  </td>
-                  <td>De rechtsgrond op basis waarvan, of bij afwezigheid daarvan, de activiteit naar aanleiding
-                     waarvan, het betreffende gegeven is aangeleverd aan de basisregistratie ondergrond.
-                  </td>
-                  <td>
-                     <a class="link" href="#global_class_DomeinmodelBROBHRGTBmb_KaderAanlevering">KaderAanlevering</a>
-                     
-                  </td>
-                  <td>1</td>
-               </tr>
-               <tr>
-                  <td>
-                     <a class="link" href="#detail_attribute_DomeinmodelBROBHRGTBmb_Booronderzoek_kaderInwinning">kader inwinning</a>
-                     
-                  </td>
-                  <td>Het doel waarvoor het onderzoek is uitgevoerd.</td>
-                  <td>
-                     <a class="link" href="#global_class_DomeinmodelBROBHRGTBmb_KaderInwinning">KaderInwinning</a>
-                     
-                  </td>
-                  <td>1</td>
-               </tr>
-               <tr>
-                  <td>
-                     <a class="link" href="#detail_attribute_DomeinmodelBROBHRGTBmb_Booronderzoek_kaderstellendeProcedure">kaderstellende procedure</a>
-                     
-                  </td>
-                  <td>De procedure die de uitvoering van projecten waarbinnen het booronderzoek wordt uitgevoerd
-                     reguleert en daarmee de kaders bepaalt voor de uitvoering van het booronderzoek.
-                  </td>
-                  <td>
-                     <a class="link" href="#global_class_DomeinmodelBROBHRGTBmb_KaderstellendeProcedure">KaderstellendeProcedure</a>
-                     
-                  </td>
-                  <td>1</td>
-               </tr>
-               <tr>
-                  <td>
-                     <a class="link" href="#detail_attribute_DomeinmodelBROBHRGTBmb_Booronderzoek_rapportagedatum">rapportagedatum</a>
-                     
-                  </td>
-                  <td>De datum waarop de uitvoerder van het booronderzoek alle gegevens van het booronderzoek
-                     heeft vastgelegd en het resultaat aan de opdrachtgever kan worden aangeboden, dan
-                     wel de feitelijk datum van rapportage.
-                  </td>
-                  <td>
-                     <a class="link" href="#global_class_DomeinmodelBROCommon_Datum">Datum</a>
-                     
-                  </td>
-                  <td>1</td>
-               </tr>
-               <tr>
-                  <td>
-                     <a class="link" href="#detail_attribute_DomeinmodelBROBHRGTBmb_Booronderzoek_terreintoestandBepaald">terreintoestand bepaald</a>
-                     
-                  </td>
-                  <td>De aanduiding die aangeeft of in het onderzoek gegevens over de toestand van het terrein
-                     zijn vastgelegd die van betekenis zijn voor de beoordeling van de resultaten.
-                  </td>
-                  <td>
-                     <a class="link" href="#global_class_DomeinmodelBROCommon_IndicatieJaNee">IndicatieJaNee</a>
-                     
-                  </td>
-                  <td>0 .. 1</td>
-               </tr>
-               <tr>
-                  <td>
-                     <a class="link" href="#detail_attribute_DomeinmodelBROBHRGTBmb_Booronderzoek_uitvoerderOnderzoek">uitvoerder onderzoek</a>
-                     
-                  </td>
-                  <td>De identificatie die de organisatie die voor de bronhouder geldt als verantwoordelijk
-                     voor de uitvoering van het booronderzoek, als onderneming in het Handelsregister heeft.
-                  </td>
-                  <td>
-                     <a class="link" href="#global_class_DomeinmodelBROCommon_Organisatie">Organisatie</a>
-                     
-                  </td>
-                  <td>0 .. 1</td>
-               </tr>
-               <tr>
-                  <td>
-                     <a class="link" href="#detail_attribute_DomeinmodelBROBHRGTBmb_Booronderzoek_vakgebied">vakgebied</a>
-                     
-                  </td>
-                  <td>De discipline waarbinnen het booronderzoek is uitgevoerd.</td>
-                  <td>
-                     <a class="link" href="#global_class_DomeinmodelBROBHRGTBmb_Vakgebied">Vakgebied</a>
                      
                   </td>
                   <td>1</td>
@@ -2300,6 +2312,21 @@
                </tr>
                <tr>
                   <td>
+                     <a class="link" href="#detail_attribute_DomeinmodelBROBHRGTBmb_Registratieobject_objectIDBronhouder">object-ID bronhouder</a>
+                     
+                  </td>
+                  <td>De identificatie die door of voor de bronhouder is gebruikt om het object in de eigen
+                     administratie te kunnen vinden, voordat het was geregistreerd in de basisregistratie
+                     ondergrond.
+                  </td>
+                  <td>
+                     <a class="link" href="#global_class_DomeinmodelBROCommon_Tekst200">Tekst200</a>
+                     
+                  </td>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <td>
                      <a class="link" href="#detail_attribute_DomeinmodelBROBHRGTBmb_Registratieobject_dataleverancier">dataleverancier</a>
                      
                   </td>
@@ -2318,21 +2345,6 @@
                   <td>De aanduiding van de kwaliteitseis waaraan de gegevens van het object voldoen.</td>
                   <td>
                      <a class="link" href="#global_class_DomeinmodelBROCommon_Kwaliteitsregime">Kwaliteitsregime</a>
-                     
-                  </td>
-                  <td>1</td>
-               </tr>
-               <tr>
-                  <td>
-                     <a class="link" href="#detail_attribute_DomeinmodelBROBHRGTBmb_Registratieobject_objectIDBronhouder">object-ID bronhouder</a>
-                     
-                  </td>
-                  <td>De identificatie die door of voor de bronhouder is gebruikt om het object in de eigen
-                     administratie te kunnen vinden, voordat het was geregistreerd in de basisregistratie
-                     ondergrond.
-                  </td>
-                  <td>
-                     <a class="link" href="#global_class_DomeinmodelBROCommon_Tekst200">Tekst200</a>
                      
                   </td>
                   <td>1</td>
@@ -2931,6 +2943,34 @@
                <th><a class="anchor" name="global_class_DomeinmodelBROBHRGTBmb_Zandmediaanklasse"></a><a class="link" href="#detail_class_DomeinmodelBROBHRGTBmb_Zandmediaanklasse">Zandmediaanklasse</a></th>
                <td>De mediaan van de zandfractie uitgedrukt in een klasse.</td>
             </tr>
+            <tr>
+               <th><a class="anchor" name="global_class_DomeinmodelBROBHRGTBmb_Zandspreiding"></a><a class="link" href="#detail_class_DomeinmodelBROBHRGTBmb_Zandspreiding">Zandspreiding</a></th>
+               <td></td>
+            </tr>
+            <tr>
+               <th><a class="anchor" name="global_class_DomeinmodelBROBHRGTBmb_FijnGrindGehalteklasse"></a><a class="link" href="#detail_class_DomeinmodelBROBHRGTBmb_FijnGrindGehalteklasse">FijnGrindGehalteklasse</a></th>
+               <td></td>
+            </tr>
+            <tr>
+               <th><a class="anchor" name="global_class_DomeinmodelBROBHRGTBmb_OrganischeStofgehalteklasseNEN5104"></a><a class="link" href="#detail_class_DomeinmodelBROBHRGTBmb_OrganischeStofgehalteklasseNEN5104">OrganischeStofgehalteklasseNEN5104</a></th>
+               <td></td>
+            </tr>
+            <tr>
+               <th><a class="anchor" name="global_class_DomeinmodelBROBHRGTBmb_MatigGrofGrindgehalteklasse"></a><a class="link" href="#detail_class_DomeinmodelBROBHRGTBmb_MatigGrofGrindgehalteklasse">MatigGrofGrindgehalteklasse</a></th>
+               <td></td>
+            </tr>
+            <tr>
+               <th><a class="anchor" name="global_class_DomeinmodelBROBHRGTBmb_ZeerGrofGrindgehalteklasse"></a><a class="link" href="#detail_class_DomeinmodelBROBHRGTBmb_ZeerGrofGrindgehalteklasse">ZeerGrofGrindgehalteklasse</a></th>
+               <td></td>
+            </tr>
+            <tr>
+               <th><a class="anchor" name="global_class_DomeinmodelBROBHRGTBmb_GrondsoortNEN5104"></a><a class="link" href="#detail_class_DomeinmodelBROBHRGTBmb_GrondsoortNEN5104">GrondsoortNEN5104</a></th>
+               <td></td>
+            </tr>
+            <tr>
+               <th><a class="anchor" name="global_class_DomeinmodelBROBHRGTBmb_GrindgehalteklasseNEN5104"></a><a class="link" href="#detail_class_DomeinmodelBROBHRGTBmb_GrindgehalteklasseNEN5104">GrindgehalteklasseNEN5104</a></th>
+               <td></td>
+            </tr>
          </tbody>
       </table>
       
@@ -3026,6 +3066,60 @@
                </table>
                
             </section>
+            
+         </section>
+         <a class="anchor" name="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeLocatie_referentiestelsel"></a><section id="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeLocatie_referentiestelsel"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROBHRGTBmb_AangeleverdeLocatie">Aangeleverde locatie</a> referentiestelsel</strong>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>referentiestelsel</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie authentiek</th>
+                     <td>Authentiek</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>Referentiestelsel</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Meeteenheid</th>
+                     <td>BRO</td>
+                  </tr>
+               </tbody>
+            </table>
             
          </section>
          <a class="anchor" name="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeLocatie_datumLocatiebepaling"></a><section id="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeLocatie_datumLocatiebepaling"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROBHRGTBmb_AangeleverdeLocatie">Aangeleverde locatie</a> datum locatiebepaling</strong>
@@ -3198,60 +3292,6 @@
       </section>
       <a class="anchor" name="detail_class_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie"></a><section id="detail_class_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie">
          <h6>Objecttype Aangeleverde verticale positie</h6>
-         <a class="anchor" name="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_datumVerticalePositiebepaling"></a><section id="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_datumVerticalePositiebepaling"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie">Aangeleverde verticale positie</a> datum verticale positiebepaling</strong>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>datum verticale positiebepaling</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Definitie</th>
-                     <td>De datum waarop de verticale positie van het lokaal verticaal referentiepunt is bepaald.</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst definitie</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Mogelijk geen waarde</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie materiële historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie formele historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>1</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie authentiek</th>
-                     <td>Authentiek</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>Datum</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie afleidbaar</th>
-                     <td>Nee</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
          <a class="anchor" name="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_lokaalVerticaalReferentiepunt"></a><section id="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_lokaalVerticaalReferentiepunt"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie">Aangeleverde verticale positie</a> lokaal verticaal referentiepunt</strong>
             
             <table>
@@ -3297,6 +3337,224 @@
                   <tr>
                      <th>Formaat</th>
                      <td>LokaalVerticaalReferentiepunt</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+         <a class="anchor" name="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_verschuiving"></a><section id="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_verschuiving"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie">Aangeleverde verticale positie</a> verschuiving</strong>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>verschuiving</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>De verticale positie van het lokaal verticaal referentiepunt t.o.v. het verticaal
+                        referentievlak.
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie authentiek</th>
+                     <td>Authentiek</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>Meetwaarde</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+         <a class="anchor" name="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_waterdiepte"></a><section id="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_waterdiepte"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie">Aangeleverde verticale positie</a> waterdiepte</strong>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>waterdiepte</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>De positie van de waterbodem ten opzichte van het wateroppervlak.</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>0 .. 1</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie authentiek</th>
+                     <td>Authentiek</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>Meetwaarde</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+         <a class="anchor" name="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_verticaalReferentievlak"></a><section id="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_verticaalReferentievlak"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie">Aangeleverde verticale positie</a> verticaal referentievlak</strong>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>verticaal referentievlak</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>Het referentieniveau voor de verticale positie van het lokaal verticaal referentiepunt.</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie authentiek</th>
+                     <td>Authentiek</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>VerticaalReferentievlak</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+         <a class="anchor" name="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_datumVerticalePositiebepaling"></a><section id="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_datumVerticalePositiebepaling"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie">Aangeleverde verticale positie</a> datum verticale positiebepaling</strong>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>datum verticale positiebepaling</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>De datum waarop de verticale positie van het lokaal verticaal referentiepunt is bepaald.</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie authentiek</th>
+                     <td>Authentiek</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>Datum</td>
                   </tr>
                   <tr>
                      <th>Indicatie afleidbaar</th>
@@ -3419,7 +3677,11 @@
             </table>
             
          </section>
-         <a class="anchor" name="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_verschuiving"></a><section id="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_verschuiving"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie">Aangeleverde verticale positie</a> verschuiving</strong>
+         
+      </section>
+      <a class="anchor" name="detail_class_DomeinmodelBROBHRGTBmb_Booronderzoek"></a><section id="detail_class_DomeinmodelBROBHRGTBmb_Booronderzoek">
+         <h6>Objecttype Booronderzoek</h6>
+         <a class="anchor" name="detail_attribute_DomeinmodelBROBHRGTBmb_Booronderzoek_kaderAanlevering"></a><section id="detail_attribute_DomeinmodelBROBHRGTBmb_Booronderzoek_kaderAanlevering"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROBHRGTBmb_Booronderzoek">Booronderzoek</a> kader aanlevering</strong>
             
             <table>
                <colgroup width="30%"></colgroup>
@@ -3427,7 +3689,7 @@
                <tbody>
                   <tr>
                      <th>Naam</th>
-                     <td>verschuiving</td>
+                     <td>kader aanlevering</td>
                   </tr>
                   <tr>
                      <th>Herkomst</th>
@@ -3435,8 +3697,267 @@
                   </tr>
                   <tr>
                      <th>Definitie</th>
-                     <td>De verticale positie van het lokaal verticaal referentiepunt t.o.v. het verticaal
-                        referentievlak.
+                     <td>De rechtsgrond op basis waarvan, of bij afwezigheid daarvan, de activiteit naar aanleiding
+                        waarvan, het betreffende gegeven is aangeleverd aan de basisregistratie ondergrond.
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Toelichting</th>
+                     <td>De wetgever stipuleert dat het gegeven moet zijn vastgelegd om inzicht te geven in
+                        de relatie met de taken van een bestuursorgaan. Het gegeven geeft inzicht in de maatschappelijke
+                        betekenis van de informatie.
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie authentiek</th>
+                     <td>Authentiek</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>KaderAanlevering</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+         <a class="anchor" name="detail_attribute_DomeinmodelBROBHRGTBmb_Booronderzoek_kaderInwinning"></a><section id="detail_attribute_DomeinmodelBROBHRGTBmb_Booronderzoek_kaderInwinning"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROBHRGTBmb_Booronderzoek">Booronderzoek</a> kader inwinning</strong>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>kader inwinning</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>Het doel waarvoor het onderzoek is uitgevoerd.</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Toelichting</th>
+                     <td>Onderzoek wordt normaliter projectmatig uitgevoerd, zelfs als het direct gebonden
+                        is aan een publieke taak. Het gegeven beschrijft het hogere doel van het project waarvoor
+                        het onderzoek is uitgevoerd of preciseert de taak.
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie authentiek</th>
+                     <td>Authentiek</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>KaderInwinning</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+         <a class="anchor" name="detail_attribute_DomeinmodelBROBHRGTBmb_Booronderzoek_vakgebied"></a><section id="detail_attribute_DomeinmodelBROBHRGTBmb_Booronderzoek_vakgebied"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROBHRGTBmb_Booronderzoek">Booronderzoek</a> vakgebied</strong>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>vakgebied</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>De discipline waarbinnen het booronderzoek is uitgevoerd.</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Toelichting</th>
+                     <td>De gegevensdefinitie dekt het vakgebied geotechniek volledig, maar dat betekent niet
+                        dat alle geotechnisch booronderzoek er volledig mee beschreven kan worden. In de uitvoeringspraktijk
+                        komt het namelijk voor dat een geotechnisch booronderzoek de grenzen van het vakgebied
+                        enigszins overschrijdt en er naast geotechnische gegevens gegevens worden vastgelegd
+                        die eigenlijk in het domein van de milieukunde of de archeologie thuishoren. Omdat
+                        die disciplines buiten het bereik van de basisregistratie ondergrond liggen, zijn
+                        die extra gegevens niet gedefinieerd. Geotechnisch booronderzoek met een dergelijk
+                        multidisciplinair karakter wordt in de basisregistratie ondergrond opgenomen maar
+                        zonder die extra gegevens. Om gebruikers duidelijk te maken dat de onderzoeksresultaten
+                        niet volledig geregistreerd zijn wordt als waarde voor het vakgebied niet de waarde
+                        geotechniek vermeld, maar een waarde als geotechniekArcheologie.
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie authentiek</th>
+                     <td>Authentiek</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>Vakgebied</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+         <a class="anchor" name="detail_attribute_DomeinmodelBROBHRGTBmb_Booronderzoek_kaderstellendeProcedure"></a><section id="detail_attribute_DomeinmodelBROBHRGTBmb_Booronderzoek_kaderstellendeProcedure"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROBHRGTBmb_Booronderzoek">Booronderzoek</a> kaderstellende procedure</strong>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>kaderstellende procedure</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>De procedure die de uitvoering van projecten waarbinnen het booronderzoek wordt uitgevoerd
+                        reguleert en daarmee de kaders bepaalt voor de uitvoering van het booronderzoek.
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Toelichting</th>
+                     <td>De procedure beschrijft de manier van werken, de passende hulpmiddelen en de eisen
+                        waaraan de uitvoering moet voldoen. Procedures zijn in het algemeen vastgelegd in
+                        een norm, protocol of richtlijn. Dat kan overigens een richtlijn zijn die de uitvoerder
+                        voor zichzelf gebruikt. Het gegeven is opgenomen omdat het inzicht biedt in de kwaliteit
+                        van het werk.
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie authentiek</th>
+                     <td>Authentiek</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>KaderstellendeProcedure</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+         <a class="anchor" name="detail_attribute_DomeinmodelBROBHRGTBmb_Booronderzoek_rapportagedatum"></a><section id="detail_attribute_DomeinmodelBROBHRGTBmb_Booronderzoek_rapportagedatum"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROBHRGTBmb_Booronderzoek">Booronderzoek</a> rapportagedatum</strong>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>rapportagedatum</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>De datum waarop de uitvoerder van het booronderzoek alle gegevens van het booronderzoek
+                        heeft vastgelegd en het resultaat aan de opdrachtgever kan worden aangeboden, dan
+                        wel de feitelijk datum van rapportage.
                      </td>
                   </tr>
                   <tr>
@@ -3465,7 +3986,7 @@
                   </tr>
                   <tr>
                      <th>Formaat</th>
-                     <td>Meetwaarde</td>
+                     <td>Datum</td>
                   </tr>
                   <tr>
                      <th>Indicatie afleidbaar</th>
@@ -3475,7 +3996,7 @@
             </table>
             
          </section>
-         <a class="anchor" name="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_verticaalReferentievlak"></a><section id="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_verticaalReferentievlak"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie">Aangeleverde verticale positie</a> verticaal referentievlak</strong>
+         <a class="anchor" name="detail_attribute_DomeinmodelBROBHRGTBmb_Booronderzoek_uitvoerderOnderzoek"></a><section id="detail_attribute_DomeinmodelBROBHRGTBmb_Booronderzoek_uitvoerderOnderzoek"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROBHRGTBmb_Booronderzoek">Booronderzoek</a> uitvoerder onderzoek</strong>
             
             <table>
                <colgroup width="30%"></colgroup>
@@ -3483,7 +4004,7 @@
                <tbody>
                   <tr>
                      <th>Naam</th>
-                     <td>verticaal referentievlak</td>
+                     <td>uitvoerder onderzoek</td>
                   </tr>
                   <tr>
                      <th>Herkomst</th>
@@ -3491,11 +4012,17 @@
                   </tr>
                   <tr>
                      <th>Definitie</th>
-                     <td>Het referentieniveau voor de verticale positie van het lokaal verticaal referentiepunt.</td>
+                     <td>De identificatie die de organisatie die voor de bronhouder geldt als verantwoordelijk
+                        voor de uitvoering van het booronderzoek, als onderneming in het Handelsregister heeft.
+                     </td>
                   </tr>
                   <tr>
                      <th>Herkomst definitie</th>
                      <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Toelichting</th>
+                     <td>Het gegeven wordt alleen uitgeleverd aan de dataleverancier en de bronhouder.</td>
                   </tr>
                   <tr>
                      <th>Mogelijk geen waarde</th>
@@ -3511,7 +4038,7 @@
                   </tr>
                   <tr>
                      <th>Indicatie kardinaliteit</th>
-                     <td>1</td>
+                     <td>0 .. 1</td>
                   </tr>
                   <tr>
                      <th>Indicatie authentiek</th>
@@ -3519,7 +4046,7 @@
                   </tr>
                   <tr>
                      <th>Formaat</th>
-                     <td>VerticaalReferentievlak</td>
+                     <td>Organisatie</td>
                   </tr>
                   <tr>
                      <th>Indicatie afleidbaar</th>
@@ -3529,7 +4056,7 @@
             </table>
             
          </section>
-         <a class="anchor" name="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_waterdiepte"></a><section id="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie_waterdiepte"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROBHRGTBmb_AangeleverdeVerticalePositie">Aangeleverde verticale positie</a> waterdiepte</strong>
+         <a class="anchor" name="detail_attribute_DomeinmodelBROBHRGTBmb_Booronderzoek_terreintoestandBepaald"></a><section id="detail_attribute_DomeinmodelBROBHRGTBmb_Booronderzoek_terreintoestandBepaald"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROBHRGTBmb_Booronderzoek">Booronderzoek</a> terreintoestand bepaald</strong>
             
             <table>
                <colgroup width="30%"></colgroup>
@@ -3537,7 +4064,7 @@
                <tbody>
                   <tr>
                      <th>Naam</th>
-                     <td>waterdiepte</td>
+                     <td>terreintoestand bepaald</td>
                   </tr>
                   <tr>
                      <th>Herkomst</th>
@@ -3545,7 +4072,9 @@
                   </tr>
                   <tr>
                      <th>Definitie</th>
-                     <td>De positie van de waterbodem ten opzichte van het wateroppervlak.</td>
+                     <td>De aanduiding die aangeeft of in het onderzoek gegevens over de toestand van het terrein
+                        zijn vastgelegd die van betekenis zijn voor de beoordeling van de resultaten.
+                     </td>
                   </tr>
                   <tr>
                      <th>Herkomst definitie</th>
@@ -3573,7 +4102,7 @@
                   </tr>
                   <tr>
                      <th>Formaat</th>
-                     <td>Meetwaarde</td>
+                     <td>IndicatieJaNee</td>
                   </tr>
                   <tr>
                      <th>Indicatie afleidbaar</th>
@@ -3583,10 +4112,6 @@
             </table>
             
          </section>
-         
-      </section>
-      <a class="anchor" name="detail_class_DomeinmodelBROBHRGTBmb_Booronderzoek"></a><section id="detail_class_DomeinmodelBROBHRGTBmb_Booronderzoek">
-         <h6>Objecttype Booronderzoek</h6>
          <a class="anchor" name="detail_attribute_DomeinmodelBROBHRGTBmb_Booronderzoek_boorgatBemeten"></a><section id="detail_attribute_DomeinmodelBROBHRGTBmb_Booronderzoek_boorgatBemeten"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROBHRGTBmb_Booronderzoek">Booronderzoek</a> boorgat bemeten</strong>
             
             <table>
@@ -3826,437 +4351,6 @@
                   <tr>
                      <th>Formaat</th>
                      <td>IndicatieJaNee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie afleidbaar</th>
-                     <td>Nee</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         <a class="anchor" name="detail_attribute_DomeinmodelBROBHRGTBmb_Booronderzoek_kaderAanlevering"></a><section id="detail_attribute_DomeinmodelBROBHRGTBmb_Booronderzoek_kaderAanlevering"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROBHRGTBmb_Booronderzoek">Booronderzoek</a> kader aanlevering</strong>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>kader aanlevering</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Definitie</th>
-                     <td>De rechtsgrond op basis waarvan, of bij afwezigheid daarvan, de activiteit naar aanleiding
-                        waarvan, het betreffende gegeven is aangeleverd aan de basisregistratie ondergrond.
-                     </td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst definitie</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Toelichting</th>
-                     <td>De wetgever stipuleert dat het gegeven moet zijn vastgelegd om inzicht te geven in
-                        de relatie met de taken van een bestuursorgaan. Het gegeven geeft inzicht in de maatschappelijke
-                        betekenis van de informatie.
-                     </td>
-                  </tr>
-                  <tr>
-                     <th>Mogelijk geen waarde</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie materiële historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie formele historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>1</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie authentiek</th>
-                     <td>Authentiek</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>KaderAanlevering</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie afleidbaar</th>
-                     <td>Nee</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         <a class="anchor" name="detail_attribute_DomeinmodelBROBHRGTBmb_Booronderzoek_kaderInwinning"></a><section id="detail_attribute_DomeinmodelBROBHRGTBmb_Booronderzoek_kaderInwinning"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROBHRGTBmb_Booronderzoek">Booronderzoek</a> kader inwinning</strong>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>kader inwinning</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Definitie</th>
-                     <td>Het doel waarvoor het onderzoek is uitgevoerd.</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst definitie</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Toelichting</th>
-                     <td>Onderzoek wordt normaliter projectmatig uitgevoerd, zelfs als het direct gebonden
-                        is aan een publieke taak. Het gegeven beschrijft het hogere doel van het project waarvoor
-                        het onderzoek is uitgevoerd of preciseert de taak.
-                     </td>
-                  </tr>
-                  <tr>
-                     <th>Mogelijk geen waarde</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie materiële historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie formele historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>1</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie authentiek</th>
-                     <td>Authentiek</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>KaderInwinning</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie afleidbaar</th>
-                     <td>Nee</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         <a class="anchor" name="detail_attribute_DomeinmodelBROBHRGTBmb_Booronderzoek_kaderstellendeProcedure"></a><section id="detail_attribute_DomeinmodelBROBHRGTBmb_Booronderzoek_kaderstellendeProcedure"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROBHRGTBmb_Booronderzoek">Booronderzoek</a> kaderstellende procedure</strong>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>kaderstellende procedure</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Definitie</th>
-                     <td>De procedure die de uitvoering van projecten waarbinnen het booronderzoek wordt uitgevoerd
-                        reguleert en daarmee de kaders bepaalt voor de uitvoering van het booronderzoek.
-                     </td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst definitie</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Toelichting</th>
-                     <td>De procedure beschrijft de manier van werken, de passende hulpmiddelen en de eisen
-                        waaraan de uitvoering moet voldoen. Procedures zijn in het algemeen vastgelegd in
-                        een norm, protocol of richtlijn. Dat kan overigens een richtlijn zijn die de uitvoerder
-                        voor zichzelf gebruikt. Het gegeven is opgenomen omdat het inzicht biedt in de kwaliteit
-                        van het werk.
-                     </td>
-                  </tr>
-                  <tr>
-                     <th>Mogelijk geen waarde</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie materiële historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie formele historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>1</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie authentiek</th>
-                     <td>Authentiek</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>KaderstellendeProcedure</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie afleidbaar</th>
-                     <td>Nee</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         <a class="anchor" name="detail_attribute_DomeinmodelBROBHRGTBmb_Booronderzoek_rapportagedatum"></a><section id="detail_attribute_DomeinmodelBROBHRGTBmb_Booronderzoek_rapportagedatum"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROBHRGTBmb_Booronderzoek">Booronderzoek</a> rapportagedatum</strong>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>rapportagedatum</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Definitie</th>
-                     <td>De datum waarop de uitvoerder van het booronderzoek alle gegevens van het booronderzoek
-                        heeft vastgelegd en het resultaat aan de opdrachtgever kan worden aangeboden, dan
-                        wel de feitelijk datum van rapportage.
-                     </td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst definitie</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Mogelijk geen waarde</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie materiële historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie formele historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>1</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie authentiek</th>
-                     <td>Authentiek</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>Datum</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie afleidbaar</th>
-                     <td>Nee</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         <a class="anchor" name="detail_attribute_DomeinmodelBROBHRGTBmb_Booronderzoek_terreintoestandBepaald"></a><section id="detail_attribute_DomeinmodelBROBHRGTBmb_Booronderzoek_terreintoestandBepaald"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROBHRGTBmb_Booronderzoek">Booronderzoek</a> terreintoestand bepaald</strong>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>terreintoestand bepaald</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Definitie</th>
-                     <td>De aanduiding die aangeeft of in het onderzoek gegevens over de toestand van het terrein
-                        zijn vastgelegd die van betekenis zijn voor de beoordeling van de resultaten.
-                     </td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst definitie</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Mogelijk geen waarde</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie materiële historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie formele historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>0 .. 1</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie authentiek</th>
-                     <td>Authentiek</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>IndicatieJaNee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie afleidbaar</th>
-                     <td>Nee</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         <a class="anchor" name="detail_attribute_DomeinmodelBROBHRGTBmb_Booronderzoek_uitvoerderOnderzoek"></a><section id="detail_attribute_DomeinmodelBROBHRGTBmb_Booronderzoek_uitvoerderOnderzoek"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROBHRGTBmb_Booronderzoek">Booronderzoek</a> uitvoerder onderzoek</strong>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>uitvoerder onderzoek</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Definitie</th>
-                     <td>De identificatie die de organisatie die voor de bronhouder geldt als verantwoordelijk
-                        voor de uitvoering van het booronderzoek, als onderneming in het Handelsregister heeft.
-                     </td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst definitie</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Toelichting</th>
-                     <td>Het gegeven wordt alleen uitgeleverd aan de dataleverancier en de bronhouder.</td>
-                  </tr>
-                  <tr>
-                     <th>Mogelijk geen waarde</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie materiële historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie formele historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>0 .. 1</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie authentiek</th>
-                     <td>Authentiek</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>Organisatie</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie afleidbaar</th>
-                     <td>Nee</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         <a class="anchor" name="detail_attribute_DomeinmodelBROBHRGTBmb_Booronderzoek_vakgebied"></a><section id="detail_attribute_DomeinmodelBROBHRGTBmb_Booronderzoek_vakgebied"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROBHRGTBmb_Booronderzoek">Booronderzoek</a> vakgebied</strong>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>vakgebied</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Definitie</th>
-                     <td>De discipline waarbinnen het booronderzoek is uitgevoerd.</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst definitie</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Toelichting</th>
-                     <td>De gegevensdefinitie dekt het vakgebied geotechniek volledig, maar dat betekent niet
-                        dat alle geotechnisch booronderzoek er volledig mee beschreven kan worden. In de uitvoeringspraktijk
-                        komt het namelijk voor dat een geotechnisch booronderzoek de grenzen van het vakgebied
-                        enigszins overschrijdt en er naast geotechnische gegevens gegevens worden vastgelegd
-                        die eigenlijk in het domein van de milieukunde of de archeologie thuishoren. Omdat
-                        die disciplines buiten het bereik van de basisregistratie ondergrond liggen, zijn
-                        die extra gegevens niet gedefinieerd. Geotechnisch booronderzoek met een dergelijk
-                        multidisciplinair karakter wordt in de basisregistratie ondergrond opgenomen maar
-                        zonder die extra gegevens. Om gebruikers duidelijk te maken dat de onderzoeksresultaten
-                        niet volledig geregistreerd zijn wordt als waarde voor het vakgebied niet de waarde
-                        geotechniek vermeld, maar een waarde als geotechniekArcheologie.
-                     </td>
-                  </tr>
-                  <tr>
-                     <th>Mogelijk geen waarde</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie materiële historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie formele historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>1</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie authentiek</th>
-                     <td>Authentiek</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>Vakgebied</td>
                   </tr>
                   <tr>
                      <th>Indicatie afleidbaar</th>
@@ -4640,6 +4734,70 @@
             </table>
             
          </section>
+         <a class="anchor" name="detail_attribute_DomeinmodelBROBHRGTBmb_Registratieobject_objectIDBronhouder"></a><section id="detail_attribute_DomeinmodelBROBHRGTBmb_Registratieobject_objectIDBronhouder"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROBHRGTBmb_Registratieobject">Registratieobject</a> object-ID bronhouder</strong>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>object-ID bronhouder</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>De identificatie die door of voor de bronhouder is gebruikt om het object in de eigen
+                        administratie te kunnen vinden, voordat het was geregistreerd in de basisregistratie
+                        ondergrond.
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Toelichting</th>
+                     <td>Het gegeven wordt alleen uitgeleverd aan de dataleverancier en de bronhouder. Het
+                        is in de registratie opgenomen om de communicatie tussen de registerbeheerder en de
+                        bronhouder of dataleverancier te vergemakkelijken.
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie authentiek</th>
+                     <td>Overig</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>Tekst200</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
          <a class="anchor" name="detail_attribute_DomeinmodelBROBHRGTBmb_Registratieobject_dataleverancier"></a><section id="detail_attribute_DomeinmodelBROBHRGTBmb_Registratieobject_dataleverancier"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROBHRGTBmb_Registratieobject">Registratieobject</a> dataleverancier</strong>
             
             <table>
@@ -4749,70 +4907,6 @@
                   <tr>
                      <th>Formaat</th>
                      <td>Kwaliteitsregime</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie afleidbaar</th>
-                     <td>Nee</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         <a class="anchor" name="detail_attribute_DomeinmodelBROBHRGTBmb_Registratieobject_objectIDBronhouder"></a><section id="detail_attribute_DomeinmodelBROBHRGTBmb_Registratieobject_objectIDBronhouder"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROBHRGTBmb_Registratieobject">Registratieobject</a> object-ID bronhouder</strong>
-            
-            <table>
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>object-ID bronhouder</td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Definitie</th>
-                     <td>De identificatie die door of voor de bronhouder is gebruikt om het object in de eigen
-                        administratie te kunnen vinden, voordat het was geregistreerd in de basisregistratie
-                        ondergrond.
-                     </td>
-                  </tr>
-                  <tr>
-                     <th>Herkomst definitie</th>
-                     <td>BRO</td>
-                  </tr>
-                  <tr>
-                     <th>Toelichting</th>
-                     <td>Het gegeven wordt alleen uitgeleverd aan de dataleverancier en de bronhouder. Het
-                        is in de registratie opgenomen om de communicatie tussen de registerbeheerder en de
-                        bronhouder of dataleverancier te vergemakkelijken.
-                     </td>
-                  </tr>
-                  <tr>
-                     <th>Mogelijk geen waarde</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie materiële historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie formele historie</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>1</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie authentiek</th>
-                     <td>Overig</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>Tekst200</td>
                   </tr>
                   <tr>
                      <th>Indicatie afleidbaar</th>
@@ -5245,12 +5339,12 @@
                </tr>
                <tr>
                   <td></td>
-                  <td>bentoniet</td>
+                  <td>geen</td>
                   <td></td>
                </tr>
                <tr>
                   <td></td>
-                  <td>geen</td>
+                  <td>bentoniet</td>
                   <td></td>
                </tr>
                <tr>
@@ -5340,17 +5434,17 @@
                </tr>
                <tr>
                   <td></td>
-                  <td>zandGrof</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
                   <td>zandMiddelgrof</td>
                   <td></td>
                </tr>
                <tr>
                   <td></td>
                   <td>zandMiddelgrofGrof</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>zandGrof</td>
                   <td></td>
                </tr>
             </tbody>
@@ -5607,17 +5701,17 @@
                </tr>
                <tr>
                   <td></td>
-                  <td>gesteente</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
                   <td>grond</td>
                   <td></td>
                </tr>
                <tr>
                   <td></td>
                   <td>grondGesteente</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>gesteente</td>
                   <td></td>
                </tr>
             </tbody>
@@ -5779,12 +5873,12 @@
                </tr>
                <tr>
                   <td></td>
-                  <td>artefact</td>
+                  <td>geen</td>
                   <td></td>
                </tr>
                <tr>
                   <td></td>
-                  <td>botrestenVeel</td>
+                  <td>artefact</td>
                   <td></td>
                </tr>
                <tr>
@@ -5794,7 +5888,7 @@
                </tr>
                <tr>
                   <td></td>
-                  <td>donkereMineralenVeel</td>
+                  <td>botrestenVeel</td>
                   <td></td>
                </tr>
                <tr>
@@ -5804,7 +5898,7 @@
                </tr>
                <tr>
                   <td></td>
-                  <td>geen</td>
+                  <td>donkereMineralenVeel</td>
                   <td></td>
                </tr>
                <tr>
@@ -5814,17 +5908,12 @@
                </tr>
                <tr>
                   <td></td>
-                  <td>glauconietVeel</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
                   <td>glauconietWeinig</td>
                   <td></td>
                </tr>
                <tr>
                   <td></td>
-                  <td>glimmerVeel</td>
+                  <td>glauconietVeel</td>
                   <td></td>
                </tr>
                <tr>
@@ -5834,12 +5923,12 @@
                </tr>
                <tr>
                   <td></td>
-                  <td>houtGebruikt</td>
+                  <td>glimmerVeel</td>
                   <td></td>
                </tr>
                <tr>
                   <td></td>
-                  <td>houtskoolVeel</td>
+                  <td>houtGebruikt</td>
                   <td></td>
                </tr>
                <tr>
@@ -5849,12 +5938,12 @@
                </tr>
                <tr>
                   <td></td>
-                  <td>huisvuil</td>
+                  <td>houtskoolVeel</td>
                   <td></td>
                </tr>
                <tr>
                   <td></td>
-                  <td>ijzerconcretieVeel</td>
+                  <td>huisvuil</td>
                   <td></td>
                </tr>
                <tr>
@@ -5864,7 +5953,7 @@
                </tr>
                <tr>
                   <td></td>
-                  <td>ijzersulfideVeel</td>
+                  <td>ijzerconcretieVeel</td>
                   <td></td>
                </tr>
                <tr>
@@ -5874,12 +5963,17 @@
                </tr>
                <tr>
                   <td></td>
-                  <td>kalkconcretiesVeel</td>
+                  <td>ijzersulfideVeel</td>
                   <td></td>
                </tr>
                <tr>
                   <td></td>
                   <td>kalkconcretiesWeinig</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>kalkconcretiesVeel</td>
                   <td></td>
                </tr>
                <tr>
@@ -5914,12 +6008,12 @@
                </tr>
                <tr>
                   <td></td>
-                  <td>schelpmateriaalVeel</td>
+                  <td>schelpmateriaalWeinig</td>
                   <td></td>
                </tr>
                <tr>
                   <td></td>
-                  <td>schelpmateriaalWeinig</td>
+                  <td>schelpmateriaalVeel</td>
                   <td></td>
                </tr>
                <tr>
@@ -5934,22 +6028,22 @@
                </tr>
                <tr>
                   <td></td>
-                  <td>verbrandingsrestenGrof</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
                   <td>verbrandingsrestenMiddelgrof</td>
                   <td></td>
                </tr>
                <tr>
                   <td></td>
-                  <td>vuursteenVeel</td>
+                  <td>verbrandingsrestenGrof</td>
                   <td></td>
                </tr>
                <tr>
                   <td></td>
                   <td>vuursteenWeinig</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>vuursteenVeel</td>
                   <td></td>
                </tr>
                <tr>
@@ -5987,17 +6081,17 @@
                </tr>
                <tr>
                   <td></td>
+                  <td>geen</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
                   <td>donkereMineralen</td>
                   <td></td>
                </tr>
                <tr>
                   <td></td>
                   <td>fosfaatconcretie</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>geen</td>
                   <td></td>
                </tr>
                <tr>
@@ -6152,12 +6246,12 @@
                </tr>
                <tr>
                   <td></td>
-                  <td>verbrandingsrestenGrof</td>
+                  <td>verbrandingsrestenMiddelgrof</td>
                   <td></td>
                </tr>
                <tr>
                   <td></td>
-                  <td>verbrandingsrestenMiddelgrof</td>
+                  <td>verbrandingsrestenGrof</td>
                   <td></td>
                </tr>
                <tr>
@@ -6197,6 +6291,11 @@
                </tr>
                <tr>
                   <td></td>
+                  <td>geenBodemgebruik</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
                   <td>akker</td>
                   <td></td>
                </tr>
@@ -6208,11 +6307,6 @@
                <tr>
                   <td></td>
                   <td>bos</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>geenBodemgebruik</td>
                   <td></td>
                </tr>
                <tr>
@@ -6420,17 +6514,12 @@
                </tr>
                <tr>
                   <td></td>
-                  <td>breed</td>
+                  <td>uiterstSmal</td>
                   <td></td>
                </tr>
                <tr>
                   <td></td>
-                  <td>matigBreed</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>matigSmal</td>
+                  <td>zeerSmal</td>
                   <td></td>
                </tr>
                <tr>
@@ -6440,12 +6529,17 @@
                </tr>
                <tr>
                   <td></td>
-                  <td>uiterstSmal</td>
+                  <td>matigSmal</td>
                   <td></td>
                </tr>
                <tr>
                   <td></td>
-                  <td>zeerSmal</td>
+                  <td>matigBreed</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>breed</td>
                   <td></td>
                </tr>
             </tbody>
@@ -6543,6 +6637,11 @@
                </tr>
                <tr>
                   <td></td>
+                  <td>nietBepaald</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
                   <td>calciet</td>
                   <td></td>
                </tr>
@@ -6559,11 +6658,6 @@
                <tr>
                   <td></td>
                   <td>kwarts</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>nietBepaald</td>
                   <td></td>
                </tr>
             </tbody>
@@ -6596,6 +6690,11 @@
                </tr>
                <tr>
                   <td></td>
+                  <td>zeerSlap</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
                   <td>slap</td>
                   <td></td>
                </tr>
@@ -6607,11 +6706,6 @@
                <tr>
                   <td></td>
                   <td>stijf</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>zeerSlap</td>
                   <td></td>
                </tr>
                <tr>
@@ -6649,6 +6743,16 @@
                </tr>
                <tr>
                   <td></td>
+                  <td>zeerSlap</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>slap</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
                   <td>matigSlap</td>
                   <td></td>
                </tr>
@@ -6659,22 +6763,12 @@
                </tr>
                <tr>
                   <td></td>
-                  <td>slap</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
                   <td>stevig</td>
                   <td></td>
                </tr>
                <tr>
                   <td></td>
                   <td>vast</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>zeerSlap</td>
                   <td></td>
                </tr>
             </tbody>
@@ -6763,12 +6857,12 @@
                </tr>
                <tr>
                   <td></td>
-                  <td>gedeeltelijkUiteengevallen</td>
+                  <td>nietUiteengevallen</td>
                   <td></td>
                </tr>
                <tr>
                   <td></td>
-                  <td>nietUiteengevallen</td>
+                  <td>gedeeltelijkUiteengevallen</td>
                   <td></td>
                </tr>
                <tr>
@@ -6808,7 +6902,7 @@
                </tr>
                <tr>
                   <td></td>
-                  <td>dolomietbrokjesVeel</td>
+                  <td>geen</td>
                   <td></td>
                </tr>
                <tr>
@@ -6818,12 +6912,7 @@
                </tr>
                <tr>
                   <td></td>
-                  <td>geen</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>gipsbrokjesVeel</td>
+                  <td>dolomietbrokjesVeel</td>
                   <td></td>
                </tr>
                <tr>
@@ -6833,7 +6922,7 @@
                </tr>
                <tr>
                   <td></td>
-                  <td>grindlensjesVeel</td>
+                  <td>gipsbrokjesVeel</td>
                   <td></td>
                </tr>
                <tr>
@@ -6843,7 +6932,7 @@
                </tr>
                <tr>
                   <td></td>
-                  <td>kalksteenbrokjesVeel</td>
+                  <td>grindlensjesVeel</td>
                   <td></td>
                </tr>
                <tr>
@@ -6853,7 +6942,7 @@
                </tr>
                <tr>
                   <td></td>
-                  <td>kleibrokjesVeel</td>
+                  <td>kalksteenbrokjesVeel</td>
                   <td></td>
                </tr>
                <tr>
@@ -6863,7 +6952,7 @@
                </tr>
                <tr>
                   <td></td>
-                  <td>kleilensjesVeel</td>
+                  <td>kleibrokjesVeel</td>
                   <td></td>
                </tr>
                <tr>
@@ -6873,7 +6962,7 @@
                </tr>
                <tr>
                   <td></td>
-                  <td>kleisteenbrokjesVeel</td>
+                  <td>kleilensjesVeel</td>
                   <td></td>
                </tr>
                <tr>
@@ -6883,7 +6972,7 @@
                </tr>
                <tr>
                   <td></td>
-                  <td>siltbrokjesVeel</td>
+                  <td>kleisteenbrokjesVeel</td>
                   <td></td>
                </tr>
                <tr>
@@ -6893,7 +6982,7 @@
                </tr>
                <tr>
                   <td></td>
-                  <td>siltlensjesVeel</td>
+                  <td>siltbrokjesVeel</td>
                   <td></td>
                </tr>
                <tr>
@@ -6903,7 +6992,7 @@
                </tr>
                <tr>
                   <td></td>
-                  <td>siltsteenbrokjesVeel</td>
+                  <td>siltlensjesVeel</td>
                   <td></td>
                </tr>
                <tr>
@@ -6913,7 +7002,7 @@
                </tr>
                <tr>
                   <td></td>
-                  <td>steenkoolbrokjesVeel</td>
+                  <td>siltsteenbrokjesVeel</td>
                   <td></td>
                </tr>
                <tr>
@@ -6923,7 +7012,7 @@
                </tr>
                <tr>
                   <td></td>
-                  <td>steenzoutbrokjesVeel</td>
+                  <td>steenkoolbrokjesVeel</td>
                   <td></td>
                </tr>
                <tr>
@@ -6933,7 +7022,7 @@
                </tr>
                <tr>
                   <td></td>
-                  <td>veenbrokjesVeel</td>
+                  <td>steenzoutbrokjesVeel</td>
                   <td></td>
                </tr>
                <tr>
@@ -6943,7 +7032,7 @@
                </tr>
                <tr>
                   <td></td>
-                  <td>zandlensjesVeel</td>
+                  <td>veenbrokjesVeel</td>
                   <td></td>
                </tr>
                <tr>
@@ -6953,12 +7042,17 @@
                </tr>
                <tr>
                   <td></td>
-                  <td>zandsteenlensjesVeel</td>
+                  <td>zandlensjesVeel</td>
                   <td></td>
                </tr>
                <tr>
                   <td></td>
                   <td>zandsteenlensjesWeinig</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>zandsteenlensjesVeel</td>
                   <td></td>
                </tr>
             </tbody>
@@ -6993,32 +7087,17 @@
                </tr>
                <tr>
                   <td></td>
-                  <td>asVeelDikkeLaminae</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
                   <td>asWeinigDikkeLaminae</td>
                   <td></td>
                </tr>
                <tr>
                   <td></td>
-                  <td>bruinkoolVeelDikkeLaminae</td>
+                  <td>asVeelDikkeLaminae</td>
                   <td></td>
                </tr>
                <tr>
                   <td></td>
-                  <td>bruinkoolVeelDunneLaagjes</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>bruinkoolVeelDunneLaminae</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>bruinkoolVeelErgDunneLaagjes</td>
+                  <td>bruinkoolWeinigDunneLaminae</td>
                   <td></td>
                </tr>
                <tr>
@@ -7033,42 +7112,27 @@
                </tr>
                <tr>
                   <td></td>
-                  <td>bruinkoolWeinigDunneLaminae</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
                   <td>bruinkoolWeinigErgDunneLaagjes</td>
                   <td></td>
                </tr>
                <tr>
                   <td></td>
-                  <td>detritusVeelDikkeLaminae</td>
+                  <td>bruinkoolVeelDunneLaminae</td>
                   <td></td>
                </tr>
                <tr>
                   <td></td>
-                  <td>detritusVeelDunneLaagjes</td>
+                  <td>bruinkoolVeelDikkeLaminae</td>
                   <td></td>
                </tr>
                <tr>
                   <td></td>
-                  <td>detritusVeelDunneLaminae</td>
+                  <td>bruinkoolVeelErgDunneLaagjes</td>
                   <td></td>
                </tr>
                <tr>
                   <td></td>
-                  <td>detritusVeelErgDunneLaagjes</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>detritusWeinigDikkeLaminae</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>detritusWeinigDunneLaagjes</td>
+                  <td>bruinkoolVeelDunneLaagjes</td>
                   <td></td>
                </tr>
                <tr>
@@ -7078,22 +7142,37 @@
                </tr>
                <tr>
                   <td></td>
+                  <td>detritusWeinigDikkeLaminae</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
                   <td>detritusWeinigErgDunneLaagjes</td>
                   <td></td>
                </tr>
                <tr>
                   <td></td>
-                  <td>grindVeelDunneLaagjes</td>
+                  <td>detritusWeinigDunneLaagjes</td>
                   <td></td>
                </tr>
                <tr>
                   <td></td>
-                  <td>grindVeelErgDunneLaagjes</td>
+                  <td>detritusVeelDunneLaminae</td>
                   <td></td>
                </tr>
                <tr>
                   <td></td>
-                  <td>grindWeinigDunneLaagjes</td>
+                  <td>detritusVeelDikkeLaminae</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>detritusVeelErgDunneLaagjes</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>detritusVeelDunneLaagjes</td>
                   <td></td>
                </tr>
                <tr>
@@ -7103,32 +7182,17 @@
                </tr>
                <tr>
                   <td></td>
-                  <td>gyttjaVeelDikkeLaminae</td>
+                  <td>grindWeinigDunneLaagjes</td>
                   <td></td>
                </tr>
                <tr>
                   <td></td>
-                  <td>gyttjaVeelDunneLaagjes</td>
+                  <td>grindVeelErgDunneLaagjes</td>
                   <td></td>
                </tr>
                <tr>
                   <td></td>
-                  <td>gyttjaVeelDunneLaminae</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>gyttjaVeelErgDunneLaagjes</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>gyttjaWeinigDikkeLaminae</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>gyttjaWeinigDunneLaagjes</td>
+                  <td>grindVeelDunneLaagjes</td>
                   <td></td>
                </tr>
                <tr>
@@ -7138,37 +7202,37 @@
                </tr>
                <tr>
                   <td></td>
+                  <td>gyttjaWeinigDikkeLaminae</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
                   <td>gyttjaWeinigErgDunneLaagjes</td>
                   <td></td>
                </tr>
                <tr>
                   <td></td>
-                  <td>humusVeelDikkeLaminae</td>
+                  <td>gyttjaWeinigDunneLaagjes</td>
                   <td></td>
                </tr>
                <tr>
                   <td></td>
-                  <td>humusVeelDunneLaagjes</td>
+                  <td>gyttjaVeelDunneLaminae</td>
                   <td></td>
                </tr>
                <tr>
                   <td></td>
-                  <td>humusVeelDunneLaminae</td>
+                  <td>gyttjaVeelDikkeLaminae</td>
                   <td></td>
                </tr>
                <tr>
                   <td></td>
-                  <td>humusVeelErgDunneLaagjes</td>
+                  <td>gyttjaVeelErgDunneLaagjes</td>
                   <td></td>
                </tr>
                <tr>
                   <td></td>
-                  <td>humusWeinigDikkeLaminae</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>humusWeinigDunneLaagjes</td>
+                  <td>gyttjaVeelDunneLaagjes</td>
                   <td></td>
                </tr>
                <tr>
@@ -7178,77 +7242,37 @@
                </tr>
                <tr>
                   <td></td>
+                  <td>humusWeinigDikkeLaminae</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
                   <td>humusWeinigErgDunneLaagjes</td>
                   <td></td>
                </tr>
                <tr>
                   <td></td>
-                  <td>kalksteenVeelDikkeLaminae</td>
+                  <td>humusWeinigDunneLaagjes</td>
                   <td></td>
                </tr>
                <tr>
                   <td></td>
-                  <td>kalksteenVeelDunneLaagjes</td>
+                  <td>humusVeelDunneLaminae</td>
                   <td></td>
                </tr>
                <tr>
                   <td></td>
-                  <td>kalksteenVeelDunneLaminae</td>
+                  <td>humusVeelDikkeLaminae</td>
                   <td></td>
                </tr>
                <tr>
                   <td></td>
-                  <td>kalksteenVeelErgDunneLaagjes</td>
+                  <td>humusVeelErgDunneLaagjes</td>
                   <td></td>
                </tr>
                <tr>
                   <td></td>
-                  <td>kalksteenWeinigDikkeLaminae</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>kalksteenWeinigDunneLaagjes</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>kalksteenWeinigDunneLaminae</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>kalksteenWeinigErgDunneLaagjes</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>kalkVeelDikkeLaminae</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>kalkVeelDunneLaagjes</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>kalkVeelDunneLaminae</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>kalkVeelErgDunneLaagjes</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>kalkWeinigDikkeLaminae</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>kalkWeinigDunneLaagjes</td>
+                  <td>humusVeelDunneLaagjes</td>
                   <td></td>
                </tr>
                <tr>
@@ -7258,12 +7282,77 @@
                </tr>
                <tr>
                   <td></td>
+                  <td>kalkWeinigDikkeLaminae</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
                   <td>kalkWeinigErgDunneLaagjes</td>
                   <td></td>
                </tr>
                <tr>
                   <td></td>
-                  <td>keitjesVeelDunneLaagjes</td>
+                  <td>kalkWeinigDunneLaagjes</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>kalkVeelDunneLaminae</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>kalkVeelDikkeLaminae</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>kalkVeelErgDunneLaagjes</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>kalkVeelDunneLaagjes</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>kalksteenWeinigDunneLaagjes</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>kalksteenWeinigDikkeLaminae</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>kalksteenWeinigErgDunneLaagjes</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>kalksteenWeinigDunneLaminae</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>kalksteenVeelDunneLaminae</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>kalksteenVeelDikkeLaminae</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>kalksteenVeelErgDunneLaagjes</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>kalksteenVeelDunneLaagjes</td>
                   <td></td>
                </tr>
                <tr>
@@ -7273,72 +7362,7 @@
                </tr>
                <tr>
                   <td></td>
-                  <td>kleisteenVeelDikkeLaminae</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>kleisteenVeelDunneLaagjes</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>kleisteenVeelDunneLaminae</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>kleisteenVeelErgDunneLaagjes</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>kleisteenWeinigDikkeLaminae</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>kleisteenWeinigDunneLaagjes</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>kleisteenWeinigDunneLaminae</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>kleisteenWeinigErgDunneLaagjes</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>kleiVeelDikkeLaminae</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>kleiVeelDunneLaagjes</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>kleiVeelDunneLaminae</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>kleiVeelErgDunneLaagjes</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>kleiWeinigDikkeLaminae</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>kleiWeinigDunneLaagjes</td>
+                  <td>keitjesVeelDunneLaagjes</td>
                   <td></td>
                </tr>
                <tr>
@@ -7348,37 +7372,77 @@
                </tr>
                <tr>
                   <td></td>
+                  <td>kleiWeinigDikkeLaminae</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
                   <td>kleiWeinigErgDunneLaagjes</td>
                   <td></td>
                </tr>
                <tr>
                   <td></td>
-                  <td>mergelVeelDikkeLaminae</td>
+                  <td>kleiWeinigDunneLaagjes</td>
                   <td></td>
                </tr>
                <tr>
                   <td></td>
-                  <td>mergelVeelDunneLaagjes</td>
+                  <td>kleiVeelDunneLaminae</td>
                   <td></td>
                </tr>
                <tr>
                   <td></td>
-                  <td>mergelVeelDunneLaminae</td>
+                  <td>kleiVeelDikkeLaminae</td>
                   <td></td>
                </tr>
                <tr>
                   <td></td>
-                  <td>mergelVeelErgDunneLaagjes</td>
+                  <td>kleiVeelErgDunneLaagjes</td>
                   <td></td>
                </tr>
                <tr>
                   <td></td>
-                  <td>mergelWeinigDikkeLaminae</td>
+                  <td>kleiVeelDunneLaagjes</td>
                   <td></td>
                </tr>
                <tr>
                   <td></td>
-                  <td>mergelWeinigDunneLaagjes</td>
+                  <td>kleisteenWeinigDunneLaminae</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>kleisteenWeinigDikkeLaminae</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>kleisteenWeinigErgDunneLaagjes</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>kleisteenWeinigDunneLaagjes</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>kleisteenVeelDunneLaminae</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>kleisteenVeelDikkeLaminae</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>kleisteenVeelErgDunneLaagjes</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>kleisteenVeelDunneLaagjes</td>
                   <td></td>
                </tr>
                <tr>
@@ -7388,37 +7452,37 @@
                </tr>
                <tr>
                   <td></td>
+                  <td>mergelWeinigDikkeLaminae</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
                   <td>mergelWeinigErgDunneLaagjes</td>
                   <td></td>
                </tr>
                <tr>
                   <td></td>
-                  <td>oerVeelDikkeLaminae</td>
+                  <td>mergelWeinigDunneLaagjes</td>
                   <td></td>
                </tr>
                <tr>
                   <td></td>
-                  <td>oerVeelDunneLaagjes</td>
+                  <td>mergelVeelDunneLaminae</td>
                   <td></td>
                </tr>
                <tr>
                   <td></td>
-                  <td>oerVeelDunneLaminae</td>
+                  <td>mergelVeelDikkeLaminae</td>
                   <td></td>
                </tr>
                <tr>
                   <td></td>
-                  <td>oerVeelErgDunneLaagjes</td>
+                  <td>mergelVeelErgDunneLaagjes</td>
                   <td></td>
                </tr>
                <tr>
                   <td></td>
-                  <td>oerWeinigDikkeLaminae</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>oerWeinigDunneLaagjes</td>
+                  <td>mergelVeelDunneLaagjes</td>
                   <td></td>
                </tr>
                <tr>
@@ -7428,37 +7492,37 @@
                </tr>
                <tr>
                   <td></td>
+                  <td>oerWeinigDikkeLaminae</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
                   <td>oerWeinigErgDunneLaagjes</td>
                   <td></td>
                </tr>
                <tr>
                   <td></td>
-                  <td>schelpmateriaalVeelDikkeLaminae</td>
+                  <td>oerWeinigDunneLaagjes</td>
                   <td></td>
                </tr>
                <tr>
                   <td></td>
-                  <td>schelpmateriaalVeelDunneLaagjes</td>
+                  <td>oerVeelDunneLaminae</td>
                   <td></td>
                </tr>
                <tr>
                   <td></td>
-                  <td>schelpmateriaalVeelDunneLaminae</td>
+                  <td>oerVeelDikkeLaminae</td>
                   <td></td>
                </tr>
                <tr>
                   <td></td>
-                  <td>schelpmateriaalVeelErgDunneLaagjes</td>
+                  <td>oerVeelErgDunneLaagjes</td>
                   <td></td>
                </tr>
                <tr>
                   <td></td>
-                  <td>schelpmateriaalWeinigDikkeLaminae</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>schelpmateriaalWeinigDunneLaagjes</td>
+                  <td>oerVeelDunneLaagjes</td>
                   <td></td>
                </tr>
                <tr>
@@ -7468,77 +7532,37 @@
                </tr>
                <tr>
                   <td></td>
+                  <td>schelpmateriaalWeinigDikkeLaminae</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
                   <td>schelpmateriaalWeinigErgDunneLaagjes</td>
                   <td></td>
                </tr>
                <tr>
                   <td></td>
-                  <td>siltsteenVeelDikkeLaminae</td>
+                  <td>schelpmateriaalWeinigDunneLaagjes</td>
                   <td></td>
                </tr>
                <tr>
                   <td></td>
-                  <td>siltsteenVeelDunneLaagjes</td>
+                  <td>schelpmateriaalVeelDunneLaminae</td>
                   <td></td>
                </tr>
                <tr>
                   <td></td>
-                  <td>siltsteenVeelDunneLaminae</td>
+                  <td>schelpmateriaalVeelDikkeLaminae</td>
                   <td></td>
                </tr>
                <tr>
                   <td></td>
-                  <td>siltsteenVeelErgDunneLaagjes</td>
+                  <td>schelpmateriaalVeelErgDunneLaagjes</td>
                   <td></td>
                </tr>
                <tr>
                   <td></td>
-                  <td>siltsteenWeinigDikkeLaminae</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>siltsteenWeinigDunneLaagjes</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>siltsteenWeinigDunneLaminae</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>siltsteenWeinigErgDunneLaagjes</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>siltVeelDikkeLaminae</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>siltVeelDunneLaagjes</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>siltVeelDunneLaminae</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>siltVeelErgDunneLaagjes</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>siltWeinigDikkeLaminae</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>siltWeinigDunneLaagjes</td>
+                  <td>schelpmateriaalVeelDunneLaagjes</td>
                   <td></td>
                </tr>
                <tr>
@@ -7548,37 +7572,77 @@
                </tr>
                <tr>
                   <td></td>
+                  <td>siltWeinigDikkeLaminae</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
                   <td>siltWeinigErgDunneLaagjes</td>
                   <td></td>
                </tr>
                <tr>
                   <td></td>
-                  <td>veenVeelDikkeLaminae</td>
+                  <td>siltWeinigDunneLaagjes</td>
                   <td></td>
                </tr>
                <tr>
                   <td></td>
-                  <td>veenVeelDunneLaagjes</td>
+                  <td>siltVeelDunneLaminae</td>
                   <td></td>
                </tr>
                <tr>
                   <td></td>
-                  <td>veenVeelDunneLaminae</td>
+                  <td>siltVeelDikkeLaminae</td>
                   <td></td>
                </tr>
                <tr>
                   <td></td>
-                  <td>veenVeelErgDunneLaagjes</td>
+                  <td>siltVeelErgDunneLaagjes</td>
                   <td></td>
                </tr>
                <tr>
                   <td></td>
-                  <td>veenWeinigDikkeLaminae</td>
+                  <td>siltVeelDunneLaagjes</td>
                   <td></td>
                </tr>
                <tr>
                   <td></td>
-                  <td>veenWeinigDunneLaagjes</td>
+                  <td>siltsteenWeinigDunneLaminae</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>siltsteenWeinigDikkeLaminae</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>siltsteenWeinigErgDunneLaagjes</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>siltsteenWeinigDunneLaagjes</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>siltsteenVeelDunneLaminae</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>siltsteenVeelDikkeLaminae</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>siltsteenVeelErgDunneLaagjes</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>siltsteenVeelDunneLaagjes</td>
                   <td></td>
                </tr>
                <tr>
@@ -7588,22 +7652,37 @@
                </tr>
                <tr>
                   <td></td>
+                  <td>veenWeinigDikkeLaminae</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
                   <td>veenWeinigErgDunneLaagjes</td>
                   <td></td>
                </tr>
                <tr>
                   <td></td>
-                  <td>vuursteenVeelDunneLaagjes</td>
+                  <td>veenWeinigDunneLaagjes</td>
                   <td></td>
                </tr>
                <tr>
                   <td></td>
-                  <td>vuursteenVeelErgDunneLaagjes</td>
+                  <td>veenVeelDunneLaminae</td>
                   <td></td>
                </tr>
                <tr>
                   <td></td>
-                  <td>vuursteenWeinigDunneLaagjes</td>
+                  <td>veenVeelDikkeLaminae</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>veenVeelErgDunneLaagjes</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>veenVeelDunneLaagjes</td>
                   <td></td>
                </tr>
                <tr>
@@ -7613,72 +7692,17 @@
                </tr>
                <tr>
                   <td></td>
-                  <td>zandsteenVeelDikkeLaminae</td>
+                  <td>vuursteenWeinigDunneLaagjes</td>
                   <td></td>
                </tr>
                <tr>
                   <td></td>
-                  <td>zandsteenVeelDunneLaagjes</td>
+                  <td>vuursteenVeelErgDunneLaagjes</td>
                   <td></td>
                </tr>
                <tr>
                   <td></td>
-                  <td>zandsteenVeelDunneLaminae</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>zandsteenVeelErgDunneLaagjes</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>zandsteenWeinigDikkeLaminae</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>zandsteenWeinigDunneLaagjes</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>zandsteenWeinigDunneLaminae</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>zandsteenWeinigErgDunneLaagjes</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>zandVeelDikkeLaminae</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>zandVeelDunneLaagjes</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>zandVeelDunneLaminae</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>zandVeelErgDunneLaagjes</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>zandWeinigDikkeLaminae</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>zandWeinigDunneLaagjes</td>
+                  <td>vuursteenVeelDunneLaagjes</td>
                   <td></td>
                </tr>
                <tr>
@@ -7688,7 +7712,77 @@
                </tr>
                <tr>
                   <td></td>
+                  <td>zandWeinigDikkeLaminae</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
                   <td>zandWeinigErgDunneLaagjes</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>zandWeinigDunneLaagjes</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>zandVeelDunneLaminae</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>zandVeelDikkeLaminae</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>zandVeelErgDunneLaagjes</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>zandVeelDunneLaagjes</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>zandsteenWeinigDunneLaminae</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>zandsteenWeinigDikkeLaminae</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>zandsteenWeinigErgDunneLaagjes</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>zandsteenWeinigDunneLaagjes</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>zandsteenVeelDunneLaminae</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>zandsteenVeelDikkeLaminae</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>zandsteenVeelErgDunneLaagjes</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>zandsteenVeelDunneLaagjes</td>
                   <td></td>
                </tr>
             </tbody>
@@ -7723,22 +7817,22 @@
                </tr>
                <tr>
                   <td></td>
-                  <td>dikGelamineerd</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>dunGelaagd</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
                   <td>dunGelamineerd</td>
                   <td></td>
                </tr>
                <tr>
                   <td></td>
+                  <td>dikGelamineerd</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
                   <td>ergDunGelaagd</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>dunGelaagd</td>
                   <td></td>
                </tr>
             </tbody>
@@ -7770,6 +7864,11 @@
                   <th>Code</th>
                   <th>Naam</th>
                   <th>Definitie</th>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>nietBepaald</td>
+                  <td></td>
                </tr>
                <tr>
                   <td></td>
@@ -7843,11 +7942,6 @@
                </tr>
                <tr>
                   <td></td>
-                  <td>nietBepaald</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
                   <td>verweerdGesteente</td>
                   <td></td>
                </tr>
@@ -7881,12 +7975,52 @@
                </tr>
                <tr>
                   <td></td>
-                  <td>bruinkool</td>
+                  <td>keien</td>
                   <td></td>
                </tr>
                <tr>
                   <td></td>
-                  <td>detritus</td>
+                  <td>keienMetGrind</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>keienMetZand</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>keienMetSilt</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>keienMetKlei</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>keitjes</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>keitjesMetGrind</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>keitjesMetZand</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>keitjesMetSilt</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>keitjesMetKlei</td>
                   <td></td>
                </tr>
                <tr>
@@ -7906,207 +8040,7 @@
                </tr>
                <tr>
                   <td></td>
-                  <td>gyttja</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>humus</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>keien</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>keienMetGrind</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>keienMetKlei</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>keienMetSilt</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>keienMetZand</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>keitjes</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>keitjesMetGrind</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>keitjesMetKlei</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>keitjesMetSilt</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>keitjesMetZand</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>klei</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>kleiigeDetritus</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>kleiigeHumus</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>kleiigGrind</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>kleiigVeen</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>kleiigZand</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>kleiigZandMetGrind</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>kleiMetKeien</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>kleiMetKeitjes</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>silt</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>siltigeDetritus</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>siltigeHumus</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>siltigGrind</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>siltigVeen</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>siltigZand</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>siltigZandMetGrind</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>siltMetKeien</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>siltMetKeitjes</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>sterkGrindigeKlei</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>sterkGrindigeKleiMetZand</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>sterkGrindigSilt</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>sterkGrindigSiltMetZand</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>sterkGrindigZand</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>sterkGrindigZandMetKlei</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>sterkGrindigZandMetSilt</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>sterkZandigeDetritus</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>sterkZandigeHumus</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>sterkZandigeKlei</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>sterkZandigeKleiMetGrind</td>
+                  <td>zwakZandigGrind</td>
                   <td></td>
                </tr>
                <tr>
@@ -8116,22 +8050,12 @@
                </tr>
                <tr>
                   <td></td>
-                  <td>sterkZandigSilt</td>
+                  <td>siltigGrind</td>
                   <td></td>
                </tr>
                <tr>
                   <td></td>
-                  <td>sterkZandigSiltMetGrind</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>sterkZandigVeen</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>veen</td>
+                  <td>kleiigGrind</td>
                   <td></td>
                </tr>
                <tr>
@@ -8151,12 +8075,67 @@
                </tr>
                <tr>
                   <td></td>
-                  <td>zwakGrindigeKlei</td>
+                  <td>zwakGrindigZand</td>
                   <td></td>
                </tr>
                <tr>
                   <td></td>
-                  <td>zwakGrindigeKleiMetZand</td>
+                  <td>zwakGrindigZandMetSilt</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>zwakGrindigZandMetKlei</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>sterkGrindigZand</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>sterkGrindigZandMetSilt</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>sterkGrindigZandMetKlei</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>siltigZand</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>siltigZandMetGrind</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>kleiigZand</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>kleiigZandMetGrind</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>silt</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>siltMetKeien</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>siltMetKeitjes</td>
                   <td></td>
                </tr>
                <tr>
@@ -8171,42 +8150,12 @@
                </tr>
                <tr>
                   <td></td>
-                  <td>zwakGrindigZand</td>
+                  <td>sterkGrindigSilt</td>
                   <td></td>
                </tr>
                <tr>
                   <td></td>
-                  <td>zwakGrindigZandMetKlei</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>zwakGrindigZandMetSilt</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>zwakZandigeDetritus</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>zwakZandigeHumus</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>zwakZandigeKlei</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>zwakZandigeKleiMetGrind</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>zwakZandigGrind</td>
+                  <td>sterkGrindigSiltMetZand</td>
                   <td></td>
                </tr>
                <tr>
@@ -8221,7 +8170,152 @@
                </tr>
                <tr>
                   <td></td>
+                  <td>sterkZandigSilt</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>sterkZandigSiltMetGrind</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>klei</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>kleiMetKeien</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>kleiMetKeitjes</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>zwakGrindigeKlei</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>zwakGrindigeKleiMetZand</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>sterkGrindigeKlei</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>sterkGrindigeKleiMetZand</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>zwakZandigeKlei</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>zwakZandigeKleiMetGrind</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>sterkZandigeKlei</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>sterkZandigeKleiMetGrind</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>detritus</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>zwakZandigeDetritus</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>sterkZandigeDetritus</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>siltigeDetritus</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>kleiigeDetritus</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>humus</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>zwakZandigeHumus</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>sterkZandigeHumus</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>siltigeHumus</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>kleiigeHumus</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>veen</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
                   <td>zwakZandigVeen</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>sterkZandigVeen</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>siltigVeen</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>kleiigVeen</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>bruinkool</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>gyttja</td>
                   <td></td>
                </tr>
             </tbody>
@@ -8473,12 +8567,12 @@
                </tr>
                <tr>
                   <td></td>
-                  <td>grof</td>
+                  <td>middelgrof</td>
                   <td></td>
                </tr>
                <tr>
                   <td></td>
-                  <td>middelgrof</td>
+                  <td>grof</td>
                   <td></td>
                </tr>
             </tbody>
@@ -8511,17 +8605,17 @@
                </tr>
                <tr>
                   <td></td>
-                  <td>grind</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
                   <td>keien</td>
                   <td></td>
                </tr>
                <tr>
                   <td></td>
                   <td>keitjes</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>grind</td>
                   <td></td>
                </tr>
                <tr>
@@ -8559,7 +8653,7 @@
                </tr>
                <tr>
                   <td></td>
-                  <td>afgerond</td>
+                  <td>zeerHoekig</td>
                   <td></td>
                </tr>
                <tr>
@@ -8579,12 +8673,12 @@
                </tr>
                <tr>
                   <td></td>
-                  <td>zeerAfgerond</td>
+                  <td>afgerond</td>
                   <td></td>
                </tr>
                <tr>
                   <td></td>
-                  <td>zeerHoekig</td>
+                  <td>zeerAfgerond</td>
                   <td></td>
                </tr>
             </tbody>
@@ -8843,12 +8937,12 @@
                </tr>
                <tr>
                   <td></td>
-                  <td>kalkhoudend</td>
+                  <td>kalkloos</td>
                   <td></td>
                </tr>
                <tr>
                   <td></td>
-                  <td>kalkloos</td>
+                  <td>kalkhoudend</td>
                   <td></td>
                </tr>
                <tr>
@@ -9137,17 +9231,17 @@
                </tr>
                <tr>
                   <td></td>
-                  <td>RTKGPS10tot50cm</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
                   <td>RTKGPS2tot5cm</td>
                   <td></td>
                </tr>
                <tr>
                   <td></td>
                   <td>RTKGPS5tot10cm</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>RTKGPS10tot50cm</td>
                   <td></td>
                </tr>
                <tr>
@@ -9275,17 +9369,17 @@
                </tr>
                <tr>
                   <td></td>
+                  <td>RTKGPS4tot10cm</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
                   <td>RTKGPS10tot20cm</td>
                   <td></td>
                </tr>
                <tr>
                   <td></td>
                   <td>RTKGPS20tot100cm</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>RTKGPS4tot10cm</td>
                   <td></td>
                </tr>
                <tr>
@@ -9388,12 +9482,12 @@
                </tr>
                <tr>
                   <td></td>
-                  <td>gedeeltelijkOmgezet</td>
+                  <td>nietOmgezet</td>
                   <td></td>
                </tr>
                <tr>
                   <td></td>
-                  <td>nietOmgezet</td>
+                  <td>gedeeltelijkOmgezet</td>
                   <td></td>
                </tr>
                <tr>
@@ -9506,12 +9600,12 @@
                </tr>
                <tr>
                   <td></td>
-                  <td>sterkOrganisch</td>
+                  <td>zwakOrganisch</td>
                   <td></td>
                </tr>
                <tr>
                   <td></td>
-                  <td>zwakOrganisch</td>
+                  <td>sterkOrganisch</td>
                   <td></td>
                </tr>
             </tbody>
@@ -9554,12 +9648,12 @@
                </tr>
                <tr>
                   <td></td>
-                  <td>prePleistoceenBoom</td>
+                  <td>prePleistoceenGeenBoom</td>
                   <td></td>
                </tr>
                <tr>
                   <td></td>
-                  <td>prePleistoceenGeenBoom</td>
+                  <td>prePleistoceenBoom</td>
                   <td></td>
                </tr>
             </tbody>
@@ -9698,18 +9792,18 @@
                </tr>
                <tr>
                   <td></td>
-                  <td>aangevuld</td>
-                  <td>Het registeren van de gegevens van het object heeft na de start van de registratie
-                     een vervolg gekregen. De gegevens in de registratie ondergrond zijn minimaal een keer
-                     aangevuld met nieuwe gegevens.
-                  </td>
-               </tr>
-               <tr>
-                  <td></td>
                   <td>geregistreerd</td>
                   <td>Het registeren van de gegevens van het object is gestart. De gegevens uit het eerste
                      brondocument zijn in de registratie ondergrond vastgelegd. Er zijn daarna geen nieuwe
                      gegevens geregistreerd.
+                  </td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>aangevuld</td>
+                  <td>Het registeren van de gegevens van het object heeft na de start van de registratie
+                     een vervolg gekregen. De gegevens in de registratie ondergrond zijn minimaal een keer
+                     aangevuld met nieuwe gegevens.
                   </td>
                </tr>
                <tr>
@@ -9834,6 +9928,11 @@
                </tr>
                <tr>
                   <td></td>
+                  <td>geen</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
                   <td>bentoniet</td>
                   <td></td>
                </tr>
@@ -9845,11 +9944,6 @@
                <tr>
                   <td></td>
                   <td>bentonietMicrodolomiet</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>geen</td>
                   <td></td>
                </tr>
                <tr>
@@ -9889,7 +9983,7 @@
                </tr>
                <tr>
                   <td></td>
-                  <td>instabiel</td>
+                  <td>stabiel</td>
                   <td></td>
                </tr>
                <tr>
@@ -9899,7 +9993,7 @@
                </tr>
                <tr>
                   <td></td>
-                  <td>stabiel</td>
+                  <td>instabiel</td>
                   <td></td>
                </tr>
             </tbody>
@@ -9932,27 +10026,7 @@
                </tr>
                <tr>
                   <td></td>
-                  <td>matigSterk</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>sterk</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
                   <td>uitersteZwak</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>uiterstSterk</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>zeerSterk</td>
                   <td></td>
                </tr>
                <tr>
@@ -9963,6 +10037,26 @@
                <tr>
                   <td></td>
                   <td>zwak</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>matigSterk</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>sterk</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>zeerSterk</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>uiterstSterk</td>
                   <td></td>
                </tr>
             </tbody>
@@ -10035,12 +10129,12 @@
                </tr>
                <tr>
                   <td></td>
-                  <td>risico</td>
+                  <td>risicoGrondwaterdruk</td>
                   <td></td>
                </tr>
                <tr>
                   <td></td>
-                  <td>risicoGrondwaterdruk</td>
+                  <td>risico</td>
                   <td></td>
                </tr>
                <tr>
@@ -10204,17 +10298,17 @@
                </tr>
                <tr>
                   <td></td>
-                  <td>hoog</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
                   <td>laag</td>
                   <td></td>
                </tr>
                <tr>
                   <td></td>
                   <td>matig</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>hoog</td>
                   <td></td>
                </tr>
             </tbody>
@@ -10492,12 +10586,12 @@
                </tr>
                <tr>
                   <td></td>
-                  <td>gedeeltelijkVerkleurd</td>
+                  <td>nietVerkleurd</td>
                   <td></td>
                </tr>
                <tr>
                   <td></td>
-                  <td>nietVerkleurd</td>
+                  <td>gedeeltelijkVerkleurd</td>
                   <td></td>
                </tr>
                <tr>
@@ -10580,12 +10674,12 @@
                </tr>
                <tr>
                   <td></td>
-                  <td>bevriezing</td>
+                  <td>geen</td>
                   <td></td>
                </tr>
                <tr>
                   <td></td>
-                  <td>geen</td>
+                  <td>bevriezing</td>
                   <td></td>
                </tr>
                <tr>
@@ -10625,12 +10719,12 @@
                </tr>
                <tr>
                   <td></td>
-                  <td>bevriezing</td>
+                  <td>geen</td>
                   <td></td>
                </tr>
                <tr>
                   <td></td>
-                  <td>geen</td>
+                  <td>bevriezing</td>
                   <td></td>
                </tr>
                <tr>
@@ -10761,22 +10855,17 @@
                </tr>
                <tr>
                   <td></td>
+                  <td>fijn63tot105um</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td></td>
                   <td>fijn105tot150um</td>
                   <td></td>
                </tr>
                <tr>
                   <td></td>
                   <td>fijn150tot200um</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>fijn63tot105um</td>
-                  <td></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td>grof</td>
                   <td></td>
                </tr>
                <tr>
@@ -10798,6 +10887,186 @@
                   <td></td>
                   <td>middelgrof420tot630um</td>
                   <td></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>grof</td>
+                  <td></td>
+               </tr>
+            </tbody>
+         </table>
+         
+      </section>
+      <a class="anchor" name="graph_EAID_145D265F_62AE_46fe_9D0C_AEC929163708"></a><a class="anchor" name="detail_class_DomeinmodelBROBHRGTBmb_Zandspreiding"></a><section id="detail_class_DomeinmodelBROBHRGTBmb_Zandspreiding">
+         <h6>Codelijst details Zandspreiding</h6>
+         
+         <table>
+            <colgroup width="40%"></colgroup>
+            <colgroup width="60%"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Definitie</th>
+                  <td></td>
+               </tr>
+            </tbody>
+         </table>
+         
+         <table>
+            <tbody>
+               <tr>
+                  <th>Code</th>
+                  <th>Naam</th>
+                  <th>Definitie</th>
+               </tr>
+            </tbody>
+         </table>
+         
+      </section>
+      <a class="anchor" name="graph_EAID_2C8718B8_3D75_43d7_9D5A_7E11E608FA27"></a><a class="anchor" name="detail_class_DomeinmodelBROBHRGTBmb_FijnGrindGehalteklasse"></a><section id="detail_class_DomeinmodelBROBHRGTBmb_FijnGrindGehalteklasse">
+         <h6>Codelijst details FijnGrindGehalteklasse</h6>
+         
+         <table>
+            <colgroup width="40%"></colgroup>
+            <colgroup width="60%"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Definitie</th>
+                  <td></td>
+               </tr>
+            </tbody>
+         </table>
+         
+         <table>
+            <tbody>
+               <tr>
+                  <th>Code</th>
+                  <th>Naam</th>
+                  <th>Definitie</th>
+               </tr>
+            </tbody>
+         </table>
+         
+      </section>
+      <a class="anchor" name="graph_EAID_45B1D31A_ADE5_405d_98E2_AF505F7321D3"></a><a class="anchor" name="detail_class_DomeinmodelBROBHRGTBmb_OrganischeStofgehalteklasseNEN5104"></a><section id="detail_class_DomeinmodelBROBHRGTBmb_OrganischeStofgehalteklasseNEN5104">
+         <h6>Codelijst details OrganischeStofgehalteklasseNEN5104</h6>
+         
+         <table>
+            <colgroup width="40%"></colgroup>
+            <colgroup width="60%"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Definitie</th>
+                  <td></td>
+               </tr>
+            </tbody>
+         </table>
+         
+         <table>
+            <tbody>
+               <tr>
+                  <th>Code</th>
+                  <th>Naam</th>
+                  <th>Definitie</th>
+               </tr>
+            </tbody>
+         </table>
+         
+      </section>
+      <a class="anchor" name="graph_EAID_661B831B_EA9D_49ab_B6FB_192D83D63F26"></a><a class="anchor" name="detail_class_DomeinmodelBROBHRGTBmb_MatigGrofGrindgehalteklasse"></a><section id="detail_class_DomeinmodelBROBHRGTBmb_MatigGrofGrindgehalteklasse">
+         <h6>Codelijst details MatigGrofGrindgehalteklasse</h6>
+         
+         <table>
+            <colgroup width="40%"></colgroup>
+            <colgroup width="60%"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Definitie</th>
+                  <td></td>
+               </tr>
+            </tbody>
+         </table>
+         
+         <table>
+            <tbody>
+               <tr>
+                  <th>Code</th>
+                  <th>Naam</th>
+                  <th>Definitie</th>
+               </tr>
+            </tbody>
+         </table>
+         
+      </section>
+      <a class="anchor" name="graph_EAID_891526FA_E73D_4315_8CA7_FCB20F2FE6A8"></a><a class="anchor" name="detail_class_DomeinmodelBROBHRGTBmb_ZeerGrofGrindgehalteklasse"></a><section id="detail_class_DomeinmodelBROBHRGTBmb_ZeerGrofGrindgehalteklasse">
+         <h6>Codelijst details ZeerGrofGrindgehalteklasse</h6>
+         
+         <table>
+            <colgroup width="40%"></colgroup>
+            <colgroup width="60%"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Definitie</th>
+                  <td></td>
+               </tr>
+            </tbody>
+         </table>
+         
+         <table>
+            <tbody>
+               <tr>
+                  <th>Code</th>
+                  <th>Naam</th>
+                  <th>Definitie</th>
+               </tr>
+            </tbody>
+         </table>
+         
+      </section>
+      <a class="anchor" name="graph_EAID_B60DA311_0032_45f3_BA98_1117768DCDA6"></a><a class="anchor" name="detail_class_DomeinmodelBROBHRGTBmb_GrondsoortNEN5104"></a><section id="detail_class_DomeinmodelBROBHRGTBmb_GrondsoortNEN5104">
+         <h6>Codelijst details GrondsoortNEN5104</h6>
+         
+         <table>
+            <colgroup width="40%"></colgroup>
+            <colgroup width="60%"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Definitie</th>
+                  <td></td>
+               </tr>
+            </tbody>
+         </table>
+         
+         <table>
+            <tbody>
+               <tr>
+                  <th>Code</th>
+                  <th>Naam</th>
+                  <th>Definitie</th>
+               </tr>
+            </tbody>
+         </table>
+         
+      </section>
+      <a class="anchor" name="graph_EAID_F421263F_A989_489f_8616_911B4533358D"></a><a class="anchor" name="detail_class_DomeinmodelBROBHRGTBmb_GrindgehalteklasseNEN5104"></a><section id="detail_class_DomeinmodelBROBHRGTBmb_GrindgehalteklasseNEN5104">
+         <h6>Codelijst details GrindgehalteklasseNEN5104</h6>
+         
+         <table>
+            <colgroup width="40%"></colgroup>
+            <colgroup width="60%"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Definitie</th>
+                  <td></td>
+               </tr>
+            </tbody>
+         </table>
+         
+         <table>
+            <tbody>
+               <tr>
+                  <th>Code</th>
+                  <th>Naam</th>
+                  <th>Definitie</th>
                </tr>
             </tbody>
          </table>
