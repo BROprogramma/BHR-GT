@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_4532D2FB_BE47_4dc9_BBAD_0F65D43D52FB"
       generator-version="1.48.0"
-      generator-date="2018-11-22T10:59:31Z">
+      generator-date="2018-11-22T11:56:25Z">
    <section type="DOMAIN"
             name="Domeinmodel BRO Common"
             id="global_package_DomeinmodelBROCommon"><!--removed empty content-->
@@ -4687,6 +4687,10 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>Indicatie afleidbaar</item>
                         <item>Nee</item>
                      </part>
+                     <part type="CFG-DOC-UNITOFMEASURE">
+                        <item>Meeteenheid</item>
+                        <item>BRO</item>
+                     </part>
                   </content>
                </section>
                <section name="verschuiving"
@@ -4737,6 +4741,10 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
                         <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-UNITOFMEASURE">
+                        <item>Meeteenheid</item>
+                        <item>m</item>
                      </part>
                   </content>
                </section>
@@ -4789,6 +4797,10 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>Indicatie afleidbaar</item>
                         <item>Nee</item>
                      </part>
+                     <part type="CFG-DOC-UNITOFMEASURE">
+                        <item>Meeteenheid</item>
+                        <item>m</item>
+                     </part>
                   </content>
                </section>
                <section name="verticaal referentievlak"
@@ -4839,6 +4851,10 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
                         <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-UNITOFMEASURE">
+                        <item>Meeteenheid</item>
+                        <item>BRO</item>
                      </part>
                   </content>
                </section>
@@ -4891,6 +4907,10 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>Indicatie afleidbaar</item>
                         <item>Nee</item>
                      </part>
+                     <part type="CFG-DOC-UNITOFMEASURE">
+                        <item>Meeteenheid</item>
+                        <item>BRO</item>
+                     </part>
                   </content>
                </section>
                <section name="methode verticale positiebepaling"
@@ -4942,6 +4962,10 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>Indicatie afleidbaar</item>
                         <item>Nee</item>
                      </part>
+                     <part type="CFG-DOC-UNITOFMEASURE">
+                        <item>Meeteenheid</item>
+                        <item>BRO</item>
+                     </part>
                   </content>
                </section>
                <section name="uitvoerder verticale positiebepaling"
@@ -4992,6 +5016,10 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
                         <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-UNITOFMEASURE">
+                        <item>Meeteenheid</item>
+                        <item>BRO</item>
                      </part>
                   </content>
                </section>
@@ -5051,7 +5079,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      </part>
                      <part type="CFG-DOC-UNITOFMEASURE">
                         <item>Meeteenheid</item>
-                        <item>BRO</item>
+                        <item>m</item>
                      </part>
                   </content>
                </section>
@@ -5106,7 +5134,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      </part>
                      <part type="CFG-DOC-UNITOFMEASURE">
                         <item>Meeteenheid</item>
-                        <item>BRO</item>
+                        <item>m</item>
                      </part>
                   </content>
                </section>
@@ -5216,7 +5244,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      </part>
                      <part type="CFG-DOC-UNITOFMEASURE">
                         <item>Meeteenheid</item>
-                        <item>BRO</item>
+                        <item>mm</item>
                      </part>
                   </content>
                </section>
@@ -5496,7 +5524,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      </part>
                      <part type="CFG-DOC-UNITOFMEASURE">
                         <item>Meeteenheid</item>
-                        <item>BRO</item>
+                        <item>m</item>
                      </part>
                   </content>
                </section>
@@ -5551,7 +5579,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      </part>
                      <part type="CFG-DOC-UNITOFMEASURE">
                         <item>Meeteenheid</item>
-                        <item>BRO</item>
+                        <item>m</item>
                      </part>
                   </content>
                </section>
@@ -5970,7 +5998,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      </part>
                      <part type="CFG-DOC-UNITOFMEASURE">
                         <item>Meeteenheid</item>
-                        <item>BRO</item>
+                        <item>mm</item>
                      </part>
                   </content>
                </section>
@@ -6025,7 +6053,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      </part>
                      <part type="CFG-DOC-UNITOFMEASURE">
                         <item>Meeteenheid</item>
-                        <item>BRO</item>
+                        <item>m</item>
                      </part>
                   </content>
                </section>
@@ -6080,7 +6108,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      </part>
                      <part type="CFG-DOC-UNITOFMEASURE">
                         <item>Meeteenheid</item>
-                        <item>BRO</item>
+                        <item>mm</item>
                      </part>
                   </content>
                </section>
@@ -6245,7 +6273,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      </part>
                      <part type="CFG-DOC-UNITOFMEASURE">
                         <item>Meeteenheid</item>
-                        <item>BRO</item>
+                        <item>°</item>
                      </part>
                   </content>
                </section>
@@ -6300,7 +6328,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      </part>
                      <part type="CFG-DOC-UNITOFMEASURE">
                         <item>Meeteenheid</item>
-                        <item>BRO</item>
+                        <item>°</item>
                      </part>
                   </content>
                </section>
@@ -7502,7 +7530,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      </part>
                      <part type="CFG-DOC-UNITOFMEASURE">
                         <item>Meeteenheid</item>
-                        <item>BRO</item>
+                        <item>s</item>
                      </part>
                   </content>
                </section>
@@ -7557,7 +7585,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      </part>
                      <part type="CFG-DOC-UNITOFMEASURE">
                         <item>Meeteenheid</item>
-                        <item>BRO</item>
+                        <item>m</item>
                      </part>
                   </content>
                </section>
@@ -7837,7 +7865,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      </part>
                      <part type="CFG-DOC-UNITOFMEASURE">
                         <item>Meeteenheid</item>
-                        <item>BRO</item>
+                        <item>m</item>
                      </part>
                   </content>
                </section>
@@ -7947,7 +7975,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      </part>
                      <part type="CFG-DOC-UNITOFMEASURE">
                         <item>Meeteenheid</item>
-                        <item>BRO</item>
+                        <item>m</item>
                      </part>
                   </content>
                </section>
@@ -8112,7 +8140,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      </part>
                      <part type="CFG-DOC-UNITOFMEASURE">
                         <item>Meeteenheid</item>
-                        <item>BRO</item>
+                        <item>m</item>
                      </part>
                   </content>
                </section>
@@ -8277,7 +8305,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      </part>
                      <part type="CFG-DOC-UNITOFMEASURE">
                         <item>Meeteenheid</item>
-                        <item>BRO</item>
+                        <item>m</item>
                      </part>
                   </content>
                </section>
@@ -8442,7 +8470,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      </part>
                      <part type="CFG-DOC-UNITOFMEASURE">
                         <item>Meeteenheid</item>
-                        <item>BRO</item>
+                        <item>m</item>
                      </part>
                   </content>
                </section>
@@ -8552,7 +8580,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      </part>
                      <part type="CFG-DOC-UNITOFMEASURE">
                         <item>Meeteenheid</item>
-                        <item>BRO</item>
+                        <item>m</item>
                      </part>
                   </content>
                </section>
@@ -8978,7 +9006,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      </part>
                      <part type="CFG-DOC-UNITOFMEASURE">
                         <item>Meeteenheid</item>
-                        <item>BRO</item>
+                        <item>m</item>
                      </part>
                   </content>
                </section>
@@ -9033,7 +9061,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      </part>
                      <part type="CFG-DOC-UNITOFMEASURE">
                         <item>Meeteenheid</item>
-                        <item>BRO</item>
+                        <item>m</item>
                      </part>
                   </content>
                </section>
@@ -9143,7 +9171,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      </part>
                      <part type="CFG-DOC-UNITOFMEASURE">
                         <item>Meeteenheid</item>
-                        <item>BRO</item>
+                        <item>mm</item>
                      </part>
                   </content>
                </section>
@@ -9203,7 +9231,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      </part>
                      <part type="CFG-DOC-UNITOFMEASURE">
                         <item>Meeteenheid</item>
-                        <item>BRO</item>
+                        <item>%</item>
                      </part>
                   </content>
                </section>
@@ -9258,7 +9286,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      </part>
                      <part type="CFG-DOC-UNITOFMEASURE">
                         <item>Meeteenheid</item>
-                        <item>BRO</item>
+                        <item>%</item>
                      </part>
                   </content>
                </section>
@@ -9313,7 +9341,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      </part>
                      <part type="CFG-DOC-UNITOFMEASURE">
                         <item>Meeteenheid</item>
-                        <item>BRO</item>
+                        <item>%</item>
                      </part>
                   </content>
                </section>
@@ -9698,6 +9726,10 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>Indicatie afleidbaar</item>
                         <item>Nee</item>
                      </part>
+                     <part type="CFG-DOC-UNITOFMEASURE">
+                        <item>Meeteenheid</item>
+                        <item>m</item>
+                     </part>
                   </content>
                </section>
                <section name="kleur"
@@ -10067,7 +10099,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      </part>
                      <part type="CFG-DOC-UNITOFMEASURE">
                         <item>Meeteenheid</item>
-                        <item>BRO</item>
+                        <item>m</item>
                      </part>
                   </content>
                </section>
@@ -10122,7 +10154,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      </part>
                      <part type="CFG-DOC-UNITOFMEASURE">
                         <item>Meeteenheid</item>
-                        <item>BRO</item>
+                        <item>m</item>
                      </part>
                   </content>
                </section>
@@ -10182,7 +10214,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      </part>
                      <part type="CFG-DOC-UNITOFMEASURE">
                         <item>Meeteenheid</item>
-                        <item>BRO</item>
+                        <item>m</item>
                      </part>
                   </content>
                </section>
@@ -10237,7 +10269,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      </part>
                      <part type="CFG-DOC-UNITOFMEASURE">
                         <item>Meeteenheid</item>
-                        <item>BRO</item>
+                        <item>m</item>
                      </part>
                   </content>
                </section>
