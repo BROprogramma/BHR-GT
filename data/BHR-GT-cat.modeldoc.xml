@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_4532D2FB_BE47_4dc9_BBAD_0F65D43D52FB"
       generator-version="1.48.0"
-      generator-date="2018-11-22T08:11:13Z">
+      generator-date="2018-11-22T09:27:55Z">
    <section type="DOMAIN"
             name="Domeinmodel BRO Common"
             id="global_package_DomeinmodelBROCommon"><!--removed empty content-->
@@ -1260,7 +1260,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item type="detail"
                               idref="detail_attribute_DomeinmodelBROBHRGTBmb_AangeleverdeLocatie_referentiestelsel">referentiestelsel</item>
                      </item>
-                     <item/>
+                     <item>TODO</item>
                      <item>
                         <item type="global"
                               idref="global_class_DomeinmodelBROBHRGTBmb_Referentiestelsel">Referentiestelsel</item>
@@ -2439,6 +2439,12 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                <item>De typering van willekeurig verspreid voorkomende concentraties van een afwijkende grond- of gesteentesoort naar hoeveelheid en materiaal.</item>
             </part>
             <part>
+               <item id="global_class_DomeinmodelBROBHRGTBmb_FijnGrindGehalteklasse"
+                     uuid="EAID_2C8718B8_3D75_43d7_9D5A_7E11E608FA27"
+                     idref="detail_class_DomeinmodelBROBHRGTBmb_FijnGrindGehalteklasse">FijnGrindGehalteklasse</item>
+               <item>TODO</item>
+            </part>
+            <part>
                <item id="global_class_DomeinmodelBROBHRGTBmb_GelaagdeInhomogeniteit"
                      uuid="EAID_4E106331_8BB5_451d_B718_49B28EB39302"
                      idref="detail_class_DomeinmodelBROBHRGTBmb_GelaagdeInhomogeniteit">GelaagdeInhomogeniteit</item>
@@ -2475,10 +2481,22 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                <item>De manier waarop de bovengrens van de laag is bepaald, met in het geval de grens op een in de monsters waargenomen verandering is gebaseerd een aanduiding van hoe scherp de grens is.</item>
             </part>
             <part>
+               <item id="global_class_DomeinmodelBROBHRGTBmb_GrindgehalteklasseNEN5104"
+                     uuid="EAID_F421263F_A989_489f_8616_911B4533358D"
+                     idref="detail_class_DomeinmodelBROBHRGTBmb_GrindgehalteklasseNEN5104">GrindgehalteklasseNEN5104</item>
+               <item>TODO</item>
+            </part>
+            <part>
                <item id="global_class_DomeinmodelBROBHRGTBmb_Grindmediaanklasse"
                      uuid="EAID_05465972_EDB9_4f64_BD0B_DB6D7992A8EB"
                      idref="detail_class_DomeinmodelBROBHRGTBmb_Grindmediaanklasse">Grindmediaanklasse</item>
                <item>De mediaan van de grindfractie uitgedrukt in een klasse.</item>
+            </part>
+            <part>
+               <item id="global_class_DomeinmodelBROBHRGTBmb_GrondsoortNEN5104"
+                     uuid="EAID_B60DA311_0032_45f3_BA98_1117768DCDA6"
+                     idref="detail_class_DomeinmodelBROBHRGTBmb_GrondsoortNEN5104">GrondsoortNEN5104</item>
+               <item>TODO</item>
             </part>
             <part>
                <item id="global_class_DomeinmodelBROBHRGTBmb_Groottefractie"
@@ -2541,6 +2559,12 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                <item>Het punt dat in het booronderzoek is gebruikt als nulpunt voor de diepte.</item>
             </part>
             <part>
+               <item id="global_class_DomeinmodelBROBHRGTBmb_MatigGrofGrindgehalteklasse"
+                     uuid="EAID_661B831B_EA9D_49ab_B6FB_192D83D63F26"
+                     idref="detail_class_DomeinmodelBROBHRGTBmb_MatigGrofGrindgehalteklasse">MatigGrofGrindgehalteklasse</item>
+               <item>TODO</item>
+            </part>
+            <part>
                <item id="global_class_DomeinmodelBROBHRGTBmb_MethodeLocatiebepaling"
                      uuid="EAID_DBFF2692_EDFE_4b98_B4FA_3F4788D02EA6"
                      idref="detail_class_DomeinmodelBROBHRGTBmb_MethodeLocatiebepaling">MethodeLocatiebepaling</item>
@@ -2581,6 +2605,12 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      uuid="EAID_4CACD3B2_B1D7_449d_AA47_B099F94F534B"
                      idref="detail_class_DomeinmodelBROBHRGTBmb_OrganischeStofgehalteklasse">OrganischeStofgehalteklasse</item>
                <item>Het gehalte aan organische stof uitgedrukt in een klasse.</item>
+            </part>
+            <part>
+               <item id="global_class_DomeinmodelBROBHRGTBmb_OrganischeStofgehalteklasseNEN5104"
+                     uuid="EAID_45B1D31A_ADE5_405d_98E2_AF505F7321D3"
+                     idref="detail_class_DomeinmodelBROBHRGTBmb_OrganischeStofgehalteklasseNEN5104">OrganischeStofgehalteklasseNEN5104</item>
+               <item>TODO</item>
             </part>
             <part>
                <item id="global_class_DomeinmodelBROBHRGTBmb_OuderdomAfzetting"
@@ -2730,43 +2760,13 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                <item id="global_class_DomeinmodelBROBHRGTBmb_Zandspreiding"
                      uuid="EAID_145D265F_62AE_46fe_9D0C_AEC929163708"
                      idref="detail_class_DomeinmodelBROBHRGTBmb_Zandspreiding">Zandspreiding</item>
-               <item/>
-            </part>
-            <part>
-               <item id="global_class_DomeinmodelBROBHRGTBmb_FijnGrindGehalteklasse"
-                     uuid="EAID_2C8718B8_3D75_43d7_9D5A_7E11E608FA27"
-                     idref="detail_class_DomeinmodelBROBHRGTBmb_FijnGrindGehalteklasse">FijnGrindGehalteklasse</item>
-               <item/>
-            </part>
-            <part>
-               <item id="global_class_DomeinmodelBROBHRGTBmb_OrganischeStofgehalteklasseNEN5104"
-                     uuid="EAID_45B1D31A_ADE5_405d_98E2_AF505F7321D3"
-                     idref="detail_class_DomeinmodelBROBHRGTBmb_OrganischeStofgehalteklasseNEN5104">OrganischeStofgehalteklasseNEN5104</item>
-               <item/>
-            </part>
-            <part>
-               <item id="global_class_DomeinmodelBROBHRGTBmb_MatigGrofGrindgehalteklasse"
-                     uuid="EAID_661B831B_EA9D_49ab_B6FB_192D83D63F26"
-                     idref="detail_class_DomeinmodelBROBHRGTBmb_MatigGrofGrindgehalteklasse">MatigGrofGrindgehalteklasse</item>
-               <item/>
+               <item>TODO</item>
             </part>
             <part>
                <item id="global_class_DomeinmodelBROBHRGTBmb_ZeerGrofGrindgehalteklasse"
                      uuid="EAID_891526FA_E73D_4315_8CA7_FCB20F2FE6A8"
                      idref="detail_class_DomeinmodelBROBHRGTBmb_ZeerGrofGrindgehalteklasse">ZeerGrofGrindgehalteklasse</item>
-               <item/>
-            </part>
-            <part>
-               <item id="global_class_DomeinmodelBROBHRGTBmb_GrondsoortNEN5104"
-                     uuid="EAID_B60DA311_0032_45f3_BA98_1117768DCDA6"
-                     idref="detail_class_DomeinmodelBROBHRGTBmb_GrondsoortNEN5104">GrondsoortNEN5104</item>
-               <item/>
-            </part>
-            <part>
-               <item id="global_class_DomeinmodelBROBHRGTBmb_GrindgehalteklasseNEN5104"
-                     uuid="EAID_F421263F_A989_489f_8616_911B4533358D"
-                     idref="detail_class_DomeinmodelBROBHRGTBmb_GrindgehalteklasseNEN5104">GrindgehalteklasseNEN5104</item>
-               <item/>
+               <item>TODO</item>
             </part>
          </content>
       </section>
@@ -2872,6 +2872,10 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      <part type="CFG-DOC-HERKOMST">
                         <item>Herkomst</item>
                         <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>TODO</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
@@ -6512,6 +6516,23 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                   </part>
                </content>
             </section>
+            <section name="FijnGrindGehalteklasse"
+                     type="DETAIL-CODELIST"
+                     id="detail_class_DomeinmodelBROBHRGTBmb_FijnGrindGehalteklasse"
+                     id-global="global_class_DomeinmodelBROBHRGTBmb_FijnGrindGehalteklasse"
+                     uuid="EAID_2C8718B8_3D75_43d7_9D5A_7E11E608FA27">
+               <content>
+                  <part>
+                     <item>Definitie</item>
+                     <item>TODO</item>
+                  </part>
+               </content>
+               <content>
+                  <itemtype type="CODE"/>
+                  <itemtype type="NAME"/>
+                  <itemtype type="DEFINITION"/>
+               </content>
+            </section>
             <section name="GelaagdeInhomogeniteit"
                      type="DETAIL-CODELIST"
                      id="detail_class_DomeinmodelBROBHRGTBmb_GelaagdeInhomogeniteit"
@@ -7914,6 +7935,23 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                   </part>
                </content>
             </section>
+            <section name="GrindgehalteklasseNEN5104"
+                     type="DETAIL-CODELIST"
+                     id="detail_class_DomeinmodelBROBHRGTBmb_GrindgehalteklasseNEN5104"
+                     id-global="global_class_DomeinmodelBROBHRGTBmb_GrindgehalteklasseNEN5104"
+                     uuid="EAID_F421263F_A989_489f_8616_911B4533358D">
+               <content>
+                  <part>
+                     <item>Definitie</item>
+                     <item>TODO</item>
+                  </part>
+               </content>
+               <content>
+                  <itemtype type="CODE"/>
+                  <itemtype type="NAME"/>
+                  <itemtype type="DEFINITION"/>
+               </content>
+            </section>
             <section name="Grindmediaanklasse"
                      type="DETAIL-CODELIST"
                      id="detail_class_DomeinmodelBROBHRGTBmb_Grindmediaanklasse"
@@ -7944,6 +7982,23 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      <item>grof</item>
                      <item/>
                   </part>
+               </content>
+            </section>
+            <section name="GrondsoortNEN5104"
+                     type="DETAIL-CODELIST"
+                     id="detail_class_DomeinmodelBROBHRGTBmb_GrondsoortNEN5104"
+                     id-global="global_class_DomeinmodelBROBHRGTBmb_GrondsoortNEN5104"
+                     uuid="EAID_B60DA311_0032_45f3_BA98_1117768DCDA6">
+               <content>
+                  <part>
+                     <item>Definitie</item>
+                     <item>TODO</item>
+                  </part>
+               </content>
+               <content>
+                  <itemtype type="CODE"/>
+                  <itemtype type="NAME"/>
+                  <itemtype type="DEFINITION"/>
                </content>
             </section>
             <section name="Groottefractie"
@@ -8441,6 +8496,23 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                   </part>
                </content>
             </section>
+            <section name="MatigGrofGrindgehalteklasse"
+                     type="DETAIL-CODELIST"
+                     id="detail_class_DomeinmodelBROBHRGTBmb_MatigGrofGrindgehalteklasse"
+                     id-global="global_class_DomeinmodelBROBHRGTBmb_MatigGrofGrindgehalteklasse"
+                     uuid="EAID_661B831B_EA9D_49ab_B6FB_192D83D63F26">
+               <content>
+                  <part>
+                     <item>Definitie</item>
+                     <item>TODO</item>
+                  </part>
+               </content>
+               <content>
+                  <itemtype type="CODE"/>
+                  <itemtype type="NAME"/>
+                  <itemtype type="DEFINITION"/>
+               </content>
+            </section>
             <section name="MethodeLocatiebepaling"
                      type="DETAIL-CODELIST"
                      id="detail_class_DomeinmodelBROBHRGTBmb_MethodeLocatiebepaling"
@@ -8778,6 +8850,23 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      <item>sterkOrganisch</item>
                      <item/>
                   </part>
+               </content>
+            </section>
+            <section name="OrganischeStofgehalteklasseNEN5104"
+                     type="DETAIL-CODELIST"
+                     id="detail_class_DomeinmodelBROBHRGTBmb_OrganischeStofgehalteklasseNEN5104"
+                     id-global="global_class_DomeinmodelBROBHRGTBmb_OrganischeStofgehalteklasseNEN5104"
+                     uuid="EAID_45B1D31A_ADE5_405d_98E2_AF505F7321D3">
+               <content>
+                  <part>
+                     <item>Definitie</item>
+                     <item>TODO</item>
+                  </part>
+               </content>
+               <content>
+                  <itemtype type="CODE"/>
+                  <itemtype type="NAME"/>
+                  <itemtype type="DEFINITION"/>
                </content>
             </section>
             <section name="OuderdomAfzetting"
@@ -9786,58 +9875,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
-                  </part>
-               </content>
-               <content>
-                  <itemtype type="CODE"/>
-                  <itemtype type="NAME"/>
-                  <itemtype type="DEFINITION"/>
-               </content>
-            </section>
-            <section name="FijnGrindGehalteklasse"
-                     type="DETAIL-CODELIST"
-                     id="detail_class_DomeinmodelBROBHRGTBmb_FijnGrindGehalteklasse"
-                     id-global="global_class_DomeinmodelBROBHRGTBmb_FijnGrindGehalteklasse"
-                     uuid="EAID_2C8718B8_3D75_43d7_9D5A_7E11E608FA27">
-               <content>
-                  <part>
-                     <item>Definitie</item>
-                     <item/>
-                  </part>
-               </content>
-               <content>
-                  <itemtype type="CODE"/>
-                  <itemtype type="NAME"/>
-                  <itemtype type="DEFINITION"/>
-               </content>
-            </section>
-            <section name="OrganischeStofgehalteklasseNEN5104"
-                     type="DETAIL-CODELIST"
-                     id="detail_class_DomeinmodelBROBHRGTBmb_OrganischeStofgehalteklasseNEN5104"
-                     id-global="global_class_DomeinmodelBROBHRGTBmb_OrganischeStofgehalteklasseNEN5104"
-                     uuid="EAID_45B1D31A_ADE5_405d_98E2_AF505F7321D3">
-               <content>
-                  <part>
-                     <item>Definitie</item>
-                     <item/>
-                  </part>
-               </content>
-               <content>
-                  <itemtype type="CODE"/>
-                  <itemtype type="NAME"/>
-                  <itemtype type="DEFINITION"/>
-               </content>
-            </section>
-            <section name="MatigGrofGrindgehalteklasse"
-                     type="DETAIL-CODELIST"
-                     id="detail_class_DomeinmodelBROBHRGTBmb_MatigGrofGrindgehalteklasse"
-                     id-global="global_class_DomeinmodelBROBHRGTBmb_MatigGrofGrindgehalteklasse"
-                     uuid="EAID_661B831B_EA9D_49ab_B6FB_192D83D63F26">
-               <content>
-                  <part>
-                     <item>Definitie</item>
-                     <item/>
+                     <item>TODO</item>
                   </part>
                </content>
                <content>
@@ -9854,41 +9892,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
-                  </part>
-               </content>
-               <content>
-                  <itemtype type="CODE"/>
-                  <itemtype type="NAME"/>
-                  <itemtype type="DEFINITION"/>
-               </content>
-            </section>
-            <section name="GrondsoortNEN5104"
-                     type="DETAIL-CODELIST"
-                     id="detail_class_DomeinmodelBROBHRGTBmb_GrondsoortNEN5104"
-                     id-global="global_class_DomeinmodelBROBHRGTBmb_GrondsoortNEN5104"
-                     uuid="EAID_B60DA311_0032_45f3_BA98_1117768DCDA6">
-               <content>
-                  <part>
-                     <item>Definitie</item>
-                     <item/>
-                  </part>
-               </content>
-               <content>
-                  <itemtype type="CODE"/>
-                  <itemtype type="NAME"/>
-                  <itemtype type="DEFINITION"/>
-               </content>
-            </section>
-            <section name="GrindgehalteklasseNEN5104"
-                     type="DETAIL-CODELIST"
-                     id="detail_class_DomeinmodelBROBHRGTBmb_GrindgehalteklasseNEN5104"
-                     id-global="global_class_DomeinmodelBROBHRGTBmb_GrindgehalteklasseNEN5104"
-                     uuid="EAID_F421263F_A989_489f_8616_911B4533358D">
-               <content>
-                  <part>
-                     <item>Definitie</item>
-                     <item/>
+                     <item>TODO</item>
                   </part>
                </content>
                <content>
