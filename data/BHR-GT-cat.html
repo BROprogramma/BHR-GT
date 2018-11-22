@@ -1,10 +1,10 @@
 <h2>Catalogus</h2>
 <p class="note" title="Over deze catalogus">
    Deze catalogus is automatisch samengesteld op basis van het UML model 
-   "Geotechnisch booronderzoek (BHR-GT)" door Imvertor 1.48.0 op November 22, 2018 at 10:36:34.
+   "Geotechnisch booronderzoek (BHR-GT)" door Imvertor 1.48.0 op November 22, 2018 at 10:45:55.
    <br>
    Wanneer je technische fouten of onvolkomenheden aantreft, geef dit dan door aan <i></i> en geef de code 
-   <i>"Conceptualmodel-GeotechnischbooronderzoekBHR-GT-1.0-0-20181008-20181122-113636"</i> door. 
+   <i>"Conceptualmodel-GeotechnischbooronderzoekBHR-GT-1.0-0-20181008-20181122-114557"</i> door. 
    
 </p><a class="anchor" name="global_package_DomeinmodelBROCommon"></a><section id="global_package_DomeinmodelBROCommon">
    <h3>Domein Domeinmodel BRO Common</h3>
@@ -2984,6 +2984,516 @@
                      
                      Terreintoestand
                      [ 0 .. 1 ]
+                     
+                  </td>
+                  <td></td>
+               </tr>
+            </tbody>
+         </table>
+         
+         
+      </section>
+      <a class="anchor" name="graph_EAID_1959FEBB_5856_4d1e_B764_FFE6FFDA36A6"></a><a class="anchor" name="global_class_DomeinmodelBROBHRGTBmb_WeggegravenLaag"></a><section id="global_class_DomeinmodelBROBHRGTBmb_WeggegravenLaag">
+         <h5>Objecttype Weggegraven laag</h5>
+         
+         <table>
+            <colgroup width="30%"></colgroup>
+            <colgroup width="70%"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Naam</th>
+                  <td>Weggegraven laag</td>
+               </tr>
+               <tr>
+                  <th>Herkomst</th>
+                  <td>BRO</td>
+               </tr>
+               <tr>
+                  <th>Definitie</th>
+                  <td>TODO</td>
+               </tr>
+               <tr>
+                  <th>Herkomst definitie</th>
+                  <td>BRO</td>
+               </tr>
+            </tbody>
+         </table>
+         
+         <h6>Overzicht attributen</h6>
+         
+         <table>
+            <colgroup width="30%"></colgroup>
+            <colgroup width="50%"></colgroup>
+            <colgroup width="10%"></colgroup>
+            <colgroup width="10%"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Attribuutnaam</th>
+                  <th>Definitie</th>
+                  <th>Formaat</th>
+                  <th>Card</th>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_DomeinmodelBROBHRGTBmb_WeggegravenLaag_bovengrens">bovengrens</a>
+                     
+                  </td>
+                  <td>TODO</td>
+                  <td>
+                     <a class="link" href="#global_class_DomeinmodelBROCommon_Meetwaarde">Meetwaarde</a>
+                     
+                  </td>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_DomeinmodelBROBHRGTBmb_WeggegravenLaag_ondergrens">ondergrens</a>
+                     
+                  </td>
+                  <td>TODO</td>
+                  <td>
+                     <a class="link" href="#global_class_DomeinmodelBROCommon_Meetwaarde">Meetwaarde</a>
+                     
+                  </td>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_DomeinmodelBROBHRGTBmb_WeggegravenLaag_weggegravenMateriaal">weggegraven materiaal</a>
+                     
+                  </td>
+                  <td>TODO</td>
+                  <td>
+                     <a class="link" href="#global_class_DomeinmodelBROBHRGTBmb_WeggegravenMateriaal">WeggegravenMateriaal</a>
+                     
+                  </td>
+                  <td>1</td>
+               </tr>
+            </tbody>
+         </table>
+         
+         
+         <h6>Overzicht relaties</h6>
+         
+         
+         <table>
+            <colgroup width="50%"></colgroup>
+            <colgroup width="50%"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Rol naam met kardinaliteiten</th>
+                  <th>Definitie</th>
+               </tr>
+               <tr>
+                  <td>
+                     
+                     <a class="link" href="#global_class_DomeinmodelBROBHRGTBmb_Boring">Boring</a>
+                     
+                     [ 1 ]
+                     
+                     <a class="link" href="#detail_association_DomeinmodelBROBHRGTBmb_Boring">heeft</a>
+                     
+                     Weggegraven laag
+                     [ 0 .. * ]
+                     
+                  </td>
+                  <td></td>
+               </tr>
+            </tbody>
+         </table>
+         
+         
+      </section>
+      <a class="anchor" name="graph_EAID_E88AD449_81CD_48ca_908B_0E316D4A9891"></a><a class="anchor" name="global_class_DomeinmodelBROBHRGTBmb_GeboordInterval"></a><section id="global_class_DomeinmodelBROBHRGTBmb_GeboordInterval">
+         <h5>Objecttype Geboord interval</h5>
+         
+         <table>
+            <colgroup width="30%"></colgroup>
+            <colgroup width="70%"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Naam</th>
+                  <td>Geboord interval</td>
+               </tr>
+               <tr>
+                  <th>Herkomst</th>
+                  <td>BRO</td>
+               </tr>
+               <tr>
+                  <th>Definitie</th>
+                  <td>TODO</td>
+               </tr>
+               <tr>
+                  <th>Herkomst definitie</th>
+                  <td>BRO</td>
+               </tr>
+            </tbody>
+         </table>
+         
+         <h6>Overzicht attributen</h6>
+         
+         <table>
+            <colgroup width="30%"></colgroup>
+            <colgroup width="50%"></colgroup>
+            <colgroup width="10%"></colgroup>
+            <colgroup width="10%"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Attribuutnaam</th>
+                  <th>Definitie</th>
+                  <th>Formaat</th>
+                  <th>Card</th>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_DomeinmodelBROBHRGTBmb_GeboordInterval_begindiepte">begindiepte</a>
+                     
+                  </td>
+                  <td>TODO</td>
+                  <td>
+                     <a class="link" href="#global_class_DomeinmodelBROCommon_Meetwaarde">Meetwaarde</a>
+                     
+                  </td>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_DomeinmodelBROBHRGTBmb_GeboordInterval_einddiepte">einddiepte</a>
+                     
+                  </td>
+                  <td>TODO</td>
+                  <td>
+                     <a class="link" href="#global_class_DomeinmodelBROCommon_Meetwaarde">Meetwaarde</a>
+                     
+                  </td>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_DomeinmodelBROBHRGTBmb_GeboordInterval_boortechniek">boortechniek</a>
+                     
+                  </td>
+                  <td>TODO</td>
+                  <td>
+                     <a class="link" href="#global_class_DomeinmodelBROBHRGTBmb_Boortechniek">Boortechniek</a>
+                     
+                  </td>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_DomeinmodelBROBHRGTBmb_GeboordInterval_geboordeDiameter">geboorde diameter</a>
+                     
+                  </td>
+                  <td>TODO</td>
+                  <td>
+                     <a class="link" href="#global_class_DomeinmodelBROCommon_Meetwaarde">Meetwaarde</a>
+                     
+                  </td>
+                  <td>1</td>
+               </tr>
+            </tbody>
+         </table>
+         
+         
+         <h6>Overzicht relaties</h6>
+         
+         
+         <table>
+            <colgroup width="50%"></colgroup>
+            <colgroup width="50%"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Rol naam met kardinaliteiten</th>
+                  <th>Definitie</th>
+               </tr>
+               <tr>
+                  <td>
+                     
+                     <a class="link" href="#global_class_DomeinmodelBROBHRGTBmb_Boring">Boring</a>
+                     
+                     [ 1 ]
+                     
+                     <a class="link" href="#detail_association_DomeinmodelBROBHRGTBmb_Boring">leidt tot</a>
+                     
+                     Geboord interval
+                     [ 1 .. * ]
+                     
+                  </td>
+                  <td></td>
+               </tr>
+            </tbody>
+         </table>
+         
+         
+      </section>
+      <a class="anchor" name="graph_EAID_407DBB60_5226_4b45_AFF3_62AF2503CAD9"></a><a class="anchor" name="global_class_DomeinmodelBROBHRGTBmb_Boorsnelheid"></a><section id="global_class_DomeinmodelBROBHRGTBmb_Boorsnelheid">
+         <h5>Objecttype Boorsnelheid</h5>
+         
+         <table>
+            <colgroup width="30%"></colgroup>
+            <colgroup width="70%"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Naam</th>
+                  <td>Boorsnelheid</td>
+               </tr>
+               <tr>
+                  <th>Herkomst</th>
+                  <td>BRO</td>
+               </tr>
+               <tr>
+                  <th>Definitie</th>
+                  <td>TODO</td>
+               </tr>
+               <tr>
+                  <th>Herkomst definitie</th>
+                  <td>BRO</td>
+               </tr>
+            </tbody>
+         </table>
+         
+         <h6>Overzicht attributen</h6>
+         
+         <table>
+            <colgroup width="30%"></colgroup>
+            <colgroup width="50%"></colgroup>
+            <colgroup width="10%"></colgroup>
+            <colgroup width="10%"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Attribuutnaam</th>
+                  <th>Definitie</th>
+                  <th>Formaat</th>
+                  <th>Card</th>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_DomeinmodelBROBHRGTBmb_Boorsnelheid_verlopenTijd">verlopen tijd</a>
+                     
+                  </td>
+                  <td>TODO</td>
+                  <td>
+                     <a class="link" href="#global_class_DomeinmodelBROCommon_Meetwaarde">Meetwaarde</a>
+                     
+                  </td>
+                  <td>1 .. *</td>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_DomeinmodelBROBHRGTBmb_Boorsnelheid_diepte">diepte</a>
+                     
+                  </td>
+                  <td>TODO</td>
+                  <td>
+                     <a class="link" href="#global_class_DomeinmodelBROCommon_Meetwaarde">Meetwaarde</a>
+                     
+                  </td>
+                  <td>1 .. *</td>
+               </tr>
+            </tbody>
+         </table>
+         
+         
+         <h6>Overzicht relaties</h6>
+         
+         
+         <table>
+            <colgroup width="50%"></colgroup>
+            <colgroup width="50%"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Rol naam met kardinaliteiten</th>
+                  <th>Definitie</th>
+               </tr>
+               <tr>
+                  <td>
+                     
+                     <a class="link" href="#global_class_DomeinmodelBROBHRGTBmb_Boring">Boring</a>
+                     
+                     [ 1 ]
+                     
+                     <a class="link" href="#detail_association_DomeinmodelBROBHRGTBmb_Boring">heeft</a>
+                     
+                     Boorsnelheid
+                     [ 0 .. 1 ]
+                     
+                  </td>
+                  <td></td>
+               </tr>
+            </tbody>
+         </table>
+         
+         
+      </section>
+      <a class="anchor" name="graph_EAID_9C287220_DE38_425c_82A6_BE76C2E236D5"></a><a class="anchor" name="global_class_DomeinmodelBROBHRGTBmb_BemonsterdInterval"></a><section id="global_class_DomeinmodelBROBHRGTBmb_BemonsterdInterval">
+         <h5>Objecttype Bemonsterd interval</h5>
+         
+         <table>
+            <colgroup width="30%"></colgroup>
+            <colgroup width="70%"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Naam</th>
+                  <td>Bemonsterd interval</td>
+               </tr>
+               <tr>
+                  <th>Herkomst</th>
+                  <td>BRO</td>
+               </tr>
+               <tr>
+                  <th>Definitie</th>
+                  <td>TODO</td>
+               </tr>
+               <tr>
+                  <th>Herkomst definitie</th>
+                  <td>BRO</td>
+               </tr>
+            </tbody>
+         </table>
+         
+         <h6>Overzicht attributen</h6>
+         
+         <table>
+            <colgroup width="30%"></colgroup>
+            <colgroup width="50%"></colgroup>
+            <colgroup width="10%"></colgroup>
+            <colgroup width="10%"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Attribuutnaam</th>
+                  <th>Definitie</th>
+                  <th>Formaat</th>
+                  <th>Card</th>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_DomeinmodelBROBHRGTBmb_BemonsterdInterval_begindiepte">begindiepte</a>
+                     
+                  </td>
+                  <td>TODO</td>
+                  <td>
+                     <a class="link" href="#global_class_DomeinmodelBROCommon_Meetwaarde">Meetwaarde</a>
+                     
+                  </td>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_DomeinmodelBROBHRGTBmb_BemonsterdInterval_einddiepte">einddiepte</a>
+                     
+                  </td>
+                  <td>TODO</td>
+                  <td>
+                     <a class="link" href="#global_class_DomeinmodelBROCommon_Meetwaarde">Meetwaarde</a>
+                     
+                  </td>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_DomeinmodelBROBHRGTBmb_BemonsterdInterval_voorbehandeling">voorbehandeling</a>
+                     
+                  </td>
+                  <td>TODO</td>
+                  <td>
+                     <a class="link" href="#global_class_DomeinmodelBROBHRGTBmb_Voorbehandeling">Voorbehandeling</a>
+                     
+                  </td>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_DomeinmodelBROBHRGTBmb_BemonsterdInterval_bemonsteringsmethode">bemonsteringsmethode</a>
+                     
+                  </td>
+                  <td>TODO</td>
+                  <td>
+                     <a class="link" href="#global_class_DomeinmodelBROBHRGTBmb_Bemonsteringsmethode">Bemonsteringsmethode</a>
+                     
+                  </td>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_DomeinmodelBROBHRGTBmb_BemonsterdInterval_bemonsteringskwaliteit">bemonsteringskwaliteit</a>
+                     
+                  </td>
+                  <td>TODO</td>
+                  <td>
+                     <a class="link" href="#global_class_DomeinmodelBROBHRGTBmb_Bemonsteringskwaliteit">Bemonsteringskwaliteit</a>
+                     
+                  </td>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_DomeinmodelBROBHRGTBmb_BemonsterdInterval_georienteerdGestoken">georienteerd gestoken</a>
+                     
+                  </td>
+                  <td>TODO</td>
+                  <td>
+                     <a class="link" href="#global_class_DomeinmodelBROCommon_IndicatieJaNee">IndicatieJaNee</a>
+                     
+                  </td>
+                  <td>0 .. 1</td>
+               </tr>
+            </tbody>
+         </table>
+         
+         
+         <h6>Overzicht relaties</h6>
+         
+         
+         <table>
+            <colgroup width="50%"></colgroup>
+            <colgroup width="50%"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Rol naam met kardinaliteiten</th>
+                  <th>Definitie</th>
+               </tr>
+               <tr>
+                  <td>
+                     Bemonsterd interval
+                     [ 1 ]
+                     
+                     <a class="link" href="#detail_association_DomeinmodelBROBHRGTBmb_BemonsterdInterval">bemonsterd met</a>
+                     
+                     
+                     <a class="link" href="#global_class_DomeinmodelBROBHRGTBmb_Bemonsteringsapparaat">Bemonsteringsapparaat</a>
+                     
+                     [ 0 .. 1 ]
+                     
+                  </td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td>
+                     Bemonsterd interval
+                     [ 1 ]
+                     
+                     <a class="link" href="#detail_association_DomeinmodelBROBHRGTBmb_BemonsterdInterval">heeft</a>
+                     
+                     
+                     <a class="link" href="#global_class_DomeinmodelBROBHRGTBmb_Kernopbrengst">Kernopbrengst</a>
+                     
+                     [ 0 .. 1 ]
+                     
+                  </td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td>
+                     
+                     <a class="link" href="#global_class_DomeinmodelBROBHRGTBmb_Boring">Boring</a>
+                     
+                     [ 1 ]
+                     
+                     <a class="link" href="#detail_association_DomeinmodelBROBHRGTBmb_Boring">heeft</a>
+                     
+                     Bemonsterd interval
+                     [ 1 .. * ]
                      
                   </td>
                   <td></td>
@@ -6211,6 +6721,10 @@
                      <td>heeft</td>
                   </tr>
                   <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
                      <th>Indicatie kardinaliteit</th>
                      <td>0 .. *</td>
                   </tr>
@@ -6235,6 +6749,10 @@
                   <tr>
                      <th>Naam</th>
                      <td>heeft</td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
                   </tr>
                   <tr>
                      <th>Indicatie kardinaliteit</th>
@@ -6263,6 +6781,10 @@
                      <td>leidt tot</td>
                   </tr>
                   <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
                      <th>Indicatie kardinaliteit</th>
                      <td>1 .. *</td>
                   </tr>
@@ -6287,6 +6809,10 @@
                   <tr>
                      <th>Naam</th>
                      <td>heeft</td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
                   </tr>
                   <tr>
                      <th>Indicatie kardinaliteit</th>
@@ -7030,6 +7556,944 @@
                   <tr>
                      <th>Indicatie afleidbaar</th>
                      <td>Nee</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+         
+      </section>
+      <a class="anchor" name="detail_class_DomeinmodelBROBHRGTBmb_WeggegravenLaag"></a><section id="detail_class_DomeinmodelBROBHRGTBmb_WeggegravenLaag">
+         <h6>Objecttype Weggegraven laag</h6>
+         <a class="anchor" name="detail_attribute_DomeinmodelBROBHRGTBmb_WeggegravenLaag_bovengrens"></a><section id="detail_attribute_DomeinmodelBROBHRGTBmb_WeggegravenLaag_bovengrens"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROBHRGTBmb_WeggegravenLaag">Weggegraven laag</a> bovengrens</strong>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>bovengrens</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>TODO</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie authentiek</th>
+                     <td>Authentiek</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>Meetwaarde</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Meeteenheid</th>
+                     <td>BRO</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+         <a class="anchor" name="detail_attribute_DomeinmodelBROBHRGTBmb_WeggegravenLaag_ondergrens"></a><section id="detail_attribute_DomeinmodelBROBHRGTBmb_WeggegravenLaag_ondergrens"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROBHRGTBmb_WeggegravenLaag">Weggegraven laag</a> ondergrens</strong>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>ondergrens</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>TODO</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie authentiek</th>
+                     <td>Authentiek</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>Meetwaarde</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Meeteenheid</th>
+                     <td>BRO</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+         <a class="anchor" name="detail_attribute_DomeinmodelBROBHRGTBmb_WeggegravenLaag_weggegravenMateriaal"></a><section id="detail_attribute_DomeinmodelBROBHRGTBmb_WeggegravenLaag_weggegravenMateriaal"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROBHRGTBmb_WeggegravenLaag">Weggegraven laag</a> weggegraven materiaal</strong>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>weggegraven materiaal</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>TODO</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie authentiek</th>
+                     <td>Authentiek</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>WeggegravenMateriaal</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Meeteenheid</th>
+                     <td>BRO</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+         
+      </section>
+      <a class="anchor" name="detail_class_DomeinmodelBROBHRGTBmb_GeboordInterval"></a><section id="detail_class_DomeinmodelBROBHRGTBmb_GeboordInterval">
+         <h6>Objecttype Geboord interval</h6>
+         <a class="anchor" name="detail_attribute_DomeinmodelBROBHRGTBmb_GeboordInterval_begindiepte"></a><section id="detail_attribute_DomeinmodelBROBHRGTBmb_GeboordInterval_begindiepte"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROBHRGTBmb_GeboordInterval">Geboord interval</a> begindiepte</strong>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>begindiepte</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>TODO</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie authentiek</th>
+                     <td>Authentiek</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>Meetwaarde</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Meeteenheid</th>
+                     <td>BRO</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+         <a class="anchor" name="detail_attribute_DomeinmodelBROBHRGTBmb_GeboordInterval_einddiepte"></a><section id="detail_attribute_DomeinmodelBROBHRGTBmb_GeboordInterval_einddiepte"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROBHRGTBmb_GeboordInterval">Geboord interval</a> einddiepte</strong>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>einddiepte</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>TODO</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie authentiek</th>
+                     <td>Authentiek</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>Meetwaarde</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Meeteenheid</th>
+                     <td>BRO</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+         <a class="anchor" name="detail_attribute_DomeinmodelBROBHRGTBmb_GeboordInterval_boortechniek"></a><section id="detail_attribute_DomeinmodelBROBHRGTBmb_GeboordInterval_boortechniek"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROBHRGTBmb_GeboordInterval">Geboord interval</a> boortechniek</strong>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>boortechniek</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>TODO</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie authentiek</th>
+                     <td>Authentiek</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>Boortechniek</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Meeteenheid</th>
+                     <td>BRO</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+         <a class="anchor" name="detail_attribute_DomeinmodelBROBHRGTBmb_GeboordInterval_geboordeDiameter"></a><section id="detail_attribute_DomeinmodelBROBHRGTBmb_GeboordInterval_geboordeDiameter"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROBHRGTBmb_GeboordInterval">Geboord interval</a> geboorde diameter</strong>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>geboorde diameter</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>TODO</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie authentiek</th>
+                     <td>Authentiek</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>Meetwaarde</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Meeteenheid</th>
+                     <td>BRO</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+         
+      </section>
+      <a class="anchor" name="detail_class_DomeinmodelBROBHRGTBmb_Boorsnelheid"></a><section id="detail_class_DomeinmodelBROBHRGTBmb_Boorsnelheid">
+         <h6>Objecttype Boorsnelheid</h6>
+         <a class="anchor" name="detail_attribute_DomeinmodelBROBHRGTBmb_Boorsnelheid_verlopenTijd"></a><section id="detail_attribute_DomeinmodelBROBHRGTBmb_Boorsnelheid_verlopenTijd"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROBHRGTBmb_Boorsnelheid">Boorsnelheid</a> verlopen tijd</strong>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>verlopen tijd</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>TODO</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>1 .. *</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie authentiek</th>
+                     <td>Authentiek</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>Meetwaarde</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Meeteenheid</th>
+                     <td>BRO</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+         <a class="anchor" name="detail_attribute_DomeinmodelBROBHRGTBmb_Boorsnelheid_diepte"></a><section id="detail_attribute_DomeinmodelBROBHRGTBmb_Boorsnelheid_diepte"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROBHRGTBmb_Boorsnelheid">Boorsnelheid</a> diepte</strong>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>diepte</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>TODO</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>1 .. *</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie authentiek</th>
+                     <td>Authentiek</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>Meetwaarde</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Meeteenheid</th>
+                     <td>BRO</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+         
+      </section>
+      <a class="anchor" name="detail_class_DomeinmodelBROBHRGTBmb_BemonsterdInterval"></a><section id="detail_class_DomeinmodelBROBHRGTBmb_BemonsterdInterval">
+         <h6>Objecttype Bemonsterd interval</h6>
+         <a class="anchor" name="detail_attribute_DomeinmodelBROBHRGTBmb_BemonsterdInterval_begindiepte"></a><section id="detail_attribute_DomeinmodelBROBHRGTBmb_BemonsterdInterval_begindiepte"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROBHRGTBmb_BemonsterdInterval">Bemonsterd interval</a> begindiepte</strong>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>begindiepte</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>TODO</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie authentiek</th>
+                     <td>Authentiek</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>Meetwaarde</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Meeteenheid</th>
+                     <td>BRO</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+         <a class="anchor" name="detail_attribute_DomeinmodelBROBHRGTBmb_BemonsterdInterval_einddiepte"></a><section id="detail_attribute_DomeinmodelBROBHRGTBmb_BemonsterdInterval_einddiepte"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROBHRGTBmb_BemonsterdInterval">Bemonsterd interval</a> einddiepte</strong>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>einddiepte</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>TODO</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie authentiek</th>
+                     <td>Authentiek</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>Meetwaarde</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Meeteenheid</th>
+                     <td>BRO</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+         <a class="anchor" name="detail_attribute_DomeinmodelBROBHRGTBmb_BemonsterdInterval_voorbehandeling"></a><section id="detail_attribute_DomeinmodelBROBHRGTBmb_BemonsterdInterval_voorbehandeling"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROBHRGTBmb_BemonsterdInterval">Bemonsterd interval</a> voorbehandeling</strong>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>voorbehandeling</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>TODO</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie authentiek</th>
+                     <td>Authentiek</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>Voorbehandeling</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Meeteenheid</th>
+                     <td>BRO</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+         <a class="anchor" name="detail_attribute_DomeinmodelBROBHRGTBmb_BemonsterdInterval_bemonsteringsmethode"></a><section id="detail_attribute_DomeinmodelBROBHRGTBmb_BemonsterdInterval_bemonsteringsmethode"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROBHRGTBmb_BemonsterdInterval">Bemonsterd interval</a> bemonsteringsmethode</strong>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>bemonsteringsmethode</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>TODO</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie authentiek</th>
+                     <td>Authentiek</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>Bemonsteringsmethode</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Meeteenheid</th>
+                     <td>BRO</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+         <a class="anchor" name="detail_attribute_DomeinmodelBROBHRGTBmb_BemonsterdInterval_bemonsteringskwaliteit"></a><section id="detail_attribute_DomeinmodelBROBHRGTBmb_BemonsterdInterval_bemonsteringskwaliteit"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROBHRGTBmb_BemonsterdInterval">Bemonsterd interval</a> bemonsteringskwaliteit</strong>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>bemonsteringskwaliteit</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>TODO</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie authentiek</th>
+                     <td>Authentiek</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>Bemonsteringskwaliteit</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Meeteenheid</th>
+                     <td>BRO</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+         <a class="anchor" name="detail_attribute_DomeinmodelBROBHRGTBmb_BemonsterdInterval_georienteerdGestoken"></a><section id="detail_attribute_DomeinmodelBROBHRGTBmb_BemonsterdInterval_georienteerdGestoken"><strong>Attribuutsoort details <a href="#global_class_DomeinmodelBROBHRGTBmb_BemonsterdInterval">Bemonsterd interval</a> georienteerd gestoken</strong>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>georienteerd gestoken</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>TODO</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>BRO</td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>0 .. 1</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie authentiek</th>
+                     <td>Authentiek</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>IndicatieJaNee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Meeteenheid</th>
+                     <td>BRO</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+         <a class="anchor" name="detail_association_DomeinmodelBROBHRGTBmb_BemonsterdInterval"></a><section id="detail_association_DomeinmodelBROBHRGTBmb_BemonsterdInterval"><strong>Relatiesoort details <a href="#global_class_DomeinmodelBROBHRGTBmb_BemonsterdInterval">Bemonsterd interval</a> bemonsterd met</strong>
+            
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>bemonsterd met</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>0 .. 1</td>
+                  </tr>
+                  <tr>
+                     <th>Gerelateerd objecttype</th>
+                     <td>
+                        <a class="link" href="#global_class_DomeinmodelBROBHRGTBmb_Bemonsteringsapparaat">Bemonsteringsapparaat</a>
+                        
+                     </td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+         <a class="anchor" name="detail_association_DomeinmodelBROBHRGTBmb_BemonsterdInterval"></a><section id="detail_association_DomeinmodelBROBHRGTBmb_BemonsterdInterval"><strong>Relatiesoort details <a href="#global_class_DomeinmodelBROBHRGTBmb_BemonsterdInterval">Bemonsterd interval</a> heeft</strong>
+            
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>heeft</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>0 .. 1</td>
+                  </tr>
+                  <tr>
+                     <th>Gerelateerd objecttype</th>
+                     <td>
+                        <a class="link" href="#global_class_DomeinmodelBROBHRGTBmb_Kernopbrengst">Kernopbrengst</a>
+                        
+                     </td>
                   </tr>
                </tbody>
             </table>

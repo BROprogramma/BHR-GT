@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_4532D2FB_BE47_4dc9_BBAD_0F65D43D52FB"
       generator-version="1.48.0"
-      generator-date="2018-11-22T10:36:34Z">
+      generator-date="2018-11-22T10:45:55Z">
    <section type="DOMAIN"
             name="Domeinmodel BRO Common"
             id="global_package_DomeinmodelBROCommon"><!--removed empty content-->
@@ -2760,6 +2760,525 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         </item>
                         <item>Terreintoestand</item>
                         <item>[ 0 .. 1 ]</item>
+                     </item>
+                     <item/>
+                  </part>
+               </content>
+            </section>
+         </section>
+         <section name="Weggegraven laag"
+                  type="OBJECTTYPE"
+                  id="global_class_DomeinmodelBROBHRGTBmb_WeggegravenLaag"
+                  uuid="EAID_1959FEBB_5856_4d1e_B764_FFE6FFDA36A6">
+            <content>
+               <part type="CFG-DOC-NAAM">
+                  <item>Naam</item>
+                  <item>Weggegraven laag</item>
+               </part>
+               <part type="CFG-DOC-HERKOMST">
+                  <item>Herkomst</item>
+                  <item>BRO</item>
+               </part>
+               <part type="CFG-DOC-DEFINITIE">
+                  <item>Definitie</item>
+                  <item>TODO</item>
+               </part>
+               <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                  <item>Herkomst definitie</item>
+                  <item>BRO</item>
+               </part>
+            </content>
+            <section type="SHORT-ATTRIBUTES">
+               <content>
+                  <itemtype/>
+                  <itemtype type="ATTRIBUTE-NAME"/>
+                  <itemtype type="ATTRIBUTE-DEFINITION"/>
+                  <itemtype type="ATTRIBUTE-FORMAT"/>
+                  <itemtype type="ATTRIBUTE-CARD"/>
+                  <part>
+                     <item>
+                        <item type="detail"
+                              idref="detail_attribute_DomeinmodelBROBHRGTBmb_WeggegravenLaag_bovengrens">bovengrens</item>
+                     </item>
+                     <item>TODO</item>
+                     <item>
+                        <item type="global" idref="global_class_DomeinmodelBROCommon_Meetwaarde">Meetwaarde</item>
+                     </item>
+                     <item>1</item>
+                  </part>
+                  <part>
+                     <item>
+                        <item type="detail"
+                              idref="detail_attribute_DomeinmodelBROBHRGTBmb_WeggegravenLaag_ondergrens">ondergrens</item>
+                     </item>
+                     <item>TODO</item>
+                     <item>
+                        <item type="global" idref="global_class_DomeinmodelBROCommon_Meetwaarde">Meetwaarde</item>
+                     </item>
+                     <item>1</item>
+                  </part>
+                  <part>
+                     <item>
+                        <item type="detail"
+                              idref="detail_attribute_DomeinmodelBROBHRGTBmb_WeggegravenLaag_weggegravenMateriaal">weggegraven materiaal</item>
+                     </item>
+                     <item>TODO</item>
+                     <item>
+                        <item type="global"
+                              idref="global_class_DomeinmodelBROBHRGTBmb_WeggegravenMateriaal">WeggegravenMateriaal</item>
+                     </item>
+                     <item>1</item>
+                  </part>
+               </content>
+            </section>
+            <section type="SHORT-ASSOCIATIONS">
+               <content approach="association">
+                  <itemtype/>
+                  <itemtype type="ASSOCIATION-NAME"/>
+                  <itemtype type="ASSOCIATION-DEFINITION"/>
+                  <part>
+                     <item>
+                        <item>
+                           <item type="global" idref="global_class_DomeinmodelBROBHRGTBmb_Boring">Boring</item>
+                        </item>
+                        <item>[ 1 ]</item>
+                        <item>
+                           <item type="detail" idref="detail_association_DomeinmodelBROBHRGTBmb_Boring">heeft</item>
+                        </item>
+                        <item>Weggegraven laag</item>
+                        <item>[ 0 .. * ]</item>
+                     </item>
+                     <item/>
+                  </part>
+               </content>
+               <content approach="target">
+                  <itemtype/>
+                  <itemtype type="ROLE-NAME"/>
+                  <itemtype type="ROLE-DEFINITION"/>
+                  <part>
+                     <item>
+                        <item>
+                           <item type="global" idref="global_class_DomeinmodelBROBHRGTBmb_Boring">Boring</item>
+                        </item>
+                        <item>[ 1 ]</item>
+                        <item>
+                           <item type="detail" idref="detail_association_DomeinmodelBROBHRGTBmb_Boring">heeft</item>
+                        </item>
+                        <item>Weggegraven laag</item>
+                        <item>[ 0 .. * ]</item>
+                     </item>
+                     <item/>
+                  </part>
+               </content>
+            </section>
+         </section>
+         <section name="Geboord interval"
+                  type="OBJECTTYPE"
+                  id="global_class_DomeinmodelBROBHRGTBmb_GeboordInterval"
+                  uuid="EAID_E88AD449_81CD_48ca_908B_0E316D4A9891">
+            <content>
+               <part type="CFG-DOC-NAAM">
+                  <item>Naam</item>
+                  <item>Geboord interval</item>
+               </part>
+               <part type="CFG-DOC-HERKOMST">
+                  <item>Herkomst</item>
+                  <item>BRO</item>
+               </part>
+               <part type="CFG-DOC-DEFINITIE">
+                  <item>Definitie</item>
+                  <item>TODO</item>
+               </part>
+               <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                  <item>Herkomst definitie</item>
+                  <item>BRO</item>
+               </part>
+            </content>
+            <section type="SHORT-ATTRIBUTES">
+               <content>
+                  <itemtype/>
+                  <itemtype type="ATTRIBUTE-NAME"/>
+                  <itemtype type="ATTRIBUTE-DEFINITION"/>
+                  <itemtype type="ATTRIBUTE-FORMAT"/>
+                  <itemtype type="ATTRIBUTE-CARD"/>
+                  <part>
+                     <item>
+                        <item type="detail"
+                              idref="detail_attribute_DomeinmodelBROBHRGTBmb_GeboordInterval_begindiepte">begindiepte</item>
+                     </item>
+                     <item>TODO</item>
+                     <item>
+                        <item type="global" idref="global_class_DomeinmodelBROCommon_Meetwaarde">Meetwaarde</item>
+                     </item>
+                     <item>1</item>
+                  </part>
+                  <part>
+                     <item>
+                        <item type="detail"
+                              idref="detail_attribute_DomeinmodelBROBHRGTBmb_GeboordInterval_einddiepte">einddiepte</item>
+                     </item>
+                     <item>TODO</item>
+                     <item>
+                        <item type="global" idref="global_class_DomeinmodelBROCommon_Meetwaarde">Meetwaarde</item>
+                     </item>
+                     <item>1</item>
+                  </part>
+                  <part>
+                     <item>
+                        <item type="detail"
+                              idref="detail_attribute_DomeinmodelBROBHRGTBmb_GeboordInterval_boortechniek">boortechniek</item>
+                     </item>
+                     <item>TODO</item>
+                     <item>
+                        <item type="global" idref="global_class_DomeinmodelBROBHRGTBmb_Boortechniek">Boortechniek</item>
+                     </item>
+                     <item>1</item>
+                  </part>
+                  <part>
+                     <item>
+                        <item type="detail"
+                              idref="detail_attribute_DomeinmodelBROBHRGTBmb_GeboordInterval_geboordeDiameter">geboorde diameter</item>
+                     </item>
+                     <item>TODO</item>
+                     <item>
+                        <item type="global" idref="global_class_DomeinmodelBROCommon_Meetwaarde">Meetwaarde</item>
+                     </item>
+                     <item>1</item>
+                  </part>
+               </content>
+            </section>
+            <section type="SHORT-ASSOCIATIONS">
+               <content approach="association">
+                  <itemtype/>
+                  <itemtype type="ASSOCIATION-NAME"/>
+                  <itemtype type="ASSOCIATION-DEFINITION"/>
+                  <part>
+                     <item>
+                        <item>
+                           <item type="global" idref="global_class_DomeinmodelBROBHRGTBmb_Boring">Boring</item>
+                        </item>
+                        <item>[ 1 ]</item>
+                        <item>
+                           <item type="detail" idref="detail_association_DomeinmodelBROBHRGTBmb_Boring">leidt tot</item>
+                        </item>
+                        <item>Geboord interval</item>
+                        <item>[ 1 .. * ]</item>
+                     </item>
+                     <item/>
+                  </part>
+               </content>
+               <content approach="target">
+                  <itemtype/>
+                  <itemtype type="ROLE-NAME"/>
+                  <itemtype type="ROLE-DEFINITION"/>
+                  <part>
+                     <item>
+                        <item>
+                           <item type="global" idref="global_class_DomeinmodelBROBHRGTBmb_Boring">Boring</item>
+                        </item>
+                        <item>[ 1 ]</item>
+                        <item>
+                           <item type="detail" idref="detail_association_DomeinmodelBROBHRGTBmb_Boring">leidt tot</item>
+                        </item>
+                        <item>Geboord interval</item>
+                        <item>[ 1 .. * ]</item>
+                     </item>
+                     <item/>
+                  </part>
+               </content>
+            </section>
+         </section>
+         <section name="Boorsnelheid"
+                  type="OBJECTTYPE"
+                  id="global_class_DomeinmodelBROBHRGTBmb_Boorsnelheid"
+                  uuid="EAID_407DBB60_5226_4b45_AFF3_62AF2503CAD9">
+            <content>
+               <part type="CFG-DOC-NAAM">
+                  <item>Naam</item>
+                  <item>Boorsnelheid</item>
+               </part>
+               <part type="CFG-DOC-HERKOMST">
+                  <item>Herkomst</item>
+                  <item>BRO</item>
+               </part>
+               <part type="CFG-DOC-DEFINITIE">
+                  <item>Definitie</item>
+                  <item>TODO</item>
+               </part>
+               <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                  <item>Herkomst definitie</item>
+                  <item>BRO</item>
+               </part>
+            </content>
+            <section type="SHORT-ATTRIBUTES">
+               <content>
+                  <itemtype/>
+                  <itemtype type="ATTRIBUTE-NAME"/>
+                  <itemtype type="ATTRIBUTE-DEFINITION"/>
+                  <itemtype type="ATTRIBUTE-FORMAT"/>
+                  <itemtype type="ATTRIBUTE-CARD"/>
+                  <part>
+                     <item>
+                        <item type="detail"
+                              idref="detail_attribute_DomeinmodelBROBHRGTBmb_Boorsnelheid_verlopenTijd">verlopen tijd</item>
+                     </item>
+                     <item>TODO</item>
+                     <item>
+                        <item type="global" idref="global_class_DomeinmodelBROCommon_Meetwaarde">Meetwaarde</item>
+                     </item>
+                     <item>1 .. *</item>
+                  </part>
+                  <part>
+                     <item>
+                        <item type="detail"
+                              idref="detail_attribute_DomeinmodelBROBHRGTBmb_Boorsnelheid_diepte">diepte</item>
+                     </item>
+                     <item>TODO</item>
+                     <item>
+                        <item type="global" idref="global_class_DomeinmodelBROCommon_Meetwaarde">Meetwaarde</item>
+                     </item>
+                     <item>1 .. *</item>
+                  </part>
+               </content>
+            </section>
+            <section type="SHORT-ASSOCIATIONS">
+               <content approach="association">
+                  <itemtype/>
+                  <itemtype type="ASSOCIATION-NAME"/>
+                  <itemtype type="ASSOCIATION-DEFINITION"/>
+                  <part>
+                     <item>
+                        <item>
+                           <item type="global" idref="global_class_DomeinmodelBROBHRGTBmb_Boring">Boring</item>
+                        </item>
+                        <item>[ 1 ]</item>
+                        <item>
+                           <item type="detail" idref="detail_association_DomeinmodelBROBHRGTBmb_Boring">heeft</item>
+                        </item>
+                        <item>Boorsnelheid</item>
+                        <item>[ 0 .. 1 ]</item>
+                     </item>
+                     <item/>
+                  </part>
+               </content>
+               <content approach="target">
+                  <itemtype/>
+                  <itemtype type="ROLE-NAME"/>
+                  <itemtype type="ROLE-DEFINITION"/>
+                  <part>
+                     <item>
+                        <item>
+                           <item type="global" idref="global_class_DomeinmodelBROBHRGTBmb_Boring">Boring</item>
+                        </item>
+                        <item>[ 1 ]</item>
+                        <item>
+                           <item type="detail" idref="detail_association_DomeinmodelBROBHRGTBmb_Boring">heeft</item>
+                        </item>
+                        <item>Boorsnelheid</item>
+                        <item>[ 0 .. 1 ]</item>
+                     </item>
+                     <item/>
+                  </part>
+               </content>
+            </section>
+         </section>
+         <section name="Bemonsterd interval"
+                  type="OBJECTTYPE"
+                  id="global_class_DomeinmodelBROBHRGTBmb_BemonsterdInterval"
+                  uuid="EAID_9C287220_DE38_425c_82A6_BE76C2E236D5">
+            <content>
+               <part type="CFG-DOC-NAAM">
+                  <item>Naam</item>
+                  <item>Bemonsterd interval</item>
+               </part>
+               <part type="CFG-DOC-HERKOMST">
+                  <item>Herkomst</item>
+                  <item>BRO</item>
+               </part>
+               <part type="CFG-DOC-DEFINITIE">
+                  <item>Definitie</item>
+                  <item>TODO</item>
+               </part>
+               <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                  <item>Herkomst definitie</item>
+                  <item>BRO</item>
+               </part>
+            </content>
+            <section type="SHORT-ATTRIBUTES">
+               <content>
+                  <itemtype/>
+                  <itemtype type="ATTRIBUTE-NAME"/>
+                  <itemtype type="ATTRIBUTE-DEFINITION"/>
+                  <itemtype type="ATTRIBUTE-FORMAT"/>
+                  <itemtype type="ATTRIBUTE-CARD"/>
+                  <part>
+                     <item>
+                        <item type="detail"
+                              idref="detail_attribute_DomeinmodelBROBHRGTBmb_BemonsterdInterval_begindiepte">begindiepte</item>
+                     </item>
+                     <item>TODO</item>
+                     <item>
+                        <item type="global" idref="global_class_DomeinmodelBROCommon_Meetwaarde">Meetwaarde</item>
+                     </item>
+                     <item>1</item>
+                  </part>
+                  <part>
+                     <item>
+                        <item type="detail"
+                              idref="detail_attribute_DomeinmodelBROBHRGTBmb_BemonsterdInterval_einddiepte">einddiepte</item>
+                     </item>
+                     <item>TODO</item>
+                     <item>
+                        <item type="global" idref="global_class_DomeinmodelBROCommon_Meetwaarde">Meetwaarde</item>
+                     </item>
+                     <item>1</item>
+                  </part>
+                  <part>
+                     <item>
+                        <item type="detail"
+                              idref="detail_attribute_DomeinmodelBROBHRGTBmb_BemonsterdInterval_voorbehandeling">voorbehandeling</item>
+                     </item>
+                     <item>TODO</item>
+                     <item>
+                        <item type="global"
+                              idref="global_class_DomeinmodelBROBHRGTBmb_Voorbehandeling">Voorbehandeling</item>
+                     </item>
+                     <item>1</item>
+                  </part>
+                  <part>
+                     <item>
+                        <item type="detail"
+                              idref="detail_attribute_DomeinmodelBROBHRGTBmb_BemonsterdInterval_bemonsteringsmethode">bemonsteringsmethode</item>
+                     </item>
+                     <item>TODO</item>
+                     <item>
+                        <item type="global"
+                              idref="global_class_DomeinmodelBROBHRGTBmb_Bemonsteringsmethode">Bemonsteringsmethode</item>
+                     </item>
+                     <item>1</item>
+                  </part>
+                  <part>
+                     <item>
+                        <item type="detail"
+                              idref="detail_attribute_DomeinmodelBROBHRGTBmb_BemonsterdInterval_bemonsteringskwaliteit">bemonsteringskwaliteit</item>
+                     </item>
+                     <item>TODO</item>
+                     <item>
+                        <item type="global"
+                              idref="global_class_DomeinmodelBROBHRGTBmb_Bemonsteringskwaliteit">Bemonsteringskwaliteit</item>
+                     </item>
+                     <item>1</item>
+                  </part>
+                  <part>
+                     <item>
+                        <item type="detail"
+                              idref="detail_attribute_DomeinmodelBROBHRGTBmb_BemonsterdInterval_georienteerdGestoken">georienteerd gestoken</item>
+                     </item>
+                     <item>TODO</item>
+                     <item>
+                        <item type="global" idref="global_class_DomeinmodelBROCommon_IndicatieJaNee">IndicatieJaNee</item>
+                     </item>
+                     <item>0 .. 1</item>
+                  </part>
+               </content>
+            </section>
+            <section type="SHORT-ASSOCIATIONS">
+               <content approach="association">
+                  <itemtype/>
+                  <itemtype type="ASSOCIATION-NAME"/>
+                  <itemtype type="ASSOCIATION-DEFINITION"/>
+                  <part>
+                     <item>
+                        <item>Bemonsterd interval</item>
+                        <item>[ 1 ]</item>
+                        <item>
+                           <item type="detail"
+                                 idref="detail_association_DomeinmodelBROBHRGTBmb_BemonsterdInterval">bemonsterd met</item>
+                        </item>
+                        <item>
+                           <item type="global"
+                                 idref="global_class_DomeinmodelBROBHRGTBmb_Bemonsteringsapparaat">Bemonsteringsapparaat</item>
+                        </item>
+                        <item>[ 0 .. 1 ]</item>
+                     </item>
+                     <item/>
+                  </part>
+                  <part>
+                     <item>
+                        <item>Bemonsterd interval</item>
+                        <item>[ 1 ]</item>
+                        <item>
+                           <item type="detail"
+                                 idref="detail_association_DomeinmodelBROBHRGTBmb_BemonsterdInterval">heeft</item>
+                        </item>
+                        <item>
+                           <item type="global" idref="global_class_DomeinmodelBROBHRGTBmb_Kernopbrengst">Kernopbrengst</item>
+                        </item>
+                        <item>[ 0 .. 1 ]</item>
+                     </item>
+                     <item/>
+                  </part>
+                  <part>
+                     <item>
+                        <item>
+                           <item type="global" idref="global_class_DomeinmodelBROBHRGTBmb_Boring">Boring</item>
+                        </item>
+                        <item>[ 1 ]</item>
+                        <item>
+                           <item type="detail" idref="detail_association_DomeinmodelBROBHRGTBmb_Boring">heeft</item>
+                        </item>
+                        <item>Bemonsterd interval</item>
+                        <item>[ 1 .. * ]</item>
+                     </item>
+                     <item/>
+                  </part>
+               </content>
+               <content approach="target">
+                  <itemtype/>
+                  <itemtype type="ROLE-NAME"/>
+                  <itemtype type="ROLE-DEFINITION"/>
+                  <part>
+                     <item>
+                        <item>Bemonsterd interval</item>
+                        <item>[ 1 ]</item>
+                        <item>
+                           <item type="detail"
+                                 idref="detail_association_DomeinmodelBROBHRGTBmb_BemonsterdInterval">bemonsterd met</item>
+                        </item>
+                        <item>
+                           <item type="global"
+                                 idref="global_class_DomeinmodelBROBHRGTBmb_Bemonsteringsapparaat">Bemonsteringsapparaat</item>
+                        </item>
+                        <item>[ 0 .. 1 ]</item>
+                     </item>
+                     <item/>
+                  </part>
+                  <part>
+                     <item>
+                        <item>Bemonsterd interval</item>
+                        <item>[ 1 ]</item>
+                        <item>
+                           <item type="detail"
+                                 idref="detail_association_DomeinmodelBROBHRGTBmb_BemonsterdInterval">heeft</item>
+                        </item>
+                        <item>
+                           <item type="global" idref="global_class_DomeinmodelBROBHRGTBmb_Kernopbrengst">Kernopbrengst</item>
+                        </item>
+                        <item>[ 0 .. 1 ]</item>
+                     </item>
+                     <item/>
+                  </part>
+                  <part>
+                     <item>
+                        <item>
+                           <item type="global" idref="global_class_DomeinmodelBROBHRGTBmb_Boring">Boring</item>
+                        </item>
+                        <item>[ 1 ]</item>
+                        <item>
+                           <item type="detail" idref="detail_association_DomeinmodelBROBHRGTBmb_Boring">heeft</item>
+                        </item>
+                        <item>Bemonsterd interval</item>
+                        <item>[ 1 .. * ]</item>
                      </item>
                      <item/>
                   </part>
@@ -6012,6 +6531,10 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>Naam</item>
                         <item>heeft</item>
                      </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
                         <item>0 .. *</item>
@@ -6050,6 +6573,10 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
                         <item>heeft</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
@@ -6090,6 +6617,10 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>Naam</item>
                         <item>leidt tot</item>
                      </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
                         <item>1 .. *</item>
@@ -6127,6 +6658,10 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
                         <item>heeft</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
@@ -6854,6 +7389,927 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
                         <item>Nee</item>
+                     </part>
+                  </content>
+               </section>
+            </section>
+            <section name="Weggegraven laag"
+                     type="OBJECTTYPE"
+                     id="detail_class_DomeinmodelBROBHRGTBmb_WeggegravenLaag"
+                     id-global="global_class_DomeinmodelBROBHRGTBmb_WeggegravenLaag">
+               <section name="bovengrens"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_DomeinmodelBROBHRGTBmb_WeggegravenLaag_bovengrens"
+                        id-global="global_attribute_DomeinmodelBROBHRGTBmb_WeggegravenLaag_bovengrens">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>bovengrens</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>TODO</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Authentiek</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>Meetwaarde</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-UNITOFMEASURE">
+                        <item>Meeteenheid</item>
+                        <item>BRO</item>
+                     </part>
+                  </content>
+               </section>
+               <section name="ondergrens"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_DomeinmodelBROBHRGTBmb_WeggegravenLaag_ondergrens"
+                        id-global="global_attribute_DomeinmodelBROBHRGTBmb_WeggegravenLaag_ondergrens">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>ondergrens</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>TODO</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Authentiek</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>Meetwaarde</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-UNITOFMEASURE">
+                        <item>Meeteenheid</item>
+                        <item>BRO</item>
+                     </part>
+                  </content>
+               </section>
+               <section name="weggegraven materiaal"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_DomeinmodelBROBHRGTBmb_WeggegravenLaag_weggegravenMateriaal"
+                        id-global="global_attribute_DomeinmodelBROBHRGTBmb_WeggegravenLaag_weggegravenMateriaal">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>weggegraven materiaal</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>TODO</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Authentiek</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>WeggegravenMateriaal</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-UNITOFMEASURE">
+                        <item>Meeteenheid</item>
+                        <item>BRO</item>
+                     </part>
+                  </content>
+               </section>
+            </section>
+            <section name="Geboord interval"
+                     type="OBJECTTYPE"
+                     id="detail_class_DomeinmodelBROBHRGTBmb_GeboordInterval"
+                     id-global="global_class_DomeinmodelBROBHRGTBmb_GeboordInterval">
+               <section name="begindiepte"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_DomeinmodelBROBHRGTBmb_GeboordInterval_begindiepte"
+                        id-global="global_attribute_DomeinmodelBROBHRGTBmb_GeboordInterval_begindiepte">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>begindiepte</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>TODO</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Authentiek</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>Meetwaarde</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-UNITOFMEASURE">
+                        <item>Meeteenheid</item>
+                        <item>BRO</item>
+                     </part>
+                  </content>
+               </section>
+               <section name="einddiepte"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_DomeinmodelBROBHRGTBmb_GeboordInterval_einddiepte"
+                        id-global="global_attribute_DomeinmodelBROBHRGTBmb_GeboordInterval_einddiepte">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>einddiepte</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>TODO</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Authentiek</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>Meetwaarde</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-UNITOFMEASURE">
+                        <item>Meeteenheid</item>
+                        <item>BRO</item>
+                     </part>
+                  </content>
+               </section>
+               <section name="boortechniek"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_DomeinmodelBROBHRGTBmb_GeboordInterval_boortechniek"
+                        id-global="global_attribute_DomeinmodelBROBHRGTBmb_GeboordInterval_boortechniek">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>boortechniek</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>TODO</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Authentiek</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>Boortechniek</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-UNITOFMEASURE">
+                        <item>Meeteenheid</item>
+                        <item>BRO</item>
+                     </part>
+                  </content>
+               </section>
+               <section name="geboorde diameter"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_DomeinmodelBROBHRGTBmb_GeboordInterval_geboordeDiameter"
+                        id-global="global_attribute_DomeinmodelBROBHRGTBmb_GeboordInterval_geboordeDiameter">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>geboorde diameter</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>TODO</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Authentiek</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>Meetwaarde</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-UNITOFMEASURE">
+                        <item>Meeteenheid</item>
+                        <item>BRO</item>
+                     </part>
+                  </content>
+               </section>
+            </section>
+            <section name="Boorsnelheid"
+                     type="OBJECTTYPE"
+                     id="detail_class_DomeinmodelBROBHRGTBmb_Boorsnelheid"
+                     id-global="global_class_DomeinmodelBROBHRGTBmb_Boorsnelheid">
+               <section name="verlopen tijd"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_DomeinmodelBROBHRGTBmb_Boorsnelheid_verlopenTijd"
+                        id-global="global_attribute_DomeinmodelBROBHRGTBmb_Boorsnelheid_verlopenTijd">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>verlopen tijd</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>TODO</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1 .. *</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Authentiek</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>Meetwaarde</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-UNITOFMEASURE">
+                        <item>Meeteenheid</item>
+                        <item>BRO</item>
+                     </part>
+                  </content>
+               </section>
+               <section name="diepte"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_DomeinmodelBROBHRGTBmb_Boorsnelheid_diepte"
+                        id-global="global_attribute_DomeinmodelBROBHRGTBmb_Boorsnelheid_diepte">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>diepte</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>TODO</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1 .. *</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Authentiek</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>Meetwaarde</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-UNITOFMEASURE">
+                        <item>Meeteenheid</item>
+                        <item>BRO</item>
+                     </part>
+                  </content>
+               </section>
+            </section>
+            <section name="Bemonsterd interval"
+                     type="OBJECTTYPE"
+                     id="detail_class_DomeinmodelBROBHRGTBmb_BemonsterdInterval"
+                     id-global="global_class_DomeinmodelBROBHRGTBmb_BemonsterdInterval">
+               <section name="begindiepte"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_DomeinmodelBROBHRGTBmb_BemonsterdInterval_begindiepte"
+                        id-global="global_attribute_DomeinmodelBROBHRGTBmb_BemonsterdInterval_begindiepte">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>begindiepte</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>TODO</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Authentiek</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>Meetwaarde</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-UNITOFMEASURE">
+                        <item>Meeteenheid</item>
+                        <item>BRO</item>
+                     </part>
+                  </content>
+               </section>
+               <section name="einddiepte"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_DomeinmodelBROBHRGTBmb_BemonsterdInterval_einddiepte"
+                        id-global="global_attribute_DomeinmodelBROBHRGTBmb_BemonsterdInterval_einddiepte">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>einddiepte</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>TODO</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Authentiek</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>Meetwaarde</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-UNITOFMEASURE">
+                        <item>Meeteenheid</item>
+                        <item>BRO</item>
+                     </part>
+                  </content>
+               </section>
+               <section name="voorbehandeling"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_DomeinmodelBROBHRGTBmb_BemonsterdInterval_voorbehandeling"
+                        id-global="global_attribute_DomeinmodelBROBHRGTBmb_BemonsterdInterval_voorbehandeling">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>voorbehandeling</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>TODO</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Authentiek</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>Voorbehandeling</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-UNITOFMEASURE">
+                        <item>Meeteenheid</item>
+                        <item>BRO</item>
+                     </part>
+                  </content>
+               </section>
+               <section name="bemonsteringsmethode"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_DomeinmodelBROBHRGTBmb_BemonsterdInterval_bemonsteringsmethode"
+                        id-global="global_attribute_DomeinmodelBROBHRGTBmb_BemonsterdInterval_bemonsteringsmethode">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>bemonsteringsmethode</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>TODO</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Authentiek</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>Bemonsteringsmethode</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-UNITOFMEASURE">
+                        <item>Meeteenheid</item>
+                        <item>BRO</item>
+                     </part>
+                  </content>
+               </section>
+               <section name="bemonsteringskwaliteit"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_DomeinmodelBROBHRGTBmb_BemonsterdInterval_bemonsteringskwaliteit"
+                        id-global="global_attribute_DomeinmodelBROBHRGTBmb_BemonsterdInterval_bemonsteringskwaliteit">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>bemonsteringskwaliteit</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>TODO</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Authentiek</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>Bemonsteringskwaliteit</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-UNITOFMEASURE">
+                        <item>Meeteenheid</item>
+                        <item>BRO</item>
+                     </part>
+                  </content>
+               </section>
+               <section name="georienteerd gestoken"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_DomeinmodelBROBHRGTBmb_BemonsterdInterval_georienteerdGestoken"
+                        id-global="global_attribute_DomeinmodelBROBHRGTBmb_BemonsterdInterval_georienteerdGestoken">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>georienteerd gestoken</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>TODO</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>0 .. 1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Authentiek</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>IndicatieJaNee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-UNITOFMEASURE">
+                        <item>Meeteenheid</item>
+                        <item>BRO</item>
+                     </part>
+                  </content>
+               </section>
+               <section name="bemonsterd met"
+                        type="DETAIL-ASSOCIATION"
+                        id="detail_association_DomeinmodelBROBHRGTBmb_BemonsterdInterval"
+                        id-global="global_association_DomeinmodelBROBHRGTBmb_BemonsterdInterval">
+                  <content approach="association">
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>bemonsterd met</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>0 .. 1</item>
+                     </part>
+                     <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
+                        <item>Gerelateerd objecttype</item>
+                        <item>
+                           <item type="global"
+                                 idref="global_class_DomeinmodelBROBHRGTBmb_Bemonsteringsapparaat">Bemonsteringsapparaat</item>
+                        </item>
+                     </part>
+                  </content>
+                  <content approach="target">
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>bemonsterd met</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>0 .. 1</item>
+                     </part>
+                     <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
+                        <item>Gerelateerd objecttype</item>
+                        <item>
+                           <item type="global"
+                                 idref="global_class_DomeinmodelBROBHRGTBmb_Bemonsteringsapparaat">Bemonsteringsapparaat</item>
+                        </item>
+                     </part>
+                  </content>
+               </section>
+               <section name="heeft"
+                        type="DETAIL-ASSOCIATION"
+                        id="detail_association_DomeinmodelBROBHRGTBmb_BemonsterdInterval"
+                        id-global="global_association_DomeinmodelBROBHRGTBmb_BemonsterdInterval">
+                  <content approach="association">
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>heeft</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>0 .. 1</item>
+                     </part>
+                     <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
+                        <item>Gerelateerd objecttype</item>
+                        <item>
+                           <item type="global" idref="global_class_DomeinmodelBROBHRGTBmb_Kernopbrengst">Kernopbrengst</item>
+                        </item>
+                     </part>
+                  </content>
+                  <content approach="target">
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>heeft</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>0 .. 1</item>
+                     </part>
+                     <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
+                        <item>Gerelateerd objecttype</item>
+                        <item>
+                           <item type="global" idref="global_class_DomeinmodelBROBHRGTBmb_Kernopbrengst">Kernopbrengst</item>
+                        </item>
                      </part>
                   </content>
                </section>
