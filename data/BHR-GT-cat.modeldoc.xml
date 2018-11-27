@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_4532D2FB_BE47_4dc9_BBAD_0F65D43D52FB"
       generator-version="1.48.0"
-      generator-date="2018-11-23T11:00:49Z">
+      generator-date="2018-11-27T08:34:05Z">
    <section type="DOMAIN"
             name="Domeinmodel BRO Common"
             id="global_package_DomeinmodelBROCommon"><!--removed empty content-->
@@ -4420,7 +4420,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         </part>
                         <part type="CFG-DOC-FORMAAT">
                            <item>Formaat</item>
-                           <item>Meetwaarde</item>
+                           <item>REAL</item>
                         </part>
                      </content>
                   </section>
