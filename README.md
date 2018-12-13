@@ -3,7 +3,8 @@ Deze repository wordt gebruikt voor het ontwikkelen van de BRO catalogus Boorond
 
 ## Publieke consultatie
 Van 24 december tot 11 februari loopt de consultatie over de catalogus “[Booronderzoek - Geotechnische boormonsteranalyse en Geotechnische boormonsterbeschrijving IMBRO/A][1]". 
-Dit is een uitbreiding op de eerder geconsulteerde catalogus "Booronderzoek - Geotechnische boormonster beschrijving", deze reeds eerder geconsulteerde tekst maakt geen onderdeel uit van de huidige consultatie en is in het document <span style="color:blue">grijs</span> gemaakt. Alleen opmerkingen over de uitbreiding (in zwarte tekst) worden in behandeling genomen.
+
+Dit is een uitbreiding op de eerder geconsulteerde catalogus "Booronderzoek - Geotechnische boormonster beschrijving", deze reeds eerder geconsulteerde tekst maakt geen onderdeel uit van de huidige consultatie en is in het document `grijs` gemaakt. Alleen opmerkingen over de uitbreiding (in zwarte tekst) worden in behandeling genomen.
 
 [Instructies voor de publieke consultatie][7]
 
