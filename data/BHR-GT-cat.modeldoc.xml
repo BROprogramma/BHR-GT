@@ -3,8 +3,8 @@
       subpath="Conceptual model/Geotechnisch booronderzoek (BHR-GT)/20181008"
       type="BASISMODEL"
       id="EAPK_4532D2FB_BE47_4dc9_BBAD_0F65D43D52FB"
-      generator-version="1.48.2"
-      generator-date="2018-12-14T14:24:16Z">
+      generator-version="1.49.1"
+      generator-date="2018-12-20T13:05:25Z">
    <section type="DOMAIN"
             name="Domeinmodel BRO Common"
             id="global_package_DomeinmodelBROCommon"><!--removed empty content-->
@@ -1011,12 +1011,12 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                   <part>
                      <item/>
                      <item>RDNAPTRANS2008</item>
-                     <item>De gegevens zijn getransformeerd van RD naar ETRS89, gebruikmakend van de transformatie RDNAPTRANS?, versie 2008. RDNAPTRANS? is de officiële transformatie tussen RD/NAP en ETRS89 afkomstig van het Kadaster.</item>
+                     <item>De gegevens zijn getransformeerd van RD naar ETRS89, gebruikmakend van de transformatie RDNAPTRANS™, versie 2008. RDNAPTRANS™ is de officiële transformatie tussen RD/NAP en ETRS89 afkomstig van het Kadaster.</item>
                   </part>
                   <part>
                      <item/>
                      <item>RDNAPTRANS2008MV0</item>
-                     <item>De gegevens zijn getransformeerd van RD naar ETRS89, gebruikmakend van de transformatie RDNAPTRANS?, versie 2008. De positie van het aardoppervlak is onbekend, bij transformatie is uitgegaan van 0 m NAP. RDNAPTRANS? is de officiële transformatie tussen RD/NAP en ETRS89 afkomstig van het Kadaster.</item>
+                     <item>De gegevens zijn getransformeerd van RD naar ETRS89, gebruikmakend van de transformatie RDNAPTRANS™, versie 2008. De positie van het aardoppervlak is onbekend, bij transformatie is uitgegaan van 0 m NAP. RDNAPTRANS™ is de officiële transformatie tussen RD/NAP en ETRS89 afkomstig van het Kadaster.</item>
                   </part>
                   <part>
                      <item/>
@@ -1316,7 +1316,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>[ 1 ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Booronderzoek">uitgevoerd op</item>
+                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Booronderzoek_aangeleverdeLocatie">uitgevoerd op: aangeleverde locatie</item>
                         </item>
                         <item>Aangeleverde locatie</item>
                         <item>[ 1 ]</item>
@@ -1336,7 +1336,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>[ 1 ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Booronderzoek">uitgevoerd op</item>
+                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Booronderzoek_aangeleverdeLocatie">uitgevoerd op: aangeleverde locatie</item>
                         </item>
                         <item>Aangeleverde locatie</item>
                         <item>[ 1 ]</item>
@@ -1470,7 +1470,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>[ 1 ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Booronderzoek">heeft</item>
+                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Booronderzoek_aangeleverdeVerticalePositie">heeft: aangeleverde verticale positie</item>
                         </item>
                         <item>Aangeleverde verticale positie</item>
                         <item>[ 1 ]</item>
@@ -1490,7 +1490,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>[ 1 ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Booronderzoek">heeft</item>
+                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Booronderzoek_aangeleverdeVerticalePositie">heeft: aangeleverde verticale positie</item>
                         </item>
                         <item>Aangeleverde verticale positie</item>
                         <item>[ 1 ]</item>
@@ -1632,7 +1632,8 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         </item>
                         <item>[ 1 ]</item>
                         <item>
-                           <item type="detail" idref="detail_association_DomeinmodelBROBHRGTBmb_Boring">heeft</item>
+                           <item type="detail"
+                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Boring_afgewerktInterval">heeft: afgewerkt interval</item>
                         </item>
                         <item>Afgewerkt interval</item>
                         <item>[ 0 .. * ]</item>
@@ -1651,7 +1652,8 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         </item>
                         <item>[ 1 ]</item>
                         <item>
-                           <item type="detail" idref="detail_association_DomeinmodelBROBHRGTBmb_Boring">heeft</item>
+                           <item type="detail"
+                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Boring_afgewerktInterval">heeft: afgewerkt interval</item>
                         </item>
                         <item>Afgewerkt interval</item>
                         <item>[ 0 .. * ]</item>
@@ -1772,7 +1774,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>[ 1 ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_DomeinmodelBROBHRGTBmb_BemonsterdInterval">bemonsterd met</item>
+                                 idref="detail_association_DomeinmodelBROBHRGTBmb_BemonsterdInterval_bemonsteringsapparaat">bemonsterd met: bemonsteringsapparaat</item>
                         </item>
                         <item>
                            <item type="global"
@@ -1788,7 +1790,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>[ 1 ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_DomeinmodelBROBHRGTBmb_BemonsterdInterval">heeft</item>
+                                 idref="detail_association_DomeinmodelBROBHRGTBmb_BemonsterdInterval_kernopbrengst">heeft: kernopbrengst</item>
                         </item>
                         <item>
                            <item type="global" idref="global_class_DomeinmodelBROBHRGTBmb_Kernopbrengst">Kernopbrengst</item>
@@ -1804,7 +1806,8 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         </item>
                         <item>[ 1 ]</item>
                         <item>
-                           <item type="detail" idref="detail_association_DomeinmodelBROBHRGTBmb_Boring">heeft</item>
+                           <item type="detail"
+                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Boring_bemonsterdInterval">heeft: bemonsterd interval</item>
                         </item>
                         <item>Bemonsterd interval</item>
                         <item>[ 1 .. * ]</item>
@@ -1822,7 +1825,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>[ 1 ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_DomeinmodelBROBHRGTBmb_BemonsterdInterval">bemonsterd met</item>
+                                 idref="detail_association_DomeinmodelBROBHRGTBmb_BemonsterdInterval_bemonsteringsapparaat">bemonsterd met: bemonsteringsapparaat</item>
                         </item>
                         <item>
                            <item type="global"
@@ -1838,7 +1841,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>[ 1 ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_DomeinmodelBROBHRGTBmb_BemonsterdInterval">heeft</item>
+                                 idref="detail_association_DomeinmodelBROBHRGTBmb_BemonsterdInterval_kernopbrengst">heeft: kernopbrengst</item>
                         </item>
                         <item>
                            <item type="global" idref="global_class_DomeinmodelBROBHRGTBmb_Kernopbrengst">Kernopbrengst</item>
@@ -1854,7 +1857,8 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         </item>
                         <item>[ 1 ]</item>
                         <item>
-                           <item type="detail" idref="detail_association_DomeinmodelBROBHRGTBmb_Boring">heeft</item>
+                           <item type="detail"
+                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Boring_bemonsterdInterval">heeft: bemonsterd interval</item>
                         </item>
                         <item>Bemonsterd interval</item>
                         <item>[ 1 .. * ]</item>
@@ -2030,7 +2034,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>[ 1 ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_DomeinmodelBROBHRGTBmb_BemonsterdInterval">bemonsterd met</item>
+                                 idref="detail_association_DomeinmodelBROBHRGTBmb_BemonsterdInterval_bemonsteringsapparaat">bemonsterd met: bemonsteringsapparaat</item>
                         </item>
                         <item>Bemonsteringsapparaat</item>
                         <item>[ 0 .. 1 ]</item>
@@ -2051,7 +2055,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>[ 1 ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_DomeinmodelBROBHRGTBmb_BemonsterdInterval">bemonsterd met</item>
+                                 idref="detail_association_DomeinmodelBROBHRGTBmb_BemonsterdInterval_bemonsteringsapparaat">bemonsterd met: bemonsteringsapparaat</item>
                         </item>
                         <item>Bemonsteringsapparaat</item>
                         <item>[ 0 .. 1 ]</item>
@@ -2137,7 +2141,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>[ 1 ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Boormonsterbeschrijving">resulteert in</item>
+                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Boormonsterbeschrijving_boorprofiel">resulteert in: boorprofiel</item>
                         </item>
                         <item>
                            <item type="global" idref="global_class_DomeinmodelBROBHRGTBmb_Boorprofiel">Boorprofiel</item>
@@ -2154,7 +2158,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>[ 1 ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Booronderzoek">heeft</item>
+                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Booronderzoek_boormonsterbeschrijving">heeft: boormonsterbeschrijving</item>
                         </item>
                         <item>Boormonsterbeschrijving</item>
                         <item>[ 0 .. 1 ]</item>
@@ -2172,7 +2176,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>[ 1 ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Boormonsterbeschrijving">resulteert in</item>
+                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Boormonsterbeschrijving_boorprofiel">resulteert in: boorprofiel</item>
                         </item>
                         <item>
                            <item type="global" idref="global_class_DomeinmodelBROBHRGTBmb_Boorprofiel">Boorprofiel</item>
@@ -2189,7 +2193,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>[ 1 ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Booronderzoek">heeft</item>
+                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Booronderzoek_boormonsterbeschrijving">heeft: boormonsterbeschrijving</item>
                         </item>
                         <item>Boormonsterbeschrijving</item>
                         <item>[ 0 .. 1 ]</item>
@@ -2376,7 +2380,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>[ 1 ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Booronderzoek">aan ondergrond ontsloten door</item>
+                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Booronderzoek_boring">aan ondergrond ontsloten door: boring</item>
                         </item>
                         <item>
                            <item type="global" idref="global_class_DomeinmodelBROBHRGTBmb_Boring">Boring</item>
@@ -2391,7 +2395,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>[ 1 ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Booronderzoek">heeft</item>
+                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Booronderzoek_boormonsterbeschrijving">heeft: boormonsterbeschrijving</item>
                         </item>
                         <item>
                            <item type="global"
@@ -2407,7 +2411,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>[ 1 ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Booronderzoek">heeft</item>
+                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Booronderzoek_terreintoestand">heeft: terreintoestand</item>
                         </item>
                         <item>
                            <item type="global"
@@ -2423,7 +2427,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>[ 1 ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Booronderzoek">heeft</item>
+                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Booronderzoek_aangeleverdeVerticalePositie">heeft: aangeleverde verticale positie</item>
                         </item>
                         <item>
                            <item type="global"
@@ -2439,7 +2443,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>[ 1 ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Booronderzoek">heeft</item>
+                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Booronderzoek_gestandaardiseerdeLocatie">heeft: gestandaardiseerde locatie</item>
                         </item>
                         <item>
                            <item type="global"
@@ -2455,7 +2459,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>[ 1 ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Booronderzoek">heeft</item>
+                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Booronderzoek_registratiegeschiedenis">heeft: registratiegeschiedenis</item>
                         </item>
                         <item>
                            <item type="global"
@@ -2471,7 +2475,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>[ 1 ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Booronderzoek">uitgevoerd op</item>
+                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Booronderzoek_aangeleverdeLocatie">uitgevoerd op: aangeleverde locatie</item>
                         </item>
                         <item>
                            <item type="global"
@@ -2487,7 +2491,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>[ 1 ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Booronderzoek">heeft</item>
+                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Booronderzoek_sliblaag">heeft: sliblaag</item>
                         </item>
                         <item>
                            <item type="global" idref="global_class_DomeinmodelBROBHRGTBmb_Sliblaag">Sliblaag</item>
@@ -2502,7 +2506,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>[ 1 ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Booronderzoek">heeft</item>
+                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Booronderzoek_boormonsteranalyse">heeft: boormonsteranalyse</item>
                         </item>
                         <item>
                            <item type="global"
@@ -2534,7 +2538,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>[ 1 ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Booronderzoek">aan ondergrond ontsloten door</item>
+                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Booronderzoek_boring">aan ondergrond ontsloten door: boring</item>
                         </item>
                         <item>
                            <item type="global" idref="global_class_DomeinmodelBROBHRGTBmb_Boring">Boring</item>
@@ -2549,7 +2553,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>[ 1 ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Booronderzoek">heeft</item>
+                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Booronderzoek_boormonsterbeschrijving">heeft: boormonsterbeschrijving</item>
                         </item>
                         <item>
                            <item type="global"
@@ -2565,7 +2569,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>[ 1 ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Booronderzoek">heeft</item>
+                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Booronderzoek_terreintoestand">heeft: terreintoestand</item>
                         </item>
                         <item>
                            <item type="global"
@@ -2581,7 +2585,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>[ 1 ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Booronderzoek">heeft</item>
+                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Booronderzoek_aangeleverdeVerticalePositie">heeft: aangeleverde verticale positie</item>
                         </item>
                         <item>
                            <item type="global"
@@ -2597,7 +2601,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>[ 1 ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Booronderzoek">heeft</item>
+                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Booronderzoek_gestandaardiseerdeLocatie">heeft: gestandaardiseerde locatie</item>
                         </item>
                         <item>
                            <item type="global"
@@ -2613,7 +2617,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>[ 1 ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Booronderzoek">heeft</item>
+                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Booronderzoek_registratiegeschiedenis">heeft: registratiegeschiedenis</item>
                         </item>
                         <item>
                            <item type="global"
@@ -2629,7 +2633,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>[ 1 ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Booronderzoek">uitgevoerd op</item>
+                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Booronderzoek_aangeleverdeLocatie">uitgevoerd op: aangeleverde locatie</item>
                         </item>
                         <item>
                            <item type="global"
@@ -2645,7 +2649,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>[ 1 ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Booronderzoek">heeft</item>
+                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Booronderzoek_sliblaag">heeft: sliblaag</item>
                         </item>
                         <item>
                            <item type="global" idref="global_class_DomeinmodelBROBHRGTBmb_Sliblaag">Sliblaag</item>
@@ -2660,7 +2664,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>[ 1 ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Booronderzoek">heeft</item>
+                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Booronderzoek_boormonsteranalyse">heeft: boormonsteranalyse</item>
                         </item>
                         <item>
                            <item type="global"
@@ -2807,7 +2811,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>[ 1 ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Boorprofiel">heeft</item>
+                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Boorprofiel_postSedimentaireDiscontinuTeit">heeft: post-sedimentaire discontinuïteit</item>
                         </item>
                         <item>
                            <item type="global"
@@ -2823,7 +2827,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>[ 1 ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Boorprofiel">omvat</item>
+                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Boorprofiel_laag">omvat: laag</item>
                         </item>
                         <item>
                            <item type="global" idref="global_class_DomeinmodelBROBHRGTBmb_Laag">Laag</item>
@@ -2838,7 +2842,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>[ 1 ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Boorprofiel">heeft</item>
+                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Boorprofiel_nietBeschrevenInterval">heeft: niet beschreven interval</item>
                         </item>
                         <item>
                            <item type="global"
@@ -2857,7 +2861,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>[ 1 ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Boormonsterbeschrijving">resulteert in</item>
+                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Boormonsterbeschrijving_boorprofiel">resulteert in: boorprofiel</item>
                         </item>
                         <item>Boorprofiel</item>
                         <item>[ 1 .. 3 ]</item>
@@ -2875,7 +2879,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>[ 1 ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Boorprofiel">heeft</item>
+                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Boorprofiel_postSedimentaireDiscontinuTeit">heeft: post-sedimentaire discontinuïteit</item>
                         </item>
                         <item>
                            <item type="global"
@@ -2891,7 +2895,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>[ 1 ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Boorprofiel">omvat</item>
+                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Boorprofiel_laag">omvat: laag</item>
                         </item>
                         <item>
                            <item type="global" idref="global_class_DomeinmodelBROBHRGTBmb_Laag">Laag</item>
@@ -2906,7 +2910,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>[ 1 ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Boorprofiel">heeft</item>
+                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Boorprofiel_nietBeschrevenInterval">heeft: niet beschreven interval</item>
                         </item>
                         <item>
                            <item type="global"
@@ -2925,7 +2929,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>[ 1 ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Boormonsterbeschrijving">resulteert in</item>
+                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Boormonsterbeschrijving_boorprofiel">resulteert in: boorprofiel</item>
                         </item>
                         <item>Boorprofiel</item>
                         <item>[ 1 .. 3 ]</item>
@@ -3000,7 +3004,8 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         </item>
                         <item>[ 1 ]</item>
                         <item>
-                           <item type="detail" idref="detail_association_DomeinmodelBROBHRGTBmb_Boring">heeft</item>
+                           <item type="detail"
+                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Boring_boorsnelheid">heeft: boorsnelheid</item>
                         </item>
                         <item>Boorsnelheid</item>
                         <item>[ 0 .. 1 ]</item>
@@ -3019,7 +3024,8 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         </item>
                         <item>[ 1 ]</item>
                         <item>
-                           <item type="detail" idref="detail_association_DomeinmodelBROBHRGTBmb_Boring">heeft</item>
+                           <item type="detail"
+                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Boring_boorsnelheid">heeft: boorsnelheid</item>
                         </item>
                         <item>Boorsnelheid</item>
                         <item>[ 0 .. 1 ]</item>
@@ -3292,7 +3298,8 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>Boring</item>
                         <item>[ 1 ]</item>
                         <item>
-                           <item type="detail" idref="detail_association_DomeinmodelBROBHRGTBmb_Boring">heeft</item>
+                           <item type="detail"
+                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Boring_weggegravenLaag">heeft: weggegraven laag</item>
                         </item>
                         <item>
                            <item type="global"
@@ -3307,7 +3314,8 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>Boring</item>
                         <item>[ 1 ]</item>
                         <item>
-                           <item type="detail" idref="detail_association_DomeinmodelBROBHRGTBmb_Boring">heeft</item>
+                           <item type="detail"
+                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Boring_bemonsterdInterval">heeft: bemonsterd interval</item>
                         </item>
                         <item>
                            <item type="global"
@@ -3322,7 +3330,8 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>Boring</item>
                         <item>[ 1 ]</item>
                         <item>
-                           <item type="detail" idref="detail_association_DomeinmodelBROBHRGTBmb_Boring">leidt tot</item>
+                           <item type="detail"
+                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Boring_geboordInterval">leidt tot: geboord interval</item>
                         </item>
                         <item>
                            <item type="global"
@@ -3337,7 +3346,8 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>Boring</item>
                         <item>[ 1 ]</item>
                         <item>
-                           <item type="detail" idref="detail_association_DomeinmodelBROBHRGTBmb_Boring">heeft</item>
+                           <item type="detail"
+                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Boring_boorsnelheid">heeft: boorsnelheid</item>
                         </item>
                         <item>
                            <item type="global" idref="global_class_DomeinmodelBROBHRGTBmb_Boorsnelheid">Boorsnelheid</item>
@@ -3351,7 +3361,8 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>Boring</item>
                         <item>[ 1 ]</item>
                         <item>
-                           <item type="detail" idref="detail_association_DomeinmodelBROBHRGTBmb_Boring">heeft</item>
+                           <item type="detail"
+                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Boring_afgewerktInterval">heeft: afgewerkt interval</item>
                         </item>
                         <item>
                            <item type="global"
@@ -3366,7 +3377,8 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>Boring</item>
                         <item>[ 1 ]</item>
                         <item>
-                           <item type="detail" idref="detail_association_DomeinmodelBROBHRGTBmb_Boring">heeft</item>
+                           <item type="detail"
+                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Boring_verontreinigdInterval">heeft: verontreinigd interval</item>
                         </item>
                         <item>
                            <item type="global"
@@ -3384,7 +3396,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>[ 1 ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Booronderzoek">aan ondergrond ontsloten door</item>
+                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Booronderzoek_boring">aan ondergrond ontsloten door: boring</item>
                         </item>
                         <item>Boring</item>
                         <item>[ 1 ]</item>
@@ -3401,7 +3413,8 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>Boring</item>
                         <item>[ 1 ]</item>
                         <item>
-                           <item type="detail" idref="detail_association_DomeinmodelBROBHRGTBmb_Boring">heeft</item>
+                           <item type="detail"
+                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Boring_weggegravenLaag">heeft: weggegraven laag</item>
                         </item>
                         <item>
                            <item type="global"
@@ -3416,7 +3429,8 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>Boring</item>
                         <item>[ 1 ]</item>
                         <item>
-                           <item type="detail" idref="detail_association_DomeinmodelBROBHRGTBmb_Boring">heeft</item>
+                           <item type="detail"
+                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Boring_bemonsterdInterval">heeft: bemonsterd interval</item>
                         </item>
                         <item>
                            <item type="global"
@@ -3431,7 +3445,8 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>Boring</item>
                         <item>[ 1 ]</item>
                         <item>
-                           <item type="detail" idref="detail_association_DomeinmodelBROBHRGTBmb_Boring">leidt tot</item>
+                           <item type="detail"
+                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Boring_geboordInterval">leidt tot: geboord interval</item>
                         </item>
                         <item>
                            <item type="global"
@@ -3446,7 +3461,8 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>Boring</item>
                         <item>[ 1 ]</item>
                         <item>
-                           <item type="detail" idref="detail_association_DomeinmodelBROBHRGTBmb_Boring">heeft</item>
+                           <item type="detail"
+                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Boring_boorsnelheid">heeft: boorsnelheid</item>
                         </item>
                         <item>
                            <item type="global" idref="global_class_DomeinmodelBROBHRGTBmb_Boorsnelheid">Boorsnelheid</item>
@@ -3460,7 +3476,8 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>Boring</item>
                         <item>[ 1 ]</item>
                         <item>
-                           <item type="detail" idref="detail_association_DomeinmodelBROBHRGTBmb_Boring">heeft</item>
+                           <item type="detail"
+                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Boring_afgewerktInterval">heeft: afgewerkt interval</item>
                         </item>
                         <item>
                            <item type="global"
@@ -3475,7 +3492,8 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>Boring</item>
                         <item>[ 1 ]</item>
                         <item>
-                           <item type="detail" idref="detail_association_DomeinmodelBROBHRGTBmb_Boring">heeft</item>
+                           <item type="detail"
+                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Boring_verontreinigdInterval">heeft: verontreinigd interval</item>
                         </item>
                         <item>
                            <item type="global"
@@ -3493,7 +3511,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>[ 1 ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Booronderzoek">aan ondergrond ontsloten door</item>
+                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Booronderzoek_boring">aan ondergrond ontsloten door: boring</item>
                         </item>
                         <item>Boring</item>
                         <item>[ 1 ]</item>
@@ -3590,7 +3608,8 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         </item>
                         <item>[ 1 ]</item>
                         <item>
-                           <item type="detail" idref="detail_association_DomeinmodelBROBHRGTBmb_Boring">leidt tot</item>
+                           <item type="detail"
+                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Boring_geboordInterval">leidt tot: geboord interval</item>
                         </item>
                         <item>Geboord interval</item>
                         <item>[ 1 .. * ]</item>
@@ -3609,7 +3628,8 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         </item>
                         <item>[ 1 ]</item>
                         <item>
-                           <item type="detail" idref="detail_association_DomeinmodelBROBHRGTBmb_Boring">leidt tot</item>
+                           <item type="detail"
+                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Boring_geboordInterval">leidt tot: geboord interval</item>
                         </item>
                         <item>Geboord interval</item>
                         <item>[ 1 .. * ]</item>
@@ -3821,7 +3841,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>[ 1 ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Gesteente">heeft</item>
+                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Gesteente_verweringsgraad">heeft: verweringsgraad</item>
                         </item>
                         <item>
                            <item type="global"
@@ -3838,7 +3858,8 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         </item>
                         <item>[ 1 ]</item>
                         <item>
-                           <item type="detail" idref="detail_association_DomeinmodelBROBHRGTBmb_Laag">beschreven als</item>
+                           <item type="detail"
+                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Laag_gesteente">beschreven als: gesteente</item>
                         </item>
                         <item>Gesteente</item>
                         <item>[ 0 .. 1 ]</item>
@@ -3856,7 +3877,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>[ 1 ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Gesteente">heeft</item>
+                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Gesteente_verweringsgraad">heeft: verweringsgraad</item>
                         </item>
                         <item>
                            <item type="global"
@@ -3873,7 +3894,8 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         </item>
                         <item>[ 1 ]</item>
                         <item>
-                           <item type="detail" idref="detail_association_DomeinmodelBROBHRGTBmb_Laag">beschreven als</item>
+                           <item type="detail"
+                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Laag_gesteente">beschreven als: gesteente</item>
                         </item>
                         <item>Gesteente</item>
                         <item>[ 0 .. 1 ]</item>
@@ -4264,7 +4286,8 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>Grond</item>
                         <item>[ 1 ]</item>
                         <item>
-                           <item type="detail" idref="detail_association_DomeinmodelBROBHRGTBmb_Grond">heeft</item>
+                           <item type="detail"
+                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Grond_korrelvorm">heeft: korrelvorm</item>
                         </item>
                         <item>
                            <item type="global" idref="global_class_DomeinmodelBROBHRGTBmb_Korrelvorm">Korrelvorm</item>
@@ -4280,7 +4303,8 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         </item>
                         <item>[ 1 ]</item>
                         <item>
-                           <item type="detail" idref="detail_association_DomeinmodelBROBHRGTBmb_Laag">beschreven als</item>
+                           <item type="detail"
+                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Laag_grond">beschreven als: grond</item>
                         </item>
                         <item>Grond</item>
                         <item>[ 0 .. 1 ]</item>
@@ -4297,7 +4321,8 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>Grond</item>
                         <item>[ 1 ]</item>
                         <item>
-                           <item type="detail" idref="detail_association_DomeinmodelBROBHRGTBmb_Grond">heeft</item>
+                           <item type="detail"
+                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Grond_korrelvorm">heeft: korrelvorm</item>
                         </item>
                         <item>
                            <item type="global" idref="global_class_DomeinmodelBROBHRGTBmb_Korrelvorm">Korrelvorm</item>
@@ -4313,7 +4338,8 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         </item>
                         <item>[ 1 ]</item>
                         <item>
-                           <item type="detail" idref="detail_association_DomeinmodelBROBHRGTBmb_Laag">beschreven als</item>
+                           <item type="detail"
+                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Laag_grond">beschreven als: grond</item>
                         </item>
                         <item>Grond</item>
                         <item>[ 0 .. 1 ]</item>
@@ -4412,7 +4438,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>[ 1 ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_DomeinmodelBROBHRGTBmb_BemonsterdInterval">heeft</item>
+                                 idref="detail_association_DomeinmodelBROBHRGTBmb_BemonsterdInterval_kernopbrengst">heeft: kernopbrengst</item>
                         </item>
                         <item>Kernopbrengst</item>
                         <item>[ 0 .. 1 ]</item>
@@ -4433,7 +4459,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>[ 1 ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_DomeinmodelBROBHRGTBmb_BemonsterdInterval">heeft</item>
+                                 idref="detail_association_DomeinmodelBROBHRGTBmb_BemonsterdInterval_kernopbrengst">heeft: kernopbrengst</item>
                         </item>
                         <item>Kernopbrengst</item>
                         <item>[ 0 .. 1 ]</item>
@@ -4531,7 +4557,8 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         </item>
                         <item>[ 1 ]</item>
                         <item>
-                           <item type="detail" idref="detail_association_DomeinmodelBROBHRGTBmb_Grond">heeft</item>
+                           <item type="detail"
+                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Grond_korrelvorm">heeft: korrelvorm</item>
                         </item>
                         <item>Korrelvorm</item>
                         <item>[ 0 .. 2 ]</item>
@@ -4550,7 +4577,8 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         </item>
                         <item>[ 1 ]</item>
                         <item>
-                           <item type="detail" idref="detail_association_DomeinmodelBROBHRGTBmb_Grond">heeft</item>
+                           <item type="detail"
+                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Grond_korrelvorm">heeft: korrelvorm</item>
                         </item>
                         <item>Korrelvorm</item>
                         <item>[ 0 .. 2 ]</item>
@@ -4734,7 +4762,8 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>Laag</item>
                         <item>[ 1 ]</item>
                         <item>
-                           <item type="detail" idref="detail_association_DomeinmodelBROBHRGTBmb_Laag">beschreven als</item>
+                           <item type="detail"
+                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Laag_grond">beschreven als: grond</item>
                         </item>
                         <item>
                            <item type="global" idref="global_class_DomeinmodelBROBHRGTBmb_Grond">Grond</item>
@@ -4748,7 +4777,8 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>Laag</item>
                         <item>[ 1 ]</item>
                         <item>
-                           <item type="detail" idref="detail_association_DomeinmodelBROBHRGTBmb_Laag">beschreven als</item>
+                           <item type="detail"
+                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Laag_gesteente">beschreven als: gesteente</item>
                         </item>
                         <item>
                            <item type="global" idref="global_class_DomeinmodelBROBHRGTBmb_Gesteente">Gesteente</item>
@@ -4765,7 +4795,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>[ 1 ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Boorprofiel">omvat</item>
+                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Boorprofiel_laag">omvat: laag</item>
                         </item>
                         <item>Laag</item>
                         <item>[ 1 .. * ]</item>
@@ -4782,7 +4812,8 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>Laag</item>
                         <item>[ 1 ]</item>
                         <item>
-                           <item type="detail" idref="detail_association_DomeinmodelBROBHRGTBmb_Laag">beschreven als</item>
+                           <item type="detail"
+                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Laag_grond">beschreven als: grond</item>
                         </item>
                         <item>
                            <item type="global" idref="global_class_DomeinmodelBROBHRGTBmb_Grond">Grond</item>
@@ -4796,7 +4827,8 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>Laag</item>
                         <item>[ 1 ]</item>
                         <item>
-                           <item type="detail" idref="detail_association_DomeinmodelBROBHRGTBmb_Laag">beschreven als</item>
+                           <item type="detail"
+                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Laag_gesteente">beschreven als: gesteente</item>
                         </item>
                         <item>
                            <item type="global" idref="global_class_DomeinmodelBROBHRGTBmb_Gesteente">Gesteente</item>
@@ -4813,7 +4845,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>[ 1 ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Boorprofiel">omvat</item>
+                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Boorprofiel_laag">omvat: laag</item>
                         </item>
                         <item>Laag</item>
                         <item>[ 1 .. * ]</item>
@@ -4901,7 +4933,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>[ 1 ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Boorprofiel">heeft</item>
+                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Boorprofiel_nietBeschrevenInterval">heeft: niet beschreven interval</item>
                         </item>
                         <item>Niet beschreven interval</item>
                         <item>[ 0 .. * ]</item>
@@ -4921,7 +4953,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>[ 1 ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Boorprofiel">heeft</item>
+                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Boorprofiel_nietBeschrevenInterval">heeft: niet beschreven interval</item>
                         </item>
                         <item>Niet beschreven interval</item>
                         <item>[ 0 .. * ]</item>
@@ -5076,7 +5108,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>[ 1 ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Boorprofiel">heeft</item>
+                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Boorprofiel_postSedimentaireDiscontinuTeit">heeft: post-sedimentaire discontinuïteit</item>
                         </item>
                         <item>Post-sedimentaire discontinuïteit</item>
                         <item>[ 0 .. * ]</item>
@@ -5096,7 +5128,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>[ 1 ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Boorprofiel">heeft</item>
+                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Boorprofiel_postSedimentaireDiscontinuTeit">heeft: post-sedimentaire discontinuïteit</item>
                         </item>
                         <item>Post-sedimentaire discontinuïteit</item>
                         <item>[ 0 .. * ]</item>
@@ -5285,7 +5317,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>[ 1 ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Booronderzoek">heeft</item>
+                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Booronderzoek_sliblaag">heeft: sliblaag</item>
                         </item>
                         <item>Sliblaag</item>
                         <item>[ 0 .. 1 ]</item>
@@ -5305,7 +5337,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>[ 1 ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Booronderzoek">heeft</item>
+                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Booronderzoek_sliblaag">heeft: sliblaag</item>
                         </item>
                         <item>Sliblaag</item>
                         <item>[ 0 .. 1 ]</item>
@@ -5394,7 +5426,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>[ 1 ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Booronderzoek">heeft</item>
+                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Booronderzoek_terreintoestand">heeft: terreintoestand</item>
                         </item>
                         <item>Terreintoestand</item>
                         <item>[ 0 .. 1 ]</item>
@@ -5414,7 +5446,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>[ 1 ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Booronderzoek">heeft</item>
+                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Booronderzoek_terreintoestand">heeft: terreintoestand</item>
                         </item>
                         <item>Terreintoestand</item>
                         <item>[ 0 .. 1 ]</item>
@@ -5489,7 +5521,8 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         </item>
                         <item>[ 1 ]</item>
                         <item>
-                           <item type="detail" idref="detail_association_DomeinmodelBROBHRGTBmb_Boring">heeft</item>
+                           <item type="detail"
+                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Boring_verontreinigdInterval">heeft: verontreinigd interval</item>
                         </item>
                         <item>Verontreinigd interval</item>
                         <item>[ 0 .. * ]</item>
@@ -5508,7 +5541,8 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         </item>
                         <item>[ 1 ]</item>
                         <item>
-                           <item type="detail" idref="detail_association_DomeinmodelBROBHRGTBmb_Boring">heeft</item>
+                           <item type="detail"
+                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Boring_verontreinigdInterval">heeft: verontreinigd interval</item>
                         </item>
                         <item>Verontreinigd interval</item>
                         <item>[ 0 .. * ]</item>
@@ -5595,7 +5629,8 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         </item>
                         <item>[ 1 ]</item>
                         <item>
-                           <item type="detail" idref="detail_association_DomeinmodelBROBHRGTBmb_Boring">heeft</item>
+                           <item type="detail"
+                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Boring_weggegravenLaag">heeft: weggegraven laag</item>
                         </item>
                         <item>Weggegraven laag</item>
                         <item>[ 0 .. * ]</item>
@@ -5614,7 +5649,8 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         </item>
                         <item>[ 1 ]</item>
                         <item>
-                           <item type="detail" idref="detail_association_DomeinmodelBROBHRGTBmb_Boring">heeft</item>
+                           <item type="detail"
+                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Boring_weggegravenLaag">heeft: weggegraven laag</item>
                         </item>
                         <item>Weggegraven laag</item>
                         <item>[ 0 .. * ]</item>
@@ -5701,7 +5737,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>[ 1 ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Gesteente">heeft</item>
+                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Gesteente_verweringsgraad">heeft: verweringsgraad</item>
                         </item>
                         <item>Verweringsgraad</item>
                         <item>[ 0 .. 1 ]</item>
@@ -5721,7 +5757,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                         <item>[ 1 ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Gesteente">heeft</item>
+                                 idref="detail_association_DomeinmodelBROBHRGTBmb_Gesteente_verweringsgraad">heeft: verweringsgraad</item>
                         </item>
                         <item>Verweringsgraad</item>
                         <item>[ 0 .. 1 ]</item>
@@ -7679,8 +7715,8 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                </section>
                <section name="bemonsterd met"
                         type="DETAIL-ASSOCIATION"
-                        id="detail_association_DomeinmodelBROBHRGTBmb_BemonsterdInterval"
-                        id-global="global_association_DomeinmodelBROBHRGTBmb_BemonsterdInterval">
+                        id="detail_association_DomeinmodelBROBHRGTBmb_BemonsterdInterval_bemonsteringsapparaat"
+                        id-global="global_association_DomeinmodelBROBHRGTBmb_BemonsterdInterval_bemonsteringsapparaat">
                   <content approach="association">
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -7722,8 +7758,8 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                </section>
                <section name="heeft"
                         type="DETAIL-ASSOCIATION"
-                        id="detail_association_DomeinmodelBROBHRGTBmb_BemonsterdInterval"
-                        id-global="global_association_DomeinmodelBROBHRGTBmb_BemonsterdInterval">
+                        id="detail_association_DomeinmodelBROBHRGTBmb_BemonsterdInterval_kernopbrengst"
+                        id-global="global_association_DomeinmodelBROBHRGTBmb_BemonsterdInterval_kernopbrengst">
                   <content approach="association">
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -8147,7 +8183,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      </part>
                      <part type="CFG-DOC-UNITOFMEASURE">
                         <item>Meeteenheid</item>
-                        <item>deg</item>
+                        <item>°</item>
                      </part>
                   </content>
                </section>
@@ -8202,7 +8238,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      </part>
                      <part type="CFG-DOC-UNITOFMEASURE">
                         <item>Meeteenheid</item>
-                        <item>mm</item>
+                        <item>°</item>
                      </part>
                   </content>
                </section>
@@ -8543,8 +8579,8 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                </section>
                <section name="resulteert in"
                         type="DETAIL-ASSOCIATION"
-                        id="detail_association_DomeinmodelBROBHRGTBmb_Boormonsterbeschrijving"
-                        id-global="global_association_DomeinmodelBROBHRGTBmb_Boormonsterbeschrijving">
+                        id="detail_association_DomeinmodelBROBHRGTBmb_Boormonsterbeschrijving_boorprofiel"
+                        id-global="global_association_DomeinmodelBROBHRGTBmb_Boormonsterbeschrijving_boorprofiel">
                   <content approach="association">
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -9178,8 +9214,8 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                </section>
                <section name="aan ondergrond ontsloten door"
                         type="DETAIL-ASSOCIATION"
-                        id="detail_association_DomeinmodelBROBHRGTBmb_Booronderzoek"
-                        id-global="global_association_DomeinmodelBROBHRGTBmb_Booronderzoek">
+                        id="detail_association_DomeinmodelBROBHRGTBmb_Booronderzoek_boring"
+                        id-global="global_association_DomeinmodelBROBHRGTBmb_Booronderzoek_boring">
                   <content approach="association">
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -9219,8 +9255,8 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                </section>
                <section name="heeft"
                         type="DETAIL-ASSOCIATION"
-                        id="detail_association_DomeinmodelBROBHRGTBmb_Booronderzoek"
-                        id-global="global_association_DomeinmodelBROBHRGTBmb_Booronderzoek">
+                        id="detail_association_DomeinmodelBROBHRGTBmb_Booronderzoek_boormonsterbeschrijving"
+                        id-global="global_association_DomeinmodelBROBHRGTBmb_Booronderzoek_boormonsterbeschrijving">
                   <content approach="association">
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -9258,8 +9294,8 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                </section>
                <section name="heeft"
                         type="DETAIL-ASSOCIATION"
-                        id="detail_association_DomeinmodelBROBHRGTBmb_Booronderzoek"
-                        id-global="global_association_DomeinmodelBROBHRGTBmb_Booronderzoek">
+                        id="detail_association_DomeinmodelBROBHRGTBmb_Booronderzoek_terreintoestand"
+                        id-global="global_association_DomeinmodelBROBHRGTBmb_Booronderzoek_terreintoestand">
                   <content approach="association">
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -9301,8 +9337,8 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                </section>
                <section name="heeft"
                         type="DETAIL-ASSOCIATION"
-                        id="detail_association_DomeinmodelBROBHRGTBmb_Booronderzoek"
-                        id-global="global_association_DomeinmodelBROBHRGTBmb_Booronderzoek">
+                        id="detail_association_DomeinmodelBROBHRGTBmb_Booronderzoek_aangeleverdeVerticalePositie"
+                        id-global="global_association_DomeinmodelBROBHRGTBmb_Booronderzoek_aangeleverdeVerticalePositie">
                   <content approach="association">
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -9344,8 +9380,8 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                </section>
                <section name="heeft"
                         type="DETAIL-ASSOCIATION"
-                        id="detail_association_DomeinmodelBROBHRGTBmb_Booronderzoek"
-                        id-global="global_association_DomeinmodelBROBHRGTBmb_Booronderzoek">
+                        id="detail_association_DomeinmodelBROBHRGTBmb_Booronderzoek_gestandaardiseerdeLocatie"
+                        id-global="global_association_DomeinmodelBROBHRGTBmb_Booronderzoek_gestandaardiseerdeLocatie">
                   <content approach="association">
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -9387,8 +9423,8 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                </section>
                <section name="heeft"
                         type="DETAIL-ASSOCIATION"
-                        id="detail_association_DomeinmodelBROBHRGTBmb_Booronderzoek"
-                        id-global="global_association_DomeinmodelBROBHRGTBmb_Booronderzoek">
+                        id="detail_association_DomeinmodelBROBHRGTBmb_Booronderzoek_registratiegeschiedenis"
+                        id-global="global_association_DomeinmodelBROBHRGTBmb_Booronderzoek_registratiegeschiedenis">
                   <content approach="association">
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -9430,8 +9466,8 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                </section>
                <section name="uitgevoerd op"
                         type="DETAIL-ASSOCIATION"
-                        id="detail_association_DomeinmodelBROBHRGTBmb_Booronderzoek"
-                        id-global="global_association_DomeinmodelBROBHRGTBmb_Booronderzoek">
+                        id="detail_association_DomeinmodelBROBHRGTBmb_Booronderzoek_aangeleverdeLocatie"
+                        id-global="global_association_DomeinmodelBROBHRGTBmb_Booronderzoek_aangeleverdeLocatie">
                   <content approach="association">
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -9473,8 +9509,8 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                </section>
                <section name="heeft"
                         type="DETAIL-ASSOCIATION"
-                        id="detail_association_DomeinmodelBROBHRGTBmb_Booronderzoek"
-                        id-global="global_association_DomeinmodelBROBHRGTBmb_Booronderzoek">
+                        id="detail_association_DomeinmodelBROBHRGTBmb_Booronderzoek_sliblaag"
+                        id-global="global_association_DomeinmodelBROBHRGTBmb_Booronderzoek_sliblaag">
                   <content approach="association">
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -9514,8 +9550,8 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                </section>
                <section name="heeft"
                         type="DETAIL-ASSOCIATION"
-                        id="detail_association_DomeinmodelBROBHRGTBmb_Booronderzoek"
-                        id-global="global_association_DomeinmodelBROBHRGTBmb_Booronderzoek">
+                        id="detail_association_DomeinmodelBROBHRGTBmb_Booronderzoek_boormonsteranalyse"
+                        id-global="global_association_DomeinmodelBROBHRGTBmb_Booronderzoek_boormonsteranalyse">
                   <content approach="association">
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -9941,7 +9977,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      </part>
                      <part type="CFG-DOC-UNITOFMEASURE">
                         <item>Meeteenheid</item>
-                        <item>m</item>
+                        <item>BRO</item>
                      </part>
                   </content>
                </section>
@@ -9996,14 +10032,14 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      </part>
                      <part type="CFG-DOC-UNITOFMEASURE">
                         <item>Meeteenheid</item>
-                        <item>m</item>
+                        <item>BRO</item>
                      </part>
                   </content>
                </section>
                <section name="heeft"
                         type="DETAIL-ASSOCIATION"
-                        id="detail_association_DomeinmodelBROBHRGTBmb_Boorprofiel"
-                        id-global="global_association_DomeinmodelBROBHRGTBmb_Boorprofiel">
+                        id="detail_association_DomeinmodelBROBHRGTBmb_Boorprofiel_postSedimentaireDiscontinuTeit"
+                        id-global="global_association_DomeinmodelBROBHRGTBmb_Boorprofiel_postSedimentaireDiscontinuTeit">
                   <content approach="association">
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -10041,8 +10077,8 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                </section>
                <section name="omvat"
                         type="DETAIL-ASSOCIATION"
-                        id="detail_association_DomeinmodelBROBHRGTBmb_Boorprofiel"
-                        id-global="global_association_DomeinmodelBROBHRGTBmb_Boorprofiel">
+                        id="detail_association_DomeinmodelBROBHRGTBmb_Boorprofiel_laag"
+                        id-global="global_association_DomeinmodelBROBHRGTBmb_Boorprofiel_laag">
                   <content approach="association">
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -10078,8 +10114,8 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                </section>
                <section name="heeft"
                         type="DETAIL-ASSOCIATION"
-                        id="detail_association_DomeinmodelBROBHRGTBmb_Boorprofiel"
-                        id-global="global_association_DomeinmodelBROBHRGTBmb_Boorprofiel">
+                        id="detail_association_DomeinmodelBROBHRGTBmb_Boorprofiel_nietBeschrevenInterval"
+                        id-global="global_association_DomeinmodelBROBHRGTBmb_Boorprofiel_nietBeschrevenInterval">
                   <content approach="association">
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -11337,8 +11373,8 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                </section>
                <section name="heeft"
                         type="DETAIL-ASSOCIATION"
-                        id="detail_association_DomeinmodelBROBHRGTBmb_Boring"
-                        id-global="global_association_DomeinmodelBROBHRGTBmb_Boring">
+                        id="detail_association_DomeinmodelBROBHRGTBmb_Boring_weggegravenLaag"
+                        id-global="global_association_DomeinmodelBROBHRGTBmb_Boring_weggegravenLaag">
                   <content approach="association">
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -11380,8 +11416,8 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                </section>
                <section name="heeft"
                         type="DETAIL-ASSOCIATION"
-                        id="detail_association_DomeinmodelBROBHRGTBmb_Boring"
-                        id-global="global_association_DomeinmodelBROBHRGTBmb_Boring">
+                        id="detail_association_DomeinmodelBROBHRGTBmb_Boring_bemonsterdInterval"
+                        id-global="global_association_DomeinmodelBROBHRGTBmb_Boring_bemonsterdInterval">
                   <content approach="association">
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -11423,8 +11459,8 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                </section>
                <section name="leidt tot"
                         type="DETAIL-ASSOCIATION"
-                        id="detail_association_DomeinmodelBROBHRGTBmb_Boring"
-                        id-global="global_association_DomeinmodelBROBHRGTBmb_Boring">
+                        id="detail_association_DomeinmodelBROBHRGTBmb_Boring_geboordInterval"
+                        id-global="global_association_DomeinmodelBROBHRGTBmb_Boring_geboordInterval">
                   <content approach="association">
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -11466,8 +11502,8 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                </section>
                <section name="heeft"
                         type="DETAIL-ASSOCIATION"
-                        id="detail_association_DomeinmodelBROBHRGTBmb_Boring"
-                        id-global="global_association_DomeinmodelBROBHRGTBmb_Boring">
+                        id="detail_association_DomeinmodelBROBHRGTBmb_Boring_boorsnelheid"
+                        id-global="global_association_DomeinmodelBROBHRGTBmb_Boring_boorsnelheid">
                   <content approach="association">
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -11507,8 +11543,8 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                </section>
                <section name="heeft"
                         type="DETAIL-ASSOCIATION"
-                        id="detail_association_DomeinmodelBROBHRGTBmb_Boring"
-                        id-global="global_association_DomeinmodelBROBHRGTBmb_Boring">
+                        id="detail_association_DomeinmodelBROBHRGTBmb_Boring_afgewerktInterval"
+                        id-global="global_association_DomeinmodelBROBHRGTBmb_Boring_afgewerktInterval">
                   <content approach="association">
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -11550,8 +11586,8 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                </section>
                <section name="heeft"
                         type="DETAIL-ASSOCIATION"
-                        id="detail_association_DomeinmodelBROBHRGTBmb_Boring"
-                        id-global="global_association_DomeinmodelBROBHRGTBmb_Boring">
+                        id="detail_association_DomeinmodelBROBHRGTBmb_Boring_verontreinigdInterval"
+                        id-global="global_association_DomeinmodelBROBHRGTBmb_Boring_verontreinigdInterval">
                   <content approach="association">
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -12593,8 +12629,8 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                </section>
                <section name="heeft"
                         type="DETAIL-ASSOCIATION"
-                        id="detail_association_DomeinmodelBROBHRGTBmb_Gesteente"
-                        id-global="global_association_DomeinmodelBROBHRGTBmb_Gesteente">
+                        id="detail_association_DomeinmodelBROBHRGTBmb_Gesteente_verweringsgraad"
+                        id-global="global_association_DomeinmodelBROBHRGTBmb_Gesteente_verweringsgraad">
                   <content approach="association">
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -14232,8 +14268,8 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                </section>
                <section name="heeft"
                         type="DETAIL-ASSOCIATION"
-                        id="detail_association_DomeinmodelBROBHRGTBmb_Grond"
-                        id-global="global_association_DomeinmodelBROBHRGTBmb_Grond">
+                        id="detail_association_DomeinmodelBROBHRGTBmb_Grond_korrelvorm"
+                        id-global="global_association_DomeinmodelBROBHRGTBmb_Grond_korrelvorm">
                   <content approach="association">
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -14773,7 +14809,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      </part>
                      <part type="CFG-DOC-UNITOFMEASURE">
                         <item>Meeteenheid</item>
-                        <item>m</item>
+                        <item>BRO</item>
                      </part>
                   </content>
                </section>
@@ -14883,7 +14919,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      </part>
                      <part type="CFG-DOC-UNITOFMEASURE">
                         <item>Meeteenheid</item>
-                        <item>m</item>
+                        <item>BRO</item>
                      </part>
                   </content>
                </section>
@@ -15384,8 +15420,8 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                </section>
                <section name="beschreven als"
                         type="DETAIL-ASSOCIATION"
-                        id="detail_association_DomeinmodelBROBHRGTBmb_Laag"
-                        id-global="global_association_DomeinmodelBROBHRGTBmb_Laag">
+                        id="detail_association_DomeinmodelBROBHRGTBmb_Laag_grond"
+                        id-global="global_association_DomeinmodelBROBHRGTBmb_Laag_grond">
                   <content approach="association">
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -15421,8 +15457,8 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                </section>
                <section name="beschreven als"
                         type="DETAIL-ASSOCIATION"
-                        id="detail_association_DomeinmodelBROBHRGTBmb_Laag"
-                        id-global="global_association_DomeinmodelBROBHRGTBmb_Laag">
+                        id="detail_association_DomeinmodelBROBHRGTBmb_Laag_gesteente"
+                        id-global="global_association_DomeinmodelBROBHRGTBmb_Laag_gesteente">
                   <content approach="association">
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -15512,7 +15548,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      </part>
                      <part type="CFG-DOC-UNITOFMEASURE">
                         <item>Meeteenheid</item>
-                        <item>m</item>
+                        <item>BRO</item>
                      </part>
                   </content>
                </section>
@@ -15567,7 +15603,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      </part>
                      <part type="CFG-DOC-UNITOFMEASURE">
                         <item>Meeteenheid</item>
-                        <item>m</item>
+                        <item>BRO</item>
                      </part>
                   </content>
                </section>
@@ -15682,7 +15718,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      </part>
                      <part type="CFG-DOC-UNITOFMEASURE">
                         <item>Meeteenheid</item>
-                        <item>m</item>
+                        <item>BRO</item>
                      </part>
                   </content>
                </section>
@@ -15737,7 +15773,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                      </part>
                      <part type="CFG-DOC-UNITOFMEASURE">
                         <item>Meeteenheid</item>
-                        <item>m</item>
+                        <item>BRO</item>
                      </part>
                   </content>
                </section>
@@ -18490,7 +18526,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                   <part>
                      <item/>
                      <item>RDNAPTRANS2008</item>
-                     <item>De gegevens zijn getransformeerd van RD naar ETRS89, gebruikmakend van de transformatie RDNAPTRANS?, versie 2008. RDNAPTRANS? is de officiële transformatie tussen RD/NAP en ETRS89 afkomstig van het Kadaster.</item>
+                     <item>De gegevens zijn getransformeerd van RD naar ETRS89, gebruikmakend van de transformatie RDNAPTRANS™, versie 2008. RDNAPTRANS™ is de officiële transformatie tussen RD/NAP en ETRS89 afkomstig van het Kadaster.</item>
                   </part>
                </content>
             </section>
