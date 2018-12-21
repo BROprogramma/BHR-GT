@@ -3,6 +3,7 @@ Deze repository wordt gebruikt voor het ontwikkelen van de geotechnische deelver
 
 ## Publieke consultatie
 Van 24 december tot 11 februari loopt de consultatie van de catalogus “[Booronderzoek - Geotechnische boormonsteranalyse & Geotechnische boormonsterbeschrijving][1]". Wat betreft de boormonsteranalyses betreft het de eerste set boormonsteranalyses. In de toekomst zullen er nog andere boormonsteranalyses aan worden toegevoegd. 
+
 Deze consultatie is een uitbreiding op de eerder geconsulteerde catalogus "Booronderzoek - Geotechnische  boormonsterbeschrijving", De eerder geconsulteerde catalogus voor geotechnisch boormonsterbeschrijving bevatte nog niet de IMBRO/A gegevensdefinitie voor de boormonsterbeschrijving (historische gegevens) en de geotechnische boormonsteranalyse. Deze uitbreiding wordt met **blauwe** tekst aangegeven. De reeds eerder geconsulteerde tekst maakt geen onderdeel uit van de huidige consultatie, deze tekst heeft een **zwarte** kleur. Alleen opmerkingen over de uitbreiding (in blauwe tekst) worden in behandeling genomen.
 
 
