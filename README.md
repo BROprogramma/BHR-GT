@@ -11,8 +11,8 @@ Deze consultatie is een uitbreiding op de eerder geconsulteerde catalogus "Booro
 
 De catalogus bevat alleen het deel dat in de Ministeriële Regeling komt. Voor meer achtergrondinformatie, zie ook [Inleiding Catalogus][8]. 
 
-[1]: https://github.com/BROprogramma/BHR-GT/blob/gh-pages/20181221%20Booronderzoek%20-%20Geotechnische%20boormonsteranalyse%20en%20Geotechnische%20boormonsterbeschrijving.pdf
+[1]: https://github.com/BROprogramma/BHR-GT/raw/gh-pages/20181221%20Booronderzoek%20-%20Geotechnische%20boormonsteranalyse%20en%20Geotechnische%20boormonsterbeschrijving.pdf
 [2]: https://github.com/BROprogramma/BHR-GT/blob/gh-pages/archief/gegevensdefinitie%20Boormonsteronderzoek%20samenstellingsonderzoek%20werkversie%2020180717.pdf
 [3]: https://github.com/BROprogramma/BHR-GT/blob/gh-pages/archiefGegevensdefinitie%20Boormonsteronderzoek%20samendrukkingsproef%20werkversie%2020180717.pdf
 [7]: https://github.com/BROprogramma/BHR-GT/blob/gh-pages/consultatie-instructie.md
-[8]: https://github.com/BROprogramma/BHR-GT/blob/gh-pages/Inleiding_catalogus_BHRGT_0.9%20dec2018.pdf
+[8]: https://github.com/BROprogramma/BHR-GT/raw/gh-pages/Inleiding_catalogus_BHRGT_0.9%20dec2018.pdf
