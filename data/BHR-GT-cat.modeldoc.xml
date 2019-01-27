@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_4532D2FB_BE47_4dc9_BBAD_0F65D43D52FB"
       generator-version="1.50.1"
-      generator-date="2019-01-27T20:02:58Z">
+      generator-date="2019-01-27T20:41:52Z">
    <section type="DOMAIN"
             name="Domeinmodel BRO Common"
             id="global_package_DomeinmodelBROCommon"><!--removed empty content-->
@@ -179,7 +179,7 @@ De huidige gegevensdefinitie beschrijft alleen het geotechnisch booronderzoek en
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_DomeinmodelBROCommon_OnvolledigeDatum_volledigeDatum">volledige datum</item>
+                              idref="detail_attribute_DomeinmodelBROCommon_OnvolledigeDatum_datum">datum</item>
                      </item>
                      <item/>
                      <item>
@@ -201,7 +201,7 @@ De huidige gegevensdefinitie beschrijft alleen het geotechnisch booronderzoek en
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_DomeinmodelBROCommon_OnvolledigeDatum_jaartal">jaartal</item>
+                              idref="detail_attribute_DomeinmodelBROCommon_OnvolledigeDatum_jaar">jaar</item>
                      </item>
                      <item/>
                      <item>
@@ -290,7 +290,7 @@ De huidige gegevensdefinitie beschrijft alleen het geotechnisch booronderzoek en
                </part>
                <part type="CFG-DOC-DEFINITIE">
                   <item>Definitie</item>
-                  <item>zie inleiding catalogus</item>
+                  <item>zie uitgiftehandboek</item>
                </part>
             </content>
             <section type="SHORT-DATAELEMENTS">
@@ -369,7 +369,7 @@ De huidige gegevensdefinitie beschrijft alleen het geotechnisch booronderzoek en
                      </item>
                      <item/>
                      <item>
-                        <item type="global">REAL</item>
+                        <item type="global" idref="global_class_DomeinmodelBROCommon_Meetwaarde">Meetwaarde</item>
                      </item>
                      <item>1</item>
                   </part>
@@ -380,7 +380,7 @@ De huidige gegevensdefinitie beschrijft alleen het geotechnisch booronderzoek en
                      </item>
                      <item/>
                      <item>
-                        <item type="global">REAL</item>
+                        <item type="global" idref="global_class_DomeinmodelBROCommon_Meetwaarde">Meetwaarde</item>
                      </item>
                      <item>1</item>
                   </part>
@@ -402,7 +402,7 @@ De huidige gegevensdefinitie beschrijft alleen het geotechnisch booronderzoek en
                </part>
                <part type="CFG-DOC-DEFINITIE">
                   <item>Definitie</item>
-                  <item>zie inleiding catalogus</item>
+                  <item>zie uitgiftehandboek</item>
                </part>
             </content>
             <section type="SHORT-DATAELEMENTS">
@@ -502,7 +502,7 @@ De huidige gegevensdefinitie beschrijft alleen het geotechnisch booronderzoek en
                </part>
                <part type="CFG-DOC-DEFINITIE">
                   <item>Definitie</item>
-                  <item>zie inleiding catalogus</item>
+                  <item>zie uitgiftehandboek</item>
                </part>
             </content>
             <section type="SHORT-DATAELEMENTS">
@@ -672,29 +672,25 @@ De huidige gegevensdefinitie beschrijft alleen het geotechnisch booronderzoek en
                </part>
             </content>
          </section>
-         <section name="Tekst7"
+         <section name="Tekst200"
                   type="PRIMITIVEDATATYPE"
-                  id="global_class_DomeinmodelBROCommon_Tekst7"
-                  uuid="EAID_1B48495E_325C_4386_8327_3DB40B7650EA">
+                  id="global_class_DomeinmodelBROCommon_Tekst200"
+                  uuid="EAID_1924B9C3_D571_4abb_B27E_2208F37EF832">
             <content>
                <part type="CFG-DOC-NAAM">
                   <item>Naam</item>
-                  <item>Tekst7</item>
+                  <item>Tekst200</item>
                </part>
                <part type="CFG-DOC-DEFINITIE">
                   <item>Definitie</item>
-                  <item>n.v.t.</item>
-               </part>
-               <part type="CFG-DOC-PATROON">
-                  <item>Patroon</item>
-                  <item>NNNN-NN</item>
+                  <item>zie inleiding catalogus</item>
                </part>
             </content>
          </section>
          <section name="Tekst40"
                   type="PRIMITIVEDATATYPE"
                   id="global_class_DomeinmodelBROCommon_Tekst40"
-                  uuid="EAID_3F2A0308_AB19_4402_8A77_026725F1792C">
+                  uuid="EAID_72AA492E_03B5_4efe_9A62_255CD1A48A52">
             <content>
                <part type="CFG-DOC-NAAM">
                   <item>Naam</item>
@@ -706,29 +702,14 @@ De huidige gegevensdefinitie beschrijft alleen het geotechnisch booronderzoek en
                </part>
             </content>
          </section>
-         <section name="Tekst100"
+         <section name="Tekst7"
                   type="PRIMITIVEDATATYPE"
-                  id="global_class_DomeinmodelBROCommon_Tekst100"
-                  uuid="EAID_4588A7E1_6802_4ae9_B0A6_73F7847739BB">
+                  id="global_class_DomeinmodelBROCommon_Tekst7"
+                  uuid="EAID_B217E613_E1DE_4094_9AC7_191691491827">
             <content>
                <part type="CFG-DOC-NAAM">
                   <item>Naam</item>
-                  <item>Tekst100</item>
-               </part>
-               <part type="CFG-DOC-DEFINITIE">
-                  <item>Definitie</item>
-                  <item>zie inleiding catalogus</item>
-               </part>
-            </content>
-         </section>
-         <section name="Tekst200"
-                  type="PRIMITIVEDATATYPE"
-                  id="global_class_DomeinmodelBROCommon_Tekst200"
-                  uuid="EAID_1924B9C3_D571_4abb_B27E_2208F37EF832">
-            <content>
-               <part type="CFG-DOC-NAAM">
-                  <item>Naam</item>
-                  <item>Tekst200</item>
+                  <item>Tekst7</item>
                </part>
                <part type="CFG-DOC-DEFINITIE">
                   <item>Definitie</item>
@@ -1145,14 +1126,14 @@ De huidige gegevensdefinitie beschrijft alleen het geotechnisch booronderzoek en
                      type="KEUZE"
                      id="detail_class_DomeinmodelBROCommon_OnvolledigeDatum"
                      id-global="global_class_DomeinmodelBROCommon_OnvolledigeDatum">
-               <section name="volledige datum"
+               <section name="datum"
                         type="DETAIL-UNIONELEMENT"
-                        id="detail_attribute_DomeinmodelBROCommon_OnvolledigeDatum_volledigeDatum"
-                        id-global="global_attribute_DomeinmodelBROCommon_OnvolledigeDatum_volledigeDatum">
+                        id="detail_attribute_DomeinmodelBROCommon_OnvolledigeDatum_datum"
+                        id-global="global_attribute_DomeinmodelBROCommon_OnvolledigeDatum_datum">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>volledige datum</item>
+                        <item>datum</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
@@ -1183,14 +1164,14 @@ De huidige gegevensdefinitie beschrijft alleen het geotechnisch booronderzoek en
                      </part>
                   </content>
                </section>
-               <section name="jaartal"
+               <section name="jaar"
                         type="DETAIL-UNIONELEMENT"
-                        id="detail_attribute_DomeinmodelBROCommon_OnvolledigeDatum_jaartal"
-                        id-global="global_attribute_DomeinmodelBROCommon_OnvolledigeDatum_jaartal">
+                        id="detail_attribute_DomeinmodelBROCommon_OnvolledigeDatum_jaar"
+                        id-global="global_attribute_DomeinmodelBROCommon_OnvolledigeDatum_jaar">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>jaartal</item>
+                        <item>jaar</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
@@ -1372,7 +1353,7 @@ De huidige gegevensdefinitie beschrijft alleen het geotechnisch booronderzoek en
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
-                        <item>REAL</item>
+                        <item>Meetwaarde</item>
                      </part>
                   </content>
                </section>
@@ -1399,7 +1380,7 @@ De huidige gegevensdefinitie beschrijft alleen het geotechnisch booronderzoek en
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
-                        <item>REAL</item>
+                        <item>Meetwaarde</item>
                      </part>
                   </content>
                </section>
