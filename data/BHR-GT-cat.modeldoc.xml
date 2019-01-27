@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_4532D2FB_BE47_4dc9_BBAD_0F65D43D52FB"
       generator-version="1.50.1"
-      generator-date="2019-01-27T19:53:04Z">
+      generator-date="2019-01-27T20:02:58Z">
    <section type="DOMAIN"
             name="Domeinmodel BRO Common"
             id="global_package_DomeinmodelBROCommon"><!--removed empty content-->
@@ -24,7 +24,7 @@
                </part>
                <part type="CFG-DOC-DEFINITIE">
                   <item>Definitie</item>
-                  <item>TODO</item>
+                  <item>n.v.t.</item>
                </part>
                <part type="CFG-DOC-HERKOMSTDEFINITIE">
                   <item>Herkomst definitie</item>
@@ -166,7 +166,7 @@ De huidige gegevensdefinitie beschrijft alleen het geotechnisch booronderzoek en
                </part>
                <part type="CFG-DOC-DEFINITIE">
                   <item>Definitie</item>
-                  <item>Voor gegevens die onder het kwaliteitsregime IMBRO/A aangeleverd worden, geldt een derde domein met vier keuzemogelijkheden.</item>
+                  <item>zie inleiding catalogus</item>
                </part>
             </content>
             <section type="SHORT-UNIONELEMENTS">
@@ -238,7 +238,7 @@ De huidige gegevensdefinitie beschrijft alleen het geotechnisch booronderzoek en
                </part>
                <part type="CFG-DOC-DEFINITIE">
                   <item>Definitie</item>
-                  <item>TODO</item>
+                  <item>zie inleiding catalogus</item>
                </part>
             </content>
             <section type="SHORT-UNIONELEMENTS">
@@ -287,6 +287,10 @@ De huidige gegevensdefinitie beschrijft alleen het geotechnisch booronderzoek en
                <part type="CFG-DOC-HERKOMST">
                   <item>Herkomst</item>
                   <item>BRO</item>
+               </part>
+               <part type="CFG-DOC-DEFINITIE">
+                  <item>Definitie</item>
+                  <item>zie inleiding catalogus</item>
                </part>
             </content>
             <section type="SHORT-DATAELEMENTS">
@@ -348,7 +352,7 @@ De huidige gegevensdefinitie beschrijft alleen het geotechnisch booronderzoek en
                </part>
                <part type="CFG-DOC-DEFINITIE">
                   <item>Definitie</item>
-                  <item>[zie catalogus]</item>
+                  <item>zie inleiding catalogus</item>
                </part>
             </content>
             <section type="SHORT-DATAELEMENTS">
@@ -396,6 +400,10 @@ De huidige gegevensdefinitie beschrijft alleen het geotechnisch booronderzoek en
                   <item>Herkomst</item>
                   <item>BRO</item>
                </part>
+               <part type="CFG-DOC-DEFINITIE">
+                  <item>Definitie</item>
+                  <item>zie inleiding catalogus</item>
+               </part>
             </content>
             <section type="SHORT-DATAELEMENTS">
                <content>
@@ -442,6 +450,10 @@ De huidige gegevensdefinitie beschrijft alleen het geotechnisch booronderzoek en
                   <item>Herkomst</item>
                   <item>BRO</item>
                </part>
+               <part type="CFG-DOC-DEFINITIE">
+                  <item>Definitie</item>
+                  <item>zie inleiding catalogus</item>
+               </part>
             </content>
             <section type="SHORT-DATAELEMENTS">
                <content>
@@ -487,6 +499,10 @@ De huidige gegevensdefinitie beschrijft alleen het geotechnisch booronderzoek en
                <part type="CFG-DOC-HERKOMST">
                   <item>Herkomst</item>
                   <item>BRO</item>
+               </part>
+               <part type="CFG-DOC-DEFINITIE">
+                  <item>Definitie</item>
+                  <item>zie inleiding catalogus</item>
                </part>
             </content>
             <section type="SHORT-DATAELEMENTS">
@@ -546,7 +562,7 @@ De huidige gegevensdefinitie beschrijft alleen het geotechnisch booronderzoek en
                </part>
                <part type="CFG-DOC-DEFINITIE">
                   <item>Definitie</item>
-                  <item>Een domein van het type aantal is een natuurlijk getal met een bepaalde maximale lengte. Het wordt gebruikt voor een telbare hoeveelheid. Een domein wordt volledig gespecificeerd door met de aanduiding ook de maximale lengte mee te geven. In het domeinmodel is de algemene aanduiding AantalN, waarbij N de maximale lengte aangeeft.</item>
+                  <item>zie inleiding catalogus</item>
                </part>
             </content>
          </section>
@@ -561,8 +577,7 @@ De huidige gegevensdefinitie beschrijft alleen het geotechnisch booronderzoek en
                </part>
                <part type="CFG-DOC-DEFINITIE">
                   <item>Definitie</item>
-                  <item>Het domein Datum geeft een datum volgens de Gregoriaanse kalender tot op de dag nauwkeurig. De opbouw is JJJJ-MM-DD.
-Wanneer een attribuut een domein van het type Datum heeft is het voldoende de naam te geven, omdat de opbouw altijd hetzelfde is.</item>
+                  <item>zie inleiding catalogus</item>
                </part>
                <part type="CFG-DOC-PATROON">
                   <item>Patroon</item>
@@ -581,8 +596,7 @@ Wanneer een attribuut een domein van het type Datum heeft is het voldoende de na
                </part>
                <part type="CFG-DOC-DEFINITIE">
                   <item>Definitie</item>
-                  <item>Het domein DatumTijd geeft een tijdstip volgens de Gregoriaanse kalender tot op de seconde nauwkeurig. De opbouw is JJJJ-MM-DDTUU:MM:SS+UU:MM.
-Wanneer een attribuut een domein van het type DatumTijd heeft is het voldoende de naam te geven, omdat de opbouw altijd hetzelfde is.</item>
+                  <item>zie inleiding catalogus</item>
                </part>
                <part type="CFG-DOC-PATROON">
                   <item>Patroon</item>
@@ -601,7 +615,7 @@ Wanneer een attribuut een domein van het type DatumTijd heeft is het voldoende d
                </part>
                <part type="CFG-DOC-DEFINITIE">
                   <item>Definitie</item>
-                  <item>Het domein KvK-nummer geeft het identificerende gegeven van een onderneming in het Handelsregister. De opbouw is NNNNNNNN.</item>
+                  <item>zie inleiding catalogus</item>
                </part>
                <part type="CFG-DOC-PATROON">
                   <item>Patroon</item>
@@ -620,13 +634,7 @@ Wanneer een attribuut een domein van het type DatumTijd heeft is het voldoende d
                </part>
                <part type="CFG-DOC-DEFINITIE">
                   <item>Definitie</item>
-                  <item>Het domein meetwaarde wordt in de basisregistratie ondergrond gebruikt voor gegevens die gemeten, berekend of anderszins bepaald zijn. Het is een getal en bij het getal hoort een eenheid. De basisregistratie ondergrond gebruikt voor de eenheden de codes uit het UCUM (Unified Code for Units of Measure)-systeem. In bijzondere gevallen is de eenheid dimensieloos.</item>
-               </part>
-               <part type="CFG-DOC-TOELICHTING">
-                  <item>Toelichting</item>
-                  <item>Het getal is altijd een rationaal getal, een getal met een decimaal scheidingsteken. Door het scheidingteken krijgt het een opbouw. Het aantal cijfers voor het scheidingsteken is variabel maar begrensd. Het aantal cijfers achter het scheidingsteken ligt vast.
-Gewoonlijk wordt niet alleen de opbouw van het getal benoemd, maar wordt het domein verder ingeperkt door een bereik te specificeren. Het bereik geeft de minimale en de maximale waarde aan die een attribuut kan hebben.
-Wanneer een attribuut een domein van het type meetwaarde heeft wordt de opbouw, de eenheid en indien van toepassing het bereik gegeven. De opbouw wordt aangeduid als N.N waarde. N staat voor het maximum aantal cijfers voor, resp. het aantal cijfers achter het scheidingsteken.</item>
+                  <item>zie inleiding catalogus</item>
                </part>
             </content>
          </section>
@@ -641,7 +649,7 @@ Wanneer een attribuut een domein van het type meetwaarde heeft wordt de opbouw, 
                </part>
                <part type="CFG-DOC-DEFINITIE">
                   <item>Definitie</item>
-                  <item>[zie catalogus]</item>
+                  <item>zie inleiding catalogus</item>
                </part>
             </content>
          </section>
@@ -656,12 +664,7 @@ Wanneer een attribuut een domein van het type meetwaarde heeft wordt de opbouw, 
                </part>
                <part type="CFG-DOC-DEFINITIE">
                   <item>Definitie</item>
-                  <item>De identificatie van een object in de registratie ondergrond.</item>
-               </part>
-               <part type="CFG-DOC-TOELICHTING">
-                  <item>Toelichting</item>
-                  <item>Opbouw: BHRNNNNNNNNNNNN
-De basisregistratie ondergrond kent bij registratie automatisch de juiste waarde aan het object toe.</item>
+                  <item>zie inleiding catalogus</item>
                </part>
                <part type="CFG-DOC-PATROON">
                   <item>Patroon</item>
@@ -680,8 +683,7 @@ De basisregistratie ondergrond kent bij registratie automatisch de juiste waarde
                </part>
                <part type="CFG-DOC-DEFINITIE">
                   <item>Definitie</item>
-                  <item>Een domein van het type tekst bestaat uit een stuk tekst van een bepaalde maximale lengte. De tekst mag alleen bestaan uit de tekens die voorkomen in de MES-1 set. De MES-1 set omvat 335 tekens en wordt gebruikt binnen de landen van de Europese Unie die een Latijns schrift kennen.
-Een domein van het type tekst wordt volledig gespecificeerd door met de aanduiding tekst ook de maximale lengte mee te geven. In het domeinmodel wordt het domein aangeduid als TekstN, waarbij N de maximale lengte aangeeft.</item>
+                  <item>n.v.t.</item>
                </part>
                <part type="CFG-DOC-PATROON">
                   <item>Patroon</item>
@@ -700,8 +702,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                </part>
                <part type="CFG-DOC-DEFINITIE">
                   <item>Definitie</item>
-                  <item>Een domein van het type tekst bestaat uit een stuk tekst van een bepaalde maximale lengte. De tekst mag alleen bestaan uit de tekens die voorkomen in de MES-1 set. De MES-1 set omvat 335 tekens en wordt gebruikt binnen de landen van de Europese Unie die een Latijns schrift kennen.
-Een domein van het type tekst wordt volledig gespecificeerd door met de aanduiding tekst ook de maximale lengte mee te geven. In het domeinmodel wordt het domein aangeduid als TekstN, waarbij N de maximale lengte aangeeft.</item>
+                  <item>zie inleiding catalogus</item>
                </part>
             </content>
          </section>
@@ -716,8 +717,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                </part>
                <part type="CFG-DOC-DEFINITIE">
                   <item>Definitie</item>
-                  <item>Een domein van het type tekst bestaat uit een stuk tekst van een bepaalde maximale lengte. De tekst mag alleen bestaan uit de tekens die voorkomen in de MES-1 set. De MES-1 set omvat 335 tekens en wordt gebruikt binnen de landen van de Europese Unie die een Latijns schrift kennen.
-Een domein van het type tekst wordt volledig gespecificeerd door met de aanduiding tekst ook de maximale lengte mee te geven. In het domeinmodel wordt het domein aangeduid als TekstN, waarbij N de maximale lengte aangeeft.</item>
+                  <item>zie inleiding catalogus</item>
                </part>
             </content>
          </section>
@@ -732,8 +732,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                </part>
                <part type="CFG-DOC-DEFINITIE">
                   <item>Definitie</item>
-                  <item>Een domein van het type tekst bestaat uit een stuk tekst van een bepaalde maximale lengte. De tekst mag alleen bestaan uit de tekens die voorkomen in de MES-1 set. De MES-1 set omvat 335 tekens en wordt gebruikt binnen de landen van de Europese Unie die een Latijns schrift kennen.
-Een domein van het type tekst wordt volledig gespecificeerd door met de aanduiding tekst ook de maximale lengte mee te geven. In het domeinmodel wordt het domein aangeduid als TekstN, waarbij N de maximale lengte aangeeft.</item>
+                  <item>zie inleiding catalogus</item>
                </part>
             </content>
          </section>
@@ -784,7 +783,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                <item id="global_class_DomeinmodelBROCommon_RedenGeenWaarde"
                      uuid="EAID_D27388D3_9B9E_4d71_AA9B_871AF52072B4"
                      idref="detail_class_DomeinmodelBROCommon_RedenGeenWaarde">RedenGeenWaarde</item>
-               <item>TODO</item>
+               <item>n.v.t.</item>
             </part>
          </content>
       </section>
@@ -1786,7 +1785,7 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item>TODO</item>
+                     <item>n.v.t.</item>
                   </part>
                </content>
                <content>
@@ -1819,6 +1818,10 @@ Een domein van het type tekst wordt volledig gespecificeerd door met de aanduidi
                <part type="CFG-DOC-HERKOMST">
                   <item>Herkomst</item>
                   <item>BRO</item>
+               </part>
+               <part type="CFG-DOC-DEFINITIE">
+                  <item>Definitie</item>
+                  <item>De gegevens die het booronderzoek identificeren en inzicht geven in de geschiedenis van het object voorafgaand aan opname in de registratie ondergrond.</item>
                </part>
                <part type="CFG-DOC-HERKOMSTDEFINITIE">
                   <item>Herkomst definitie</item>
