@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_4532D2FB_BE47_4dc9_BBAD_0F65D43D52FB"
       generator-version="1.52.4"
-      generator-date="2019-04-15T06:48:22Z">
+      generator-date="2019-04-17T12:42:37Z">
    <chapter title="CHAPTER-CATALOG" type="cat">
       <section type="DOMAIN"
                name="Domeinmodel BRO Common"
@@ -1927,7 +1927,7 @@ De huidige gegevensdefinitie beschrijft alleen het geotechnisch booronderzoek en
                         <item>0 .. 1</item>
                      </part>
                      <part type="COMPOSER">
-                        <item uuid="EAID_FEC6D48A_0434_4105_9576_F6FEC3D4EF01">
+                        <item>
                            <item type="detail"
                                  idref="detail_class_DomeinmodelBROBHRGT_AangeleverdeLocatie">aangeleverde locatie (Aangeleverde locatie)</item>
                         </item>
@@ -2017,7 +2017,7 @@ De huidige gegevensdefinitie beschrijft alleen het geotechnisch booronderzoek en
                         <item>0 .. 1</item>
                      </part>
                      <part type="COMPOSER">
-                        <item uuid="EAID_D119934B_C04E_45c4_9302_C7C76C8F2C7B">
+                        <item>
                            <item type="detail"
                                  idref="detail_class_DomeinmodelBROBHRGT_AangeleverdeVerticalePositie">aangeleverde verticale positie (Aangeleverde verticale positie)</item>
                         </item>
@@ -2138,7 +2138,7 @@ De huidige gegevensdefinitie beschrijft alleen het geotechnisch booronderzoek en
                         <item>0 .. 1</item>
                      </part>
                      <part type="COMPOSER">
-                        <item uuid="EAID_F4C0AE33_7AEA_494e_8BD2_F4D911FBCCD9">
+                        <item>
                            <item type="detail"
                                  idref="detail_class_DomeinmodelBROCommon_GestandaardiseerdeLocatie">gestandaardiseerde locatie (Gestandaardiseerde locatie)</item>
                         </item>
@@ -2198,7 +2198,7 @@ De huidige gegevensdefinitie beschrijft alleen het geotechnisch booronderzoek en
                         <item>1</item>
                      </part>
                      <part type="COMPOSER">
-                        <item uuid="EAID_BDE32A45_717B_458b_B1B4_CA5D40A5B3C4">
+                        <item>
                            <item type="detail" idref="detail_class_DomeinmodelBROBHRGT_Terreintoestand">terreintoestand (Terreintoestand)</item>
                         </item>
                         <item>
@@ -2950,7 +2950,7 @@ De huidige gegevensdefinitie beschrijft alleen het geotechnisch booronderzoek en
                         <item>1</item>
                      </part>
                      <part type="COMPOSER">
-                        <item uuid="EAID_407DBB60_5226_4b45_AFF3_62AF2503CAD9">
+                        <item>
                            <item type="detail" idref="detail_class_DomeinmodelBROBHRGT_Boorsnelheid">boorsnelheid (Boorsnelheid)</item>
                         </item>
                         <item>
@@ -3636,7 +3636,7 @@ Voor gegevens onder IMBRO/A is alleen bij uitzondering vastgelegd welk interval 
                         <item>0 .. 1</item>
                      </part>
                      <part type="COMPOSER">
-                        <item uuid="EAID_052582B5_2256_420f_8DBE_1D18C75AAA84">
+                        <item>
                            <item type="detail"
                                  idref="detail_class_DomeinmodelBROBHRGT_Bemonsteringsapparaat">bemonsteringsapparaat (Bemonsteringsapparaat)</item>
                         </item>
@@ -3814,7 +3814,7 @@ Voor gegevens onder IMBRO/A is alleen bij uitzondering vastgelegd welk interval 
                         <item>0 .. 1</item>
                      </part>
                      <part type="COMPOSER">
-                        <item uuid="EAID_0E1B20E9_BB16_468f_B4F7_9E2244547491">
+                        <item>
                            <item type="detail" idref="detail_class_DomeinmodelBROBHRGT_Kernopbrengst">kernopbrengst (Kernopbrengst)</item>
                         </item>
                         <item>
@@ -5151,7 +5151,7 @@ Vanwege het synthetisch karakter van een boorprofiel, wordt een laag onder NEN 5
                         <item>0 .. 1</item>
                      </part>
                      <part type="COMPOSER">
-                        <item uuid="EAID_5D7B6759_EE1B_4001_A561_1363C6061467">
+                        <item>
                            <item type="detail" idref="detail_class_DomeinmodelBROBHRGT_Grond">grond (Grond)</item>
                         </item>
                         <item>
@@ -5639,7 +5639,7 @@ Vanwege het synthetisch karakter van een boorprofiel, wordt een laag onder NEN 5
                         <item>0 .. 2</item>
                      </part>
                      <part type="COMPOSER">
-                        <item uuid="EAID_FFB8857B_8611_44d1_9A08_3F7B57379E9E">
+                        <item>
                            <item type="detail" idref="detail_class_DomeinmodelBROBHRGT_Gesteente">gesteente (Gesteente)</item>
                         </item>
                         <item>
@@ -6697,7 +6697,7 @@ De regels borgen impliciet dat het gegeven niet aanwezig is wanneer de boormonst
                         <item>1</item>
                      </part>
                      <part type="COMPOSER">
-                        <item uuid="EAID_BD31A74D_B5C6_480b_905E_F91814C80941">
+                        <item>
                            <item type="detail"
                                  idref="detail_class_DomeinmodelBROBHRGT_OnderzochtMateriaal">onderzocht materiaalGG (Onderzocht materiaal)</item>
                         </item>
@@ -7400,7 +7400,7 @@ De bepaling wordt uitgevoerd aan cohesieve grond, en dat wil zeggen grond die sa
                         <item>0 .. 1</item>
                      </part>
                      <part type="COMPOSER">
-                        <item uuid="EAID_99B52F6C_67D8_434c_B42D_4C80CAE381F3">
+                        <item>
                            <item type="detail" idref="detail_class_DomeinmodelBROBHRGT_Bepalingsstap">bepalingsstapGG (Bepalingsstap)</item>
                         </item>
                         <item>
@@ -8009,7 +8009,7 @@ De bepaling wordt uitgevoerd aan grond en aan stenig bijzonder materiaal en de m
                         <item>0 .. 1</item>
                      </part>
                      <part type="COMPOSER">
-                        <item uuid="EAID_FB731E73_33C1_4ed4_B10A_2857D97CBAD0">
+                        <item>
                            <item type="detail"
                                  idref="detail_class_DomeinmodelBROBHRGT_BasisKorrelgrootteverdeling">basis korrelgrotteverderling (Basis korrelgrootteverdeling)</item>
                         </item>
@@ -8368,7 +8368,7 @@ De bepaling wordt uitgevoerd aan grond en aan stenig bijzonder materiaal en de  
                         <item>0 .. 1</item>
                      </part>
                      <part type="COMPOSER">
-                        <item uuid="EAID_1F4586A2_8FE2_449e_BCA7_0F1AE2B45E0A">
+                        <item>
                            <item type="detail"
                                  idref="detail_class_DomeinmodelBROBHRGT_ResultaatBepaling">resultaat bepaling (Resultaat bepaling)</item>
                         </item>
@@ -10697,7 +10697,8 @@ De gegevensdefinitie dekt het vakgebied geotechniek volledig, maar dat betekent 
                   <section name="Aangeleverde locatie"
                            type="DETAIL-COMPOSITE"
                            id="detail_class_DomeinmodelBROBHRGT_AangeleverdeLocatie"
-                           id-global="global_class_DomeinmodelBROBHRGT_AangeleverdeLocatie">
+                           id-global="global_class_DomeinmodelBROBHRGT_AangeleverdeLocatie"
+                           uuid="EAID_FEC6D48A_0434_4105_9576_F6FEC3D4EF01">
                      <content>
                         <part type="CFG-DOC-NAAM">
                            <item>Naam</item>
@@ -11075,7 +11076,8 @@ De gegevensdefinitie dekt het vakgebied geotechniek volledig, maar dat betekent 
                   <section name="Aangeleverde verticale positie"
                            type="DETAIL-COMPOSITE"
                            id="detail_class_DomeinmodelBROBHRGT_AangeleverdeVerticalePositie"
-                           id-global="global_class_DomeinmodelBROBHRGT_AangeleverdeVerticalePositie">
+                           id-global="global_class_DomeinmodelBROBHRGT_AangeleverdeVerticalePositie"
+                           uuid="EAID_D119934B_C04E_45c4_9302_C7C76C8F2C7B">
                      <content>
                         <part type="CFG-DOC-NAAM">
                            <item>Naam</item>
@@ -11622,7 +11624,8 @@ Voor IMBRO/A-gegevens kan de verschuiving niet bepaald zijn; alleen in dat geval
                   <section name="Gestandaardiseerde locatie"
                            type="DETAIL-COMPOSITE"
                            id="detail_class_DomeinmodelBROCommon_GestandaardiseerdeLocatie"
-                           id-global="global_class_DomeinmodelBROCommon_GestandaardiseerdeLocatie">
+                           id-global="global_class_DomeinmodelBROCommon_GestandaardiseerdeLocatie"
+                           uuid="EAID_F4C0AE33_7AEA_494e_8BD2_F4D911FBCCD9">
                      <content>
                         <part type="CFG-DOC-NAAM">
                            <item>Naam</item>
@@ -11827,7 +11830,8 @@ De locatie van booronderzoek is gedefinieerd als een punt.</p>
                   <section name="Terreintoestand"
                            type="DETAIL-COMPOSITE"
                            id="detail_class_DomeinmodelBROBHRGT_Terreintoestand"
-                           id-global="global_class_DomeinmodelBROBHRGT_Terreintoestand">
+                           id-global="global_class_DomeinmodelBROBHRGT_Terreintoestand"
+                           uuid="EAID_BDE32A45_717B_458b_B1B4_CA5D40A5B3C4">
                      <content>
                         <part type="CFG-DOC-NAAM">
                            <item>Naam</item>
@@ -13997,7 +14001,8 @@ Voor onderzoek dat onder IMBRO/A valt is dit gegeven zelden vastgelegd.</p>
                   <section name="Boorsnelheid"
                            type="DETAIL-COMPOSITE"
                            id="detail_class_DomeinmodelBROBHRGT_Boorsnelheid"
-                           id-global="global_class_DomeinmodelBROBHRGT_Boorsnelheid">
+                           id-global="global_class_DomeinmodelBROBHRGT_Boorsnelheid"
+                           uuid="EAID_407DBB60_5226_4b45_AFF3_62AF2503CAD9">
                      <content>
                         <part type="CFG-DOC-NAAM">
                            <item>Naam</item>
@@ -15410,7 +15415,8 @@ Voor historische gegevens waarbij bemonstering niet volgens NEN-EN-ISO 22475 is 
                   <section name="Bemonsteringsapparaat"
                            type="DETAIL-COMPOSITE"
                            id="detail_class_DomeinmodelBROBHRGT_Bemonsteringsapparaat"
-                           id-global="global_class_DomeinmodelBROBHRGT_Bemonsteringsapparaat">
+                           id-global="global_class_DomeinmodelBROBHRGT_Bemonsteringsapparaat"
+                           uuid="EAID_052582B5_2256_420f_8DBE_1D18C75AAA84">
                      <content>
                         <part type="CFG-DOC-NAAM">
                            <item>Naam</item>
@@ -16187,7 +16193,8 @@ Voor onderzoek dat onder IMBRO/A valt zijn zelden de specificaties van het bemon
                   <section name="Kernopbrengst"
                            type="DETAIL-COMPOSITE"
                            id="detail_class_DomeinmodelBROBHRGT_Kernopbrengst"
-                           id-global="global_class_DomeinmodelBROBHRGT_Kernopbrengst">
+                           id-global="global_class_DomeinmodelBROBHRGT_Kernopbrengst"
+                           uuid="EAID_0E1B20E9_BB16_468f_B4F7_9E2244547491">
                      <content>
                         <part type="CFG-DOC-NAAM">
                            <item>Naam</item>
@@ -19513,7 +19520,8 @@ In andere gevallen ontbreekt het gegeven.</p>
                   <section name="Grond"
                            type="DETAIL-COMPOSITE"
                            id="detail_class_DomeinmodelBROBHRGT_Grond"
-                           id-global="global_class_DomeinmodelBROBHRGT_Grond">
+                           id-global="global_class_DomeinmodelBROBHRGT_Grond"
+                           uuid="EAID_5D7B6759_EE1B_4001_A561_1363C6061467">
                      <content>
                         <part type="CFG-DOC-NAAM">
                            <item>Naam</item>
@@ -21683,7 +21691,8 @@ In het geval alleen de ouderdom van de afzetting kan worden gegeven en niet het 
                      <section name="Korrelvorm"
                               type="DETAIL-COMPOSITE"
                               id="detail_class_DomeinmodelBROBHRGT_Korrelvorm"
-                              id-global="global_class_DomeinmodelBROBHRGT_Korrelvorm">
+                              id-global="global_class_DomeinmodelBROBHRGT_Korrelvorm"
+                              uuid="EAID_87A7CA78_843A_4a56_B1D2_59CAAF89316D">
                         <content>
                            <part type="CFG-DOC-NAAM">
                               <item>Naam</item>
@@ -22017,7 +22026,8 @@ Onder NEN 5104 is dit gegeven niet vastgelegd.</p>
                   <section name="Gesteente"
                            type="DETAIL-COMPOSITE"
                            id="detail_class_DomeinmodelBROBHRGT_Gesteente"
-                           id-global="global_class_DomeinmodelBROBHRGT_Gesteente">
+                           id-global="global_class_DomeinmodelBROBHRGT_Gesteente"
+                           uuid="EAID_FFB8857B_8611_44d1_9A08_3F7B57379E9E">
                      <content>
                         <part type="CFG-DOC-NAAM">
                            <item>Naam</item>
@@ -22950,7 +22960,8 @@ Het gegeven wordt vastgelegd wanneer de kwaliteit van de monsters dat rechtvaard
                      <section name="Verweringsgraad"
                               type="DETAIL-COMPOSITE"
                               id="detail_class_DomeinmodelBROBHRGT_Verweringsgraad"
-                              id-global="global_class_DomeinmodelBROBHRGT_Verweringsgraad">
+                              id-global="global_class_DomeinmodelBROBHRGT_Verweringsgraad"
+                              uuid="EAID_2E90C6A9_BE79_455a_9730_CC442BD5DFAE">
                         <content>
                            <part type="CFG-DOC-NAAM">
                               <item>Naam</item>
@@ -25086,7 +25097,8 @@ Overigens moet in het werkveld procedureel nog worden vastgelegd wat “praktisc
                   <section name="Onderzocht materiaal"
                            type="DETAIL-COMPOSITE"
                            id="detail_class_DomeinmodelBROBHRGT_OnderzochtMateriaal"
-                           id-global="global_class_DomeinmodelBROBHRGT_OnderzochtMateriaal">
+                           id-global="global_class_DomeinmodelBROBHRGT_OnderzochtMateriaal"
+                           uuid="EAID_BD31A74D_B5C6_480b_905E_F91814C80941">
                      <content>
                         <part type="CFG-DOC-NAAM">
                            <item>Naam</item>
@@ -26902,7 +26914,8 @@ Recent is er een ontwikkeling in gang gezet waarbij de bestaande apparaten worde
                   <section name="Bepalingsstap"
                            type="DETAIL-COMPOSITE"
                            id="detail_class_DomeinmodelBROBHRGT_Bepalingsstap"
-                           id-global="global_class_DomeinmodelBROBHRGT_Bepalingsstap">
+                           id-global="global_class_DomeinmodelBROBHRGT_Bepalingsstap"
+                           uuid="EAID_99B52F6C_67D8_434c_B42D_4C80CAE381F3">
                      <content>
                         <part type="CFG-DOC-NAAM">
                            <item>Naam</item>
@@ -27266,7 +27279,8 @@ Recent is er een ontwikkeling in gang gezet waarbij de bestaande apparaten worde
                      <section name="Verticale vervorming"
                               type="DETAIL-COMPOSITE"
                               id="detail_class_DomeinmodelBROBHRGT_VerticaleVervorming"
-                              id-global="global_class_DomeinmodelBROBHRGT_VerticaleVervorming">
+                              id-global="global_class_DomeinmodelBROBHRGT_VerticaleVervorming"
+                              uuid="EAID_0DF9039C_CA57_48e2_94B1_DF93667EFE8E">
                         <content>
                            <part type="CFG-DOC-NAAM">
                               <item>Naam</item>
@@ -28823,7 +28837,8 @@ Het materiaal kan na het drogen van het materiaal gedesintegreerd of verkleurd z
                   <section name="Basis korrelgrootteverdeling"
                            type="DETAIL-COMPOSITE"
                            id="detail_class_DomeinmodelBROBHRGT_BasisKorrelgrootteverdeling"
-                           id-global="global_class_DomeinmodelBROBHRGT_BasisKorrelgrootteverdeling">
+                           id-global="global_class_DomeinmodelBROBHRGT_BasisKorrelgrootteverdeling"
+                           uuid="EAID_FB731E73_33C1_4ed4_B10A_2857D97CBAD0">
                      <content>
                         <part type="CFG-DOC-NAAM">
                            <item>Naam</item>
@@ -28979,7 +28994,8 @@ Het materiaal kan na het drogen van het materiaal gedesintegreerd of verkleurd z
                      <section name="Standaardverdeling fractie kleiner63um"
                               type="DETAIL-COMPOSITE"
                               id="detail_class_DomeinmodelBROBHRGT_StandaardverdelingFractieKleiner63um"
-                              id-global="global_class_DomeinmodelBROBHRGT_StandaardverdelingFractieKleiner63um">
+                              id-global="global_class_DomeinmodelBROBHRGT_StandaardverdelingFractieKleiner63um"
+                              uuid="EAID_A6A804A8_2062_4c2b_B1C5_22BD361FB7F9">
                         <content>
                            <part type="CFG-DOC-NAAM">
                               <item>Naam</item>
@@ -29263,7 +29279,8 @@ De som van alle fracties is gelijk aan de waarde van het attribuut <em>fractie k
                      <section name="Uitgebreide verdeling fractie kleiner63um"
                               type="DETAIL-COMPOSITE"
                               id="detail_class_DomeinmodelBROBHRGT_UitgebreideVerdelingFractieKleiner63um"
-                              id-global="global_class_DomeinmodelBROBHRGT_UitgebreideVerdelingFractieKleiner63um">
+                              id-global="global_class_DomeinmodelBROBHRGT_UitgebreideVerdelingFractieKleiner63um"
+                              uuid="EAID_0A718D63_0B44_4097_90B7_BFD6992A08FC">
                         <content>
                            <part type="CFG-DOC-NAAM">
                               <item>Naam</item>
@@ -29724,7 +29741,8 @@ De som van alle fracties is gelijk aan de waarde van het attribuut <em>fractie k
                      <section name="Standaardverdeling fractie groter63um"
                               type="DETAIL-COMPOSITE"
                               id="detail_class_DomeinmodelBROBHRGT_StandaardverdelingFractieGroter63um"
-                              id-global="global_class_DomeinmodelBROBHRGT_StandaardverdelingFractieGroter63um">
+                              id-global="global_class_DomeinmodelBROBHRGT_StandaardverdelingFractieGroter63um"
+                              uuid="EAID_5BFD6DB5_6BAD_48f7_9E36_61B8CBB57ED6">
                         <content>
                            <part type="CFG-DOC-NAAM">
                               <item>Naam</item>
@@ -30719,7 +30737,8 @@ De som van alle fracties is gelijk aan de waarde van het attribuut <em>fractie g
                      <section name="Uitgebreide verdeling fractie groter63um"
                               type="DETAIL-COMPOSITE"
                               id="detail_class_DomeinmodelBROBHRGT_UitgebreideVerdelingFractieGroter63um"
-                              id-global="global_class_DomeinmodelBROBHRGT_UitgebreideVerdelingFractieGroter63um">
+                              id-global="global_class_DomeinmodelBROBHRGT_UitgebreideVerdelingFractieGroter63um"
+                              uuid="EAID_532D72B9_C894_408d_869B_32BF0C4E41D5">
                         <content>
                            <part type="CFG-DOC-NAAM">
                               <item>Naam</item>
@@ -32998,7 +33017,8 @@ De afspraak wordt opgenomen in de Nationale Praktijkrichtlijn.</p>
                   <section name="Resultaat bepaling"
                            type="DETAIL-COMPOSITE"
                            id="detail_class_DomeinmodelBROBHRGT_ResultaatBepaling"
-                           id-global="global_class_DomeinmodelBROBHRGT_ResultaatBepaling">
+                           id-global="global_class_DomeinmodelBROBHRGT_ResultaatBepaling"
+                           uuid="EAID_1F4586A2_8FE2_449e_BCA7_0F1AE2B45E0A">
                      <content>
                         <part type="CFG-DOC-NAAM">
                            <item>Naam</item>
