@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_4532D2FB_BE47_4dc9_BBAD_0F65D43D52FB"
       generator-version="1.52.4"
-      generator-date="2019-04-26T11:26:28Z">
+      generator-date="2019-04-26T12:31:43Z">
    <chapter title="CHAPTER-CATALOG" type="cat">
       <section type="DOMAIN"
                name="Domeinmodel BRO Common"
@@ -25387,7 +25387,7 @@ De einddiepte is niet groter dan de einddiepte bemonstering van de entiteit Bori
                               <p xmlns="http://www.w3.org/1999/xhtml"
                                  xmlns:html="http://www.w3.org/1999/xhtml"
                                  xmlns:imvert="http://www.imvertor.org/schema/system">Wanneer een bepaling een niet verstoord proefstuk vereist en praktisch de volledige doorsnede van een boormonster omvat, kan het materiaal niet voorafgaand aan de bepaling worden beschreven. Het wordt dan na afloop van de bepaling alsnog beschreven. Maar, omdat bepaalde eigenschappen tijdens de proef veranderd zijn, kunnen alleen de onveranderlijke eigenschappen worden beschreven. Daarmee heeft de beschrijving van het interval niet dezelfde kwaliteit als normaal beschreven intervallen. Om die reden worden de gegevens buiten het deelonderzoek boormonsterbeschrijving gehouden en als onderdeel van de bepaling vastgelegd. In het boorprofiel is het interval opgenomen als een <em>Niet beschreven interval</em> met als reden <em>onvoldoendeMateriaal</em>.
-Overigens moet in het werkveld procedureel nog worden vastgelegd wat “praktisch de volledige doorsnede” inhoudt. </p>
+Overigens moet in het werkveld procedureel nog worden vastgelegd wat 'praktisch de volledige doorsnede' inhoudt. </p>
                            </item>
                         </part>
                         <part type="CFG-DOC-MOGELIJKGEENWAARDE">
@@ -35329,7 +35329,11 @@ De afspraak wordt opgenomen in de Nationale Praktijkrichtlijn.</p>
                   <item>7parameterTransformatie</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De gegevens zijn getransformeerd van WGS84 naar ETRS89, gebruikmakend van de 7-parameter transformatie. De transformatieparameters zijn afkomstig van de Dienst der Hydrografie en zijn tijdsafhankelijk. Voor elk jaar is een parameterset beschikbaar voor de berekening van coördinaten in ETRS89 in Nederland, waarna een transformatieprocedure naar de juiste dag volgt.</p>
+                  </item>
                </part>
                <part>
                   <item>7parameterTransformatie1989</item>
