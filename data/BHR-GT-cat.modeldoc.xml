@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_4532D2FB_BE47_4dc9_BBAD_0F65D43D52FB"
       generator-version="1.52.4"
-      generator-date="2019-04-26T12:39:34Z">
+      generator-date="2019-04-26T12:54:10Z">
    <chapter title="CHAPTER-CATALOG" type="cat">
       <section type="DOMAIN"
                name="Domeinmodel BRO Common"
@@ -35895,55 +35895,102 @@ Het materiaal is vergelijkbaar met Mikolit-00 en wordt gebruikt onder omstandigh
                   <item>klasseA</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De bemonstering is erop gericht ongestoorde monsters te verkrijgen en irreversibele veranderingen in de spanningstoestand te voorkomen.
+Direct na bemonstering zijn de monsters luchtdicht verpakt om oxidatie zo veel mogelijk te voorkomen.
+De monsters zijn opgeslagen en getransporteerd in afgesloten monstercontainers van voldoende sterkte om beschadiging en vochtverlies te voorkomen.
+De monstercontainers zijn op locatie, tijdens transport en in het laboratorium opgeslagen in een omgeving waar de temperatuur tussen 8 en 12 graden C mag variëren en de luchtvochtigheid minimaal 90% bedraagt.
+De monstercontainers zijn tijdens transport beschermd tegen trillingen en schokken. </p>
+                  </item>
                </part>
                <part>
                   <item>klasseB</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De bemonstering is erop gericht ongestoorde monsters te verkrijgen waarbij verandering in de spanningstoestand wordt geaccepteerd. 
+Direct na bemonstering zijn de monsters luchtdicht verpakt om oxidatie zo veel mogelijk te voorkomen. 
+De monsters zijn opgeslagen en getransporteerd in afgesloten monstercontainers van voldoende sterkte om beschadiging en vochtverlies te voorkomen.
+De monstercontainers zijn beschermd tegen trillingen en schokken en extreme temperatuur. </p>
+                  </item>
                </part>
                <part>
                   <item>klasseC</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De bemonstering is erop gericht monsters te verkrijgen waarin de gelaagdheid en de interne structuur behouden blijft. 
+Direct na bemonstering zijn de monsters luchtdicht verpakt om oxidatie zo veel mogelijk te voorkomen.
+De monsters zijn opgeslagen en getransporteerd in afgesloten monstercontainers van voldoende sterkte om beschadiging en vochtverlies te voorkomen.</p>
+                  </item>
                </part>
                <part>
                   <item>klasseD</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De bemonstering is erop gericht monsters te verkrijgen waarin de gelaagdheid behouden blijft. 
+Direct na bemonstering zijn de monsters luchtdicht verpakt om oxidatie zo veel mogelijk te voorkomen. De monsters kunnen in PVC of metalen monstercontainers e.d. zijn verzameld en opgeslagen. </p>
+                  </item>
                </part>
                <part>
                   <item>klasseE</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De bemonstering is erop gericht een goede indruk te krijgen van de samenstelling van de ondergrond. 
+Er gelden geen bijzondere eisen. De monsters kunnen in monsterbakken, zakken, potten e.d. verzameld en opgeslagen zijn. </p>
+                  </item>
                </part>
                <part>
                   <item>deelsOngeroerd</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Een niet nader gespecificeerd deel van de monsters is ongeroerd. Dat houdt in dat de kwaliteit daarvan tenminste vergelijkbaar is met klasse D onder IMBRO.</p>
+                  </item>
                </part>
                <part>
                   <item>geroerd</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De monsters zijn geroerd. Dat houdt in dat de kwaliteit vergelijkbaar is met klasse E onder IMBRO.</p>
+                  </item>
                </part>
                <part>
                   <item>onbekend</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De bemonsteringskwaliteit is niet bekend.</p>
+                  </item>
                </part>
                <part>
                   <item>ongeroerd</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De monsters zijn ongeroerd. Dat houdt in dat de kwaliteit tenminste vergelijkbaar is met klasse D onder IMBRO.</p>
+                  </item>
                </part>
             </content>
          </section>
@@ -35971,85 +36018,152 @@ Het materiaal is vergelijkbaar met Mikolit-00 en wordt gebruikt onder omstandigh
                   <item>graven</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Manier van bemonsteren waarbij een deel van de ondergrond mechanisch of met de hand wordt weggegraven en in een graafbak of op een schep naar boven wordt gehaald. 
+Levert normaliter monsters op met bemonsteringskwaliteit klasse E.</p>
+                  </item>
                </part>
                <part>
                   <item>opAfstandDroog</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Manier van bemonsteren waarbij het materiaal op diepte wordt losgeroerd, de losgemaakte grond door schroefwerking naar boven wordt gehaald of met behulp van perslucht wordt losgemaakt en naar boven gehaald en aan het oppervlak bemonsterd wordt. Een van de methoden die gebruikt worden bij boren met een avegaar.
+Levert normaliter monsters met bemonsteringskwaliteit klasse E.</p>
+                  </item>
                </part>
                <part>
                   <item>opAfstandNat</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Manier van bemonsteren waarbij het materiaal op diepte wordt losgeroerd of losgespoten, het losgemaakte materiaal naar boven wordt gespoeld en aan het oppervlak bemonsterd wordt door vloeistof en materiaal van elkaar te scheiden. De methode wordt gebruikt bij counterflushboren, bij gebruik van de geodoff, luchtliften, rotary-drilling, spuitboren, straightflushboren en mechanisch zuigboren. 
+Levert normaliter monsters op met bemonsteringskwaliteit klasse E.</p>
+                  </item>
                </part>
                <part>
                   <item>opDiepteGrijpen</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Manier van bemonsteren waarbij het materiaal op diepte met een grijper wordt uitgenomen. De methode wordt gebruikt bij het grijperboren.
+Levert normaliter monsters op met bemonsteringskwaliteit klasse D of E. Welke klasse van toepassing is wordt mede bepaald door de cohesie en de vochtigheid van de grond. </p>
+                  </item>
                </part>
                <part>
                   <item>opDiepteKernen</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Manier van bemonsteren waarbij een kolom materiaal op diepte met een speciale boorbeitel of met draaiende spuiters wordt vrijgeboord, in een container wordt opgevangen, wordt losgetrokken of losgesneden en naar boven wordt gehaald. De methode wordt gebruikt bij rotary-core drilling en bij gebruik van de Sherbrooke sampler, en kan worden toegepast bij boren met een holle avegaar.
+Levert normaliter monsters op met bemonsteringskwaliteit klasse A, B, C of D. Welke klasse van toepassing is wordt bepaald door het type bemonsteringsapparaat, de boortechniek, de cohesie en de vochtigheid van de grond.</p>
+                  </item>
                </part>
                <part>
                   <item>opDiepteLosroeren</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Manier van bemonsteren waarbij het materiaal op diepte wordt losgeroerd, in het apparaat wordt opgevangen en met het apparaat naar boven wordt gehaald. De methode wordt gebruikt bij boren met een avegaar, bucketboren, draaiend boren met de hand, pulsboren en boren met de handbediende zuigerboor.
+Levert normaliter monsters op met bemonsteringskwaliteit klasse E tot D. Welke klasse van toepassing is wordt bepaald door de boortechniek en de cohesie en de vochtigheid van het materiaal. </p>
+                  </item>
                </part>
                <part>
                   <item>opDiepteUitsteken</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Manier van bemonsteren waarbij een kolom materiaal op diepte wordt uitgestoken, in een container wordt opgevangen, wordt losgetrokken of losgesneden en in de container naar boven wordt gehaald. 
+De methode wordt gebruikt bij het Ackermann-apparaat, het VanderStaay-apparaat, de Aqualock, de Beeker-sampler, het Begemannapparaat, de DLDS, de folie-sampler, de geodoff, de grondkolomcilinder, de gutsboor, de monsterringsteker, de (veen)profielsteker, de ramguts, sonisch boren, de spitsmuis, de steekbuis, de trilflip, het VanderHorst-steekapparaat en vibrocoren en kan gebruikt worden bij boren met de holle avegaar.
+Levert monsters op met bemonsteringskwaliteit klasse A, B, C of D. Welke klasse van toepassing is wordt bepaald door het type bemonsteringsapparaat, de boortechniek, de cohesie en de vochtigheid van het materiaal.</p>
+                  </item>
                </part>
                <part>
                   <item>onbekend</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het is niet bekend welke manier is toegepast.</p>
+                  </item>
                </part>
                <part>
                   <item>onbekendDeelsOpDiepteUitsteken</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Er zijn twee manieren van bemonsteren toegepast. Voor een deel van het interval is een kolom grond op diepte uitgestoken en in een container opgevangen (opDiepteUitsteken). Het is onbekend welke andere manier is toegepast.</p>
+                  </item>
                </part>
                <part>
                   <item>opAfstandDroogDeelsOpDiepteUitsteken</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Er zijn twee manieren van bemonsteren toegepast. Het materiaal is op diepte losgeroerd en de losgemaakte grond is door schroefwerking naar boven gehaald (opAfstandDroog). Voor een deel van het interval is een kolom materiaal op diepte uitgestoken en in een container opgevangen (opDiepteUitsteken).
+Dit is bijvoorbeeld het geval bij boren met een avegaar waarbij ook monsters zijn gestoken.</p>
+                  </item>
                </part>
                <part>
                   <item>opAfstandNatDeelsOpDiepteKernen</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Er zijn twee manieren van bemonsteren toegepast. Het materiaal is op diepte losgeroerd of losgespoten en de grond is naar boven gespoeld (opAfstandNat). Voor een deel van het interval is een kolom materiaal op diepte met een speciale boorbeitel of met draaiende spuiters vrijgeboord en in een container opgevangen (opDiepteKernen).
+Dit is bijvoorbeeld het geval bij straightflushboren waarbij ook is gekernd.</p>
+                  </item>
                </part>
                <part>
                   <item>opAfstandNatDeelsOpDiepteUitsteken</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Er zijn twee manieren van bemonsteren toegepast. Het materiaal is op diepte losgeroerd of losgespoten en de grond is naar boven gespoeld (opAfstandNat). Voor een deel van het interval is een kolom materiaal op diepte uitgestoken en in een container opgevangen (opDiepteUitsteken).
+Dit is bijvoorbeeld het geval bij mechanisch zuigboren waarbij ook monsters zijn gestoken.</p>
+                  </item>
                </part>
                <part>
                   <item>opAfstandOnbekend</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Manier van bemonsteren waarbij het materiaal op diepte wordt losgeroerd of losgespoten en niet bekend is hoe de losgemaakte grond naar boven is gehaald (droog of nat).</p>
+                  </item>
                </part>
                <part>
                   <item>opDiepteOnbekend</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Manier van bemonsteren waarbij het materiaal op diepte is losgemaakt en opgevangen en niet bekend is hoe het opgevangen materiaal naar boven is gehaald.</p>
+                  </item>
                </part>
             </content>
          </section>
@@ -36077,25 +36191,43 @@ Het materiaal is vergelijkbaar met Mikolit-00 en wordt gebruikt onder omstandigh
                   <item>ISO22475d1v2006</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">NEN-EN-ISO 22475-1:2006 Methoden voor monsterneming en grondwatermeting - Deel 1: Technische grondslagen voor de uitvoering. 
+Een internationale norm geaccepteerd door Nederland en Europa.</p>
+                  </item>
                </part>
                <part>
                   <item>ISO22475d1v2019</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">NEN-EN-ISO 22475-1:2019 Methoden voor monsterneming en grondwatermeting - Deel 1: Technische grondslagen voor de uitvoering. 
+Een internationale norm geaccepteerd door Nederland en Europa.</p>
+                  </item>
                </part>
                <part>
                   <item>NEN5119</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">NEN 5119:1991 Geotechniek- boren en monsternemen in grond. Een Nederlandse norm. De norm is vervangen door NEN-EN-ISO 22475-1: 2006.</p>
+                  </item>
                </part>
                <part>
                   <item>onbekend</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het is niet bekend onder welke afspraken het bemonsteren is uitgevoerd.</p>
+                  </item>
                </part>
             </content>
          </section>
@@ -36123,49 +36255,81 @@ Het materiaal is vergelijkbaar met Mikolit-00 en wordt gebruikt onder omstandigh
                   <item>PPzeerKlein</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De bepalingsdiameter van de Very Small Pocket Penetrometer of VSPP, een zakpenetrometer met zeer klein opzetstuk (3,2 mm). </p>
+                  </item>
                </part>
                <part>
                   <item>PPklein</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De bepalingsdiameter van de Small Pocket Penetrometer of SPP, een zakpenetrometer met een klein opzetstuk (4,5 mm). </p>
+                  </item>
                </part>
                <part>
                   <item>PPstandaard</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De bepalingsdiameter van de Pocket Penetrometer of PP, een zakpenetrometer zonder opzetstuk (6,3 mm).</p>
+                  </item>
                </part>
                <part>
                   <item>PPmiddelgroot</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De bepalingsdiameter van de Medium Pocket Penetrometer of MPP, een zakpenetrometer met middelgroot opzetstuk (8,5 mm).</p>
+                  </item>
                </part>
                <part>
                   <item>PPgroot</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De bepalingsdiameter van de Large Pocket Penetrometer of LPP, een zakpenetrometer met groot opzetstuk (25,4 mm).</p>
+                  </item>
                </part>
                <part>
                   <item>TVklein</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De bepalingsdiameter van de Small Torvane of STV, een handvin met klein opzetstuk (19,0 mm).</p>
+                  </item>
                </part>
                <part>
                   <item>TVstandaard</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De bepalingsdiameter van de Torvane of TV, een handvin zonder opzetstuk (25,4 mm).</p>
+                  </item>
                </part>
                <part>
                   <item>TVgroot</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De bepalingsdiameter van de Large Torvane of LTV een handvin met groot opzetstuk (47,8 mm). </p>
+                  </item>
                </part>
             </content>
          </section>
@@ -36193,127 +36357,211 @@ Het materiaal is vergelijkbaar met Mikolit-00 en wordt gebruikt onder omstandigh
                   <item>berekendWatergehalte</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De hoeveelheid water in het materiaal is voorafgaand aan de bepaling door uitpersing veranderd. Het materiaal wordt alsnog gedroogd in een oven waardoor het water verdampt. Uit het massaverlies dat het gevolg is van de verdamping van het water en de hoeveelheid uitgeperst water wordt het watergehalte berekend.</p>
+                  </item>
                </part>
                <part>
                   <item>drogen</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het materiaal wordt gedroogd in een oven waardoor het water verdampt. Uit het massaverlies wordt het watergehalte berekend.</p>
+                  </item>
                </part>
                <part>
                   <item>droogZeven</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Voor het bepalen van de verdeling van de fractie groter dan 63 µm is droge zeving gebruikt. Deze methode wordt gebruikt wanneer men ervan uitgaat dat er geen fractie kleiner dan 63 µm aanwezig is.</p>
+                  </item>
                </part>
                <part>
                   <item>getrimdVolumeMeten</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De volumieke massa is bepaald van een helemaal glad gemaakt proefstuk. De afmetingen ervan zijn nauwkeurig gemeten en de massa is met een balans bepaald.</p>
+                  </item>
                </part>
                <part>
                   <item>handvinDraaien</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De handvin wordt in het monster gedrukt en met de hand met constante snelheid gedraaid tot het materiaal bezwijkt en dat is het punt waarop de vin doorschiet. </p>
+                  </item>
                </part>
                <part>
                   <item>natDroogZeven</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het materiaal is nat gezeefd over de 63 µm-zeef. De verdeling van de korrels groter dan 63 µm is bepaald door middel van droge zeving.</p>
+                  </item>
                </part>
                <part>
                   <item>natDroogZevenHydrometer</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het materiaal is nat gezeefd over de 63µm-zeef. De verdeling van de korrels kleiner dan 63 µm is bepaald met een hydrometer. Wanneer de verdeling van de korrels groter dan 63 µm is bepaald is dit gebeurd door middel van droge zeving.</p>
+                  </item>
                </part>
                <part>
                   <item>natDroogZevenLaser</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het materiaal is nat gezeefd over de 2mm-zeef. De verdeling van de korrels kleiner dan 2 mm is bepaald door middel van laserdiffractie. De verdeling van de korrels groter dan 2 mm is bepaald door middel van droge zeving.</p>
+                  </item>
                </part>
                <part>
                   <item>natDroogZevenPipet</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het materiaal is nat gezeefd over de 63µm-zeef. De verdeling van de korrels kleiner dan 63 µm is bepaald door middel van pipetteren. Wanneer de verdeling van de korrels groter dan 63 µm is bepaald is dit gebeurd door middel van droge zeving.</p>
+                  </item>
                </part>
                <part>
                   <item>natDroogZevenRoentgen</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het materiaal is nat gezeefd over de 63 µm-zeef. De verdeling van de korrels kleiner dan 63 µm is bepaald met behulp van röntgenstraling. Wanneer de verdeling van de korrels groter dan 63 µm is bepaald is dit gebeurd door middel van droge zeving.</p>
+                  </item>
                </part>
                <part>
                   <item>natOxideren</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De organische stof is verwijderd met H2O2 (30%). Uit het massaverlies is het gehalte berekend.</p>
+                  </item>
                </part>
                <part>
                   <item>natZeven</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het materiaal is nat gezeefd over de 63 µm-zeef.</p>
+                  </item>
                </part>
                <part>
                   <item>ongetrimdVolumeMeten</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De volumieke massa is bepaald terwijl het materiaal nog in de monstercontainer zit. Dit gebeurt in het veld. Massa en inhoud van de container zijn bekend. De afmetingen van het met materiaal gevulde deel zijn zo goed mogelijk gemeten. De massa van de container met monster is bepaald met een unster.</p>
+                  </item>
                </part>
                <part>
                   <item>oplossen</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De koolzure kalk is verwijderd met HCl (0,1 M). Uit het massaverlies is het gehalte berekend.</p>
+                  </item>
                </part>
                <part>
                   <item>pyknometerGas</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De volumieke massa van de vaste delen is bepaald met een met gas gevulde pyknometer. De massa is bepaald met een balans en het volume is berekend uit het drukverschil in de pyknometer (op basis van de wet van Boyle Gay-Lussac). </p>
+                  </item>
                </part>
                <part>
                   <item>pyknometerVloeistof</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De volumieke massa van de vaste delen is bepaald met een met vloeistof gevulde pyknometer. De massa is bepaald met een balans. Het volume is berekend uit het volumeverschil van de vloeistof in de pyknometer.</p>
+                  </item>
                </part>
                <part>
                   <item>samendrukkenStapsgewijs</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Voor het bepalen van de verticale vervorming van de grond is de samendrukkingsproef gebruikt, waarbij in een aantal stappen gedurende een bepaalde tijd een bepaalde drukspanning wordt uitgeoefend op het onderzochte materiaal en daarbij de rek in verticale richting wordt gemeten.</p>
+                  </item>
                </part>
                <part>
                   <item>verhitten500</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het materiaal wordt verhit tot 500°C, waardoor de organische stof verbrandt. Uit het massaverlies wordt het gehalte berekend. </p>
+                  </item>
                </part>
                <part>
                   <item>verhitten900</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het materiaal wordt verhit van 500 tot 900 °C waardoor de koolzure kalk wordt omgezet in calciumoxide. Uit het massaverlies is het gehalte berekend.</p>
+                  </item>
                </part>
                <part>
                   <item>volumeVoorbepaald</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De volumieke massa is bepaald van het materiaal dat met een ring uit een monster is gestoken en dat vervolgens geheel pas is gemaakt. Massa en inhoud van de steekring zijn heel nauwkeurig bekend. De massa van de volle steekring is met een balans bepaald. </p>
+                  </item>
                </part>
                <part>
                   <item>zakpenetrometerDrukken</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De zakpenetrometer wordt met de hand met gelijkmatige krachttoename 5 mm in het materiaal gedrukt. Uit de drukkracht wordt de schuifspanning berekend.</p>
+                  </item>
                </part>
             </content>
          </section>
@@ -36341,19 +36589,31 @@ Het materiaal is vergelijkbaar met Mikolit-00 en wordt gebruikt onder omstandigh
                   <item>massaAangenomen</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De volumieke massa van de fijne fractie die wordt gebruikt als rekenfactor voor de bepaling van de bezinksnelheid van de korrels in water, is gebaseerd op een aanname.</p>
+                  </item>
                </part>
                <part>
                   <item>massaAfgeleid</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De volumieke massa van de fijne fractie die wordt gebruikt als rekenfactor voor de bepaling van de bezinksnelheid van de korrels in water, is afgeleid uit een meting van de volumieke massa van de vaste delen van het materiaal.</p>
+                  </item>
                </part>
                <part>
                   <item>massaBepaald</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De volumieke massa van de fijne fractie die wordt gebruikt als rekenfactor voor de bepaling van de bezinksnelheid van de korrels in water, is gemeten.</p>
+                  </item>
                </part>
             </content>
          </section>
@@ -36381,49 +36641,91 @@ Het materiaal is vergelijkbaar met Mikolit-00 en wordt gebruikt onder omstandigh
                   <item>ISO13320v2009</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">NEN-ISO 13320:2009 <em>Analyse van de deeltjesgrootteverdeling - Methoden met laserdiffractie</em> beschrijft de procedure voor het bepalen van de korrelgrootteverdeling door middel van laserdiffractie.
+Een internationale norm geaccepteerd door Nederland.</p>
+                  </item>
                </part>
                <part>
                   <item>ISO14688d2v2019</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">NEN-EN-ISO 14688-2:2019 <em>Geotechnisch onderzoek en beproeving - Identificatie en classificatie van grond - Deel 2: Grondslagen voor een classificatie</em>. Een door de NEN voor Nederland vastgestelde norm t.b.v. het classificeren van onverharde grondmonsters voor geotechniek gebaseerd op de ISO norm. 
+De uitwerking van de bepaling van de maximale ongedraineerde schuifsterke, het organischestofgehalte en het kalkgehalte zijn in de Nederlandse bijlage opgenomen. </p>
+                  </item>
                </part>
                <part>
                   <item>ISO17892d1v2014</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">NEN-EN-ISO 17892-1:2014 <em>Geotechnisch onderzoek en beproeving - Beproeving van grond in het laboratorium - Deel 1: Bepaling van het watergehalte</em> beschrijft de procedure voor het bepalen van het watergehalte door middel van drogen.
+Een internationale norm geaccepteerd door Europa en Nederland.</p>
+                  </item>
                </part>
                <part>
                   <item>ISO17892d2v2014</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">NEN-EN-ISO 17892-2:2014 <em>Geotechnisch onderzoek en beproeving - Beproeving van grond in het laboratorium - Deel 2: Bepaling van de dichtheid van fijn korrelige grond</em> beschrijft de procedure voor het bepalen van de volumieke massa.
+Een internationale norm geaccepteerd door Europa en Nederland.</p>
+                  </item>
                </part>
                <part>
                   <item>ISO13317d3v2016</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">NEN-EN-ISO 17892-3:2016 <em>Geotechnisch onderzoek en beproeving - Beproeving van grond in het laboratorium - Deel 3: Bepaling van de dichtheid van gronddeeltjes</em> beschrijft de procedure voor het bepalen van volumieke massa van de vaste delen met de gas- en vloeistofpyknometer.
+Een internationale norm geaccepteerd door Europa en Nederland.</p>
+                  </item>
                </part>
                <part>
                   <item>ISO17892d4v2016</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">NEN-EN-ISO 17892-4:2016 <em>Geotechnisch onderzoek en beproeving - Beproeving van grond in het laboratorium - Deel 4: Bepaling van de korrelgrootte verdeling</em>beschrijft de procedure voor het bepalen van de korrelgrootteverdeling van fracties door middel van natte zeving over de 63µm-zeef, droge zeving voor fracties groter dan 63 µm en voor de fracties kleiner dan 63 µm met de hydrometer en de pipetmethode.
+Een internationale norm geaccepteerd door Europa en Nederland.</p>
+                  </item>
                </part>
                <part>
                   <item>ISO17892d4v2016enISO13317d3v2001</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">NEN-EN-ISO 17892-4:2016 <em>Geotechnisch onderzoek en beproeving - Beproeving van grond in het laboratorium - Deel 4: Bepaling van de korrelgrootte verdeling</em> beschrijft de procedure voor het bepalen van de korrelgrootteverdeling van fracties door middel van natte zeving over de 63µm-zeef en droge zeving voor fracties groter dan 63 µm.
+Een internationale norm geaccepteerd door Europa en Nederland.
+NEN-ISO 13317-3:2001 <em>Bepaling van de deeltjesgrootteverdeling met zwaartekracht-sedimentatiemethoden in vloeistof – Deel 3: Zwaartekrachttechniek met röntgenstraling</em> beschrijft de procedure voor het bepalen van de verdeling van fracties kleiner dan 63 µm door middel van röntgenstraling.
+Een internationale norm geaccepteerd door Nederland.</p>
+                  </item>
                </part>
                <part>
                   <item>ISO17892d5v2017</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">NEN-EN-ISO 17892-5:2017 <em>Geotechnisch onderzoek en beproeving - Beproeving van grond in het laboratorium - Deel 5: Eén-dimensionale samendrukkingsproef</em> beschrijft de procedure voor het bepalen van verticale vervorming door middel van samendrukken, de <em>samendrukkingsproef</em>.
+Een internationale norm geaccepteerd door Europa en Nederland.</p>
+                  </item>
                </part>
             </content>
          </section>
@@ -36451,19 +36753,31 @@ Het materiaal is vergelijkbaar met Mikolit-00 en wordt gebruikt onder omstandigh
                   <item>grond</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het boorprofiel omvat alleen lagen die beschreven zijn als grond of bijzonder materiaal.</p>
+                  </item>
                </part>
                <part>
                   <item>grondGesteente</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het boorprofiel omvat lagen die beschreven zijn als grond of bijzonder materiaal zowel als lagen die beschreven zijn als gesteente. </p>
+                  </item>
                </part>
                <part>
                   <item>gesteente</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het boorprofiel omvat alleen lagen die beschreven zijn als gesteente.</p>
+                  </item>
                </part>
             </content>
          </section>
@@ -36491,31 +36805,51 @@ Het materiaal is vergelijkbaar met Mikolit-00 en wordt gebruikt onder omstandigh
                   <item>klasse2geroerd</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De grond is beschreven volgens de eisen in NEN-EN-ISO 14688-1 gesteld aan standaard geotechnisch booronderzoek, waarbij de gelaagdheid in de monsters verstoord is. Het eventueel aanwezige gesteente is beschreven op een gelijkwaardige manier. </p>
+                  </item>
                </part>
                <part>
                   <item>klasse2ongedifferentieerd</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De grond is beschreven volgens de eisen in NEN-EN-ISO 14688-1 gesteld aan standaard geotechnisch booronderzoek voor handboringen waarvan alle monsters in het veld zijn beschreven, waarbij het niet relevant is of de gelaagdheid verstoord of intact is; er is geen gesteente beschreven.</p>
+                  </item>
                </part>
                <part>
                   <item>klasse2ongeroerd</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De grond is beschreven volgens de eisen in NEN-EN-ISO 14688-1 gesteld aan standaard geotechnisch booronderzoek, waarbij de gelaagdheid door de boortechniek intact is gebleven. Het eventueel aanwezige gesteente is beschreven op een gelijkwaardige manier.</p>
+                  </item>
                </part>
                <part>
                   <item>klasse3</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De grond is beschreven volgens de eisen in NEN-EN-ISO 14688-1 gesteld aan verkennend (hand)booronderzoek; er is geen gesteente beschreven.</p>
+                  </item>
                </part>
                <part>
                   <item>nietGespecificeerd</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De grond is beschreven op basis van NEN 5104 en met verschillen in monsterkwaliteit is bij de beschrijving niet consequent rekening gehouden; er is geen gesteente beschreven.</p>
+                  </item>
                </part>
             </content>
          </section>
@@ -36543,25 +36877,41 @@ Het materiaal is vergelijkbaar met Mikolit-00 en wordt gebruikt onder omstandigh
                   <item>lab</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De monsters zijn beschreven in een beschrijfruimte. </p>
+                  </item>
                </part>
                <part>
                   <item>veld</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De monsters zijn beschreven in het veld, direct na monstername. </p>
+                  </item>
                </part>
                <part>
                   <item>veldlab</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De monsters zijn beschreven in een container aan boord van een schip of een daarmee vergelijkbare ruimte, direct na monstername.</p>
+                  </item>
                </part>
                <part>
                   <item>onbekend</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De plek waar de monsters zijn beschreven is niet bekend.</p>
+                  </item>
                </part>
             </content>
          </section>
@@ -36589,19 +36939,32 @@ Het materiaal is vergelijkbaar met Mikolit-00 en wordt gebruikt onder omstandigh
                   <item>ISO14688d1v2019</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">NEN-EN-ISO 14688-1. Een door de NEN voor Nederland vastgestelde norm t.b.v. het identificeren van onverharde grondmonsters voor geotechniek gebaseerd op de ISO norm. De norm is vastgesteld in september 2013 en is de vervanger voor de NEN 5104. De versie uit 2019 is een herziening.</p>
+                  </item>
                </part>
                <part>
                   <item>ISO14689d1v2018</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">NEN-EN-ISO 14689-1 versie 2018. Geotechnisch onderzoek en beproeving - Identificatie en classificatie van gesteente - Deel 1: Identificatie en beschrijving.
+Een internationale norm geaccepteerd door Europa en Nederland.</p>
+                  </item>
                </part>
                <part>
                   <item>NEN5104Synthetisch</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De grond is geclassificeerd volgens NEN 5104 en die norm vormt de basis van de procedure. Wanneer de grond niet geclassificeerd kan worden is het bijzonder materiaal. De procedure kent geen strikt onderscheid tussen beschrijven, analyseren en interpreteren en daardoor kan het resultaat een synthetisch karakter hebben.</p>
+                  </item>
                </part>
             </content>
          </section>
@@ -36629,253 +36992,421 @@ Het materiaal is vergelijkbaar met Mikolit-00 en wordt gebruikt onder omstandigh
                   <item>geen</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Geen bijzondere bestanddelen.</p>
+                  </item>
                </part>
                <part>
                   <item>artefact</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Een antropogeen bestanddeel: de niet nader omschreven (resten van) voorwerpen die door de mens gemaakt zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>botrestenWeinig</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Een natuurlijk bestanddeel: resten van botten, voorkomend in een mate die niet van invloed is op de geotechnische eigenschappen van de grond.</p>
+                  </item>
                </part>
                <part>
                   <item>botrestenVeel</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Een natuurlijk bestanddeel: resten van botten, voorkomend in een mate die van invloed is op de geotechnische eigenschappen van de grond.</p>
+                  </item>
                </part>
                <part>
                   <item>donkereMineralenWeinig</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Een natuurlijk bestanddeel: deeltjes die opaak en donker van kleur en minder hard dan kwarts zijn, voorkomend in een mate die niet van invloed is op de geotechnische eigenschappen van de grond.</p>
+                  </item>
                </part>
                <part>
                   <item>donkereMineralenVeel</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Een natuurlijk bestanddeel: deeltjes die opaak en donker van kleur en minder hard dan kwarts zijn, voorkomend in een mate die van invloed is op de geotechnische eigenschappen van de grond.</p>
+                  </item>
                </part>
                <part>
                   <item>geotextiel</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Een antropogeen bestanddeel: textiel en folies die gebruikt worden in grondverbetering en meestal uit kunststof bestaan.</p>
+                  </item>
                </part>
                <part>
                   <item>glauconietWeinig</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Een natuurlijk bestanddeel: groene, groenige of bruine korrels die uit glauconiet of goethiet bestaan. Deze kleimineralen maken minder dan 25% van de grond uit; het voorkomen ervan beïnvloedt de eigenschappen van de grond omdat het korrels zijn die zich als klei gedragen. </p>
+                  </item>
                </part>
                <part>
                   <item>glauconietVeel</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Een natuurlijk bestanddeel: groene, groenige of bruine korrels die uit glauconiet of goethiet bestaan. Deze kleimineralen maken 25 tot 50% van de grond uit; het voorkomen ervan beïnvloedt de eigenschappen van de grond omdat het korrels zijn die zich als klei gedragen. </p>
+                  </item>
                </part>
                <part>
                   <item>glimmerWeinig</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Een natuurlijk bestanddeel: gladde plaatvormige deeltjes die meestal uit de mineralen muskoviet of biotiet bestaan. De glimmers komen in zo geringe mate voor dat zij niet van invloed zijn op de geotechnische eigenschappen van de grond en dat is het geval wanneer ze minder dan 1% van de grond uitmaken.</p>
+                  </item>
                </part>
                <part>
                   <item>glimmerVeel</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Een natuurlijk bestanddeel: gladde plaatvormige deeltjes die meestal uit de mineralen muskoviet of biotiet bestaan. De glimmers komen in zo grote mate voor dat zij van invloed zijn op de geotechnische eigenschappen van de grond en dat is al het geval wanneer ze 1% van de grond uitmaken.</p>
+                  </item>
                </part>
                <part>
                   <item>houtGebruikt</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Een antropogeen bestanddeel: hout of houtig materiaal dat door de mens gebruikt is. Voorbeelden zijn rijsmatten, funderingspalen, beschoeiingen, scheepswrakken. </p>
+                  </item>
                </part>
                <part>
                   <item>houtskoolWeinig</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Een antropogeen of natuurlijk bestanddeel: door verbranding verkoolde resten van hout, meestal gebroken stukjes; voorkomend in een mate die niet van invloed is op de geotechnische eigenschappen van de grond.</p>
+                  </item>
                </part>
                <part>
                   <item>houtskoolVeel</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Een antropogeen of natuurlijk bestanddeel: door verbranding verkoolde resten van hout, meestal gebroken stukjes; voorkomend in een mate die van invloed is op de geotechnische eigenschappen van de grond.</p>
+                  </item>
                </part>
                <part>
                   <item>huisvuil</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Een antropogeen bestanddeel: niet nader omschreven huishoudelijk afval. </p>
+                  </item>
                </part>
                <part>
                   <item>ijzerconcretieWeinig</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Een natuurlijk bestanddeel: delen van de grond die door ijzer(hydr)oxiden tot een geheel zijn verkit, voorkomend in een mate die niet van invloed is op de geotechnische eigenschappen van de grond.</p>
+                  </item>
                </part>
                <part>
                   <item>ijzerconcretieVeel</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Een natuurlijk bestanddeel: delen van de grond die door ijzer(hydr)oxiden tot een geheel zijn verkit, voorkomend in een mate die van invloed is op de geotechnische eigenschappen van de grond.</p>
+                  </item>
                </part>
                <part>
                   <item>ijzersulfideWeinig</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Een natuurlijk bestanddeel: delen van de grond die uit ijzersulfide bestaan, vrijwel altijd de mineralen pyriet of markasiet; voorkomend in een mate die niet van invloed is op de geotechnische eigenschappen van de grond.</p>
+                  </item>
                </part>
                <part>
                   <item>ijzersulfideVeel</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Een natuurlijk bestanddeel: delen van de grond die uit ijzersulfide bestaan, vrijwel altijd de mineralen pyriet of markasiet; voorkomend in een mate die van invloed is op de geotechnische eigenschappen van de grond.</p>
+                  </item>
                </part>
                <part>
                   <item>kalkconcretiesWeinig</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Een natuurlijk bestanddeel: delen van de grond die door carbonaat tot een geheel zijn verkit, bijvoorbeeld een septarie; voorkomend in een mate die niet van invloed is op de geotechnische eigenschappen van de grond. </p>
+                  </item>
                </part>
                <part>
                   <item>kalkconcretiesVeel</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Een natuurlijk bestanddeel: delen van de grond die door carbonaat tot een geheel zijn verkit, bijvoorbeeld een septarie; voorkomend in een mate die van invloed is op de geotechnische eigenschappen van de grond.</p>
+                  </item>
                </part>
                <part>
                   <item>kalkGemaakt</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Een antropogeen bestanddeel: op kalk gebaseerd materiaal van menselijke makelij zoals gebluste kalk of als hulpstof herkenbare kalk. </p>
+                  </item>
                </part>
                <part>
                   <item>ophoogmateriaalLichtKunststof</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Een antropogeen bestanddeel: ophoogmateriaal met een laag soortelijk gewicht dat vooral uit plastics en soortgelijke kunststoffen bestaat, met als voorbeeld geëxpandeerd polystyreen.</p>
+                  </item>
                </part>
                <part>
                   <item>ophoogmateriaalLichtStenig</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Een antropogeen bestanddeel: ophoogmateriaal met een laag soortelijk gewicht dat uit stenig materiaal van menselijke makelij bestaat. Voorbeelden zijn bims, geëxpandeerde kleikorrels, flugsand, schuimbeton en schuimglas. </p>
+                  </item>
                </part>
                <part>
                   <item>plantenrestenHoutig</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Een natuurlijk bestanddeel: de houtige, onverteerde resten van planten, zoals stammen en takken. </p>
+                  </item>
                </part>
                <part>
                   <item>plantenrestenNietHoutig</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Een natuurlijk bestanddeel: de niet-houtige, onverteerde resten van planten, zoals worteltjes, rietstengels en bladeren. </p>
+                  </item>
                </part>
                <part>
                   <item>puin</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Een antropogeen bestanddeel: bouw- en sloopafval, veelal een mengsel van stenige materialen die door de mens gemaakt of bewerkt zijn; soilmix, een mengsel van de grond ter plaatse met een materiaal als cement of waterglas, wordt ook hiertoe gerekend. </p>
+                  </item>
                </part>
                <part>
                   <item>schelpmateriaalWeinig</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Een natuurlijk bestanddeel: schelpen en resten van schelpen en wel voorkomend in een mate dat de geotechnische eigenschappen van de grond niet worden beïnvloed.</p>
+                  </item>
                </part>
                <part>
                   <item>schelpmateriaalVeel</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Een natuurlijk bestanddeel: schelpen en resten van schelpen, voorkomend in een mate dat de geotechnische eigenschappen van de grond worden beïnvloed.</p>
+                  </item>
                </part>
                <part>
                   <item>stenen</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Een antropogeen bestanddeel: stenen van natuurlijk materiaal die gebruikt zijn als ballast of stortsteen of het bijproduct zijn van mijnbouw.</p>
+                  </item>
                </part>
                <part>
                   <item>verbrandingsrestenFijn</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Een antropogeen bestanddeel: minerale verbrandingsresten met een diameter vergelijkbaar met die van silt en lutum (&lt;63µm), veelal vliegas genoemd.</p>
+                  </item>
                </part>
                <part>
                   <item>verbrandingsrestenMiddelgrof</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Een antropogeen bestanddeel: minerale verbrandingsresten met een diameter die vergelijkbaar is met zand (0.063 - 2 mm), veelal bodemas genoemd.</p>
+                  </item>
                </part>
                <part>
                   <item>verbrandingsrestenGrof</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Een antropogeen bestanddeel: minerale verbrandingsresten met een diameter groter dan 2mm; veelal slakken genoemd.</p>
+                  </item>
                </part>
                <part>
                   <item>vuursteenWeinig</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Een natuurlijk bestanddeel: concreties die bestaan uit vrijwel amorfe kwarts, voorkomend in een mate die niet van invloed is op de geotechnische eigenschappen van de grond.</p>
+                  </item>
                </part>
                <part>
                   <item>vuursteenVeel</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Een natuurlijk bestanddeel: concreties die bestaan uit vrijwel amorfe kwarts, voorkomend in een mate die van invloed is op de geotechnische eigenschappen van de grond.</p>
+                  </item>
                </part>
                <part>
                   <item>wegverhardingsmateriaal</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Een antropogeen bestanddeel: materiaal dat gebruikt is voor het verharden van wegen en erven. Voorbeelden zijn asfalt, betonklinkers, klinkers, steenslag en tegels. </p>
+                  </item>
                </part>
                <part>
                   <item>glauconiet</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Een natuurlijk bestanddeel: groene, groenige of bruine korrels die uit glauconiet of goethiet bestaan. De mate van voorkomen is niet gespecificeerd; het voorkomen ervan beïnvloedt de eigenschappen van de grond omdat het korrels zijn die zich als klei gedragen.</p>
+                  </item>
                </part>
                <part>
                   <item>houtNietGespecificeerd</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Een antropogeen of natuurlijk bestanddeel: omvat de IMBRO-waarden houtGebruikt en plantenrestenHoutig.</p>
+                  </item>
                </part>
                <part>
                   <item>houtskool</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Een antropogeen of natuurlijk bestanddeel: door verbranding verkoolde resten van hout, meestal gebroken stukjes; de mate van voorkomen is niet gespecificeerd.</p>
+                  </item>
                </part>
                <part>
                   <item>ijzerconcreties</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Een natuurlijk bestanddeel: delen van de grond die door ijzer(hydr)oxiden tot een geheel zijn verkit; de mate van voorkomen is niet gespecificeerd.</p>
+                  </item>
                </part>
                <part>
                   <item>kalkNietGespecificeerd</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Een antropogeen of natuurlijk bestanddeel: omvat de IMBRO-waarden kalkGemaakt en kalkconcretiesVeel en kalkconcretiesWeinig.</p>
+                  </item>
                </part>
                <part>
                   <item>vuursteen</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Een natuurlijk bestanddeel: concreties die bestaan uit vrijwel amorfe kwarts; de mate van voorkomen is niet gespecificeerd.</p>
+                  </item>
                </part>
             </content>
          </section>
@@ -36903,55 +37434,91 @@ Het materiaal is vergelijkbaar met Mikolit-00 en wordt gebruikt onder omstandigh
                   <item>geen</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Geen bijzondere bestanddelen.</p>
+                  </item>
                </part>
                <part>
                   <item>donkereMineralen</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Deeltjes die opaak en donker van kleur en minder hard dan kwarts zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>fosfaatconcretie</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Concretie die in belangrijke mate uit fosfaat bestaat.</p>
+                  </item>
                </part>
                <part>
                   <item>glauconiet</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Groene, groenige of bruine korrels die uit glauconiet of goethiet bestaan. </p>
+                  </item>
                </part>
                <part>
                   <item>glimmer</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Gladde plaatvormige deeltjes die meestal uit de mineralen muskoviet of biotiet bestaan.</p>
+                  </item>
                </part>
                <part>
                   <item>ijzersulfide</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Mineralen die uit ijzersulfide bestaan, vrijwel altijd pyriet of markasiet.</p>
+                  </item>
                </part>
                <part>
                   <item>mangaanconcretie</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Concretie die uit mangaanoxide bestaat.</p>
+                  </item>
                </part>
                <part>
                   <item>siderietconcretie</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Concretie die uit sideriet bestaat.</p>
+                  </item>
                </part>
                <part>
                   <item>vuursteenconcretie</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Concretie die uit vrijwel amorfe kwarts bestaat.</p>
+                  </item>
                </part>
             </content>
          </section>
@@ -36979,31 +37546,52 @@ Het materiaal is vergelijkbaar met Mikolit-00 en wordt gebruikt onder omstandigh
                   <item>desintegratie</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het onderzochte materiaal blijkt na droging in de oven op 105 of 110 °C gedesintegreerd. Dit kan wijzen op een bijzondere samenstelling van het materiaal. </p>
+                  </item>
                </part>
                <part>
                   <item>gelaagd</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het onderzochte materiaal blijkt gelaagd. Dit kan van invloed zijn op het resultaat.</p>
+                  </item>
                </part>
                <part>
                   <item>insluiting</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">In het onderzochte materiaal blijken 1 of meer insluitingen voor te komen, bijvoorbeeld een grindkorrel, schelp, een stukje puin of hout.<br clear="none"/>
+                              </p>
+                  </item>
                </part>
                <part>
                   <item>scheur</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het onderzochte materiaal blijkt gescheurd. Dit kan van invloed zijn op het resultaat. </p>
+                  </item>
                </part>
                <part>
                   <item>verkleuring</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het onderzochte materiaal blijkt na droging in de oven op 105 of 110 °C van kleur veranderd. Dit kan wijzen op een bijzondere samenstelling van het materiaal. </p>
+                  </item>
                </part>
             </content>
          </section>
@@ -37031,7 +37619,11 @@ Het materiaal is vergelijkbaar met Mikolit-00 en wordt gebruikt onder omstandigh
                   <item>nietVerwachtVerloop</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het verloop van het resultaat is anders dan verwacht.</p>
+                  </item>
                </part>
             </content>
          </section>
@@ -37059,37 +37651,61 @@ Het materiaal is vergelijkbaar met Mikolit-00 en wordt gebruikt onder omstandigh
                   <item>belastingplaatScheef</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Tijdens het belasten is de belastingplaat (ook wel loadcap of topcap genaamd) scheef gezakt en is mogelijk gaan aanlopen.</p>
+                  </item>
                </part>
                <part>
                   <item>massaProefstuk</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De massa van het proefstuk is kleiner dan de procedure voorschrijft.</p>
+                  </item>
                </part>
                <part>
                   <item>materiaalVerloren</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Er is een correctie op de verdeling van de fractie groter dan 63 µm toegepast omdat tijdens het zeven een klein deel (niet meer dan 1%) van het materiaal verloren is gegaan. </p>
+                  </item>
                </part>
                <part>
                   <item>poreuzeSteenGebroken</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Na afloop van het bepaling is geconstateerd dat een van de poreuze stenen is gebroken.</p>
+                  </item>
                </part>
                <part>
                   <item>sequentieelUitgevoerd</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het organischestofgehalte, kalkgehalte en de korrelgrootteverdeling zijn achter elkaar op hetzelfde materiaal uitgevoerd. De bepalingen kunnen minder nauwkeurig zijn doordat er materiaal kan zijn weggespoeld.</p>
+                  </item>
                </part>
                <part>
                   <item>volumeProefstuk</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het volume van het proefstuk is kleiner dan de procedure voorschrijft.</p>
+                  </item>
                </part>
             </content>
          </section>
@@ -37117,145 +37733,241 @@ Het materiaal is vergelijkbaar met Mikolit-00 en wordt gebruikt onder omstandigh
                   <item>asVulkanisch</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Natuurlijk materiaal: vulkanisch materiaal met een korrelgrootte kleiner dan 4 mm.</p>
+                  </item>
                </part>
                <part>
                   <item>betonOngebroken</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Antropogeen materiaal: beton dat niet als puin wordt geclassificeerd, bijvoorbeeld een betonplaat.</p>
+                  </item>
                </part>
                <part>
                   <item>geotextiel</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Antropogeen materiaal: textiel en folies die gebruikt worden in grondverbetering en meestal uit kunststof bestaan.</p>
+                  </item>
                </part>
                <part>
                   <item>glauconietzand</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Natuurlijk materiaal: zand dat in hoofdzaak bestaat uit groene, groenige of bruine korrels die uit glauconiet of goethiet bestaan.</p>
+                  </item>
                </part>
                <part>
                   <item>houtGebruikt</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Antropogeen materiaal: hout of houtig materiaal dat door de mens gebruikt is. Voorbeelden zijn rijsmatten, funderingspalen, beschoeiingen, scheepswrakken.</p>
+                  </item>
                </part>
                <part>
                   <item>huisvuil</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Antropogeen materiaal: niet nader omschreven huishoudelijk afval.</p>
+                  </item>
                </part>
                <part>
                   <item>kalkGemaakt</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Antropogeen materiaal: op kalk gebaseerd materiaal van menselijke makelij zoals gebluste kalk of als hulpstof herkenbare kalk.</p>
+                  </item>
                </part>
                <part>
                   <item>kalkNatuurlijk</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Natuurlijk materiaal: Een vrijwel geheel uit kalk bestaand sediment dat niet als gesteente is geclassificeerd.</p>
+                  </item>
                </part>
                <part>
                   <item>oer</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Natuurlijk materiaal: IJzerverkitting die op natuurlijke wijze door inspoeling is gevormd.</p>
+                  </item>
                </part>
                <part>
                   <item>ophoogmateriaalLichtKunststof</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Antropogeen materiaal: ophoogmateriaal met een laag soortelijk gewicht dat vooral uit plastics en soortgelijke kunststoffen bestaat, met als voorbeeld geëxpandeerd polystyreen.</p>
+                  </item>
                </part>
                <part>
                   <item>ophoogmateriaalLichtStenig</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Antropogeen materiaal: ophoogmateriaal met een laag soortelijk gewicht dat uit stenig materiaal van menselijke makelij bestaat. Voorbeelden zijn bims, geëxpandeerde kleikorrels, flugsand, schuimbeton en schuimglas.</p>
+                  </item>
                </part>
                <part>
                   <item>plantenrestenHoutig</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Natuurlijk materiaal: de houtige, onverteerde resten van planten, zoals stammen en takken. </p>
+                  </item>
                </part>
                <part>
                   <item>plantenrestenNietHoutig</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Natuurlijk materiaal: de niet-houtige, onverteerde resten van planten, zoals worteltjes, rietstengels en bladeren. </p>
+                  </item>
                </part>
                <part>
                   <item>puin</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Antropogeen materiaal: bouw- en sloopafval, veelal een mengsel van stenige materialen die door de mens gemaakt of bewerkt zijn; soilmix, een mengsel van de grond ter plaatse met een materiaal als cement of waterglas, wordt ook hiertoe gerekend.</p>
+                  </item>
                </part>
                <part>
                   <item>schelpmateriaal</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Natuurlijk materiaal: schelpen en resten van schelpen.</p>
+                  </item>
                </part>
                <part>
                   <item>soilmix</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Antropogeen materiaal: een mengsel van de grond ter plaatse met een materiaal als cement of waterglas; wordt bijvoorbeeld als grondverbetering gebruikt voor grondkeringen.</p>
+                  </item>
                </part>
                <part>
                   <item>stenen</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Antropogeen materiaal: stenen van natuurlijk materiaal die gebruikt zijn als ballast of stortsteen of het bijproduct zijn van mijnbouw.</p>
+                  </item>
                </part>
                <part>
                   <item>verbrandingsrestenFijn</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Antropogeen materiaal: minerale verbrandingsresten met een diameter vergelijkbaar met die van silt en lutum (&lt;63µm), veelal vliegas genoemd.</p>
+                  </item>
                </part>
                <part>
                   <item>verbrandingsrestenMiddelgrof</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Antropogeen materiaal: minerale verbrandingsresten met een diameter die vergelijkbaar is met zand (0,063 - 2 mm), veelal bodemas genoemd.</p>
+                  </item>
                </part>
                <part>
                   <item>verbrandingsrestenGrof</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Antropogeen materiaal: minerale verbrandingsresten met een diameter groter dan 2mm; veelal slakken genoemd.</p>
+                  </item>
                </part>
                <part>
                   <item>wegverhardingsmateriaal</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Antropogeen materiaal: materiaal dat gebruikt is voor het verharden van wegen en erven. Voorbeelden zijn asfalt, betonklinkers, klinkers, steenslag en tegels. </p>
+                  </item>
                </part>
                <part>
                   <item>houtNietGespecificeerd</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Antropogeen of natuurlijk materiaal: omvat de IMBRO-waarden houtGebruikt en plantenrestenHoutig.</p>
+                  </item>
                </part>
                <part>
                   <item>kalkNietGespecificeerd</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Antropogeen of natuurlijk materiaal: omvat de IMBRO-waarden kalkGemaakt en kalkNatuurlijk.</p>
+                  </item>
                </part>
                <part>
                   <item>verbrandingsresten</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Antropogeen materiaal: minerale verbrandingsresten; de diameter is niet gespecificeerd.</p>
+                  </item>
                </part>
             </content>
          </section>
@@ -37283,73 +37995,121 @@ Het materiaal is vergelijkbaar met Mikolit-00 en wordt gebruikt onder omstandigh
                   <item>geenBodemgebruik</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Terrein met verhard oppervlak.</p>
+                  </item>
                </part>
                <part>
                   <item>akker</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Terrein in landelijk gebied in gebruik voor akkerbouw of vollegrondstuinbouw.</p>
+                  </item>
                </part>
                <part>
                   <item>boomgaard</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Terrein in landelijk gebied in gebruik als boomgaard. </p>
+                  </item>
                </part>
                <part>
                   <item>boomkwekerij</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Terrein in landelijk gebied in gebruik als boomkwekerij.</p>
+                  </item>
                </part>
                <part>
                   <item>bos</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Terrein in landelijk gebied dat bedekt is met bos.</p>
+                  </item>
                </part>
                <part>
                   <item>gebruikInTransitie</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Terrein dat niet-verhard is en nog niet werkelijk in gebruik omdat men het gebruik van het terrein aan het veranderen is.</p>
+                  </item>
                </part>
                <part>
                   <item>glastuinbouw</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Terrein in landelijk gebied in gebruik voor tuinbouw onder glas.</p>
+                  </item>
                </part>
                <part>
                   <item>grasland</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Terrein of een kleiner stuk grond (grasland, wegberm, dijk) in landelijk gebied dat voor korte of lange tijd met gras begroeid is.</p>
+                  </item>
                </part>
                <part>
                   <item>natuurGeenVegetatie</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Terrein in landelijk gebied dat in gebruik is als natuurterrein zonder vegetatie, bijvoorbeeld stranden, wadplaten of stuifzandgebieden.</p>
+                  </item>
                </part>
                <part>
                   <item>natuurKorteVegetatie</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Terrein in landelijk gebied dat in gebruik is als natuurterrein en begroeid is met heide, riet of andere korte vegetatie. </p>
+                  </item>
                </part>
                <part>
                   <item>nietLandelijkBomen</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Terrein in niet-landelijk gebied dat overwegend met bomen is begroeid (plantsoenen, singels, begraafplaatsen, volkstuinen en campings).</p>
+                  </item>
                </part>
                <part>
                   <item>nietLandelijkGras</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Terrein in niet-landelijk gebied dat overwegend met gras is begroeid (bijv. parken, golfbanen, sportparken, grasstroken en een grasveld bij zwembaden).</p>
+                  </item>
                </part>
             </content>
          </section>
@@ -37377,19 +38137,31 @@ Het materiaal is vergelijkbaar met Mikolit-00 en wordt gebruikt onder omstandigh
                   <item>SIKB2001vanafV6.0</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">SIKB protocol 2101 Mechanisch boren versie 3.3.</p>
+                  </item>
                </part>
                <part>
                   <item>SIKB2101vanafV3.3</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">SIKB protocol 2101 Mechanisch boren. Versie 3.3 en opvolgende versies die geen relevante wijzigingen voor (de gegevens van) het booronderzoek bevatten.</p>
+                  </item>
                </part>
                <part>
                   <item>onbekend</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het is niet bekend onder welke afspraken het boren is uitgevoerd.</p>
+                  </item>
                </part>
             </content>
          </section>
@@ -37417,127 +38189,211 @@ Het materiaal is vergelijkbaar met Mikolit-00 en wordt gebruikt onder omstandigh
                   <item>handDraaien</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De techniek waarbij een apparaat met de hand wordt bediend en door draaien dieper de grond in wordt gedreven. Tijdens het boren is er sprake van een open gat. Om het geboorde gat bij verder boren in stand te houden kan verbuizing worden aangebracht. Voorbeelden van apparaten die gebruikt worden zijn de verschillende typen edelmanboren, de lepelboor, de riversideboor, de spiraalboor en de keienvanger. </p>
+                  </item>
                </part>
                <part>
                   <item>handDrukken</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De techniek waarbij een apparaat met de hand wordt bediend en door draaien dieper de grond in wordt gedreven. Tijdens het boren is er sprake van een open gat. Om het geboorde gat bij verder boren in stand te houden kan verbuizing worden aangebracht. Voorbeelden van apparaten die gebruikt worden zijn de verschillende typen edelmanboren, de lepelboor, de riversideboor, de spiraalboor en de keienvanger. </p>
+                  </item>
                </part>
                <part>
                   <item>handDrukkenZuiger</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De techniek waarbij een apparaat dat voorzien is van een zuiger met de hand wordt bediend en door drukken dieper de grond in wordt gedreven. Voorbeelden van apparaten die gebruikt worden zijn de zuigerboor en de VanderStaay-boor.</p>
+                  </item>
                </part>
                <part>
                   <item>handHameren</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De techniek waarbij een apparaat met de hand wordt bediend en een hamer wordt gebruikt om het dieper de grond in te drijven; de hamer kan met de hand bediend worden of elektrisch worden aangedreven. Voorbeelden van apparaten die gebruikt worden zijn de gutsboor en bepaalde steekapparaten (monsterringsteker, folie-sampler, de steekbuis en grondkolomcilinder).</p>
+                  </item>
                </part>
                <part>
                   <item>handPulsen</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De techniek waarbij een apparaat met de hand wordt bediend en een buis met een terugslagklep dieper de grond in wordt gedreven door deze herhaaldelijk te laten vallen. De buis met terugslagklep wordt de puls genoemd. Bij pulsen is het geboorde traject altijd maar voor een klein gedeelte open en wordt het grootste deel van het gat beschermd door een buis die tijdens het boren naar beneden wordt gedrukt. Aanvullende maatregelen om het geboorde gat in stand te houden om verder te kunnen boren zijn niet nodig. </p>
+                  </item>
                </part>
                <part>
                   <item>mechanischDraaienOnverbuisd</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De techniek waarbij een apparaat mechanisch wordt aangedreven en door draaien dieper de grond in wordt gedreven. Tijdens het boren is er sprake van een volledig open gat. Om het geboorde gat bij verder boren in stand te houden kan verbuizing worden aangebracht of spoeling worden gebruikt. Voorbeelden zijn bepaalde vormen van boren met de avegaar, bucketboren, luchtliften, rotary-drilling, straightflushboren en zuigboren.</p>
+                  </item>
                </part>
                <part>
                   <item>mechanischDraaienVerbuisd</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De techniek waarbij een apparaat mechanisch wordt aangedreven en door draaien dieper de grond in wordt gedreven. De draaiende boorkop zit onderaan een buis die precies in het gat past. De buis zorgt ervoor dat het gat tijdens het boren in stand wordt gehouden. Het voorbeeld is counter-flushboren.</p>
+                  </item>
                </part>
                <part>
                   <item>mechanischDrukken</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De techniek waarbij een apparaat mechanisch wordt aangedreven en door continu drukken dieper de grond in wordt gedreven. Voorbeelden van apparaten die gebruikt worden zijn het ackermann-apparaat, het Begemanapparaat, de DLDS, de holle avegaar en de spitsmuis. Ook een guts wordt gedrukt wanneer de aard van de ondergrond dat toestaat. </p>
+                  </item>
                </part>
                <part>
                   <item>mechanischGrijpen</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De techniek waarbij een mechanisch bediende grijper wordt gebruikt om het gat dieper te maken. Tijdens het boren is er sprake van een volledig open gat. Om het geboorde gat bij verder boren in stand te houden kan verbuizing worden aangebracht of spoeling worden gebruikt. Wanneer er slechts een oppervlakkig gat wordt gemaakt wordt dit niet als een vorm van boren beschouwd. Een voorbeeld is de grijperboring.</p>
+                  </item>
                </part>
                <part>
                   <item>mechanischHameren</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De techniek waarbij een apparaat mechanisch wordt aangedreven en een hamer wordt gebruikt om het de grond in te drijven. Voorbeelden zijn de ramguts, window sampler en het ackermann-apparaat; een guts wordt gehamerd wanneer de aard van de ondergrond dat vereist.</p>
+                  </item>
                </part>
                <part>
                   <item>mechanischPulsen</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De techniek waarbij een apparaat mechanisch wordt aangedreven en een buis met een terugslagklep dieper de grond in wordt gedreven door deze herhaaldelijk te laten vallen. De buis met terugslagklep wordt de puls genoemd en deze techniek is de meest gebruikte in de wereld van de geotechniek. Bij pulsen is het geboorde traject altijd maar voor een klein gedeelte open en wordt het grootste deel van het gat beschermd door een buis die tijdens het boren naar beneden wordt gedrukt. Aanvullende maatregelen om het geboorde gat in stand te houden om dieper te kunnen boren zijn niet nodig. </p>
+                  </item>
                </part>
                <part>
                   <item>mechanischSpuitenDraaien</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De techniek waarbij een apparaat mechanisch door een combinatie van spuiten en draaien dieper de grond in wordt gedreven. Tijdens het boren is er sprake van een volledig open gat. Om het geboorde gat bij verder boren in stand te houden kan verbuizing worden aangebracht. Het voorbeeld is boren met gebruik van de Sherbrooke sampler.</p>
+                  </item>
                </part>
                <part>
                   <item>mechanischSpuitenOnverbuisd</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De techniek waarbij een apparaat mechanisch wordt aangedreven en dieper de grond in wordt gedreven door de grond los te spuiten. De spuitkop zit onderaan een buis die precies in het gat past. De buis zorgt ervoor dat het gat tijdens het boren in stand wordt gehouden. Het voorbeeld is ro-flushboren.</p>
+                  </item>
                </part>
                <part>
                   <item>mechanischSpuitenVerverbuisd</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De techniek waarbij met een mechanisch bediend apparaat een gat wordt gemaakt door de grond los te spuiten. Tijdens het boren is er sprake van een volledig open gat. Om het geboorde gat bij verder boren in stand te houden kan verbuizing worden aangebracht. Voorbeelden van apparaten die gebruikt worden zijn een slang aangesloten op een compressor en een spuitlans. </p>
+                  </item>
                </part>
                <part>
                   <item>mechanischTrillen</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De techniek waarbij een apparaat mechanisch wordt aangedreven en door hoog-frequent trillen dieper de grond in wordt gedreven. Het trillen kan gecombineerd worden met drukken of draaien. Voorbeelden zijn sonisch boren, vibrocoring en boren met de trilflip, de geodoff, de Zenkovitch en de Aqualock.</p>
+                  </item>
                </part>
                <part>
                   <item>mechanischVallen</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De techniek waarbij het apparaat mechanisch wordt aangedreven en een buis de grond in wordt gedreven door deze van geringe hoogte in een keer in de waterbodem te laten vallen. Voorbeelden zijn de dropcorer en de pistoncorer.</p>
+                  </item>
                </part>
                <part>
                   <item>mechanischVerdringen</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De techniek waarbij een apparaat mechanisch wordt aangedreven en door draaien, hameren, drukken of trillen de grond in wordt gedreven zonder eigenlijk materiaal naar boven te halen. Voorbeelden zijn verdringend sonisch boren, boren met de volle avegaar en boren met een holle avegaar met blinde punt.</p>
+                  </item>
                </part>
                <part>
                   <item>handOnbekend</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Er is een apparaat gebruikt dat met de hand dieper de grond in wordt gedreven. Het is niet bekend hoe dat is gebeurd, mogelijk zijn er verschillende technieken gebruikt.</p>
+                  </item>
                </part>
                <part>
                   <item>mechanischDraaienOnverbuisdDeelsDrukkenHameren</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Er zijn twee technieken gebruik: de techniek waarbij een apparaat mechanisch wordt aangedreven en door draaien dieper de grond in wordt gedreven en een techniek waarbij een apparaat mechanisch met een hamer of door continu te drukken dieper de grond in wordt gedreven. Dekt onder meer het gebruik van een standaard avegaar in combinatie met een of ander steekapparaat.</p>
+                  </item>
                </part>
                <part>
                   <item>mechanischOnbekendDeelsDrukkenHameren</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Er zijn twee technieken gebruikt: een techniek waarbij een apparaat mechanisch dieper de grond in wordt gedreven en een techniek waarbij een apparaat mechanisch met een hamer of door continu te drukken dieper de grond in wordt gedreven.</p>
+                  </item>
                </part>
                <part>
                   <item>onbekend</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het is niet bekend welke techniek is gebruikt.</p>
+                  </item>
                </part>
                <part>
                   <item>onbekendDeelsDrukkenHameren</item>
@@ -37577,37 +38433,61 @@ Het materiaal is vergelijkbaar met Mikolit-00 en wordt gebruikt onder omstandigh
                   <item>uiterstSmal</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De kortste afstand tussen de grensvlakken is kleiner dan 0,25 mm.</p>
+                  </item>
                </part>
                <part>
                   <item>zeerSmal</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De kortste afstand tussen de grensvlakken ligt tussen 0,25 en 0,5 mm.</p>
+                  </item>
                </part>
                <part>
                   <item>smal</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De kortste afstand tussen de grensvlakken ligt tussen 0,5 en 2,5 mm.</p>
+                  </item>
                </part>
                <part>
                   <item>matigSmal</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De kortste afstand tussen de grensvlakken ligt tussen 0,25 en 1 cm.</p>
+                  </item>
                </part>
                <part>
                   <item>matigBreed</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De kortste afstand tussen de grensvlakken ligt tussen 1 en 10 cm.</p>
+                  </item>
                </part>
                <part>
                   <item>breed</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De kortste afstand tussen de grensvlakken is groter dan 10 cm.</p>
+                  </item>
                </part>
             </content>
          </section>
@@ -37635,43 +38515,71 @@ Het materiaal is vergelijkbaar met Mikolit-00 en wordt gebruikt onder omstandigh
                   <item>pe</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De buis bestaat uit polyethyleen, waarbij onbekend is of het high density of low density polyethyleen betreft.</p>
+                  </item>
                </part>
                <part>
                   <item>peHighDensity</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De buis bestaat uit high density polyethyleen.</p>
+                  </item>
                </part>
                <part>
                   <item>peLowDensity</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De buis bestaat uit low density polyethyleen.</p>
+                  </item>
                </part>
                <part>
                   <item>pePvc</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De buis bestaat uit polyethyleen en pvc, waarbij onbekend is of het high density of low density polyethyleen betreft.</p>
+                  </item>
                </part>
                <part>
                   <item>staal</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De buis bestaat uit staal, waarbij onbekend is welk type staal het betreft.</p>
+                  </item>
                </part>
                <part>
                   <item>staalGegalvaniseerd</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De buis bestaat uit gegalvaniseerd staal.</p>
+                  </item>
                </part>
                <part>
                   <item>staalRoestvrij</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De buis bestaat uit roestvrij staal.</p>
+                  </item>
                </part>
             </content>
          </section>
