@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_4532D2FB_BE47_4dc9_BBAD_0F65D43D52FB"
       generator-version="1.52.4"
-      generator-date="2019-04-26T15:00:22Z">
+      generator-date="2019-04-26T15:14:19Z">
    <chapter title="CHAPTER-CATALOG" type="cat">
       <section type="DOMAIN"
                name="Domeinmodel BRO Common"
@@ -38615,31 +38615,51 @@ Een internationale norm geaccepteerd door Europa en Nederland.</p>
                   <item>nietBepaald</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het cement is niet herkenbaar.</p>
+                  </item>
                </part>
                <part>
                   <item>calciet</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Tussen korrels neergeslagen kalkcement. Calciet is in zandsteen herkenbaar aan bruisen in aanraking met zoutzuuroplossing.</p>
+                  </item>
                </part>
                <part>
                   <item>gips</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Tussen korrels neergeslagen calciumsulfaatcement. Gips bruist niet en is zachter dan calciet, het is met een mes los te snijden.</p>
+                  </item>
                </part>
                <part>
                   <item>ijzeroxide</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Tussen korrels neergeslagen ijzeroxide. IJzeroxide Komt typisch voor in lagen en heeft kenmerkende rode en bruine roestkleuren.</p>
+                  </item>
                </part>
                <part>
                   <item>kwarts</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Tussen korrels neergeslagen siliciumoxide. Kwarts kan in kalk- of kwartszandsteen voorkomen.</p>
+                  </item>
                </part>
             </content>
          </section>
@@ -38667,79 +38687,131 @@ Een internationale norm geaccepteerd door Europa en Nederland.</p>
                   <item>zeerSlap</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Grond waar een vinger gemakkelijk tot 25 mm in kan worden gedrukt en die tussen de vingers door loopt wanneer de hand wordt samengeknepen.</p>
+                  </item>
                </part>
                <part>
                   <item>slap</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Grond waar een vinger tot 10 mm kan worden gedrukt en die met lichte druk van de vingers kan worden verkneed.</p>
+                  </item>
                </part>
                <part>
                   <item>stevig</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Grond die met de duim gemakkelijk kan worden ingedrukt en niet met de vingers kan worden verkneed, maar wel tot 3 mm dikke strengen kan worden uitgerold zonder te breken of te verkruimelen.</p>
+                  </item>
                </part>
                <part>
                   <item>stijf</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Grond waar met de duim een ondiepe voor in kan worden gemaakt en die verkruimelt en breekt wanneer de grond tot 3 mm dikke strengen wordt uitgerold, maar nog vochtig genoeg is om weer tot een bol te worden gekneed.</p>
+                  </item>
                </part>
                <part>
                   <item>zeerStijf</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Grond waar nog net een kerf in kan worden gemaakt met de nagel van de duim. De grond kan niet meer worden vervormd en verkruimelt onder druk. Vaak is deze grond uitgedroogd. De grond heeft meestal een lichte kleur.</p>
+                  </item>
                </part>
                <part>
                   <item>zeerSlapNEN5104</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Grond die zonder knijpen tussen de vingers door loopt. Een klasse onder de NEN 5104 procedure.</p>
+                  </item>
                </part>
                <part>
                   <item>matigSlapNEN5104</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Grond die bij knijpen zeer gemakkelijk tussen de vingers door loopt. Een klasse onder de NEN 5104 procedure.</p>
+                  </item>
                </part>
                <part>
                   <item>slapNEN5104</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Grond die bij knijpen nog goed tussen de vingers door loopt. Een klasse onder de NEN 5104 procedure.</p>
+                  </item>
                </part>
                <part>
                   <item>matigStevigNEN5104</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Grond die met stevig knijpen nog juist tussen de vingers door te krijgen is. Een klasse onder de NEN 5104 procedure.</p>
+                  </item>
                </part>
                <part>
                   <item>stevigNEN5104</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Grond die niet tussen de vingers door te krijgen is. Een klasse onder de NEN 5104 procedure.</p>
+                  </item>
                </part>
                <part>
                   <item>zeerStevigNEN5104</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Grond met de duimnagel in te drukken is. Een klasse onder de NEN 5104 procedure.</p>
+                  </item>
                </part>
                <part>
                   <item>hardNEN5104</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Grond waar met een mes in kan worden gesneden. Een klasse onder de NEN 5104 procedure.</p>
+                  </item>
                </part>
                <part>
                   <item>zeerHardNEN5104</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Grond waar met een mes met moeite in kan worden gesneden. Een klasse onder de NEN 5104 procedure.</p>
+                  </item>
                </part>
             </content>
          </section>
@@ -38767,37 +38839,61 @@ Een internationale norm geaccepteerd door Europa en Nederland.</p>
                   <item>zeerSlap</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De grond loopt zonder knijpen tussen de vingers door.</p>
+                  </item>
                </part>
                <part>
                   <item>slap</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De grond loopt met knijpen zeer gemakkelijk tussen de vingers door.</p>
+                  </item>
                </part>
                <part>
                   <item>matigSlap</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De grond loopt met knijpen nog goed tussen de vingers door.</p>
+                  </item>
                </part>
                <part>
                   <item>matigStevig</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De grond is met stevig knijpen nog juist tussen de vingers door te krijgen.</p>
+                  </item>
                </part>
                <part>
                   <item>stevig</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De grond is ook met stevig knijpen niet tussen de vingers door te krijgen.</p>
+                  </item>
                </part>
                <part>
                   <item>vast</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De grond is nog met de nagel in te drukken.</p>
+                  </item>
                </part>
             </content>
          </section>
@@ -38825,19 +38921,31 @@ Een internationale norm geaccepteerd door Europa en Nederland.</p>
                   <item>nietUiteengevallen</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Geen zichtbare desintegratie van gesteentemateriaal.</p>
+                  </item>
                </part>
                <part>
                   <item>gedeeltelijkUiteengevallen</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het gesteentemateriaal is gedeeltelijk bros geworden en kan met de hand in losse brokken worden gebroken.</p>
+                  </item>
                </part>
                <part>
                   <item>volledigUiteengevallen</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het gesteentemateriaal is volledig bros geworden en valt onder druk met de hand in de samenstellende korrels uiteen. Gedraagt zich als grond.</p>
+                  </item>
                </part>
             </content>
          </section>
@@ -38865,187 +38973,311 @@ Een internationale norm geaccepteerd door Europa en Nederland.</p>
                   <item>geen</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Geen disperse inhomogeniteiten.</p>
+                  </item>
                </part>
                <part>
                   <item>dolomietbrokjesWeinig</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Dolomietbrokjes maken 5 tot 25% van het volume uit.</p>
+                  </item>
                </part>
                <part>
                   <item>dolomietbrokjesVeel</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Dolomietbrokjes maken 25 tot 50% van het volume uit.</p>
+                  </item>
                </part>
                <part>
                   <item>gipsbrokjesWeinig</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Gipsbrokjes maken 5 tot 25% van het volume uit.</p>
+                  </item>
                </part>
                <part>
                   <item>gipsbrokjesVeel</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Gipsbrokjes maken 25 tot 50% van het volume uit.</p>
+                  </item>
                </part>
                <part>
                   <item>grindlensjesWeinig</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Grindlensjes maken 5 tot 25% van het volume uit.</p>
+                  </item>
                </part>
                <part>
                   <item>grindlensjesVeel</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Grindlensjes maken 25 tot 50% van het volume uit.</p>
+                  </item>
                </part>
                <part>
                   <item>kalksteenbrokjesWeinig</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Kalksteenbrokjes maken 5 tot 25% van het volume uit.</p>
+                  </item>
                </part>
                <part>
                   <item>kalksteenbrokjesVeel</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Kalksteenbrokjes maken 25 tot 50% van het volume uit.</p>
+                  </item>
                </part>
                <part>
                   <item>kleibrokjesWeinig</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Kleibrokjes maken 5 tot 25% van het volume uit.</p>
+                  </item>
                </part>
                <part>
                   <item>kleibrokjesVeel</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Kleibrokjes maken 25 tot 50% van het volume uit.</p>
+                  </item>
                </part>
                <part>
                   <item>kleilensjesWeinig</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Kleilensjes maken 5 tot 25% van het volume uit.</p>
+                  </item>
                </part>
                <part>
                   <item>kleilensjesVeel</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Kleilensjes maken 25 tot 50% van het volume uit.</p>
+                  </item>
                </part>
                <part>
                   <item>kleisteenbrokjesWeinig</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Kleisteenbrokjes maken 5 tot 25% van het volume uit.</p>
+                  </item>
                </part>
                <part>
                   <item>kleisteenbrokjesVeel</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Kleisteenbrokjes maken 25 tot 50% van het volume uit.</p>
+                  </item>
                </part>
                <part>
                   <item>siltbrokjesWeinig</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Siltbrokjes maken 5 tot 25% van het volume uit.</p>
+                  </item>
                </part>
                <part>
                   <item>siltbrokjesVeel</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Siltbrokjes maken 25 tot 50% van het volume uit.</p>
+                  </item>
                </part>
                <part>
                   <item>siltlensjesWeinig</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Siltlensjes maken 5 tot 25% van het volume uit.</p>
+                  </item>
                </part>
                <part>
                   <item>siltlensjesVeel</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Siltlensjes maken 25 tot 50% van het volume uit.</p>
+                  </item>
                </part>
                <part>
                   <item>siltsteenbrokjesWeinig</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Siltsteenbrokjes maken 5 tot 25% van het volume uit.</p>
+                  </item>
                </part>
                <part>
                   <item>siltsteenbrokjesVeel</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Siltsteenbrokjes maken 25 tot 50% van het volume uit.</p>
+                  </item>
                </part>
                <part>
                   <item>steenkoolbrokjesWeinig</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Steenkoolbrokjes maken 5 tot 25% van het volume uit.</p>
+                  </item>
                </part>
                <part>
                   <item>steenkoolbrokjesVeel</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Steenkoolbrokjes maken 25 tot 50% van het volume uit.</p>
+                  </item>
                </part>
                <part>
                   <item>steenzoutbrokjesWeinig</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Steenzoutbrokjes maken 5 tot 25% van het volume uit.</p>
+                  </item>
                </part>
                <part>
                   <item>steenzoutbrokjesVeel</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Steenzoutbrokjes maken 25 tot 50% van het volume uit.</p>
+                  </item>
                </part>
                <part>
                   <item>veenbrokjesWeinig</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Veenbrokjes maken 5 tot 25% van het volume uit.</p>
+                  </item>
                </part>
                <part>
                   <item>veenbrokjesVeel</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Veenbrokjes maken 25 tot 50% van het volume uit.</p>
+                  </item>
                </part>
                <part>
                   <item>zandlensjesWeinig</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Zandlensjes maken 5 tot 25% van het volume uit.</p>
+                  </item>
                </part>
                <part>
                   <item>zandlensjesVeel</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Zandlensjes maken 25 tot 50% van het volume uit.</p>
+                  </item>
                </part>
                <part>
                   <item>zandsteenlensjesWeinig</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Zandsteenlensjes maken 5 tot 25% van het volume uit.</p>
+                  </item>
                </part>
                <part>
                   <item>zandsteenlensjesVeel</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Zandsteenlensjes maken 25 tot 50% van het volume uit.</p>
+                  </item>
                </part>
             </content>
          </section>
@@ -39073,19 +39305,31 @@ Een internationale norm geaccepteerd door Europa en Nederland.</p>
                   <item>roeren</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Samenklonterende korrels zijn losgemaakt door het materiaal in water los te roeren.</p>
+                  </item>
                </part>
                <part>
                   <item>roerenDispersiemiddel</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Samenklonterende korrels zijn losgemaakt door het materiaal in water met een dispersiemiddel los te roeren.</p>
+                  </item>
                </part>
                <part>
                   <item>metUltrasoonbad</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Samenklonterende korrels zijn losgemaakt door het materiaal in een ultrasoonbad gevuld met water en een dispersiemiddel los te trillen.</p>
+                  </item>
                </part>
             </content>
          </section>
@@ -39113,19 +39357,31 @@ Een internationale norm geaccepteerd door Europa en Nederland.</p>
                   <item>70graden</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het watergehalte is bepaald door droging van het materiaal op 70 °C. Deze temperatuur wordt gebruikt bij organisch materiaal. </p>
+                  </item>
                </part>
                <part>
                   <item>105graden</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het watergehalte is bepaald door droging van het materiaal op 105 °C .</p>
+                  </item>
                </part>
                <part>
                   <item>110graden</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het watergehalte is bepaald door droging van het materiaal op 110 °C.</p>
+                  </item>
                </part>
             </content>
          </section>
@@ -39153,19 +39409,31 @@ Een internationale norm geaccepteerd door Europa en Nederland.</p>
                   <item>16tot24uur</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het materiaal is tussen de 16 en 24 uur gedroogd.</p>
+                  </item>
                </part>
                <part>
                   <item>24uurEnLanger</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het materiaal is langer dan 24 uur gedroogd.</p>
+                  </item>
                </part>
                <part>
                   <item>stabieleMassa</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het materiaal is gedroogd tot het materiaal een stabiele massa heeft en dat is wanneer de massa van het materiaal niet meer veranderd na een uur drogen.</p>
+                  </item>
                </part>
             </content>
          </section>
