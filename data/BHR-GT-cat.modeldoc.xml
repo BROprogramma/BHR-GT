@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_4532D2FB_BE47_4dc9_BBAD_0F65D43D52FB"
       generator-version="1.52.5"
-      generator-date="2019-04-29T13:19:34Z">
+      generator-date="2019-04-29T13:24:13Z">
    <chapter title="CHAPTER-CATALOG" type="cat">
       <section type="DOMAIN"
                name="Domeinmodel BRO Common"
@@ -43019,55 +43019,91 @@ Een internationale norm geaccepteerd door Europa en Nederland.</p>
                   <item>zeerHoekig</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Geen afgeronde hoeken of randen.</p>
+                  </item>
                </part>
                <part>
                   <item>hoekig</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Weinig afgeronde hoeken of randen.</p>
+                  </item>
                </part>
                <part>
                   <item>subhoekig</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Onregelmatig oppervlak, waarbij de primaire hoeken en randen nog zichtbaar zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>subrond</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Oppervlak egaal maar onregelmatig, waarbij de primaire hoeken en randen nog zichtbaar zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>afgerond</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Oppervlak egaal met alleen enkele uithollingen of vlakke stukken of alleen gladde convexe oppervlakten.</p>
+                  </item>
                </part>
                <part>
                   <item>zeerAfgerond</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Oppervlak egaal.</p>
+                  </item>
                </part>
                <part>
                   <item>afgerondZeerAfgerond</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Oppervlak volledig egaal, of egaal met alleen enkele uithollingen of vlakke stukken of alleen gladde convexe oppervlakten. </p>
+                  </item>
                </part>
                <part>
                   <item>subhoekigSubrond</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Oppervlak onregelmatig en al dan niet egaal, waarbij de primaire hoeken en randen nog zichtbaar zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>hoekigZeerHoekig</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Geen of weinig afgeronde hoeken of randen.</p>
+                  </item>
                </part>
             </content>
          </section>
@@ -43095,13 +43131,21 @@ Een internationale norm geaccepteerd door Europa en Nederland.</p>
                   <item>gelijkmatig</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Holtes komen in alle doorsnedes van een kern gelijkmatig verdeeld voor.</p>
+                  </item>
                </part>
                <part>
                   <item>ongelijkmatig</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Holtes komen niet in alle doorsnedes van een kern gelijkmatig verdeeld voor.</p>
+                  </item>
                </part>
             </content>
          </section>
@@ -43129,13 +43173,21 @@ Een internationale norm geaccepteerd door Europa en Nederland.</p>
                   <item>50ml</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De monsterhouder heeft een inhoud van ca. 50 ml.</p>
+                  </item>
                </part>
                <part>
                   <item>100ml</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De monsterhouder heeft een inhoud van ca. 100 ml. Deze wordt gebruikt bij materialen met een lage volumieke massa van de vaste delen, zoals veen.</p>
+                  </item>
                </part>
             </content>
          </section>
