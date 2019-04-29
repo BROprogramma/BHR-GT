@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_4532D2FB_BE47_4dc9_BBAD_0F65D43D52FB"
       generator-version="1.52.5"
-      generator-date="2019-04-29T13:24:13Z">
+      generator-date="2019-04-29T13:31:58Z">
    <chapter title="CHAPTER-CATALOG" type="cat">
       <section type="DOMAIN"
                name="Domeinmodel BRO Common"
@@ -43215,43 +43215,71 @@ Een internationale norm geaccepteerd door Europa en Nederland.</p>
                   <item>MBW</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De gegevens zijn aangeleverd in het kader van de Mijnbouwwet.</p>
+                  </item>
                </part>
                <part>
                   <item>ONW</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De gegevens zijn aangeleverd in het kader van de Ontgrondingenwet.</p>
+                  </item>
                </part>
                <part>
                   <item>publiekeTaak</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De gegevens zijn aangeleverd in het kader van de publieke taakuitvoering, zonder nadere specificering.</p>
+                  </item>
                </part>
                <part>
                   <item>RO</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De gegevens zijn aangeleverd in het kader van de wet ruimtelijke ordening.</p>
+                  </item>
                </part>
                <part>
                   <item>WABO</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De gegevens zijn aangeleverd in het kader van de Wet algemene bepalingen omgevingsrecht.</p>
+                  </item>
                </part>
                <part>
                   <item>WW</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De gegevens zijn aangeleverd in het kader van de waterwet.</p>
+                  </item>
                </part>
                <part>
                   <item>archiefoverdracht</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De gegevens zijn aangeleverd in het kader van archiefoverdracht.</p>
+                  </item>
                </part>
             </content>
          </section>
@@ -43279,85 +43307,141 @@ Een internationale norm geaccepteerd door Europa en Nederland.</p>
                   <item>bouwwerk</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Onderzoek met als hoofddoel de geotechnische eigenschappen van de ondergrond te bepalen die voor gebouwen, kunstwerken die deel uitmaken van de wegen, waterwegen en spoorwegen en andere bouwwerken van belang zijn. Het accent ligt veelal op onderzoek voor de berekening van de fundering. </p>
+                  </item>
                </part>
                <part>
                   <item>controleOnderzoek</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Onderzoek met als doel om vast te stellen of er als het gevolg van werkzaamheden veranderingen in de ondergrond zijn opgetreden. Dit onderzoek heeft veelal een lokaal karakter. Voorafgaand aan de werkzaamheden is ook onderzoek gedaan en dat geldt als referentie. </p>
+                  </item>
                </part>
                <part>
                   <item>detectieObstakels</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Onderzoek naar de diepte en ligging van obstakels in de ondergrond (natuurlijk of door de mens gemaakt).</p>
+                  </item>
                </part>
                <part>
                   <item>gevoeligheidsOnderzoek</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Onderzoek met als doel de aardbevingsgevoeligheid, trillingsgevoeligheid of erosiegevoeligheid van de ondergrond te bepalen.</p>
+                  </item>
                </part>
                <part>
                   <item>grondwaterput</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Onderzoek voor de aanleg van grondwatermonitoringputten of grondwatergebruiksystemen. </p>
+                  </item>
                </part>
                <part>
                   <item>hydrologischeVerkenning</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Onderzoek met als hoofddoel de geohydrologische eigenschappen van de ondergrond te bepalen ten behoeve van bronbemaling, grondwateronttrekking, waterinfiltratie of peilbeheer.</p>
+                  </item>
                </part>
                <part>
                   <item>infrastructuurLand</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Onderzoek met als hoofddoel de geotechnische eigenschappen van de ondergrond te bepalen voor de aanleg en het onderhoud van wegen, spoorwegen, fiets- en voetpaden.</p>
+                  </item>
                </part>
                <part>
                   <item>infrastructuurWater</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Onderzoek met als hoofddoel de geotechnische eigenschappen van de ondergrond te bepalen voor de aanleg en het onderhoud van waterwegen.</p>
+                  </item>
                </part>
                <part>
                   <item>kabelsLeidingen</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Onderzoek met als hoofddoel de geotechnische eigenschappen van de ondergrond te bepalen voor de aanleg en het onderhoud van kabels en leidingen.</p>
+                  </item>
                </part>
                <part>
                   <item>monitoring</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Onderzoek met als doel het beoordelen van veranderingen in de toestand van de ondergrond die het gevolg zijn van natuurlijke of door de mens in gang gezette processen of herhaaldelijk optredende gebeurtenissen; voorbeelden zijn bodemdaling, verdroging, trillingen en aardbevingen.</p>
+                  </item>
                </part>
                <part>
                   <item>ontgronding</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Onderzoek ten behoeve van ontgrondingen (bijvoorbeeld zandwinning, grindwinning, baggeren).</p>
+                  </item>
                </part>
                <part>
                   <item>verkennendOnderzoek</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Verkennend geotechnisch onderzoek.</p>
+                  </item>
                </part>
                <part>
                   <item>waterkering</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Onderzoek met als hoofddoel de geotechnische eigenschappen te bepalen voor de aanleg en het onderhoud alsmede beoordeling van dijken en dammen.</p>
+                  </item>
                </part>
                <part>
                   <item>onbekend</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het doel waarvoor het onderzoek is uitgevoerd is niet bekend.</p>
+                  </item>
                </part>
             </content>
          </section>
@@ -43385,13 +43469,21 @@ Een internationale norm geaccepteerd door Europa en Nederland.</p>
                   <item>EN1997d2v2007</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">NEN-EN 1997-2:2007 Eurocode 7 Geotechnisch ontwerp. Deel 2: Grondonderzoek en beproeving inclusief nationale bijlage. De Eurocode 7 maakt deel uit van de eurocode serie van Europese standaarden (EN) gerelateerd aan constructies. In Eurocode 7 Geotechnisch ontwerp wordt omschreven hoe geotechnische constructies worden ontworpen. Eurocode 7 is op 12 juni 2006 goed gekeurd door het Europese Comité voor Standaardisatie en verplicht in de lidstaten vanaf maart 2010.</p>
+                  </item>
                </part>
                <part>
                   <item>onbekend</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het is niet bekend binnen welke procedurele kaders het booronderzoek is uitgevoerd. </p>
+                  </item>
                </part>
             </content>
          </section>
@@ -43419,19 +43511,31 @@ Een internationale norm geaccepteerd door Europa en Nederland.</p>
                   <item>kalkloos</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Geeft geen zichtbare of hoorbare opbruising bij het opdruppelen van verdund zoutzuur (10% HCl).</p>
+                  </item>
                </part>
                <part>
                   <item>kalkhoudend</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Geeft alleen hoorbare opbruising bij het opdruppelen van verdund zoutzuur (10% HCl).</p>
+                  </item>
                </part>
                <part>
                   <item>kalkrijk</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Geeft zowel zichtbare als hoorbare opbruising bij het opdruppelen van verdund zoutzuur (10% HCl).</p>
+                  </item>
                </part>
             </content>
          </section>
