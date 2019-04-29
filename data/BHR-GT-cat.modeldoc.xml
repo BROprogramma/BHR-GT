@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_4532D2FB_BE47_4dc9_BBAD_0F65D43D52FB"
       generator-version="1.52.5"
-      generator-date="2019-04-29T14:12:58Z">
+      generator-date="2019-04-29T14:26:46Z">
    <chapter title="CHAPTER-CATALOG" type="cat">
       <section type="DOMAIN"
                name="Domeinmodel BRO Common"
@@ -46291,25 +46291,41 @@ De vereiste monsterkwaliteit is QM1, QM2 of QM3.</p>
                   <item>geotechniek</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Booronderzoek uitgevoerd vanuit geotechnische expertise.</p>
+                  </item>
                </part>
                <part>
                   <item>geotechniekArcheologie</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Booronderzoek uitgevoerd vanuit geotechnische expertise met ondersteuning vanuit archeologische expertise.</p>
+                  </item>
                </part>
                <part>
                   <item>geotechniekArcheologieMilieukunde</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Booronderzoek uitgevoerd vanuit geotechnische expertise met ondersteuning vanuit archeologische en milieukundige expertise.</p>
+                  </item>
                </part>
                <part>
                   <item>geotechniekMilieukunde</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Booronderzoek uitgevoerd vanuit geotechnische expertise met ondersteuning vanuit milieukundige expertise.</p>
+                  </item>
                </part>
             </content>
          </section>
@@ -46337,49 +46353,81 @@ De vereiste monsterkwaliteit is QM1, QM2 of QM3.</p>
                   <item>bosveen</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het veen bestaat uit een bruinkleurige matrix die weinig samenhang vertoont met daarin licht geel- tot roodbruine resten van hout die typisch millimeters tot decimeters groot zijn. Dit type veen kan een relatief grote minerale component hebben.</p>
+                  </item>
                </part>
                <part>
                   <item>heideveen</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het veen bestaat uit een samenhangende bruin- tot zwartkleurige matrix van fijn vezelig materiaal met daarin veel als zodanig herkenbare roodbruine resten van worteltjes en takjes van heide: dunne, kronkelige, houtige resten van typisch centimeters lengte. Dit type veen is gewoonlijk mineraalarm.</p>
+                  </item>
                </part>
                <part>
                   <item>mosveen</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het veen heeft veelal een platige structuur en bestaat voornamelijk uit zeer fijne bruinkleurige vezeltjes met een schilferig uiterlijk. Dit type veen is gewoonlijk mineraalarm. </p>
+                  </item>
                </part>
                <part>
                   <item>rietveen</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het veen bestaat voornamelijk uit als zodanig herkenbare geelkleurige resten van riet: glanzende, platte, fijne worteltjes, typisch millimeters groot en resten van wortelstokken en stengels, typisch centimeters tot decimeters groot. Dit type veen kan een relatief grote minerale component hebben.</p>
+                  </item>
                </part>
                <part>
                   <item>veenmosveen</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het veen bestaat voornamelijk uit als zodanig herkenbare resten van veenmos: gelige blaadjes en stengeltjes die typisch millimeters tot centimeters groot zijn. Dit type veen is gewoonlijk mineraalarm.</p>
+                  </item>
                </part>
                <part>
                   <item>wollegrasveen</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het veen bevat als zodanig herkenbare resten van borstels van de basale bladscheden van eenarig wollegras: haren met typisch een lengte van een of enkele centimeters. Dit type veen is gewoonlijk mineraalarm en heeft een bruinige kleur.</p>
+                  </item>
                </part>
                <part>
                   <item>zeggeveen</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het veen bestaat voornamelijk uit als zodanig herkenbare resten van zegge: dunne worteltjes die typisch millimeters tot centimeters groot zijn, platte vooral brede bladresten die typisch millimeters tot centimeters lang zijn en licht geel tot bruin van kleur zijn. Dit type veen kan een geringe minerale component hebben.</p>
+                  </item>
                </part>
                <part>
                   <item>scheuzeriaveen</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het veen bestaat voornamelijk uit als zodanig herkenbare resten van Scheuchzeria: platte, kronkelige, bruine lichtglanzende stengels met dicht op elkaar staande knopen met typisch een lengte van een of enkele centimeters. Dit type veen is gewoonlijk mineraalarm.</p>
+                  </item>
                </part>
             </content>
          </section>
@@ -46407,19 +46455,31 @@ De vereiste monsterkwaliteit is QM1, QM2 of QM3.</p>
                   <item>nietVerkleurd</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Geen zichtbare verkleuring van gesteentemateriaal, eventueel met lichte verkleuring op discontinuïteitsvlakken.</p>
+                  </item>
                </part>
                <part>
                   <item>gedeeltelijkVerkleurd</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het materiaal is verkleurd, maar niet door en door. </p>
+                  </item>
                </part>
                <part>
                   <item>volledigVerkleurd</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het materiaal is door en door verkleurd.</p>
+                  </item>
                </part>
             </content>
          </section>
@@ -46447,19 +46507,31 @@ De vereiste monsterkwaliteit is QM1, QM2 of QM3.</p>
                   <item>LAT</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Laagst mogelijke waterstand gebaseerd op de stand van zon en maan (Lowest Astronomical Tide).</p>
+                  </item>
                </part>
                <part>
                   <item>MSL</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Gemiddeld zeeniveau (Mean Sea Level).</p>
+                  </item>
                </part>
                <part>
                   <item>NAP</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Normaal Amsterdams Peil.</p>
+                  </item>
                </part>
             </content>
          </section>
@@ -46487,61 +46559,101 @@ De vereiste monsterkwaliteit is QM1, QM2 of QM3.</p>
                   <item>geen</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Er is voorafgaand aan de bepaling geen materiaal verwijderd.</p>
+                  </item>
                </part>
                <part>
                   <item>antropogeenStenigBestanddeel</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Voorafgaand aan de bepaling is stenig antropogeen materiaal verwijderd en dat is licht stenig ophoogmateriaal, puin, stenen, verbrandingsresten en wegverhardingsmateriaal.</p>
+                  </item>
                </part>
                <part>
                   <item>grind</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Voorafgaand aan de bepaling is grind en grover materiaal verwijderd.</p>
+                  </item>
                </part>
                <part>
                   <item>houtskool</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Voorafgaand aan de bepaling zijn door verbranding verkoolde resten van hout verwijderd.</p>
+                  </item>
                </part>
                <part>
                   <item>kalkconcreties</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Voorafgaand aan de bepaling zijn concreties die door carbonaat tot een geheel zijn verkit verwijderd.</p>
+                  </item>
                </part>
                <part>
                   <item>koolzureKalk</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Voorafgaand aan de bepaling van de korrelgrootteverdeling is de koolzure kalk verwijderd met HCl (0,2 M) en is het gehalte van de verwijderde kalk bepaald (<em>Bepaling kalkgehalte</em>).</p>
+                  </item>
                </part>
                <part>
                   <item>organischeStof</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Voorafgaand aan de bepaling van de korrelgrootteverdeling is het organische stof verwijderd met H2O2 (20%) en is het gehalte van het verwijderde organische stof bepaald (<em>Bepaling organischestofgehalte</em>).</p>
+                  </item>
                </part>
                <part>
                   <item>plantenrestenHoutig</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Voorafgaand aan de bepaling zijn houtige, onverteerde resten van planten, zoals stammen en takken verwijderd.</p>
+                  </item>
                </part>
                <part>
                   <item>plantenrestenNietHoutig</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Voorafgaand aan de bepaling zijn niet-houtige, onverteerde resten van planten, zoals worteltjes, rietstengels en bladeren verwijderd.</p>
+                  </item>
                </part>
                <part>
                   <item>schelpmateriaal</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Voorafgaand aan de bepaling zijn schelpen en resten van schelpen verwijderd.</p>
+                  </item>
                </part>
             </content>
          </section>
@@ -46569,31 +46681,51 @@ De vereiste monsterkwaliteit is QM1, QM2 of QM3.</p>
                   <item>geen</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Er heeft tijdens het boren geen voorbehandeling plaatsgevonden.</p>
+                  </item>
                </part>
                <part>
                   <item>bevriezing</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De uitvoerder heeft het interval tijdens het boren bevroren.</p>
+                  </item>
                </part>
                <part>
                   <item>injectieDragendVermogen</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De uitvoerder heeft het interval tijdens het boren geïnjecteerd met materiaal om het dragend vermogen te vergroten.</p>
+                  </item>
                </part>
                <part>
                   <item>injectieWaterdoorlatendheid</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De uitvoerder heeft het interval tijdens het boren geïnjecteerd met materiaal om de waterdoorlatendheid te verkleinen.</p>
+                  </item>
                </part>
                <part>
                   <item>onbekend</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het is onbekend of er tijdens het boren voorbehandeling heeft plaatsgevonden.</p>
+                  </item>
                </part>
             </content>
          </section>
@@ -46621,43 +46753,71 @@ De vereiste monsterkwaliteit is QM1, QM2 of QM3.</p>
                   <item>geen</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De uitvoerder heeft geen voorbereidende werkzaamheden uitgevoerd.</p>
+                  </item>
                </part>
                <part>
                   <item>bevriezing</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De uitvoerder heeft voordat met boren is begonnen de ondergrond tot op een bepaalde diepte bevroren.</p>
+                  </item>
                </part>
                <part>
                   <item>injectieDragendVermorgen</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De uitvoerder heeft voordat met boren is begonnen de ondergrond tot op een bepaalde diepte geïnjecteerd met materiaal om het dragend vermogen te vergroten.</p>
+                  </item>
                </part>
                <part>
                   <item>injectieWaterdoorlatendheid</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De uitvoerder heeft voordat met boren is begonnen de ondergrond tot op een bepaalde diepte geïnjecteerd met materiaal om de waterdoorlatendheid te verkleinen. </p>
+                  </item>
                </part>
                <part>
                   <item>tijdelijkeVerbuizingVooraf</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De uitvoerder heeft voordat met boren is begonnen tot op een bepaalde diepte in de ondergrond een buis aangebracht.</p>
+                  </item>
                </part>
                <part>
                   <item>vacuümconsolidatie</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De uitvoerder heeft voordat met boren is begonnen tot op een bepaalde diepte in de ondergrond vacuümconsolidatie toegepast.</p>
+                  </item>
                </part>
                <part>
                   <item>verticaleDrainage</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De uitvoerder heeft voordat met boren is begonnen de ondergrond tot op een bepaalde diepte verticaal gedraineerd (strips, grindpalen, etc.).</p>
+                  </item>
                </part>
             </content>
          </section>
@@ -46685,19 +46845,31 @@ De vereiste monsterkwaliteit is QM1, QM2 of QM3.</p>
                   <item>nietToegepast</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De verticale vervorming is niet gecorrigeerd voor wrijving in de ring.</p>
+                  </item>
                </part>
                <part>
                   <item>wandwrijvingAangenomen</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De verticale vervorming is gecorrigeerd voor wrijving in de ring. De wrijving is een aangenomen waarde op basis van het <em>Protocol laboratoriumproeven voor grondonderzoek aan waterkeringen</em>, 2019.</p>
+                  </item>
                </part>
                <part>
                   <item>wandwrijvingBepaald</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De verticale vervorming is gecorrigeerd voor wrijving in de ring. De wandwrijving is (automatisch) bepaald.</p>
+                  </item>
                </part>
             </content>
          </section>
@@ -46725,55 +46897,91 @@ De vereiste monsterkwaliteit is QM1, QM2 of QM3.</p>
                   <item>grind</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Natuurlijke of antropogene grond die in hoofdzaak uit grind bestaat.</p>
+                  </item>
                </part>
                <part>
                   <item>huisvuil</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Ongedifferentieerd huishoudelijk afval.</p>
+                  </item>
                </part>
                <part>
                   <item>klei</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Natuurlijke of antropogene grond die in hoofdzaak uit klei bestaat.</p>
+                  </item>
                </part>
                <part>
                   <item>ophoogmateriaalLicht</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Ophoogmateriaal met een laag soortelijk gewicht.</p>
+                  </item>
                </part>
                <part>
                   <item>puin</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Bouw- en sloopafval; veelal een mengsel van stenig materiaal dat door de mens gemaakt of bewerkt is.</p>
+                  </item>
                </part>
                <part>
                   <item>stenen</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Stenen van natuurlijk materiaal dat door de mens bewerkt is tot bouwstenen, ballastblokken, (basalt)stortsteen of een bijproduct van mijnbouw zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>veen</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Natuurlijke of antropogene grond die in hoofdzaak uit veen bestaat.</p>
+                  </item>
                </part>
                <part>
                   <item>wegverhardingsmateriaal</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Materiaal dat gebruikt is voor het verharden van wegen en erven; voorbeelden zijn asfalt, betonklinkers, klinkers, steenslag en tegels.</p>
+                  </item>
                </part>
                <part>
                   <item>zand</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Natuurlijke of antropogene grond die in hoofdzaak uit zand bestaat.</p>
+                  </item>
                </part>
             </content>
          </section>
@@ -46801,73 +47009,121 @@ De vereiste monsterkwaliteit is QM1, QM2 of QM3.</p>
                   <item>fijn</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De zandmediaan ligt tussen 63 en 200 µm en is niet verder onderverdeeld; klasse onder NEN-EN-ISO 14688.</p>
+                  </item>
                </part>
                <part>
                   <item>fijn63tot105um</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De zandmediaan ligt tussen 63 en 105 µm; klasse onder NEN5104 en klasse binnen de categorie fijn onder NEN-EN-ISO 14688.</p>
+                  </item>
                </part>
                <part>
                   <item>fijn105tot150um</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De zandmediaan ligt tussen 105 en 150 µm; klasse onder NEN5104 en klasse binnen de categorie fijn onder NEN-EN-ISO 14688.</p>
+                  </item>
                </part>
                <part>
                   <item>fijn150tot200um</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De zandmediaan ligt tussen 150 en 200 µm; klasse binnen de categorie fijn onder NEN-EN-ISO 14688.</p>
+                  </item>
                </part>
                <part>
                   <item>middelgrof</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De zandmediaan ligt tussen 200 en 630 µm ; klasse onder NEN-EN-ISO 14688.</p>
+                  </item>
                </part>
                <part>
                   <item>middelgrof200tot300um</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De zandmediaan ligt tussen 200 en 300 µm; klasse binnen de categorie middelgrof onder NEN-EN-ISO 14688.</p>
+                  </item>
                </part>
                <part>
                   <item>middelgrof300tot420um</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De zandmediaan ligt tussen 300 en 420 µm; klasse onder NEN 5104 en klasse binnen de categorie middelgrof onder NEN-EN-ISO 14688.</p>
+                  </item>
                </part>
                <part>
                   <item>middelgrof420tot630um</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De zandmediaan ligt tussen 420 en 630 µm; klasse binnen de categorie middelgrof onder NEN-EN-ISO 14688.</p>
+                  </item>
                </part>
                <part>
                   <item>grof</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De zandmediaan ligt tussen 630 en 2000 µm; klasse onder NEN-EN-ISO 14688.</p>
+                  </item>
                </part>
                <part>
                   <item>fijn150tot210um</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De zandmediaan ligt tussen 150 en 210 µm; klasse onder NEN 5104.</p>
+                  </item>
                </part>
                <part>
                   <item>middelgrof210tot300um</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De zandmediaan ligt tussen 210 en 300 µm; klasse onder NEN 5104.</p>
+                  </item>
                </part>
                <part>
                   <item>grof420tot2000um</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De zandmediaan ligt tussen 420 en 2000 µm; klasse onder NEN 5104.</p>
+                  </item>
                </part>
             </content>
          </section>
@@ -46895,31 +47151,51 @@ De vereiste monsterkwaliteit is QM1, QM2 of QM3.</p>
                   <item>zeerKlein</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Zand waarvan meer dan 90% van de korrels binnen dezelfde zandmediaanklasse valt</p>
+                  </item>
                </part>
                <part>
                   <item>matigKlein</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Zand waarvan meer dan 90% van de korrels binnen twee aansluitende zandmediaanklasses valt</p>
+                  </item>
                </part>
                <part>
                   <item>matigGroot</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Zand waarvan meer dan 90% van de korrels binnen drie aansluitende zandmediaanklasses valt en de zandmediaan in de middelste van de drie zandmediaanklassen ligt.</p>
+                  </item>
                </part>
                <part>
                   <item>zeerGroot</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Zand waarvan minder dan 90% van de korrels binnen drie aansluitende zandmediaanklasses valt en de zandmediaan niet in de middelste van de drie zandmediaanklassen ligt.</p>
+                  </item>
                </part>
                <part>
                   <item>tweetoppig</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Zand waarvan de korrels tot twee populaties horen die meestal niet in aaneensluitende zandmediaanklassen liggen.</p>
+                  </item>
                </part>
             </content>
          </section>
@@ -46947,31 +47223,51 @@ De vereiste monsterkwaliteit is QM1, QM2 of QM3.</p>
                   <item>spoorTot1</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De fractie 16-63 mm maakt minder dan 1 procent van de massa van de grindfractie uit.</p>
+                  </item>
                </part>
                <part>
                   <item>weinig1tot25</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De fractie 16-63 mm maakt tussen 1 en 25 procent van de massa van de grindfractie uit.</p>
+                  </item>
                </part>
                <part>
                   <item>veel25tot50</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De fractie 16-63 mm maakt tussen 25 en 50 procent van de massa van de grindfractie uit.</p>
+                  </item>
                </part>
                <part>
                   <item>zeerVeel50tot75</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De fractie 16-63 mm maakt tussen 50 en 75 procent van de massa van de grindfractie uit.</p>
+                  </item>
                </part>
                <part>
                   <item>uiterstVeelMinstens75</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De fractie 16-63 mm maakt minstens 75 procent van de massa van de grindfractie uit.</p>
+                  </item>
                </part>
             </content>
          </section>
@@ -46999,19 +47295,31 @@ De vereiste monsterkwaliteit is QM1, QM2 of QM3.</p>
                   <item>nietToegepast</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het watergehalte is niet gecorrigeerd voor het gehalte aan opgeloste zouten.</p>
+                  </item>
                </part>
                <part>
                   <item>zoutgehalteAangenomen</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het watergehalte is gecorrigeerd voor het gehalte aan opgeloste zouten. Het zoutgehalte van het poriënwater is een aangenomen waarde.</p>
+                  </item>
                </part>
                <part>
                   <item>zoutgehalteBepaald</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het watergehalte is gecorrigeerd voor het gehalte aan opgeloste zouten. Het zoutgehalte van het poriënwater is bepaald.</p>
+                  </item>
                </part>
             </content>
          </section>
