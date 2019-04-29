@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_4532D2FB_BE47_4dc9_BBAD_0F65D43D52FB"
       generator-version="1.52.5"
-      generator-date="2019-04-29T13:35:04Z">
+      generator-date="2019-04-29T13:41:46Z">
    <chapter title="CHAPTER-CATALOG" type="cat">
       <section type="DOMAIN"
                name="Domeinmodel BRO Common"
@@ -43583,175 +43583,291 @@ Een internationale norm geaccepteerd door Europa en Nederland.</p>
                   <item>donkergeel</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Donkergeel is gelijk aan de Munsellkleur 10Y 6/6 (dark greenish yellow) en 10YR 6/6, 10YR 6/8 (brownish yellow). Donkergeel gebruikt onder NEN 5104 wordt niet gedefinieerd door de Munsellkleuren.</p>
+                  </item>
                </part>
                <part>
                   <item>donkergrijs</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Donkergrijs omvat de Munsellkleuren 10B 3/1, 10B 4/1, 5B 3/1, 5B 4/1, 5PB 3/1, 5PB 4/1 (dark bluish gray), 10YR 4/1, 2.5Y 4/1, 7.5YR 4/1, N 4/ (dark gray), , 10BG 4/1, 10G 4/1, 10GY 4/1, 10Y 4/1, 5BG 4/1, 5G 3/1, 5G 4/1, 5GY 4/1 (dark greenish gray), 10R 3/1, 10R 4/1, 2.5YR 3/1, 2.5YR 4/1, 5R 3/1, 5R 4/1, 5YR 4/2, 7.5R 3/1, 7.5R 4/1 (dark reddish gray) en 10YR 3/1, 2.5Y 3/1, 5Y 3/1, 5YR 3/1, 7.5YR 3/1, N 3/ (very dark gray).</p>
+                  </item>
                </part>
                <part>
                   <item>donkergroen</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Donkergroen omvat de Munsellkleuren 5G 2.5/2, 5G 3/2, 5GY 4/2 (dark grayish green), 5GY 3/2 (very dark grayisch green), 5GY 3/4 (dark olive green), 10BG 3/1, 10G 3/1, 10GY 3/1, 5BG 3/1 (very dark greenish gray), 5BG 3/2 (dusky blue green), 10GY 3/2 (dusky yellowish green) en 10GY 4/4 (dark yellowish green). Donkergroen gebruikt onder NEN 5104 wordt niet gedefinieerd door de Munsellkleuren.</p>
+                  </item>
                </part>
                <part>
                   <item>donkerolijf</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Donkerolijf omvat de Munsellkleuren 10Y 3/4 (dark olive), 10Y 3/2 (very dark grayish olive) en 10Y 4/2 (dark grayish olive). Donkerolijf gebruikt onder NEN 5104 wordt niet gedefinieerd door de Munsellkleuren.</p>
+                  </item>
                </part>
                <part>
                   <item>donkerrood</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Donkerrood omvat de Munsellkleuren 10R 3/6, 2.5YR 3/6, 5R 2.5/6, 5R 3/6, 5R 3/8, 7.5R 3/6, 7.5R 3/8 (dark red), 10R 2.5/2, 5R 2.5/2, 2.5YR 2.5/2, 5R 2.5/3, 5R 2.5/4, 7.5R 2.5/2, 7.5R 2.5/3, 7.5R 2.5/4, 10R 2/2 (very dusky red), 10R 3/2, 10R 3/3, 10R 3/4, 2.5YR 3/2, 5R 3/2, 5R 3/3, 5R 3/4, 7.5R 3/2, 7.5R 3/3, 7.5R 3/4 (dusky red), 5R 2/2 (blackish red) en 5R 2/6 (very dark red). Donkerrood gebruikt onder NEN 5104 wordt niet gedefinieerd door de Munsellkleuren.</p>
+                  </item>
                </part>
                <part>
                   <item>lichtblauw</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Lichtblauw omvat de Munsellkleuren 5B 7/6 (light blue), 5B 6/2 (pale blue), 5P 6/2 (pale purple), 5PB 7/2 (pale blue) en 5B 8/2 (very pale blue). Lichtblauw gebruikt onder NEN 5104 wordt niet gedefinieerd door de Munsellkleuren.</p>
+                  </item>
                </part>
                <part>
                   <item>lichtbruin</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Lichtbruin omvat de Munsellkleuren 7.5YR 6/3, 7.5YR 6/4, 5YR 5/6(light brown), 2.5Y 5/3, 2.5Y 5/4, 2.5Y 5/6, 2.5Y 5/8, 5Y 5/6 (light olive brown), 2.5YR 6/3, 2.5YR 6/4, 2.5YR 7/3, 2.5YR 7/4, 5YR 6/3, 5YR 6/4 (light reddish brown), 10YR 6/4, 2.5Y 6/3, 2.5Y 6/4 (light yellowish brown), 2.5Y 7/3, 2.5Y 7/4, 2.5Y 8/2, 2.5Y 8/3, 2.5Y 8/4, 10YR 6/3, 5YR 5/2 (pale brown), 10YR 6/2 (pale yellowish brown) en 10YR 7/3, 10YR 7/4, 10YR 8/2, 10YR 8/3, 10YR 8/4 10YR 8.5/2 (very pale brown). Lichtbruin gebruikt onder NEN 5104 wordt niet gedefinieerd door de Munsellkleuren.</p>
+                  </item>
                </part>
                <part>
                   <item>lichtgeel</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Lichtgeel omvat de Munsellkleuren 10Y 8/2 (pale greenish yellow) en 5Y 7/3, 5Y 7/4, 5Y 8/2, 5Y 8/3, 2.5Y 8.5/2 (pale yellow), 2.5Y 9/2, 2.5Y 9.5/2 (very pale yellow) en 10YR 9/2, 10YR 9.5/2 (pale orange yellow). Lichtgeel gebruikt onder NEN 5104 wordt niet gedefinieerd door de Munsellkleuren.</p>
+                  </item>
                </part>
                <part>
                   <item>lichtgrijs</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Lichtgrijs omvat de Munsellkleuren 10B 7/1, 10B 8/1, 5B 7/1, 5B 8/1, 5PB 7/1, 5PB 8/1 (light bluish gray), 2.5Y 6/2, 5YR 6/1 (light brownish gray), 10R 7/1, 10YR 7/1, 10YR 7/2, 2.5Y 7/1, 2.5Y 7/2, 5Y 7/1, 5YR 7/1, 7.5YR 7/1, N 7/(light gray) en 10BG 7/1, 10BG 8/1, 10G 7/1, 10G 8/1, 10GY 7/1, 10GY 8/1, 10Y 7/1, 10Y 8/1, 5BG 7/1, 5BG 8/1, 5G 7/1, 5G 8/1, 5GY 7/1, 5GY 8/1, 2.5YR 7/1 (light reddish gray), 5R 7/1, 5YR 6/2, 5YR 7/2, 7.5R 7/1, 7.5YR 6/2, 7.5YR 7/2 (pinkish gray) en 5Y 6/2, 5Y 5/2, 5Y 6/1 (light olive gray). Lichtgrijs gebruikt onder NEN 5104 wordt niet gedefinieerd door de Munsellkleuren.</p>
+                  </item>
                </part>
                <part>
                   <item>lichtgroen</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Lichtgroen omvat de Munsellkleuren 5BG 6/6 (light bluish green), 5G 7/4 (light green), 5BG 7/2 (pale bluish green), 10G 6/2, 5G 6/2, 5G 7/2, 5G 8/2 (pale green), 5GY 6/4, 10GY 7/2 (pale yellowish green), 5GY 6/2 (light grayish green), 5GY 5/4 (light olive green), 5GY 7/2 (grayish yellow green) en 10G 8/2 (very pale green). Lichtgroen gebruikt onder NEN 5104 wordt niet gedefinieerd door de Munsellkleuren.</p>
+                  </item>
                </part>
                <part>
                   <item>lichtolijf</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">lichtolijf omvat de Munsellkleuren 10Y 5/4(light olive) en 10Y 6/2, 10Y 6/4, 5Y 6/3(pale olive). Lichtolijf gebruikt onder NEN 5104 wordt niet gedefinieerd door de Munsellkleuren.</p>
+                  </item>
                </part>
                <part>
                   <item>lichtrood</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Lichtrood omvat de Munsellkleuren 7.5YR 9.5/2, 7.5YR 9/2 (pale yellowish pink), 5R 8/2, 5R 8/3, 5R 8/4, 7.5R 8/2, 7.5R 8/3, 7.5R 8/4 (light pink), 10R 6/6, 10R 6/8, 10R 7/6, 10R 7/8, 2.5YR 6/6, 2.5YR 6/8, 2.5YR 7/6, 2.5YR 7/8, 5R 6/6, 5R 6/8, 5R 7/6, 5R 7/8, 7.5R 6/6, 7.5R 6/8, 7.5R 7/6, 7.5R 7/8 (light red), 5RP 8/2 (pale pink), 10R 6/2, 10R 6/3, 10R 6/4, 10R 7/2, 10R 7/3, 2.5YR 6/2, 2.5YR 7/2, 5R 6/2, 5R 6/3, 5R 6/4, 5R 7/2, 5R 7/3, 5R 7/4, 7.5R 6/2, 7.5R 6/3, 7.5R 6/4, 7.5R 7/2, 7.5R 7/3, 7.5R 7/4 (pale red), 2.5YR 4/2, 2.5YR 5/2, 5R 4/2, 5R 4/3, 5R 4/4, 5R 5/2, 5R 5/3, 5R 5/4, 7.5R 4/2, 7.5R 4/3, 7.5R 4/4, 7.5R 5/2, 7.5R 5/3, 7.5R 5/4 (weak red). Lichtrood gebruikt onder NEN 5104 wordt niet gedefinieerd door de Munsellkleuren.</p>
+                  </item>
                </part>
                <part>
                   <item>standaardBlauw</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Standaard blauw, tussen lichtblauw en donkerblauw, omvat de Munsellkleuren 5PB 3/2 (dusky blue), 5RP 6/2 (red purple), 5PB 5/2 (grayish blue), 5B 5/6 (medium blue).</p>
+                  </item>
                </part>
                <part>
                   <item>standaardBruin</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Standaard bruin, tussen lichtbruin en donkerbruin, omvat de Munsellkleuren 10YR 4/3, 10YR 5/3, 7.5YR 4/2, 7.5YR 4/3, 7.5YR 4/4, 7.5YR 5/2, 7.5YR 5/3, 7.5YR 5/4 (brown), 10YR 5/2, 2.5Y 5/2, 5YR 3/2, 5Y 8/4 (grayish brown), 2.5Y 4/3, 2.5Y 4/4, 2.5Y 4/6(olive brown), 5Y 4/4 (moderate olive brown), 2.5YR 4/3, 2.5YR 4/4, 2.5YR 5/3, 2.5YR 5/4, 5YR 4/3, 5YR 4/4, 5YR 5/3, 5YR 5/4 (reddish brown), 7.5YR 4/6, 7.5YR 5/6, 7.5YR 5/8 (strong brown), 5YR 3/4 (moderate brown), 10R 4/6 (moderate reddish brown) en 10YR 5/4, 10YR 5/6, 10YR 5/8 (yellowish brown). Standaardbruin wordt niet gebruikt onder NEN 5104.</p>
+                  </item>
                </part>
                <part>
                   <item>standaardGeel</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Standaard geel, tussen lichtgeel en donkergeel, omvat de Munsellkleuren 10Y 7/4 (medium greenish yellow), 2.5Y 6/6, 2.5Y 6/8, 5Y 6/6, 5Y 6/8 (olive yellow), 5YR 6/6, 5YR 6/8, 5YR 7/6, 5YR 7/8, 7.5YR 6/6, 7.5YR 6/8, 7.5YR 7/6, 7.5YR 7/8, 7.5YR 8/6 (reddish yellow), 5Y 6/4 (dusky yellow) en 10YR 7/6, 10YR 7/8, 10YR 8/6, 10YR 8/8, 2.5Y 7/6, 2.5Y 7/8, 2.5Y 8/6, 2.5Y 8/8, 5Y 7/6, 5Y 7/8, 5Y 8/6, 5Y 8/8 (yellow). Standaardgeel wordt niet gebruikt onder NEN 5104.</p>
+                  </item>
                </part>
                <part>
                   <item>standaardGrijs</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Standaard grijs, tussen lichtgrijs en donkergrijs, omvat de Munsellkleuren 10B 5/1, 10B 6/1, 5B 5/1, 5B 6/1, 5PB 5/1, 5PB 6/1 (bluish gray), 10YR 5/1, 10YR 6/1, 2.5Y 5/1, 2.5Y 6/1, 5Y 5/1, 5YR 5/1, 7.5YR 5/1, 7.5YR 6/1, N 5/, N 6/(gray), 10BG 5/1, 10BG 6/1, 10G 5/1, 10G 6/1, 10GY 5/1, 10GY 6/1, 10Y 5/1, 10Y 6/1, 5BG 5/1, 5BG 6/1, 5G 5/1, 5G 6/1, 5GY 5/1, 5GY 6/1 (greenish gray), 5YR 4/1 (brownish gray), 5Y 3/2, 5Y 4/2, 5Y 4/1 (olive gray), 5Y 7/2, 5Y 8/1 (yellowish gray)en 10R 5/1, 10R 6/1, 2.5YR 5/1, 2.5YR 6/1, 5R 5/1, 5R 6/1, 7.5R 5/1, 7.5R 6/1 (reddish gray). Standaardgrijs wordt niet gebruikt onder NEN 5104.</p>
+                  </item>
                </part>
                <part>
                   <item>standaardGroen</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Standaard groen, tussen lichtgroen en donkergroen, omvat de Munsellkleuren 5BG 5/2 (bluish green), 5G 6/6 (brilliant green), , 5GY 5/2 (dusky yellowish green), 10G 4/2, 10GY 5/2, 5G 4/2, 5G 5/2 (grayish green), 5BG 4/6 (medium bluish green), 5G 5/6 (medium green), 5GY 4/4 (olive green) en 10GY 6/4, 5GY 7/4 (medium yellowish green). Standaardgroen wordt niet gebruikt onder NEN 5104.</p>
+                  </item>
                </part>
                <part>
                   <item>standaardOlijf</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Standaard olijf, tussen lichtolijf en donkerolijf, omvat de Munsellkleuren 10Y 5/2 (grayish olive) en 5Y 4/35Y 5/3, 5Y 5/4, 10Y 4/4 (olive). Standaardolijf wordt niet gebruikt onder NEN 5104.</p>
+                  </item>
                </part>
                <part>
                   <item>standaardRood</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Standaard rood, tussen lichtrood en donkerrood, omvat de Munsellkleuren 10R 4/8, 10R 5/6, 10R 5/8, 2.5YR 4/6, 2.5YR 4/8, 2.5YR 5/6, 2.5YR 5/8, 5R 4/6, 5R 4/8, 5R 5/6, 5R 5/8, 7.5R 4/6, 7.5R 4/8, 7.5R 5/6, 7.5R 5/8 (red), (very dusky red), 10R 8/3, 10R 8/4, 2.5YR 8/3, 2.5YR 8/4, 5YR 7/3, 5YR 7/4, 5YR 8/3, 7.5YR 7/3, 7.5YR 7/4, 7.5YR 8/3, 7.5YR 8/4 (pink), 10R 5/4, 10R 5/3, 10R 5/2, 10R 4/4, 10R 4/3, 10R 4/2 (weak red), 10R 7/4, 5YR 8/4 (moderate orange pink) en 5YR 4/6, 5YR 5/8 (yellowish red). Standaardrood wordt niet gebruikt onder NEN 5104.</p>
+                  </item>
                </part>
                <part>
                   <item>wit</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Wit omvat de Munsellkleuren 5B 9/1 (bluish white), 10R 8/2, 2.5YR 8/2, 5YR 8/2, 7.5YR 8/2, 7.5YR 8.5/2 (pinkish white), 10R 8/1, 10YR 8/1, 2.5Y 8/1, 2.5YR 8/1, 5R 8/1, 5YR 8/1, 7.5R 8/1, 7.5YR 8/1, N 8/, N 9/, 10YR 8.5/1, 10YR 9.5/1, 10YR 9/1, 2.5Y 8.5/1, 2.5Y 9.5/1, 2.5Y 9/1, 7.5YR 8.5/1, 7.5YR 9.5/1, 7.5YR 9/1, N 8.5/ (white). Wit gebruikt onder NEN 5104 wordt niet gedefinieerd door de Munsellkleuren.</p>
+                  </item>
                </part>
                <part>
                   <item>zwart</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Zwart omvat de Munsellkleuren 10YR 2/1, 2.5Y 2.5/1, 5Y 2.5/1, 5Y 2.5/2, 5YR 2.5/1, 7.5YR 2.5/1, N1, (black), 10B 2.5/1, 5B 2.5/1, 5PB 2.5/1 (bluish black), 5YR 2/1 (brownisch black), 10BG 2.5/1, 10G 2.5/1, 10GY 2.5/1, 10Y 2.5/1, 5BG 2.5/1, 5G 2.5/1, 5G 2/1, 5GY 2.5/1 5GY 2/1 (greenish black), 5Y 2/1 (olive black) 10R 2.5/1, 2.5YR 2.5/1, 5R 2.5/1, 7.5R 2.5/1 (reddish black), N2 (grayisch black), 10Y 3/1, 5GY 3/1 (very dark greenish gray). Zwart gebruikt onder NEN 5104 wordt niet gedefinieerd door de Munsellkleuren.</p>
+                  </item>
                </part>
                <part>
                   <item>blauw</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Blauw zonder aanduiding van licht of donker zoals gebruikt onder NEN 5104.</p>
+                  </item>
                </part>
                <part>
                   <item>bruin</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Bruin zonder aanduiding van licht of donker zoals gebruikt onder NEN 5104.</p>
+                  </item>
                </part>
                <part>
                   <item>geel</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Geel zonder aanduiding van licht of donker zoals gebruikt onder NEN 5104.</p>
+                  </item>
                </part>
                <part>
                   <item>groen</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Groen zonder aanduiding van licht of donker zoals gebruikt onder NEN 5104.</p>
+                  </item>
                </part>
                <part>
                   <item>grijs</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Grijs zonder aanduiding van licht of donker zoals gebruikt onder NEN 5104.</p>
+                  </item>
                </part>
                <part>
                   <item>olijf</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Olijf zonder aanduiding van licht of donker zoals gebruikt onder NEN 5104.</p>
+                  </item>
                </part>
                <part>
                   <item>paars</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Paars zonder aanduiding van licht of donker zoals gebruikt onder NEN 5104.</p>
+                  </item>
                </part>
                <part>
                   <item>rood</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Rood zonder aanduiding van licht of donker zoals gebruikt onder NEN 5104.</p>
+                  </item>
                </part>
             </content>
          </section>
@@ -43779,31 +43895,51 @@ Een internationale norm geaccepteerd door Europa en Nederland.</p>
                   <item>binnenteen</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De binnenteen is de overgang van het talud naar het maaiveld aan de binnenzijde (bij dijken de landzijde) van het grondlichaam.</p>
+                  </item>
                </part>
                <part>
                   <item>buitenteen</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De buitenteen is de overgang van het talud naar het maaiveld aan de buitenzijde (bij dijken de waterzijde) van het grondlichaam.</p>
+                  </item>
                </part>
                <part>
                   <item>kruin</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De top of het hoogste vlak van het grondlichaam.</p>
+                  </item>
                </part>
                <part>
                   <item>talud</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De zijwand van het grondlichaam.</p>
+                  </item>
                </part>
                <part>
                   <item>teen</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De overgang van het talud naar het maaiveld, niet nader gespecificeerd naar binnen- of buitenkant.</p>
+                  </item>
                </part>
             </content>
          </section>
@@ -43831,13 +43967,21 @@ Een internationale norm geaccepteerd door Europa en Nederland.</p>
                   <item>maaiveld</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het oppervlak van de vaste aarde, daar waar de aarde niet bedekt is met water. Het maaiveld vormt de grens tussen de ondergrond en de bovengrond.</p>
+                  </item>
                </part>
                <part>
                   <item>waterbodem</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De bodem van het waterlichaam. Deze vormt de grens tussen de ondergrond en de bovengrond, daar waar de aarde bedekt is met water.</p>
+                  </item>
                </part>
             </content>
          </section>
