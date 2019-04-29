@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_4532D2FB_BE47_4dc9_BBAD_0F65D43D52FB"
       generator-version="1.52.5"
-      generator-date="2019-04-29T13:08:13Z">
+      generator-date="2019-04-29T13:14:52Z">
    <chapter title="CHAPTER-CATALOG" type="cat">
       <section type="DOMAIN"
                name="Domeinmodel BRO Common"
@@ -42157,145 +42157,241 @@ Een internationale norm geaccepteerd door Europa en Nederland.</p>
                   <item>breccie</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het gesteente bestaat voor meer dan 50% uit grove, hoekige korrels met een mediaan groter dan 2 mm.</p>
+                  </item>
                </part>
                <part>
                   <item>conglomeraat</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het gesteente bestaat voor meer dan 50% uit grove, afgeronde korrels met een mediaan groter dan 2 mm.</p>
+                  </item>
                </part>
                <part>
                   <item>conglomeraatFijneMatrix</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het gesteente bestaat uit grove, afgeronde korrels die elkaar raken met daartussen fijnkorrelig materiaal. De mediaan van de grove fractie is groter dan 2 mm.</p>
+                  </item>
                </part>
                <part>
                   <item>conglomeraatZandig</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het gesteente bestaat uit grove, afgeronde korrels die elkaar raken met daartussen fijner grofkorrelig materiaal. De mediaan van de grove fractie is groter dan 2 mm en de mediaan van de fijnere fractie ligt tussen 0,063 en 2 mm.</p>
+                  </item>
                </part>
                <part>
                   <item>dolomiet</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het gesteente bestaat voor meer dan 95% uit calcium-magnesiumcarbonaat.</p>
+                  </item>
                </part>
                <part>
                   <item>gips</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het gesteente bestaat voor meer dan 95% uit calciumsulfaat.</p>
+                  </item>
                </part>
                <part>
                   <item>kalksteenFijnkorrelig</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het gesteente bestaat voor meer dan 50% uit korrels van koolzure kalk waarvan de mediaan kleiner is dan 0,063 mm. </p>
+                  </item>
                </part>
                <part>
                   <item>kalksteenGrofkorrelig</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het gesteente bestaat voor meer dan 50% uit korrels van koolzure kalk waarvan de mediaan tussen 0,063 en 2 mm ligt.</p>
+                  </item>
                </part>
                <part>
                   <item>kalksteenHardsteen</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het gesteente bestaat voor meer dan 50% uit koolzure kalk en korrels zijn niet (meer) herkenbaar.</p>
+                  </item>
                </part>
                <part>
                   <item>kleisteen</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het gesteente bestaat uit siliciklastisch materiaal waarvan de korrels niet met een loep zichtbaar zijn en een mes niet krassen.</p>
+                  </item>
                </part>
                <part>
                   <item>kleisteenZandig</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het gesteente bestaat voor 50-95% uit siliciklastisch materiaal waarvan de korrels niet met een loep zichtbaar zijn en een mes niet krassen, met daarin grovere deeltjes met een mediaan die tussen de 0,063 en 2 mm ligt. </p>
+                  </item>
                </part>
                <part>
                   <item>mergel</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Fijn- of grofkorrelige kalksteen die voor meer dan 95% uit koolzure kalk bestaat, in Limburg voorkomt en waarin veel resten van fossielen te zien zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>mergelKleiig</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Een mengsel dat voor 50 tot 95% uit mergel bestaat en voor het overige uit niet-kalkig materiaal, waarvan de korrels niet met een loep zichtbaar zijn en een mes niet krassen.</p>
+                  </item>
                </part>
                <part>
                   <item>mergelSiltig</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Een mengsel dat voor 50 tot 95% uit mergel bestaat en voor het overige uit niet-kalkig materiaal, waarvan de korrels niet met een loupe zichtbaar zijn en een mes krassen of knarsen tussen de tanden. </p>
+                  </item>
                </part>
                <part>
                   <item>mergelZandig</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Een mengsel dat voor 50 tot 95% uit mergel bestaat en voor het overige uit niet-kalkig materiaal, waarvan de korrels een mediaan tussen de 0,063 en 2 mm hebben. </p>
+                  </item>
                </part>
                <part>
                   <item>siltsteen</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het gesteente bestaat uit siliciklastisch materiaal en dat bestaat voor meer dan 95 % uit korrels die kleiner zijn dan 0,063 mm en die een mes krassen of tussen de tanden knarsen.</p>
+                  </item>
                </part>
                <part>
                   <item>siltsteenZandig</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het gesteente bestaat uit siliciklastisch materiaal en dat bestaat voor 50-95% uit korrels die kleiner zijn dan 0,063 mm en die een mes krassen en verder uit grovere korrels waarvan de mediaan tussen de 0,063 en 2 mm ligt; de grovere korrels raken elkaar niet.</p>
+                  </item>
                </part>
                <part>
                   <item>steenkool</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het gesteente bestaat uit zwart, amorf organisch materiaal.</p>
+                  </item>
                </part>
                <part>
                   <item>steenzout</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het gesteente bestaat uit kristallijn zout.</p>
+                  </item>
                </part>
                <part>
                   <item>vuursteen</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het gesteente bestaat uit microkristallijne, opake kwarts.</p>
+                  </item>
                </part>
                <part>
                   <item>zandsteen</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het gesteente bestaat uit siliciklastisch materiaal en dat bestaat voor meer dan 95% uit kwartskorrels met een mediaan die tussen 0,063 en 2 mm ligt.</p>
+                  </item>
                </part>
                <part>
                   <item>zandsteenKleiig</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het gesteente bestaat uit siliciklastisch materiaal en dat bestaat voor 50 tot 95% uit kwartskorrels met een mediaan die tussen 0,063 en 2 mm ligt en voor het overige uit materiaal, waarvan de korrels niet met een loep zichtbaar zijn en die een mes niet krassen.</p>
+                  </item>
                </part>
                <part>
                   <item>zandsteenKwartsietisch</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het gesteente bestaat uit kwartskorrels met een mediaan groter dan 0,063 mm en verder alleen uit kwarts cement. Bij doorslaan loopt de breuk veelal door de kwartskorrels heen.</p>
+                  </item>
                </part>
                <part>
                   <item>zandsteenSiltig</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het gesteente bestaat uit siliciklastisch materiaal en bestaat voor 50 tot 95% uit kwartskorrels met een mediaan die tussen 0,063 en 2 mm ligt en voor het overige uit materiaal, waarvan de korrels niet met een loep zichtbaar zijn en een mes krassen.</p>
+                  </item>
                </part>
             </content>
          </section>
@@ -42323,43 +42419,71 @@ Een internationale norm geaccepteerd door Europa en Nederland.</p>
                   <item>afgeleid</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De grens is gebaseerd op een verandering die niet waargenomen is in de monsters, maar afgeleid is uit het boorgedrag; het begrip scherpte is niet van toepassing.</p>
+                  </item>
                </part>
                <part>
                   <item>afgeleidSondering</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De grens is gebaseerd op een verandering die niet waargenomen is in de monsters, maar afgeleid is uit een sondering die op minder dan 5 meter van de boring vandaan ligt; het begrip scherpte is niet van toepassing.</p>
+                  </item>
                </part>
                <part>
                   <item>voorbepaald</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De grens is niet gebaseerd op een verandering maar is kunstmatig bepaald; het begrip scherpte is niet van toepassing.</p>
+                  </item>
                </part>
                <part>
                   <item>waargenomenScherp</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De grens is gebaseerd op een verandering die waargenomen is in de monsters. De verandering waarop de grens is gebaseerd voltrekt zich binnen een bereik van minder dan 3 mm.</p>
+                  </item>
                </part>
                <part>
                   <item>waargenomenGeleidelijk</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De grens is gebaseerd op een verandering die waargenomen is in de monsters. De verandering voltrekt zich binnen een bereik dat tussen 3 en 30 mm ligt.</p>
+                  </item>
                </part>
                <part>
                   <item>waargenomenDiffuus</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De grens is gebaseerd op een verandering die waargenomen is in de monsters. De verandering voltrekt zich binnen een bereik dat tussen 30 en 100 mm ligt.</p>
+                  </item>
                </part>
                <part>
                   <item>waargenomenWillekeurig</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De grens is gebaseerd op een verandering die waargenomen is in de monsters, maar de verandering is zo geleidelijk dat de grens op een willekeurige plaats is gelegd.</p>
+                  </item>
                </part>
             </content>
          </section>
@@ -42387,25 +42511,41 @@ Een internationale norm geaccepteerd door Europa en Nederland.</p>
                   <item>nietGrindig</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Grind is niet aanwezig.</p>
+                  </item>
                </part>
                <part>
                   <item>zwakGrindig</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Grind is aanwezig en maakt minder dan 5 procent van de massa uit.</p>
+                  </item>
                </part>
                <part>
                   <item>matigGrindig</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Grind maakt tussen 5 en 15 procent van de massa uit.</p>
+                  </item>
                </part>
                <part>
                   <item>sterkGrindig</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Grind maakt tussen 15 en 30 procent van de massa uit.</p>
+                  </item>
                </part>
             </content>
          </section>
@@ -42433,19 +42573,31 @@ Een internationale norm geaccepteerd door Europa en Nederland.</p>
                   <item>fijn</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De grindmediaan is gelijk aan of groter dan 2 mm en kleiner dan 5,6 mm.</p>
+                  </item>
                </part>
                <part>
                   <item>middelgrof</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De grindmediaan is gelijk aan of groter dan 5,6 mm en kleiner dan 16 mm.</p>
+                  </item>
                </part>
                <part>
                   <item>grof</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De grindmediaan is gelijk aan of groter dan 16 mm en kleiner dan 63 mm.</p>
+                  </item>
                </part>
             </content>
          </section>
@@ -42473,187 +42625,311 @@ Een internationale norm geaccepteerd door Europa en Nederland.</p>
                   <item>blokken</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Grond die voor meer dan 50 procent van de massa uit blokken, voor een onbepaald deel uit minder grof mineraal materiaal bestaat en een onbepaald deel organische stof  bevat. Deze grondsoort zou gezien, de grootte van blokken, in boringen eigenlijk niet voor mogen komen.</p>
+                  </item>
                </part>
                <part>
                   <item>keienNietGespecificeerd</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Grond die voor meer dan 50 procent van de massa uit keien, voor een onbepaald deel uit minder grof mineraal materiaal bestaat en een onbepaald deel organische stof  bevat.</p>
+                  </item>
                </part>
                <part>
                   <item>keitjesNietGespecificeerd</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Grond die voor meer dan 50 procent van de massa uit keitjes, voor een onbepaald deel uit minder grof mineraal materiaal bestaat en een onbepaald deel organische stof  bevat. In de NEN 5104 worden keitjes overigens stenen genoemd.</p>
+                  </item>
                </part>
                <part>
                   <item>siltigGrind</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De grens is gebaseerd op een verandering die waargenomen is in de monsters. De verandering voltrekt zich binnen een bereik dat tussen 30 en 100 mm ligt.</p>
+                  </item>
                </part>
                <part>
                   <item>zwakZandigGrind</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De grens is gebaseerd op een verandering die waargenomen is in de monsters. De verandering voltrekt zich binnen een bereik dat tussen 30 en 100 mm ligt.</p>
+                  </item>
                </part>
                <part>
                   <item>matigZandigGrind</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Grond die voor meer dan 30 procent van het massa uit grind, voor minder dan 20 procent uit silt plus lutum en voor 10 tot 30 procent uit zand bestaat en niet veel organische stof bevat. </p>
+                  </item>
                </part>
                <part>
                   <item>sterkZandigGrind</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Grond die voor meer dan 30 procent van het massa uit grind, voor 30 tot 50 procent uit zand en voor minder dan 20 procent uit silt plus lutum bestaat en niet veel organische stof bevat. </p>
+                  </item>
                </part>
                <part>
                   <item>uiterstZandigGrind</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Grond die voor meer dan 30 procent van het massa uit grind, voor meer dan 50 procent uit zand en voor minder dan 20 procent uit silt plus lutum bestaat en niet veel organische stof bevat.</p>
+                  </item>
                </part>
                <part>
                   <item>mineraalarmVeen</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Grond die voor meer dan 35 procent van de massa uit organische stof die vezelig is en samenhang vertoont bestaat, voor maximaal 30 procent uit lutum en voor maximaal 65 procent uit silt plus zand.</p>
+                  </item>
                </part>
                <part>
                   <item>zwakKleiigVeen</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Grond die voor 25 tot 70 procent van de massa uit organische stof die vezelig is en samenhang vertoont bestaat, voor minder dan 70 procent uit silt plus zand en voor tussen 5 en 55 procent uit lutum.</p>
+                  </item>
                </part>
                <part>
                   <item>sterkKleiigVeen</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Grond die voor 15 tot 45 procent van de massa uit organische stof die vezelig is en samenhang vertoont bestaat, voor minder dan 77,5 procent uit silt plus zand en voor tussen 7 en 70 procent uit lutum.</p>
+                  </item>
                </part>
                <part>
                   <item>zwakZandigVeen</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Grond die voor 22,5 tot 40 procent van de massa uit organische stof die vezelig is en samenhang vertoont bestaat, voor tussen 55 en 77,5 procent uit silt plus zand en voor minder dan 5 procent uit lutum.</p>
+                  </item>
                </part>
                <part>
                   <item>sterkZandigVeen</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Grond die voor 15 tot 25 procent van de massa uit organische stof die vezelig is en samenhang vertoont bestaat, voor tussen 70 en 85 procent uit silt plus zand en voor minder dan 7 procent uit lutum.</p>
+                  </item>
                </part>
                <part>
                   <item>bruinkoolNietGespecificeerd</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Grond die voor minimaal 15 procent van de massa uit organische stof die vezelig is en samenhang vertoont en ingekoold is bestaat en voor een onbepaald deel uit mineraal materiaal.</p>
+                  </item>
                </part>
                <part>
                   <item>detritusNietGespecificeerd</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Grond die voor minimaal 15 procent van de massa uit organische stof die vezelig is en geen samenhang vertoont bestaat en voor een onbepaald deel uit mineraal materiaal.</p>
+                  </item>
                </part>
                <part>
                   <item>dy</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Grond die vrijwel volledig uit organische stof bestaat, amorf en zwartig is en een geleiachtige consistentie heeft.</p>
+                  </item>
                </part>
                <part>
                   <item>gyttjaNietGespecificeerd</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Grond die voor minimaal 15 procent van de massa uit organische stof die fijnkorrelig is en samenhang vertoont bestaat en voor een onbepaald deel uit mineraal materiaal.</p>
+                  </item>
                </part>
                <part>
                   <item>zwakSiltigeKlei</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Grond die minder dan 30 procent grind en minder dan 15 procent organische stof bevat en die, als die twee bestanddelen worden uitgesloten, voor meer dan 50 procent van de massa uit lutum bestaat.</p>
+                  </item>
                </part>
                <part>
                   <item>matigSiltigeKlei</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Grond die minder dan 30 procent grind en minder dan 15 procent organische stof bevat en die, als die twee bestanddelen worden uitgesloten, voor meer dan 35 procent van de massa uit lutum bestaat.</p>
+                  </item>
                </part>
                <part>
                   <item>sterkSiltigeKlei</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Grond die minder dan 30 procent grind en minder dan 15 procent organische stof bevat en die, als die twee bestanddelen worden uitgesloten, voor meer dan 25 procent van de massa uit lutum bestaat.</p>
+                  </item>
                </part>
                <part>
                   <item>uiterstSiltigeKlei</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Grond die minder dan 30 procent grind en minder dan 15 procent organische stof bevat en die, als die twee bestanddelen worden uitgesloten, voor tussen 8 en 25 procent van de massa uit lutum, voor tussen 25 en 75 procent uit silt en voor minder dan 50 procent uit zand bestaat, maar waarvan de precieze verhouding tussen de hoeveelheden zand, silt en lutum niet goed in woorden is uit te drukken.</p>
+                  </item>
                </part>
                <part>
                   <item>zwakZandigeKlei</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Grond die minder dan 30 procent grind en minder dan 15 procent organische stof bevat en die, als die twee bestanddelen worden uitgesloten, voor tussen 17,5 en 25 procent van de massa uit lutum, voor meer dan 50 procent uit zand en voor de rest uit silt bestaat.</p>
+                  </item>
                </part>
                <part>
                   <item>matigZandigeKlei</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Grond die minder dan 30 procent grind en minder dan 15 procent organische stof bevat en die, als die twee bestanddelen worden uitgesloten, voor tussen 12 en 17,5 procent van de massa uit lutum, voor meer dan 50 procent uit zand en voor de rest uit silt bestaat.</p>
+                  </item>
                </part>
                <part>
                   <item>sterkZandigeKlei</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Grond die minder dan 30 procent grind en minder dan 15 procent organische stof bevat en die, als die twee bestanddelen worden uitgesloten, voor tussen 8 en 12 procent van de massa uit lutum, voor meer dan 50 procent uit zand en voor de rest uit silt bestaat.</p>
+                  </item>
                </part>
                <part>
                   <item>zwakZandigeLeem</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Grond die minder dan 30 procent grind en minder dan 15 procent organische stof bevat en die, als die twee bestanddelen worden uitgesloten, voor meer dan 65 uit silt, voor maximaal 25 procent uit lutum en voor maximaal 15 procent uit zand bestaat.</p>
+                  </item>
                </part>
                <part>
                   <item>sterkZandigeLeem</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Grond die minder dan 30 procent grind en minder dan 15 procent organische stof bevat en die, als die twee bestanddelen worden uitgesloten, voor meer dan 42 procent uit silt, voor maximaal 20 procent uit lutum en voor tussen 15 en 50 procent uit zand bestaat, maar waarvan de precieze verhouding tussen de hoeveelheden zand, silt en lutum niet goed in woorden is uit te drukken.</p>
+                  </item>
                </part>
                <part>
                   <item>kleiigZand</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Grond die minder dan 30 procent grind en minder dan 15 procent organische stof bevat en die, als die twee bestanddelen worden uitgesloten, voor minimaal 82,5 procent van de massa uit zand, voor 5 tot 8 procent uit lutum en voor maximaal 12,5 procent uit silt bestaat.</p>
+                  </item>
                </part>
                <part>
                   <item>zwakSiltigZand</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Grond die minder dan 30 procent grind en minder dan 15 procent organische stof bevat en die, als die twee bestanddelen worden uitgesloten, voor minimaal 90 procent van de massa uit zand, voor maximaal 5 procent uit lutum en voor maximaal 10 procent uit silt bestaat.</p>
+                  </item>
                </part>
                <part>
                   <item>matigSiltigZand</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Grond die minder dan 30 procent grind en minder dan 15 procent organische stof bevat en die, als die twee bestanddelen worden uitgesloten, voor tussen 82,5 en 90 procent van de massa uit zand, voor maximaal 5 procent uit lutum en voor tussen 10 en 17,5 procent uit silt bestaat.</p>
+                  </item>
                </part>
                <part>
                   <item>sterkSiltigZand</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Grond die minder dan 30 procent grind en minder dan 15 procent organische stof bevat en die, als die twee bestanddelen worden uitgesloten, voor tussen 67,5 en 82,5 procent van de massa uit zand, voor maximaal 8 procent uit lutum en voor tussen 17,5 en 32,5 procent uit silt bestaat.</p>
+                  </item>
                </part>
                <part>
                   <item>uiterstSiltigZand</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Grond die minder dan 30 procent grind en minder dan 15 procent organische stof bevat en die, als die twee bestanddelen worden uitgesloten, voor tussen 50 en 67,5 procent van de massa uit zand, voor maximaal 8 procent uit lutum en voor tussen 32,5 en 50 procent uit silt bestaat.</p>
+                  </item>
                </part>
             </content>
          </section>
