@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_4532D2FB_BE47_4dc9_BBAD_0F65D43D52FB"
       generator-version="1.52.5"
-      generator-date="2019-04-29T12:56:46Z">
+      generator-date="2019-04-29T13:08:13Z">
    <chapter title="CHAPTER-CATALOG" type="cat">
       <section type="DOMAIN"
                name="Domeinmodel BRO Common"
@@ -41251,43 +41251,71 @@ Een internationale norm geaccepteerd door Europa en Nederland.</p>
                   <item>dunGelamineerd</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De laag is opgebouwd uit laagjes met een dikte die kleiner is dan 6 mm.</p>
+                  </item>
                </part>
                <part>
                   <item>dikGelamineerd</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De laag is opgebouwd uit laagjes met een dikte die tussen 6 en 20 mm ligt.</p>
+                  </item>
                </part>
                <part>
                   <item>ergDunGelaagd</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De laag is opgebouwd uit laagjes met een dikte die tussen 20 en 60 mm ligt.</p>
+                  </item>
                </part>
                <part>
                   <item>dunGelaagd</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De laag is opgebouwd uit laagjes met een dikte die die tussen 60 en 200 mm ligt. </p>
+                  </item>
                </part>
                <part>
                   <item>mmGelaagd</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De laag is opgebouwd uit laagjes met een dikte die van een of enkele millimeters. Een klasse onder de NEN 5104 procedure.</p>
+                  </item>
                </part>
                <part>
                   <item>cmGelaagd</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De laag is opgebouwd uit laagjes met een dikte die van een of enkele centimeters. Een klasse onder de NEN 5104 procedure.</p>
+                  </item>
                </part>
                <part>
                   <item>dmGelaagd</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De laag is opgebouwd uit laagjes met een dikte die van een of enkele decimeters. Een klasse onder de NEN 5104 procedure.</p>
+                  </item>
                </part>
             </content>
          </section>
@@ -41315,97 +41343,161 @@ Een internationale norm geaccepteerd door Europa en Nederland.</p>
                   <item>nietBepaald</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De typering van het sediment waaruit de grond bestaat is niet bepaald.</p>
+                  </item>
                </part>
                <part>
                   <item>basisveen</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De onderste holocene veenlaag liggend op pleistocene afzettingen. Door compactie als gevolg van bedekking met sediment meestal steviger dan bovenliggende veenlagen, zoals van het Hollandveen Laagpakket.</p>
+                  </item>
                </part>
                <part>
                   <item>basisveenOnbelast</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De onderste holocene veenlaag liggend op pleistocene afzettingen. Niet op grond van consistentie te onderscheiden van het Hollandveen laagpakket.</p>
+                  </item>
                </part>
                <part>
                   <item>dekzand</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Meestal fijn, uniform, afgerond zand, door de wind over grote gebieden afgezet in de ijstijden. In Oost- en Zuid Nederland aan de oppervlakte, elders scherpe bovengrens met holocene veen- of kleilagen. Formatie van Boxtel, Laagpakket van Wierden.</p>
+                  </item>
                </part>
                <part>
                   <item>duinKust</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Fijn, uniform zand in oppervlakkige en begraven stuifzandruggen langs de kust. </p>
+                  </item>
                </part>
                <part>
                   <item>duinRivier</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Stuifzand in de vorm van duinen langs/naast de rivieren.</p>
+                  </item>
                </part>
                <part>
                   <item>fluviatielBeek</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Siltige of kleiige afzetting van met slibrijk water overstroomde rivier- en beekdalen.</p>
+                  </item>
                </part>
                <part>
                   <item>fluviatielKomklei</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">klei afgezet in overloopgebied van een rivier.</p>
+                  </item>
                </part>
                <part>
                   <item>glaciaalKeileem</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Sterk zandige tot uiterst siltige vaste veelal grijze klei met grove tot zeer grove secundaire fractie, grondmorene gevormd onder de ijskap van de voorlaatste ijstijd (Saalien). Formatie van Drente, Laagpakket van Gieten.</p>
+                  </item>
                </part>
                <part>
                   <item>glaciaalPotklei</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Zwak tot matig siltig of zandige, stevig tot (zeer) harde, veelal kalkrijke en glimmerhoudende, licht- tot donkergrijze, of donkerbruine tot zwarte, nabij het maaiveld door oxidatie soms rode klei. Formatie van Peelo, Laagpakket van Nieuwolda. Sedimenten die afgezet zijn in diepe sub-glaciale smeltwatergeulen, direct na het afsmelten van het Elsterien landijs. Hoge tot zeer hoge lutum percentages zijn kenmerkend, in enkele gevallen oplopend tot 60%. Kenmerkend voor de Formatie van Peelo is de sterke wisseling in dikte over korte afstanden. Klei soms gelamineerd in warven.</p>
+                  </item>
                </part>
                <part>
                   <item>glaciaalWarvenklei</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Zeer regelmatig gelamineerde opeenvolging ontstaan door seizoensinvloed op afzetting in glaciaal meer, bijvoorbeeld potklei en glaciale klei in Bekken van Amsterdam (Laag van Oosterdok, Formatie van Drente). Warven tonen een afwisseling in zomerlagen (licht) en winterlagen (donker).</p>
+                  </item>
                </part>
                <part>
                   <item>katteklei</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Zure klei ontstaan door oxidatie van sulfiderijke klei; vaak gele en of rode verkleuring (vlekken). Katteklei komt voornamelijk voor in droogmakerijen.</p>
+                  </item>
                </part>
                <part>
                   <item>kwelderklei</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Klei die op een kwelder is afgezet. De klei wordt gekenmerkt door een hoog gehalte aan kleimineralen; degelijke kleien worden vaak aangeduid als knikklei of knipklei.</p>
+                  </item>
                </part>
                <part>
                   <item>loess</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Grond die door de wind is afgezet en in het algemeen voor meer dan 75% bestaat uit kwartskorrels met een korrelgrootte tussen 2 en 63 µm (Formatie van Boxtel, Laagpakket van Schimmert). Komt vooral voor in Zuid-Limburg en ligt vaak rechtstreeks op grindlagen die door de Maas zijn afgezet.</p>
+                  </item>
                </part>
                <part>
                   <item>marienLagunair</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Grond die in een waddenmilieu is afgezet. </p>
+                  </item>
                </part>
                <part>
                   <item>verweerdGesteente</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Grond die het product is van verwerking van onderliggend intact gesteente. Gekenmerkt door naast elkaar voorkomen van brokken onverweerd gesteente en volledig verweerd materiaal, dat als klei, silt of zand wordt beschreven. </p>
+                  </item>
                </part>
             </content>
          </section>
@@ -41433,331 +41525,551 @@ Een internationale norm geaccepteerd door Europa en Nederland.</p>
                   <item>keien</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Zeer Grove minerale grond die voor meer dan 95% uit keien bestaat.</p>
+                  </item>
                </part>
                <part>
                   <item>keienMetGrind</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Zeer Grove minerale grond die voor 50 tot 95% uit keien en voor de rest vooral uit grind bestaat.</p>
+                  </item>
                </part>
                <part>
                   <item>keienMetZand</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Zeer Grove minerale grond die voor 50 tot 95% uit keien en voor de rest vooral uit zand bestaat.</p>
+                  </item>
                </part>
                <part>
                   <item>keienMetSilt</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Zeer Grove minerale grond die bestaat uit keien die elkaar raken met daartussen fijn materiaal dat zich gedraagt als silt.</p>
+                  </item>
                </part>
                <part>
                   <item>keienMetKlei</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Zeer Grove minerale grond die bestaat uit keien die elkaar raken met daartussen fijn materiaal dat zich gedraagt als klei.</p>
+                  </item>
                </part>
                <part>
                   <item>keitjes</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Zeer Grove minerale grond die voor meer dan 95% uit keitjes bestaat.</p>
+                  </item>
                </part>
                <part>
                   <item>keitjesMetGrind</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Zeer Grove minerale grond die voor 50 tot 95% uit keitjes en voor de rest vooral uit grind bestaat.</p>
+                  </item>
                </part>
                <part>
                   <item>keitjesMetZand</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Zeer Grove minerale grond die voor 50 tot 95% uit keitjes en voor de rest vooral uit zand bestaat.</p>
+                  </item>
                </part>
                <part>
                   <item>keitjesMetSilt</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Zeer Grove minerale grond die bestaat uit keitjes die elkaar raken met daartussen fijn materiaal dat zich gedraagt als silt.</p>
+                  </item>
                </part>
                <part>
                   <item>keitjesMetKlei</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Zeer Grove minerale grond die bestaat uit keitjes die elkaar raken met daartussen fijn materiaal dat zich gedraagt als klei.</p>
+                  </item>
                </part>
                <part>
                   <item>grind</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Grove minerale grond die voor meer dan 95% uit grind bestaat.</p>
+                  </item>
                </part>
                <part>
                   <item>grindMetKeien</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Grove minerale grond die voor 50 tot 95% uit grind en voor de rest vooral uit keien bestaat.</p>
+                  </item>
                </part>
                <part>
                   <item>grindMetKeitjes</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Grove minerale grond die voor 50 tot 95% uit grind en voor de rest vooral uit keitjes bestaat.</p>
+                  </item>
                </part>
                <part>
                   <item>zwakZandigGrind</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Grove minerale grond die voor meer dan 50% uit grind en voor 5 tot 20% uit zand bestaat.</p>
+                  </item>
                </part>
                <part>
                   <item>sterkZandigGrind</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Grove minerale grond die voor meer dan 50% uit grind en voor meer dan 20% uit zand bestaat.</p>
+                  </item>
                </part>
                <part>
                   <item>siltigGrind</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Grove minerale grond die bestaat uit grind waarvan de korrels elkaar raken met daartussen fijn materiaal dat zich gedraagt als silt.</p>
+                  </item>
                </part>
                <part>
                   <item>kleiigGrind</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Grove minerale grond die uit grind bestaat waarvan de korrels elkaar raken met daartussen fijn materiaal dat zich gedraagt als klei.</p>
+                  </item>
                </part>
                <part>
                   <item>zand</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Grove minerale grond die voor meer dan 95% uit zand bestaat.</p>
+                  </item>
                </part>
                <part>
                   <item>zandMetKeien</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Grove minerale grond die voor 50 tot 95% uit zand en voor de rest vooral uit keien bestaat.</p>
+                  </item>
                </part>
                <part>
                   <item>zandMetKeitjes</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Grove minerale grond die voor 50 tot 95% uit zand en voor de rest vooral uit keitjes bestaat.</p>
+                  </item>
                </part>
                <part>
                   <item>zwakGrindigZand</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Grove minerale grond die voor meer dan 50% uit zand en voor 5 tot 20% uit grind bestaat.</p>
+                  </item>
                </part>
                <part>
                   <item>sterkGrindigZand</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Grove minerale grond die voor meer dan 50% uit zand en voor meer dan 20% uit grind bestaat.</p>
+                  </item>
                </part>
                <part>
                   <item>siltigZand</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Grove minerale grond die voor meer dan 50% uit zand bestaat en verder uit fijn materiaal dat zich gedraagt als silt.</p>
+                  </item>
                </part>
                <part>
                   <item>siltigZandMetGrind</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Grove minerale grond die voor meer dan 50% uit zand bestaat, en verder vooral uit fijn materiaal dat zich gedraagt als silt, en grind bevat.</p>
+                  </item>
                </part>
                <part>
                   <item>kleiigZand</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Grove minerale grond die voor meer dan 90% uit zand bestaat en verder uit fijn materiaal dat zich gedraagt als klei.</p>
+                  </item>
                </part>
                <part>
                   <item>kleiigZandMetGrind</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Grove minerale grond die voor meer dan 90% uit zand bestaat en verder vooral uit fijn materiaal dat zich gedraagt als klei, en grind bevat.</p>
+                  </item>
                </part>
                <part>
                   <item>silt</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Fijne minerale grond die zich gedraagt als silt, geen grind of zeer grof materiaal en geen zichtbaar of voelbaar zand (bij uitsmeren over de hand) bevat. </p>
+                  </item>
                </part>
                <part>
                   <item>siltMetKeien</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Fijne minerale grond die zich gedraagt als silt en keien en ander zeer grof en grof materiaal bevat.</p>
+                  </item>
                </part>
                <part>
                   <item>siltMetKeitjes</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Fijne minerale grond die zich gedraagt als silt en keitjes en grof materiaal bevat.</p>
+                  </item>
                </part>
                <part>
                   <item>zwakGrindigSilt</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Fijne minerale grond die zich gedraagt als silt, geen zeer grof materiaal en enkele grindkorrels bevat.</p>
+                  </item>
                </part>
                <part>
                   <item>sterkGrindigSilt</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Fijne minerale grond die zich gedraagt als silt, geen zeer grof materiaal en veel grindkorrels bevat.</p>
+                  </item>
                </part>
                <part>
                   <item>zwakZandigSilt</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Fijne minerale grond die zich gedraagt als silt, zichtbaar en nauwelijks voelbaar zand en geen grind of zeer grof materiaal bevat.</p>
+                  </item>
                </part>
                <part>
                   <item>zwakZandigSiltMetGrind</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Fijne minerale grond die zich gedraagt als silt, zichtbaar en nauwelijks voelbaar zand en enkele grindkorrels bevat.</p>
+                  </item>
                </part>
                <part>
                   <item>sterkZandigSilt</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Fijne minerale grond die zich gedraagt als silt, goed zichtbaar en duidelijk voelbaar zand en geen grind of zeer grof materiaal bevat.</p>
+                  </item>
                </part>
                <part>
                   <item>sterkZandigSiltMetGrind</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Fijne minerale grond die zich gedraagt als silt, goed zichtbaar en duidelijk voelbaar zand en enkele grindkorrels bevat.</p>
+                  </item>
                </part>
                <part>
                   <item>klei</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Fijne minerale grond die zich gedraagt als klei, geen grind of zeer grof materiaal en geen zichtbaar of voelbaar zand bevat. </p>
+                  </item>
                </part>
                <part>
                   <item>kleiMetKeien</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Fijne minerale grond die zich gedraagt als klei, keien bevat tot een maximum van 30% en voor een niet nader bepaald deel uit ander zeer grof en grof materiaal bestaat.</p>
+                  </item>
                </part>
                <part>
                   <item>kleiMetKeitjes</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Fijne minerale grond die zich gedraagt als klei, keitjes bevat tot een maximum van 30% en voor een niet nader bepaald deel uit grof materiaal bestaat.</p>
+                  </item>
                </part>
                <part>
                   <item>zwakGrindigeKlei</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Fijne minerale grond die zich gedraagt als klei, enkele grindkorrels en geen zichtbaar of voelbaar zand bevat.</p>
+                  </item>
                </part>
                <part>
                   <item>sterkGrindigeKlei</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Fijne minerale grond die zich gedraagt als klei, veel grindkorrels en geen zichtbaar of voelbaar zand bevat.</p>
+                  </item>
                </part>
                <part>
                   <item>zwakZandigeKlei</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Fijne minerale grond die zich gedraagt als klei, zichtbaar en nauwelijks voelbaar zand en geen grind of grover materiaal bevat.</p>
+                  </item>
                </part>
                <part>
                   <item>zwakZandigeKleiMetGrind</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Fijne minerale grond die zich gedraagt als klei, zichtbaar en nauwelijks voelbaar zand en enkele grindkorrels bevat.</p>
+                  </item>
                </part>
                <part>
                   <item>sterkZandigeKlei</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Fijne minerale grond die zich gedraagt als klei, goed zichtbaar en duidelijk voelbaar zand en geen grind of grover materiaal bevat.</p>
+                  </item>
                </part>
                <part>
                   <item>sterkZandigeKleiMetGrind</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Fijne minerale grond die zich gedraagt als klei, goed zichtbaar en duidelijk voelbaar zand en enkele grindkorrels bevat.</p>
+                  </item>
                </part>
                <part>
                   <item>detritus</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Organische grond die uit detritus bestaat, een organisch materiaal met nauwelijks enige treksterkte, dat uit gebroken vezels bestaat en weinig samenhang vertoont.</p>
+                  </item>
                </part>
                <part>
                   <item>zwakZandigeDetritus</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Organische grond die uit detritus bestaat en voelbaar zandkorrels bevat.</p>
+                  </item>
                </part>
                <part>
                   <item>sterkZandigeDetritus</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Organische grond die uit detritus bestaat en zichtbaar zandkorrels bevat.</p>
+                  </item>
                </part>
                <part>
                   <item>siltigeDetritus</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Organische grond die uit detritus bestaat en waarneembaar silt bevat. </p>
+                  </item>
                </part>
                <part>
                   <item>kleiigeDetritus</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Organische grond die uit detritus bestaat en waarneembaar klei bevat.</p>
+                  </item>
                </part>
                <part>
                   <item>humus</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Organische grond die uit humus bestaat, een gehomogeniseerd mengsel zonder treksterkte dat hoofdzakelijk bestaat uit de niet-makkelijk afbreekbare resten van de bovengrondse delen van planten.</p>
+                  </item>
                </part>
                <part>
                   <item>zwakZandigeHumus</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Organische grond die uit humus bestaat en voelbaar zandkorrels bevat.</p>
+                  </item>
                </part>
                <part>
                   <item>sterkZandigeHumus</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Organische grond die uit humus bestaat en zichtbaar zandkorrels bevat.</p>
+                  </item>
                </part>
                <part>
                   <item>siltigeHumus</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Organische grond die uit humus bestaat en waarneembaar silt bevat. </p>
+                  </item>
                </part>
                <part>
                   <item>kleiigeHumus</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Organische grond die uit humus bestaat en waarneembaar klei bevat.</p>
+                  </item>
                </part>
                <part>
                   <item>veen</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Organische grond die uit veen bestaat, een vezelig en samenhangend organisch materiaal met enige treksterkte dat bestaat uit de nog gedeeltelijk als zodanig herkenbare delen van planten.</p>
+                  </item>
                </part>
                <part>
                   <item>zwakZandigVeen</item>
@@ -41766,38 +42078,58 @@ Een internationale norm geaccepteerd door Europa en Nederland.</p>
                   <item>
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">v</p>
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Organische grond die uit veen bestaat en voelbaar zandkorrels bevat.</p>
                   </item>
                </part>
                <part>
                   <item>sterkZandigVeen</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Organische grond die uit veen bestaat en zichtbaar zandkorrels bevat.</p>
+                  </item>
                </part>
                <part>
                   <item>siltigVeen</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Organische grond die uit veen bestaat en waarneembaar silt bevat. </p>
+                  </item>
                </part>
                <part>
                   <item>kleiigVeen</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Organische grond die uit veen bestaat en waarneembaar klei bevat.</p>
+                  </item>
                </part>
                <part>
                   <item>bruinkool</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Organische grond, die compact is en een hoge treksterkte heeft.</p>
+                  </item>
                </part>
                <part>
                   <item>gyttja</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Organische grond, die amorf is, stroef aanvoelt en een pasta-achtige consistentie heeft.</p>
+                  </item>
                </part>
             </content>
          </section>
