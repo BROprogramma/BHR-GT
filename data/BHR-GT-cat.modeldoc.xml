@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_4532D2FB_BE47_4dc9_BBAD_0F65D43D52FB"
       generator-version="1.52.5"
-      generator-date="2019-04-29T14:00:49Z">
+      generator-date="2019-04-29T14:12:58Z">
    <chapter title="CHAPTER-CATALOG" type="cat">
       <section type="DOMAIN"
                name="Domeinmodel BRO Common"
@@ -45290,19 +45290,31 @@ Een internationale norm geaccepteerd door Europa en Nederland.</p>
                   <item>bol</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De gemiddelde korrel is in alle richtingen ongeveer even lang.</p>
+                  </item>
                </part>
                <part>
                   <item>langwerpig</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De gemiddelde korrel is in twee van de drie richtingen ongeveer even lang, maar in de derde veel langer.</p>
+                  </item>
                </part>
                <part>
                   <item>plat</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De gemiddelde korrel is in twee van de drie richtingen ongeveer even lang, maar in de derde veel korter.</p>
+                  </item>
                </part>
             </content>
          </section>
@@ -45330,37 +45342,61 @@ Een internationale norm geaccepteerd door Europa en Nederland.</p>
                   <item>geen</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Water zonder toevoeging.</p>
+                  </item>
                </part>
                <part>
                   <item>bentoniet</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Water met toevoeging van bentoniet om de viscositeit te verhogen en circulatieverlies te verminderen.</p>
+                  </item>
                </part>
                <part>
                   <item>bentonietBariet</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Water met toevoeging van bentoniet en bariumsulfaat om het soortelijk gewicht te verhogen.</p>
+                  </item>
                </part>
                <part>
                   <item>bentonietMicrodolomiet</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Water met toevoeging van bentoniet en microdolomiet om het soortelijk gewicht te verhogen.</p>
+                  </item>
                </part>
                <part>
                   <item>polymeren</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Water met toevoeging van (biologisch afbreekbare) polymeren als CMC om de viscositeit te verhogen en circulatieverlies te verminderen.</p>
+                  </item>
                </part>
                <part>
                   <item>onbekend</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het is niet bekend welk materiaal als spoeling is gebruikt. </p>
+                  </item>
                </part>
             </content>
          </section>
@@ -45388,19 +45424,31 @@ Een internationale norm geaccepteerd door Europa en Nederland.</p>
                   <item>stabiel</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het gesteente blijft onveranderd in water.</p>
+                  </item>
                </part>
                <part>
                   <item>matigStabiel</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het gesteente valt oppervlakkig uiteen in water.</p>
+                  </item>
                </part>
                <part>
                   <item>instabiel</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het gesteente valt uiteen in water of het oppervlak van het monster valt al uiteen bij blootstelling aan lucht.</p>
+                  </item>
                </part>
             </content>
          </section>
@@ -45428,43 +45476,77 @@ Een internationale norm geaccepteerd door Europa en Nederland.</p>
                   <item>uitersteZwak</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het gesteente kan met een duimnagel worden ingedrukt. Komt overeen met een uniaxiale druksterkte van 0,6 tot 1 MPa.</p>
+                  </item>
                </part>
                <part>
                   <item>zeerZwak</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het gesteente verkruimelt bij een slag met de punt van een geologenhamer; kan met een zakmes worden geschild.
+Komt overeen met een uniaxiale druksterkte van 1 tot 5 MPa.</p>
+                  </item>
                </part>
                <part>
                   <item>zwak</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het gesteente kan met enige moeite met een zakmes worden geschild. Met de punt van een geologenhamer kunnen er deuken in worden geslagen. 
+Komt overeen met een uniaxiale druksterkte van 5 tot 25 MPa.</p>
+                  </item>
                </part>
                <part>
                   <item>matigSterk</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het gesteente kan met een zakmes niet worden geschild of geschraapt. Een gesteentemonster kan worden gebroken met een enkele ferme slag met een geologenhamer.
+Komt overeen met een uniaxiale druksterkte van 25 tot 50 MPa.</p>
+                  </item>
                </part>
                <part>
                   <item>sterk</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het gesteente breekt pas na enkele slagen met een geologenhamer.
+Komt overeen met een uniaxiale druksterkte van 50 tot 100 MPa.</p>
+                  </item>
                </part>
                <part>
                   <item>zeerSterk</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het gesteente breekt na meerdere slagen met een geologenhamer.
+Komt overeen met een uniaxiale druksterkte van 100 tot 250 MPa.</p>
+                  </item>
                </part>
                <part>
                   <item>uiterstSterk</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Met een geologenhamer kunnen alleen fragmenten van het gesteente worden afgeslagen.
+Komt overeen met een uniaxiale druksterkte groter dan 250 MPa.</p>
+                  </item>
                </part>
             </content>
          </section>
@@ -45492,85 +45574,141 @@ Een internationale norm geaccepteerd door Europa en Nederland.</p>
                   <item>beperkingTechnisch</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het boren is voortijdig gestopt vanwege de beperkingen van het gebruikte apparaat.</p>
+                  </item>
                </part>
                <part>
                   <item>einddoel</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het vooraf gestelde doel van het onderzoek is bereikt; vaak is dat de beoogde einddiepte.</p>
+                  </item>
                </part>
                <part>
                   <item>obstakelConstructie</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het onderzoek is voortijdig gestopt omdat de boor op een deel van een constructie is gestuit; voorbeelden zijn resten van een bouwwerk, een rioolbuis. </p>
+                  </item>
                </part>
                <part>
                   <item>obstakelGrindStenen</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het onderzoek is voortijdig gestopt omdat op grind, zeer grove grond of stenen is gestuit.</p>
+                  </item>
                </part>
                <part>
                   <item>obstakelIJzervloer</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het onderzoek is voortijdig gestopt omdat op een ijzervloer, ofwel een laag ijzeroer, is gestuit.</p>
+                  </item>
                </part>
                <part>
                   <item>obstakelOnbekend</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het onderzoek is voortijdig gestopt omdat op een niet nader omschreven obstakel is gestuit.</p>
+                  </item>
                </part>
                <part>
                   <item>obstakelPuin</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het onderzoek is voortijdig gestopt omdat op puin is gestuit.</p>
+                  </item>
                </part>
                <part>
                   <item>obstakelVastGesteente</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het onderzoek is voortijdig gestopt omdat het vast gesteente is bereikt.</p>
+                  </item>
                </part>
                <part>
                   <item>risico</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het onderzoek is voortijdig gestopt omdat er niet veilig verder geboord kan worden vanwege een niet nader omschreven risico.</p>
+                  </item>
                </part>
                <part>
                   <item>risicoGrondwaterdruk</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het onderzoek is voortijdig gestopt omdat de grondwaterdruk te hoog is om veilig verder te kunnen boren.</p>
+                  </item>
                </part>
                <part>
                   <item>storingOrganisatorisch</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het onderzoek is voortijdig gestopt omdat er een organisatorisch probleem is opgetreden. </p>
+                  </item>
                </part>
                <part>
                   <item>storingTechnisch</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het onderzoek is voortijdig gestopt omdat er een technisch probleem is opgetreden.</p>
+                  </item>
                </part>
                <part>
                   <item>werkwaterverlies</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het onderzoek is voortijdig gestopt omdat het werkwater zeer snel wegstroomde.</p>
+                  </item>
                </part>
                <part>
                   <item>onbekend</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het onderzoek is voortijdig gestopt. De reden is niet bekend.</p>
+                  </item>
                </part>
             </content>
          </section>
@@ -45598,49 +45736,81 @@ Een internationale norm geaccepteerd door Europa en Nederland.</p>
                   <item>amorf</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Geen zichtbare plantaardige structuur, sponsachtige consistentie.</p>
+                  </item>
                </part>
                <part>
                   <item>fijnPseudoVezelig</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Mengsel van vezels met een lengte kleiner dan 1 mm en amorfe massa.</p>
+                  </item>
                </part>
                <part>
                   <item>fijnvezelig</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Vezelige structuur, vezels met een lengte kleiner dan 1 mm, eenvoudig te herkennen plantaardige structuur, behoudt enige sterkte.</p>
+                  </item>
                </part>
                <part>
                   <item>grofPseudoVezelig</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Mengsel van vezels met een lengte of diameter groter dan 1 mm en amorfe massa.</p>
+                  </item>
                </part>
                <part>
                   <item>grofvezelig</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Vezelige structuur, vezels met een lengte of diameter groter dan 1 mm, eenvoudig te herkennen plantaardige structuur, behoudt enige sterkte.</p>
+                  </item>
                </part>
                <part>
                   <item>zwakAmorfNEN5104</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Niet tot zwak vergane plantenresten. Bij handpersen ontwijkt geen veen tussen de vingers en het uitgeperste water is kleurloos tot troebel. Een klasse onder NEN 5104.</p>
+                  </item>
                </part>
                <part>
                   <item>matigAmorfNEN5104</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Matig vergane plantenresten, de structuur is nog zichtbaar. Bij handpersen glijdt veel van het veen tussen de vingers door en het uitgeknepen water is troebel. Een klasse onder NEN 5104.</p>
+                  </item>
                </part>
                <part>
                   <item>sterkAmorfNEN5104</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Zeer sterk vergane plantenresten, structuur ontbreekt geheel. Bij handpersen glijdt het grootste deel van het veen tussen de vingers door. Een klasse onder NEN 5104.</p>
+                  </item>
                </part>
             </content>
          </section>
@@ -45668,43 +45838,71 @@ Een internationale norm geaccepteerd door Europa en Nederland.</p>
                   <item>bevriezing</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Voor de start van het onderzoek was de ondergrond ten behoeve van andere werkzaamheden bevroren.</p>
+                  </item>
                </part>
                <part>
                   <item>bouwput</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Voor de start van het onderzoek was de ondergrond ten behoeve van bouwwerkzaamheden uitgegraven.</p>
+                  </item>
                </part>
                <part>
                   <item>bronbemaling</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Voor de start van het onderzoek was de grondwaterstand verlaagd ten behoeve van andere werkzaamheden.</p>
+                  </item>
                </part>
                <part>
                   <item>injectie</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Voor de start van het onderzoek was er materiaal in de ondergrond geïnjecteerd ten behoeve van andere werkzaamheden. </p>
+                  </item>
                </part>
                <part>
                   <item>vacuumconsolidatie</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Voor de start van het onderzoek was er in de ondergrond vacuumconsolidatie toegepast ten behoeve van andere werkzaamheden.</p>
+                  </item>
                </part>
                <part>
                   <item>verticaleDrainage</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Voor de start van het onderzoek was de ondergrond tot op enige diepte verticaal gedraineerd (met strips, grindpalen, etc.) ten behoeve van andere werkzaamheden.</p>
+                  </item>
                </part>
                <part>
                   <item>voorbelasting</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Voor de start van het onderzoek was de ondergrond voorbelast ten behoeve van andere werkzaamheden. </p>
+                  </item>
                </part>
             </content>
          </section>
@@ -45732,13 +45930,21 @@ Een internationale norm geaccepteerd door Europa en Nederland.</p>
                   <item>Fraunhofer</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het meetresultaat van de laserdiffractie is met behulp van het Fraunhofermodel op basis van lichtverstrooiing omgerekend naar de korrelgrootteverdeling. Het Fraunhofermodel is met name geschikt voor materiaal met grote korrels.</p>
+                  </item>
                </part>
                <part>
                   <item>Mie</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het meetresultaat van de laserdiffractie is met behulp van het Miemodel op basis van lichtbuiging (refractie) omgerekend naar de korrelgrootteverdeling. Het Miemodel is met name geschikt voor fijne korrels.</p>
+                  </item>
                </part>
             </content>
          </section>
@@ -45766,25 +45972,41 @@ Een internationale norm geaccepteerd door Europa en Nederland.</p>
                   <item>geen</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De vezels grijpen niet in elkaar. Monsters zonder treksterkte geven geen weerstand bij het uit elkaar trekken, de vezels zijn te klein of afwezig om in elkaar te haken.</p>
+                  </item>
                </part>
                <part>
                   <item>laag</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De vezels grijpen iets in elkaar. Bij monsters met een lage treksterkte glijden de vezels langs elkaar zonder veel weerstand. Dit komt voor bij monster die veel kleine vezels hebben en enkele grote vezels.</p>
+                  </item>
                </part>
                <part>
                   <item>matig</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De vezels grijpen in elkaar. Bij monsters met een matige treksterkte wordt weerstand gevoeld bij het uit elkaar trekken van de grond. De vezels blijven aan elkaar haken en vormen een netwerk dat de grond ondersteunt</p>
+                  </item>
                </part>
                <part>
                   <item>hoog</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De vezels grijpen sterk in elkaar. Bij monsters met een hoge treksterkte wordt veel weerstand gevoeld bij het uit elkaar trekken. De vezels vormen een netwerk of mat. Bij het uit elkaar trekken breken of knappen vezels.</p>
+                  </item>
                </part>
             </content>
          </section>
@@ -45812,31 +46034,60 @@ Een internationale norm geaccepteerd door Europa en Nederland.</p>
                   <item>basisparameter</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Er zijn alleen een of meer basisparameters bepaald en dat zijn het watergehalte, het organischestofgehalte, het kalkgehalte, de volumieke massa en de volumieke massa vaste delen. Voor dit type analyse volstaat een interval met een lengte van 2 cm. 
+De monsterkwaliteit stelt geen beperkingen. Alleen wanneer de volumieke massa is bepaald is de vereiste monsterkwaliteit gelijk aan QM1, QM2 of QM3.</p>
+                  </item>
                </part>
                <part>
                   <item>korrelgrootteverdeling</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De korrelgrootteverdeling is bepaald, en de maximale ongedraineerde schuifsterkte en de verticale vervorming zijn beide niet bepaald. Van de basisparameters is het watergehalte altijd bepaald, kunnen het organischestofgehalte, het kalkgehalte, de volumieke massa en de volumieke massa vaste delen zijn bepaald. 
+Dit type analyse vereist een interval met een minimum lengte van 5 cm. 
+De monsterkwaliteit stelt geen beperkingen. Alleen wanneer ook de volumieke massa is bepaald is de vereiste monsterkwaliteit gelijk aan QM1, QM2 of QM3.</p>
+                  </item>
                </part>
                <part>
                   <item>korrelgrootteverdelingMaximaleSchuifsterkte</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De korrelgrootteverdeling en de maximale ongedraineerde schuifsterkte zijn bepaald en de verticale vervorming is niet bepaald. Van de basisparameters is het watergehalte altijd bepaald, kunnen het organischestofgehalte, het kalkgehalte, de volumieke massa en de volumieke massa vaste delen zijn bepaald. 
+Dit type analyse vereist een interval met een minimum lengte van 5 cm. De vereiste monsterkwaliteit is QM1, QM2 of QM3. </p>
+                  </item>
                </part>
                <part>
                   <item>maximaleSchuifsterkte</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De maximale ongedraineerde schuifsterkte is bepaald en de korrelverdeling en de verticale vervoming zijn beide niet bepaald. 
+Van de basisparameters kunnen het watergehalte, het organischestofgehalte en het kalkgehalte zijn bepaald.
+Dit type analyse vereist een interval met een minimum lengte van 5 cm. De vereiste monsterkwaliteit is QM1, QM2 of QM3.</p>
+                  </item>
                </part>
                <part>
                   <item>verticaleVervorming</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De verticale vervorming is bepaald en de maximale ongedraineerde schuifsterkte en de korrelverdeling zijn beide niet bepaald. 
+Van de basisparameters zijn altijd de volumieke massa en het watergehalte bepaald. Het organischestofgehalte, het kalkgehalte en de volumieke massa vaste delen kunnen zijn bepaald.
+Dit type analyse vereist een interval met een lengte van 2 cm (de hoogte van de ring) en dan moet het monster eigenlijk zo breed zijn dat er voldoende materiaal overblijft om daarvan het watergehalte te bepalen. Is er niet genoeg materiaal dan zijn er twee mogelijkheden. Het heeft de voorkeur het watergehalte op hetzelfde materiaal te bepalen en dit doet men door het beproefde materiaal te drogen en het watergehalte te berekenen; in dit geval spreekt men over <em>bepaling achteraf</em>. De tweede optie is het interval te verlengen tot 5 cm; het watergehalte wordt dan zogezegd <em>bepaald aan de afsnijdsels</em>. 
+De vereiste monsterkwaliteit is QM1, QM2 of QM3.</p>
+                  </item>
                </part>
             </content>
          </section>
@@ -45864,25 +46115,41 @@ Een internationale norm geaccepteerd door Europa en Nederland.</p>
                   <item>antropogeen</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Grensvlak in antropogene grond dat niet als laagscheiding kan worden beschreven.</p>
+                  </item>
                </part>
                <part>
                   <item>krimpscheur</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Een meestal verticale opening in kleilagen ontstaan door rijpingsproces. Kunnen in grond van recente tot prepleistocene ouderdom voorkomen.</p>
+                  </item>
                </part>
                <part>
                   <item>schuifvlak</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Een door afschuiving ontstaan vlak. Kan parallel aan gelaagdheid en door gelaagdheid heen voorkomen. Voorbeelden zijn schuifvlakken in de buurt van een wiel (dijkdoorbraak) en schuifvlakken in glaciaal belaste klei.</p>
+                  </item>
                </part>
                <part>
                   <item>vorstwig</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Een met ingevallen grond gevulde ruimte die ontstaan is door smelten van in de ijstijd gegroeide ijslenzen en –wiggen.</p>
+                  </item>
                </part>
             </content>
          </section>
@@ -45910,25 +46177,41 @@ Een internationale norm geaccepteerd door Europa en Nederland.</p>
                   <item>gecontroleerdAangebracht</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Opgebracht materiaal dat tot een bepaalde graad verdicht is (engineered fill).</p>
+                  </item>
                </part>
                <part>
                   <item>geroerd</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De natuurlijke samenhang van de grond is door ploegen of andere vormen van omwoelen verstoord.</p>
+                  </item>
                </part>
                <part>
                   <item>losGestort</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Opgebracht materiaal dat los gestort is.</p>
+                  </item>
                </part>
                <part>
                   <item>onbekend</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het is niet bekend op welke wijze de mens in de opbouw van de ondergrond heeft ingegrepen.</p>
+                  </item>
                </part>
             </content>
          </section>
@@ -45956,19 +46239,31 @@ Een internationale norm geaccepteerd door Europa en Nederland.</p>
                   <item>bioturbaat</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De grond is, kort na afzetting van het sediment, vermengd door de activiteit van gravende en borende dierlijke organismen.</p>
+                  </item>
                </part>
                <part>
                   <item>kryoturbaat</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De grond is, na afzetting van het sediment, vermengd door herhaaldelijk bevriezen en ontdooien.</p>
+                  </item>
                </part>
                <part>
                   <item>vervloeiing</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De grond is, na afzetting van het sediment, vermengd door een proces dat bodemvloeiing heet.</p>
+                  </item>
                </part>
             </content>
          </section>
