@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_4532D2FB_BE47_4dc9_BBAD_0F65D43D52FB"
       generator-version="1.52.5"
-      generator-date="2019-04-29T12:41:25Z">
+      generator-date="2019-04-29T12:56:46Z">
    <chapter title="CHAPTER-CATALOG" type="cat">
       <section type="DOMAIN"
                name="Domeinmodel BRO Common"
@@ -39645,31 +39645,51 @@ Een internationale norm geaccepteerd door Europa en Nederland.</p>
                   <item>butanol</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De vloeistofpyknometer is met butanol gevuld. Butanol is vooral geschikt voor organisch materiaal.</p>
+                  </item>
                </part>
                <part>
                   <item>gedestilleerdWater</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De vloeistofpyknometer is met gedestilleerd water gevuld. Water is niet geschikt voor organisch materiaal, organische stof gaat drijven op water. </p>
+                  </item>
                </part>
                <part>
                   <item>helium</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De gaspyknometer is met helium (99,5%) gevuld. Helium is een licht, niet adsorberend gas waarmee kleine poriën worden bereikt en daarmee een grote nauwkeurigheid in de bepaling van het volume. </p>
+                  </item>
                </part>
                <part>
                   <item>hexaan</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De vloeistofpyknometer is met hexaan gevuld. Hexaan is vooral geschikt voor organisch materiaal.</p>
+                  </item>
                </part>
                <part>
                   <item>spiritus</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De vloeistofpyknometer is met spiritus gevuld. Spiritus is vooral geschikt voor organisch materiaal.</p>
+                  </item>
                </part>
             </content>
          </section>
@@ -39697,907 +39717,1513 @@ Een internationale norm geaccepteerd door Europa en Nederland.</p>
                   <item>asWeinigDikkeLaminae</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Vulkanische as maakt 5 tot 25% van het volume uit en komt voor in laminae die tussen 6 en 20 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>asVeelDikkeLaminae</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Vulkanische as maakt 25 tot 50% van het volume uit en komt voor in laminae die tussen 6 en 20 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>bruinkoolWeinigDunneLaminae</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Bruinkool maakt 5 tot 25% van het volume uit en komt voor in laminae die minder dan 6 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>bruinkoolWeinigDikkeLaminae</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Bruinkool maakt 5 tot 25% van het volume uit en komt voor in laminae die tussen 6 en 20 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>bruinkoolWeinigDunneLaagjes</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Bruinkool maakt 5 tot 25% van het volume uit en komt voor in laagjes die tussen 20 en 60 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>bruinkoolWeinigErgDunneLaagjes</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Bruinkool maakt 5 tot 25% van het volume uit en komt voor in laagjes die tussen 60 en 200 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>bruinkoolVeelDunneLaminae</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Bruinkool maakt 25 tot 50% van het volume uit en komt voor in laminae die minder dan 6 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>bruinkoolVeelDikkeLaminae</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Bruinkool maakt 25 tot 50% van het volume uit en komt voor in laminae die tussen 6 en 20 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>bruinkoolVeelErgDunneLaagjes</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Bruinkool maakt 25 tot 50% van het volume uit en komt voor in laagjes die tussen 20 en 60 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>bruinkoolVeelDunneLaagjes</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Bruinkool maakt 25 tot 50% van het volume uit en komt voor in laagjes die tussen 60 en 200 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>detritusWeinigDunneLaminae</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Detritus maakt 5 tot 25% van het volume uit en komt voor in laminae die minder dan 6 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>detritusWeinigDikkeLaminae</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Detritus maakt 5 tot 25% van het volume uit en komt voor in laminae die tussen 6 en 20 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>detritusWeinigErgDunneLaagjes</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Detritus maakt 5 tot 25% van het volume uit en komt voor in laagjes die tussen 20 en 60 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>detritusWeinigDunneLaagjes</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Detritus maakt 5 tot 25% van het volume uit en komt voor in laagjes die tussen 60 en 200 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>detritusVeelDunneLaminae</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Detritus maakt 25 tot 50% van het volume uit en komt voor in laminae die minder dan 6 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>detritusVeelDikkeLaminae</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Detritus maakt 25 tot 50% van het volume uit en komt voor in laminae die tussen 6 en 20 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>detritusVeelErgDunneLaagjes</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Detritus maakt 25 tot 50% van het volume uit en komt voor in laagjes die tussen 20 en 60 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>detritusVeelDunneLaagjes</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Detritus maakt 25 tot 50% van het volume uit en komt voor in laagjes die tussen 60 en 200 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>grindWeinigErgDunneLaagjes</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Grind maakt 5 tot 25% van het volume uit en komt voor in laagjes die tussen 20 en 60 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>grindWeinigDunneLaagjes</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Grind maakt 5 tot 25% van het volume uit en komt voor in laagjes die tussen 60 en 200 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>grindVeelErgDunneLaagjes</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Grind maakt 25 tot 50% van het volume uit en komt voor in laagjes die tussen 20 en 60 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>grindVeelDunneLaagjes</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Grind maakt 25 tot 50% van het volume uit en komt voor in laagjes die tussen 60 en 200 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>gyttjaWeinigDunneLaminae</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Gyttja maakt 5 tot 25% van het volume uit en komt voor in laminae die minder dan 6 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>gyttjaWeinigDikkeLaminae</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Gyttja maakt 5 tot 25% van het volume uit en komt voor in laminae die tussen 6 en 20 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>gyttjaWeinigErgDunneLaagjes</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Gyttja maakt 5 tot 25% van het volume uit en komt voor in laagjes die tussen 20 en 60 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>gyttjaWeinigDunneLaagjes</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Gyttja maakt 5 tot 25% van het volume uit en komt voor in laagjes die tussen 60 en 200 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>gyttjaVeelDunneLaminae</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Gyttja maakt 25 tot 50% van het volume uit en komt voor in laminae die minder dan 6 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>gyttjaVeelDikkeLaminae</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Gyttja maakt 25 tot 50% van het volume uit en komt voor in laminae die tussen 6 en 20 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>gyttjaVeelErgDunneLaagjes</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Gyttja maakt 25 tot 50% van het volume uit en komt voor in laagjes die tussen 20 en 60 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>gyttjaVeelDunneLaagjes</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Gyttja maakt 25 tot 50% van het volume uit en komt voor in laagjes die tussen 60 en 200 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>humusWeinigDunneLaminae</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Humus maakt 5 tot 25% van het volume uit en komt voor in laminae die minder dan 6 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>humusWeinigDikkeLaminae</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Humus maakt 5 tot 25% van het volume uit en komt voor in laminae die tussen 6 en 20 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>humusWeinigErgDunneLaagjes</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Humus maakt 5 tot 25% van het volume uit en komt voor in laagjes die tussen 20 en 60 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>humusWeinigDunneLaagjes</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Humus maakt 5 tot 25% van het volume uit en komt voor in laagjes die tussen 60 en 200 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>humusVeelDunneLaminae</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Humus maakt 25 tot 50% van het volume uit en komt voor in laminae die minder dan 6 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>humusVeelDikkeLaminae</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Humus maakt 25 tot 50% van het volume uit en komt voor in laminae die tussen 6 en 20 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>humusVeelErgDunneLaagjes</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Humus maakt 25 tot 50% van het volume uit en komt voor in laagjes die tussen 20 en 60 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>humusVeelDunneLaagjes</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Humus maakt 25 tot 50% van het volume uit en komt voor in laagjes die tussen 60 en 200 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>kalkWeinigDunneLaminae</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Kalk maakt 5 tot 25% van het volume uit en komt voor in laminae die minder dan 6 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>kalkWeinigDikkeLaminae</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Kalk maakt 5 tot 25% van het volume uit en komt voor in laminae die tussen 6 en 20 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>kalkWeinigErgDunneLaagjes</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Kalk maakt 5 tot 25% van het volume uit en komt voor in laagjes die tussen 20 en 60 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>kalkWeinigDunneLaagjes</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Kalk maakt 5 tot 25% van het volume uit en komt voor in laagjes die tussen 60 en 200 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>kalkVeelDunneLaminae</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Kalk maakt 25 tot 50% van het volume uit en komt voor in laminae die minder dan 6 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>kalkVeelDikkeLaminae</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Kalk maakt 25 tot 50% van het volume uit en komt voor in laminae die tussen 6 en 20 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>kalkVeelErgDunneLaagjes</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Kalk maakt 25 tot 50% van het volume uit en komt voor in laagjes die tussen 20 en 60 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>kalkVeelDunneLaagjes</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Kalk maakt 25 tot 50% van het volume uit en komt voor in laagjes die tussen 60 en 200 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>kalksteenWeinigDunneLaagjes</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Kalksteen maakt 5 tot 25% van het volume uit en komt voor in laminae die minder dan 6 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>kalksteenWeinigDikkeLaminae</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Kalksteen maakt 5 tot 25% van het volume uit en komt voor in laminae die tussen 6 en 20 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>kalksteenWeinigErgDunneLaagjes</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Kalksteen maakt 5 tot 25% van het volume uit en komt voor in laagjes die tussen 20 en 60 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>kalksteenWeinigDunneLaminae</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Kalksteen maakt 5 tot 25% van het volume uit en komt voor in laagjes die tussen 60 en 200 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>kalksteenVeelDunneLaminae</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Kalksteen maakt 25 tot 50% van het volume uit en komt voor in laminae die minder dan 6 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>kalksteenVeelDikkeLaminae</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Kalksteen maakt 25 tot 50% van het volume uit en komt voor in laminae die tussen 6 en 20 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>kalksteenVeelErgDunneLaagjes</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Kalksteen maakt 25 tot 50% van het volume uit en komt voor in laagjes die tussen 20 en 60 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>kalksteenVeelDunneLaagjes</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Kalksteen maakt 25 tot 50% van het volume uit en komt voor in laagjes die tussen 60 en 200 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>keitjesWeinigDunneLaagjes</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Keitjes maakt 5 tot 25% van het volume uit en komt voor in laagjes die tussen 60 en 200 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>keitjesVeelDunneLaagjes</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Keitjes maakt 25 tot 50% van het volume uit en komt voor in laagjes die tussen 60 en 200 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>kleiWeinigDunneLaminae</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Klei maakt 5 tot 25% van het volume uit en komt voor in laminae die minder dan 6 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>kleiWeinigDikkeLaminae</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Klei maakt 5 tot 25% van het volume uit en komt voor in laminae die tussen 6 en 20 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>kleiWeinigErgDunneLaagjes</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Klei maakt 5 tot 25% van het volume uit en komt voor in laagjes die tussen 20 en 60 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>kleiWeinigDunneLaagjes</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Klei maakt 5 tot 25% van het volume uit en komt voor in laagjes die tussen 60 en 200 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>kleiVeelDunneLaminae</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Klei maakt 25 tot 50% van het volume uit en komt voor in laminae die minder dan 6 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>kleiVeelDikkeLaminae</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Klei maakt 25 tot 50% van het volume uit en komt voor in laminae die tussen 6 en 20 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>kleiVeelErgDunneLaagjes</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Klei maakt 25 tot 50% van het volume uit en komt voor in laagjes die tussen 20 en 60 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>kleiVeelDunneLaagjes</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Klei maakt 25 tot 50% van het volume uit en komt voor in laagjes die tussen 60 en 200 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>kleisteenWeinigDunneLaminae</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Kleisteen maakt 5 tot 25% van het volume uit en komt voor in laminae die minder dan 6 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>kleisteenWeinigDikkeLaminae</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Kleisteen maakt 5 tot 25% van het volume uit en komt voor in laminae die tussen 6 en 20 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>kleisteenWeinigErgDunneLaagjes</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Kleisteen maakt 5 tot 25% van het volume uit en komt voor in laagjes die tussen 20 en 60 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>kleisteenWeinigDunneLaagjes</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Kleisteen maakt 5 tot 25% van het volume uit en komt voor in laagjes die tussen 60 en 200 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>kleisteenVeelDunneLaminae</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Kleisteen maakt 25 tot 50% van het volume uit en komt voor in laminae die minder dan 6 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>kleisteenVeelDikkeLaminae</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Kleisteen maakt 25 tot 50% van het volume uit en komt voor in laminae die tussen 6 en 20 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>kleisteenVeelErgDunneLaagjes</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Kleisteen maakt 25 tot 50% van het volume uit en komt voor in laagjes die tussen 20 en 60 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>kleisteenVeelDunneLaagjes</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Kleisteen maakt 25 tot 50% van het volume uit en komt voor in laagjes die tussen 60 en 200 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>mergelWeinigDunneLaminae</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Mergel maakt 5 tot 25% van het volume uit en komt voor in laminae die minder dan 6 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>mergelWeinigDikkeLaminae</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Mergel maakt 5 tot 25% van het volume uit en komt voor in laminae die tussen 6 en 20 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>mergelWeinigErgDunneLaagjes</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Mergel maakt 5 tot 25% van het volume uit en komt voor in laagjes die tussen 20 en 60 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>mergelWeinigDunneLaagjes</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Mergel maakt 5 tot 25% van het volume uit en komt voor in laagjes die tussen 60 en 200 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>mergelVeelDunneLaminae</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Mergel maakt 25 tot 50% van het volume uit en komt voor in laminae die minder dan 6 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>mergelVeelDikkeLaminae</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Mergel maakt 25 tot 50% van het volume uit en komt voor in laminae die tussen 6 en 20 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>mergelVeelErgDunneLaagjes</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Mergel maakt 25 tot 50% van het volume uit en komt voor in laagjes die tussen 20 en 60 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>mergelVeelDunneLaagjes</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Mergel maakt 25 tot 50% van het volume uit en komt voor in laagjes die tussen 60 en 200 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>oerWeinigDunneLaminae</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Oer maakt 5 tot 25% van het volume uit en komt voor in laminae die minder dan 6 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>oerWeinigDikkeLaminae</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Oer maakt 5 tot 25% van het volume uit en komt voor in laminae die tussen 6 en 20 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>oerWeinigErgDunneLaagjes</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Oer maakt 5 tot 25% van het volume uit en komt voor in laagjes die tussen 20 en 60 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>oerWeinigDunneLaagjes</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Oer maakt 5 tot 25% van het volume uit en komt voor in laagjes die tussen 60 en 200 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>oerVeelDunneLaminae</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Oer maakt 25 tot 50% van het volume uit en komt voor in laminae die minder dan 6 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>oerVeelDikkeLaminae</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Oer maakt 25 tot 50% van het volume uit en komt voor in laminae die tussen 6 en 20 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>oerVeelErgDunneLaagjes</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Oer maakt 25 tot 50% van het volume uit en komt voor in laagjes die tussen 20 en 60 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>oerVeelDunneLaagjes</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Oer maakt 25 tot 50% van het volume uit en komt voor in laagjes die tussen 60 en 200 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>schelpmateriaalWeinigDunneLaminae</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Schelpmateriaal maakt 5 tot 25% van het volume uit en komt voor in laminae die minder dan 6 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>schelpmateriaalWeinigDikkeLaminae</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Schelpmateriaal maakt 5 tot 25% van het volume uit en komt voor in laminae die tussen 6 en 20 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>schelpmateriaalWeinigErgDunneLaagjes</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Schelpmateriaal maakt 5 tot 25% van het volume uit en komt voor in laagjes die tussen 20 en 60 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>schelpmateriaalWeinigDunneLaagjes</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Schelpmateriaal maakt 5 tot 25% van het volume uit en komt voor in laagjes die tussen 60 en 200 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>schelpmateriaalVeelDunneLaminae</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Schelpmateriaal maakt 25 tot 50% van het volume uit en komt voor in laminae die minder dan 6 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>schelpmateriaalVeelDikkeLaminae</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Schelpmateriaal maakt 25 tot 50% van het volume uit en komt voor in laminae die tussen 6 en 20 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>schelpmateriaalVeelErgDunneLaagjes</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Schelpmateriaal maakt 25 tot 50% van het volume uit en komt voor in laagjes die tussen 20 en 60 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>schelpmateriaalVeelDunneLaagjes</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Schelpmateriaal maakt 25 tot 50% van het volume uit en komt voor in laagjes die tussen 60 en 200 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>siltWeinigDunneLaminae</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Silt maakt 5 tot 25% van het volume uit en komt voor in laminae die minder dan 6 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>siltWeinigDikkeLaminae</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Silt maakt 5 tot 25% van het volume uit en komt voor in laminae die tussen 6 en 20 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>siltWeinigErgDunneLaagjes</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Silt maakt 5 tot 25% van het volume uit en komt voor in laagjes die tussen 20 en 60 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>siltWeinigDunneLaagjes</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Silt maakt 5 tot 25% van het volume uit en komt voor in laagjes die tussen 60 en 200 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>siltVeelDunneLaminae</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Silt maakt 25 tot 50% van het volume uit en komt voor in laminae die minder dan 6 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>siltVeelDikkeLaminae</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Silt maakt 25 tot 50% van het volume uit en komt voor in laminae die tussen 6 en 20 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>siltVeelErgDunneLaagjes</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Silt maakt 25 tot 50% van het volume uit en komt voor in laagjes die tussen 20 en 60 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>siltVeelDunneLaagjes</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Silt maakt 25 tot 50% van het volume uit en komt voor in laagjes die tussen 60 en 200 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>siltsteenWeinigDunneLaminae</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Siltsteen maakt 5 tot 25% van het volume uit en komt voor in laminae die minder dan 6 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>siltsteenWeinigDikkeLaminae</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Siltsteen maakt 5 tot 25% van het volume uit en komt voor in laminae die tussen 6 en 20 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>siltsteenWeinigErgDunneLaagjes</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Siltsteen maakt 5 tot 25% van het volume uit en komt voor in laagjes die tussen 20 en 60 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>siltsteenWeinigDunneLaagjes</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Siltsteen maakt 5 tot 25% van het volume uit en komt voor in laagjes die tussen 60 en 200 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>siltsteenVeelDunneLaminae</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Siltsteen maakt 25 tot 50% van het volume uit en komt voor in laminae die minder dan 6 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>siltsteenVeelDikkeLaminae</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Siltsteen maakt 25 tot 50% van het volume uit en komt voor in laminae die tussen 6 en 20 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>siltsteenVeelErgDunneLaagjes</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Siltsteen maakt 25 tot 50% van het volume uit en komt voor in laagjes die tussen 20 en 60 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>siltsteenVeelDunneLaagjes</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Siltsteen maakt 25 tot 50% van het volume uit en komt voor in laagjes die tussen 60 en 200 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>veenWeinigDunneLaminae</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Veen maakt 5 tot 25% van het volume uit en komt voor in laminae die minder dan 6 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>veenWeinigDikkeLaminae</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Veen maakt 5 tot 25% van het volume uit en komt voor in laminae die tussen 6 en 20 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>veenWeinigErgDunneLaagjes</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Veen maakt 5 tot 25% van het volume uit en komt voor in laagjes die tussen 20 en 60 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>veenWeinigDunneLaagjes</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Veen maakt 5 tot 25% van het volume uit en komt voor in laagjes die tussen 60 en 200 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>veenVeelDunneLaminae</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Veen maakt 25 tot 50% van het volume uit en komt voor in laminae die minder dan 6 mm dik zijn.
+<strong>veenVeelDikkeLaminae</strong>
+                              </p>
+                  </item>
                </part>
                <part>
                   <item>veenVeelDikkeLaminae</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Veen maakt 25 tot 50% van het volume uit en komt voor in laminae die tussen 6 en 20 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>veenVeelErgDunneLaagjes</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Veen maakt 25 tot 50% van het volume uit en komt voor in laagjes die tussen 20 en 60 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>veenVeelDunneLaagjes</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Veen maakt 25 tot 50% van het volume uit en komt voor in laagjes die tussen 60 en 200 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>vuursteenWeinigErgDunneLaagjes</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Vuursteen maakt 5 tot 25% van het volume uit en komt voor in laagjes die tussen 20 en 60 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>vuursteenWeinigDunneLaagjes</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Vuursteen maakt 5 tot 25% van het volume uit en komt voor in laagjes die tussen 60 en 200 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>vuursteenVeelErgDunneLaagjes</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Vuursteen maakt 25 tot 50% van het volume uit en komt voor in laagjes die tussen 20 en 60 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>vuursteenVeelDunneLaagjes</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Vuursteen maakt 25 tot 50% van het volume uit en komt voor in laagjes die tussen 60 en 200 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>zandWeinigDunneLaminae</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Zand maakt 5 tot 25% van het volume uit en komt voor in laminae die minder dan 6 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>zandWeinigDikkeLaminae</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Zand maakt 5 tot 25% van het volume uit en komt voor in laminae die tussen 6 en 20 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>zandWeinigErgDunneLaagjes</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Zand maakt 5 tot 25% van het volume uit en komt voor in laagjes die tussen 20 en 60 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>zandWeinigDunneLaagjes</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Zand maakt 5 tot 25% van het volume uit en komt voor in laagjes die tussen 60 en 200 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>zandVeelDunneLaminae</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Zand maakt 25 tot 50% van het volume uit en komt voor in laminae die minder dan 6 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>zandVeelDikkeLaminae</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Zand maakt 25 tot 50% van het volume uit en komt voor in laminae die tussen 6 en 20 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>zandVeelErgDunneLaagjes</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Zand maakt 25 tot 50% van het volume uit en komt voor in laagjes die tussen 20 en 60 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>zandVeelDunneLaagjes</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Zand maakt 25 tot 50% van het volume uit en komt voor in laagjes die tussen 60 en 200 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>zandsteenWeinigDunneLaminae</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Zandsteen maakt 5 tot 25% van het volume uit en komt voor in laminae die minder dan 6 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>zandsteenWeinigDikkeLaminae</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Zandsteen maakt 5 tot 25% van het volume uit en komt voor in laminae die tussen 6 en 20 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>zandsteenWeinigErgDunneLaagjes</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Zandsteen maakt 5 tot 25% van het volume uit en komt voor in laagjes die tussen 20 en 60 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>zandsteenWeinigDunneLaagjes</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Zandsteen maakt 5 tot 25% van het volume uit en komt voor in laagjes die tussen 60 en 200 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>zandsteenVeelDunneLaminae</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Zandsteen maakt 25 tot 50% van het volume uit en komt voor in laminae die minder dan 6 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>zandsteenVeelDikkeLaminae</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Zandsteen maakt 25 tot 50% van het volume uit en komt voor in laminae die tussen 6 en 20 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>zandsteenVeelErgDunneLaagjes</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Zandsteen maakt 25 tot 50% van het volume uit en komt voor in laagjes die tussen 20 en 60 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>zandsteenVeelDunneLaagjes</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Zandsteen maakt 25 tot 50% van het volume uit en komt voor in laagjes die tussen 60 en 200 mm dik zijn.</p>
+                  </item>
                </part>
                <part>
                   <item>bruinkoollagen</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Bruinkool maakt minder dan 50% van het volume uit en komt voor in laminae, laagjes of lagen.</p>
+                  </item>
                </part>
                <part>
                   <item>detrituslagen</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Detritus maakt minder dan 50% van het volume uit en komt voor in laminae, laagjes of lagen.</p>
+                  </item>
                </part>
                <part>
                   <item>grindlagen</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Grind maakt minder dan 50% van het volume uit en komt voor in laminae, laagjes of lagen.</p>
+                  </item>
                </part>
                <part>
                   <item>gyttjalagen</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Gyttja maakt minder dan 50% van het volume uit en komt voor in laminae, laagjes of lagen.</p>
+                  </item>
                </part>
                <part>
                   <item>keitjeslagen</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Keitjes maken minder dan 50% van het volume uit en komt voor in laminae, laagjes of lagen.</p>
+                  </item>
                </part>
                <part>
                   <item>kleilagen</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Klei maakt minder dan 50% van het volume uit en komt voor in laminae, laagjes of lagen.</p>
+                  </item>
                </part>
                <part>
                   <item>leemlagen</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Leem maakt minder dan 50% van het volume uit en komt voor in laminae, laagjes of lagen.</p>
+                  </item>
                </part>
                <part>
                   <item>oerlagen</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Oer maakt minder dan 50% van het volume uit en komt voor in laminae, laagjes of lagen.</p>
+                  </item>
                </part>
                <part>
                   <item>schelpmateriaallagen</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Schelpmateriaal maakt minder dan 50% van het volume uit en komt voor in laminae, laagjes of lagen.</p>
+                  </item>
                </part>
                <part>
                   <item>veenlagen</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Veen maakt minder dan 50% van het volume uit en komt voor in laminae, laagjes of lagen.</p>
+                  </item>
                </part>
                <part>
                   <item>zandlagen</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Zand maakt minder dan 50% van het volume uit en komt voor in laminae, laagjes of lagen.</p>
+                  </item>
                </part>
             </content>
          </section>
