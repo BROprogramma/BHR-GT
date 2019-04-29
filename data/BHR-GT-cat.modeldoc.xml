@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_4532D2FB_BE47_4dc9_BBAD_0F65D43D52FB"
       generator-version="1.52.4"
-      generator-date="2019-04-29T08:21:16Z">
+      generator-date="2019-04-29T08:48:13Z">
    <chapter title="CHAPTER-CATALOG" type="cat">
       <section type="DOMAIN"
                name="Domeinmodel BRO Common"
@@ -39461,51 +39461,31 @@ Een internationale norm geaccepteerd door Europa en Nederland.</p>
                   <item>spoorTot1</item>
                   <item/>
                   <item>✔</item>
-                  <item>
-                     <p xmlns="http://www.w3.org/1999/xhtml"
-                        xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">De fractie 2-5,6 mm maakt minder dan 1 procent van de massa van de grindfractie uit.</p>
-                  </item>
+                  <item/>
                </part>
                <part>
                   <item>weinig1tot25</item>
                   <item/>
                   <item>✔</item>
-                  <item>
-                     <p xmlns="http://www.w3.org/1999/xhtml"
-                        xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">De fractie 2-5,6 mm maakt tussen 1 en 25 procent van de massa van de grindfractie uit.</p>
-                  </item>
+                  <item/>
                </part>
                <part>
                   <item>veel25tot50</item>
                   <item/>
                   <item>✔</item>
-                  <item>
-                     <p xmlns="http://www.w3.org/1999/xhtml"
-                        xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">De fractie 2-5,6 mm maakt tussen 25 en 50 procent van de massa van de grindfractie uit.</p>
-                  </item>
+                  <item/>
                </part>
                <part>
                   <item>zeerVeel50tot75</item>
                   <item/>
                   <item>✔</item>
-                  <item>
-                     <p xmlns="http://www.w3.org/1999/xhtml"
-                        xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">De fractie 2-5,6 mm maakt tussen 50 en 75 procent van de massa van de grindfractie uit.</p>
-                  </item>
+                  <item/>
                </part>
                <part>
                   <item>uiterstVeelMinstens75</item>
                   <item/>
                   <item>✔</item>
-                  <item>
-                     <p xmlns="http://www.w3.org/1999/xhtml"
-                        xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">De fractie 2-5,6 mm maakt minstens 75 procent van de massa van de grindfractie uit.</p>
-                  </item>
+                  <item/>
                </part>
             </content>
          </section>
