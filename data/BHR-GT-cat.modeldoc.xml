@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_4532D2FB_BE47_4dc9_BBAD_0F65D43D52FB"
       generator-version="1.52.4"
-      generator-date="2019-04-29T09:21:19Z">
+      generator-date="2019-04-29T09:24:22Z">
    <chapter title="CHAPTER-CATALOG" type="cat">
       <section type="DOMAIN"
                name="Domeinmodel BRO Common"
@@ -39536,7 +39536,7 @@ Een internationale norm geaccepteerd door Europa en Nederland.</p>
                   <item>
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">De fractie &lt;63µm is niet onderverdeeld; de fractie groter dan 63 µm is niet onderverdeeld.</p>
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De fractie &lt;63µm is niet onderverdeeld; de fractie groter dan 63µm is niet onderverdeeld.</p>
                   </item>
                </part>
                <part>
