@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_4532D2FB_BE47_4dc9_BBAD_0F65D43D52FB"
       generator-version="1.52.5"
-      generator-date="2019-04-29T11:27:10Z">
+      generator-date="2019-04-29T12:41:25Z">
    <chapter title="CHAPTER-CATALOG" type="cat">
       <section type="DOMAIN"
                name="Domeinmodel BRO Common"
@@ -39543,49 +39543,81 @@ Een internationale norm geaccepteerd door Europa en Nederland.</p>
                   <item>basisStandaard</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De fractie &lt; 63µm is niet onderverdeeld; de fractie &gt; 63µm is op de standaardmanier onderverdeeld (in de fracties 63-90µm, 90-125µm, 125-180µm, 180-250µm, 250-355µm, 355-500µm, 500-710µm, 710-1000µm, 1000-1400µm, 1400µm-2mm, 2-4mm, 4-8mm, 8-16mm, 16-31,5mm, 31,5mm-63mm, &gt; 63mm).</p>
+                  </item>
                </part>
                <part>
                   <item>basisUitgebreid</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De fractie &lt; 63µm is niet onderverdeeld; de fractie &gt; 63µm is op de uitgebreide manier onderverdeeld en dat betekent dat de standaardverdeling is uitgebreid met 1 tot 6 extra fracties (bij volledige uitbreiding in de fracties 63-75µm, 75-90µm, 90-106µm, 106-125µm, 125-150µm, 150-180µm, 180-212µm, 212-250µm, 250-355µm, 355-500µm, 500-710µm, 710-1000µm, 1000-1400µm, 1400µm-2mm, 2-4mm, 4-5,6mm, 5,6-8mm, 8-11,2mm, 11,2-16mm, 16-31,5mm, 31,5mm-63mm, &gt; 63mm).</p>
+                  </item>
                </part>
                <part>
                   <item>standaardBasis</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De fractie &lt; 63µm is op de standaardmanier onderverdeeld (in de fracties 0-2µm, 2-32µm, 32-50µm, 50-63µm); de fractie &gt; 63µm is niet onderverdeeld.</p>
+                  </item>
                </part>
                <part>
                   <item>standaardStandaard</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De fractie &lt; 63µm is op de standaardmanier onderverdeeld (in de fracties 0-2µm, 2-32µm, 32-50µm, 50-63µm); de fractie &gt; 63µm is op de standaardmanier onderverdeeld (in de fracties 63-90µm, 90-125µm, 125-180µm, 180-250µm, 250-355µm, 355-500µm, 500-710µm, 710-1000µm, 1000-1400µm, 1400µm-2mm, 2-4mm, 4-8mm, 8-16mm, 16-31,5mm, 31,5mm-63mm, &gt; 63mm).</p>
+                  </item>
                </part>
                <part>
                   <item>standaardUitgebreid</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De fractie &lt; 63µm is op de standaardmanier onderverdeeld (in de fracties 0-2µm, 2-32µm, 32-50µm, 50-63µm); de fractie &gt; 63µm is op de uitgebreide manier onderverdeeld en dat betekent dat de standaardverdeling is uitgebreid met 1 tot 6 extra fracties (bij volledige uitbreiding in de fracties 63-75µm, 75-90µm, 90-106µm, 106-125µm, 125-150µm, 150-180µm, 180-212µm, 212-250µm, 250-355µm, 355-500µm, 500-710µm, 710-1000µm, 1000-1400µm, 1400µm-2mm, 2-4mm, 4-5,6mm, 5,6-8mm, 8-11,2mm, 11,2-16mm, 16-31,5mm, 31,5mm-63mm, &gt; 63mm).</p>
+                  </item>
                </part>
                <part>
                   <item>uitgebreidBasis</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De fractie<br clear="none"/>&lt; 63µm is op de uitgebreide manier onderverdeeld (in de fracties 0-2µm, 2-4µm, 4-8µm, 8-16µm, 16-32µm, 32-50µm, 50-63µm); de fractie &gt; 63µm is niet onderverdeeld.</p>
+                  </item>
                </part>
                <part>
                   <item>uitgebreidStandaard</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De fractie &lt; 63µm is op de uitgebreide manier onderverdeeld (in de fracties 0-2µm, 2-4µm, 4-8µm, 8-16µm, 16-32µm, 32-50µm, 50-63µm); de fractie &gt; 63µm is op de standaardmanier onderverdeeld (in de fracties 63-90µm, 90-125µm, 125-180µm, 180-250µm, 250-355µm, 355-500µm, 500-710µm, 710-1000µm, 1000-1400µm, 1400µm-2mm, 2-4mm, 4-8mm, 8-16mm, 16-31,5mm, 31,5mm-63mm, &gt; 63mm).</p>
+                  </item>
                </part>
                <part>
                   <item>uitgebreidUitgebreid</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De fractie &lt; 63µm is op de uitgebreide manier onderverdeeld (in de fracties 0-2µm, 2-4µm, 4-8µm, 8-16µm, 16-32µm, 32-50µm, 50-63µm); de fractie &gt; 63µm is op de uitgebreide manier onderverdeeld en dat betekent dat de standaardverdeling is uitgebreid met 1 tot 6 extra fracties (bij volledige uitbreiding in de fracties 63-75µm, 75-90µm, 90-106µm, 106-125µm, 125-150µm, 150-180µm, 180-212µm, 212-250µm, 250-355µm, 355-500µm, 500-710µm, 710-1000µm, 1000-1400µm, 1400µm-2mm, 2-4mm, 4-5,6mm, 5,6-8mm, 8-11,2mm, 11,2-16mm, 16-31,5mm, 31,5mm-63mm, &gt; 63mm).</p>
+                  </item>
                </part>
             </content>
          </section>
