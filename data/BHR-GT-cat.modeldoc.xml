@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_4532D2FB_BE47_4dc9_BBAD_0F65D43D52FB"
       generator-version="1.52.5"
-      generator-date="2019-04-29T13:41:46Z">
+      generator-date="2019-04-29T13:51:19Z">
    <chapter title="CHAPTER-CATALOG" type="cat">
       <section type="DOMAIN"
                name="Domeinmodel BRO Common"
@@ -44009,31 +44009,51 @@ Een internationale norm geaccepteerd door Europa en Nederland.</p>
                   <item>spoorTot1</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De fractie 5,6-16 mm maakt minder dan 1 procent van de massa van de grindfractie uit.</p>
+                  </item>
                </part>
                <part>
                   <item>weinig1tot25</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De fractie 5,6-16 mm maakt tussen 1 en 25 procent van de massa van de grindfractie uit.</p>
+                  </item>
                </part>
                <part>
                   <item>veel25tot50</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De fractie 5,6-16 mm maakt tussen 25 en 50 procent van de massa van de grindfractie uit.</p>
+                  </item>
                </part>
                <part>
                   <item>zeerVeel50tot75</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De fractie 5,6-16 mm maakt tussen 50 en 75 procent van de massa van de grindfractie uit.</p>
+                  </item>
                </part>
                <part>
                   <item>uiterstVeelMinstens75</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De fractie 5,6-16 mm maakt minstens 75 procent van de massa van de grindfractie uit.</p>
+                  </item>
                </part>
             </content>
          </section>
@@ -44061,97 +44081,161 @@ Een internationale norm geaccepteerd door Europa en Nederland.</p>
                   <item>DGPS50tot200cm</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Meting d.m.v. Differential Global Positioning System, afwijking tussen 50 en 200 centimeter.</p>
+                  </item>
                </part>
                <part>
                   <item>GPS200tot1000cm</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Meting d.m.v. Global Positioning System, afwijking tussen 200 en 1000 centimeter.</p>
+                  </item>
                </part>
                <part>
                   <item>RTKGPS0tot2cm</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Meting d.m.v. Real Time Kinematic GPS, ook wel als DGPS aangeduid, afwijking kleiner dan 2 centimeter.</p>
+                  </item>
                </part>
                <part>
                   <item>RTKGPS2tot5cm</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Meting d.m.v. Real Time Kinematic GPS, ook wel als DGPS aangeduid, afwijking tussen 2 en 5 centimeter.</p>
+                  </item>
                </part>
                <part>
                   <item>RTKGPS5tot10cm</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Meting d.m.v. Real Time Kinematic GPS, ook wel als DGPS aangeduid, afwijking tussen 5 en 10 centimeter.</p>
+                  </item>
                </part>
                <part>
                   <item>RTKGPS10tot50cm</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Meting d.m.v. Real Time Kinematic GPS, ook wel als DGPS aangeduid, zonder fix, afwijking tussen 10 en 50 centimeter.</p>
+                  </item>
                </part>
                <part>
                   <item>tachymetrie0tot10cm</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Meting d.m.v. tachymetrie, ook wel als landmeting of Total Station aangeduid, vanaf een referentiepunt dat<em>*geen NAP-peilmerk is</em>,* afwijking kleiner dan 10 centimeter.</p>
+                  </item>
                </part>
                <part>
                   <item>tachymetrie10tot50cm</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Meting d.m.v. tachymetrie, ook wel als landmeting of Total Station aangeduid, vanaf een referentiepunt dat<em>*geen NAP-peilmerk is</em>, *afwijking tussen 10 en 50 centimeter.</p>
+                  </item>
                </part>
                <part>
                   <item>DGPS0tot100cm</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Meting d.m.v. Real Time Kinematic GPS, ook wel als DGPS aangeduid of d.m.v. Differential Global Positioning System, afwijking kleiner dan 100 centimeter.</p>
+                  </item>
                </part>
                <part>
                   <item>DGPS100tot500cm</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Meting d.m.v. Global Positioning System of d.m.v. Differential Global Positioning System, afwijking tussen 100 en 500 centimeter.</p>
+                  </item>
                </part>
                <part>
                   <item>GBKNonbekend</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Locatie bepaald aan de hand van de grootschalige basiskaart van Nederland (tegenwoordig BGT), afwijking onbekend.</p>
+                  </item>
                </part>
                <part>
                   <item>GPSonbekend</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Meting d.m.v. Global Positioning System, afwijking onbekend.</p>
+                  </item>
                </part>
                <part>
                   <item>kaartGrootschalig</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Locatie bepaald aan de hand van niet-digitale kaart, afwijking onbekend. Een grootschalige kaart is een kaart met een schaalgrootte niet kleiner dan 1:10.000 (bijvoorbeeld 1:500, 1:5.000 of 1:10.000).</p>
+                  </item>
                </part>
                <part>
                   <item>kaartKleinschalig</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Locatie bepaald aan de hand van niet-digitale kaart, afwijking onbekend. Een kleinschalige kaart is een kaart met een schaalgrootte kleiner dan 1:10.000 (bijvoorbeeld 1:25.000, 1:50.000 of 1:100.000).</p>
+                  </item>
                </part>
                <part>
                   <item>landmetingOnbekend</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Meting d.m.v. landmeting, afwijking onbekend.</p>
+                  </item>
                </part>
                <part>
                   <item>onbekend</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het is niet bekend op welke manier de locatie is bepaald.</p>
+                  </item>
                </part>
             </content>
          </section>
@@ -44179,61 +44263,101 @@ Een internationale norm geaccepteerd door Europa en Nederland.</p>
                   <item>akoestisch</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Via deze technieken wordt met een hoogfrequent (210 – 700 kHz) de afstand van een zender tot de bovenzijde van de sliblaag bepaald. Dit is de laag waarop het signaal reflecteert. Lage frequenties (15 – 30 kHZ) kunnen onder bepaalde omstandigheden gebruikt worden om de onderzijde van de sliblaag te definiëren.</p>
+                  </item>
                </part>
                <part>
                   <item>elektromagnetisch</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Bij deze techniek worden elektromagnetische pulsen gebruikt om de waterdiepte en onderzijde van de sliblaag te bepalen. Er wordt gewerkt met een zender en ontvanger. De resolutie is afhankelijk van de geleidbaarheid van het water, grondsoort, meetfrequentie. </p>
+                  </item>
                </part>
                <part>
                   <item>radioactief</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Bij deze techniek wordt in de waterkolom de dichtheid radioactief bepaald. Op basis van dichtheidsverschillen wordt de top van de sliblaag vastgesteld.</p>
+                  </item>
                </part>
                <part>
                   <item>ultrasoon</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Bij deze techniek wordt in de waterkolom de dichtheid met hoogfrequente geluidsgolven bepaald. Op basis van dichtheidsverschillen wordt de top van de sliblaag vastgesteld.</p>
+                  </item>
                </part>
                <part>
                   <item>versnelling</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Bij deze techniek laat met een object in de waterkolom vallen. Door gelijktijdig de diepte en versnelling te meten kan worden afgeleid op welke diepte zich de bovenzijde van de sliblaag zich bevindt. In het slib zal de valversnelling van het instrument vertragen.</p>
+                  </item>
                </part>
                <part>
                   <item>visueel</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Voor metingen aan een monsterkolom wordt een transparante holle buis (aan de onderzijde al dan niet afsluitbaar) in de grond gedrukt. Visueel wordt dan de bovenzijde van de sliblaag bepaald.</p>
+                  </item>
                </part>
                <part>
                   <item>waterdruk</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Deze techniek maakt gebruik van een meetinstrument dat achter een boot voortgetrokken wordt. Hiervoor dient de dichtheid van de top van de sliblaag vooraf gedefinieerd te worden. Door het meetinstrument deze dichtheid te geven hoeft alleen de hoogte van de waterkolom boven het meetinstrument gemeten te worden met een waterdrukmeter.</p>
+                  </item>
                </part>
                <part>
                   <item>weerstandMechanisch</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Bij deze techniek wordt een meetlichaam mechanisch naar beneden gedrukt. De weerstanden hierbij worden geregistreerd. Dit kan tevens in de meetkop plaatsvinden zoals bij een sondering. </p>
+                  </item>
                </part>
                <part>
                   <item>weerstandPeilhengel</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Bij toepassing van een peilhengel is een peilstok met een schijf van 10 cm diameter bevestigd aan een hengel. De hengel wordt gebruikt om de peilstok neer te laten tot deze blijft staan op een sliblaag. De diepte kan worden afgelezen (b-weerstand).</p>
+                  </item>
                </part>
                <part>
                   <item>weerstandPeilstok</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Bij toepassing van een peilstok wordt gebruik gemaakt van een licht gewicht stok met een geperforeerde schijf van 10 tot 18 cm diameter om de bovenzijde van de sliblaag te bepalen op basis van gevoelde weerstand bij indrukken in de bodem (a-weerstand).</p>
+                  </item>
                </part>
             </content>
          </section>
@@ -44261,127 +44385,212 @@ Een internationale norm geaccepteerd door Europa en Nederland.</p>
                   <item>RTKGPS0tot4cm</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Meting d.m.v. Real Time Kinematic GPS, ook wel als DGPS aangeduid, afwijking kleiner dan 4 centimeter.</p>
+                  </item>
                </part>
                <part>
                   <item>RTKGPS4tot10cm</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Meting d.m.v. Real Time Kinematic GPS, ook wel als DGPS aangeduid, afwijking tussen 4 en 10 centimeter.</p>
+                  </item>
                </part>
                <part>
                   <item>RTKGPS10tot20cm</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Meting d.m.v. Real Time Kinematic GPS, ook wel als DGPS aangeduid, zonder fix, afwijking tussen 10 en 20 centimeter.</p>
+                  </item>
                </part>
                <part>
                   <item>RTKGPS20tot100cm</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Meting d.m.v. Real Time Kinematic GPS, ook wel als DGPS aangeduid, zonder fix, afwijking tussen 20 en 100 centimeter.</p>
+                  </item>
                </part>
                <part>
                   <item>tachymetrie0tot10cm</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Meting d.m.v. tachymetrie, ook wel als landmeting of Total Station aangeduid, vanaf een referentiepunt dat<em>*geen NAP-peilmerk is</em>, *afwijking kleiner dan 10 centimeter.</p>
+                  </item>
                </part>
                <part>
                   <item>tachymetrie10tot50cm</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Meting d.m.v. tachymetrie, ook wel als landmeting of Total Station aangeduid, vanaf een referentiepunt dat<em>*geen NAP-peilmerk is</em>, *afwijking tussen 10 en 50 centimeter.</p>
+                  </item>
                </part>
                <part>
                   <item>waterpassing0tot2cm</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Meting d.m.v. waterpassing vanaf een NAP-peilmerk, afwijking kleiner dan 2 centimeter<em>.</em>
+                              </p>
+                  </item>
                </part>
                <part>
                   <item>waterpassing4tot10cm</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Meting d.m.v. waterpassing vanaf een NAP-peilmerk, afwijking tussen 2 en 4 centimeter.</p>
+                  </item>
                </part>
                <part>
                   <item>waterpassing2tot4cm</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Meting d.m.v. waterpassing vanaf een NAP-peilmerk, afwijking tussen 4 en 10 centimeter.</p>
+                  </item>
                </part>
                <part>
                   <item>AHN1</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Positie bepaald m.b.v. Actueel Hoogtebestand Nederland, versie 1 van 1996-2003.</p>
+                  </item>
                </part>
                <part>
                   <item>AHN2</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Positie bepaald d.m.v. Actueel Hoogtebestand Nederland, versie 2 van 2007-2012.</p>
+                  </item>
                </part>
                <part>
                   <item>AHN3</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Positie bepaald m.b.v. Actueel Hoogtebestand Nederland, versie 3 van 2014-2019.</p>
+                  </item>
                </part>
                <part>
                   <item>AHNonbekend</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Positie bepaald m.b.v. Actueel Hoogtebestand Nederland, versie onbekend.</p>
+                  </item>
                </part>
                <part>
                   <item>DGPS0tot10cm</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Meting d.m.v. Real Time Kinematic GPS, ook wel als DGPS aangeduid, afwijking kleiner dan 10 centimeter.</p>
+                  </item>
                </part>
                <part>
                   <item>geen</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Er is geen positie bepaald.</p>
+                  </item>
                </part>
                <part>
                   <item>GPSonbekend</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Meting d.m.v. Global Positioning System, afwijking onbekend.</p>
+                  </item>
                </part>
                <part>
                   <item>kaartGrootschalig</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Locatie bepaald aan de hand van niet-digitale kaart, afwijking onbekend. Een grootschalige kaart is een kaart met een schaalgrootte niet kleiner dan 1:10.000 (bijvoorbeeld 1:500, 1:5.000 of 1:10.000).</p>
+                  </item>
                </part>
                <part>
                   <item>kaartKleinschalig</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Locatie bepaald aan de hand van niet-digitale kaart, afwijking onbekend. Een kleinschalige kaart is een kaart met een schaalgrootte kleiner dan 1:10.000 (bijvoorbeeld 1:25.000, 1:50.000 of 1:100.000).</p>
+                  </item>
                </part>
                <part>
                   <item>kaartOnbekend</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Positie bepaald aan de hand van niet-digitale kaart, afwijking onbekend.</p>
+                  </item>
                </part>
                <part>
                   <item>landmetingOnbekend</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Meting d.m.v. landmeting, afwijking onbekend.</p>
+                  </item>
                </part>
                <part>
                   <item>onbekend</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het is niet bekend op welke manier de verticale positie is bepaald.</p>
+                  </item>
                </part>
             </content>
          </section>
@@ -44409,31 +44618,51 @@ Een internationale norm geaccepteerd door Europa en Nederland.</p>
                   <item>QM1</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Gelaagdheid, interne structuur, consistentie en spanningstoestand intact (verandering door monstername reversibel). </p>
+                  </item>
                </part>
                <part>
                   <item>QM2</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Gelaagdheid, interne structuur en consistentie intact. </p>
+                  </item>
                </part>
                <part>
                   <item>QM3</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Gelaagdheid, interne structuur intact. </p>
+                  </item>
                </part>
                <part>
                   <item>QM4</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Gelaagdheid intact. </p>
+                  </item>
                </part>
                <part>
                   <item>QM5</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Gelaagdheid niet intact. </p>
+                  </item>
                </part>
             </content>
          </section>
@@ -44461,25 +44690,41 @@ Een internationale norm geaccepteerd door Europa en Nederland.</p>
                   <item>uitgedroogd</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De grond bevat vocht maar vertoont ook sporen van krimp of vlekken die erop wijzen dat een deel van het vocht verdampt is.</p>
+                  </item>
                </part>
                <part>
                   <item>veldvochtig</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De grond is net zo vochtig als grond die direct uit het boorgat komt.</p>
+                  </item>
                </part>
                <part>
                   <item>volledigUitgedroogd</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De grond bevat geen vocht. </p>
+                  </item>
                </part>
                <part>
                   <item>onbekend</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De vochtigheidstoestand van de grondmonsters is niet bekend.</p>
+                  </item>
                </part>
             </content>
          </section>
@@ -44507,7 +44752,11 @@ Een internationale norm geaccepteerd door Europa en Nederland.</p>
                   <item>vervolgGerapporteerd</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Er is na de rapportage van het eerste deelonderzoek een volgend deelonderzoek gerapporteerd, maar dat is nog niet het rapport waarmee het onderzoek wordt gecompleteerd.</p>
+                  </item>
                </part>
             </content>
          </section>
