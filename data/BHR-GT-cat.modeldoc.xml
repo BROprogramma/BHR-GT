@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_4532D2FB_BE47_4dc9_BBAD_0F65D43D52FB"
       generator-version="1.52.5"
-      generator-date="2019-04-29T13:14:52Z">
+      generator-date="2019-04-29T13:17:31Z">
    <chapter title="CHAPTER-CATALOG" type="cat">
       <section type="DOMAIN"
                name="Domeinmodel BRO Common"
@@ -42957,25 +42957,41 @@ Een internationale norm geaccepteerd door Europa en Nederland.</p>
                   <item>keien</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De fractie met een korrelgrootte van 200 tot 630 mm.</p>
+                  </item>
                </part>
                <part>
                   <item>keitjes</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De fractie met een korrelgrootte van 63 tot 200 mm.</p>
+                  </item>
                </part>
                <part>
                   <item>grind</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De fractie met een korrelgrootte van 2 tot 63 mm.</p>
+                  </item>
                </part>
                <part>
                   <item>zand</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De fractie met een korrelgrootte van 0,063 tot 2 mm.</p>
+                  </item>
                </part>
             </content>
          </section>
