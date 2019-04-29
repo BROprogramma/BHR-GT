@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_4532D2FB_BE47_4dc9_BBAD_0F65D43D52FB"
       generator-version="1.52.5"
-      generator-date="2019-04-29T13:51:19Z">
+      generator-date="2019-04-29T14:00:49Z">
    <chapter title="CHAPTER-CATALOG" type="cat">
       <section type="DOMAIN"
                name="Domeinmodel BRO Common"
@@ -44784,19 +44784,31 @@ Een internationale norm geaccepteerd door Europa en Nederland.</p>
                   <item>nietOmgezet</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Geen zichtbare omzetting van gesteentemateriaal.</p>
+                  </item>
                </part>
                <part>
                   <item>gedeeltelijkOmgezet</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Een deel van de mineralen is omgezet. Bijvoorbeeld veldspaten in kleimineralen.</p>
+                  </item>
                </part>
                <part>
                   <item>volledigOmgezet</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Alle mineralen zijn omgezet.</p>
+                  </item>
                </part>
             </content>
          </section>
@@ -44824,49 +44836,81 @@ Een internationale norm geaccepteerd door Europa en Nederland.</p>
                   <item>calciet</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Vast materiaal: neergeslagen koolzure kalk.</p>
+                  </item>
                </part>
                <part>
                   <item>gips</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Vast materiaal: neergeslagen calciumsulfaat.</p>
+                  </item>
                </part>
                <part>
                   <item>ijzeroxide</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Vast materiaal: neergeslagen ijzeroxide.</p>
+                  </item>
                </part>
                <part>
                   <item>kalk</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Los materiaal: ingespoelde kalk.</p>
+                  </item>
                </part>
                <part>
                   <item>klei</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Los materiaal: ingespoelde klei. Onbekend of het een zwellend vermogen heeft.</p>
+                  </item>
                </part>
                <part>
                   <item>kleiZwellend</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Los materiaal: ingespoelde klei met smectiet (kleimineraal).</p>
+                  </item>
                </part>
                <part>
                   <item>kwarts</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Vast materiaal: neergeslagen siliciumoxide.</p>
+                  </item>
                </part>
                <part>
                   <item>zand</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Los materiaal: kwartskorrels met een grootte die tussen 63 µm en 2 mm ligt.</p>
+                  </item>
                </part>
             </content>
          </section>
@@ -44894,19 +44938,31 @@ Een internationale norm geaccepteerd door Europa en Nederland.</p>
                   <item>nietOrganisch</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Organische stof is niet aanwezig.</p>
+                  </item>
                </part>
                <part>
                   <item>zwakOrganisch</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Organische stof is waarneembaar aanwezig en heeft voelbaar geen invloed op het gedrag van de grond.</p>
+                  </item>
                </part>
                <part>
                   <item>sterkOrganisch</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Organische stof is waarneembaar aanwezig en heeft voelbaar geen invloed op het gedrag van de grond.</p>
+                  </item>
                </part>
             </content>
          </section>
@@ -44934,25 +44990,41 @@ Een internationale norm geaccepteerd door Europa en Nederland.</p>
                   <item>nietHumeus</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Organische stof is niet aanwezig.</p>
+                  </item>
                </part>
                <part>
                   <item>zwakHumeus</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Organische stof is aanwezig en maakt minder dan 2,5 procent van de massa uit, tenzij de grond als een klei is benoemd dan kan het aandeel tot 5 procent bedragen.</p>
+                  </item>
                </part>
                <part>
                   <item>matigHumeus</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Organische stof maakt tussen 2,5 en 8 procent van de massa uit, tenzij de grond als een klei is benoemd dan kan het aandeel tot 16 procent bedragen.</p>
+                  </item>
                </part>
                <part>
                   <item>sterkHumeus</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Organische stof maakt tussen 8 en 16 procent van de massa uit, tenzij de grond als een klei is benoemd dan kan het aandeel tot 30 procent bedragen.</p>
+                  </item>
                </part>
             </content>
          </section>
@@ -44980,25 +45052,41 @@ Een internationale norm geaccepteerd door Europa en Nederland.</p>
                   <item>holoceen</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het deel van de ondergrond dat in het Pleistoceen is afgezet.</p>
+                  </item>
                </part>
                <part>
                   <item>pleistoceen</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het deel van de ondergrond dat in het Holoceen is afgezet.</p>
+                  </item>
                </part>
                <part>
                   <item>prePleistoceenGeenBoom</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het deel van de ondergrond dat voor het Pleistoceen is afgezet en niet uit klei bestaat die deel uitmaakt van het Laagpakket van Boom van de Rupel Formatie.</p>
+                  </item>
                </part>
                <part>
                   <item>prePleistoceenBoom</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het deel van de ondergrond dat voor het Pleistoceen is afgezet en uit klei bestaat die deel uitmaakt van het Laagpakket van Boom van de Rupel Formatie; deze klei wordt gekenmerkt door hoge stijfheid, homogeniteit en kan grote kalkconcreties (septarien) bevatten.</p>
+                  </item>
                </part>
             </content>
          </section>
@@ -45026,43 +45114,71 @@ Een internationale norm geaccepteerd door Europa en Nederland.</p>
                   <item>geenMonster</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het interval is niet beschreven omdat de monsters niet meer voorhanden waren.</p>
+                  </item>
                </part>
                <part>
                   <item>geenOpbrengst</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het interval is niet beschreven omdat de monstercontainer voor een deel leeg was (of omdat een deel van interval dat continu gestoken had moeten worden, niet helemaal bemonsterd kon worden). Het ‘lege’ deel wordt altijd vastgelegd als diepste deel van een interval. </p>
+                  </item>
                </part>
                <part>
                   <item>geenOpdracht</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het interval is niet beschreven omdat het was uitgesloten van de opdracht.</p>
+                  </item>
                </part>
                <part>
                   <item>geenVasteOndergrond</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het interval is niet beschreven omdat er een holte in de ondergrond was (al dan niet opgevuld met water).</p>
+                  </item>
                </part>
                <part>
                   <item>mechanischVerstoord</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het interval is niet beschreven omdat de laagopbouw ernstig verstoord is door een post-sedimentaire discontinuïteit.</p>
+                  </item>
                </part>
                <part>
                   <item>onvoldoendeMateriaal</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Het interval is niet beschreven omdat er een proefstuk is uitgenomen voor boormonsteranalyse en er onvoldoende materiaal was om het op de juiste wijze te beschrijven.</p>
+                  </item>
                </part>
                <part>
                   <item>onbekend</item>
                   <item/>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De reden waarom het interval niet is beschreven is niet bekend.</p>
+                  </item>
                </part>
             </content>
          </section>
@@ -45090,13 +45206,21 @@ Een internationale norm geaccepteerd door Europa en Nederland.</p>
                   <item>50mm</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Ring met diameter 50 mm. De ringhoogte is 2 cm.</p>
+                  </item>
                </part>
                <part>
                   <item>63mm</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Ring met diameter 63 mm. De ringhoogte is 2 cm.</p>
+                  </item>
                </part>
             </content>
          </section>
@@ -45124,13 +45248,21 @@ Een internationale norm geaccepteerd door Europa en Nederland.</p>
                   <item>glad</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De oppervlakte van de korrel is glad.</p>
+                  </item>
                </part>
                <part>
                   <item>ruw</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">De oppervlakte van de korrel is ruw.</p>
+                  </item>
                </part>
             </content>
          </section>
