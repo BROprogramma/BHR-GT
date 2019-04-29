@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_4532D2FB_BE47_4dc9_BBAD_0F65D43D52FB"
       generator-version="1.52.5"
-      generator-date="2019-04-29T13:31:58Z">
+      generator-date="2019-04-29T13:35:04Z">
    <chapter title="CHAPTER-CATALOG" type="cat">
       <section type="DOMAIN"
                name="Domeinmodel BRO Common"
@@ -43563,13 +43563,21 @@ Een internationale norm geaccepteerd door Europa en Nederland.</p>
                   <item>donkerblauw</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Donkerblauw omvat de Munsellkleuren 5P 4/2 (grayish purple), 5RP 4/2 (reddish purple), 5P 2/2 (very dusky purple) en 5RP 2/2 (very dusky reddish purple). Donkerblauw gebruikt onder NEN 5104 wordt niet gedefinieerd door de Munsellkleuren.</p>
+                  </item>
                </part>
                <part>
                   <item>donkerbruin</item>
                   <item>✔</item>
                   <item>✔</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Donkerbruin omvat de Munsellkleuren 10YR 3/3, 7.5YR 3/2, 7.5YR 3/3, 7.5YR 3/4 (dark brown), 10YR 4/2, 2.5Y 4/2 (dark grayish brown), 2.5Y 3/3 (dark olive brown), 2.5YR, 2.5/3, 2.5YR 2.5/4, 2.5YR 3/3, 2.5YR 3/4, 5YR 2.5/2, 5YR 3/3 (dark reddish brown), 10YR 3/4, 10YR 3/6, 10YR 4/4, 10YR 4/6 (dark yellowish brown), 10YR 2/2, 7.5YR 2.5/2, 7.5YR 2.5/3 (very dark brown), 5YR 2/2 (dusky brown) en 10YR 3/2, 2.5Y 3/2 (very dark grayish brown). Donkerbruin gebruikt onder NEN 5104 wordt niet gedefinieerd door de Munsellkleuren.</p>
+                  </item>
                </part>
                <part>
                   <item>donkergeel</item>
