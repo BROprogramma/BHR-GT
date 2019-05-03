@@ -8,21 +8,17 @@
            targetNamespace="http://www.broservices.nl/xsd/dsbhr-gt/0.1"
            elementFormDefault="qualified"
            attributeFormDefault="unqualified"
-           version="0.1.6">
+           version="0.1.7">
 
    <xs:annotation>
-      <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">
-        Dit is een pre-productie versie van dit bestand. 
-        Een definitieve versie zal t.z.t. beschikbaar gesteld worden via https://schema.broservices.nl/xsd/dsbhr-gt/0.1/dsbhr-gt-messages.xsd.
-      </xs:documentation>
       <xs:appinfo source="http://schemas.opengis.net/gmlsfProfile/2.0/gmlsfLevels.xsd">
          <gmlsf:ComplianceLevel>0</gmlsf:ComplianceLevel>
       </xs:appinfo>
    </xs:annotation>
 
-   <xs:import namespace="http://www.broservices.nl/xsd/brocommon/3.0" schemaLocation="brocommon.xsd"/>
-   <xs:import namespace="http://www.broservices.nl/xsd/bhrgtcommon/0.1" schemaLocation="bhrgtcommon.xsd"/>
-   <xs:import namespace="http://www.opengis.net/gml/3.2" schemaLocation="gml-profile.xsd"/>
+   <xs:import namespace="http://www.broservices.nl/xsd/brocommon/3.0" schemaLocation="https://schema.broservices.nl/xsd/brocommon/3.0/brocommon.xsd"/>
+   <xs:import namespace="http://www.broservices.nl/xsd/bhrgtcommon/0.1" schemaLocation="https://schema.broservices.nl/xsd/bhrgtcommon/0.1/bhrgtcommon.xsd"/>
+   <xs:import namespace="http://www.opengis.net/gml/3.2" schemaLocation="https://schema.broservices.nl/profile/gml/1.0/gml-profile.xsd"/>
 
    <xs:element name="dispatchDataRequest" type="brocom:DispatchDataRequestType" />
    <xs:element name="parseFault" type="brocom:ParseFaultType" />
