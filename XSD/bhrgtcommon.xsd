@@ -7,20 +7,16 @@
            targetNamespace="http://www.broservices.nl/xsd/bhrgtcommon/0.1"
            elementFormDefault="qualified"
            attributeFormDefault="unqualified"
-           version="0.1.6">
+           version="0.1.7">
 
    <xs:annotation>
-      <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">
-        Dit is een pre-productie versie van dit bestand. 
-        Een definitieve versie zal t.z.t. beschikbaar gesteld worden via https://schema.broservices.nl/xsd/bhrgtcommon/0.1/bhrgtcommon.xsd.
-      </xs:documentation>
       <xs:appinfo source="http://schemas.opengis.net/gmlsfProfile/2.0/gmlsfLevels.xsd">
          <gmlsf:ComplianceLevel>0</gmlsf:ComplianceLevel>
       </xs:appinfo>
    </xs:annotation>
 
-   <xs:import namespace="http://www.broservices.nl/xsd/brocommon/3.0" schemaLocation="brocommon.xsd"/>
-   <xs:import namespace="http://www.opengis.net/gml/3.2" schemaLocation="gml-profile.xsd"/>
+   <xs:import namespace="http://www.broservices.nl/xsd/brocommon/3.0" schemaLocation="https://schema.broservices.nl/xsd/brocommon/3.0/brocommon.xsd"/>
+   <xs:import namespace="http://www.opengis.net/gml/3.2" schemaLocation="https://schema.broservices.nl/profile/gml/1.0/gml-profile.xsd"/>
 
    <xs:element name="BoreholeSampleAnalysis"
                type="bhrgtcom:BoreholeSampleAnalysisType"
@@ -1107,7 +1103,7 @@ Explanation: De diepte van het niveau wordt geschat op basis van aspecten als kl
    </xs:complexType>
    <xs:complexType name="DetailedDistributionFractionLarger63umType">
       <xs:sequence>
-         <xs:element name="fraction63to90um" minOccurs="0" maxOccurs="1">
+         <xs:element name="fraction63to90um" minOccurs="0" maxOccurs="1" nillable="true">
             <xs:annotation>
                <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het aandeel van de korrels met een diameter van 63 tot 90 µm in de massa van het materiaal.</xs:documentation>
             </xs:annotation>
@@ -1152,7 +1148,7 @@ Explanation: De diepte van het niveau wordt geschat op basis van aspecten als kl
                </xs:simpleContent>
             </xs:complexType>
          </xs:element>
-         <xs:element name="fraction90to125um" minOccurs="0" maxOccurs="1">
+         <xs:element name="fraction90to125um" minOccurs="0" maxOccurs="1" nillable="true">
             <xs:annotation>
                <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het aandeel van de korrels met een diameter van 90 tot 125 µm in de massa van het materiaal.</xs:documentation>
             </xs:annotation>
@@ -1197,7 +1193,7 @@ Explanation: De diepte van het niveau wordt geschat op basis van aspecten als kl
                </xs:simpleContent>
             </xs:complexType>
          </xs:element>
-         <xs:element name="fraction125to180um" minOccurs="0" maxOccurs="1">
+         <xs:element name="fraction125to180um" minOccurs="0" maxOccurs="1" nillable="true">
             <xs:annotation>
                <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het aandeel van de korrels met een diameter van 125 tot 180 µm in de massa van het materiaal.</xs:documentation>
             </xs:annotation>
@@ -1242,7 +1238,7 @@ Explanation: De diepte van het niveau wordt geschat op basis van aspecten als kl
                </xs:simpleContent>
             </xs:complexType>
          </xs:element>
-         <xs:element name="fraction180to250um" minOccurs="0" maxOccurs="1">
+         <xs:element name="fraction180to250um" minOccurs="0" maxOccurs="1" nillable="true">
             <xs:annotation>
                <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het aandeel van de korrels met een diameter van 180 tot 250 µm in de massa van het materiaal.</xs:documentation>
             </xs:annotation>
@@ -1287,7 +1283,7 @@ Explanation: De diepte van het niveau wordt geschat op basis van aspecten als kl
                </xs:simpleContent>
             </xs:complexType>
          </xs:element>
-         <xs:element name="fraction250to355um" minOccurs="1" maxOccurs="1">
+         <xs:element name="fraction250to355um" minOccurs="1" maxOccurs="1" nillable="true">
             <xs:annotation>
                <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het aandeel van de korrels met een diameter van 250 tot 355 µm in de massa van het materiaal.</xs:documentation>
             </xs:annotation>
@@ -1302,7 +1298,7 @@ Explanation: De diepte van het niveau wordt geschat op basis van aspecten als kl
                </xs:simpleContent>
             </xs:complexType>
          </xs:element>
-         <xs:element name="fraction355to500um" minOccurs="1" maxOccurs="1">
+         <xs:element name="fraction355to500um" minOccurs="1" maxOccurs="1" nillable="true">
             <xs:annotation>
                <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het aandeel van de korrels met een diameter van 355 tot 500 µm in de massa van het materiaal.</xs:documentation>
             </xs:annotation>
@@ -1317,7 +1313,7 @@ Explanation: De diepte van het niveau wordt geschat op basis van aspecten als kl
                </xs:simpleContent>
             </xs:complexType>
          </xs:element>
-         <xs:element name="fraction500to710um" minOccurs="1" maxOccurs="1">
+         <xs:element name="fraction500to710um" minOccurs="1" maxOccurs="1" nillable="true">
             <xs:annotation>
                <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het aandeel van de korrels met een diameter van 500 tot 630 µm in de massa van het materiaal.</xs:documentation>
             </xs:annotation>
@@ -1332,7 +1328,7 @@ Explanation: De diepte van het niveau wordt geschat op basis van aspecten als kl
                </xs:simpleContent>
             </xs:complexType>
          </xs:element>
-         <xs:element name="fraction710to1000um" minOccurs="1" maxOccurs="1">
+         <xs:element name="fraction710to1000um" minOccurs="1" maxOccurs="1" nillable="true">
             <xs:annotation>
                <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het aandeel van de korrels met een diameter van 630 tot 1000 µm in de massa van het materiaal.</xs:documentation>
             </xs:annotation>
@@ -1347,7 +1343,7 @@ Explanation: De diepte van het niveau wordt geschat op basis van aspecten als kl
                </xs:simpleContent>
             </xs:complexType>
          </xs:element>
-         <xs:element name="fraction1000to1400um" minOccurs="1" maxOccurs="1">
+         <xs:element name="fraction1000to1400um" minOccurs="1" maxOccurs="1" nillable="true">
             <xs:annotation>
                <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het aandeel van de korrels met een diameter van 1000 tot 1400 µm in de massa van het materiaal.</xs:documentation>
             </xs:annotation>
@@ -1362,7 +1358,7 @@ Explanation: De diepte van het niveau wordt geschat op basis van aspecten als kl
                </xs:simpleContent>
             </xs:complexType>
          </xs:element>
-         <xs:element name="fraction1400umto2mm" minOccurs="1" maxOccurs="1">
+         <xs:element name="fraction1400umto2mm" minOccurs="1" maxOccurs="1" nillable="true">
             <xs:annotation>
                <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het aandeel van de korrels met een diameter van 1400 µm tot 2 mm in de massa van het materiaal.</xs:documentation>
             </xs:annotation>
@@ -1377,7 +1373,7 @@ Explanation: De diepte van het niveau wordt geschat op basis van aspecten als kl
                </xs:simpleContent>
             </xs:complexType>
          </xs:element>
-         <xs:element name="fraction2to4mm" minOccurs="1" maxOccurs="1">
+         <xs:element name="fraction2to4mm" minOccurs="1" maxOccurs="1" nillable="true">
             <xs:annotation>
                <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het aandeel van de korrels met een diameter van 2 tot 4 mm in de massa van het materiaal.</xs:documentation>
             </xs:annotation>
@@ -1392,7 +1388,7 @@ Explanation: De diepte van het niveau wordt geschat op basis van aspecten als kl
                </xs:simpleContent>
             </xs:complexType>
          </xs:element>
-         <xs:element name="fraction4to8mm" minOccurs="0" maxOccurs="1">
+         <xs:element name="fraction4to8mm" minOccurs="0" maxOccurs="1" nillable="true">
             <xs:annotation>
                <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het aandeel van de korrels met een diameter van 4 tot 8 mm in de massa van het materiaal.</xs:documentation>
             </xs:annotation>
@@ -1409,7 +1405,7 @@ Explanation: De diepte van het niveau wordt geschat op basis van aspecten als kl
          </xs:element>
          <xs:element name="fraction4to5_6mm" minOccurs="0" maxOccurs="1">
             <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het aandeel van de korrels met een diameter van 4 tot 5.6 mm in de massa van het materiaal.</xs:documentation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het aandeel van de korrels met een diameter van 4 tot 5,6 mm in de massa van het materiaal.</xs:documentation>
             </xs:annotation>
             <xs:complexType>
                <xs:simpleContent>
@@ -1424,7 +1420,7 @@ Explanation: De diepte van het niveau wordt geschat op basis van aspecten als kl
          </xs:element>
          <xs:element name="fraction5_6to8mm" minOccurs="0" maxOccurs="1">
             <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het aandeel van de korrels met een diameter van 5.6 tot 8 mm in de massa van het materiaal.</xs:documentation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het aandeel van de korrels met een diameter van 5,6 tot 8 mm in de massa van het materiaal.</xs:documentation>
             </xs:annotation>
             <xs:complexType>
                <xs:simpleContent>
@@ -1437,7 +1433,7 @@ Explanation: De diepte van het niveau wordt geschat op basis van aspecten als kl
                </xs:simpleContent>
             </xs:complexType>
          </xs:element>
-         <xs:element name="fraction8to16mm" minOccurs="0" maxOccurs="1">
+         <xs:element name="fraction8to16mm" minOccurs="0" maxOccurs="1" nillable="true">
             <xs:annotation>
                <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het aandeel van de korrels met een diameter van 8 tot 16 mm in de massa van het materiaal.</xs:documentation>
             </xs:annotation>
@@ -1454,7 +1450,7 @@ Explanation: De diepte van het niveau wordt geschat op basis van aspecten als kl
          </xs:element>
          <xs:element name="fraction8to11_2mm" minOccurs="0" maxOccurs="1">
             <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het aandeel van de korrels met een diameter van 8 tot 11.2 mm in de massa van het materiaal.</xs:documentation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het aandeel van de korrels met een diameter van 8 tot 11,2 mm in de massa van het materiaal.</xs:documentation>
             </xs:annotation>
             <xs:complexType>
                <xs:simpleContent>
@@ -1469,7 +1465,7 @@ Explanation: De diepte van het niveau wordt geschat op basis van aspecten als kl
          </xs:element>
          <xs:element name="fraction11_2to16mm" minOccurs="0" maxOccurs="1">
             <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het aandeel van de korrels met een diameter van 11.2 tot 16 mm in de massa van het materiaal.</xs:documentation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het aandeel van de korrels met een diameter van 11,2 tot 16 mm in de massa van het materiaal.</xs:documentation>
             </xs:annotation>
             <xs:complexType>
                <xs:simpleContent>
@@ -1482,9 +1478,9 @@ Explanation: De diepte van het niveau wordt geschat op basis van aspecten als kl
                </xs:simpleContent>
             </xs:complexType>
          </xs:element>
-         <xs:element name="fraction16to31_5mm" minOccurs="1" maxOccurs="1">
+         <xs:element name="fraction16to31_5mm" minOccurs="1" maxOccurs="1" nillable="true">
             <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het aandeel van de korrels met een diameter van 16 tot 31.5 mm in de massa van het materiaal.</xs:documentation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het aandeel van de korrels met een diameter van 16 tot 31,5 mm in de massa van het materiaal.</xs:documentation>
             </xs:annotation>
             <xs:complexType>
                <xs:simpleContent>
@@ -1497,7 +1493,7 @@ Explanation: De diepte van het niveau wordt geschat op basis van aspecten als kl
                </xs:simpleContent>
             </xs:complexType>
          </xs:element>
-         <xs:element name="fraction31_5to63mm" minOccurs="1" maxOccurs="1">
+         <xs:element name="fraction31_5to63mm" minOccurs="1" maxOccurs="1" nillable="true">
             <xs:annotation>
                <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het aandeel van de korrels met een diameter van 31,5 tot 63 mm in de massa van het materiaal.</xs:documentation>
             </xs:annotation>
@@ -1512,7 +1508,7 @@ Explanation: De diepte van het niveau wordt geschat op basis van aspecten als kl
                </xs:simpleContent>
             </xs:complexType>
          </xs:element>
-         <xs:element name="fractionLarger63mm" minOccurs="1" maxOccurs="1">
+         <xs:element name="fractionLarger63mm" minOccurs="1" maxOccurs="1" nillable="true">
             <xs:annotation>
                <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het aandeel van de korrels met een diameter van 63 mm en groter in de massa van het materiaal.</xs:documentation>
             </xs:annotation>
@@ -3650,7 +3646,7 @@ Explanation: Wanneer het boorprofiel aan de eisen van klasse 2 van de beschrijfp
    </xs:complexType>
    <xs:complexType name="StandardDistributionFractionLarger63umType">
       <xs:sequence>
-         <xs:element name="fraction63to90um" minOccurs="1" maxOccurs="1">
+         <xs:element name="fraction63to90um" minOccurs="1" maxOccurs="1" nillable="true">
             <xs:annotation>
                <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het aandeel van de korrels met een diameter van 63 tot 90 µm in de massa van het materiaal.</xs:documentation>
             </xs:annotation>
@@ -3665,7 +3661,7 @@ Explanation: Wanneer het boorprofiel aan de eisen van klasse 2 van de beschrijfp
                </xs:simpleContent>
             </xs:complexType>
          </xs:element>
-         <xs:element name="fraction90to125um" minOccurs="1" maxOccurs="1">
+         <xs:element name="fraction90to125um" minOccurs="1" maxOccurs="1" nillable="true">
             <xs:annotation>
                <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het aandeel van de korrels met een diameter van 90 tot 125 µm in de massa van het materiaal.</xs:documentation>
             </xs:annotation>
@@ -3680,7 +3676,7 @@ Explanation: Wanneer het boorprofiel aan de eisen van klasse 2 van de beschrijfp
                </xs:simpleContent>
             </xs:complexType>
          </xs:element>
-         <xs:element name="fraction125to180um" minOccurs="1" maxOccurs="1">
+         <xs:element name="fraction125to180um" minOccurs="1" maxOccurs="1" nillable="true">
             <xs:annotation>
                <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het aandeel van de korrels met een diameter van 125 tot 180 µm in de massa van het materiaal.</xs:documentation>
             </xs:annotation>
@@ -3695,7 +3691,7 @@ Explanation: Wanneer het boorprofiel aan de eisen van klasse 2 van de beschrijfp
                </xs:simpleContent>
             </xs:complexType>
          </xs:element>
-         <xs:element name="fraction180to250um" minOccurs="1" maxOccurs="1">
+         <xs:element name="fraction180to250um" minOccurs="1" maxOccurs="1" nillable="true">
             <xs:annotation>
                <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het aandeel van de korrels met een diameter van 180 tot 250 µm in de massa van het materiaal.</xs:documentation>
             </xs:annotation>
@@ -3710,7 +3706,7 @@ Explanation: Wanneer het boorprofiel aan de eisen van klasse 2 van de beschrijfp
                </xs:simpleContent>
             </xs:complexType>
          </xs:element>
-         <xs:element name="fraction250to355um" minOccurs="1" maxOccurs="1">
+         <xs:element name="fraction250to355um" minOccurs="1" maxOccurs="1" nillable="true">
             <xs:annotation>
                <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het aandeel van de korrels met een diameter van 250 tot 355 µm in de massa van het materiaal.</xs:documentation>
             </xs:annotation>
@@ -3725,7 +3721,7 @@ Explanation: Wanneer het boorprofiel aan de eisen van klasse 2 van de beschrijfp
                </xs:simpleContent>
             </xs:complexType>
          </xs:element>
-         <xs:element name="fraction355to500um" minOccurs="1" maxOccurs="1">
+         <xs:element name="fraction355to500um" minOccurs="1" maxOccurs="1" nillable="true">
             <xs:annotation>
                <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het aandeel van de korrels met een diameter van 355 tot 500 µm in de massa van het materiaal.</xs:documentation>
             </xs:annotation>
@@ -3740,7 +3736,7 @@ Explanation: Wanneer het boorprofiel aan de eisen van klasse 2 van de beschrijfp
                </xs:simpleContent>
             </xs:complexType>
          </xs:element>
-         <xs:element name="fraction500to710um" minOccurs="1" maxOccurs="1">
+         <xs:element name="fraction500to710um" minOccurs="1" maxOccurs="1" nillable="true">
             <xs:annotation>
                <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het aandeel van de korrels met een diameter van 500 tot 710 µm in de massa van het materiaal.</xs:documentation>
             </xs:annotation>
@@ -3755,7 +3751,7 @@ Explanation: Wanneer het boorprofiel aan de eisen van klasse 2 van de beschrijfp
                </xs:simpleContent>
             </xs:complexType>
          </xs:element>
-         <xs:element name="fraction710to1000um" minOccurs="1" maxOccurs="1">
+         <xs:element name="fraction710to1000um" minOccurs="1" maxOccurs="1" nillable="true">
             <xs:annotation>
                <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het aandeel van de korrels met een diameter van 710 tot 1000 µm in de massa van het materiaal.</xs:documentation>
             </xs:annotation>
@@ -3770,7 +3766,7 @@ Explanation: Wanneer het boorprofiel aan de eisen van klasse 2 van de beschrijfp
                </xs:simpleContent>
             </xs:complexType>
          </xs:element>
-         <xs:element name="fraction1000to1400um" minOccurs="1" maxOccurs="1">
+         <xs:element name="fraction1000to1400um" minOccurs="1" maxOccurs="1" nillable="true">
             <xs:annotation>
                <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het aandeel van de korrels met een diameter van 1000 tot 1400 µm in de massa van het materiaal.</xs:documentation>
             </xs:annotation>
@@ -3785,9 +3781,9 @@ Explanation: Wanneer het boorprofiel aan de eisen van klasse 2 van de beschrijfp
                </xs:simpleContent>
             </xs:complexType>
          </xs:element>
-         <xs:element name="fraction1400umto2mm" minOccurs="1" maxOccurs="1">
+         <xs:element name="fraction1400umto2mm" minOccurs="1" maxOccurs="1" nillable="true">
             <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het aandeel van de korrels met een diameter van 1400 µm tot 2um in de massa van het materiaal.</xs:documentation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het aandeel van de korrels met een diameter van 1400 µm tot 2 mm in de massa van het materiaal.</xs:documentation>
             </xs:annotation>
             <xs:complexType>
                <xs:simpleContent>
@@ -3800,9 +3796,9 @@ Explanation: Wanneer het boorprofiel aan de eisen van klasse 2 van de beschrijfp
                </xs:simpleContent>
             </xs:complexType>
          </xs:element>
-         <xs:element name="fraction2to4mm" minOccurs="1" maxOccurs="1">
+         <xs:element name="fraction2to4mm" minOccurs="1" maxOccurs="1" nillable="true">
             <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het aandeel van de korrels met een diameter van 2000 tot 4000 µm in de massa van het materiaal.</xs:documentation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het aandeel van de korrels met een diameter van 2 tot 4 mm in de massa van het materiaal.</xs:documentation>
             </xs:annotation>
             <xs:complexType>
                <xs:simpleContent>
@@ -3815,9 +3811,9 @@ Explanation: Wanneer het boorprofiel aan de eisen van klasse 2 van de beschrijfp
                </xs:simpleContent>
             </xs:complexType>
          </xs:element>
-         <xs:element name="fraction4to8mm" minOccurs="1" maxOccurs="1">
+         <xs:element name="fraction4to8mm" minOccurs="1" maxOccurs="1" nillable="true">
             <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het aandeel van de korrels met een diameter van 4000 tot 8000 µm in de massa van het materiaal.</xs:documentation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het aandeel van de korrels met een diameter van 4 tot 8 mm in de massa van het materiaal.</xs:documentation>
             </xs:annotation>
             <xs:complexType>
                <xs:simpleContent>
@@ -3830,9 +3826,9 @@ Explanation: Wanneer het boorprofiel aan de eisen van klasse 2 van de beschrijfp
                </xs:simpleContent>
             </xs:complexType>
          </xs:element>
-         <xs:element name="fraction8to16mm" minOccurs="1" maxOccurs="1">
+         <xs:element name="fraction8to16mm" minOccurs="1" maxOccurs="1" nillable="true">
             <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het aandeel van de korrels met een diameter van 8000 tot 16000 µm in de massa van het materiaal.</xs:documentation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het aandeel van de korrels met een diameter van 8 tot 16 mm in de massa van het materiaal.</xs:documentation>
             </xs:annotation>
             <xs:complexType>
                <xs:simpleContent>
@@ -3845,9 +3841,9 @@ Explanation: Wanneer het boorprofiel aan de eisen van klasse 2 van de beschrijfp
                </xs:simpleContent>
             </xs:complexType>
          </xs:element>
-         <xs:element name="fraction16to31_5mm" minOccurs="1" maxOccurs="1">
+         <xs:element name="fraction16to31_5mm" minOccurs="1" maxOccurs="1" nillable="true">
             <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het aandeel van de korrels met een diameter van 16000 tot 31500 µm in de massa van het materiaal.</xs:documentation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het aandeel van de korrels met een diameter van 16 tot 31,5 mm in de massa van het materiaal.</xs:documentation>
             </xs:annotation>
             <xs:complexType>
                <xs:simpleContent>
@@ -3860,9 +3856,9 @@ Explanation: Wanneer het boorprofiel aan de eisen van klasse 2 van de beschrijfp
                </xs:simpleContent>
             </xs:complexType>
          </xs:element>
-         <xs:element name="fraction31_5to63mm" minOccurs="1" maxOccurs="1">
+         <xs:element name="fraction31_5to63mm" minOccurs="1" maxOccurs="1" nillable="true">
             <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het aandeel van de korrels met een diameter van 31500 tot 63000 µm in de massa van het materiaal.</xs:documentation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het aandeel van de korrels met een diameter van 31,5 tot 63 mm in de massa van het materiaal.</xs:documentation>
             </xs:annotation>
             <xs:complexType>
                <xs:simpleContent>
@@ -3875,7 +3871,7 @@ Explanation: Wanneer het boorprofiel aan de eisen van klasse 2 van de beschrijfp
                </xs:simpleContent>
             </xs:complexType>
          </xs:element>
-         <xs:element name="fractionLarger63mm" minOccurs="1" maxOccurs="1">
+         <xs:element name="fractionLarger63mm" minOccurs="1" maxOccurs="1" nillable="true">
             <xs:annotation>
                <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het aandeel van de korrels met een diameter van 63 mm en groter in de massa van het materiaal.</xs:documentation>
             </xs:annotation>
