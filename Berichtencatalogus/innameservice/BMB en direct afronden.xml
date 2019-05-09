@@ -5,7 +5,7 @@
       xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0"
       xmlns:gml="http://www.opengis.net/gml/3.2"
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      >
+      xsi:schemaLocation="http://www.broservices.nl/xsd/isbhr-gt/0.1 isbhr-gt-messages.xsd">
    <brocom:requestReference>requestReference</brocom:requestReference>
    <brocom:deliveryAccountableParty>52766179</brocom:deliveryAccountableParty>
    <brocom:qualityRegime>IMBRO/A</brocom:qualityRegime>
