@@ -151,93 +151,27 @@
                      <bhrgtcom:lowerBoundary uom="m">2</bhrgtcom:lowerBoundary>
                      <bhrgtcom:lowerBoundaryDetermination codeSpace="urn:bro:bhrgt:BoundaryPositioningMethod">afgeleid</bhrgtcom:lowerBoundaryDetermination>
                      <bhrgtcom:anthropogenic>nee</bhrgtcom:anthropogenic>
-                     <!--Optional:-->
-                     <!--bhrgtcom:activityType codeSpace="urn:bro:bhrgt:ActivityType">onbekend</bhrgtcom:activityType-->
-                     <!--Optional:-->
-                     <!--bhrgtcom:specialMaterial codeSpace="urn:bro:bhrgt:SpecialMaterial">glauconietzand</bhrgtcom:specialMaterial-->
-                     <!--Optional:-->
-                     <!--bhrgtcom:slant>nee</bhrgtcom:slant-->
-                     <!--Optional:-->
-                     <!--bhrgtcom:internalStructureIntact>ja</bhrgtcom:internalStructureIntact-->
-                     <!--Optional:-->
-                     <!--bhrgtcom:bedded>ja</bhrgtcom:bedded-->
-                     <!--Optional:-->
-                     <!--bhrgtcom:compositeLayer>nee</bhrgtcom:compositeLayer-->
-                     <!--Optional:-->
-                     <!--bhrgtcom:bedding codeSpace="urn:bro:bhrgt:Bedding">dikGelamineerd</bhrgtcom:bedding-->
-                     <!--Optional:-->
                      <bhrgtcom:soil>
                         <bhrgtcom:geotechnicalSoilName codeSpace="urn:bro:bhrgt:GeotechnicalSoilName">zand</bhrgtcom:geotechnicalSoilName>
-                        <!--Optional:-->
-                        <!-- bhrgtcom:soilNameNEN5104 codeSpace="urn:bro:bhrgt:SoilNameNEN5104">matigSiltigZand</bhrgtcom:soilNameNEN5104-->
-                        <!--Optional:-->
-                        <!-- bhrgtcom:gravelContentClassNEN5104 codeSpace="urn:bro:bhrgt:GravelContentClassNEN5104">nietGrindig</bhrgtcom:gravelContentClassNEN5104-->
-                        <!--Optional:-->
-                        <!-- bhrgtcom:organicMatterContentClassNEN5104 codeSpace="urn:bro:bhrgt:OrganicMatterContentClassNEN5104">zwakHumeus</bhrgtcom:organicMatterContentClassNEN5104-->
-                        <!--Zero or more repetitions:-->
                         <bhrgtcom:tertiaryConstituent codeSpace="urn:bro:bhrgt:TertiaryConstituent">donkereMineralenWeinig</bhrgtcom:tertiaryConstituent>
                         <bhrgtcom:tertiaryConstituent codeSpace="urn:bro:bhrgt:TertiaryConstituent">glauconietWeinig</bhrgtcom:tertiaryConstituent>
                         <bhrgtcom:colour codeSpace="urn:bro:bhrgt:Colour">lichtgeel</bhrgtcom:colour>
-                        <!--Optional:-->
-                        <!--bhrgtcom:mottled>nee</bhrgtcom:mottled-->
-                        <!--Optional:-->
-                        <!--bhrgtcom:interbedding codeSpace="urn:bro:bhrgt:Interbedding">zandlagen</bhrgtcom:interbedding-->
-                        <!--0 to 2 repetitions:-->
                         <bhrgtcom:dispersedInhomogeneity codeSpace="urn:bro:bhrgt:DispersedInhomogeneity">grindlensjesWeinig</bhrgtcom:dispersedInhomogeneity>
                         <bhrgtcom:dispersedInhomogeneity codeSpace="urn:bro:bhrgt:DispersedInhomogeneity">kleibrokjesWeinig</bhrgtcom:dispersedInhomogeneity>
-                        <!--Optional:-->
                         <bhrgtcom:carbonateContentClass codeSpace="urn:bro:bhrgt:CarbonateContentClass">kalkloos</bhrgtcom:carbonateContentClass>
-                        <!--Optional:-->
                         <bhrgtcom:organicMatterContentClass codeSpace="urn:bro:bhrgt:OrganicMatterContentClass">nietOrganisch</bhrgtcom:organicMatterContentClass>
                         <bhrgtcom:rooted xsi:nil="true"/>
-                        <!--Optional:-->
-                        <!--bhrgtcom:crossBedding>nee</bhrgtcom:crossBedding-->
-                        <!--Optional:-->
-                        <!--bhrgtcom:gradedBedding>nee</bhrgtcom:gradedBedding-->
-                        <!--Optional:-->
-                        <!--bhrgtcom:mixed>nee</bhrgtcom:mixed-->
-                        <!--Optional:-->
-                        <!--bhrgtcom:mixingType codeSpace="urn:bro:bhrgt:MixingType">vervloeiing</bhrgtcom:mixingType-->
-                        <!--Optional:-->
-                        <!--bhrgtcom:gravelMedianClass codeSpace="urn:bro:bhrgt:GravelMedianClass">fijn</bhrgtcom:gravelMedianClass-->
-                        <!--Optional:-->
-                        <!--bhrgtcom:fineGravelContentClass codeSpace="urn:bro:bhrgt:FineGravelContentClass">spoorTot1</bhrgtcom:fineGravelContentClass-->
-                        <!--Optional:-->
-                        <!--bhrgtcom:mediumCoarseGravelContentClass codeSpace="urn:bro:bhrgt:MediumCoarseGravelContentClass">spoorTot1</bhrgtcom:mediumCoarseGravelContentClass-->
-                        <!--Optional:-->
-                        <!--bhrgtcom:veryCoarseGravelContentClass codeSpace="urn:bro:bhrgt:VeryCoarseGravelContentClass">spoorTot1</bhrgtcom:veryCoarseGravelContentClass-->
-                        <!--Optional:-->
                         <bhrgtcom:sandMedianClass codeSpace="urn:bro:bhrgt:SandMedianClass">middelgrof210tot300um</bhrgtcom:sandMedianClass>
-                        <!--Optional:-->
-                        <!--bhrgtcom:sandSortingNEN5104 codeSpace="urn:bro:bhrgt:SandSortingNEN5104">matigKlein</bhrgtcom:sandSortingNEN5104-->
-                        <!--Optional:-->
-                        <!--bhrgtcom:peatType codeSpace="urn:bro:bhrgt:PeatType">bosveen</bhrgtcom:peatType-->
-                        <!--Optional:-->
-                        <!--bhrgtcom:organicSoilTexture codeSpace="urn:bro:bhrgt:OrganicSoilTexture">amorf</bhrgtcom:organicSoilTexture-->
-                        <!--Optional:-->
-                        <!--bhrgtcom:fineSoilConsistency codeSpace="urn:bro:bhrgt:FineSoilConsistency">stevig</bhrgtcom:fineSoilConsistency-->
-                        <!--Optional:-->
-                        <!--bhrgtcom:organicSoilConsistency codeSpace="urn:bro:bhrgt:OrganicSoilConsistency">matigSlap</bhrgtcom:organicSoilConsistency-->
-                        <!--Optional:-->
-                        <!--bhrgtcom:peatTensileStrength codeSpace="urn:bro:bhrgt:PeatTensileStrength">laag</bhrgtcom:peatTensileStrength-->
-                        <!--Optional:-->
-                        <!--bhrgtcom:geotechnicalDepositionalCharacteristic codeSpace="urn:bro:bhrgt:GeotechnicalDepositionalCharacteristic">dekzand</bhrgtcom:geotechnicalDepositionalCharacteristic-->
-                        <!--Optional:-->
-                        <!--bhrgtcom:depositionalAge codeSpace="urn:bro:bhrgt:DepositionalAge">holoceen</bhrgtcom:depositionalAge-->
-                        <!--0 to 2 repetitions:-->
                         <bhrgtcom:grainshape>
                            <bhrgtcom:sizeFraction codeSpace="urn:bro:bhrgt:SizeFraction">zand</bhrgtcom:sizeFraction>
                            <bhrgtcom:angularity codeSpace="urn:bro:bhrgt:Angularity">afgerond</bhrgtcom:angularity>
                            <bhrgtcom:sphericity xsi:nil="true" codeSpace="urn:bro:bhrgt:Sphericity"/>
-                           <!--Optional:-->
                            <bhrgtcom:roughness codeSpace="urn:bro:bhrgt:Roughness">glad</bhrgtcom:roughness>
                         </bhrgtcom:grainshape>
                         <bhrgtcom:grainshape>
                            <bhrgtcom:sizeFraction codeSpace="urn:bro:bhrgt:SizeFraction">grind</bhrgtcom:sizeFraction>
                            <bhrgtcom:angularity codeSpace="urn:bro:bhrgt:Angularity">zeerAfgerond</bhrgtcom:angularity>
                            <bhrgtcom:sphericity codeSpace="urn:bro:bhrgt:Sphericity">bol</bhrgtcom:sphericity>
-                           <!--Optional:-->
-                           <!--bhrgtcom:roughness codeSpace="urn:bro:bhrgt:Roughness">glad</bhrgtcom:roughness-->
                         </bhrgtcom:grainshape>
                      </bhrgtcom:soil>
                   </bhrgtcom:layer>
@@ -303,6 +237,23 @@
                      <bhrgtcom:noDescriptionReason codeSpace="urn:bro:bhrgt:NoDescriptionReason">geenOpdracht</bhrgtcom:noDescriptionReason>
                   </bhrgtcom:notDescribedInterval>
                   <!--Zero or more repetitions:-->
+                  <bhrgtcom:postSedimentaryDiscontinuity>
+                    <bhrgtcom:beginDepth uom="m">2.45</bhrgtcom:beginDepth>
+                    <bhrgtcom:endDepth uom="m">2.78</bhrgtcom:endDepth>
+                    <bhrgtcom:inRock>ja</bhrgtcom:inRock>
+                    <!--Optional:-->
+                    <!--bhrgtcom:discontinuityType codeSpace="urn:bro:bhrgt:DiscontinuityType">krimpscheur</bhrgtcom:discontinuityType-->
+                    <!--Optional:-->
+                    <bhrgtcom:compositeDiscontinuity>ja</bhrgtcom:compositeDiscontinuity>
+                    <!--Optional:-->
+                    <bhrgtcom:spacing uom="mm">200</bhrgtcom:spacing>
+                    <!--Optional:-->
+                    <bhrgtcom:smooth>nee</bhrgtcom:smooth>
+                    <!--Optional:-->
+                    <bhrgtcom:apertureClass codeSpace="urn:bro:bhrgt:ApertureClass">matigBreed</bhrgtcom:apertureClass>
+                    <!--Optional:-->
+                    <bhrgtcom:infillMaterial codeSpace="urn:bro:bhrgt:InfillMaterial">calciet</bhrgtcom:infillMaterial>
+                  </bhrgtcom:postSedimentaryDiscontinuity>
                </bhrgtcom:descriptiveBoreholeLog>
             </bhrgtcom:BoreholeSampleDescription>
             <!--
