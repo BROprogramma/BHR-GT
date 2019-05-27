@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_4532D2FB_BE47_4dc9_BBAD_0F65D43D52FB"
       generator-version="1.53.0"
-      generator-date="2019-05-20T09:40:07Z">
+      generator-date="2019-05-27T11:21:34Z">
    <chapter title="CHAPTER-CATALOG" type="cat"><!--removed empty content-->
       <section type="DOMAIN"
                name="Domeinmodel BRO Common"
@@ -36135,7 +36135,7 @@ Een internationale norm geaccepteerd door Nederland en Europa.</p>
                <itemtype type="IMBROA"/>
                <itemtype type="DEFINITION"/>
                <part>
-                  <item>berekendWatergehalte</item>
+                  <item>berekenenWatergehalte</item>
                   <item>✔</item>
                   <item>✔</item>
                   <item>
@@ -36419,6 +36419,17 @@ Een internationale norm geaccepteerd door Nederland en Europa.</p>
                <itemtype type="IMBROA"/>
                <itemtype type="DEFINITION"/>
                <part>
+                  <item>ISO13317d3v2016</item>
+                  <item>✔</item>
+                  <item>✔</item>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">NEN-EN-ISO 17892-3:2016 <em>Geotechnisch onderzoek en beproeving - Beproeving van grond in het laboratorium - Deel 3: Bepaling van de dichtheid van gronddeeltjes</em> beschrijft de procedure voor het bepalen van volumieke massa van de vaste delen met de gas- en vloeistofpyknometer.
+Een internationale norm geaccepteerd door Europa en Nederland.</p>
+                  </item>
+               </part>
+               <part>
                   <item>ISO13320v2009</item>
                   <item>✔</item>
                   <item>✔</item>
@@ -36463,13 +36474,13 @@ Een internationale norm geaccepteerd door Europa en Nederland.</p>
                   </item>
                </part>
                <part>
-                  <item>ISO13317d3v2016</item>
+                  <item>ISO17892d3v2016</item>
                   <item>✔</item>
                   <item>✔</item>
                   <item>
                      <p xmlns="http://www.w3.org/1999/xhtml"
                         xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">NEN-EN-ISO 17892-3:2016 <em>Geotechnisch onderzoek en beproeving - Beproeving van grond in het laboratorium - Deel 3: Bepaling van de dichtheid van gronddeeltjes</em> beschrijft de procedure voor het bepalen van volumieke massa van de vaste delen met de gas- en vloeistofpyknometer.
+                        xmlns:imvert="http://www.imvertor.org/schema/system">NEN-EN-ISO 17892-5:2017 <em>Geotechnisch onderzoek en beproeving - Beproeving van grond in het laboratorium - Deel 5: Eén-dimensionale samendrukkingsproef</em> beschrijft de procedure voor het bepalen van verticale vervorming door middel van samendrukken, de <em>samendrukkingsproef</em>.
 Een internationale norm geaccepteerd door Europa en Nederland.</p>
                   </item>
                </part>
@@ -36920,7 +36931,7 @@ Een internationale norm geaccepteerd door Europa en Nederland.</p>
                   </item>
                </part>
                <part>
-                  <item>ijzerconcretieWeinig</item>
+                  <item>ijzerconcretiesWeinig</item>
                   <item>✔</item>
                   <item>✔</item>
                   <item>
@@ -36930,7 +36941,7 @@ Een internationale norm geaccepteerd door Europa en Nederland.</p>
                   </item>
                </part>
                <part>
-                  <item>ijzerconcretieVeel</item>
+                  <item>ijzerconcretiesVeel</item>
                   <item>✔</item>
                   <item>✔</item>
                   <item>
@@ -38097,7 +38108,7 @@ Een internationale norm geaccepteerd door Europa en Nederland.</p>
                   </item>
                </part>
                <part>
-                  <item>mechanischSpuitenVerverbuisd</item>
+                  <item>mechanischSpuitenVerbuisd</item>
                   <item>✔</item>
                   <item>✔</item>
                   <item>
@@ -45254,7 +45265,7 @@ Een internationale norm geaccepteerd door Europa en Nederland.</p>
                <itemtype type="IMBROA"/>
                <itemtype type="DEFINITION"/>
                <part>
-                  <item>uitersteZwak</item>
+                  <item>uiterstZwak</item>
                   <item>✔</item>
                   <item>✔</item>
                   <item>
@@ -46633,7 +46644,7 @@ De vereiste monsterkwaliteit is QM1, QM2 of QM3.</p>
                   </item>
                </part>
                <part>
-                  <item>wandwrijvingAangenomen</item>
+                  <item>wrijvingAangenomen</item>
                   <item>✔</item>
                   <item>✔</item>
                   <item>
@@ -46643,7 +46654,7 @@ De vereiste monsterkwaliteit is QM1, QM2 of QM3.</p>
                   </item>
                </part>
                <part>
-                  <item>wandwrijvingBepaald</item>
+                  <item>wrijvingBepaald</item>
                   <item>✔</item>
                   <item>✔</item>
                   <item>
