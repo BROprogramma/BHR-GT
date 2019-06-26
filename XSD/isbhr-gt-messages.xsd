@@ -8,7 +8,7 @@
            targetNamespace="http://www.broservices.nl/xsd/isbhr-gt/0.1"
            elementFormDefault="qualified"
            attributeFormDefault="unqualified"
-           version="0.1.7">
+           version="0.1.8">
 
    <xs:annotation>
       <xs:appinfo source="http://schemas.opengis.net/gmlsfProfile/2.0/gmlsfLevels.xsd">
@@ -16,9 +16,9 @@
       </xs:appinfo>
    </xs:annotation>
 
-   <xs:import namespace="http://www.broservices.nl/xsd/brocommon/3.0" schemaLocation="https://schema.broservices.nl/xsd/brocommon/3.0/brocommon.xsd"/>
-   <xs:import namespace="http://www.broservices.nl/xsd/bhrgtcommon/0.1" schemaLocation="https://schema.broservices.nl/xsd/bhrgtcommon/0.1/bhrgtcommon.xsd"/>
-   <xs:import namespace="http://www.opengis.net/gml/3.2" schemaLocation="https://schema.broservices.nl/profile/gml/1.0/gml-profile.xsd"/>
+   <xs:import namespace="http://www.broservices.nl/xsd/brocommon/3.0" schemaLocation="brocommon.xsd"/>
+   <xs:import namespace="http://www.broservices.nl/xsd/bhrgtcommon/0.1" schemaLocation="bhrgtcommon.xsd"/>
+   <xs:import namespace="http://www.opengis.net/gml/3.2" schemaLocation="gml-profile.xsd"/>
 
    <xs:element name="intakeResponse" type="brocom:IntakeResponseType" />
    <xs:element name="parseFault" type="brocom:ParseFaultType" />
@@ -121,12 +121,22 @@ Explanation: Het brondocument BHR-GT-vervolgrapport-v1 wordt aangeboden wanneer 
       <xs:complexContent>
          <xs:extension base="gml:AbstractFeatureType">
             <xs:sequence>
-               <xs:element name="researchArea"
-                           type="isbhrgt:ResearchAreaType"
-                           minOccurs="1"
-                           maxOccurs="1">
+               <xs:element minOccurs="0"
+                           maxOccurs="1"
+                           name="boreholeSampleDescription"
+                           nillable="false"
+                           type="bhrgtcom:BoreholeSampleDescriptionType">
                   <xs:annotation>
-                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het deelonderzoek bestaat uit of de boormonsterbeschrijving of de boormonsteranalyse maar niet beide. De boormonsteranalyse bestaat uit de bepalingen uit fase 1, d.w.z. verticale vervorming, maximale ongedraineerde schuifsterkte, korrelgrootteverdeling, watergehalte, organischestofgehalte, kalkgehalte, volumieke massa en volumieke massa vaste delen.</xs:documentation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het deel van het booronderzoek dat betrekking heeft op het beschrijven van de monsters en het verwerken van de resultaten tot een samenvattende beschrijving van de opbouw van de ondergrond.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element minOccurs="0"
+                           maxOccurs="1"
+                           name="boreholeSampleAnalysis"
+                           nillable="false"
+                           type="bhrgtcom:BoreholeSampleAnalysisType">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het deel van het booronderzoek dat betrekking heeft op het uitvoeren van metingen aan boormonsters.</xs:documentation>
                   </xs:annotation>
                </xs:element>
             </xs:sequence>
@@ -304,13 +314,6 @@ Explanation: Voor onderzoek dat onder IMBRO/A valt zijn zelden gegevens over de 
                           fixed="urn:bro:bhrgt:CorrectionReason"/>
          </xs:restriction>
       </xs:simpleContent>
-   </xs:complexType>
-
-   <xs:complexType name="ResearchAreaType">
-      <xs:choice minOccurs="1" maxOccurs="1">
-         <xs:element ref="bhrgtcom:BoreholeSampleDescription"/>
-         <xs:element ref="bhrgtcom:BoreholeSampleAnalysis"/>
-      </xs:choice>
    </xs:complexType>
 
    <xs:complexType name="SourceDocumentType">

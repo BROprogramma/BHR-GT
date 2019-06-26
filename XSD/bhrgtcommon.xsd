@@ -7,7 +7,7 @@
            targetNamespace="http://www.broservices.nl/xsd/bhrgtcommon/0.1"
            elementFormDefault="qualified"
            attributeFormDefault="unqualified"
-           version="0.1.7">
+           version="0.1.8">
 
    <xs:annotation>
       <xs:appinfo source="http://schemas.opengis.net/gmlsfProfile/2.0/gmlsfLevels.xsd">
@@ -15,121 +15,87 @@
       </xs:appinfo>
    </xs:annotation>
 
-   <xs:import namespace="http://www.broservices.nl/xsd/brocommon/3.0" schemaLocation="https://schema.broservices.nl/xsd/brocommon/3.0/brocommon.xsd"/>
-   <xs:import namespace="http://www.opengis.net/gml/3.2" schemaLocation="https://schema.broservices.nl/profile/gml/1.0/gml-profile.xsd"/>
+   <xs:import namespace="http://www.broservices.nl/xsd/brocommon/3.0" schemaLocation="brocommon.xsd"/>
+   <xs:import namespace="http://www.opengis.net/gml/3.2" schemaLocation="gml-profile.xsd"/>
 
-   <xs:element name="BoreholeSampleAnalysis"
-               type="bhrgtcom:BoreholeSampleAnalysisType"
-               substitutionGroup="gml:AbstractFeature">
-      <xs:annotation>
-         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het deel van het booronderzoek dat betrekking heeft op het uitvoeren van metingen aan boormonsters.</xs:documentation>
-      </xs:annotation>
-   </xs:element>
    <xs:complexType name="BoreholeSampleAnalysisType">
-      <xs:complexContent>
-         <xs:extension base="gml:AbstractFeatureType">
-            <xs:sequence>
-               <xs:element name="analysisReportDate"
-                           type="xs:date"
-                           minOccurs="1"
-                           maxOccurs="1">
-                  <xs:annotation>
-                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De datum waarop de boormonsteranalyse is voltooid en de resultaten zijn vastgelegd.</xs:documentation>
-                  </xs:annotation>
-               </xs:element>
-               <xs:element name="analysisProcedure"
-                           minOccurs="1"
-                           maxOccurs="1"
-                           type="bhrgtcom:AnalysisProcedureType">
-                  <xs:annotation>
-                     <xs:appinfo>
-                        <CodeListName>AnalysisProcedure</CodeListName>
-                        <CodeListURI/>
-                     </xs:appinfo>
-                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De richtlijn die aangeeft onder welke algemene afspraken de boormonsteranalyse is uitgevoerd.
-Explanation: In de praktijkrichtlijn zijn (worden) afspraken opgenomen die aangeven hoe monsters behandeld worden en algemene Nederlandse afspraken die aanvullend zijn op de internationale bepalingsprocedures. De Nationale Praktijkrichtlijn (NPR) is er nog niet en is naar verwachting gereed in 2020.</xs:documentation>
-                  </xs:annotation>
-               </xs:element>
-               <xs:element name="analysisOperator"
-                           type="brocom:OrganizationType"
-                           minOccurs="0"
-                           maxOccurs="1">
-                  <xs:annotation>
-                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het KvK-nummer van de onderneming of de maatschappelijke activiteit van de rechtspersoon die voor de bronhouder geldt als verantwoordelijk voor de uitvoering van de boormonsteranalyse, of het equivalent daarvan in een handelsregister van een andere lidstaat van de Europese Unie dan Nederland.
-Explanation: Het gegeven wordt alleen uitgeleverd aan de dataleverancier en de bronhouder.</xs:documentation>
-                  </xs:annotation>
-               </xs:element>
-               <xs:element minOccurs="1"
-                           maxOccurs="unbounded"
-                           name="investigatedInterval"
-                           nillable="false"
-                           type="bhrgtcom:InvestigatedIntervalType"/>
-            </xs:sequence>
-         </xs:extension>
-      </xs:complexContent>
-   </xs:complexType>
-   <xs:complexType name="BoreholeSampleAnalysisPropertyType">
-      <xs:sequence minOccurs="0">
-         <xs:element ref="bhrgtcom:BoreholeSampleAnalysis"/>
+      <xs:sequence>
+         <xs:element name="analysisReportDate"
+                     type="xs:date"
+                     minOccurs="1"
+                     maxOccurs="1">
+            <xs:annotation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De datum waarop de boormonsteranalyse is voltooid en de resultaten zijn vastgelegd.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="analysisProcedure"
+                     minOccurs="1"
+                     maxOccurs="1"
+                     type="bhrgtcom:AnalysisProcedureType">
+            <xs:annotation>
+               <xs:appinfo>
+                  <CodeListName>AnalysisProcedure</CodeListName>
+                  <CodeListURI/>
+               </xs:appinfo>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De richtlijn die aangeeft onder welke algemene afspraken de boormonsteranalyse is uitgevoerd.
+                  Explanation: In de praktijkrichtlijn zijn (worden) afspraken opgenomen die aangeven hoe monsters behandeld worden en algemene Nederlandse afspraken die aanvullend zijn op de internationale bepalingsprocedures. De Nationale Praktijkrichtlijn (NPR) is er nog niet en is naar verwachting gereed in 2020.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="analysisOperator"
+                     type="brocom:OrganizationType"
+                     minOccurs="0"
+                     maxOccurs="1">
+            <xs:annotation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het KvK-nummer van de onderneming of de maatschappelijke activiteit van de rechtspersoon die voor de bronhouder geldt als verantwoordelijk voor de uitvoering van de boormonsteranalyse, of het equivalent daarvan in een handelsregister van een andere lidstaat van de Europese Unie dan Nederland.
+                  Explanation: Het gegeven wordt alleen uitgeleverd aan de dataleverancier en de bronhouder.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element minOccurs="1"
+                     maxOccurs="unbounded"
+                     name="investigatedInterval"
+                     nillable="false"
+                     type="bhrgtcom:InvestigatedIntervalType"/>
       </xs:sequence>
-      <xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
    </xs:complexType>
 
-   <xs:element name="BoreholeSampleDescription"
-               type="bhrgtcom:BoreholeSampleDescriptionType"
-               substitutionGroup="gml:AbstractFeature">
-      <xs:annotation>
-         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het deel van het booronderzoek dat betrekking heeft op het beschrijven van de monsters en het verwerken van de resultaten tot een samenvattende beschrijving van de opbouw van de ondergrond.</xs:documentation>
-      </xs:annotation>
-   </xs:element>
    <xs:complexType name="BoreholeSampleDescriptionType">
-      <xs:complexContent>
-         <xs:extension base="gml:AbstractFeatureType">
-            <xs:sequence>
-               <xs:element name="descriptionReportDate"
-                           type="brocom:PartialDateType"
-                           minOccurs="1"
-                           maxOccurs="1">
-                  <xs:annotation>
-                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De datum waarop het beschrijven is voltooid en de resultaten zijn vastgelegd.</xs:documentation>
-                  </xs:annotation>
-               </xs:element>
-               <xs:element name="descriptionProcedure"
-                           minOccurs="1"
-                           maxOccurs="2"
-                           type="bhrgtcom:DescriptionProcedureType">
-                  <xs:annotation>
-                     <xs:appinfo>
-                        <CodeListName>DescriptionProcedure</CodeListName>
-                        <CodeListURI/>
-                     </xs:appinfo>
-                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De procedure die aangeeft onder welke afspraken de monsters zijn beschreven.
-Explanation: De procedure beschrijft volgens welk stelsel van afspraken de monsters beschreven zijn en welke aspecten worden beschreven. Procedures zijn in het algemeen vastgelegd in een norm, protocol of richtlijn. Dat kan overigens een richtlijn zijn die de uitvoerder voor zichzelf gebruikt. Het gegeven is opgenomen omdat het inzicht biedt in de kwaliteit van het werk. Het gebruik van procedures varieert van vakgebied tot vakgebied en voor grond gelden andere afspraken dan voor gesteente. Voor booronderzoek dat onder kwaliteitsregime IMBRO valt, is de boormonsterbeschrijving altijd onder NEN-EN-ISO 14688-1 tot stand gekomen. Een boormonsterbeschrijving die onder NEN 5104 tot stand is gekomen, valt per definitie onder booronderzoek met kwaliteitsregime IMBRO/A.</xs:documentation>
-                  </xs:annotation>
-               </xs:element>
-               <xs:element name="descriptionOperator"
-                           type="brocom:OrganizationType"
-                           minOccurs="0"
-                           maxOccurs="1">
-                  <xs:annotation>
-                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het KvK-nummer van de onderneming of de maatschappelijke activiteit van de rechtspersoon die voor de bronhouder geldt als verantwoordelijk voor de uitvoering van de boormonsterbeschrijving, of het equivalent daarvan in een handelsregister van een andere lidstaat van de Europese Unie dan Nederland.
-Explanation: Het gegeven wordt alleen uitgeleverd aan de dataleverancier en de bronhouder.</xs:documentation>
-                  </xs:annotation>
-               </xs:element>
-               <xs:element minOccurs="1"
-                           maxOccurs="3"
-                           name="descriptiveBoreholeLog"
-                           nillable="false"
-                           type="bhrgtcom:DescriptiveBoreholeLogType"/>
-            </xs:sequence>
-         </xs:extension>
-      </xs:complexContent>
-   </xs:complexType>
-   <xs:complexType name="BoreholeSampleDescriptionPropertyType">
-      <xs:sequence minOccurs="0">
-         <xs:element ref="bhrgtcom:BoreholeSampleDescription"/>
+      <xs:sequence>
+         <xs:element name="descriptionReportDate"
+                     type="brocom:PartialDateType"
+                     minOccurs="1"
+                     maxOccurs="1">
+            <xs:annotation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De datum waarop het beschrijven is voltooid en de resultaten zijn vastgelegd.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="descriptionProcedure"
+                     minOccurs="1"
+                     maxOccurs="2"
+                     type="bhrgtcom:DescriptionProcedureType">
+            <xs:annotation>
+               <xs:appinfo>
+                  <CodeListName>DescriptionProcedure</CodeListName>
+                  <CodeListURI/>
+               </xs:appinfo>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De procedure die aangeeft onder welke afspraken de monsters zijn beschreven.
+                  Explanation: De procedure beschrijft volgens welk stelsel van afspraken de monsters beschreven zijn en welke aspecten worden beschreven. Procedures zijn in het algemeen vastgelegd in een norm, protocol of richtlijn. Dat kan overigens een richtlijn zijn die de uitvoerder voor zichzelf gebruikt. Het gegeven is opgenomen omdat het inzicht biedt in de kwaliteit van het werk. Het gebruik van procedures varieert van vakgebied tot vakgebied en voor grond gelden andere afspraken dan voor gesteente. Voor booronderzoek dat onder kwaliteitsregime IMBRO valt, is de boormonsterbeschrijving altijd onder NEN-EN-ISO 14688-1 tot stand gekomen. Een boormonsterbeschrijving die onder NEN 5104 tot stand is gekomen, valt per definitie onder booronderzoek met kwaliteitsregime IMBRO/A.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="descriptionOperator"
+                     type="brocom:OrganizationType"
+                     minOccurs="0"
+                     maxOccurs="1">
+            <xs:annotation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het KvK-nummer van de onderneming of de maatschappelijke activiteit van de rechtspersoon die voor de bronhouder geldt als verantwoordelijk voor de uitvoering van de boormonsterbeschrijving, of het equivalent daarvan in een handelsregister van een andere lidstaat van de Europese Unie dan Nederland.
+                  Explanation: Het gegeven wordt alleen uitgeleverd aan de dataleverancier en de bronhouder.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element minOccurs="1"
+                     maxOccurs="3"
+                     name="descriptiveBoreholeLog"
+                     nillable="false"
+                     type="bhrgtcom:DescriptiveBoreholeLogType"/>
       </xs:sequence>
-      <xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
    </xs:complexType>
 
    <xs:complexType name="BasicParticleSizeDistributionType">
@@ -1118,7 +1084,7 @@ Explanation: De diepte van het niveau wordt geschat op basis van aspecten als kl
                </xs:simpleContent>
             </xs:complexType>
          </xs:element>
-         <xs:element name="fraction63to75um" minOccurs="0" maxOccurs="1">
+         <xs:element name="fraction63to75um" minOccurs="0" maxOccurs="1" nillable="true">
             <xs:annotation>
                <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het aandeel van de korrels met een diameter van 63 tot 75 µm in de massa van het materiaal.</xs:documentation>
             </xs:annotation>
@@ -1133,7 +1099,7 @@ Explanation: De diepte van het niveau wordt geschat op basis van aspecten als kl
                </xs:simpleContent>
             </xs:complexType>
          </xs:element>
-         <xs:element name="fraction75to90um" minOccurs="0" maxOccurs="1">
+         <xs:element name="fraction75to90um" minOccurs="0" maxOccurs="1" nillable="true">
             <xs:annotation>
                <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het aandeel van de korrels met een diameter van 75 tot 90 µm in de massa van het materiaal.</xs:documentation>
             </xs:annotation>
@@ -1163,7 +1129,7 @@ Explanation: De diepte van het niveau wordt geschat op basis van aspecten als kl
                </xs:simpleContent>
             </xs:complexType>
          </xs:element>
-         <xs:element name="fraction90to106um" minOccurs="0" maxOccurs="1">
+         <xs:element name="fraction90to106um" minOccurs="0" maxOccurs="1" nillable="true">
             <xs:annotation>
                <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het aandeel van de korrels met een diameter van 90 tot 106 µm in de massa van het materiaal.</xs:documentation>
             </xs:annotation>
@@ -1178,7 +1144,7 @@ Explanation: De diepte van het niveau wordt geschat op basis van aspecten als kl
                </xs:simpleContent>
             </xs:complexType>
          </xs:element>
-         <xs:element name="fraction106to125um" minOccurs="0" maxOccurs="1">
+         <xs:element name="fraction106to125um" minOccurs="0" maxOccurs="1" nillable="true">
             <xs:annotation>
                <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het aandeel van de korrels met een diameter van 106 tot 125 µm in de massa van het materiaal.</xs:documentation>
             </xs:annotation>
@@ -1208,7 +1174,7 @@ Explanation: De diepte van het niveau wordt geschat op basis van aspecten als kl
                </xs:simpleContent>
             </xs:complexType>
          </xs:element>
-         <xs:element name="fraction125to150um" minOccurs="0" maxOccurs="1">
+         <xs:element name="fraction125to150um" minOccurs="0" maxOccurs="1" nillable="true">
             <xs:annotation>
                <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het aandeel van de korrels met een diameter van 125 tot 150 µm in de massa van het materiaal.</xs:documentation>
             </xs:annotation>
@@ -1223,7 +1189,7 @@ Explanation: De diepte van het niveau wordt geschat op basis van aspecten als kl
                </xs:simpleContent>
             </xs:complexType>
          </xs:element>
-         <xs:element name="fraction150to180um" minOccurs="0" maxOccurs="1">
+         <xs:element name="fraction150to180um" minOccurs="0" maxOccurs="1" nillable="true">
             <xs:annotation>
                <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het aandeel van de korrels met een diameter van 150 tot 180 µm in de massa van het materiaal.</xs:documentation>
             </xs:annotation>
@@ -1253,7 +1219,7 @@ Explanation: De diepte van het niveau wordt geschat op basis van aspecten als kl
                </xs:simpleContent>
             </xs:complexType>
          </xs:element>
-         <xs:element name="fraction180to212um" minOccurs="0" maxOccurs="1">
+         <xs:element name="fraction180to212um" minOccurs="0" maxOccurs="1" nillable="true">
             <xs:annotation>
                <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het aandeel van de korrels met een diameter van 180 tot 212 µm in de massa van het materiaal.</xs:documentation>
             </xs:annotation>
@@ -1268,7 +1234,7 @@ Explanation: De diepte van het niveau wordt geschat op basis van aspecten als kl
                </xs:simpleContent>
             </xs:complexType>
          </xs:element>
-         <xs:element name="fraction212to250um" minOccurs="0" maxOccurs="1">
+         <xs:element name="fraction212to250um" minOccurs="0" maxOccurs="1" nillable="true">
             <xs:annotation>
                <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het aandeel van de korrels met een diameter van 212 tot 250 µm in de massa van het materiaal.</xs:documentation>
             </xs:annotation>
@@ -1403,7 +1369,7 @@ Explanation: De diepte van het niveau wordt geschat op basis van aspecten als kl
                </xs:simpleContent>
             </xs:complexType>
          </xs:element>
-         <xs:element name="fraction4to5_6mm" minOccurs="0" maxOccurs="1">
+         <xs:element name="fraction4to5_6mm" minOccurs="0" maxOccurs="1" nillable="true">
             <xs:annotation>
                <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het aandeel van de korrels met een diameter van 4 tot 5,6 mm in de massa van het materiaal.</xs:documentation>
             </xs:annotation>
@@ -1418,7 +1384,7 @@ Explanation: De diepte van het niveau wordt geschat op basis van aspecten als kl
                </xs:simpleContent>
             </xs:complexType>
          </xs:element>
-         <xs:element name="fraction5_6to8mm" minOccurs="0" maxOccurs="1">
+         <xs:element name="fraction5_6to8mm" minOccurs="0" maxOccurs="1" nillable="true">
             <xs:annotation>
                <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het aandeel van de korrels met een diameter van 5,6 tot 8 mm in de massa van het materiaal.</xs:documentation>
             </xs:annotation>
@@ -1448,7 +1414,7 @@ Explanation: De diepte van het niveau wordt geschat op basis van aspecten als kl
                </xs:simpleContent>
             </xs:complexType>
          </xs:element>
-         <xs:element name="fraction8to11_2mm" minOccurs="0" maxOccurs="1">
+         <xs:element name="fraction8to11_2mm" minOccurs="0" maxOccurs="1" nillable="true">
             <xs:annotation>
                <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het aandeel van de korrels met een diameter van 8 tot 11,2 mm in de massa van het materiaal.</xs:documentation>
             </xs:annotation>
@@ -1463,7 +1429,7 @@ Explanation: De diepte van het niveau wordt geschat op basis van aspecten als kl
                </xs:simpleContent>
             </xs:complexType>
          </xs:element>
-         <xs:element name="fraction11_2to16mm" minOccurs="0" maxOccurs="1">
+         <xs:element name="fraction11_2to16mm" minOccurs="0" maxOccurs="1" nillable="true">
             <xs:annotation>
                <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het aandeel van de korrels met een diameter van 11,2 tot 16 mm in de massa van het materiaal.</xs:documentation>
             </xs:annotation>
@@ -2251,7 +2217,7 @@ Explanation: In de beschrijfprocedure NEN-EN-ISO 14688-1 is vastgelegd dat een l
             </xs:annotation>
          </xs:element>
          <xs:element name="anthropogenic"
-                     type="brocom:IndicationYesNoType"
+                     type="brocom:IndicationYesNoUnknownType"
                      minOccurs="1"
                      maxOccurs="1">
             <xs:annotation>
