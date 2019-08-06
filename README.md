@@ -18,4 +18,4 @@ De volgende werkversies van onderdelen van BHR-GT boormonsteranalyse fase 2 zijn
 [3]: https://github.com/BROprogramma/BHR-GT/blob/gh-pages/20190806%20gegevensdefinitie%20BRO%20BHR-GT%20bma%20bepaling%20schuifsterkte%20werkversie.pdf
 [4]: https://github.com/BROprogramma/BHR-GT/blob/gh-pages/20190806%20gegevensdefinitie%20BRO%20BHR-GT%20bma%20bepaling%20verticale%20vervorming%20werkversie.pdf
 [5]: https://github.com/BROprogramma/BHR-GT/blob/gh-pages/20190726%20Domeinmodel%20BRO%20BHR-GT%20bma%20consistentiegrenzen%20werkversie.pdf
-[6]: https://github.com/BROprogramma/BHR-GT/blob/gh-pages/20190726%20Domeinmodel%20BRO%20BHR-GT%20bma%20consistentiegrenzen%20werkversie.pdf
+[6]: https://github.com/BROprogramma/BHR-GT/blob/gh-pages/20190726%20gegevensdefinitie%20BRO%20BHR-GT%20bma%20consistentiegrenzen%20werkversie.pdf
