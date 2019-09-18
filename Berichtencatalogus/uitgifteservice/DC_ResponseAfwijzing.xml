@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dispatchCharacteristicsResponse
+    xmlns="http://www.broservices.nl/xsd/dsbhr-gt/0.1"
+    xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.broservices.nl/xsd/dsbhr-gt/0.1 ../../XSD/dsbhr-gt-messages.xsd">
+  <brocom:responseType>rejection</brocom:responseType>
+  <brocom:requestReference>uitgifte-18</brocom:requestReference>
+  <brocom:rejectionTime>2017-06-23T10:02:37+01:00</brocom:rejectionTime>
+  <brocom:rejectionReason>Er zijn één of meer fouten geconstateerd in de kenmerken verzameling.</brocom:rejectionReason>
+  <brocom:criterionError>
+    <brocom:sequenceNumber>0</brocom:sequenceNumber>
+    <brocom:specification>{DispatchCharacteristicsRequest.criteria.area.boundingBox.crs} = RD waarde heeft geen correct formaat: moet zijn [ETRS89].</brocom:specification>
+  </brocom:criterionError>
+</dispatchCharacteristicsResponse>

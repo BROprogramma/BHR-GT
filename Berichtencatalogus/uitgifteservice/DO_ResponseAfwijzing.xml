@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dispatchDataResponse
+    xmlns="http://www.broservices.nl/xsd/dsbhr-gt/0.1"
+    xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.broservices.nl/xsd/dsbhr-gt/0.1 ../../XSD/dsbhr-gt-messages.xsd">
+  <brocom:responseType>rejection</brocom:responseType>
+  <brocom:requestReference>uitgifte-23</brocom:requestReference>
+  <brocom:rejectionTime>2017-06-23T09:36:28+01:00</brocom:rejectionTime>
+  <brocom:rejectionReason>Dit registratieobject bestaat niet.</brocom:rejectionReason>
+</dispatchDataResponse>
