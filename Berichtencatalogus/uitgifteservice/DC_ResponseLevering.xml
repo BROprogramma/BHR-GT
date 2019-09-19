@@ -12,7 +12,14 @@
   <brocom:responseType>dispatch</brocom:responseType>
   <brocom:requestReference>101</brocom:requestReference>
   <brocom:dispatchTime>2017-03-10T09:09:43+01:00</brocom:dispatchTime>
-  <numberOfDocuments>1</numberOfDocuments>
+  <numberOfDocuments>2</numberOfDocuments>
+  <dispatchDocument>
+    <brocom:BRO_DO gml:id="BHR000000000666">
+      <brocom:broId>BHR000000000666</brocom:broId>
+      <brocom:deregistered>ja</brocom:deregistered>
+      <brocom:deregistrationTime>2017-02-01T13:02:41</brocom:deregistrationTime>
+    </brocom:BRO_DO>
+  </dispatchDocument>
   <dispatchDocument>
     <BHR_GT_C gml:id="SEQ_0001">
       <brocom:broId>BHR123456789012</brocom:broId>
