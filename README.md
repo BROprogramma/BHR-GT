@@ -3,7 +3,7 @@ Deze repository wordt gebruikt voor het ontwikkelen van de geotechnische deelver
 
 
 # Publieke consultaties
-Op donderdag 31 oktober start de publieke consultatie voor de standaard [geotechnische boormonsteranalyse (deel II)][1]. De publieke consultatie loopt tot en met 15 december 2019. De catalogus wordt geconsulteerd in de vorm zoals hij in de ministeriële regeling verschijnt. Gebruik daarvoor [de hier gelinkte PDF versie catalogus][1].
+Op donderdag 31 oktober start de publieke consultatie voor de standaard [geotechnische boormonsteranalyse 2][1]. De publieke consultatie loopt tot en met 15 december 2019. De catalogus wordt geconsulteerd in de vorm zoals hij in de ministeriële regeling verschijnt. Gebruik daarvoor [de hier gelinkte PDF versie catalogus][1].
 
 In de [instructies voor de publieke consultatie][2] wordt uitgelegd hoe u kunt reageren via Github.
 Het is ook mogelijk te reageren via een webformulier: https://basisregistratieondergrond.nl/werken-bro/producten-diensten/standaarden/publieke-consultaties/publieke-consultatie-booronderzoek-geotechnisch/
