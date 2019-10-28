@@ -1,21 +1,27 @@
 # Booronderzoek - geotechniek
 Deze repository wordt gebruikt voor het ontwikkelen van de geotechnische deelverzamelingen van de BRO catalogus Booronderzoek, voor het verzamelen van issues hierover, en voor consultaties. 
 
-De volgende werkversies van onderdelen van BHR-GT boormonsteranalyse fase 2 zijn beschikbaar:
-- [Uitsnede van het domeinmodel BHR-GT boormonsteranalyse: Bepaling verticale vervorming (samendrukkingsproef* en CRS) - werkversie 6-augustus-2019][2]
-- [Deel van de gegevensdefinitie van BHR-GT boormonsteranalyse: Bepaling verticale vervorming (samendrukkingsproef* en CRS) - werkversie 6-augustus-2019][4]
-- [Uitsnede van het domeinmodel BHR-GT boormonsteranalyse: Bepaling schuifsterkte (triaxiaal en DSS) - werkversie 6-augustus-2019][1]
-- [Deel van de gegevensdefinitie van BHR-GT boormonsteranalyse: Bepaling schuifsterkte (triaxiaal en DSS) - werkversie 6-augustus-2019][3]
-- [Uitsnede van het domeinmodel BHR-GT boormonsteranalyse: Bepaling consistentiegrenzen (vloeigrens en uitrolgrens) - werkversie 26-juli-2019][5]
-- [Deel van de gegevensdefinitie van BHR-GT boormonsteranalyse: Bepaling consistentiegrenzen (vloeigrens en uitrolgrens) - werkversie 26-juli-2019][6]
+
+# Publieke consultaties
+Op donderdag 31 oktober start de publieke consultatie voor de standaard [‘geotechnische boormonsteranalyse (deel II)’][1]. De publieke consultatie loopt tot en met 15 december 2019. De catalogus wordt geconsulteerd in de vorm zoals hij in de ministeriële regeling verschijnt. Gebruik daarvoor [de hier gelinkte PDF versie catalogus][1].
+
+In de [instructies voor de publieke consultatie][2] wordt uitgelegd hoe u kunt reageren via Github.
+Het is ook mogelijk te reageren via een webformulier: https://basisregistratieondergrond.nl/werken-bro/producten-diensten/standaarden/publieke-consultaties/publieke-consultatie-booronderzoek-geotechnisch/
+
+Voor het goed begrijpen van de catalogus zoals hij in de ministeriële regeling verschijnt raden we u ten sterkste aan eerst het [achtergrond document][3] te lezen. U kunt niet op dit inleidend document reageren, maar het geeft wel een goede inleiding waarmee de catalogus beter begrepen kan worden.
+
+Het gaat bij deze consultatie om een uitbreiding met labproeven voor het bepalen van Consistentiegrenzen, Schuifspanningsverloop, Zettingseigenschappen, Waterdoorlatendheid.
+
+Daarnaast zijn er bij de implementatie van de bestaande catalogus voor geotechnisch booronderzoek bevindingen gedaan. Een aantal van deze bevindingen zijn in de te consulteren catalogus opgelost. Een aantal andere bevindingen worden opgelost in de NEN-en-ISO 14688 norm waarop deze catalogus is gebaseerd. De NEN-Norm commissie van 14688 zal hier ook zelf over communiceren. De complete lijst met issues die opgelost worden in zowel de NEN 14688 als de catalogus van de BRO is [hier te vinden op Github][4]. Per issue staat de oplossingsrichting aangegeven en of die plaatsvind in de catalogus of in de NEN 14688 norm.
+
+In de catalogus worden de uitbreidingen aangegeven in blauwe tekst. Substantieel onderhoud op het reeds bestaande deel van de catalogus wordt aangegeven in groene tekst. Op Github is [via deze link][5] de complete lijst met issues te vinden die tijdens het onderhoud zijn meegenomen. Deze lijst bevat alleen onderhoud op de catalogus maar bevat naast oplossingen voor de bovengenoemde implementatie bevindingen nog meer aanpassingen. In het Github issue staat de motivatie voor de aanpassing en de plek in de catalogus waar de aanpassing te vinden is. 
 
 
-(*) de samendrukkingsproef is al opgenomen in BHR-GT fase 1
 
 
-[1]: https://github.com/BROprogramma/BHR-GT/blob/gh-pages/20190806%20Domeinmodel%20BRO%20BHR-GT%20bma%20bepaling%20schuifsterkte%20werkversie.pdf
-[2]: https://github.com/BROprogramma/BHR-GT/blob/gh-pages/20190806%20Domeinmodel%20BRO%20BHR-GT%20bma%20bepaling%20verticale%20vervorming%20werkversie.pdf
-[3]: https://github.com/BROprogramma/BHR-GT/blob/gh-pages/20190806%20gegevensdefinitie%20BRO%20BHR-GT%20bma%20bepaling%20schuifsterkte%20werkversie.pdf
-[4]: https://github.com/BROprogramma/BHR-GT/blob/gh-pages/20190806%20gegevensdefinitie%20BRO%20BHR-GT%20bma%20bepaling%20verticale%20vervorming%20werkversie.pdf
-[5]: https://github.com/BROprogramma/BHR-GT/blob/gh-pages/20190726%20Domeinmodel%20BRO%20BHR-GT%20bma%20consistentiegrenzen%20werkversie.pdf
-[6]: https://github.com/BROprogramma/BHR-GT/blob/gh-pages/20190726%20gegevensdefinitie%20BRO%20BHR-GT%20bma%20consistentiegrenzen%20werkversie.pdf
+[1]: 
+[2]: https://github.com/BROprogramma/BHR-GT/blob/gh-pages/consultatie-instructie.md
+[3]: 
+[4]: https://github.com/BROprogramma/BHR-GT/issues?utf8=%E2%9C%93&q=is%3Aissue+label%3A%22Bevinding+realisatie%22+label%3A%22tranche+2%22+
+[5]: https://github.com/BROprogramma/BHR-GT/issues?q=is%3Aissue+label%3A%22tranche+2%22+label%3A%22opgelost+in+tranche+3+catalogus%22
+[6]: 
