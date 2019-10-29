@@ -13,7 +13,7 @@
    <body>
       <p>Conceptual model/Geotechnisch booronderzoek (BHR-GT)/20191021</p>
       <p>Imvertor: 1.55.2</p>
-      <p>Model release: Conceptualmodel-GeotechnischbooronderzoekBHR-GT-1.9-1-20191021-20191029-224051</p>
+      <p>Model release: Conceptualmodel-GeotechnischbooronderzoekBHR-GT-1.9-1-20191021-20191029-233830</p>
       <hr>
       <section>
          <h1>Artikel 1 Definitie van registratieobject, entiteiten en attributen</h1>
@@ -1679,6 +1679,11 @@
                               
                               <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De gegevens staan niet in een brondocument, maar worden automatisch door de basisregistratie
                                  ondergrond gegenereerd.
+                                 De resultaten van het booronderzoek worden in een keer of in delen gerapporteerd.
+                                 Wanneer een deelrapport dat onder de wettelijke verplichtingen valt door de bronhouder
+                                 is geaccepteerd, wordt het ter registratie aan de landelijke voorziening aangeboden.
+                                 De rapportagegeschiedenis geeft de essentie van het verloop van de rapportage en vormt
+                                 de zgn. materiële geschiedenis van het registratieobject booronderzoek.
                               </p>
                               
                            </td>
@@ -1747,7 +1752,7 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De datum ligt niet na het <em>tijdstip registratie object</em> van de entiteit <em>Registratiegeschiedenis</em>.
+                                 <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De <em>startdatum rapportage</em> mag niet liggen na het <em>tijdstip registratie object</em> van de entiteit <em>Registratiegeschiedenis</em>.
                                  </p>
                                  
                               </td>
@@ -1758,8 +1763,7 @@
                                  
                                  <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De basisregistratie ondergrond leidt bij het starten van de registratie de juiste
                                     waarde af uit de gegevens in het brondocument. De datum is gelijk aan de rapportagedatum
-                                    van het deelonderzoek dat als eerste is overgedragen<em>.</em>
-                                    
+                                    van het deelonderzoek of de deelonderzoeken die als eerste zijn overgedragen.
                                  </p>
                                  
                               </td>
@@ -1820,7 +1824,7 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De datum ligt niet voor de <em>startdatum rapportage</em>.
+                                 <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De <em>einddatum rapportage</em> mag niet liggen voor de <em>startdatum rapportage</em>.
                                  </p>
                                  
                               </td>
@@ -1872,7 +1876,8 @@
                            <td>
                               
                               <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De basisregistratie ondergrond leidt bij het aanvullen van de registratie de juiste
-                                 waarde af uit de gegevens in het brondocument.
+                                 waarde af uit de gegevens in het brondocument. In deze versie van de catalogus vinden
+                                 er geen tussentijdse gebeurtenissen plaats.
                               </p>
                               
                            </td>
@@ -1981,7 +1986,8 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De datum ligt niet voor de <em>startdatum rapportage</em> en niet na de <em>einddatum rapportage</em> van de entiteit<em>Rapportagegeschiedenis</em>.
+                                 <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De <em>datum gebeurtenis</em> mag niet liggen voor de <em>startdatum rapportage</em> van de entiteit <em>Rapportagegeschiedenis</em>.
+                                    De <em>datum gebeurtenis</em> mag niet liggen na de <em>einddatum rapportage</em> van de entiteit <em>Rapportagegeschiedenis</em>.
                                  </p>
                                  
                               </td>
@@ -2452,20 +2458,6 @@
                               <td>m (meter)</td>
                            </tr>
                            <tr>
-                              <th>&nbsp;&nbsp;Waardebereik</th>
-                              <td>niet-gespecificeerd tot niet-gespecificeerd</td>
-                           </tr>
-                           <tr>
-                              <th>Regels IMBRO/A</th>
-                              <td>
-                                 
-                                 <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Voor IMBRO/A-gegevens kan de verschuiving niet bepaald zijn, alleen in dat geval heeft
-                                    het gegeven geen waarde.
-                                 </p>
-                                 
-                              </td>
-                           </tr>
-                           <tr>
                               <th>Toelichting</th>
                               <td>
                                  
@@ -2479,6 +2471,12 @@
                            <tr>
                               <th>Mogelijk geen waarde</th>
                               <td>Ja</td>
+                           </tr>
+                           <tr>
+                              <th>Reden geen waarde</th>
+                              <td>Voor IMBRO/A-gegevens kan de verschuiving niet bepaald zijn, alleen in dat geval heeft
+                                 het gegeven geen waarde.
+                              </td>
                            </tr>
                         </tbody>
                      </table>
@@ -2674,7 +2672,10 @@
                               <td>
                                  
                                  <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven is van belang in verband met mogelijke veranderingen in de positie van
-                                    het maaiveld of de waterbodem.
+                                    het maaiveld of de waterbodem. 
+                                    In het geval de positie is bepaald op basis van het AHN geldt als datum 1 januari
+                                    van het jaar waarin de gebruikte versie van het AHN voor het gebied waarin de locatie
+                                    ligt, is vastgesteld. 
                                  </p>
                                  
                               </td>
@@ -3360,7 +3361,7 @@
                               <td>
                                  
                                  <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven is aanwezig wanneer de waarde van het attribuut <em>voorbereiding</em> gelijk is aan <em>bevriezing, injectieDragendVermogen,</em> 
-                                    <em>injectieWaterdoorlatendheid, tijdelijkeVerbuizingVooraf, vacuumconsolidatie</em> of<em>verticaleDrainage</em>. In andere gevallen ontbreekt het gegeven.
+                                    <em>injectieWaterdoorlatendheid, tijdelijkeVerbuizingVooraf, vacuumconsolidatie</em> of <em>verticaleDrainage</em>. In andere gevallen ontbreekt het gegeven.
                                  </p>
                                  
                               </td>
@@ -4148,7 +4149,7 @@
                            </tr>
                            <tr>
                               <th>&nbsp;&nbsp;Waardebereik</th>
-                              <td>0 tot niet-gespecificeerd</td>
+                              <td>vanaf 0</td>
                            </tr>
                            <tr>
                               <th>Regels</th>
@@ -4156,14 +4157,6 @@
                                  
                                  <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De einddiepte is niet groter dan de <em>einddiepte boren</em>.
                                  </p>
-                                 
-                              </td>
-                           </tr>
-                           <tr>
-                              <th>Regels IMBRO/A</th>
-                              <td>
-                                 
-                                 <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Voor IMBRO/A-gegevens mag de waarde ontbreken.</p>
                                  
                               </td>
                            </tr>
@@ -4183,6 +4176,10 @@
                            <tr>
                               <th>Mogelijk geen waarde</th>
                               <td>Ja</td>
+                           </tr>
+                           <tr>
+                              <th>Reden geen waarde</th>
+                              <td>Voor IMBRO/A-gegevens mag de waarde ontbreken.</td>
                            </tr>
                         </tbody>
                      </table>
@@ -4680,7 +4677,7 @@
                                  
                                  <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De einddiepte is groter dan de begindiepte van het interval.
                                     De einddiepte van het onderste interval is gelijk aan de waarde van het attribuut
-                                    einddiepte boren van de entiteit Boring.
+                                    <em>einddiepte boren</em> van de entiteit <em>Boring</em>.
                                  </p>
                                  
                               </td>
@@ -4982,10 +4979,9 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De diepte en verlopen tijd zijn altijd een paar.
-                                    De diepte is niet kleiner dan de begindiepte van het bovenste geboord interval.
-                                    De diepte is niet groter dan de waarde van het attribuut einddiepte boren van de entiteit
-                                    Boring.
+                                 <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De diepte en verlopen tijd zijn altijd een paar. 
+                                    De diepte is niet kleiner dan de begindiepte van het bovenste geboord interval. 
+                                    De diepte is niet groter dan de waarde van het attribuut <em>einddiepte boren</em> van de entiteit <em>Boring</em>.
                                  </p>
                                  
                               </td>
@@ -5154,9 +5150,8 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De einddiepte is groter dan de begindiepte van het interval.
-                                    De einddiepte van het onderste interval is niet groter dan de einddiepte boren van
-                                    de entiteit Boring.
+                                 <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De einddiepte is groter dan de begindiepte van het interval. 
+                                    De einddiepte van het onderste interval is niet groter dan de <em>einddiepte boren</em> van de entiteit <em>Boring</em>.
                                  </p>
                                  
                               </td>
@@ -5902,7 +5897,8 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven is aanwezig wanneer de waarde van het attribuut <em>apparaattype</em> gelijk is aan <em>steekbus, steekbusDLDS</em> of<em>steekbusMetLiner</em>. In andere gevallen ontbreekt het gegeven.
+                                 <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven is aanwezig wanneer de waarde van het attribuut <em>apparaattype</em> gelijk is aan <em>steekbus</em>, <em>steekbusDLDS</em> of <em>steekbusMetLiner</em>. 
+                                    In andere gevallen ontbreekt het gegeven.
                                  </p>
                                  
                               </td>
@@ -5955,8 +5951,8 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven is aanwezig wanneer de waarde van het attribuut <em>apparaattype</em> gelijk is aan <em>corebarrelSingleTube</em>, corebarrelDoubleTube, corebarrelTripleTube en steekbus. In andere gevallen ontbreekt
-                                    het gegeven.
+                                 <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven is aanwezig wanneer de waarde van het attribuut <em>apparaattype</em> gelijk is aan <em>corebarrelSingleTube</em>, <em>corebarrelDoubleTube</em>, <em>corebarrelTripleTube</em> of <em>steekbus</em>. 
+                                    In andere gevallen ontbreekt het gegeven.
                                  </p>
                                  
                               </td>
@@ -6540,9 +6536,9 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De <em>einddiepte</em> is groter dan de <em>begindiepte</em> van het interval.
+                                 <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De einddiepte is groter dan de begindiepte van het interval. 
                                     De einddiepte van het onderste interval is niet groter de waarde van het attribuut
-                                    einddiepte boren van de entiteit Boring.
+                                    <em>einddiepte boren</em> van de entiteit <em>Boring</em>.
                                  </p>
                                  
                               </td>
@@ -7102,9 +7098,8 @@
                            <th>Regels</th>
                            <td>
                               
-                              <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Wanneer de waarde van het attribuut <em>terreintoestand bepaald</em> gelijk is aan<em>ja</em>, is het gegeven aanwezig. In andere gevallen ontbreekt het.
-                                 Ten minste één van de
-                                 attributen <em>bodemgebruik</em>, <em>ligging op grondlichaam</em> en <em>tijdelijke verandering</em> is aanwezig.
+                              <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Wanneer de waarde van het attribuut <em>terreintoestand bepaald</em> gelijk is aan <em>ja</em>, is het gegeven aanwezig. 
+                                 In andere gevallen ontbreekt het. Ten minste één van de attributen <em>bodemgebruik</em>, <em>ligging op grondlichaam</em> en <em>tijdelijke verandering</em> is aanwezig.
                               </p>
                               
                            </td>
@@ -37393,6 +37388,20 @@
                         
                      </td>
                   </tr>
+                  <tr>
+                     <td>RDNAPTRANS2008MV0</td>
+                     <td></td>
+                     <td>✔</td>
+                     <td>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De gegevens zijn getransformeerd van RD naar ETRS89, gebruikmakend van de Transformatie
+                           RDNAPTRANS™, versie 2008. De positie van het aardoppervlak is onbekend, bij transformatie
+                           is uitgegaan van 0 m NAP. RDNAPTRANS™ is de officiële transformatie tussen RD/NAP
+                           en ETRS89 afkomstig van het Kadaster.
+                        </p>
+                        
+                     </td>
+                  </tr>
                </tbody>
             </table>
             
@@ -44028,22 +44037,22 @@
                      <th>Omschrijving</th>
                   </tr>
                   <tr>
-                     <td>DGPS50tot200cm</td>
-                     <td>✔</td>
-                     <td>✔</td>
-                     <td>
-                        
-                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Meting d.m.v. Differential Global Positioning System, afwijking tussen 50 en 200 centimeter.</p>
-                        
-                     </td>
-                  </tr>
-                  <tr>
                      <td>GPS200tot1000cm</td>
                      <td>✔</td>
                      <td>✔</td>
                      <td>
                         
                         <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Meting d.m.v. Global Positioning System, afwijking tussen 200 en 1000 centimeter.</p>
+                        
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>DGPS50tot200cm</td>
+                     <td>✔</td>
+                     <td>✔</td>
+                     <td>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Meting d.m.v. Differential Global Positioning System, afwijking tussen 50 en 200 centimeter.</p>
                         
                      </td>
                   </tr>
