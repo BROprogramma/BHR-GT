@@ -13,7 +13,7 @@
    <body>
       <p>Conceptual model/Geotechnisch booronderzoek (BHR-GT)/20191021</p>
       <p>Imvertor: 1.55.2</p>
-      <p>Model release: Conceptualmodel-GeotechnischbooronderzoekBHR-GT-1.9-1-20191021-20191030-083319</p>
+      <p>Model release: Conceptualmodel-GeotechnischbooronderzoekBHR-GT-1.9-1-20191021-20191030-095448</p>
       <hr>
       <section>
          <h1>Artikel 1 Definitie van registratieobject, entiteiten en attributen</h1>
@@ -860,14 +860,6 @@
                               </td>
                            </tr>
                            <tr>
-                              <th>Regels IMBRO/A</th>
-                              <td>
-                                 
-                                 <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Voor IMBRO/A-gegevens mag het gegeven ontbreken.</p>
-                                 
-                              </td>
-                           </tr>
-                           <tr>
                               <th>Toelichting</th>
                               <td>
                                  
@@ -880,6 +872,12 @@
                            <tr>
                               <th>Mogelijk geen waarde</th>
                               <td>Ja</td>
+                           </tr>
+                           <tr>
+                              <th>Reden geen waarde</th>
+                              <td> 
+                                 Voor IMBRO/A-gegevens mag het gegeven ontbreken.
+                              </td>
                            </tr>
                         </tbody>
                      </table>
@@ -4807,8 +4805,8 @@
                            </tr>
                            <tr>
                               <th>Reden geen waarde</th>
-                              <td>Voor IMBRO/A-gegevens kan de *geboorde diameter* niet bekend zijn, alleen in dat geval
-                                 heeft het gegeven geen waarde. 
+                              <td>Voor IMBRO/A-gegevens kan de geboorde diameter niet bekend zijn, alleen in dat geval
+                                 heeft het gegeven geen waarde.
                               </td>
                            </tr>
                         </tbody>
@@ -7428,8 +7426,8 @@
                            </tr>
                            <tr>
                               <th>Reden geen waarde</th>
-                              <td>Voor IMBRO/A-gegevens kan de *kleur* niet bepaald zijn, alleen in dat geval heeft
-                                 het gegeven geen waarde.
+                              <td>Voor IMBRO/A-gegevens kan de kleur niet bepaald zijn, alleen in dat geval heeft het
+                                 gegeven geen waarde.
                               </td>
                            </tr>
                         </tbody>
@@ -8152,7 +8150,8 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven is aanwezig wanneer de waarde van het attribuut <em>beschrijflocatie</em> van de entiteit <em>Boorprofiel</em> gelijk is aan <em>lab</em> en de waarde van het attribuut <em>beschreven materiaal</em> gelijk is aan <em>grond</em> of <em>grondGesteente</em>. In andere gevallen ontbreekt het gegeven.
+                                 <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>beschreven materiaal</em> gelijk is aan <em>Gesteente</em>. 
+                                    Het attribuut moet aanwezig zijn in alle andere gevallen.
                                  </p>
                                  
                               </td>
@@ -8599,8 +8598,8 @@
                            </tr>
                            <tr>
                               <th>Reden geen waarde</th>
-                              <td>Wanneer de waarde van het attribuut *beschrijfprocedure* van de entiteit *Boormonsterbeschrijving*
-                                 gelijk is aan *NEN5104Synthetisch*, heeft het gegeven geen waarde.
+                              <td>Wanneer de waarde van het attribuut *beschrijfprocedure * van de entiteit *Boormonsterbeschrijving
+                                 * gelijk is aan *NEN5104Synthetisch*, heeft het gegeven geen waarde.
                               </td>
                            </tr>
                         </tbody>
@@ -8744,8 +8743,8 @@
                            </tr>
                            <tr>
                               <th>Reden geen waarde</th>
-                              <td>Wanneer de waarde van het attribuut *beschrijfprocedure* van de entiteit *Boormonsterbeschrijving*
-                                 gelijk is aan *NEN5104Synthetisch*, heeft het gegeven geen waarde.
+                              <td>Wanneer de waarde van het attribuut *beschrijfprocedure * van de entiteit *Boormonsterbeschrijving
+                                 * gelijk is aan *NEN5104Synthetisch*, heeft het gegeven geen waarde.
                               </td>
                            </tr>
                         </tbody>
@@ -9291,7 +9290,7 @@
                               korrelvorm 0..2 
                               <a class="link" href="#global_class_DomeinmodelBROBHRGT_Korrelvorm">Korrelvorm</a>
                               <br>Grond 
-                              heeft 0..2 
+                              heeft 0..1 
                               <a class="link" href="#global_class_DomeinmodelBROBHRGT_Korrelvorm">Korrelvorm</a>
                               <br>
                               <a class="link" href="#global_class_DomeinmodelBROBHRGT_Laag">Laag</a>
@@ -9357,8 +9356,8 @@
                            </tr>
                            <tr>
                               <th>Reden geen waarde</th>
-                              <td>Wanneer de waarde van het attribuut *beschrijfprocedure* van de entiteit *Boormonsterbeschrijving*
-                                 gelijk is aan *NEN5104Synthetisch*, heeft het gegeven geen waarde.
+                              <td>Wanneer de waarde van het attribuut *beschrijfprocedure * van de entiteit *Boormonsterbeschrijving
+                                 * gelijk is aan *NEN5104Synthetisch*, heeft het gegeven geen waarde.
                               </td>
                            </tr>
                         </tbody>
@@ -9480,11 +9479,8 @@
                               <th>Regels IMBRO/A</th>
                               <td>
                                  
-                                 <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven is aanwezig wanneer de waarde van het attribuut <em>beschrijfprocedure</em> van de entiteit <em>Boormonsterbeschrijving</em> gelijk is aan <em>NEN5104Synthetisch</em> en de waarde van het attribuut <em>grondsoort NEN5104</em> gelijk is aan <em>mineraalarmVeen, zwakKleiigVeen, sterkKleiigVeen, zwakZandigVeen, sterkZandigVeen,
-                                       detritusNietGespecificeerd, bruinkoolNietGespecificeerd, gyttjaNietGespecificeerd,
-                                       dy, zwakSiltigeKlei, matigSiltigeKlei, sterkSiltigeKlei, uiterstSiltigeKlei, zwakZandigeKlei,
-                                       matigZandigeKlei, sterkZandigeKlei, zwakZandigeLeem, sterkZandigeLeem, kleiigZand,
-                                       zwakSiltigZand, matigSiltigZand, sterkSiltigZand</em> of<em>uiterstSiltigZand</em>. In andere gevallen ontbreekt het gegeven.
+                                 <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven is aanwezig wanneer de waarde van het attribuut <em>beschrijfprocedure</em> van de entiteit <em>Boormonsterbeschrijving</em> gelijk is aan <em>NEN5104Synthetisch</em> en de waarde van het attribuut <em>grondsoort</em> NEN5104 gelijk is aan <em>mineraalarmVeen</em>, <em>zwakKleiigVeen</em>, <em>sterkKleiigVeen</em>, <em>zwakZandigVeen</em>, <em>sterkZandigVeen</em>, <em>detritusNietGespecificeerd</em>, <em>bruinkoolNietGespecificeerd</em>, <em>gyttjaNietGespecificeerd</em>, <em>dy</em>, <em>zwakSiltigeKlei</em>, <em>matigSiltigeKlei</em>, <em>sterkSiltigeKlei</em>, <em>uiterstSiltigeKlei</em>, <em>zwakZandigeKlei</em>, <em>matigZandigeKlei</em>, <em>sterkZandigeKlei</em>, <em>zwakZandigeLeem</em>, <em>sterkZandigeLeem</em>, <em>kleiigZand</em>, <em>zwakSiltigZand</em>, <em>matigSiltigZand</em>, <em>sterkSiltigZand</em> of <em>uiterstSiltigZand</em>. 
+                                    In andere gevallen ontbreekt het gegeven.
                                  </p>
                                  
                               </td>
@@ -9555,10 +9551,7 @@
                               <th>Regels IMBRO/A</th>
                               <td>
                                  
-                                 <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven is aanwezig wanneer de waarde van het attribuut <em>beschrijfprocedure</em> van de entiteit <em>Boormonsterbeschrijving</em> gelijk is aan <em>NEN5104Synthetisch</em> en de waarde van <em>grondsoort NEN5104</em> gelijk is aan <em>blokken, keienNietGespecificeerd, keitjesNietGespecificeerd, siltigGrind, zwakZandigGrind,
-                                       matigZandigGrind, sterkZandigGrind, uiterstZandigGrind, zwakSiltigeKlei, matigSiltigeKlei,
-                                       sterkSiltigeKlei, uiterstSiltigeKlei, zwakZandigeKlei, matigZandigeKlei, sterkZandigeKlei,
-                                       zwakZandigeLeem, sterkZandigeLeem, kleiigZand, zwakSiltigZand, matigSiltigZand, sterkSiltigZand</em> of<em>uiterstSiltigZand</em>. 
+                                 <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven is aanwezig wanneer de waarde van het attribuut <em>beschrijfprocedure</em> van de entiteit <em>Boormonsterbeschrijving</em> gelijk is aan <em>NEN5104Synthetisch</em> en de waarde van <em>grondsoort NEN5104</em> gelijk is aan <em>blokken</em>, <em>keienNietGespecificeerd</em>, <em>keitjesNietGespecificeerd</em>, <em>siltigGrind</em>, <em>zwakZandigGrind</em>, <em>matigZandigGrind</em>, <em>sterkZandigGrind</em>, <em>uiterstZandigGrind</em>, <em>zwakSiltigeKlei</em>, <em>matigSiltigeKlei</em>, <em>sterkSiltigeKlei</em>, <em>uiterstSiltigeKlei</em>, <em>zwakZandigeKlei</em>, <em>matigZandigeKlei</em>, <em>sterkZandigeKlei</em>, <em>zwakZandigeLeem</em>, <em>sterkZandigeLeem</em>, <em>kleiigZand</em>, <em>zwakSiltigZand</em>, <em>matigSiltigZand</em>, <em>sterkSiltigZand</em> of <em>uiterstSiltigZand</em>. 
                                     In andere gevallen ontbreekt het gegeven.
                                  </p>
                                  
@@ -9706,7 +9699,7 @@
                                     de door verschillende personen en bij verschillende lichtsterkte uitgevoerde beschrijvingen
                                     te waarborgen. Om de namen van kleuren een meer objectieve basis te geven en het gebruik
                                     van een kleurenkaart te ondersteunen, is de vertaling naar de codes van de Munsell
-                                    kleurenkaarten voor grond en gesteenteopgenomen in de codelijst (<em>Munsell Soil Color Chart</em> en <em>Munsell Rock Color Chart)</em>.
+                                    kleurenkaarten voor grond en gesteente opgenomen in de codelijst (<em>Munsell Soil Color Chart</em> en <em>Munsell Rock Color Chart)</em>.
                                     De kleur die is vastgelegd onder NEN 5104 kan niet naar Munsellcodes worden vertaald.
                                  </p>
                                  
@@ -9718,9 +9711,9 @@
                            </tr>
                            <tr>
                               <th>Reden geen waarde</th>
-                              <td>Wanneer de waarde van het attribuut *beschrijfprocedure* van de entiteit *Boormonsterbeschrijving*
-                                 gelijk is aan *NEN5104Synthetisch* kan de kleur niet bepaald zijn, alleen in dat geval
-                                 heeft het gegeven geen waarde*.*
+                              <td>Wanneer de waarde van het attribuut *beschrijfprocedure * van de entiteit *Boormonsterbeschrijving
+                                 * gelijk is aan *NEN5104Synthetisch * kan de kleur niet bepaald zijn, alleen in dat
+                                 geval heeft het gegeven geen waarde.
                               </td>
                            </tr>
                         </tbody>
@@ -9961,7 +9954,9 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven ontbreekt wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> gelijk is aan <em>klasse3</em>. In andere gevallen is het gegeven aanwezig.
+                                 <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>geotechnische grondsoort</em> gelijk is aan <em>keien</em>, <em>keienMetGrind</em>, <em>keienMetZand</em>, <em>keienMetSilt</em>, <em>keienMetKlei</em>, <em>keitjes</em>, <em>keitjesMetGrind</em>, <em>keitjesMetZand</em>, <em>keitjesMetSilt</em>, <em>keitjesMetKlei</em>, <em>detritus</em>, <em>zwakZandigeDetritus</em>, <em>sterkZandigeDetritus</em>, <em>siltigeDetritus</em>, <em>kleiigeDetritus</em>, <em>humus</em>, <em>zwakZandigeHumus</em>, <em>sterkZandigeHumus</em>, <em>siltigeHumus</em>, <em>kleiigeHumus</em>, <em>veen</em>, <em>zwakZandigVeen</em>, <em>sterkZandigVeen</em>, <em>siltigVeen</em>, <em>kleiigVeen</em>, <em>bruinkool</em> of <em>gyttja</em>.
+                                    Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> van de entiteit Boorprofiel gelijk is aan <em>klasse2Geroerd</em> of <em>klasse3</em>.
+                                    Het attribuut moet aanwezig zijn in alle andere gevallen.
                                  </p>
                                  
                               </td>
@@ -10107,7 +10102,8 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven mag aanwezig zijn wanneer de waarde van het attribuut<em>interne structuur intact</em> gelijk is aan <em>ja.</em> In andere gevallen ontbreekt het gegeven.
+                                 <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven mag aanwezig zijn wanneer de waarde van het attribuut <em>interne structuur intact</em> gelijk is aan <em>ja</em>. 
+                                    In andere gevallen ontbreekt het gegeven.
                                  </p>
                                  
                               </td>
@@ -10175,7 +10171,8 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven mag aanwezig zijn wanneer de waarde van het attribuut<em>interne structuur intact</em> gelijk is aan <em>ja.</em> In andere gevallen ontbreekt het gegeven.
+                                 <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven mag aanwezig zijn wanneer de waarde van het attribuut <em>interne structuur intact</em> gelijk is aan <em>ja</em>. 
+                                    In andere gevallen ontbreekt het gegeven.
                                  </p>
                                  
                               </td>
@@ -10245,7 +10242,8 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven mag aanwezig zijn wanneer de waarde van het attribuut<em>interne structuur intact</em> gelijk is aan <em>ja.</em> In andere gevallen ontbreekt het gegeven.
+                                 <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven mag aanwezig zijn wanneer de waarde van het attribuut <em>interne structuur intact</em> gelijk is aan <em>ja</em>. 
+                                    In andere gevallen ontbreekt het gegeven.
                                  </p>
                                  
                               </td>
@@ -10369,10 +10367,8 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven is aanwezig wanneer de waarde van het attribuut <em>geotechnische grondsoort</em> gelijk is aan <em>keienMetGrind, keitjesMetGrind, grind, grindMetKeien, grindMetKeitjes, zwakZandigGrind,
-                                       sterkZandigGrind, siltigGrind, kleiigGrind, zwakGrindigZand,  sterkGrindigZand, siltigZandMetGrind,
-                                       kleiigZandMetGrind, zwakGrindigeSilt, sterkGrindigeSilt, , zwakZandigeSiltMetGrind,
-                                       sterkZandigeSiltMetGrind, zwakGrindigeKlei, sterkGrindigeKlei, zwakZandigeKleiMetGrind,</em>of<em>sterkZandigeKleiMetGrind</em>. In andere gevallen ontbreekt het gegeven.
+                                 <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven is aanwezig wanneer de waarde van het attribuut <em>geotechnische grondsoort</em> gelijk is aan <em>keienMetGrind</em>, <em>keitjesMetGrind</em>, <em>grind</em>, <em>grindMetKeien</em>, <em>grindMetKeitjes</em>, <em>zwakZandigGrind</em>, <em>sterkZandigGrind</em>, <em>siltigGrind</em>, <em>kleiigGrind</em>, <em>zwakGrindigZand</em>, <em>sterkGrindigZand</em>, <em>siltigZandMetGrind</em>, <em>kleiigZandMetGrind</em>, <em>zwakGrindigSilt</em>, <em>sterkGrindigSilt</em>, <em>zwakZandigSiltMetGrind</em>, <em>sterkZandigSiltMetGrind</em>, <em>zwakGrindigeKlei</em>, <em>sterkGrindigeKlei</em>, <em>zwakZandigeKleiMetGrind</em> of <em>sterkZandigeKleiMetGrind</em>. 
+                                    In andere gevallen ontbreekt het gegeven.
                                  </p>
                                  
                               </td>
@@ -10450,8 +10446,8 @@
                               <th>Regels IMBRO/A</th>
                               <td>
                                  
-                                 <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven mag aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfprocedure</em> van de entiteit <em>Boormonsterbeschrijving</em> gelijk is aan <em>NEN5104Synthetisch</em> en de waarde van het attribuut <em>grondsoort NEN5104</em> is gelijk aan <em>siltigGrind, zwakZandigGrind, matigZandigGrind, sterkZandigGrind of uiterstZandigGrind</em> of de waarde van het attribuut <em>grindgehalteklasse</em> 
-                                    <em>NEN5104</em> gelijk is aan <em>zwakGrindig, matigGrindig</em> of <em>sterkGrindig</em>. In andere gevallen ontbreekt het gegeven.
+                                 <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven mag aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfprocedure</em> van de entiteit <em>Boormonsterbeschrijving</em> gelijk is aan <em>NEN5104Synthetisch</em> en de waarde van het attribuut <em>grondsoort NEN5104</em> is gelijk aan <em>siltigGrind</em>, <em>zwakZandigGrind</em>, <em>matigZandigGrind</em>, <em>sterkZandigGrind</em> of <em>uiterstZandigGrind</em> of de waarde van het attribuut <em>grindgehalteklasse NEN5104</em> gelijk is aan <em>zwakGrindig</em>, <em>matigGrindig</em> of <em>sterkGrindig</em>. 
+                                    In andere gevallen ontbreekt het gegeven.
                                  </p>
                                  
                               </td>
@@ -10511,8 +10507,8 @@
                               <th>Regels IMBRO/A</th>
                               <td>
                                  
-                                 <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven mag aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfprocedure</em> van de entiteit <em>Boormonsterbeschrijving</em> gelijk is aan <em>NEN5104Synthetisch</em> en de waarde van het attribuut <em>grondsoort NEN5104</em> is gelijk aan <em>siltigGrind, zwakZandigGrind, matigZandigGrind, sterkZandigGrind</em> of<em>uiterstZandigGrind</em> of de waarde van het attribuut <em>grindgehalteklasse</em> 
-                                    <em>NEN5104</em> gelijk is aan <em>zwakGrindig, matigGrindig</em> of <em>sterkGrindig</em>. In andere gevallen ontbreekt het gegeven.
+                                 <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven mag aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfprocedure</em> van de entiteit <em>Boormonsterbeschrijving</em> gelijk is aan <em>NEN5104Synthetisch</em> en de waarde van het attribuut <em>grondsoort NEN5104</em> is gelijk aan <em>siltigGrind</em>, <em>zwakZandigGrind</em>, <em>matigZandigGrind</em>, <em>sterkZandigGrind</em> of <em>uiterstZandigGrind</em> of de waarde van het attribuut <em>grindgehalteklasse NEN5104</em> gelijk is aan <em>zwakGrindig</em>, <em>matigGrindig</em> of <em>sterkGrindig</em>. 
+                                    In andere gevallen ontbreekt het gegeven.
                                  </p>
                                  
                               </td>
@@ -10572,8 +10568,8 @@
                               <th>Regels IMBRO/A</th>
                               <td>
                                  
-                                 <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven mag aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfprocedure</em> van de entiteit <em>Boormonsterbeschrijving</em> gelijk is aan <em>NEN5104Synthetisch</em> en de waarde van het attribuut <em>grondsoort NEN5104</em> is gelijk is aan <em>siltigGrind, zwakZandigGrind, matigZandigGrind, sterkZandigGrind of uiterstZandigGrind</em> of de waarde van het attribuut <em>grindgehalteklasse</em> 
-                                    <em>NEN5104</em> gelijk is aan <em>zwakGrindig, matigGrindig</em> of <em>sterkGrindig</em>. In andere gevallen ontbreekt het gegeven.
+                                 <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven mag aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfprocedure</em> van de entiteit <em>Boormonsterbeschrijving</em> gelijk is aan <em>NEN5104Synthetisch</em> en de waarde van het attribuut <em>grondsoort NEN5104</em> is gelijk is aan <em>siltigGrind</em>, <em>zwakZandigGrind</em>, <em>matigZandigGrind</em>, <em>sterkZandigGrind</em> of <em>uiterstZandigGrind</em> of de waarde van het attribuut <em>grindgehalteklasse NEN5104</em> gelijk is aan <em>zwakGrindig</em>, <em>matigGrindig</em> of <em>sterkGrindig</em>. 
+                                    In andere gevallen ontbreekt het gegeven.
                                  </p>
                                  
                               </td>
@@ -10706,7 +10702,7 @@
                               <th>Regels IMBRO/A</th>
                               <td>
                                  
-                                 <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven mag aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfprocedure</em> van de entiteit <em>Boormonsterbeschrijving</em> gelijk is aan <em>NEN5104Synthetisch</em> en de waarde van <em>grondsoort NEN5104</em> is gelijk aan <em>kleiigZand, zwakSiltigZand, matigSiltigZand, sterkSiltigZand of uiterstSiltigZand</em>. 
+                                 <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven mag aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfprocedure</em> van de entiteit <em>Boormonsterbeschrijving</em> gelijk is aan <em>NEN5104Synthetisch</em> en de waarde van <em>grondsoort NEN5104</em> is gelijk aan <em>kleiigZand</em>, <em>zwakSiltigZand</em>, <em>matigSiltigZand</em>, <em>sterkSiltigZand</em> of <em>uiterstSiltigZand</em>. 
                                     In andere gevallen ontbreekt het gegeven.
                                  </p>
                                  
@@ -10758,7 +10754,8 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven mag aanwezig zijn wanneer de waarde van het attribuut <em>geotechnische grondsoort</em> gelijk is <em>veen, zwakZandigVeen, sterkZandigVeen, siltigVeen</em> of <em>kleiigVeen</em>. In andere gevallen ontbreekt het gegeven.
+                                 <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven mag aanwezig zijn wanneer de waarde van het attribuut <em>geotechnische grondsoort</em> gelijk is aan <em>veen, zwakZandigVeen, sterkZandigVeen, siltigVeen</em> of <em>kleiigVeen</em>. 
+                                    In andere gevallen ontbreekt het gegeven.
                                  </p>
                                  
                               </td>
@@ -10767,7 +10764,7 @@
                               <th>Regels IMBRO/A</th>
                               <td>
                                  
-                                 <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Wanneer de waarde van het attribuut <em>beschrijfprocedure</em> van de entiteit <em>Boormonsterbeschrijving</em> gelijk is aan <em>NEN5104Synthetisch,</em> mag het gegeven aanwezig zijn wanneer de waarde van het attribuut <em>grondsoort NEN5104</em> gelijk is aan <em>mineraalarmVeen, zwakKleiigVeen, sterkKleiigVeen, zwakZandigVeen of sterkZandigVeen</em>. 
+                                 <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Wanneer de waarde van het attribuut <em>beschrijfprocedure</em> van de entiteit <em>Boormonsterbeschrijving</em> gelijk is aan <em>NEN5104Synthetisch</em>, mag het gegeven aanwezig zijn wanneer de waarde van het attribuut <em>grondsoort NEN5104</em> gelijk is aan <em>mineraalarmVeen</em>, <em>zwakKleiigVeen</em>, <em>sterkKleiigVeen</em>, <em>zwakZandigVeen</em> of <em>sterkZandigVeen</em>.
                                  </p>
                                  
                               </td>
@@ -10828,9 +10825,9 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven is aanwezig wanneer de waarde van het attribuut <em>geotechnische grondsoort</em> gelijk is aan <em>detritus, zwakZandigeDetritus, sterkZandigeDetritus, siltigeDetritus, kleiigeDetritus,
-                                       humus, zwakZandigeHumus, sterkZandigeHumus, siltigeHumus, kleiigeHumus, veen, zwakZandigVeen,
-                                       sterkZandigVeen, siltigVeen</em> of <em>kleiigVeen.</em> In andere gevallen ontbreekt het gegeven.
+                                 <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> van de entiteit <em>Boorprofiel</em> gelijk is aan <em>klasse2Ongeroerd</em> en de waarde van het attribuut <em>geotechnische grondsoort</em> gelijk is aan <em>detritus</em>, <em>zwakZandigeDetritus</em>, <em>sterkZandigeDetritus</em>, <em>siltigeDetritus</em>, <em>kleiigeDetritus</em>, <em>humus</em>, <em>zwakZandigeHumus</em>, <em>sterkZandigeHumus</em>, <em>siltigeHumus</em>, <em>kleiigeHumus</em>, <em>veen</em>, <em>zwakZandigVeen</em>, <em>sterkZandigVeen</em>, <em>siltigVeen</em> of <em>kleiigVeen</em>. 
+                                    Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>geotechnische grondsoort</em> niet gelijk is aan <em>detritus</em>, <em>zwakZandigeDetritus</em>, <em>sterkZandigeDetritus</em>, <em>siltigeDetritus</em>, <em>kleiigeDetritus</em>, <em>humus</em>, <em>zwakZandigeHumus</em>, <em>sterkZandigeHumus</em>, <em>siltigeHumus</em>, <em>kleiigeHumus</em>, <em>veen</em>, <em>zwakZandigVeen</em>, <em>sterkZandigVeen</em>, <em>siltigVeen</em> of <em>kleiigVeen</em>.
+                                    Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> van de entiteit <em>Boorprofiel</em> gelijk is aan <em>klasse2Geroerd</em>.
                                  </p>
                                  
                               </td>
@@ -10839,9 +10836,9 @@
                               <th>Regels IMBRO/A</th>
                               <td>
                                  
-                                 <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Wanneer de waarde van het attribuut <em>beschrijfprocedure</em> van de entiteit <em>Boormonsterbeschrijving</em> gelijk is aan <em>NEN5104Synthetisch,</em> mag het gegeven aanwezig zijn wanneer de waarde van het attribuut <em>grondsoort NEN5104</em> gelijk is aan <em>mineraalarmVeen, zwakKleiigVeen, sterkKleiigVeen, zwakZandigVeen, sterkZandigVeen,
-                                       of detritusNietGespecificeerd</em>. 
-                                    Wanneer de waarde van het attribuut beschrijfprocedure gelijk is aan <em>NEN5104Synthetisch</em>, is de waarde van het gegeven gelijk aan <em>zwakAmorfNEN5104</em>, <em>matigAmorfNEN5104</em> of <em>sterkAmorfNEN5104</em>. In andere gevallen zijn die waarden niet toegestaan. 
+                                 <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Wanneer de waarde van het attribuut <em>beschrijfprocedure</em> van de entiteit <em>Boormonsterbeschrijving</em> gelijk is aan <em>NEN5104Synthetisch</em>, mag het gegeven aanwezig zijn wanneer de waarde van het attribuut <em>grondsoort NEN5104</em> gelijk is aan <em>mineraalarmVeen</em>, <em>zwakKleiigVeen</em>, <em>sterkKleiigVeen</em>, <em>zwakZandigVeen</em>, sterkZandigVeen of <em>detritusNietGespecificeerd</em>. 
+                                    Wanneer de waarde van het attribuut <em>beschrijfprocedure</em> gelijk is aan <em>NEN5104Synthetisch</em>, is de waarde van het gegeven gelijk aan <em>zwakAmorfNEN5104</em>, <em>matigAmorfNEN5104</em> of <em>sterkAmorfNEN5104</em>. 
+                                    In andere gevallen zijn die waarden niet toegestaan.
                                  </p>
                                  
                               </td>
@@ -10903,10 +10900,9 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven is aanwezig wanneer de waarde van het attribuut <em>geotechnische grondsoort</em> gelijk is aan <em>silt, siltMetKeien, siltMetKeitjes, zwakGrindigeSilt, sterkGrindigeSilt, zwakZandigeSilt,
-                                       zwakZandigeSiltMetGrind, sterkZandigeSilt, sterkZandigeSiltMetGrind, klei, kleiMetKeien,
-                                       kleiMetKeitjes, zwakGrindigeKlei, sterkGrindigeKlei, zwakZandigeKlei, zwakZandigeKleiMetGrind,
-                                       sterkZandigeKlei</em> of <em>sterkZandigeKleiMetGrind</em>. In andere gevallen ontbreekt het gegeven.
+                                 <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> van de entiteit <em>Boorprofiel</em> gelijk is aan <em>klasse2Ongeroerd</em> en de waarde van het attribuut <em>geotechnische grondsoort</em> gelijk is aan <em>silt</em>, <em>siltMetKeien</em>, <em>siltMetKeitjes</em>, <em>zwakGrindigSilt</em>, <em>sterkGrindigSilt</em>, <em>zwakZandigSilt</em>, <em>zwakZandigSiltMetGrind</em>, <em>sterkZandigSilt</em>, <em>sterkZandigSiltMetGrind</em>, <em>klei</em>, <em>kleiMetKeien</em>, <em>kleiMetKeitjes</em>, <em>zwakGrindigeKlei</em>, <em>sterkGrindigeKlei</em>, <em>zwakZandigeKlei</em>, <em>zwakZandigeKleiMetGrind</em>, <em>sterkZandigeKlei</em> of <em>sterkZandigeKleiMetGrind</em>.
+                                    Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>geotechnische grondsoort</em> niet gelijk is aan <em>silt</em>, <em>siltMetKeien</em>, <em>siltMetKeitjes</em>, <em>zwakGrindigSilt</em>, <em>sterkGrindigSilt</em>, <em>zwakZandigSilt</em>, <em>zwakZandigSiltMetGrind</em>, <em>sterkZandigSilt</em>, <em>sterkZandigSiltMetGrind</em>, <em>klei</em>, <em>kleiMetKeien</em>, <em>kleiMetKeitjes</em>, <em>zwakGrindigeKlei</em>, <em>sterkGrindigeKlei</em>, <em>zwakZandigeKlei</em>, <em>zwakZandigeKleiMetGrind</em>, <em>sterkZandigeKlei</em> of <em>sterkZandigeKleiMetGrind</em>.
+                                    Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> van de entiteit <em>Boorprofiel</em> gelijk is aan <em>klasse2Geroerd</em>.
                                  </p>
                                  
                               </td>
@@ -10969,9 +10965,9 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven is aanwezig wanneer de waarde van het attribuut <em>geotechnische grondsoort</em> gelijk is aan <em>detritus, zwakZandigeDetritus, sterkZandigeDetritus, siltigeDetritus, kleiigeDetritus,
-                                       humus, zwakZandigeHumus, sterkZandigeHumus, siltigeHumus, kleiigeHumus, veen, zwakZandigVeen,
-                                       sterkZandigVeen, siltigVeen, kleiigVeen, bruinkool</em> of <em>gyttja.</em> In andere gevallen ontbreekt het gegeven.
+                                 <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> van de entiteit <em>Boorprofiel</em> gelijk is aan <em>klasse2Ongeroerd</em> en de waarde van het attribuut <em>geotechnische grondsoort</em> gelijk is aan <em>detritus</em>, <em>zwakZandigeDetritus</em>, <em>sterkZandigeDetritus</em>, <em>siltigeDetritus</em>, <em>kleiigeDetritus</em>, <em>humus</em>, <em>zwakZandigeHumus</em>, <em>sterkZandigeHumus</em>, <em>siltigeHumus</em>, <em>kleiigeHumus</em>, <em>veen</em>, <em>zwakZandigVeen</em>, <em>sterkZandigVeen</em>, <em>siltigVeen</em>, <em>kleiigVeen</em>, <em>bruinkool</em> of <em>gyttja</em>.
+                                    Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>geotechnische grondsoort</em> niet gelijk is aan <em>detritus</em>, <em>zwakZandigeDetritus</em>, <em>sterkZandigeDetritus</em>, <em>siltigeDetritus</em>, <em>kleiigeDetritus</em>, <em>humus</em>, <em>zwakZandigeHumus</em>, <em>sterkZandigeHumus</em>, <em>siltigeHumus</em>, <em>kleiigeHumus</em>, <em>veen</em>, <em>zwakZandigVeen</em>, <em>sterkZandigVeen</em>, <em>siltigVeen</em>, <em>kleiigVeen</em>, <em>bruinkool</em> of <em>gyttja</em>.
+                                    Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> van de entiteit <em>Boorprofiel</em> gelijk is aan <em>klasse2Geroerd</em>.
                                  </p>
                                  
                               </td>
@@ -11219,15 +11215,8 @@
                            <th>Regels</th>
                            <td>
                               
-                              <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven ontbreekt wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> van de entiteit <em>Boorprofiel</em> gelijk is aan <em>klasse3</em>.
-                                 In andere gevallen is het gegeven aanwezig wanneer de waarde van het attribuut geotechnische
-                                 grondsoort gelijk is aan <em>keien, keienMetGrind, keienMetZand, keienMetSilt, keienMetKlei, keitjes, keitjesMetGrind,
-                                    keitjesMetZand, keitjesMetSilt, keitjesMetKlei, grind, grindMetKeien, grindMetKeitjes,
-                                    zwakZandigGrind, sterkZandigGrind, siltigGrind, kleiigGrind, zand, zandMetKeien, zandMetKeitjes,
-                                    zwakGrindigZand, sterkGrindigZand, siltigZand, siltigZandMetGrind, kleiigZand, kleiigZandMetGrind,
-                                    siltMetKeien, siltMetKeitjes, zwakGrindigeSilt, sterkGrindigeSilt, zwakZandigeSiltMetGrind,
-                                    sterkZandigeSiltMetGrind, kleiMetKeien, kleiMetKeitjes, zwakGrindigeKlei, sterkGrindigeKlei,
-                                    zwakZandigeKleiMetGrind,</em> of<em>sterkZandigeKleiMetGrind</em>.
+                              <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De entiteit moet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> van de entiteit <em>Boorprofiel</em> gelijk is aan <em>klasse2Geroerd</em>, <em>klasse2Ongeroerd</em> of <em>klasse2Ongedifferentieerd</em> en de waarde van het attribuut <em>geotechnische grondsoort</em> gelijk is aan <em>keien</em>, <em>keienMetGrind</em>, <em>keienMetZand</em>, <em>keienMetSilt</em>, <em>keienMetKlei</em>, <em>keitjes</em>, <em>keitjesMetGrind</em>, <em>keitjesMetZand</em>, <em>keitjesMetSilt</em>, <em>keitjesMetKlei</em>, <em>grind</em>, <em>grindMetKeien</em>, <em>grindMetKeitjes</em>, <em>zwakZandigGrind</em>, <em>sterkZandigGrind</em>, <em>siltigGrind</em>, <em>kleiigGrind</em>, <em>zand</em>, <em>zandMetKeien</em>, <em>zandMetKeitjes</em>, <em>zwakGrindigZand</em>, <em>sterkGrindigZand</em>, <em>siltigZand</em>, <em>siltigZandMetGrind</em>, <em>kleiigZand</em> of <em>kleiigZandMetGrind</em>.
+                                 De entiteit mag niet aanwezig zijn in alle andere gevallen.
                               </p>
                               
                            </td>
@@ -11236,7 +11225,7 @@
                            <th>Regels IMBRO/A</th>
                            <td>
                               
-                              <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Wanneer de waarde van het attribuut <em>beschrijfprocedure</em> van de entiteit <em>Boormonsterbeschrijving</em> gelijk is aan <em>NEN5104Synthetisch,</em> mag het gegeven aanwezig zijn wanneer de waarde van het attribuut <em>grondsoort NEN5104</em> gelijk is aan <em>kleiigZand, zwakSiltigZand, matigSiltigZand, sterkSiltigZand</em> of<em>uiterstSiltigZand</em>.
+                              <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Wanneer de waarde van het attribuut <em>beschrijfprocedure</em> van de entiteit <em>Boormonsterbeschrijving</em> gelijk is aan <em>NEN5104Synthetisch</em>, mag het gegeven aanwezig zijn wanneer de waarde van het attribuut <em>grondsoort NEN5104</em> gelijk is aan <em>kleiigZand</em>, <em>zwakSiltigZand</em>, <em>matigSiltigZand</em>, <em>sterkSiltigZand</em> of <em>uiterstSiltigZand</em>.
                               </p>
                               
                            </td>
@@ -11261,7 +11250,7 @@
                            <td>
                               <a class="link" href="#global_class_DomeinmodelBROBHRGT_Grond">Grond</a>
                               
-                              heeft 0..2 Korrelvorm<br>
+                              heeft 0..1 Korrelvorm<br>
                               <a class="link" href="#global_class_DomeinmodelBROBHRGT_Grond">Grond</a>
                               
                               korrelvorm 0..2 Korrelvorm<br></td>
@@ -11421,8 +11410,8 @@
                            </tr>
                            <tr>
                               <th>Reden geen waarde</th>
-                              <td>Wanneer de waarde van het attribuut *beschrijfprocedure* van de entiteit *Boormonsterbeschrijving*
-                                 gelijk is aan *NEN5104Synthetisch, * heeft het gegeven geen waarde.
+                              <td>Wanneer de waarde van het attribuut *beschrijfprocedure * van de entiteit *Boormonsterbeschrijving
+                                 * gelijk is aan *NEN5104Synthetisch*, heeft het gegeven geen waarde.
                               </td>
                            </tr>
                         </tbody>
@@ -11972,7 +11961,8 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven mag aanwezig zijn wanneer de waarde van het attribuut<em>interne structuur intact</em> gelijk is aan <em>ja.</em> In andere gevallen ontbreekt het gegeven.
+                                 <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven mag aanwezig zijn wanneer de waarde van het attribuut <em>interne structuur intact</em> gelijk is aan <em>ja</em>. 
+                                    In andere gevallen ontbreekt het gegeven.
                                  </p>
                                  
                               </td>
@@ -12041,7 +12031,8 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven mag aanwezig zijn wanneer de waarde van het attribuut<em>interne structuur intact</em> gelijk is aan <em>ja.</em> In andere gevallen ontbreekt het gegeven.
+                                 <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven mag aanwezig zijn wanneer de waarde van het attribuut <em>interne structuur intact</em> gelijk is aan <em>ja</em>. 
+                                    In andere gevallen ontbreekt het gegeven.
                                  </p>
                                  
                               </td>
@@ -12108,7 +12099,8 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven mag aanwezig zijn wanneer de waarde van het attribuut<em>interne structuur intact</em> gelijk is aan <em>ja.</em> In andere gevallen ontbreekt het gegeven.
+                                 <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven mag aanwezig zijn wanneer de waarde van het attribuut <em>interne structuur intact</em> gelijk is aan <em>ja</em>. 
+                                    In andere gevallen ontbreekt het gegeven.
                                  </p>
                                  
                               </td>
@@ -12222,7 +12214,8 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven mag aanwezig zijn wanneer de waarde van het attribuut<em>interne structuur intact</em> gelijk is aan <em>ja.</em> In andere gevallen ontbreekt het gegeven.
+                                 <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven mag aanwezig zijn wanneer de waarde van het attribuut <em>interne structuur intact</em> gelijk is aan <em>ja</em>. 
+                                    In andere gevallen ontbreekt het gegeven.
                                  </p>
                                  
                               </td>
@@ -12315,7 +12308,8 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven mag aanwezig zijn wanneer de waarde van het attribuut <em>interne structuur intact</em> gelijk is aan <em>ja</em>. In andere gevallen ontbreekt het gegeven.
+                                 <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het gegeven mag aanwezig zijn wanneer de waarde van het attribuut <em>interne structuur intact</em> gelijk is aan <em>ja</em>. 
+                                    In andere gevallen ontbreekt het gegeven.
                                  </p>
                                  
                               </td>
@@ -12922,9 +12916,8 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De einddiepte is groter dan de begindiepte van het interval.
-                                    De einddiepte van het onderste interval is niet groter dan de einddiepte bemonstering
-                                    van de entiteit Boring.
+                                 <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De einddiepte is groter dan de begindiepte van het interval. 
+                                    De einddiepte van het onderste interval is niet groter dan de <em>einddiepte bemonstering</em> van de entiteit <em>Boring</em>.
                                  </p>
                                  
                               </td>
@@ -43117,9 +43110,17 @@
                      <td>✔</td>
                      <td>
                         
-                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Geeft geen zichtbare of hoorbare opbruising bij het opdruppelen van verdund zoutzuur
-                           (10% HCl).
-                        </p>
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Bruist niet op bij het toevoegen van verdund zoutzuur (10% HCl).</p>
+                        
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>zwakKalkhoudend</td>
+                     <td>✔</td>
+                     <td>✔</td>
+                     <td>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Bruist zwak of sporadisch op bij het toevoegen van verdund zoutzuur (10% HCl).</p>
                         
                      </td>
                   </tr>
@@ -43129,7 +43130,9 @@
                      <td>✔</td>
                      <td>
                         
-                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Geeft alleen hoorbare opbruising bij het opdruppelen van verdund zoutzuur (10% HCl).</p>
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Bruist waarneembaar, maar niet aanhoudend op bij het toevoegen van verdund zoutzuur
+                           (10% HCl).
+                        </p>
                         
                      </td>
                   </tr>
@@ -43139,9 +43142,7 @@
                      <td>✔</td>
                      <td>
                         
-                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Geeft zowel zichtbare als hoorbare opbruising bij het opdruppelen van verdund zoutzuur
-                           (10% HCl).
-                        </p>
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Bruist sterk en aanhoudend op bij het toevoegen van verdund zoutzuur (10% HCl).</p>
                         
                      </td>
                   </tr>
@@ -44036,7 +44037,12 @@
                      <td>✔</td>
                      <td>
                         
-                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Meting d.m.v. Global Positioning System, afwijking tussen 200 en 1000 centimeter.</p>
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Meting d.m.v. satellietnavigatie zonder correctie, SPP (Single Point Positioning),
+                           in het dagelijks gebruik aangeduid als GPS. Afwijking tussen 200 en 1000 centimeter.
+                           SPP maakt gebruik van een wereldwijd satellietnavigatiesysteem, Global Navigation
+                           Satellite System (GNSS). GNSS wordt in het dagelijks gebruik vaak aangeduid met GPS
+                           als verzamelnaam voor de 4 systemen GPS, Glonass, Galileo en Beidou.
+                        </p>
                         
                      </td>
                   </tr>
@@ -44046,7 +44052,12 @@
                      <td>✔</td>
                      <td>
                         
-                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Meting d.m.v. Differential Global Positioning System, afwijking tussen 50 en 200 centimeter.</p>
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Meting d.m.v. satellietnavigatie met differentiaalcorrectie, in het dagelijks gebruik
+                           aangeduid als DGPS. Afwijking tussen 50 en 200 centimeter. DGPS maakt gebruik van
+                           een wereldwijd satellietnavigatiesysteem, Global Navigation Satellite System (GNSS).
+                           GNSS wordt in het dagelijks gebruik vaak aangeduid met GPS als verzamelnaam voor de
+                           4 systemen GPS, Glonass, Galileo en Beidou.
+                        </p>
                         
                      </td>
                   </tr>
@@ -44056,8 +44067,12 @@
                      <td>✔</td>
                      <td>
                         
-                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Meting d.m.v. Real Time Kinematic GPS, ook wel als DGPS aangeduid, afwijking kleiner
-                           dan 2 centimeter.
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Meting d.m.v. RTK (Real Time Kinematic) satellietnavigatie, in het dagelijks gebruik
+                           ook wel aangeduid als DGPS, afwijking kleiner dan 2 centimeter. De nauwkeurigheid
+                           wordt bereikt wanneer de meting is uitgevoerd met Ambiguity Resolution (ook wel fix).
+                           RTK maakt gebruik van een wereldwijd satellietnavigatiesysteem, Global Navigation
+                           Satellite System (GNSS). GNSS wordt in het dagelijks gebruik vaak aangeduid met GPS
+                           als verzamelnaam voor de 4 systemen GPS, Glonass, Galileo en Beidou.
                         </p>
                         
                      </td>
@@ -44068,8 +44083,12 @@
                      <td>✔</td>
                      <td>
                         
-                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Meting d.m.v. Real Time Kinematic GPS, ook wel als DGPS aangeduid, afwijking tussen
-                           2 en 5 centimeter.
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Meting d.m.v. RTK (Real Time Kinematic) satellietnavigatie, in het dagelijks gebruik
+                           ook wel aangeduid als DGPS, afwijking tussen 2 en 5 centimeter. De nauwkeurigheid
+                           wordt bereikt wanneer de meting is uitgevoerd met Ambiguity Resolution (ook wel fix).
+                           RTK maakt gebruik van een wereldwijd satellietnavigatiesysteem, Global Navigation
+                           Satellite System (GNSS). GNSS wordt in het dagelijks gebruik vaak aangeduid met GPS
+                           als verzamelnaam voor de 4 systemen GPS, Glonass, Galileo en Beidou.
                         </p>
                         
                      </td>
@@ -44080,8 +44099,12 @@
                      <td>✔</td>
                      <td>
                         
-                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Meting d.m.v. Real Time Kinematic GPS, ook wel als DGPS aangeduid, afwijking tussen
-                           5 en 10 centimeter.
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Meting d.m.v. RTK (Real Time Kinematic) satellietnavigatie, in het dagelijks gebruik
+                           ook wel aangeduid als DGPS, afwijking tussen 5 en 10 centimeter. De nauwkeurigheid
+                           wordt bereikt wanneer de meting is uitgevoerd met Ambiguity Resolution (ook wel fix).
+                           RTK maakt gebruik van een wereldwijd satellietnavigatiesysteem, Global Navigation
+                           Satellite System (GNSS). GNSS wordt in het dagelijks gebruik vaak aangeduid met GPS
+                           als verzamelnaam voor de 4 systemen GPS, Glonass, Galileo en Beidou.
                         </p>
                         
                      </td>
@@ -44092,8 +44115,12 @@
                      <td>✔</td>
                      <td>
                         
-                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Meting d.m.v. Real Time Kinematic GPS, ook wel als DGPS aangeduid, zonder fix, afwijking
-                           tussen 10 en 50 centimeter.
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Meting d.m.v. RTK (Real Time Kinematic) satellietnavigatie, in het dagelijks gebruik
+                           ook wel aangeduid als DGPS, afwijking tussen 10 en 50 centimeter. De nauwkeurigheid
+                           wordt bereikt wanneer de meting is uitgevoerd zonder Ambiguity Resolution (ook wel
+                           fix). RTK maakt gebruik van een wereldwijd satellietnavigatiesysteem, Global Navigation
+                           Satellite System (GNSS). GNSS wordt in het dagelijks gebruik vaak aangeduid met GPS
+                           als verzamelnaam voor de 4 systemen GPS, Glonass, Galileo en Beidou.
                         </p>
                         
                      </td>
@@ -44105,7 +44132,7 @@
                      <td>
                         
                         <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Meting d.m.v. tachymetrie, ook wel als landmeting of Total Station aangeduid, vanaf
-                           een referentiepunt dat<em>* geen NAP-peilmerk is</em>,* afwijking kleiner dan 10 centimeter.
+                           een referentiepunt dat geen NAP-peilmerk is, afwijking kleiner dan 10 centimeter.
                         </p>
                         
                      </td>
@@ -44117,7 +44144,7 @@
                      <td>
                         
                         <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Meting d.m.v. tachymetrie, ook wel als landmeting of Total Station aangeduid, vanaf
-                           een referentiepunt dat<em>* geen NAP-peilmerk is</em>, * afwijking tussen 10 en 50 centimeter.
+                           een referentiepunt dat geen NAP-peilmerk is, afwijking tussen 10 en 50 centimeter.
                         </p>
                         
                      </td>
@@ -44417,8 +44444,12 @@
                      <td>✔</td>
                      <td>
                         
-                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Meting d.m.v. Real Time Kinematic GPS, ook wel als DGPS aangeduid, afwijking kleiner
-                           dan 4 centimeter.
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Meting d.m.v. RTK (Real Time Kinematic) satellietnavigatie, in het dagelijks gebruik
+                           ook wel aangeduid als DGPS, afwijking kleiner dan 4 centimeter. De nauwkeurigheid
+                           wordt bereikt wanneer de meting is uitgevoerd met Ambiguity Resolution (ook wel fix).
+                           RTK maakt gebruik van een wereldwijd satellietnavigatiesysteem, Global Navigation
+                           Satellite System (GNSS). GNSS wordt in het dagelijks gebruik vaak aangeduid met GPS
+                           als verzamelnaam voor de 4 systemen GPS, Glonass, Galileo en Beidou.
                         </p>
                         
                      </td>
@@ -44429,8 +44460,12 @@
                      <td>✔</td>
                      <td>
                         
-                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Meting d.m.v. Real Time Kinematic GPS, ook wel als DGPS aangeduid, afwijking tussen
-                           4 en 10 centimeter.
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Meting d.m.v. RTK (Real Time Kinematic) satellietnavigatie, in het dagelijks gebruik
+                           ook wel aangeduid als DGPS, afwijking tussen 4 en 10 centimeter. De nauwkeurigheid
+                           wordt bereikt wanneer de meting is uitgevoerd met Ambiguity Resolution (ook wel fix).
+                           RTK maakt gebruik van een wereldwijd satellietnavigatiesysteem, Global Navigation
+                           Satellite System (GNSS). GNSS wordt in het dagelijks gebruik vaak aangeduid met GPS
+                           als verzamelnaam voor de 4 systemen GPS, Glonass, Galileo en Beidou.
                         </p>
                         
                      </td>
@@ -44441,32 +44476,12 @@
                      <td>✔</td>
                      <td>
                         
-                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Meting d.m.v. Real Time Kinematic GPS, ook wel als DGPS aangeduid, zonder fix, afwijking
-                           tussen 10 en 20 centimeter.
-                        </p>
-                        
-                     </td>
-                  </tr>
-                  <tr>
-                     <td>RTKGPS20tot100cm</td>
-                     <td>✔</td>
-                     <td>✔</td>
-                     <td>
-                        
-                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Meting d.m.v. Real Time Kinematic GPS, ook wel als DGPS aangeduid, zonder fix, afwijking
-                           tussen 20 en 100 centimeter.
-                        </p>
-                        
-                     </td>
-                  </tr>
-                  <tr>
-                     <td>tachymetrie10tot50cm</td>
-                     <td>✔</td>
-                     <td>✔</td>
-                     <td>
-                        
-                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Meting d.m.v. tachymetrie, ook wel als landmeting of Total Station aangeduid, vanaf
-                           een referentiepunt dat<em>* geen NAP-peilmerk is</em>, * afwijking tussen 10 en 50 centimeter.
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Meting d.m.v. RTK (Real Time Kinematic) satellietnavigatie, in het dagelijks gebruik
+                           ook wel aangeduid als DGPS, afwijking tussen 10 en 20 centimeter. De nauwkeurigheid
+                           wordt bereikt wanneer de meting is uitgevoerd met Ambiguity Resolution (ook wel fix).
+                           RTK maakt gebruik van een wereldwijd satellietnavigatiesysteem, Global Navigation
+                           Satellite System (GNSS). GNSS wordt in het dagelijks gebruik vaak aangeduid met GPS
+                           als verzamelnaam voor de 4 systemen GPS, Glonass, Galileo en Beidou.
                         </p>
                         
                      </td>
@@ -44478,7 +44493,35 @@
                      <td>
                         
                         <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Meting d.m.v. tachymetrie, ook wel als landmeting of Total Station aangeduid, vanaf
-                           een referentiepunt dat<em>* geen NAP-peilmerk is</em>, * afwijking kleiner dan 10 centimeter.
+                           een referentiepunt dat geen NAP-peilmerk is, afwijking kleiner dan 10 centimeter.
+                        </p>
+                        
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>RTKGPS20tot100cm</td>
+                     <td>✔</td>
+                     <td>✔</td>
+                     <td>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Meting d.m.v. RTK (Real Time Kinematic) satellietnavigatie, in het dagelijks gebruik
+                           ook wel aangeduid als DGPS, afwijking tussen 20 en 100 centimeter. De nauwkeurigheid
+                           wordt bereikt wanneer de meting is uitgevoerd zonder Ambiguity Resolution (ook wel
+                           fix). RTK maakt gebruik van een wereldwijd satellietnavigatiesysteem, Global Navigation
+                           Satellite System (GNSS). GNSS wordt in het dagelijks gebruik vaak aangeduid met GPS
+                           als verzamelnaam voor de 4 systemen GPS, Glonass, Galileo en Beidou.
+                        </p>
+                        
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>tachymetrie10tot50cm</td>
+                     <td>✔</td>
+                     <td>✔</td>
+                     <td>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Meting d.m.v. tachymetrie, ook wel als landmeting of Total Station aangeduid, vanaf
+                           een referentiepunt dat geen NAP-peilmerk is, afwijking tussen 10 en 50 centimeter.
                         </p>
                         
                      </td>
@@ -44489,9 +44532,7 @@
                      <td>✔</td>
                      <td>
                         
-                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Meting d.m.v. waterpassing vanaf een NAP-peilmerk, afwijking kleiner dan 2 centimeter<em>.</em>
-                           
-                        </p>
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Meting d.m.v. waterpassing vanaf een NAP-peilmerk, afwijking kleiner dan 2 centimeter.</p>
                         
                      </td>
                   </tr>
@@ -44501,7 +44542,7 @@
                      <td>✔</td>
                      <td>
                         
-                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Meting d.m.v. waterpassing vanaf een NAP-peilmerk, afwijking tussen 4 en 10 centimeter.</p>
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Meting d.m.v. waterpassing vanaf een NAP-peilmerk, afwijking tussen 2 en 4 centimeter.</p>
                         
                      </td>
                   </tr>
@@ -44511,7 +44552,7 @@
                      <td>✔</td>
                      <td>
                         
-                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Meting d.m.v. waterpassing vanaf een NAP-peilmerk, afwijking tussen 2 en 4 centimeter.</p>
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Meting d.m.v. waterpassing vanaf een NAP-peilmerk, afwijking tussen 4 en 10 centimeter.</p>
                         
                      </td>
                   </tr>
@@ -46423,7 +46464,19 @@
                      </td>
                   </tr>
                   <tr>
-                     <td>fijnPseudoVezelig</td>
+                     <td>pseudoVezelig</td>
+                     <td>✔</td>
+                     <td>✔</td>
+                     <td>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Mengsel van vezels en amorfe massa. Er is geen onderscheid gemaakt tussen fijne en
+                           grove vezels (fijnVezelig en grofVezelig).
+                        </p>
+                        
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>pseudoVezeligFijn</td>
                      <td>✔</td>
                      <td>✔</td>
                      <td>
@@ -46433,7 +46486,29 @@
                      </td>
                   </tr>
                   <tr>
-                     <td>fijnvezelig</td>
+                     <td>pseudoVezeligGrof</td>
+                     <td>✔</td>
+                     <td>✔</td>
+                     <td>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Mengsel van vezels met een lengte of diameter groter dan 1 mm en amorfe massa.</p>
+                        
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>vezelig</td>
+                     <td>✔</td>
+                     <td>✔</td>
+                     <td>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Vezelige structuur, eenvoudig te herkennen plantaardige structuur, behoudt enige sterkte.
+                           Er is geen onderscheid gemaakt tussen fijne en grove vezels (fijnVezelig en grofVezelig).
+                        </p>
+                        
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>vezeligFijn</td>
                      <td>✔</td>
                      <td>✔</td>
                      <td>
@@ -46445,17 +46520,7 @@
                      </td>
                   </tr>
                   <tr>
-                     <td>grofPseudoVezelig</td>
-                     <td>✔</td>
-                     <td>✔</td>
-                     <td>
-                        
-                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Mengsel van vezels met een lengte of diameter groter dan 1 mm en amorfe massa.</p>
-                        
-                     </td>
-                  </tr>
-                  <tr>
-                     <td>grofvezelig</td>
+                     <td>vezeligGrof</td>
                      <td>✔</td>
                      <td>✔</td>
                      <td>
