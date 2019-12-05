@@ -1,25 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dispatchCharacteristicsResponse
-    xmlns="http://www.broservices.nl/xsd/dsbhr-gt/0.1"
-    xmlns:bhrgtcom="http://www.broservices.nl/xsd/bhrgtcommon/0.1"
+    xmlns="http://www.broservices.nl/xsd/dsbhr-gt/1.0"
+    xmlns:bhrgtcom="http://www.broservices.nl/xsd/bhrgtcommon/1.0"
     xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0"
     xmlns:gml="http://www.opengis.net/gml/3.2"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://www.broservices.nl/xsd/dsbhr-gt/0.1 ../../XSD/dsbhr-gt-messages.xsd">
+    xsi:schemaLocation="http://www.broservices.nl/xsd/dsbhr-gt/1.0 ..\..\XSD\dsbhr-gt-messages.xsd"
+    >
   <!-- Disclaimer: dit voorbeeldbericht valideert tegen de XSD van de uitgifteservice.
        Het houdt geen rekening met bedrijfsregels en is vaktechnisch/inhoudelijk niet voorbeeldig.
   -->
   <brocom:responseType>dispatch</brocom:responseType>
   <brocom:requestReference>101</brocom:requestReference>
   <brocom:dispatchTime>2017-03-10T09:09:43+01:00</brocom:dispatchTime>
-  <numberOfDocuments>2</numberOfDocuments>
-  <dispatchDocument>
-    <brocom:BRO_DO gml:id="BHR000000000666">
-      <brocom:broId>BHR000000000666</brocom:broId>
-      <brocom:deregistered>ja</brocom:deregistered>
-      <brocom:deregistrationTime>2017-02-01T13:02:41</brocom:deregistrationTime>
-    </brocom:BRO_DO>
-  </dispatchDocument>
+  <numberOfDocuments>1</numberOfDocuments>
   <dispatchDocument>
     <BHR_GT_C gml:id="SEQ_0001">
       <brocom:broId>BHR123456789012</brocom:broId>
