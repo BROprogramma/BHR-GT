@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <registrationRequest 
-      xmlns="http://www.broservices.nl/xsd/isbhr-gt/0.1"
-      xmlns:bhrgtcom="http://www.broservices.nl/xsd/bhrgtcommon/0.1"
+      xmlns="http://www.broservices.nl/xsd/isbhr-gt/1.0"
+      xmlns:bhrgtcom="http://www.broservices.nl/xsd/bhrgtcommon/1.0"
       xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0"
       xmlns:gml="http://www.opengis.net/gml/3.2"
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.broservices.nl/xsd/isbhr-gt/0.1 ../../XSD/isbhr-gt-messages.xsd">
+      xsi:schemaLocation="http://www.broservices.nl/xsd/isbhr-gt/1.0 ..\..\XSD\isbhr-gt-messages.xsd">
     <!-- Disclaimer: dit voorbeeldbericht valideert tegen de XSD van de innameservice.
     Het houdt geen rekening met bedrijfsregels en is vaktechnisch/inhoudelijk niet voorbeeldig.
     -->
