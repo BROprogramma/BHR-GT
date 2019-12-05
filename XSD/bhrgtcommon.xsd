@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns:bhrgtcom="http://www.broservices.nl/xsd/bhrgtcommon/0.1"
+<xs:schema xmlns:bhrgtcom="http://www.broservices.nl/xsd/bhrgtcommon/1.0"
            xmlns:xs="http://www.w3.org/2001/XMLSchema"
            xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0"
            xmlns:gml="http://www.opengis.net/gml/3.2"
            xmlns:gmlsf="http://www.opengis.net/gmlsf/2.0"
-           targetNamespace="http://www.broservices.nl/xsd/bhrgtcommon/0.1"
+           targetNamespace="http://www.broservices.nl/xsd/bhrgtcommon/1.0"
            elementFormDefault="qualified"
            attributeFormDefault="unqualified"
-           version="0.1.8">
+           version="1.0.0">
 
    <xs:annotation>
       <xs:appinfo source="http://schemas.opengis.net/gmlsfProfile/2.0/gmlsfLevels.xsd">
@@ -15,8 +15,8 @@
       </xs:appinfo>
    </xs:annotation>
 
-   <xs:import namespace="http://www.broservices.nl/xsd/brocommon/3.0" schemaLocation="brocommon.xsd"/>
-   <xs:import namespace="http://www.opengis.net/gml/3.2" schemaLocation="gml-profile.xsd"/>
+   <xs:import namespace="http://www.broservices.nl/xsd/brocommon/3.0" schemaLocation="https://schema.broservices.nl/xsd/brocommon/3.0/brocommon.xsd"/>
+   <xs:import namespace="http://www.opengis.net/gml/3.2" schemaLocation="https://schema.broservices.nl/profile/gml/1.0/gml-profile.xsd"/>
 
    <xs:complexType name="BoreholeSampleAnalysisType">
       <xs:sequence>
@@ -601,7 +601,7 @@ Explanation: De afspraak is dat botresten, ijzerconcreties en niet-stenig antrop
          </xs:element>
          <xs:element name="performanceIrregularity"
                      minOccurs="0"
-                     maxOccurs="1"
+                     maxOccurs="2"
                      type="bhrgtcom:PerformanceIrregularityType">
             <xs:annotation>
                <xs:appinfo>
@@ -2120,14 +2120,6 @@ Explanation: Het kalkgehalte wordt geschat naar de mate van opbruisen met verdun
 Explanation: De organische stof gehalteklasse wordt niet bepaald als de grond is geclassificeerd als organische grond en de primaire fractie uit veen, humus, detritus, bruinkool of gyttja bestaat.</xs:documentation>
             </xs:annotation>
          </xs:element>
-         <xs:element name="rooted"
-                     type="brocom:IndicationYesNoType"
-                     minOccurs="0"
-                     maxOccurs="1">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De aanduiding die aangeeft of de grond doorworteld is.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
          <xs:element name="gravelMedianClass"
                      minOccurs="0"
                      maxOccurs="1"
@@ -2527,7 +2519,7 @@ Explanation: Tijdens de uitvoering kunnen zich kleine problemen voordoen waardoo
          </xs:element>
          <xs:element name="performanceIrregularity"
                      minOccurs="0"
-                     maxOccurs="1"
+                     maxOccurs="2"
                      type="bhrgtcom:PerformanceIrregularityType">
             <xs:annotation>
                <xs:appinfo>
@@ -2645,14 +2637,14 @@ Explanation: De bepaling van de verdeling van de fijne fractie met de hydrometer
                      <xs:attribute name="uom"
                                    type="gml:UomIdentifier"
                                    use="required"
-                                   fixed="%"/>
+                                   fixed="g/cm3"/>
                   </xs:restriction>
                </xs:simpleContent>
             </xs:complexType>
          </xs:element>
          <xs:element name="performanceIrregularity"
                      minOccurs="0"
-                     maxOccurs="1"
+                     maxOccurs="2"
                      type="bhrgtcom:PerformanceIrregularityType">
             <xs:annotation>
                <xs:appinfo>
@@ -3390,15 +3382,6 @@ Explanation: Het kalkgehalte wordt geschat naar de mate van opbruisen met verdun
 Explanation: Het aandeel organische stof wordt volgens NEN-EN-ISO 14688-1 bepaald op basis van waarneembare en voelbare eigenschappen. De organische stof gehalteklasse wordt niet bepaald als de grond is geclassificeerd als organische grond en de primaire fractie uit veen, humus, detritus, bruinkool of gyttja bestaat.</xs:documentation>
             </xs:annotation>
          </xs:element>
-         <xs:element name="rooted"
-                     type="brocom:IndicationYesNoUnknownType"
-                     minOccurs="1"
-                     maxOccurs="1"
-                     nillable="true">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De aanduiding die aangeeft of de grond doorworteld is.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
          <xs:element name="crossBedding"
                      type="brocom:IndicationYesNoType"
                      minOccurs="0"
@@ -3604,7 +3587,7 @@ Explanation: Wanneer het boorprofiel aan de eisen van klasse 2 van de beschrijfp
             </xs:annotation>
          </xs:element>
          <xs:element minOccurs="0"
-                     maxOccurs="2"
+                     maxOccurs="1"
                      name="grainshape"
                      nillable="false"
                      type="bhrgtcom:GrainshapeType"/>
@@ -4021,7 +4004,7 @@ Explanation: De temperatuur heeft invloed op de snelheid waarmee het water wordt
          </xs:element>
          <xs:element name="performanceIrregularity"
                      minOccurs="0"
-                     maxOccurs="1"
+                     maxOccurs="2"
                      type="bhrgtcom:PerformanceIrregularityType">
             <xs:annotation>
                <xs:appinfo>
@@ -4137,7 +4120,7 @@ Explanation: Volledig uitgedroogd materiaal wordt niet in behandeling genomen om
          </xs:element>
          <xs:element name="performanceIrregularity"
                      minOccurs="0"
-                     maxOccurs="1"
+                     maxOccurs="2"
                      type="bhrgtcom:PerformanceIrregularityType">
             <xs:annotation>
                <xs:appinfo>
@@ -4235,7 +4218,7 @@ Explanation: De afspraak is dat botresten, ijzerconcreties en niet-stenig antrop
          </xs:element>
          <xs:element name="performanceIrregularity"
                      minOccurs="0"
-                     maxOccurs="1"
+                     maxOccurs="2"
                      type="bhrgtcom:PerformanceIrregularityType">
             <xs:annotation>
                <xs:appinfo>
@@ -4323,7 +4306,7 @@ Explanation: De afspraak is dat botresten, ijzerconcreties en niet-stenig antrop
                      type="bhrgtcom:DeterminationResultType"/>
          <xs:element name="performanceIrregularity"
                      minOccurs="0"
-                     maxOccurs="1"
+                     maxOccurs="2"
                      type="bhrgtcom:PerformanceIrregularityType">
             <xs:annotation>
                <xs:appinfo>
