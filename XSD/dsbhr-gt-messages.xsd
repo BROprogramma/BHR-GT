@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns:dsbhrgt="http://www.broservices.nl/xsd/dsbhr-gt/0.1"
+<xs:schema xmlns:dsbhrgt="http://www.broservices.nl/xsd/dsbhr-gt/1.0"
            xmlns:xs="http://www.w3.org/2001/XMLSchema"
            xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0"
-           xmlns:bhrgtcom="http://www.broservices.nl/xsd/bhrgtcommon/0.1"
+           xmlns:bhrgtcom="http://www.broservices.nl/xsd/bhrgtcommon/1.0"
            xmlns:gml="http://www.opengis.net/gml/3.2"
            xmlns:gmlsf="http://www.opengis.net/gmlsf/2.0"
-           targetNamespace="http://www.broservices.nl/xsd/dsbhr-gt/0.1"
+           targetNamespace="http://www.broservices.nl/xsd/dsbhr-gt/1.0"
            elementFormDefault="qualified"
            attributeFormDefault="unqualified"
-           version="0.1.8">
+           version="1.0.0">
 
    <xs:annotation>
       <xs:appinfo source="http://schemas.opengis.net/gmlsfProfile/2.0/gmlsfLevels.xsd">
@@ -16,9 +16,9 @@
       </xs:appinfo>
    </xs:annotation>
 
-   <xs:import namespace="http://www.broservices.nl/xsd/brocommon/3.0" schemaLocation="brocommon.xsd"/>
-   <xs:import namespace="http://www.broservices.nl/xsd/bhrgtcommon/0.1" schemaLocation="bhrgtcommon.xsd"/>
-   <xs:import namespace="http://www.opengis.net/gml/3.2" schemaLocation="gml-profile.xsd"/>
+   <xs:import namespace="http://www.broservices.nl/xsd/brocommon/3.0" schemaLocation="https://schema.broservices.nl/xsd/brocommon/3.0/brocommon.xsd"/>
+   <xs:import namespace="http://www.broservices.nl/xsd/bhrgtcommon/1.0" schemaLocation="https://schema.broservices.nl/xsd/bhrgtcommon/1.0/bhrgtcommon.xsd"/>
+   <xs:import namespace="http://www.opengis.net/gml/3.2" schemaLocation="https://schema.broservices.nl/profile/gml/1.0/gml-profile.xsd"/>
 
    <xs:element name="dispatchDataRequest" type="brocom:DispatchDataRequestType" />
    <xs:element name="parseFault" type="brocom:ParseFaultType" />
