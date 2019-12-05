@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<correctionRequest 
+    xmlns="http://www.broservices.nl/xsd/isbhr-gt/1.0"
+    xmlns:bhrgtcom="http://www.broservices.nl/xsd/bhrgtcommon/1.0"
+    xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0"
+    xmlns:gml="http://www.opengis.net/gml/3.2"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.broservices.nl/xsd/isbhr-gt/1.0 ..\..\XSD\isbhr-gt-messages.xsd"
+    >
+  <!-- Disclaimer: dit voorbeeldbericht valideert tegen de XSD van de innameservice.
+       Het houdt geen rekening met bedrijfsregels en is vaktechnisch/inhoudelijk niet voorbeeldig.
+  -->
+  <brocom:requestReference>bhr_gt_registration1</brocom:requestReference>
+  <brocom:deliveryAccountableParty>52766179</brocom:deliveryAccountableParty>
+  <brocom:broId>BHR123456789012</brocom:broId>
+  <brocom:qualityRegime>IMBRO/A</brocom:qualityRegime>
+  <correctionReason codeSpace="urn:bro:bhrgt:CorrectionReason">bronhouder</correctionReason>
+  <sourceDocument>
+    <BHR_GT_StartReport_V1 gml:id="SomeId_20181023_QR2">
+      <boreholeSampleDescription>
+        <bhrgtcom:descriptionReportDate>
+          <brocom:date>2018-09-23</brocom:date>
+        </bhrgtcom:descriptionReportDate>
+        <bhrgtcom:descriptionProcedure codeSpace="urn:bro:bhrgt:DescriptionProcedure">NEN-5104</bhrgtcom:descriptionProcedure>
+        <bhrgtcom:descriptionOperator>
+          <brocom:europeanCompanyRegistrationNumber>DEB8537.HRB66039</brocom:europeanCompanyRegistrationNumber>
+        </bhrgtcom:descriptionOperator>
+        <!-- Het eerste en enige profiel: conform IMBRO/A-->
+        <bhrgtcom:descriptiveBoreholeLog>
+          <bhrgtcom:descriptionQuality codeSpace="urn:bro:bhrgt:DescriptionQuality">onbekend</bhrgtcom:descriptionQuality>
+          <bhrgtcom:continuouslySampled>nee</bhrgtcom:continuouslySampled>
+          <bhrgtcom:descriptionLocation codeSpace="urn:bro:bhrgt:DescriptionLocation">veld</bhrgtcom:descriptionLocation>
+          <bhrgtcom:describedMaterial codeSpace="urn:bro:bhrgt:DescribedMaterial">grondGesteente</bhrgtcom:describedMaterial>
+          <bhrgtcom:sampleMoistness codeSpace="urn:bro:bhrgt:SampleMoistness">veldvochtig</bhrgtcom:sampleMoistness>
+          <bhrgtcom:boreholeLogChecked>ja</bhrgtcom:boreholeLogChecked>
+          <bhrgtcom:meanHighestGroundwaterLevel uom="m">12.51</bhrgtcom:meanHighestGroundwaterLevel>
+          <bhrgtcom:meanLowestGroundwaterLevel uom="m">68.38</bhrgtcom:meanLowestGroundwaterLevel>
+          <bhrgtcom:layer>
+            <bhrgtcom:upperBoundary uom="m">1.25</bhrgtcom:upperBoundary>
+            <bhrgtcom:upperBoundaryDetermination codeSpace="urn:bro:bhrgt:BoundaryPositioningMethod">voorbepaald</bhrgtcom:upperBoundaryDetermination>
+            <bhrgtcom:lowerBoundary uom="m">6.74</bhrgtcom:lowerBoundary>
+            <bhrgtcom:lowerBoundaryDetermination codeSpace="urn:bro:bhrgt:BoundaryPositioningMethod">waargenomenDiffuus</bhrgtcom:lowerBoundaryDetermination>
+            <bhrgtcom:anthropogenic>ja</bhrgtcom:anthropogenic>
+            <bhrgtcom:activityType codeSpace="urn:bro:bhrgt:ActivityType">gecontroleerdAangebracht</bhrgtcom:activityType>
+            <bhrgtcom:specialMaterial codeSpace="urn:bro:bhrgt:SpecialMaterial">puin</bhrgtcom:specialMaterial>
+            <bhrgtcom:slant>nee</bhrgtcom:slant>
+          </bhrgtcom:layer>
+          <bhrgtcom:layer>
+            <bhrgtcom:upperBoundary uom="m">6.74</bhrgtcom:upperBoundary>
+            <bhrgtcom:upperBoundaryDetermination codeSpace="urn:bro:bhrgt:BoundaryPositioningMethod">waargenomenDiffuus</bhrgtcom:upperBoundaryDetermination>
+            <bhrgtcom:lowerBoundary uom="m">38.91</bhrgtcom:lowerBoundary>
+            <bhrgtcom:lowerBoundaryDetermination codeSpace="urn:bro:bhrgt:BoundaryPositioningMethod">waargenomenGeleidelijk</bhrgtcom:lowerBoundaryDetermination>
+            <bhrgtcom:anthropogenic>nee</bhrgtcom:anthropogenic>
+            <bhrgtcom:slant>ja</bhrgtcom:slant>
+            <bhrgtcom:internalStructureIntact>nee</bhrgtcom:internalStructureIntact>
+            <bhrgtcom:bedded>ja</bhrgtcom:bedded>
+            <bhrgtcom:compositeLayer>ja</bhrgtcom:compositeLayer>
+            <bhrgtcom:bedding codeSpace="urn:bro:bhrgt:Bedding">dikGelamineerd</bhrgtcom:bedding>
+            <bhrgtcom:soil>
+              <bhrgtcom:geotechnicalSoilName codeSpace="urn:bro:bhrgt:GeotechnicalSoilName">zand</bhrgtcom:geotechnicalSoilName>
+              <bhrgtcom:soilNameNEN5104 codeSpace="urn:bro:bhrgt:SoilNameNEN5104">onbekend</bhrgtcom:soilNameNEN5104>
+              <bhrgtcom:gravelContentClassNEN5104 codeSpace="urn:bro:bhrgt:GravelContentClassNEN5104">onbekend</bhrgtcom:gravelContentClassNEN5104>
+              <bhrgtcom:organicMatterContentClassNEN5104 codeSpace="urn:bro:bhrgt:OrganicMatterContentClassNEN5104">onbekend</bhrgtcom:organicMatterContentClassNEN5104>
+              <bhrgtcom:tertiaryConstituent codeSpace="urn:bro:bhrgt:TertiaryConstituent">geotextiel</bhrgtcom:tertiaryConstituent>
+              <bhrgtcom:tertiaryConstituent codeSpace="urn:bro:bhrgt:TertiaryConstituent">artefact</bhrgtcom:tertiaryConstituent>
+              <bhrgtcom:tertiaryConstituent codeSpace="urn:bro:bhrgt:TertiaryConstituent">stenen</bhrgtcom:tertiaryConstituent>
+              <bhrgtcom:colour codeSpace="urn:bro:bhrgt:Colour">lichtgeel</bhrgtcom:colour>
+              <bhrgtcom:mottled>nee</bhrgtcom:mottled>
+              <bhrgtcom:interbedding codeSpace="urn:bro:bhrgt:Interbedding">grindWeinigErgDunneLaagjes</bhrgtcom:interbedding>
+              <bhrgtcom:dispersedInhomogeneity codeSpace="urn:bro:bhrgt:DispersedInhomogeneity">siltbrokjesWeinig</bhrgtcom:dispersedInhomogeneity>
+              <bhrgtcom:carbonateContentClass codeSpace="urn:bro:bhrgt:CarbonateContentClass">kalkloos</bhrgtcom:carbonateContentClass>
+              <bhrgtcom:organicMatterContentClass codeSpace="urn:bro:bhrgt:OrganicMatterContentClass">nietOrganisch</bhrgtcom:organicMatterContentClass>
+              <bhrgtcom:rooted>nee</bhrgtcom:rooted>
+              <bhrgtcom:crossBedding>nee</bhrgtcom:crossBedding>
+              <bhrgtcom:gradedBedding>nee</bhrgtcom:gradedBedding>
+              <bhrgtcom:mixed>ja</bhrgtcom:mixed>
+              <bhrgtcom:mixingType codeSpace="urn:bro:bhrgt:MixingType">vervloeiing</bhrgtcom:mixingType>
+              <bhrgtcom:gravelMedianClass codeSpace="urn:bro:bhrgt:GravelMedianClass">fijn</bhrgtcom:gravelMedianClass>
+              <bhrgtcom:fineGravelContentClass codeSpace="urn:bro:bhrgt:FineGravelContentClass">onbekend</bhrgtcom:fineGravelContentClass>
+              <bhrgtcom:mediumCoarseGravelContentClass codeSpace="urn:bro:bhrgt:MediumCoarseGravelContentClass">onbekend</bhrgtcom:mediumCoarseGravelContentClass>
+              <bhrgtcom:veryCoarseGravelContentClass codeSpace="urn:bro:bhrgt:VeryCoarseGravelContentClass">onbekend</bhrgtcom:veryCoarseGravelContentClass>
+              <bhrgtcom:sandMedianClass codeSpace="urn:bro:bhrgt:SandMedianClass">fijn105tot150um</bhrgtcom:sandMedianClass>
+              <bhrgtcom:sandSortingNEN5104 codeSpace="urn:bro:bhrgt:SandSortingNEN5104">onbekend</bhrgtcom:sandSortingNEN5104>
+              <bhrgtcom:peatType codeSpace="urn:bro:bhrgt:PeatType">rietveen</bhrgtcom:peatType>
+              <bhrgtcom:organicSoilTexture codeSpace="urn:bro:bhrgt:OrganicSoilTexture">fijnvezelig</bhrgtcom:organicSoilTexture>
+              <bhrgtcom:fineSoilConsistency codeSpace="urn:bro:bhrgt:FineSoilConsistency">stevig</bhrgtcom:fineSoilConsistency>
+              <bhrgtcom:organicSoilConsistency codeSpace="urn:bro:bhrgt:OrganicSoilConsistency">vast</bhrgtcom:organicSoilConsistency>
+              <bhrgtcom:peatTensileStrength codeSpace="urn:bro:bhrgt:PeatTensileStrength">matig</bhrgtcom:peatTensileStrength>
+              <bhrgtcom:geotechnicalDepositionalCharacteristic codeSpace="urn:bro:bhrgt:GeotechnicalDepositionalCharacteristic">marienLagunair</bhrgtcom:geotechnicalDepositionalCharacteristic>
+              <bhrgtcom:depositionalAge codeSpace="urn:bro:bhrgt:DepositionalAge">holoceen</bhrgtcom:depositionalAge>
+              <bhrgtcom:grainshape>
+                <bhrgtcom:sizeFraction codeSpace="urn:bro:bhrgt:SizeFraction">zand</bhrgtcom:sizeFraction>
+                <bhrgtcom:angularity codeSpace="urn:bro:bhrgt:Angularity">afgerond</bhrgtcom:angularity>
+                <bhrgtcom:sphericity codeSpace="urn:bro:bhrgt:Sphericity">bol</bhrgtcom:sphericity>
+              </bhrgtcom:grainshape>
+              <bhrgtcom:grainshape>
+                <bhrgtcom:sizeFraction codeSpace="urn:bro:bhrgt:SizeFraction">grind</bhrgtcom:sizeFraction>
+                <bhrgtcom:angularity codeSpace="urn:bro:bhrgt:Angularity">zeerAfgerond</bhrgtcom:angularity>
+                <bhrgtcom:sphericity codeSpace="urn:bro:bhrgt:Sphericity">plat</bhrgtcom:sphericity>
+                <bhrgtcom:roughness codeSpace="urn:bro:bhrgt:Roughness">glad</bhrgtcom:roughness>
+              </bhrgtcom:grainshape>
+            </bhrgtcom:soil>
+          </bhrgtcom:layer>
+          <bhrgtcom:layer>
+            <bhrgtcom:upperBoundary uom="m">38.91</bhrgtcom:upperBoundary>
+            <bhrgtcom:upperBoundaryDetermination codeSpace="urn:bro:bhrgt:BoundaryPositioningMethod">waargenomenGeleidelijk</bhrgtcom:upperBoundaryDetermination>
+            <bhrgtcom:lowerBoundary uom="m">52.11</bhrgtcom:lowerBoundary>
+            <bhrgtcom:lowerBoundaryDetermination codeSpace="urn:bro:bhrgt:BoundaryPositioningMethod">waargenomenScherp</bhrgtcom:lowerBoundaryDetermination>
+            <bhrgtcom:anthropogenic>nee</bhrgtcom:anthropogenic>
+            <bhrgtcom:internalStructureIntact>ja</bhrgtcom:internalStructureIntact>
+            <bhrgtcom:rock>
+              <bhrgtcom:rockType codeSpace="urn:bro:bhrgt:RockType">mergelSiltig</bhrgtcom:rockType>
+              <bhrgtcom:cementType codeSpace="urn:bro:bhrgt:CementType">nietBepaald</bhrgtcom:cementType>
+              <bhrgtcom:colour codeSpace="urn:bro:bhrgt:Colour">donkergeel</bhrgtcom:colour>
+              <bhrgtcom:tertiaryRockConstituent codeSpace="urn:bro:bhrgt:TertiaryRockConstituent">fosfaatconcretie</bhrgtcom:tertiaryRockConstituent>
+              <bhrgtcom:tertiaryRockConstituent codeSpace="urn:bro:bhrgt:TertiaryRockConstituent">vuursteenconcretie</bhrgtcom:tertiaryRockConstituent>
+              <bhrgtcom:interbedding codeSpace="urn:bro:bhrgt:Interbedding">schelpmateriaalWeinigErgDunneLaagjes</bhrgtcom:interbedding>
+              <bhrgtcom:dispersedInhomogeneity codeSpace="urn:bro:bhrgt:DispersedInhomogeneity">kalksteenbrokjesWeinig</bhrgtcom:dispersedInhomogeneity>
+              <bhrgtcom:dispersedInhomogeneity codeSpace="urn:bro:bhrgt:DispersedInhomogeneity">zandsteenlensjesWeinig</bhrgtcom:dispersedInhomogeneity>
+              <bhrgtcom:carbonateContentClass codeSpace="urn:bro:bhrgt:CarbonateContentClass">kalkhoudend</bhrgtcom:carbonateContentClass>
+              <bhrgtcom:crossBedding>nee</bhrgtcom:crossBedding>
+              <bhrgtcom:gradedBedding>ja</bhrgtcom:gradedBedding>
+              <bhrgtcom:voidsPresent>ja</bhrgtcom:voidsPresent>
+              <bhrgtcom:voidDistribution codeSpace="urn:bro:bhrgt:VoidDistribution">ongelijkmatig</bhrgtcom:voidDistribution>
+              <bhrgtcom:stability codeSpace="urn:bro:bhrgt:Stability">stabiel</bhrgtcom:stability>
+              <bhrgtcom:strengthClass codeSpace="urn:bro:bhrgt:StrengthClass">sterk</bhrgtcom:strengthClass>
+              <bhrgtcom:weathered>ja</bhrgtcom:weathered>
+              <bhrgtcom:weatheringDegree>
+                <bhrgtcom:discolouration codeSpace="urn:bro:bhrgt:Discolouration">gedeeltelijkVerkleurd</bhrgtcom:discolouration>
+                <bhrgtcom:disintegration codeSpace="urn:bro:bhrgt:Disintegration">nietUiteengevallen</bhrgtcom:disintegration>
+                <bhrgtcom:decomposition codeSpace="urn:bro:bhrgt:Decomposition">nietOmgezet</bhrgtcom:decomposition>
+              </bhrgtcom:weatheringDegree>
+            </bhrgtcom:rock>
+          </bhrgtcom:layer>
+        </bhrgtcom:descriptiveBoreholeLog>
+      </boreholeSampleDescription>
+      <objectIdAccountableParty>SomeID_20181023_QR2</objectIdAccountableParty>
+      <deliveryContext codeSpace="urn:bro:bhrgt:DeliveryContext">publiekeTaak</deliveryContext>
+      <surveyPurpose codeSpace="urn:bro:bhrgt:SurveyPurpose">bouwwerk</surveyPurpose>
+      <discipline codeSpace="urn:bro:bhrgt:Discipline">geotechniek</discipline>
+      <surveyProcedure codeSpace="urn:bro:bhrgt:SurveyProcedure">EN1997d2v2007</surveyProcedure>
+      <researchOperator>
+        <brocom:chamberOfCommerceNumber>09098104</brocom:chamberOfCommerceNumber>
+      </researchOperator>
+      <siteCharacteristicDetermined>ja</siteCharacteristicDetermined>
+      <deliveredLocation>
+        <bhrgtcom:location>
+          <gml:Point gml:id="id-2" srsName="urn:ogc:def:crs:EPSG::28992">
+            <gml:pos>134750.000 477800.000</gml:pos>
+          </gml:Point>
+        </bhrgtcom:location>
+        <bhrgtcom:horizontalPositioningDate>
+          <brocom:date>2018-08-23</brocom:date>
+        </bhrgtcom:horizontalPositioningDate>
+        <bhrgtcom:horizontalPositioningMethod codeSpace="urn:bro:bhrgt:HorizontalPositioningMethod">GPS200tot1000cm</bhrgtcom:horizontalPositioningMethod>
+        <bhrgtcom:horizontalPositioningOperator>
+          <brocom:chamberOfCommerceNumber>09098104</brocom:chamberOfCommerceNumber>
+        </bhrgtcom:horizontalPositioningOperator>
+      </deliveredLocation>
+      <deliveredVerticalPosition>
+        <bhrgtcom:localVerticalReferencePoint codeSpace="urn:bro:bhrgt:LocalVerticalReferencePoint">waterbodem</bhrgtcom:localVerticalReferencePoint>
+        <bhrgtcom:offset uom="m">1.303</bhrgtcom:offset>
+        <bhrgtcom:waterDepth uom="m">0.754</bhrgtcom:waterDepth>
+        <bhrgtcom:verticalDatum codeSpace="urn:bro:bhrgt:VerticalDatum">NAP</bhrgtcom:verticalDatum>
+        <bhrgtcom:verticalPositioningDate>
+          <brocom:date>2018-08-23</brocom:date>
+        </bhrgtcom:verticalPositioningDate>
+        <bhrgtcom:verticalPositioningMethod codeSpace="urn:bro:bhrgt:VerticalPositioningMethod">RTKGPS4tot10cm</bhrgtcom:verticalPositioningMethod>
+        <bhrgtcom:verticalPositioningOperator>
+          <brocom:chamberOfCommerceNumber>09098104</brocom:chamberOfCommerceNumber>
+        </bhrgtcom:verticalPositioningOperator>
+      </deliveredVerticalPosition>
+      <boring>
+        <bhrgtcom:boringStartDate>
+          <brocom:date>2018-08-23</brocom:date>
+        </bhrgtcom:boringStartDate>
+        <bhrgtcom:boringEndDate>
+          <brocom:date>2018-08-23</brocom:date>
+        </bhrgtcom:boringEndDate>
+        <bhrgtcom:boringOperator>
+          <brocom:chamberOfCommerceNumber>09098104</brocom:chamberOfCommerceNumber>
+        </bhrgtcom:boringOperator>
+        <bhrgtcom:preparation codeSpace="urn:bro:bhrgt:Preparation">bevriezing</bhrgtcom:preparation>
+        <bhrgtcom:finalDepthPreparation uom="m">8.5</bhrgtcom:finalDepthPreparation>
+        <bhrgtcom:trajectoryExcavated>nee</bhrgtcom:trajectoryExcavated>
+        <bhrgtcom:finalDepthExcavation uom="m">2.15</bhrgtcom:finalDepthExcavation>
+        <bhrgtcom:rockReached>ja</bhrgtcom:rockReached>
+        <bhrgtcom:boringProcedure codeSpace="urn:bro:bhrgt:BoringProcedure">SIKB2101v3p3</bhrgtcom:boringProcedure>
+        <bhrgtcom:finalDepthBoring uom="m">47.2</bhrgtcom:finalDepthBoring>
+        <bhrgtcom:stopCriterion codeSpace="urn:bro:bhrgt:StopCriterion">einddoel</bhrgtcom:stopCriterion>
+        <bhrgtcom:temporaryCasingUsed>ja</bhrgtcom:temporaryCasingUsed>
+        <bhrgtcom:finalDepthTemporaryCasing uom="m">43</bhrgtcom:finalDepthTemporaryCasing>
+        <bhrgtcom:flushingMediumUsed>ja</bhrgtcom:flushingMediumUsed>
+        <bhrgtcom:flushingAdditive codeSpace="urn:bro:bhrgt:FlushingAdditive">bentoniet</bhrgtcom:flushingAdditive>
+        <bhrgtcom:groundwaterLevel uom="m">8.5</bhrgtcom:groundwaterLevel>
+        <bhrgtcom:samplingProcedure codeSpace="urn:bro:bhrgt:SamplingProcedure">ISO22475d1v2019</bhrgtcom:samplingProcedure>
+        <bhrgtcom:finalDepthSampling uom="m">47</bhrgtcom:finalDepthSampling>
+        <bhrgtcom:subsurfaceContaminated>nee</bhrgtcom:subsurfaceContaminated>
+        <bhrgtcom:boreholeCompleted>ja</bhrgtcom:boreholeCompleted>
+        <bhrgtcom:excavatedLayer>
+          <bhrgtcom:upperBoundary uom="m">0.35</bhrgtcom:upperBoundary>
+          <bhrgtcom:lowerBoundary uom="m">3.15</bhrgtcom:lowerBoundary>
+          <bhrgtcom:excavatedMaterial codeSpace="urn:bro:bhrgt:ExcavatedMaterial">organischeStof</bhrgtcom:excavatedMaterial>
+        </bhrgtcom:excavatedLayer>
+        <bhrgtcom:excavatedLayer>
+          <bhrgtcom:upperBoundary uom="m">3.15</bhrgtcom:upperBoundary>
+          <bhrgtcom:lowerBoundary uom="m">5.94</bhrgtcom:lowerBoundary>
+          <bhrgtcom:excavatedMaterial codeSpace="urn:bro:bhrgt:ExcavatedMaterial">schelpmateriaal</bhrgtcom:excavatedMaterial>
+        </bhrgtcom:excavatedLayer>
+        <bhrgtcom:boredInterval>
+          <bhrgtcom:beginDepth uom="m">5.94</bhrgtcom:beginDepth>
+          <bhrgtcom:endDepth uom="m">8.50</bhrgtcom:endDepth>
+          <bhrgtcom:boringTechnique codeSpace="urn:bro:bhrgt:BoringTechnique">handDraaien</bhrgtcom:boringTechnique>
+          <bhrgtcom:boredDiameter uom="mm">50</bhrgtcom:boredDiameter>
+        </bhrgtcom:boredInterval>
+        <bhrgtcom:boredInterval>
+          <bhrgtcom:beginDepth uom="m">8.50</bhrgtcom:beginDepth>
+          <bhrgtcom:endDepth uom="m">43</bhrgtcom:endDepth>
+          <bhrgtcom:boringTechnique codeSpace="urn:bro:bhrgt:BoringTechnique">mechanischDraaienVerbuisd</bhrgtcom:boringTechnique>
+          <bhrgtcom:boredDiameter uom="mm">35</bhrgtcom:boredDiameter>
+        </bhrgtcom:boredInterval>
+        <bhrgtcom:boredInterval>
+          <bhrgtcom:beginDepth uom="m">43</bhrgtcom:beginDepth>
+          <bhrgtcom:endDepth uom="m">47</bhrgtcom:endDepth>
+          <bhrgtcom:boringTechnique codeSpace="urn:bro:bhrgt:BoringTechnique">mechanischDraaienOnverbuisd</bhrgtcom:boringTechnique>
+          <bhrgtcom:boredDiameter uom="mm">35</bhrgtcom:boredDiameter>
+        </bhrgtcom:boredInterval>
+        <bhrgtcom:boringVelocity>
+          <bhrgtcom:elapsedTime uom="s">1600</bhrgtcom:elapsedTime>
+          <bhrgtcom:depth uom="m">1</bhrgtcom:depth>
+        </bhrgtcom:boringVelocity>
+        <bhrgtcom:boringVelocity>
+          <bhrgtcom:elapsedTime uom="s">1600</bhrgtcom:elapsedTime>
+          <bhrgtcom:depth uom="m">3</bhrgtcom:depth>
+        </bhrgtcom:boringVelocity>
+        <bhrgtcom:boringVelocity>
+          <bhrgtcom:elapsedTime uom="s">12345.1</bhrgtcom:elapsedTime>
+          <bhrgtcom:depth uom="m">123.1</bhrgtcom:depth>
+        </bhrgtcom:boringVelocity>
+        <bhrgtcom:sampledInterval>
+          <bhrgtcom:beginDepth uom="m">18</bhrgtcom:beginDepth>
+          <bhrgtcom:endDepth uom="m">22</bhrgtcom:endDepth>
+          <bhrgtcom:preTreatment codeSpace="urn:bro:bhrgt:PreTreatment">geen</bhrgtcom:preTreatment>
+          <bhrgtcom:samplingMethod codeSpace="urn:bro:bhrgt:SamplingMethod">opDiepteUitsteken</bhrgtcom:samplingMethod>
+          <bhrgtcom:samplingQuality codeSpace="urn:bro:bhrgt:SamplingQuality">klasseA</bhrgtcom:samplingQuality>
+          <bhrgtcom:orientatedSampled>ja</bhrgtcom:orientatedSampled>
+          <bhrgtcom:sampler>
+            <bhrgtcom:samplerType codeSpace="urn:bro:bhrgt:SamplerType">corebarrelSingleTube</bhrgtcom:samplerType>
+            <bhrgtcom:sampleContainerDiameter uom="mm">45</bhrgtcom:sampleContainerDiameter>
+            <bhrgtcom:sampleContainerLength uom="m">40.00</bhrgtcom:sampleContainerLength>
+            <bhrgtcom:cuttingShoeInsideDiameter uom="mm">20</bhrgtcom:cuttingShoeInsideDiameter>
+            <bhrgtcom:stockingUsed>ja</bhrgtcom:stockingUsed>
+            <bhrgtcom:rightAngledCuttingShoe>ja</bhrgtcom:rightAngledCuttingShoe>
+            <bhrgtcom:taperAngle uom="deg">45</bhrgtcom:taperAngle>
+            <bhrgtcom:lubricationFluidUsed>ja</bhrgtcom:lubricationFluidUsed>
+            <bhrgtcom:coreCatcherPresent>nee</bhrgtcom:coreCatcherPresent>
+            <bhrgtcom:pistonPresent>nee</bhrgtcom:pistonPresent>
+          </bhrgtcom:sampler>
+          <bhrgtcom:coreRecovery>
+            <bhrgtcom:totalCoreRecovery uom="%">5</bhrgtcom:totalCoreRecovery>
+            <bhrgtcom:solidCoreRecovery uom="%">3</bhrgtcom:solidCoreRecovery>
+            <bhrgtcom:rockQualityDesignation uom="%">100</bhrgtcom:rockQualityDesignation>
+            <bhrgtcom:fieldDetermined>ja</bhrgtcom:fieldDetermined>
+          </bhrgtcom:coreRecovery>
+        </bhrgtcom:sampledInterval>
+        <bhrgtcom:contaminatedInterval>
+          <bhrgtcom:beginDepth uom="m">4.07</bhrgtcom:beginDepth>
+          <bhrgtcom:endDepth uom="m">5.72</bhrgtcom:endDepth>
+        </bhrgtcom:contaminatedInterval>
+        <bhrgtcom:completedInterval>
+          <bhrgtcom:beginDepth uom="m">0.35</bhrgtcom:beginDepth>
+          <bhrgtcom:endDepth uom="m">8.50</bhrgtcom:endDepth>
+          <bhrgtcom:permanentCasingPresent>ja</bhrgtcom:permanentCasingPresent>
+          <bhrgtcom:backfillMaterial codeSpace="urn:bro:bhrgt:BackfillMaterial">verwijderdMateriaal</bhrgtcom:backfillMaterial>
+          <bhrgtcom:backfillMaterialWashed>nee</bhrgtcom:backfillMaterialWashed>
+          <bhrgtcom:backfillMaterialCertified>nee</bhrgtcom:backfillMaterialCertified>
+        </bhrgtcom:completedInterval>
+        <bhrgtcom:completedInterval>
+          <bhrgtcom:beginDepth uom="m">8.50</bhrgtcom:beginDepth>
+          <bhrgtcom:endDepth uom="m">43</bhrgtcom:endDepth>
+          <bhrgtcom:permanentCasingPresent>nee</bhrgtcom:permanentCasingPresent>
+          <bhrgtcom:diameterPermanentCasing uom="mm">110</bhrgtcom:diameterPermanentCasing>
+          <bhrgtcom:materialPermanentCasing codeSpace="urn:bro:bhrgt:CasingMaterial">staal</bhrgtcom:materialPermanentCasing>
+          <bhrgtcom:backfillMaterial codeSpace="urn:bro:bhrgt:BackfillMaterial">grindZand</bhrgtcom:backfillMaterial>
+          <bhrgtcom:backfillMaterialWashed>ja</bhrgtcom:backfillMaterialWashed>
+          <bhrgtcom:backfillMaterialCertified>ja</bhrgtcom:backfillMaterialCertified>
+        </bhrgtcom:completedInterval>
+      </boring>
+      <siteCharacteristic>
+        <bhrgtcom:soilUse codeSpace="urn:bro:bhrgt:SoilUse">grasland</bhrgtcom:soilUse>
+        <bhrgtcom:positionOnGroundBody codeSpace="urn:bro:bhrgt:PositionOnGroundBody">talud</bhrgtcom:positionOnGroundBody>
+        <bhrgtcom:temporaryChange codeSpace="urn:bro:bhrgt:TemporaryChange">bevriezing</bhrgtcom:temporaryChange>
+      </siteCharacteristic>
+      <fluidMudLayer>
+        <bhrgtcom:thickness uom="m">1.2</bhrgtcom:thickness>
+        <bhrgtcom:colour codeSpace="urn:bro:bhrgt:Colour">zwart</bhrgtcom:colour>
+        <bhrgtcom:upperBoundaryPositioningMethod codeSpace="urn:bro:bhrgt:FluidMudLayerPositioningMethod">ultrasoon</bhrgtcom:upperBoundaryPositioningMethod>
+        <bhrgtcom:lowerBoundaryPositioningMethod codeSpace="urn:bro:bhrgt:FluidMudLayerPositioningMethod">ultrasoon</bhrgtcom:lowerBoundaryPositioningMethod>
+      </fluidMudLayer>
+    </BHR_GT_StartReport_V1>
+  </sourceDocument>
+</correctionRequest>
