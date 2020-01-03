@@ -338,7 +338,7 @@
           <bhrgtcom:beginDepth uom="m">4.00</bhrgtcom:beginDepth>
           <bhrgtcom:endDepth uom="m">40.00</bhrgtcom:endDepth>
           <bhrgtcom:sampleQuality codeSpace="urn:bro:bhrgt:SampleQuality">klasse1</bhrgtcom:sampleQuality>
-          <bhrgtcom:analysisType codeSpace="urn:bro:bhrgt:AnalysisType">verticaleVervorming</bhrgtcom:analysisType>
+          <bhrgtcom:analysisType codeSpace="urn:bro:bhrgt:AnalysisType">korrelgrootteverdeling</bhrgtcom:analysisType>
           <bhrgtcom:waterContentDetermined>nee</bhrgtcom:waterContentDetermined>
           <bhrgtcom:organicMatterContentDetermined>nee</bhrgtcom:organicMatterContentDetermined>
           <bhrgtcom:carbonateContentDetermined>nee</bhrgtcom:carbonateContentDetermined>
