@@ -345,126 +345,85 @@
           <bhrgtcom:volumetricMassDensityDetermined>nee</bhrgtcom:volumetricMassDensityDetermined>
           <bhrgtcom:volumetricMassDensitySolidsDetermined>nee</bhrgtcom:volumetricMassDensitySolidsDetermined>
           <bhrgtcom:described>nee</bhrgtcom:described>
-          <bhrgtcom:verticalDeformationDetermination>
-            <bhrgtcom:determinationProcedure codeSpace="urn:bro:bhrgt:DeterminationProcedure">ISO14688d2v2019</bhrgtcom:determinationProcedure>
-            <bhrgtcom:determinationMethod codeSpace="urn:bro:bhrgt:DeterminationMethod">samendrukkenStapsgewijs</bhrgtcom:determinationMethod>
-            <bhrgtcom:ringDiameter codeSpace="urn:bro:bhrgt:RingDiameter">63mm</bhrgtcom:ringDiameter>
-            <bhrgtcom:filterPaperUsed>nee</bhrgtcom:filterPaperUsed>
-            <bhrgtcom:temperature uom="Cel">70</bhrgtcom:temperature>
-            <bhrgtcom:wallFrictionCorrectionMethod codeSpace="urn:bro:bhrgt:WallFrictionCorrectionMethod">wandwrijvingAangenomen</bhrgtcom:wallFrictionCorrectionMethod>
-            <bhrgtcom:apparatusDeformationApplied>ja</bhrgtcom:apparatusDeformationApplied>
-            <bhrgtcom:bearingFrictionCorrectionApplied>ja</bhrgtcom:bearingFrictionCorrectionApplied>
-            <bhrgtcom:determinationStep>
-              <bhrgtcom:stepNumber>1</bhrgtcom:stepNumber>
-              <bhrgtcom:appliedCompressiveStress uom="kPa">40</bhrgtcom:appliedCompressiveStress>
-              <bhrgtcom:wetPerformed>nee</bhrgtcom:wetPerformed>
-              <bhrgtcom:swellObserved>nee</bhrgtcom:swellObserved>
-              <bhrgtcom:verticalDeformation>
-                <bhrgtcom:elapsedTime uom="s">30</bhrgtcom:elapsedTime>
-                <bhrgtcom:verticalStrain uom="%">2</bhrgtcom:verticalStrain>
-              </bhrgtcom:verticalDeformation>
-              <bhrgtcom:verticalDeformation>
-                <bhrgtcom:elapsedTime uom="s">60</bhrgtcom:elapsedTime>
-                <bhrgtcom:verticalStrain uom="%">3</bhrgtcom:verticalStrain>
-              </bhrgtcom:verticalDeformation>
-              <bhrgtcom:verticalDeformation>
-                <bhrgtcom:elapsedTime uom="s">90</bhrgtcom:elapsedTime>
-                <bhrgtcom:verticalStrain uom="%">4</bhrgtcom:verticalStrain>
-              </bhrgtcom:verticalDeformation>
-              <bhrgtcom:verticalDeformation>
-                <bhrgtcom:elapsedTime uom="s">120</bhrgtcom:elapsedTime>
-                <bhrgtcom:verticalStrain uom="%">5</bhrgtcom:verticalStrain>
-              </bhrgtcom:verticalDeformation>
-            </bhrgtcom:determinationStep>
-            <bhrgtcom:determinationStep>
-              <bhrgtcom:stepNumber>2</bhrgtcom:stepNumber>
-              <bhrgtcom:appliedCompressiveStress uom="kPa">80</bhrgtcom:appliedCompressiveStress>
-              <bhrgtcom:wetPerformed>nee</bhrgtcom:wetPerformed>
-              <bhrgtcom:swellObserved>nee</bhrgtcom:swellObserved>
-              <bhrgtcom:verticalDeformation>
-                <bhrgtcom:elapsedTime uom="s">30</bhrgtcom:elapsedTime>
-                <bhrgtcom:verticalStrain uom="%">2</bhrgtcom:verticalStrain>
-              </bhrgtcom:verticalDeformation>
-              <bhrgtcom:verticalDeformation>
-                <bhrgtcom:elapsedTime uom="s">60</bhrgtcom:elapsedTime>
-                <bhrgtcom:verticalStrain uom="%">4</bhrgtcom:verticalStrain>
-              </bhrgtcom:verticalDeformation>
-              <bhrgtcom:verticalDeformation>
-                <bhrgtcom:elapsedTime uom="s">90</bhrgtcom:elapsedTime>
-                <bhrgtcom:verticalStrain uom="%">5</bhrgtcom:verticalStrain>
-              </bhrgtcom:verticalDeformation>
-              <bhrgtcom:verticalDeformation>
-                <bhrgtcom:elapsedTime uom="s">120</bhrgtcom:elapsedTime>
-                <bhrgtcom:verticalStrain uom="%">6</bhrgtcom:verticalStrain>
-              </bhrgtcom:verticalDeformation>
-            </bhrgtcom:determinationStep>
-            <bhrgtcom:determinationStep>
-              <bhrgtcom:stepNumber>3</bhrgtcom:stepNumber>
-              <bhrgtcom:appliedCompressiveStress uom="kPa">120</bhrgtcom:appliedCompressiveStress>
-              <bhrgtcom:wetPerformed>nee</bhrgtcom:wetPerformed>
-              <bhrgtcom:swellObserved>nee</bhrgtcom:swellObserved>
-              <bhrgtcom:verticalDeformation>
-                <bhrgtcom:elapsedTime uom="s">30</bhrgtcom:elapsedTime>
-                <bhrgtcom:verticalStrain uom="%">2</bhrgtcom:verticalStrain>
-              </bhrgtcom:verticalDeformation>
-              <bhrgtcom:verticalDeformation>
-                <bhrgtcom:elapsedTime uom="s">60</bhrgtcom:elapsedTime>
-                <bhrgtcom:verticalStrain uom="%">4</bhrgtcom:verticalStrain>
-              </bhrgtcom:verticalDeformation>
-              <bhrgtcom:verticalDeformation>
-                <bhrgtcom:elapsedTime uom="s">90</bhrgtcom:elapsedTime>
-                <bhrgtcom:verticalStrain uom="%">6</bhrgtcom:verticalStrain>
-              </bhrgtcom:verticalDeformation>
-              <bhrgtcom:verticalDeformation>
-                <bhrgtcom:elapsedTime uom="s">120</bhrgtcom:elapsedTime>
-                <bhrgtcom:verticalStrain uom="%">7</bhrgtcom:verticalStrain>
-              </bhrgtcom:verticalDeformation>
-            </bhrgtcom:determinationStep>
-            <bhrgtcom:determinationStep>
-              <bhrgtcom:stepNumber>4</bhrgtcom:stepNumber>
-              <bhrgtcom:appliedCompressiveStress uom="kPa">160</bhrgtcom:appliedCompressiveStress>
-              <bhrgtcom:wetPerformed>nee</bhrgtcom:wetPerformed>
-              <bhrgtcom:swellObserved>nee</bhrgtcom:swellObserved>
-              <bhrgtcom:verticalDeformation>
-                <bhrgtcom:elapsedTime uom="s">30</bhrgtcom:elapsedTime>
-                <bhrgtcom:verticalStrain uom="%">3</bhrgtcom:verticalStrain>
-              </bhrgtcom:verticalDeformation>
-              <bhrgtcom:verticalDeformation>
-                <bhrgtcom:elapsedTime uom="s">60</bhrgtcom:elapsedTime>
-                <bhrgtcom:verticalStrain uom="%">5</bhrgtcom:verticalStrain>
-              </bhrgtcom:verticalDeformation>
-              <bhrgtcom:verticalDeformation>
-                <bhrgtcom:elapsedTime uom="s">90</bhrgtcom:elapsedTime>
-                <bhrgtcom:verticalStrain uom="%">7</bhrgtcom:verticalStrain>
-              </bhrgtcom:verticalDeformation>
-              <bhrgtcom:verticalDeformation>
-                <bhrgtcom:elapsedTime uom="s">120</bhrgtcom:elapsedTime>
-                <bhrgtcom:verticalStrain uom="%">8</bhrgtcom:verticalStrain>
-              </bhrgtcom:verticalDeformation>
-            </bhrgtcom:determinationStep>
-            <bhrgtcom:determinationStep>
-              <bhrgtcom:stepNumber>5</bhrgtcom:stepNumber>
-              <bhrgtcom:appliedCompressiveStress uom="kPa">200</bhrgtcom:appliedCompressiveStress>
-              <bhrgtcom:wetPerformed>nee</bhrgtcom:wetPerformed>
-              <bhrgtcom:swellObserved>nee</bhrgtcom:swellObserved>
-              <bhrgtcom:verticalDeformation>
-                <bhrgtcom:elapsedTime uom="s">30</bhrgtcom:elapsedTime>
-                <bhrgtcom:verticalStrain uom="%">3</bhrgtcom:verticalStrain>
-              </bhrgtcom:verticalDeformation>
-              <bhrgtcom:verticalDeformation>
-                <bhrgtcom:elapsedTime uom="s">60</bhrgtcom:elapsedTime>
-                <bhrgtcom:verticalStrain uom="%">6</bhrgtcom:verticalStrain>
-              </bhrgtcom:verticalDeformation>
-              <bhrgtcom:verticalDeformation>
-                <bhrgtcom:elapsedTime uom="s">90</bhrgtcom:elapsedTime>
-                <bhrgtcom:verticalStrain uom="%">8</bhrgtcom:verticalStrain>
-              </bhrgtcom:verticalDeformation>
-              <bhrgtcom:verticalDeformation>
-                <bhrgtcom:elapsedTime uom="s">120</bhrgtcom:elapsedTime>
-                <bhrgtcom:verticalStrain uom="%">9</bhrgtcom:verticalStrain>
-              </bhrgtcom:verticalDeformation>
-            </bhrgtcom:determinationStep>
-          </bhrgtcom:verticalDeformationDetermination>
+          <bhrgtcom:particleSizeDistributionDetermination>
+            <bhrgtcom:determinationProcedure codeSpace="urn:bro:bhrgt:DeterminationProcedure">ISO17892d4v2016</bhrgtcom:determinationProcedure>
+            <bhrgtcom:determinationMethod codeSpace="urn:bro:bhrgt:DeterminationMethod">droogZeven</bhrgtcom:determinationMethod>
+            <bhrgtcom:fractionDistribution codeSpace="urn:bro:bhrgt:FractionDistribution">basisUitgebreid</bhrgtcom:fractionDistribution>
+            <!--Optional:-->
+            <!--bhrgtcom:dispersionMethod codeSpace="urn:bro:bhrgt:DispersionMethod">roeren</bhrgtcom:dispersionMethod-->
+            <!--1 or more repetitions:-->
+            <bhrgtcom:removedMaterial codeSpace="urn:bro:bhrgt:RemovedMaterial">geen</bhrgtcom:removedMaterial>
+            <!--bhrgtcom:removedMaterial codeSpace="urn:bro:bhrgt:RemovedMaterial">antropogeenStenigBestanddeel</bhrgtcom:removedMaterial-->
+            <!--Optional:-->
+            <!--bhrgtcom:equivalentMassDeterminationMethod codeSpace="urn:bro:bhrgt:EquivalentMassDeterminationMethod">massaBepaald</bhrgtcom:equivalentMassDeterminationMethod-->
+            <!--Optional:-->
+            <!--bhrgtcom:equivalentMass uom="%">12.3</bhrgtcom:equivalentMass-->
+            <!--Optional:-->
+            <!--bhrgtcom:performanceIrregularity codeSpace="urn:bro:bhrgt:PerformanceIrregularity">materiaalVerloren</bhrgtcom:performanceIrregularity-->
+            <!--0 to 2 repetitions:-->
+            <!--bhrgtcom:materialIrregularity codeSpace="urn:bro:bhrgt:MaterialIrregularity">desintegratie</bhrgtcom:materialIrregularity-->
+            <!--Optional:-->
+            <bhrgtcom:usedOpticalModel codeSpace="urn:bro:bhrgt:UsedOpticalModel">Fraunhofer</bhrgtcom:usedOpticalModel>
+            <bhrgtcom:basicParticleSizeDistribution>
+              <bhrgtcom:fractionSmaller63um uom="%">3</bhrgtcom:fractionSmaller63um>
+              <bhrgtcom:fractionLarger63um uom="%">97</bhrgtcom:fractionLarger63um>
+              <!--Optional:-->
+              <!--bhrgtcom:standardDistributionFractionSmaller63um>...</bhrgtcom:standardDistributionFractionSmaller63um-->
+              <!--Optional:-->
+              <!--bhrgtcom:detailedDistributionFractionSmaller63um>...</bhrgtcom:detailedDistributionFractionSmaller63um-->
+              <!--Optional:-->
+              <!--bhrgtcom:standardDistributionFractionLarger63um>...</bhrgtcom:standardDistributionFractionLarger63um-->
+              <!--Optional:-->
+              <bhrgtcom:detailedDistributionFractionLarger63um>
+                <!--Optional:-->
+                <!--bhrgtcom:fraction63to90um uom="%">3</bhrgtcom:fraction63to90um-->
+                <!--Optional:-->
+                <bhrgtcom:fraction63to75um uom="%">1</bhrgtcom:fraction63to75um>
+                <!--Optional:-->
+                <bhrgtcom:fraction75to90um uom="%">2</bhrgtcom:fraction75to90um>
+                <!--Optional:-->
+                <!--bhrgtcom:fraction90to125um uom="%" xsi:nil="true" /-->
+                <!--Optional:-->
+                <bhrgtcom:fraction90to106um uom="%">2</bhrgtcom:fraction90to106um>
+                <!--Optional:-->
+                <bhrgtcom:fraction106to125um xsi:nil="true" uom="%"/>
+                <!--Optional:-->
+                <!--bhrgtcom:fraction125to180um xsi:nil="true" uom="%"/-->
+                <!--Optional:-->
+                <bhrgtcom:fraction125to150um xsi:nil="true" uom="%"/>
+                <!--Optional:-->
+                <bhrgtcom:fraction150to180um uom="%">3</bhrgtcom:fraction150to180um>
+                <!--Optional:-->
+                <!--bhrgtcom:fraction180to250um uom="%">9</bhrgtcom:fraction180to250um-->
+                <!--Optional:-->
+                <bhrgtcom:fraction180to212um uom="%">5</bhrgtcom:fraction180to212um>
+                <!--Optional:-->
+                <bhrgtcom:fraction212to250um uom="%">4</bhrgtcom:fraction212to250um>
+                <bhrgtcom:fraction250to355um uom="%">9</bhrgtcom:fraction250to355um>
+                <bhrgtcom:fraction355to500um uom="%">8</bhrgtcom:fraction355to500um>
+                <bhrgtcom:fraction500to710um uom="%">8</bhrgtcom:fraction500to710um>
+                <bhrgtcom:fraction710to1000um uom="%">7</bhrgtcom:fraction710to1000um>
+                <bhrgtcom:fraction1000to1400um uom="%">7</bhrgtcom:fraction1000to1400um>
+                <bhrgtcom:fraction1400umto2mm uom="%">6</bhrgtcom:fraction1400umto2mm>
+                <bhrgtcom:fraction2to4mm uom="%">5</bhrgtcom:fraction2to4mm>
+                <!--Optional:-->
+                <bhrgtcom:fraction4to8mm uom="%">8</bhrgtcom:fraction4to8mm>
+                <!--Optional:-->
+                <!--bhrgtcom:fraction4to5_6mm uom="%">3</bhrgtcom:fraction4to5_6mm-->
+                <!--Optional:-->
+                <!--bhrgtcom:fraction5_6to8mm uom="%">5</bhrgtcom:fraction5_6to8mm-->
+                <!--Optional:-->
+                <bhrgtcom:fraction8to16mm uom="%">12</bhrgtcom:fraction8to16mm>
+                <!--Optional:-->
+                <!--bhrgtcom:fraction8to11_2mm uom="%">6</bhrgtcom:fraction8to11_2mm-->
+                <!--Optional:-->
+                <!--bhrgtcom:fraction11_2to16mm uom="%">6</bhrgtcom:fraction11_2to16mm-->
+                <bhrgtcom:fraction16to31_5mm uom="%">3</bhrgtcom:fraction16to31_5mm>
+                <bhrgtcom:fraction31_5to63mm uom="%">4</bhrgtcom:fraction31_5to63mm>
+                <bhrgtcom:fractionLarger63mm uom="%">3</bhrgtcom:fractionLarger63mm>
+              </bhrgtcom:detailedDistributionFractionLarger63um>
+            </bhrgtcom:basicParticleSizeDistribution>
+          </bhrgtcom:particleSizeDistributionDetermination>
         </bhrgtcom:investigatedInterval>
       </boreholeSampleAnalysis>
     </BHR_GT_O_DP>
