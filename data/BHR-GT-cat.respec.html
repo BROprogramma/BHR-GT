@@ -135,7 +135,7 @@
             <area shape="rect" alt="Onderzocht materiaal" coords="366,158,587,220" href="#graph_EAID_BD31A74D_B5C6_480b_905E_F91814C80941">
             <area shape="rect" alt="Onderzocht interval" coords="44,158,264,220" href="#graph_EAID_02F6BF65_FC13_42fc_B188_1C33F0909B5B">
             <area shape="rect" alt="Boormonsteranalyse" coords="44,10,264,72" href="#graph_EAID_4786675B_20AD_4235_BD57_509D41B1BE03">
-            <area shape="rect" alt="Plasiticiteit bij bepaald watergehalte" coords="10,662,298,737" href="#graph_EAID_98CD2AB2_2D46_4e0f_AB64_8701C1890E23">
+            <area shape="rect" alt="Plasiticiteit bij bepaald watergehalte" coords="10,584,298,659" href="#graph_EAID_98CD2AB2_2D46_4e0f_AB64_8701C1890E23">
             <area shape="rect" alt="Bepaling consistentiegrenzen" coords="10,303,298,456" href="#graph_EAID_76E159D0_56D9_4c52_9295_586D88C50026"></map><p><b>Domeinmodel geotechnisch booronderzoek - Boormonsteranalyse deel 5</b></p>
       </div>
       <div class="imageinfo overview"><img src="data/Images/EAID_31509831_23EA_40ee_92F2_77102440F85A.png" usemap="#imagemap-EAID_31509831_23EA_40ee_92F2_77102440F85A" alt="Diagram "><map name="imagemap-EAID_31509831_23EA_40ee_92F2_77102440F85A">
@@ -305,8 +305,8 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>De organisatie moet binnen de basisregistratie ondergrond als bronhouder van booronderzoek
-                           bekend zijn.
+                        <p>De organisatie moet bekend zijn binnen de basisregistratie ondergrond als bronhouder
+                           van booronderzoek bekend zijn.
                         </p>
                         
                      </td>
@@ -421,8 +421,8 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>De organisatie moet binnen de basisregistratie ondergrond als dataleverancier van
-                           booronderzoek bekend zijn.
+                        <p>De organisatie moet bekend zijn binnen de basisregistratie ondergrond als dataleverancier
+                           van booronderzoek bekend zijn.
                         </p>
                         
                      </td>
@@ -723,9 +723,11 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>Het gegeven is aanwezig wanneer de waarde van het attribuut <em>registratiestatus</em> van de entiteit <em>Registratiegeschiedenis</em> gelijk is aan <em>voltooid</em>.
-                           In andere gevallen ontbreekt het gegeven.
-                           De datum ligt niet na het <em>tijdstip voltooiing registratie</em> van de entiteit <em>Registratiegeschiedenis</em>.
+                        <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>registratiestatus</em> van de entiteit <em>Registratiegeschiedenis</em> gelijk is aan <em>voltooid</em>.<br clear="none">
+                           Het attribuut mag niet aanwezig zijn in alle andere gevallen.
+                        </p>
+                        
+                        <p>De <em>rapportagedatum onderzoek</em> mag niet liggen na het <em>tijdstip voltooiing registratie</em> van de entiteit <em>Registratiegeschiedenis</em>.
                         </p>
                         
                      </td>
@@ -849,7 +851,19 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>Het gegeven is aanwezig wanneer de waarde van gegeven <em>lokaal verticaal referentiepunt</em> gelijk is aan <em>maaiveld</em>. In andere gevallen ontbreekt het gegeven.
+                        <p>Het attribuut moet aanwezig zijn wanneer de waarde van attribuut <em>lokaal verticaal referentiepunt</em> gelijk is aan <em>maaiveld</em>.<br clear="none">
+                           Het attribuut mag niet aanwezig zijn in alle andere gevallen.
+                        </p>
+                        
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Regels IMBRO/A</th>
+                     <td>
+                        
+                        <p>Voor IMBRO/A-gegevens mag het attribuut ontbreken wanneer de waarde van attribuut
+                           <em>lokaal verticaal referentiepunt</em> gelijk is aan <em>maaiveld</em>.<br clear="none">
+                           
                         </p>
                         
                      </td>
@@ -857,14 +871,6 @@
                   <tr>
                      <th>Mogelijk geen waarde</th>
                      <td>Ja</td>
-                  </tr>
-                  <tr>
-                     <th>Reden geen waarde</th>
-                     <td>
-                        
-                        <p>Voor IMBRO/A-gegevens mag het gegeven ontbreken.</p>
-                        
-                     </td>
                   </tr>
                   <tr>
                      <th>Toelichting</th>
@@ -926,8 +932,8 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>De organisatie moet binnen de basisregistratie ondergrond als uitvoerder van booronderzoek
-                           bekend zijn.
+                        <p>De organisatie moet bekend zijn binnen de basisregistratie ondergrond als uitvoerder
+                           van booronderzoek bekend zijn.
                         </p>
                         
                      </td>
@@ -1613,12 +1619,12 @@
                   <td>
                      
                      <p>De gegevens staan niet in een brondocument, maar worden automatisch door de basisregistratie
-                        ondergrond gegenereerd.
-                        De resultaten van het booronderzoek worden in een keer of in delen gerapporteerd.
-                        Wanneer een deelrapport dat onder de wettelijke verplichtingen valt door de bronhouder
-                        is geaccepteerd, wordt het ter registratie aan de landelijke voorziening aangeboden.
-                        De rapportagegeschiedenis geeft de essentie van het verloop van de rapportage en vormt
-                        de zgn. materiële geschiedenis van het registratieobject booronderzoek.
+                        ondergrond gegenereerd. De resultaten van het booronderzoek worden in een keer of
+                        in delen gerapporteerd. Wanneer een deelrapport dat onder de wettelijke verplichtingen
+                        valt door de bronhouder is geaccepteerd, wordt het ter registratie aan de landelijke
+                        voorziening aangeboden. De rapportagegeschiedenis geeft de essentie van het verloop
+                        van de rapportage en vormt de zgn. materiële geschiedenis van het registratieobject
+                        booronderzoek. 
                      </p>
                      
                   </td>
@@ -1796,7 +1802,7 @@
                      
                      <p>De basisregistratie ondergrond leidt bij het aanvullen van de registratie de juiste
                         waarde af uit de gegevens in het brondocument. In deze versie van de catalogus vinden
-                        er geen tussentijdse gebeurtenissen plaats.
+                        er geen&nbsp; tussentijdse gebeurtenissen plaats. 
                      </p>
                      
                   </td>
@@ -1899,7 +1905,7 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>De <em>datum gebeurtenis</em> mag niet liggen voor de <em>startdatum rapportage</em> van de entiteit <em>Rapportagegeschiedenis</em>.
+                        <p>De <em>datum gebeurtenis</em> mag niet liggen voor de <em>startdatum rapportage</em> van de entiteit <em>Rapportagegeschiedenis</em>.<br clear="none">
                            De <em>datum gebeurtenis</em> mag niet liggen na de <em>einddatum rapportage</em> van de entiteit <em>Rapportagegeschiedenis</em>.
                         </p>
                         
@@ -1984,7 +1990,7 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>De locatie ligt in Nederland of zijn Exclusieve Economische Zone.</p>
+                        <p>De locatie moet liggen in Nederland of zijn Exclusieve Economische Zone.</p>
                         
                      </td>
                   </tr>
@@ -2035,11 +2041,11 @@
                      <td></td>
                   </tr>
                   <tr>
-                     <th>Toelichting</th>
+                     <th>Regels</th>
                      <td>
                         
-                        <p>Een locatie aan de landzijde van de UNCLOS-basislijn is gedefinieerd in RD of ETRS89
-                           en een locatie aan de zeezijde van de lijn in WGS84 of ETRS89.
+                        <p>De waarde van het attribuut moet gelijk zijn aan <em>ETRS89</em> of <em>RD</em> wanneer de locatie aan de landzijde van de UNCLOS-basislijn ligt.<br clear="none">
+                           De waarde van het attribuut moet gelijk zijn aan <em>ETRS89</em> of <em>WGS84</em> wanneer de locatie aan de zeezijde van de UNCLOS-basislijn ligt.
                         </p>
                         
                      </td>
@@ -2094,7 +2100,7 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>De datum ligt niet na de <em>startdatum rapportage</em> van de entiteit <em>Rapportagegeschiedenis</em>.
+                        <p>De <em>datum locatiebepaling</em> mag niet liggen na de <em>startdatum rapportage</em> van de entiteit <em>Rapportagegeschiedenis</em>.
                         </p>
                         
                      </td>
@@ -2207,8 +2213,8 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>De organisatie moet binnen de basisregistratie ondergrond als uitvoerder van booronderzoek
-                           bekend zijn.
+                        <p>De organisatie moet bekend zijn binnen de basisregistratie ondergrond als uitvoerder
+                           van booronderzoek bekend zijn.
                         </p>
                         
                      </td>
@@ -2296,7 +2302,7 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>Een locatie op land heeft de waarde <em>maaiveld</em> of <em>waterbodem</em>. Een locatie op zee heeft de waarde <em>waterbodem</em>.
+                        <p>De waarde van het attribuut moet gelijk zijn aan <em>waterbodem</em> wanneer de locatie aan de zeezijde van de UNCLOS-basislijn ligt.
                         </p>
                         
                      </td>
@@ -2443,7 +2449,8 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>Het gegeven is aanwezig wanneer de waarde van het attribuut <em>lokaal verticaal referentiepunt</em> gelijk is aan <em>waterbodem</em>. In andere gevallen ontbreekt het gegeven.
+                        <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>lokaal verticaal referentiepunt</em> gelijk is aan <em>waterbodem</em>.<br clear="none">
+                           Het attribuut mag niet aanwezig zijn in alle andere gevallen.
                         </p>
                         
                      </td>
@@ -2452,7 +2459,9 @@
                      <th>Regels IMBRO/A</th>
                      <td>
                         
-                        <p>Voor IMBRO/A-gegevens mag het gegeven ontbreken.</p>
+                        <p>Voor IMBRO/A-gegevens mag het attribuut ontbreken wanneer de waarde van het attribuut
+                           <em>lokaal verticaal referentiepunt</em> gelijk is aan <em>waterbodem</em>.
+                        </p>
                         
                      </td>
                   </tr>
@@ -2520,7 +2529,8 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>Een locatie aan de landzijde van de UNCLOS-basislijn heeft de waarde <em>NAP</em> en een locatie aan de zeezijde van de lijn de waarde <em>LAT</em> of <em>MSL</em>.
+                        <p>De waarde van het attribuut moet gelijk zijn aan <em>NAP</em> wanneer de locatie aan de landzijde van de UNCLOS-basislijn ligt.<br clear="none">
+                           De waarde van het attribuut moet gelijk zijn aan <em>LAT</em> of <em>MSL</em> wanneer de locatie aan de zeezijde van de UNCLOS-basislijn ligt.
                         </p>
                         
                      </td>
@@ -2575,7 +2585,7 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>De datum ligt niet na de <em>startdatum rapportage</em> van de entiteit <em>Rapportagegeschiedenis</em>.
+                        <p>De datum <em>verticale positiebepaling</em> mag niet liggen na de <em>startdatum rapportage</em> van de entiteit <em>Rapportagegeschiedenis</em>.
                         </p>
                         
                      </td>
@@ -2659,8 +2669,7 @@
                      <th>Regels IMBRO/A</th>
                      <td>
                         
-                        <p>Voor IMBRO/A-gegevens kan de verschuiving niet bepaald zijn, alleen in dat geval heeft
-                           het gegeven de waarde <em>geen</em>.
+                        <p>Voor IMBRO/A-gegevens moet de waarde van het attribuut gelijk zijn aan <em>geen</em> wanneer de waarde van het attribuut verschuiving ontbreekt.
                         </p>
                         
                      </td>
@@ -2723,8 +2732,8 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>De organisatie moet binnen de basisregistratie ondergrond als uitvoerder van booronderzoek
-                           bekend zijn.
+                        <p>De organisatie moet bekend zijn binnen de basisregistratie ondergrond als uitvoerder
+                           van booronderzoek bekend zijn.
                         </p>
                         
                      </td>
@@ -2931,8 +2940,11 @@
                   <th>Regels</th>
                   <td>
                      
-                     <p>Wanneer de waarde van het attribuut <em>terreintoestand bepaald</em> gelijk is aan <em>ja</em>, is het gegeven aanwezig. 
-                        In andere gevallen ontbreekt het. Ten minste één van de attributen <em>bodemgebruik</em>, <em>ligging op grondlichaam</em> en <em>tijdelijke verandering</em> is aanwezig.
+                     <p>De entiteit moet aanwezig zijn wanneer de waarde van het attribuut <em>terreintoestand bepaald</em> gelijk is aan <em>ja</em>.<br clear="none">
+                        De entiteit mag niet aanwezig zijn in alle andere gevallen.
+                     </p>
+                     
+                     <p>Ten minste één van de volgende gegevens moet aanwezig zijn: het attribuut <em>bodemgebruik</em>, <em>ligging op grondlichaam</em> of <em>tijdelijke verandering</em>.
                      </p>
                      
                   </td>
@@ -3191,7 +3203,7 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>De datum ligt niet na de <em>startdatum rapportage</em> van de <em>Rapportagegeschiedenis</em>.
+                        <p>De <em>startdatum boring</em> mag niet liggen na de <em>startdatum rapportage</em> van de entiteit <em>Rapportagegeschiedenis</em>.
                         </p>
                         
                      </td>
@@ -3200,7 +3212,7 @@
                      <th>Regels IMBRO/A</th>
                      <td>
                         
-                        <p>Wanneer de waarde van het attribuut <em>startdatum rapportagedatum</em> van de entiteit <em>Rapportagegeschiedenis</em> gelijk is aan <em>onbekend</em>, ligt de datum niet na het <em>tijdstip registratie object</em>.
+                        <p>De <em>startdatum boring</em> mag niet liggen niet na het <em>tijdstip registratie object</em> wanneer de waarde van het attribuut <em>startdatum rapportagedatum</em> van de entiteit <em>Rapportagegeschiedenis</em> gelijk is aan <em>onbekend</em>.
                         </p>
                         
                      </td>
@@ -3255,9 +3267,8 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>De datum ligt niet na de <em>startdatum</em> 
-                           <em>rapportage</em> van de entiteit <em>Rapportagegeschiedenis</em>.
-                           De datum ligt niet voor de <em>startdatum boring</em>.
+                        <p>De <em>einddatum boring</em> mag niet liggen na de <em>startdatum rapportage</em> van de entiteit <em>Rapportagegeschiedenis</em>.<br clear="none">
+                           De <em>einddatum boring</em> mag niet liggen voor de <em>startdatum boring</em>.
                         </p>
                         
                      </td>
@@ -3266,7 +3277,7 @@
                      <th>Regels IMBRO/A</th>
                      <td>
                         
-                        <p>Wanneer de waarde van het attribuut <em>startdatum rapportage</em> van de entiteit <em>Rapportagegeschiedenis</em> gelijk is aan <em>onbekend</em>, ligt de datum niet na het <em>tijdstip registratie object</em>.
+                        <p>De <em>einddatum boring</em> mag niet liggen na het <em>tijdstip registratie object</em> van de entiteit <em>Registratiegeschiedenis</em> wanneer de waarde van het attribuut <em>startdatum rapportage</em> van de entiteit <em>Rapportagegeschiedenis</em> gelijk is aan <em>onbekend</em>.
                         </p>
                         
                      </td>
@@ -3395,8 +3406,8 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>Het gegeven is aanwezig wanneer de waarde van het attribuut <em>voorbereiding</em> gelijk is aan <em>bevriezing, injectieDragendVermogen,</em> 
-                           <em>injectieWaterdoorlatendheid, tijdelijkeVerbuizingVooraf, vacuumconsolidatie</em> of <em>verticaleDrainage</em>. In andere gevallen ontbreekt het gegeven.
+                        <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>voorbereiding</em> gelijk is aan <em>bevriezing</em>, <em>injectieDragendVermogen</em>, <em>injectieWaterdoorlatendheid</em>, <em>tijdelijkeVerbuizingVooraf</em>, <em>vacuumconsolidatie</em> of <em>verticaleDrainage</em>.<br clear="none">
+                           Het attribuut mag niet aanwezig zijn in alle andere gevallen.
                         </p>
                         
                      </td>
@@ -3517,7 +3528,8 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>Het gegeven is aanwezig wanneer de waarde van het attribuut <em>traject weggegraven</em> van de entiteit <em>Boring</em> gelijk is aan <em>ja</em>. In andere gevallen ontbreekt het gegeven.
+                        <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>traject weggegraven</em> van de entiteit <em>Boring</em> gelijk is aan <em>ja</em>.<br clear="none">
+                           Het attribuut mag niet aanwezig zijn in alle andere gevallen.
                         </p>
                         
                      </td>
@@ -3568,7 +3580,7 @@
                      <th>Regels IMBRO/A</th>
                      <td>
                         
-                        <p>Voor IMBRO/A-gegevens is de waarde van het gegeven gelijk aan <em>nee</em>.
+                        <p>Voor IMBRO/A-gegevens moet de waarde van het attribuut gelijk zijn aan <em>nee</em>.
                         </p>
                         
                      </td>
@@ -3878,7 +3890,8 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>Het gegeven is aanwezig wanneer de waarde van het attribuut <em>tijdelijke verbuizing aangebracht</em> van de entiteit <em>Boring</em> gelijk is aan <em>ja</em>. In andere gevallen ontbreekt het gegeven.
+                        <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>tijdelijke verbuizing aangebracht</em> van de entiteit <em>Boring</em> gelijk is aan <em>ja</em>.<br clear="none">
+                           Het attribuut mag niet aanwezig zijn in alle andere gevallen.
                         </p>
                         
                      </td>
@@ -4013,7 +4026,8 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>Het gegeven is aanwezig wanneer de waarde van het attribuut <em>spoeling gebruikt</em> van de entiteit <em>Boring</em> gelijk is aan <em>ja</em>. In andere gevallen ontbreekt het gegeven.
+                        <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>spoeling gebruikt</em> van de entiteit <em>Boring</em> gelijk is aan <em>ja</em>.<br clear="none">
+                           Het attribuut mag niet aanwezig zijn in alle andere gevallen.
                         </p>
                         
                      </td>
@@ -4074,7 +4088,7 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>Het gegeven ontbreekt wanneer de waarde van het attribuut <em>lokaal verticaal referentiepunt</em> van de entiteit <em>Aangeleverde verticale positie</em> gelijk is aan <em>waterbodem</em>. In andere gevallen mag het gegeven ontbreken.
+                        <p>Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>lokaal verticaal referentiepunt</em> van de entiteit <em>Aangeleverde verticale positie</em> gelijk is aan <em>waterbodem</em>.
                         </p>
                         
                      </td>
@@ -4206,7 +4220,7 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>De einddiepte is niet groter dan de <em>einddiepte boren</em>.
+                        <p>De waarde van het attribuut mag niet groter zijn dan de waarde van het attribuut <em>einddiepte boren</em>.
                         </p>
                         
                      </td>
@@ -4412,8 +4426,8 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>De organisatie moet binnen de basisregistratie ondergrond als uitvoerder van booronderzoek
-                           bekend zijn.
+                        <p>De organisatie moet bekend zijn binnen de basisregistratie ondergrond als uitvoerder
+                           van booronderzoek bekend zijn.
                         </p>
                         
                      </td>
@@ -4516,9 +4530,8 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>De bovengrens van de bovenste weggegraven laag is gelijk aan <em>0</em>.
-                           De bovengrens van iedere andere weggegraven laag valt samen met de ondergrens van
-                           de weggegraven laag erboven.
+                        <p>De weggegraven lagen moeten precies op elkaar aansluiten.<br clear="none">
+                           De bovengrens van de bovenste weggegraven laag moet gelijk zijn aan <em>0</em>.
                         </p>
                         
                      </td>
@@ -4577,9 +4590,9 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>De ondergrens is groter dan de bovengrens van de weggegraven laag.
-                           De ondergrens van de onderste verwijderde laag is gelijk aan de waarde van het attribuut
-                           einddiepte graven van de entiteit Boring.
+                        <p>De <em>ondergrens</em> moet groter zijn dan de <em>bovengrens</em> van de weggegraven laag.<br clear="none">
+                           De <em>ondergrens</em> van de onderste verwijderde laag moet gelijk zijn aan de waarde van het attribuut
+                           <em>einddiepte graven</em> van de entiteit <em>Boring</em>.
                         </p>
                         
                      </td>
@@ -4727,7 +4740,8 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>De algemene regel is dat de begindiepte van het bovenste interval de waarde <em>0</em> heeft, tenzij er materiaal is weggegraven. In dat geval is de waarde groter dan <em>0</em>.
+                        <p>De <em>begindiepte</em> van het bovenste geboord interval moet gelijk zijn aan <em>0</em> wanneer de waarde van het attribuut <em>traject weggegraven</em> van de entiteit <em>Boring</em> gelijk is aan <em>nee</em>.<br clear="none">
+                           De <em>begindiepte</em> van het bovenste geboord interval moet groter zijn dan <em>0</em> wanneer de waarde van het attribuut <em>traject weggegraven</em> van de entiteit <em>Boring</em> gelijk is aan <em>ja</em>.
                         </p>
                         
                      </td>
@@ -4788,8 +4802,8 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>De einddiepte is groter dan de begindiepte van het interval.
-                           De einddiepte van het onderste interval is gelijk aan de waarde van het attribuut
+                        <p>De <em>einddiepte</em> moet groter zijn dan de <em>begindiepte</em> van het geboord interval.<br clear="none">
+                           De <em>einddiepte</em> van het onderste geboord interval moet gelijk zijn aan de waarde van het attribuut
                            <em>einddiepte boren</em> van de entiteit <em>Boring</em>.
                         </p>
                         
@@ -4961,7 +4975,8 @@
                   <th>Regels</th>
                   <td>
                      
-                     <p>Het geven is aanwezig wanneer de waarde van het attribuut <em>gesteente aangeboord</em> van de entiteit <em>Boring</em> gelijk is aan <em>ja.</em> In andere gevallen ontbreekt het gegeven.
+                     <p>De entiteit moet aanwezig zijn wanneer de waarde van het attribuut <em>gesteente aangeboord</em> van de entiteit <em>Boring</em> gelijk is aan <em>ja</em>.<br clear="none">
+                        De entiteit mag niet aanwezig zijn in alle andere gevallen.
                      </p>
                      
                   </td>
@@ -5090,9 +5105,9 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>De diepte en verlopen tijd zijn altijd een paar. 
-                           De diepte is niet kleiner dan de begindiepte van het bovenste geboord interval. 
-                           De diepte is niet groter dan de waarde van het attribuut <em>einddiepte boren</em> van de entiteit <em>Boring</em>.
+                        <p>De <em>diepte</em> en <em>verlopen tijd</em> zijn altijd een paar.<br clear="none">
+                           De waarde van het attribuut mag niet kleiner zijn dan de <em>begindiepte</em> van het bovenste geboord interval.<br clear="none">
+                           De waarde van het attribuut mag niet groter zijn dan de waarde van het attribuut <em>einddiepte boren</em> van de entiteit <em>Boring</em>.
                         </p>
                         
                      </td>
@@ -5242,8 +5257,9 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>De einddiepte is groter dan de begindiepte van het interval. 
-                           De einddiepte van het onderste interval is niet groter dan de <em>einddiepte boren</em> van de entiteit <em>Boring</em>.
+                        <p>De <em>einddiepte</em> moet groter zijn dan de <em>begindiepte</em> van het bemonsterd interval.<br clear="none">
+                           De <em>einddiepte</em> van het onderste bemonsterd interval mag niet groter zijn dan de waarde van het attribuut
+                           <em>einddiepte boren</em> van de entiteit <em>Boring</em>.
                         </p>
                         
                      </td>
@@ -5472,7 +5488,8 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>Het gegeven is aanwezig wanneer de waarde van het attribuut <em>bemonsteringsmethode</em> gelijk is aan <em>opDiepteUitsteken</em>. In andere gevallen ontbreekt het gegeven.
+                        <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>bemonsteringsmethode</em> gelijk is aan <em>opDiepteUitsteken</em>.<br clear="none">
+                           Het attribuut mag niet aanwezig zijn in alle andere gevallen.
                         </p>
                         
                      </td>
@@ -5481,7 +5498,9 @@
                      <th>Regels IMBRO/A</th>
                      <td>
                         
-                        <p>Voor IMBRO/A-gegevens mag het gegeven ontbreken.</p>
+                        <p>Voor IMBRO/A-gegevens mag het attribuut ontbreken wanneer de waarde van het attribuut
+                           <em>bemonsteringsmethode</em> gelijk is aan <em>opDiepteUitsteken</em>.
+                        </p>
                         
                      </td>
                   </tr>
@@ -5526,7 +5545,8 @@
                   <th>Regels</th>
                   <td>
                      
-                     <p>Het gegeven is aanwezig wanneer de waarde van het attribuut <em>bemonsteringsmethode</em> gelijk is aan <em>opDiepteKernen</em> of <em>opDiepteUitsteken</em>. In andere gevallen ontbreekt het gegeven.
+                     <p>De entiteit moet aanwezig zijn wanneer de waarde van het attribuut <em>bemonsteringsmethode</em> gelijk is aan <em>opDiepteKernen</em> of <em>opDiepteUitsteken</em>.<br clear="none">
+                        De entiteit mag niet aanwezig zijn in alle andere gevallen.
                      </p>
                      
                   </td>
@@ -5535,7 +5555,9 @@
                   <th>Regels IMBRO/A</th>
                   <td>
                      
-                     <p>Voor IMBRO/A-gegevens mag het gegeven ontbreken.</p>
+                     <p>Voor IMBRO/A-gegevens mag de entiteit ontbreken wanneer de waarde van het attribuut
+                        <em>bemonsteringsmethode</em> gelijk is aan <em>opDiepteKernen</em> of <em>opDiepteUitsteken</em>.
+                     </p>
                      
                   </td>
                </tr>
@@ -5653,7 +5675,8 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>Het gegeven ontbreekt wanneer de waarde van het attribuut <em>apparaattype</em> gelijk is aan <em>guts</em>. In andere gevallen is het gegeven aanwezig.
+                        <p>Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>apparaattype</em> gelijk is aan <em>guts</em>.<br clear="none">
+                           Het attribuut moet aanwezig zijn in alle andere gevallen.
                         </p>
                         
                      </td>
@@ -5712,7 +5735,8 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>Het gegeven ontbreekt wanneer de waarde van het attribuut <em>apparaattype</em> gelijk is aan <em>guts</em>. In andere gevallen is het gegeven aanwezig.
+                        <p>Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>apparaattype</em> gelijk is aan <em>guts</em>.<br clear="none">
+                           Het attribuut moet aanwezig zijn in alle andere gevallen.
                         </p>
                         
                      </td>
@@ -5773,7 +5797,8 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>Het gegeven ontbreekt wanneer de waarde van het attribuut <em>apparaattype</em> gelijk is aan <em>guts</em>. In andere gevallen is het gegeven aanwezig.
+                        <p>Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>apparaattype</em> gelijk is aan <em>guts</em>.<br clear="none">
+                           Het attribuut moet aanwezig zijn in alle andere gevallen.
                         </p>
                         
                      </td>
@@ -5826,7 +5851,8 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>Het gegeven ontbreekt wanneer de waarde van het attribuut <em>apparaattype</em> gelijk is aan <em>guts</em>. In andere gevallen is het gegeven aanwezig.
+                        <p>Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>apparaattype</em> gelijk is aan <em>guts</em>.<br clear="none">
+                           Het attribuut moet aanwezig zijn in alle andere gevallen.
                         </p>
                         
                      </td>
@@ -5877,7 +5903,8 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>Het gegeven is aanwezig wanneer de waarde van het attribuut <em>apparaattype</em> gelijk is aan <em>steekbus</em>, <em>steekbusDLDS</em> of <em>steekbusMetLiner</em>. In andere gevallen ontbreekt het gegeven.
+                        <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>apparaattype</em> gelijk is aan <em>steekbus</em>, <em>steekbusDLDS</em> of <em>steekbusMetLiner</em>.<br clear="none">
+                           Het attribuut mag niet aanwezig zijn in alle andere gevallen.
                         </p>
                         
                      </td>
@@ -5936,7 +5963,8 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>Het gegeven is aanwezig wanneer de waarde van het attribuut <em>haakse steekmond</em> gelijk is aan <em>nee</em>. In andere gevallen ontbreekt het gegeven.
+                        <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>haakse steekmond</em> gelijk is aan <em>nee</em>.<br clear="none">
+                           Het attribuut mag niet aanwezig zijn in alle andere gevallen.
                         </p>
                         
                      </td>
@@ -5995,8 +6023,8 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>Het gegeven is aanwezig wanneer de waarde van het attribuut <em>apparaattype</em> gelijk is aan <em>steekbus</em>, <em>steekbusDLDS</em> of <em>steekbusMetLiner</em>. 
-                           In andere gevallen ontbreekt het gegeven.
+                        <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>apparaattype</em> gelijk is aan <em>steekbus</em>, <em>steekbusDLDS</em> of <em>steekbusMetLiner</em>.<br clear="none">
+                           Het attribuut mag niet aanwezig zijn in alle andere gevallen.
                         </p>
                         
                      </td>
@@ -6049,8 +6077,8 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>Het gegeven is aanwezig wanneer de waarde van het attribuut <em>apparaattype</em> gelijk is aan <em>corebarrelSingleTube</em>, <em>corebarrelDoubleTube</em>, <em>corebarrelTripleTube</em> of <em>steekbus</em>. 
-                           In andere gevallen ontbreekt het gegeven.
+                        <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>apparaattype</em> gelijk is aan <em>corebarrelSingleTube</em>, <em>corebarrelDoubleTube</em>, <em>corebarrelTripleTube</em> of steekbus.<br clear="none">
+                           Het attribuut mag niet aanwezig zijn in alle andere gevallen.
                         </p>
                         
                      </td>
@@ -6116,7 +6144,8 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>Het gegeven ontbreekt wanneer de waarde van het attribuut <em>apparaattype</em> gelijk is aan <em>guts</em>. In andere gevallen is het gegeven aanwezig.
+                        <p>Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>apparaattype</em> gelijk is aan <em>guts</em>.<br clear="none">
+                           Het attribuut moet aanwezig zijn in alle andere gevallen.
                         </p>
                         
                      </td>
@@ -6169,7 +6198,8 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>Het gegeven ontbreekt wanneer de waarde van het attribuut <em>apparaattype</em> gelijk is aan <em>guts</em>. In andere gevallen is het gegeven aanwezig.
+                        <p>Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>apparaattype</em> gelijk is aan <em>guts</em>.<br clear="none">
+                           Het attribuut moet aanwezig zijn in alle andere gevallen.
                         </p>
                         
                      </td>
@@ -6216,7 +6246,8 @@
                   <th>Regels</th>
                   <td>
                      
-                     <p>Het gegeven mag aanwezig zijn wanneer de waarde van het attribuut <em>bemonsteringsmethode</em> van de entiteit <em>Bemonsterd interval</em> gelijk is aan <em>opDiepteKernen</em> en de waarde van het attribuut <em>gesteente aangeboord</em> van de entiteit <em>Boring</em> gelijk is aan <em>ja</em>. In andere gevallen ontbreekt het gegeven.
+                     <p>De entiteit mag niet aanwezig zijn wanneer de waarde van het attribuut <em>gesteente</em> aangeboord van de entiteit <em>Boring</em> gelijk is aan <em>ja</em>.<br clear="none">
+                        De entiteit mag niet aanwezig zijn wanneer de waarde van het attribuut <em>bemonsteringsmethode</em> van de entiteit <em>Bemonsterd interval</em> niet gelijk is aan <em>opDiepteKernen</em>.
                      </p>
                      
                   </td>
@@ -6498,9 +6529,11 @@
                   <th>Regels</th>
                   <td>
                      
-                     <p>Het gegeven is aanwezig wanneer de waarde van het attribuut <em>ondergrond verontreinigd</em> van de entiteit <em>Boring</em> gelijk is aan <em>ja.</em> In andere gevallen ontbreekt het gegeven. 
-                        Verontreinigde intervallen overlappen elkaar niet.
+                     <p>De entiteit moet aanwezig zijn wanneer de waarde van het attribuut <em>ondergrond verontreinigd</em> van de entiteit <em>Boring</em> gelijk is aan <em>ja</em>.<br clear="none">
+                        De entiteit mag niet aanwezig zijn in alle andere gevallen.
                      </p>
+                     
+                     <p>De verontreinigde intervallen mogen elkaar niet overlappen.</p>
                      
                   </td>
                </tr>
@@ -6617,9 +6650,9 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>De einddiepte is groter dan de begindiepte van het interval. 
-                           De einddiepte van het onderste interval is niet groter de waarde van het attribuut
-                           <em>einddiepte boren</em> van de entiteit <em>Boring</em>.
+                        <p>De <em>einddiepte</em> moet groter zijn dan de <em>begindiepte</em> van het verontreinigd interval.<br clear="none">
+                           De <em>einddiepte</em> van het onderste verontreinigd interval mag niet groter zijn dan de waarde van het
+                           attribuut <em>einddiepte boren</em> van de entiteit <em>Boring</em>.
                         </p>
                         
                      </td>
@@ -6653,7 +6686,8 @@
                   <th>Regels</th>
                   <td>
                      
-                     <p>Wanneer de waarde van het attribuut <em>gat afgewerkt</em> van de entiteit <em>Boring</em> gelijk is aan <em>ja</em>, is het gegeven aanwezig. In andere gevallen ontbreekt het gegeven.
+                     <p>De entiteit moet aanwezig zijn wanneer de waarde van het attribuut <em>gat afgewerkt</em> van de entiteit <em>Boring</em> gelijk is aan <em>ja</em>.<br clear="none">
+                        De entiteit mag niet aanwezig zijn in alle andere gevallen.
                      </p>
                      
                   </td>
@@ -6892,7 +6926,8 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>Het gegeven is aanwezig wanneer de waarde van het attribuut <em>permanente verbuizing aanwezig</em> gelijk is aan <em>ja</em>. In andere gevallen ontbreekt het gegeven.
+                        <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>permanente verbuizing aanwezig</em> gelijk is aan <em>ja</em>.<br clear="none">
+                           Het attribuut mag niet aanwezig zijn in alle andere gevallen.
                         </p>
                         
                      </td>
@@ -6947,7 +6982,8 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>Het gegeven is aanwezig wanneer de waarde van het attribuut <em>permanente verbuizing aanwezig</em> gelijk is aan <em>ja</em>. In andere gevallen ontbreekt het gegeven.
+                        <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>permanente verbuizing aanwezig</em> gelijk is aan <em>ja</em>.<br clear="none">
+                           Het attribuut mag niet aanwezig zijn in alle andere gevallen.
                         </p>
                         
                      </td>
@@ -7059,7 +7095,8 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>Het gegeven is aanwezig wanneer de waarde van het <em>aanvulmateriaal</em> gelijk is aan <em>zand</em>, <em>zandGrof</em>, <em>zandMiddelgrof</em>, <em>zandMiddelgrofGrof</em>, <em>grind</em>, <em>grindZand</em>, <em>grindZandGrof</em> of <em>grindZandOngezeefd</em>. In andere gevallen ontbreekt het gegeven.
+                        <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>aanvulmateriaal</em> gelijk is aan <em>zand</em>, <em>zandGrof</em>, <em>zandMiddelgrof</em>, <em>zandMiddelgrofGrof</em>, <em>grind</em>, <em>grindZand</em>, <em>grindZandGrof</em> of <em>grindZandOngezeefd</em>.<br clear="none">
+                           Het attribuut mag niet aanwezig zijn in alle andere gevallen.
                         </p>
                         
                      </td>
@@ -7068,7 +7105,9 @@
                      <th>Regels IMBRO/A</th>
                      <td>
                         
-                        <p>Voor IMBRO/A-gegevens mag het gegeven ontbreken.</p>
+                        <p>Voor IMBRO/A-gegevens mag het attribuut ontbreken wanneer de waarde van het attribuut
+                           <em>aanvulmateriaal</em> gelijk is aan <em>zand</em>, <em>zandGrof</em>, <em>zandMiddelgrof</em>, <em>zandMiddelgrofGrof</em>, <em>grind</em>, <em>grindZand</em>, <em>grindZandGrof</em> of <em>grindZandOngezeefd</em>.
+                        </p>
                         
                      </td>
                   </tr>
@@ -7128,7 +7167,8 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>Het gegeven ontbreekt wanneer de waarde van het <em>aanvulmateriaal</em> gelijk is aan <em>geen</em>, <em>verwijderdMateriaal</em> of <em>wegverhardingsmateriaal</em>. In andere gevallen is het gegeven aanwezig.
+                        <p>Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>aanvulmateriaal</em> gelijk is aan <em>geen</em>, <em>verwijderdMateriaal</em> of <em>wegverhardingsmateriaal</em>.<br clear="none">
+                           Het attribuut moet aanwezig zijn in alle andere gevallen.
                         </p>
                         
                      </td>
@@ -7137,7 +7177,9 @@
                      <th>Regels IMBRO/A</th>
                      <td>
                         
-                        <p>Voor IMBRO/A-gegevens mag het gegeven ontbreken.</p>
+                        <p>Voor IMBRO/A-gegevens mag het attribuut ontbreken wanneer de waarde van het attribuut
+                           <em>aanvulmateriaal</em> niet gelijk is aan <em>geen</em>, <em>verwijderdMateriaal</em> of <em>wegverhardingsmateriaal</em>.
+                        </p>
                         
                      </td>
                   </tr>
@@ -7184,7 +7226,7 @@
                   <th>Regels</th>
                   <td>
                      
-                     <p>Het gegeven ontbreekt wanneer de waarde van het attribuut <em>lokaal verticaal referentiepunt</em> gelijk is aan <em>maaiveld</em>. In andere gevallen mag het gegeven ontbreken.
+                     <p>De entiteit mag niet aanwezig zijn wanneer de waarde van het attribuut <em>lokaal verticaal referentiepunt</em> gelijk is aan <em>maaiveld</em>.
                      </p>
                      
                   </td>
@@ -7634,8 +7676,8 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>De organisatie moet binnen de basisregistratie ondergrond als uitvoerder van booronderzoek
-                           bekend zijn.
+                        <p>De organisatie moet bekend zijn binnen de basisregistratie ondergrond als uitvoerder
+                           van booronderzoek bekend zijn.
                         </p>
                         
                      </td>
@@ -7750,7 +7792,7 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>Wanneer de waarde van het attribuut <em>kader inwinning</em> van de entiteit <em>Booronderzoek</em> gelijk is aan <em>verkennendOnderzoek</em> is de waarde gelijk aan <em>klasse3</em>.
+                        <p>De waarde van het attribuut moet gelijk zijn aan <em>klasse3</em> wanneer de waarde van het attribuut <em>kader inwinning</em> van de entiteit <em>Booronderzoek</em> gelijk is aan <em>verkennendOnderzoek</em>.
                         </p>
                         
                      </td>
@@ -7759,7 +7801,8 @@
                      <th>Regels IMBRO/A</th>
                      <td>
                         
-                        <p>Wanneer de waarde van het attribuut <em>beschrijfprocedure</em> van de entiteit <em>Boormonsterbeschrijving</em> gelijk is aan <em>NEN5104Synthetisch</em>, is de waarde van het gegeven gelijk aan <em>nietGespecificeerd</em>. In andere gevallen is de waarde <em>nietGespecificeerd</em> niet toegestaan.
+                        <p>Voor IMBRO/A-gegevens moet de waarde van het attribuut gelijk zijn aan <em>nietGespecificeerd</em> wanneer de waarde van het attribuut <em>beschrijfprocedure</em> van de entiteit <em>Boormonsterbeschrijving</em> gelijk is aan <em>NEN5104Synthetisch</em>.<br clear="none">
+                           Voor IMBRO/A-gegevens mag de waarde van het attribuut niet gelijk zijn aan <em>nietGespecificeerd</em> wanneer de waarde van het attribuut <em>beschrijfprocedure</em> van de entiteit <em>Boormonsterbeschrijving</em> niet gelijk is aan <em>NEN5104Synthetisch</em>.
                         </p>
                         
                      </td>
@@ -7905,7 +7948,7 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>Wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> gelijk is aan <em>klasse2ongedifferentieerd</em>, is de waarde gelijk aan <em>veld</em>.
+                        <p>De waarde van het attribuut moet gelijk zijn aan <em>veld</em> wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> gelijk is aan <em>klasse2ongedifferentieerd</em>.
                         </p>
                         
                      </td>
@@ -7914,7 +7957,7 @@
                      <th>Regels IMBRO/A</th>
                      <td>
                         
-                        <p>Wanneer de waarde van het attribuut <em>beschrijfprocedure</em> van de entiteit <em>Boormonsterbeschrijving</em> niet gelijk is aan <em>NEN5104Synthetisch</em>, is de waarde <em>onbekend</em> niet toegestaan.
+                        <p>Voor IMBRO/A-gegevens mag de waarde van het attribuut niet gelijk zijn aan <em>onbekend</em> wanneer de waarde van het attribuut <em>beschrijfprocedure</em> van de entiteit <em>Boormonsterbeschrijving</em> niet gelijk is aan <em>NEN5104Synthetisch</em>.
                         </p>
                         
                      </td>
@@ -7987,7 +8030,7 @@
                      <th>Regels IMBRO/A</th>
                      <td>
                         
-                        <p>Voor IMBRO/A-gegevens is de waarde van het gegeven gelijk aan <em>grond</em>.
+                        <p>Voor IMBRO/A-gegevens moet de waarde van het attribuut gelijk zijn aan <em>grond</em>.
                         </p>
                         
                      </td>
@@ -8042,7 +8085,7 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>beschreven materiaal</em> gelijk is aan <em>Gesteente</em>. 
+                        <p>Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>beschreven materiaal</em> gelijk is aan <em>gesteente</em>.<br clear="none">
                            Het attribuut moet aanwezig zijn in alle andere gevallen.
                         </p>
                         
@@ -8107,7 +8150,8 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>Het gegeven is aanwezig wanneer de waarde van het attribuut <em>beschrijflocatie</em> van de entiteit <em>Boorprofiel</em> gelijk is aan <em>veld</em> of <em>veldlab</em>. In andere gevallen ontbreekt het gegeven.
+                        <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijflocatie</em> van de entiteit <em>Boorprofiel</em> gelijk is aan <em>veld</em> of <em>veldlab</em>.<br clear="none">
+                           Het attribuut mag niet aanwezig zijn in alle andere gevallen.
                         </p>
                         
                      </td>
@@ -8187,8 +8231,10 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>Het gegeven ontbreekt wanneer de waarde van het attribuut <em>beschreven materiaal</em> gelijk is aan <em>gesteente</em>. In andere gevallen mag het gegeven ontbreken. 
-                           De waarde van het gegeven mag niet groter zijn dan de waarde van het attribuut <em>einddiepte boren</em> van de entiteit <em>Boring</em>.
+                        <p>Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>beschreven materiaal</em> gelijk is aan <em>gesteente</em>.
+                        </p>
+                        
+                        <p>De waarde van het attribuut mag niet groter zijn dan de waarde van het attribuut <em>einddiepte boren</em> van de entiteit <em>Boring</em>.
                         </p>
                         
                      </td>
@@ -8266,9 +8312,12 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>Het gegeven ontbreekt wanneer de waarde van het attribuut <em>beschreven materiaal</em> gelijk is aan <em>gesteente</em>. In andere gevallen mag het gegeven ontbreken. 
-                           De waarde van het gegeven is niet kleiner dan de waarde van het attribuut <em>gemiddeld hoogste grondwaterstand</em>. 
-                           De waarde van het gegeven is niet groter dan de waarde van het attribuut <em>einddiepte boren</em> van de entiteit <em>Boring</em>.
+                        <p>Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>beschreven materiaal</em> gelijk is aan <em>gesteente</em>.
+                        </p>
+                        
+                        <p>De waarde van het attribuut mag niet kleiner zijn dan de waarde van het attribuut
+                           <em>gemiddeld hoogste grondwaterstand</em>.<br clear="none">
+                           De waarde van het attribuut mag niet groter zijn dan de waarde van het attribuut <em>einddiepte boren</em> van de entiteit <em>Boring</em>.
                         </p>
                         
                      </td>
@@ -8325,7 +8374,7 @@
                   <th>Regels</th>
                   <td>
                      
-                     <p>Het attribuut <em>bijzonder materiaal</em>, de entiteit <em>Grond</em> of de entiteit <em>Gesteente</em> is aanwezig. De andere gegevens ontbreken.
+                     <p>Exact één van de volgende gegevens moet aanwezig zijn: Het attribuut <em>bijzonder materiaal</em>, de entiteit <em>Grond</em> of de entiteit <em>Gesteente</em>.
                      </p>
                      
                   </td>
@@ -8402,10 +8451,10 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>Wanneer de waarde van het attribuut <em>continu bemonsterd</em> van de entiteit <em>Boorprofiel</em> gelijk is aan <em>ja</em>, is het boorprofiel beschreven als een opeenvolging van lagen en niet-beschreven
-                           intervallen en die sluiten precies op elkaar aan. 
-                           Wanneer de waarde van het attribuut <em>continu bemonsterd</em> van de entiteit <em>Boorprofiel</em> gelijk is aan <em>nee</em>, is het boorprofiel beschreven als een opeenvolging van lagen en niet-beschreven
-                           intervallen en die overlappen elkaar niet.
+                        <p>De lagen en niet-beschreven intervallen van het boorprofiel moet precies op elkaar
+                           aansluiten wanneer de waarde van het attribuut <em>continu bemonsterd</em> van de entiteit <em>Boorprofiel</em> gelijk is aan <em>ja</em>.<br clear="none">
+                           De lagen en niet-beschreven intervallen van het boorprofiel mogen elkaar niet overlappen
+                           wanneer de waarde van het attribuut <em>continu bemonsterd</em> van de entiteit <em>Boorprofiel</em> gelijk is aan <em>nee</em>.
                         </p>
                         
                      </td>
@@ -8538,10 +8587,12 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>De ondergrens is groter dan de bovengrens van de laag. 
-                           Het verschil tussen de diepte van de ondergrens en de bovengrens van een laag is niet
-                           kleiner dan 0.02 meter en niet groter dan 1 meter. 
-                           De ondergrens van de onderste laag is niet groter dan de <em>einddiepte bemonstering</em> van de entiteit <em>Boring</em>.
+                        <p>De <em>ondergrens</em> moet groter zijn dan de <em>bovengrens</em> van de laag.<br clear="none">
+                           Het verschil tussen de <em>ondergrens</em> en de <em>bovengrens</em> van de laag mag niet kleiner zijn dan <em>0</em>.<em>02</em> meter.<br clear="none">
+                           Het verschil tussen de <em>ondergrens</em> en de <em>bovengrens</em> van de laag mag niet groter zijn dan <em>1</em> meter.
+                        </p>
+                        
+                        <p>De <em>ondergrens</em> van de onderste laag mag niet groter zijn dan de waarde van het attribuut <em>einddiepte bemonstering</em> van de entiteit <em>Boring</em>.
                         </p>
                         
                      </td>
@@ -8553,9 +8604,9 @@
                         <p>In afwijking van de regel dat het verschil tussen de diepte van de ondergrens en de
                            bovengrens van een laag niet kleiner is dan 0.02 meter en niet groter dan 1 meter,
                            wordt er voor IMBRO/A geen beperking gesteld aan de laagdikte.
-                           Voor IMBRO/A-gegevens kan de einddiepte bemonstering niet bekend zijn, in dat geval
-                           is de ondergrens van de onderste laag niet groter dan de einddiepte boren van de entiteit
-                           Boring.
+                        </p>
+                        
+                        <p>De <em>ondergrens</em> van de onderste laag mag niet groter zijn dan de waarde van het attribuut <em>einddiepte boren</em> van de entiteit <em>Boring</em> wanneer de waarde van het attribuut <em>einddiepte bemonstering</em> van de entiteit <em>Boring</em> ontbreekt.
                         </p>
                         
                      </td>
@@ -8744,7 +8795,8 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>Het gegeven is aanwezig wanneer de waarde van het attribuut <em>antropogeen</em> gelijk is aan <em>ja</em>. In andere gevallen ontbreekt het gegeven.
+                        <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> van de entiteit <em>Boorprofiel</em> gelijk is aan <em>klasse2ongeroerd</em> en de waarde van het attribuut <em>antropogeen</em> gelijk is aan <em>ja</em>.<br clear="none">
+                           Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>antropogeen</em> niet gelijk is aan <em>ja</em>.
                         </p>
                         
                      </td>
@@ -8871,8 +8923,8 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>Het gegeven is aanwezig wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> gelijk is aan <em>klasse2ongeroerd</em> of <em>klasse2ongedifferentieerd</em> en het gegeven <em>bijzonder materiaal</em> ontbreekt. 
-                           In andere gevallen ontbreekt het gegeven.
+                        <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> gelijk is aan <em>klasse2ongeroerd</em> of <em>klasse2ongedifferentieerd</em> en het attribuut <em>bijzonder materiaal</em> ontbreekt.<br clear="none">
+                           Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> gelijk is aan <em>klasse2geroerd</em>.
                         </p>
                         
                      </td>
@@ -8881,7 +8933,11 @@
                      <th>Toelichting</th>
                      <td>
                         
-                        <p>Het gegeven is onder NEN 5104 niet vastgelegd.</p>
+                        <p>Voor klasse 3 bestaat vrijheid van keuze, omdat een combinatie van factoren bepaalt
+                           of het gegeven mag bestaan (de precieze strekking van de opdracht, de keuze die de
+                           uitvoerder maakt en de kwaliteit van de monsters).<br clear="none">
+                           Het gegeven is onder NEN 5104 niet vastgelegd.
+                        </p>
                         
                      </td>
                   </tr>
@@ -8931,7 +8987,8 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>Het gegeven is aanwezig wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> gelijk is aan <em>klasse2ongeroerd</em> en mag aanwezig zijn wanneer de waarde gelijk is aan <em>klasse2ongedifferentieerd.</em> In andere gevallen ontbreekt het gegeven.
+                        <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>interne structuur intact</em> gelijk is aan <em>ja</em>.<br clear="none">
+                           Het attribuut mag niet aanwezig zijn in alle andere gevallen.
                         </p>
                         
                      </td>
@@ -8943,7 +9000,8 @@
                         <p>Lagen in de ondergrond liggen niet altijd horizontaal. Onder bepaalde omstandigheden
                            worden lagen onder een hoek afgezet en na afzetting kunnen lagen zijn scheefgesteld
                            doordat ze onder druk zijn komen te staan. Het gegeven moet in die context worden
-                           begrepen. 
+                           begrepen. Een laag staat scheef wanneer de laaggrens een hoek groter dan 15 graden
+                           maakt met een doorsnede loodrecht op de lengte richting van het monster.<br clear="none">
                            Het gegeven is onder NEN 5104 niet vastgelegd. 
                         </p>
                         
@@ -8995,9 +9053,8 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>Het gegeven is aanwezig wanneer de waarde van het attribuut <em>interne structuur intact</em> gelijk is aan <em>ja</em>. 
-                           Het gegeven mag aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> gelijk is aan <em>klasse3</em> en het gegeven <em>bijzonder materiaal</em> ontbreekt. 
-                           In andere gevallen ontbreekt het gegeven.
+                        <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>interne structuur intact</em> gelijk is aan <em>ja</em>.<br clear="none">
+                           Het attribuut mag niet aanwezig zijn in alle andere gevallen.
                         </p>
                         
                      </td>
@@ -9006,7 +9063,8 @@
                      <th>Regels IMBRO/A</th>
                      <td>
                         
-                        <p>Wanneer de waarde van het attribuut <em>beschrijfprocedure</em> van de entiteit <em>Boormonsterbeschrijving</em> gelijk is aan <em>NEN5104Synthetisch,</em> mag het gegeven aanwezig zijn. 
+                        <p>Voor IMBRO/A-gegevens mag het attribuut ontbreken wanneer de waarde van het attribuut
+                           <em>interne structuur intact</em> gelijk is aan <em>ja</em> en de waarde van het attribuut <em>beschrijfprocedure</em> van de entiteit <em>Boormonsterbeschrijving</em> gelijk is aan <em>NEN5104Synthetisch</em>.
                         </p>
                         
                      </td>
@@ -9015,12 +9073,11 @@
                      <th>Toelichting</th>
                      <td>
                         
-                        <p>Het gegeven wordt in een klasse2 boorprofiel vastgelegd wanneer de kwaliteit van de
-                           grond- of gesteentemonsters dat rechtvaardigt en dat is wanneer de interne structuur
-                           intact is.
-                           Voor klasse 3 bestaat vrijheid van keuze, omdat een combinatie van factoren bepaalt
-                           of het gegeven mag bestaan (de  precieze strekking van de opdracht, de keuze die de
-                           uitvoerder maakt en de kwaliteit van de monsters).
+                        <p>Het gegeven wordt vastgelegd wanneer de kwaliteit van de grond- of gesteentemonsters
+                           dat rechtvaardigt en dat is wanneer de interne structuur intact is, maar dat geldt
+                           niet onverkort voor organische grond. In de praktijk worden laagjes organische grond
+                           dikker dan 2 centimeter apart beschreven en alleen bij een zeer hoge monsterkwaliteit
+                           wordt het al dan niet gelamineerd zijn (zie gelaagdheid) van die laagjes beschreven.
                         </p>
                         
                      </td>
@@ -9073,8 +9130,8 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>Het gegeven is aanwezig wanneer de waarde van het attribuut <em>gelaagd</em> gelijk is aan <em>ja.</em> 
-                           In andere gevallen ontbreekt het gegeven.
+                        <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>gelaagd</em> gelijk is aan <em>ja</em>.<br clear="none">
+                           Het attribuut mag niet aanwezig zijn in alle andere gevallen.
                         </p>
                         
                      </td>
@@ -9144,8 +9201,8 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>Het gegeven is aanwezig wanneer de waarde van het attribuut <em>gelaagd</em> gelijk is aan <em>ja</em> en de waarde van het attribuut <em>samengesteld</em> gelijk is aan <em>nee</em>. 
-                           In andere gevallen ontbreekt het gegeven.
+                        <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>gelaagd</em> gelijk is aan ja en de waarde van het attribuut <em>samengesteld</em> gelijk is aan <em>nee</em>.<br clear="none">
+                           Het attribuut mag niet aanwezig zijn in alle andere gevallen.
                         </p>
                         
                      </td>
@@ -9527,7 +9584,7 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>Het gegeven mag ontbreken wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> gelijk is aan <em>klasse3</em>. In andere gevallen is het gegeven aanwezig.
+                        <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>geotechnische grondsoort</em> gelijk is aan <em>keien</em>, <em>keienMetGrind</em>, <em>keienMetZand</em>, <em>keienMetSilt</em>, <em>keienMetKlei</em>, <em>keitjes</em>, <em>keitjesMetGrind</em>, <em>keitjesMetZand</em>, <em>keitjesMetSilt</em>, <em>keitjesMetKlei</em>, <em>grind</em>, <em>grindMetKeien</em>, <em>grindMetKeitjes</em>, <em>zwakZandigGrind</em>, <em>sterkZandigGrind</em>, <em>siltigGrind</em>, <em>kleiigGrind</em>, <em>zand</em>, <em>zandMetKeien</em>, <em>zandMetKeitjes</em>, <em>zwakGrindigZand</em>, <em>sterkGrindigZand</em>, <em>siltigZand</em>, <em>siltigZandMetGrind</em>, <em>kleiigZand</em>, <em>kleiigZandMetGrind</em>, <em>silt</em>, <em>siltMetKeien</em>, <em>siltMetKeitjes</em>, <em>zwakGrindigSilt</em>, <em>sterkGrindigSilt</em>, <em>zwakZandigSilt</em>, <em>zwakZandigSiltMetGrind</em>, <em>sterkZandigSilt</em>, <em>sterkZandigSiltMetGrind</em>, <em>klei</em>, <em>kleiMetKeien</em>, <em>kleiMetKeitjes</em>, <em>zwakGrindigeKlei</em>, <em>sterkGrindigeKlei</em>, <em>zwakZandigeKlei</em>, <em>zwakZandigeKleiMetGrind</em>, <em>sterkZandigeKlei</em> of <em>sterkZandigeKleiMetGrind</em>.
                         </p>
                         
                      </td>
@@ -9680,7 +9737,7 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>Het gegeven is aanwezig wanneer de waarde van het attribuut <em>interne structuur intact</em> gelijk is aan <em>ja.</em> In andere gevallen ontbreekt het gegeven. 
+                        <p>Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> van de entiteit <em>Boorprofiel</em> gelijk is aan <em>klasse2geroerd</em>.
                         </p>
                         
                      </td>
@@ -9748,8 +9805,8 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>Het gegeven is aanwezig wanneer de waarde van het attribuut <em>samengestelde laag</em> gelijk is aan <em>ja</em>. 
-                           In andere gevallen ontbreekt het gegeven.
+                        <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>samengestelde laag</em> gelijk is aan <em>ja</em>.<br clear="none">
+                           Het attribuut mag niet aanwezig zijn in alle andere gevallen.
                         </p>
                         
                      </td>
@@ -9806,7 +9863,7 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>Het gegeven mag ontbreken wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> gelijk is aan <em>klasse3.</em> In andere gevallen is het gegeven aanwezig. 
+                        <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> niet gelijk is aan <em>klasse3</em>.
                         </p>
                         
                      </td>
@@ -9815,7 +9872,8 @@
                      <th>Regels IMBRO/A</th>
                      <td>
                         
-                        <p>Wanneer de waarde van het attribuut <em>beschrijfprocedure</em> van de entiteit <em>Boormonsterbeschrijving</em> gelijk is aan <em>NEN5104Synthetisch</em>, mag het gegeven ontbreken.
+                        <p>Voor IMBRO/A-gegevens mag het attribuut ontbreken wanneer de waarde van het attribuut
+                           <em>beschrijfprocedure</em> van de entiteit <em>Boormonsterbeschrijving</em> gelijk is aan <em>NEN5104Synthetisch</em>.
                         </p>
                         
                      </td>
@@ -9884,9 +9942,9 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>geotechnische grondsoort</em> gelijk is aan <em>keien</em>, <em>keienMetGrind</em>, <em>keienMetZand</em>, <em>keienMetSilt</em>, <em>keienMetKlei</em>, <em>keitjes</em>, <em>keitjesMetGrind</em>, <em>keitjesMetZand</em>, <em>keitjesMetSilt</em>, <em>keitjesMetKlei</em>, <em>detritus</em>, <em>zwakZandigeDetritus</em>, <em>sterkZandigeDetritus</em>, <em>siltigeDetritus</em>, <em>kleiigeDetritus</em>, <em>humus</em>, <em>zwakZandigeHumus</em>, <em>sterkZandigeHumus</em>, <em>siltigeHumus</em>, <em>kleiigeHumus</em>, <em>veen</em>, <em>zwakZandigVeen</em>, <em>sterkZandigVeen</em>, <em>siltigVeen</em>, <em>kleiigVeen</em>, <em>bruinkool</em> of <em>gyttja</em>.
-                           Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> van de entiteit Boorprofiel gelijk is aan <em>klasse2Geroerd</em> of <em>klasse3</em>.
-                           Het attribuut moet aanwezig zijn in alle andere gevallen.
+                        <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> van de entiteit <em>Boorprofiel</em> gelijk is aan <em>klasse2ongeroerd</em> en de waarde van het attribuut <em>geotechnische grondsoort</em> gelijk is aan <em>grind</em>, <em>grindMetKeien</em>, <em>grindMetKeitjes</em>, <em>zwakZandigGrind</em>, <em>sterkZandigGrind</em>, <em>siltigGrind</em>, <em>kleiigGrind</em>, <em>zand</em>, <em>zandMetKeien</em>, <em>zandMetKeitjes</em>, <em>zwakGrindigZand</em>, <em>sterkGrindigZand</em>, <em>siltigZand</em>, <em>siltigZandMetGrind</em>, <em>kleiigZand</em>, <em>kleiigZandMetGrind</em>, <em>silt</em>, <em>siltMetKeien</em>, <em>siltMetKeitjes</em>, <em>zwakGrindigSilt</em>, <em>sterkGrindigSilt</em>, <em>zwakZandigSilt</em>, <em>zwakZandigSiltMetGrind</em>, <em>sterkZandigSilt</em>, <em>sterkZandigSiltMetGrind</em>, <em>klei</em>, <em>kleiMetKeien</em>, <em>kleiMetKeitjes</em>, <em>zwakGrindigeKlei</em>, <em>sterkGrindigeKlei</em>, <em>zwakZandigeKlei</em>, <em>zwakZandigeKleiMetGrind</em>, <em>sterkZandigeKlei</em> of <em>sterkZandigeKleiMetGrind</em>.<br clear="none">
+                           Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> van de entiteit <em>Boorprofiel</em> gelijk is aan <em>klasse2geroerd</em>.<br clear="none">
+                           
                         </p>
                         
                      </td>
@@ -9895,7 +9953,8 @@
                      <th>Regels IMBRO/A</th>
                      <td>
                         
-                        <p>Wanneer de waarde van het attribuut <em>beschrijfprocedure</em> van de entiteit <em>Boormonsterbeschrijving</em> gelijk is aan <em>NEN5104Synthetisch,</em> mag het gegeven ontbreken.
+                        <p>Voor IMBRO/A-gegevens mag het attribuut ontbreken wanneer de waarde van het attribuut
+                           <em>beschrijfprocedure</em> van de entiteit <em>Boormonsterbeschrijving</em> gelijk is aan <em>NEN5104Synthetisch</em>.
                         </p>
                         
                      </td>
@@ -9904,8 +9963,11 @@
                      <th>Toelichting</th>
                      <td>
                         
-                        <p>Het kalkgehalte wordt geschat naar de mate van opbruisen met verdund zoutzuur (10%
-                           HCl).
+                        <p>Het kalkgehalte wordt geschat naar de mate van opbruisen met verdund zoutzuur (10
+                           % HCl).<br clear="none">
+                           Het&nbsp; kalkgehalte wordt niet bepaald als de grond is geclassificeerd als zeer grove
+                           grond of als organische grond en de primaire fractie uit veen, humus, detritus, bruinkool
+                           of gyttja bestaat.
                         </p>
                         
                      </td>
@@ -9960,8 +10022,7 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>Het gegeven ontbreekt wanneer de waarde van het attribuut <em>geotechnische grondsoort</em> gelijk is aan <em>detritus</em>, <em>zwakZandigeDetritus</em>, <em>sterkZandigeDetritus</em>, <em>siltigeDetritus</em>, <em>kleiigeDetritus</em>, <em>humus</em>, <em>zwakZandigeHumus</em>, <em>sterkZandigeHumus</em>, <em>siltigeHumus</em>, <em>kleiigeHumus</em>, <em>veen</em>, <em>zwakZandigVeen</em>, <em>sterkZandigVeen</em>, <em>siltigVeen</em>, <em>kleiigVeen</em>, <em>bruinkool</em> of <em>gyttja</em>. 
-                           In andere gevallen is het gegeven aanwezig.
+                        <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> van de entiteit <em>Boorprofiel</em> gelijk is aan <em>klasse2geroerd</em>, <em>klasse2ongeroerd</em> of <em>klasse2ongedifferentieerd&nbsp;en</em> de waarde van het attribuut <em>geotechnische grondsoort</em> niet gelijk is aan <em>detritus</em>, <em>zwakZandigeDetritus</em>, <em>sterkZandigeDetritus</em>, <em>siltigeDetritus</em>, <em>kleiigeDetritus</em>, <em>humus</em>, <em>zwakZandigeHumus</em>, <em>sterkZandigeHumus</em>, <em>siltigeHumus</em>, <em>kleiigeHumus</em>, <em>veen</em>, <em>zwakZandigVeen</em>, <em>sterkZandigVeen</em>, <em>siltigVeen</em>, <em>kleiigVeen</em>, <em>bruinkool</em> of <em>gyttja</em>. 
                         </p>
                         
                      </td>
@@ -9970,7 +10031,7 @@
                      <th>Regels IMBRO/A</th>
                      <td>
                         
-                        <p>Wanneer de waarde van het attribuut <em>beschrijfprocedure</em> van de entiteit <em>Boormonsterbeschrijving</em> gelijk is aan <em>NEN5104Synthetisch</em>, ontbreekt het gegeven.
+                        <p>Wanneer de waarde van het attribuut beschrijfprocedure van de entiteit <em>Boormonsterbeschrijving</em> gelijk is aan <em>NEN5104Synthetisch</em>, ontbreekt het gegeven.
                         </p>
                         
                      </td>
@@ -10036,8 +10097,7 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>Het gegeven mag aanwezig zijn wanneer de waarde van het attribuut <em>interne structuur intact</em> gelijk is aan <em>ja</em>. 
-                           In andere gevallen ontbreekt het gegeven.
+                        <p>Het gegeven mag niet aanwezig zijn wanneer de waarde van het attribuut <em>interne structuur intact</em> gelijk is aan <em>nee</em>.
                         </p>
                         
                      </td>
@@ -10105,8 +10165,7 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>Het gegeven mag aanwezig zijn wanneer de waarde van het attribuut <em>interne structuur intact</em> gelijk is aan <em>ja</em>. 
-                           In andere gevallen ontbreekt het gegeven.
+                        <p>Het gegeven mag niet aanwezig zijn wanneer de waarde van het attribuut <em>interne structuur intact</em> gelijk is aan <em>nee</em>.
                         </p>
                         
                      </td>
@@ -10176,8 +10235,7 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>Het gegeven mag aanwezig zijn wanneer de waarde van het attribuut <em>interne structuur intact</em> gelijk is aan <em>ja</em>. 
-                           In andere gevallen ontbreekt het gegeven.
+                        <p>Het gegeven mag niet aanwezig zijn wanneer de waarde van het attribuut <em>interne structuur intact</em> gelijk is aan <em>nee</em>.
                         </p>
                         
                      </td>
@@ -10243,7 +10301,7 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>Het gegeven mag alleen aanwezig zijn wanneer de waarde van het attribuut <em>vermengd</em> gelijk is aan <em>ja</em>. In andere gevallen ontbreekt het gegeven.
+                        <p>Het gegeven mag niet aanwezig zijn wanneer de waarde van het attribuut <em>vermengd</em> gelijk is aan <em>nee</em>.
                         </p>
                         
                      </td>
@@ -10309,8 +10367,8 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>Het gegeven is aanwezig wanneer de waarde van het attribuut <em>geotechnische grondsoort</em> gelijk is aan <em>keienMetGrind</em>, <em>keitjesMetGrind</em>, <em>grind</em>, <em>grindMetKeien</em>, <em>grindMetKeitjes</em>, <em>zwakZandigGrind</em>, <em>sterkZandigGrind</em>, <em>siltigGrind</em>, <em>kleiigGrind</em>, <em>zwakGrindigZand</em>, <em>sterkGrindigZand</em>, <em>siltigZandMetGrind</em>, <em>kleiigZandMetGrind</em>, <em>zwakGrindigSilt</em>, <em>sterkGrindigSilt</em>, <em>zwakZandigSiltMetGrind</em>, <em>sterkZandigSiltMetGrind</em>, <em>zwakGrindigeKlei</em>, <em>sterkGrindigeKlei</em>, <em>zwakZandigeKleiMetGrind</em> of <em>sterkZandigeKleiMetGrind</em>. 
-                           In andere gevallen ontbreekt het gegeven.
+                        <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>geotechnische grondsoort</em> gelijk is aan <em>grind</em>, <em>grindMetKeien</em>, <em>grindMetKeitjes</em>, <em>zwakZandigGrind</em>, <em>sterkZandigGrind</em>, <em>siltigGrind</em> of <em>kleiigGrind</em>.<br clear="none">
+                           Het attribuut mag niet aanwezig zijn in alle andere gevallen.
                         </p>
                         
                      </td>
@@ -10329,7 +10387,7 @@
                      <th>Toelichting</th>
                      <td>
                         
-                        <p>De grindmediaan wordt bepaald wanneer de grond grind bevat.</p>
+                        <p>De grindmediaan wordt bepaald wanneer de primaire fractie grind is.</p>
                         
                      </td>
                   </tr>
@@ -10578,8 +10636,8 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>Het gegeven is aanwezig wanneer de waarde van het attribuut <em>geotechnische grondsoort</em> gelijk is aan <em>zand, zandMetKeien, zandMetKeitjes, zwakGrindigZand, sterkGrindigZand, siltigZand,
-                              siltigZandMetGrind, kleiigZand of kleiigZandMetGrind</em>. In andere gevallen ontbreekt het gegeven.
+                        <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>geotechnische grondsoort</em> gelijk is aan <em>zand</em>, <em>zandMetKeien</em>, <em>zandMetKeitjes</em>, <em>zwakGrindigZand</em>, <em>sterkGrindigZand</em>, <em>siltigZand</em>, <em>siltigZandMetGrind</em>, <em>kleiigZand</em> of <em>kleiigZandMetGrind</em>.<br clear="none">
+                           Het attribuut mag niet aanwezig zijn in alle andere gevallen.
                         </p>
                         
                      </td>
@@ -10720,8 +10778,7 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>Het gegeven mag aanwezig zijn wanneer de waarde van het attribuut <em>geotechnische grondsoort</em> gelijk is aan <em>veen, zwakZandigVeen, sterkZandigVeen, siltigVeen</em> of <em>kleiigVeen</em>. 
-                           In andere gevallen ontbreekt het gegeven.
+                        <p>Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>geotechnische grondsoort</em> niet gelijk is aan <em>veen</em>, <em>zwakZandigVeen</em>, <em>sterkZandigVeen</em>, <em>siltigVeen</em> of <em>kleiigVeen</em>.
                         </p>
                         
                      </td>
@@ -10730,7 +10787,7 @@
                      <th>Regels IMBRO/A</th>
                      <td>
                         
-                        <p>Wanneer de waarde van het attribuut <em>beschrijfprocedure</em> van de entiteit <em>Boormonsterbeschrijving</em> gelijk is aan <em>NEN5104Synthetisch</em>, mag het gegeven aanwezig zijn wanneer de waarde van het attribuut <em>grondsoort NEN5104</em> gelijk is aan <em>mineraalarmVeen</em>, <em>zwakKleiigVeen</em>, <em>sterkKleiigVeen</em>, <em>zwakZandigVeen</em> of <em>sterkZandigVeen</em>.
+                        <p>Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfprocedure</em> van de entiteit <em>Boormonsterbeschrijving</em> gelijk is aan <em>NEN5104Synthetisch</em> en de waarde van het attribuut <em>grondsoort NEN5104</em> niet gelijk is aan <em>mineraalarmVeen</em>, <em>zwakKleiigVeen</em>, <em>sterkKleiigVeen</em>, <em>zwakZandigVeen</em> of <em>sterkZandigVeen</em>.
                         </p>
                         
                      </td>
@@ -10795,9 +10852,9 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> van de entiteit <em>Boorprofiel</em> gelijk is aan <em>klasse2Ongeroerd</em> en de waarde van het attribuut <em>geotechnische grondsoort</em> gelijk is aan <em>detritus</em>, <em>zwakZandigeDetritus</em>, <em>sterkZandigeDetritus</em>, <em>siltigeDetritus</em>, <em>kleiigeDetritus</em>, <em>humus</em>, <em>zwakZandigeHumus</em>, <em>sterkZandigeHumus</em>, <em>siltigeHumus</em>, <em>kleiigeHumus</em>, <em>veen</em>, <em>zwakZandigVeen</em>, <em>sterkZandigVeen</em>, <em>siltigVeen</em> of <em>kleiigVeen</em>. 
-                           Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>geotechnische grondsoort</em> niet gelijk is aan <em>detritus</em>, <em>zwakZandigeDetritus</em>, <em>sterkZandigeDetritus</em>, <em>siltigeDetritus</em>, <em>kleiigeDetritus</em>, <em>humus</em>, <em>zwakZandigeHumus</em>, <em>sterkZandigeHumus</em>, <em>siltigeHumus</em>, <em>kleiigeHumus</em>, <em>veen</em>, <em>zwakZandigVeen</em>, <em>sterkZandigVeen</em>, <em>siltigVeen</em> of <em>kleiigVeen</em>.
-                           Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> van de entiteit <em>Boorprofiel</em> gelijk is aan <em>klasse2Geroerd</em>.
+                        <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> van de entiteit <em>Boorprofiel</em> gelijk is aan <em>klasse2ongeroerd</em> en de waarde van het attribuut <em>geotechnische grondsoort</em> gelijk is aan <em>detritus</em>, <em>zwakZandigeDetritus</em>, <em>sterkZandigeDetritus</em>, <em>siltigeDetritus</em>, <em>kleiigeDetritus</em>, <em>humus</em>, <em>zwakZandigeHumus</em>, <em>sterkZandigeHumus</em>, <em>siltigeHumus</em>, <em>kleiigeHumus</em>, <em>veen</em>, <em>zwakZandigVeen</em>, <em>sterkZandigVeen</em>, <em>siltigVeen</em> of <em>kleiigVeen</em>.<br clear="none">
+                           Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>geotechnische grondsoort</em> niet gelijk is aan <em>detritus</em>, <em>zwakZandigeDetritus</em>, <em>sterkZandigeDetritus</em>, <em>siltigeDetritus</em>, <em>kleiigeDetritus</em>, <em>humus</em>, <em>zwakZandigeHumus</em>, <em>sterkZandigeHumus</em>, <em>siltigeHumus</em>, <em>kleiigeHumus</em>, <em>veen</em>, <em>zwakZandigVeen</em>, <em>sterkZandigVeen</em>, <em>siltigVeen</em> of <em>kleiigVeen</em>.<br clear="none">
+                           Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> van de entiteit <em>Boorprofiel</em> gelijk is aan <em>klasse2geroerd</em>. 
                         </p>
                         
                      </td>
@@ -10806,9 +10863,7 @@
                      <th>Regels IMBRO/A</th>
                      <td>
                         
-                        <p>Wanneer de waarde van het attribuut <em>beschrijfprocedure</em> van de entiteit <em>Boormonsterbeschrijving</em> gelijk is aan <em>NEN5104Synthetisch</em>, mag het gegeven aanwezig zijn wanneer de waarde van het attribuut <em>grondsoort NEN5104</em> gelijk is aan <em>mineraalarmVeen</em>, <em>zwakKleiigVeen</em>, <em>sterkKleiigVeen</em>, <em>zwakZandigVeen</em>, sterkZandigVeen of <em>detritusNietGespecificeerd</em>. 
-                           Wanneer de waarde van het attribuut <em>beschrijfprocedure</em> gelijk is aan <em>NEN5104Synthetisch</em>, is de waarde van het gegeven gelijk aan <em>zwakAmorfNEN5104</em>, <em>matigAmorfNEN5104</em> of <em>sterkAmorfNEN5104</em>. 
-                           In andere gevallen zijn die waarden niet toegestaan.
+                        <p>Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfprocedure</em> van de entiteit <em>Boormonsterbeschrijving</em> gelijk is aan <em>NEN5104Synthetisch</em> en de waarde van het attribuut <em>grondsoort NEN5104</em> niet gelijk is aan <em>mineraalarmVeen</em>, <em>zwakKleiigVeen</em>, <em>sterkKleiigVeen</em>, <em>zwakZandigVeen</em>, <em>sterkZandigVeen</em> of <em>detritusNietGespecificeerd</em>.
                         </p>
                         
                      </td>
@@ -10819,7 +10874,8 @@
                         
                         <p>De textuur wordt bepaald voor organische gronden, met uitzondering van bruinkool en
                            gyttja. Bruinkool bestaat uit een vast mengsel van vezels en amorfe massa en gyttja
-                           is per definitie amorf. De waarde voor humus en detritus is fijnvezelig of grofvezelig.
+                           is per definitie amorf. De waarde voor humus en detritus is fijnvezelig of grofvezelig.<br clear="none">
+                           Beschrijvingen&nbsp;&nbsp; die zijn gemaakt onder NEN 5104 hanteren een andere indeling.
                         </p>
                         
                      </td>
@@ -10874,9 +10930,15 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> van de entiteit <em>Boorprofiel</em> gelijk is aan <em>klasse2Ongeroerd</em> en de waarde van het attribuut <em>geotechnische grondsoort</em> gelijk is aan <em>silt</em>, <em>siltMetKeien</em>, <em>siltMetKeitjes</em>, <em>zwakGrindigSilt</em>, <em>sterkGrindigSilt</em>, <em>zwakZandigSilt</em>, <em>zwakZandigSiltMetGrind</em>, <em>sterkZandigSilt</em>, <em>sterkZandigSiltMetGrind</em>, <em>klei</em>, <em>kleiMetKeien</em>, <em>kleiMetKeitjes</em>, <em>zwakGrindigeKlei</em>, <em>sterkGrindigeKlei</em>, <em>zwakZandigeKlei</em>, <em>zwakZandigeKleiMetGrind</em>, <em>sterkZandigeKlei</em> of <em>sterkZandigeKleiMetGrind</em>.
-                           Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>geotechnische grondsoort</em> niet gelijk is aan <em>silt</em>, <em>siltMetKeien</em>, <em>siltMetKeitjes</em>, <em>zwakGrindigSilt</em>, <em>sterkGrindigSilt</em>, <em>zwakZandigSilt</em>, <em>zwakZandigSiltMetGrind</em>, <em>sterkZandigSilt</em>, <em>sterkZandigSiltMetGrind</em>, <em>klei</em>, <em>kleiMetKeien</em>, <em>kleiMetKeitjes</em>, <em>zwakGrindigeKlei</em>, <em>sterkGrindigeKlei</em>, <em>zwakZandigeKlei</em>, <em>zwakZandigeKleiMetGrind</em>, <em>sterkZandigeKlei</em> of <em>sterkZandigeKleiMetGrind</em>.
-                           Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> van de entiteit <em>Boorprofiel</em> gelijk is aan <em>klasse2Geroerd</em>.
+                        <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> van de entiteit <em>Boorprofiel</em> gelijk is aan <em>klasse2ongeroerd</em> en de waarde van het attribuut <em>geotechnische grondsoort</em> gelijk is aan <em>silt, siltMetKeien, siltMetKeitjes, zwakGrindigSilt, sterkGrindigSilt, zwakZandigSilt,
+                              zwakZandigSiltMetGrind, sterkZandigSilt, sterkZandigSiltMetGrind, klei, kleiMetKeien,
+                              kleiMetKeitjes, zwakGrindigeKlei, sterkGrindigeKlei, zwakZandigeKlei, zwakZandigeKleiMetGrind,
+                              sterkZandigeKlei</em> of <em>sterkZandigeKleiMetGrind</em>.<br clear="none">
+                           Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>geotechnische</em> grondsoort niet gelijk is aan <em>silt, siltMetKeien, siltMetKeitjes, zwakGrindigSilt, sterkGrindigSilt, zwakZandigSilt,
+                              zwakZandigSiltMetGrind, sterkZandigSilt, sterkZandigSiltMetGrind, klei, kleiMetKeien,
+                              kleiMetKeitjes, zwakGrindigeKlei, sterkGrindigeKlei, zwakZandigeKlei, zwakZandigeKleiMetGrind,
+                              sterkZandigeKlei</em> of <em>sterkZandigeKleiMetGrind</em>.<br clear="none">
+                           Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> van de entiteit <em>Boorprofiel</em> gelijk is aan <em>klasse2geroerd</em>. 
                         </p>
                         
                      </td>
@@ -10885,10 +10947,8 @@
                      <th>Regels IMBRO/A</th>
                      <td>
                         
-                        <p>Wanneer de waarde van het attribuut <em>beschrijfprocedure</em> van de entiteit <em>Boormonsterbeschrijving</em> gelijk is aan <em>NEN5104Synthetisch,</em> mag het gegeven aanwezig zijn wanneer de waarde van het attribuut <em>grondsoort NEN5104</em> gelijk is aan <em>zwakSiltigeKlei, matigSiltigeKlei, sterkSiltigeKlei, uiterstSiltigeKlei, zwakZandigeKlei,
+                        <p>Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfprocedure</em> van de entiteit <em>Boormonsterbeschrijving</em> gelijk is aan <em>NEN5104Synthetisch</em> en de waarde van het attribuut <em>grondsoort NEN5104</em> niet gelijk is aan <em>zwakSiltigeKlei, matigSiltigeKlei, sterkSiltigeKlei, uiterstSiltigeKlei, zwakZandigeKlei,
                               matigZandigeKlei, sterkZandigeKlei, zwakZandigeLeem</em> of <em>sterkZandigeLeem</em>. 
-                           Wanneer de waarde van het attribuut beschrijfprocedure gelijk is aan <em>NEN5104Synthetisch</em> is de waarde van het gegeven gelijk aan <em>zeerSlapNEN5104</em>, <em>matigSlapNEN5104, slapNEN5104, matigStevigNEN5104, stevigNEN5104, zeerStevigNEN5104,
-                              hardNEN5104</em> of <em>zeerHardNEN5104</em>. In andere gevallen zijn die waarden niet toegestaan.
                         </p>
                         
                      </td>
@@ -10943,9 +11003,13 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> van de entiteit <em>Boorprofiel</em> gelijk is aan <em>klasse2Ongeroerd</em> en de waarde van het attribuut <em>geotechnische grondsoort</em> gelijk is aan <em>detritus</em>, <em>zwakZandigeDetritus</em>, <em>sterkZandigeDetritus</em>, <em>siltigeDetritus</em>, <em>kleiigeDetritus</em>, <em>humus</em>, <em>zwakZandigeHumus</em>, <em>sterkZandigeHumus</em>, <em>siltigeHumus</em>, <em>kleiigeHumus</em>, <em>veen</em>, <em>zwakZandigVeen</em>, <em>sterkZandigVeen</em>, <em>siltigVeen</em>, <em>kleiigVeen</em>, <em>bruinkool</em> of <em>gyttja</em>.
-                           Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>geotechnische grondsoort</em> niet gelijk is aan <em>detritus</em>, <em>zwakZandigeDetritus</em>, <em>sterkZandigeDetritus</em>, <em>siltigeDetritus</em>, <em>kleiigeDetritus</em>, <em>humus</em>, <em>zwakZandigeHumus</em>, <em>sterkZandigeHumus</em>, <em>siltigeHumus</em>, <em>kleiigeHumus</em>, <em>veen</em>, <em>zwakZandigVeen</em>, <em>sterkZandigVeen</em>, <em>siltigVeen</em>, <em>kleiigVeen</em>, <em>bruinkool</em> of <em>gyttja</em>.
-                           Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> van de entiteit <em>Boorprofiel</em> gelijk is aan <em>klasse2Geroerd</em>.
+                        <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> van de entiteit <em>Boorprofiel</em> gelijk is aan <em>klasse2ongeroerd</em> en de waarde van het attribuut <em>geotechnische grondsoort</em> gelijk is aan <em>detritus, zwakZandigeDetritus, sterkZandigeDetritus, siltigeDetritus, kleiigeDetritus,
+                              humus, zwakZandigeHumus, sterkZandigeHumus, siltigeHumus, kleiigeHumus, veen, zwakZandigVeen,
+                              sterkZandigVeen, siltigVeen, kleiigVeen, bruinkool</em> of <em>gyttja</em>.<br clear="none">
+                           Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>geotechnische grondsoort</em> niet gelijk is aan <em>detritus, zwakZandigeDetritus, sterkZandigeDetritus, siltigeDetritus, kleiigeDetritus,
+                              humus, zwakZandigeHumus, sterkZandigeHumus, siltigeHumus, kleiigeHumus, veen, zwakZandigVeen,
+                              sterkZandigVeen, siltigVeen, kleiigVeen, bruinkool</em> of <em>gyttja</em>.<br clear="none">
+                           Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> van de entiteit <em>Boorprofiel</em> gelijk is aan <em>klasse2geroerd</em>. 
                         </p>
                         
                      </td>
@@ -10954,7 +11018,7 @@
                      <th>Regels IMBRO/A</th>
                      <td>
                         
-                        <p>Wanneer de waarde van het attribuut <em>beschrijfprocedure</em> van de entiteit <em>Boormonsterbeschrijving</em> gelijk is aan <em>NEN5104Synthetisch,</em> mag het gegeven aanwezig zijn wanneer de waarde van het attribuut <em>grondsoort NEN5104</em> gelijk is aan <em>mineraalarmVeen, zwakKleiigVeen, sterkKleiigVeen, zwakZandigVeen, sterkZandigVeen,
+                        <p>Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfprocedure</em> van de entiteit <em>Boormonsterbeschrijving</em> gelijk is aan <em>NEN5104Synthetisch</em> en de waarde van het attribuut <em>grondsoort NEN5104</em> niet gelijk is aan <em>mineraalarmVeen, zwakKleiigVeen, sterkKleiigVeen, zwakZandigVeen, sterkZandigVeen,
                               detritusNietGespecificeerd, bruinkoolNietGespecificeerd, gyttjaNietGespecificeerd</em> of <em>dy</em>.
                         </p>
                         
@@ -11019,7 +11083,8 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>Het gegeven is aanwezig wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> van de entiteit <em>Boorprofiel</em> gelijk is aan <em>klasse2ongeroerd</em> of <em>klasse2ongedifferentieerd</em> en de waarde van het attribuut <em>geotechnische grondsoort</em> gelijk is aan <em>veen, zwakZandigVeen,  sterkZandigVeen, siltigVeen</em> of <em>kleiigVeen.</em> In andere gevallen ontbreekt het gegeven.
+                        <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>interne structuur intact</em> gelijk is aan <em>ja</em> en de waarde van het attribuut <em>geotechnische grondsoort</em> gelijk is aan <em>veen</em>, <em>zwakZandigVeen</em>, <em>sterkZandigVeen</em>, <em>siltigVeen</em> of <em>kleiigVeen</em>.<br clear="none">
+                           Het attribuut mag niet aanwezig zijn in alle andere gevallen.
                         </p>
                         
                      </td>
@@ -11084,7 +11149,7 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>Het gegeven ontbreekt wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> van de entiteit Boorprofiel gelijk is aan <em>klasse3</em>. In andere gevallen mag het gegeven ontbreken. 
+                        <p>Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> van de entiteit <em>Boorprofiel</em> gelijk is aan <em>klasse3</em>.
                         </p>
                         
                      </td>
@@ -11156,7 +11221,7 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>Het gegeven mag aanwezig zijn wanneer het attribuut <em>geotechnische afzettingskarakteristiek</em> aanwezig is<em>.</em> In het andere geval ontbreekt het gegeven. 
+                        <p>Het attribuut mag niet aanwezig zijn wanneer het attribuut <em>geotechnische afzettingskarakteristiek</em> niet aanwezig is.
                         </p>
                         
                      </td>
@@ -11205,8 +11270,11 @@
                   <th>Regels</th>
                   <td>
                      
-                     <p>De entiteit moet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> van de entiteit <em>Boorprofiel</em> gelijk is aan <em>klasse2Geroerd</em>, <em>klasse2Ongeroerd</em> of <em>klasse2Ongedifferentieerd</em> en de waarde van het attribuut <em>geotechnische grondsoort</em> gelijk is aan <em>keien</em>, <em>keienMetGrind</em>, <em>keienMetZand</em>, <em>keienMetSilt</em>, <em>keienMetKlei</em>, <em>keitjes</em>, <em>keitjesMetGrind</em>, <em>keitjesMetZand</em>, <em>keitjesMetSilt</em>, <em>keitjesMetKlei</em>, <em>grind</em>, <em>grindMetKeien</em>, <em>grindMetKeitjes</em>, <em>zwakZandigGrind</em>, <em>sterkZandigGrind</em>, <em>siltigGrind</em>, <em>kleiigGrind</em>, <em>zand</em>, <em>zandMetKeien</em>, <em>zandMetKeitjes</em>, <em>zwakGrindigZand</em>, <em>sterkGrindigZand</em>, <em>siltigZand</em>, <em>siltigZandMetGrind</em>, <em>kleiigZand</em> of <em>kleiigZandMetGrind</em>.
-                        De entiteit mag niet aanwezig zijn in alle andere gevallen.
+                     <p>De entiteit moet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> van de entiteit <em>Boorprofiel</em> gelijk is aan <em>klasse2geroerd</em>, <em>klasse2ongeroerd</em> of <em>klasse2ongedifferentieerd</em> en de waarde van het attribuut <em>geotechnische grondsoort</em> gelijk is aan <em>keien, keienMetGrind, keienMetZand, keienMetSilt, keienMetKlei, keitjes, keitjesMetGrind,
+                           keitjesMetZand, keitjesMetSilt, keitjesMetKlei, grind, grindMetKeien, grindMetKeitjes,
+                           zwakZandigGrind, sterkZandigGrind, siltigGrind, kleiigGrind, zand, zandMetKeien, zandMetKeitjes,
+                           zwakGrindigZand, sterkGrindigZand, siltigZand, siltigZandMetGrind, kleiigZand</em> of <em>kleiigZandMetGrind</em>.<br clear="none">
+                        De entiteit mag niet aanwezig zijn in alle andere gevallen. 
                      </p>
                      
                   </td>
@@ -11226,11 +11294,9 @@
                      
                      <p>De korrelvorm wordt onder NEN-EN-ISO 14688 enkel vastgelegd bij een beschrijving die
                         beantwoordt aan de eisen die in de beschrijfprocedure aan een klasse 2 beschrijving
-                        zijn gesteld. De korrelvorm wordt per groottefractie beschreven en dat zijn er maximaal
-                        twee. De korrelvorm wordt altijd beschreven van keien, keitjes en grind. Van zand
-                        wordt de korrelvorm alleen beschreven wanneer de primaire fractie uit zand bestaat.
-                        
-                        Onder NEN 5104 is de korrelvorm van zand soms bepaald.
+                        zijn gesteld. De korrelvorm van de primaire fractie wordt beschreven wanneer de primaire
+                        fractie uit keien, keitjes, grind of zand bestaat.<br clear="none">
+                        Onder NEN 5104 is de korrelvorm van zand soms bepaald. 
                      </p>
                      
                   </td>
@@ -11414,7 +11480,10 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>Het gegeven ontbreekt wanneer de waarde van het attribuut <em>groottefractie</em> gelijk is aan <em>zand</em>. In andere gevallen is het gegeven aanwezig. 
+                        <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>geotechnische grondsoort</em> van de entiteit <em>Grond</em> gelijk is aan <em>keien, keienMetGrind, keienMetZand, keienMetSilt, keienMetKlei, keitjes, keitjesMetGrind,
+                              keitjesMetZand, keitjesMetSilt, keitjesMetKlei, grind, grindMetKeien, grindMetKeitjes,
+                              zwakZandigGrind, sterkZandigGrind, siltigGrind, kleiigGrind.</em> 
+                           Het attribuut mag niet aanwezig zijn in alle andere gevallen.
                         </p>
                         
                      </td>
@@ -11459,7 +11528,7 @@
                   <th>Regels</th>
                   <td>
                      
-                     <p>Het gegeven ontbreekt wanneer de waarde van het attribuut <em>beschreven materiaal</em> van de entiteit <em>Boorprofiel</em> gelijk is aan <em>grond</em>. 
+                     <p>De entiteit mag niet aanwezig zijn wanneer de waarde van het attribuut <em>beschreven materiaal</em> van de entiteit <em>Boorprofiel</em> gelijk is aan <em>grond</em>.
                      </p>
                      
                   </td>
@@ -11755,8 +11824,8 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>Het gegeven is aanwezig wanneer de waarde van het attribuut <em>samengestelde laag</em> gelijk is aan <em>ja</em>. 
-                           In andere gevallen ontbreekt het gegeven.
+                        <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>samengestelde laag</em> gelijk is aan <em>ja</em>.<br clear="none">
+                           Het attribuut mag niet aanwezig zijn in alle andere gevallen.
                         </p>
                         
                      </td>
@@ -11927,8 +11996,7 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>Het gegeven mag aanwezig zijn wanneer de waarde van het attribuut <em>interne structuur intact</em> gelijk is aan <em>ja</em>. 
-                           In andere gevallen ontbreekt het gegeven.
+                        <p>Het gegeven mag niet aanwezig zijn wanneer de waarde van het attribuut <em>interne structuur intact</em> gelijk is aan <em>nee</em>.
                         </p>
                         
                      </td>
@@ -11997,8 +12065,7 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>Het gegeven mag aanwezig zijn wanneer de waarde van het attribuut <em>interne structuur intact</em> gelijk is aan <em>ja</em>. 
-                           In andere gevallen ontbreekt het gegeven.
+                        <p>Het gegeven mag niet aanwezig zijn wanneer de waarde van het attribuut <em>interne structuur intact</em> gelijk is aan <em>nee</em>.
                         </p>
                         
                      </td>
@@ -12065,8 +12132,7 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>Het gegeven mag aanwezig zijn wanneer de waarde van het attribuut <em>interne structuur intact</em> gelijk is aan <em>ja</em>. 
-                           In andere gevallen ontbreekt het gegeven.
+                        <p>Het gegeven mag niet aanwezig zijn wanneer de waarde van het attribuut <em>interne structuur intact</em> gelijk is aan <em>nee</em>.
                         </p>
                         
                      </td>
@@ -12131,7 +12197,8 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>Het gegeven is aanwezig wanneer de waarde van het attribuut <em>holtes aanwezig</em> gelijk is aan <em>ja</em>. In andere gevallen ontbreekt het gegeven.
+                        <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>holtes aanwezig</em> gelijk is aan <em>ja</em>.<br clear="none">
+                           Het attribuut mag niet aanwezig zijn in alle andere gevallen.
                         </p>
                         
                      </td>
@@ -12188,8 +12255,7 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>Het gegeven mag aanwezig zijn wanneer de waarde van het attribuut <em>interne structuur intact</em> gelijk is aan <em>ja</em>. 
-                           In andere gevallen ontbreekt het gegeven.
+                        <p>Het gegeven mag niet aanwezig zijn wanneer de waarde van het attribuut <em>interne structuur intact</em> gelijk is aan <em>nee</em>.
                         </p>
                         
                      </td>
@@ -12286,8 +12352,7 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>Het gegeven mag aanwezig zijn wanneer de waarde van het attribuut <em>interne structuur intact</em> gelijk is aan <em>ja</em>. 
-                           In andere gevallen ontbreekt het gegeven.
+                        <p>Het gegeven mag niet aanwezig zijn wanneer de waarde van het attribuut <em>interne structuur intact</em> gelijk is aan <em>nee</em>.
                         </p>
                         
                      </td>
@@ -12321,7 +12386,8 @@
                   <th>Regels</th>
                   <td>
                      
-                     <p>Het gegeven is aanwezig wanneer de waarde van het attribuut <em>verweerd</em> van de entiteit <em>Gesteente</em> gelijk is aan <em>ja</em>. In andere gevallen ontbreekt het gegeven.
+                     <p>De entiteit moet aanwezig zijn wanneer de waarde van het attribuut <em>verweerd</em> van de entiteit <em>Gesteente</em> gelijk is aan <em>ja</em>.<br clear="none">
+                        De entiteit mag niet aanwezig zijn in alle andere gevallen.
                      </p>
                      
                   </td>
@@ -12643,9 +12709,9 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>De einddiepte is groter dan de begindiepte van het interval.
-                           De einddiepte van het onderste interval is niet groter dan de einddiepte bemonstering
-                           van de entiteit Boring.
+                        <p>De <em>einddiepte</em> moet groter zijn dan de <em>begindiepte</em> van het niet beschreven interval.<br clear="none">
+                           De <em>einddiepte</em> van het onderste niet beschreven interval mag niet groter zijn dan de waarde van
+                           het attribuut <em>einddiepte bemonstering</em> van de entiteit <em>Boring</em>.
                         </p>
                         
                      </td>
@@ -12654,8 +12720,8 @@
                      <th>Regels IMBRO/A</th>
                      <td>
                         
-                        <p>Voor IMBRO/A-gegevens kan de <em>einddiepte bemonstering</em> niet bekend zijn, in dat geval is de einddiepte van het onderste interval niet groter
-                           dan de <em>einddiepte boren</em> van de entiteit <em>Boring</em>.
+                        <p>De <em>einddiepte</em> van het onderste niet beschreven interval mag niet groter zijn dan de waarde van
+                           het attribuut <em>einddiepte boren</em> van de entiteit <em>Boring</em> wanneer de waarde van het attribuut <em>einddiepte bemonstering</em> van de entiteit <em>Boring</em> ontbreekt.
                         </p>
                         
                      </td>
@@ -12744,43 +12810,30 @@
                   </td>
                </tr>
                <tr>
-                  <th>Regels</th>
-                  <td>
-                     
-                     <p>Het gegeven mag aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> van entiteit <em>Boorprofiel</em> gelijk is <em>klasse2ongeroerd</em> of <em>klasse2ongedifferentieerd</em>.
-                        In andere gevallen ontbreekt het gegeven.
-                     </p>
-                     
-                  </td>
-               </tr>
-               <tr>
                   <th>Toelichting</th>
                   <td>
                      
                      <p>Sedimentaire discontinuïteiten bepalen de laagopbouw van de ondergrond, post-sedimentaire
                         discontinuïteiten verstoren de laagopbouw. Dergelijke verstoringen zijn op de schaal
-                        van modellen te beschouwen als vlakken.
-                        In een kern kan een verstoring zich in allerlei hoedanigheden voordoen: als een vlak,
-                        een dun, plaatvormige lichaam dat door twee vlakken wordt begrensd, of als een willekeurige
-                        combinatie van beide typen.
-                        In grond wordt een verstoring als een vlak beschreven, in gesteente verschilt de beschrijving
-                        naar gelang de verschijningsvorm.
-                     </p>
-                     
-                     <p>Verstoringen kunnen van natuurlijke, maar ook van antropogene aard zijn. Een aansprekend
+                        van modellen te beschouwen als vlakken. In een kern kan een verstoring zich in allerlei
+                        hoedanigheden voordoen: als een vlak, een dun, plaatvormige lichaam dat door twee
+                        vlakken wordt begrensd, of als een willekeurige combinatie van beide typen. In grond
+                        wordt een verstoring als een vlak beschreven, in gesteente verschilt de beschrijving
+                        naar gelang de verschijningsvorm.<br clear="none">
+                        Verstoringen kunnen van natuurlijke, maar ook van antropogene aard zijn. Een aansprekend
                         voorbeeld van een natuurlijke verstoring is een breuk. Een breuk kan het gevolg van
                         krimp, (ijs)belasting, tektonische spanningen of afschuiving zijn. Verstoringen kunnen
-                        het geotechnisch gedrag van grond sterk beïnvloeden. 
-                        De mate van verstoring bepaalt hoe men een dergelijke discontinuïteit het best kan
-                        omschrijven. Indien de verstoring gering is en het profiel nog altijd als een opeenvolging
-                        van lagen kan worden beschreven, worden de positie en de aard van de discontinuïteit
-                        vastgelegd. Wanneer de verstoring zo ernstig is dat er op een diepte meer dan een
-                        laag zou moeten worden beschreven, schiet het begrippenapparaat te kort en wordt aangegeven
-                        dat het betreffende interval niet kan worden beschreven met als reden mechanische
-                        verstoring.
+                        het geotechnisch gedrag van grond sterk beïnvloeden. De mate van verstoring bepaalt
+                        hoe men een dergelijke discontinuïteit het best kan omschrijven. Indien de verstoring
+                        gering is en het profiel nog altijd als een opeenvolging van lagen kan worden beschreven,
+                        worden de positie en de aard van de discontinuïteit vastgelegd. Wanneer de verstoring
+                        zo ernstig is dat er op een diepte meer dan een laag zou moeten worden beschreven,
+                        schiet het begrippenapparaat te kort en wordt aangegeven dat het betreffende interval
+                        niet kan worden beschreven met als reden mechanische verstoring. 
+                        Het gegeven wordt vastgelegd wanneer de kwaliteit van de monsters dat toelaat en dat
+                        is wanneer de interne structuur van de lagen intact is.<br clear="none">
+                        Het gegeven is onder NEN 5104 niet vastgelegd.
                      </p>
-                     
-                     <p>Het gegeven is onder NEN 5104 niet vastgelegd.</p>
                      
                   </td>
                </tr>
@@ -12886,8 +12939,9 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>De einddiepte is groter dan de begindiepte van het interval. 
-                           De einddiepte van het onderste interval is niet groter dan de <em>einddiepte bemonstering</em> van de entiteit <em>Boring</em>.
+                        <p>De <em>einddiepte</em> moet groter zijn dan de <em>begindiepte</em> van de post-sedimentaire discontinuïteit.<br clear="none">
+                           De <em>einddiepte</em> van de onderste post-sedimentaire discontinuïteit mag niet groter zijn dan de waarde
+                           van het attribuut <em>einddiepte bemonstering</em> van de entiteit <em>Boring</em>.
                         </p>
                         
                      </td>
@@ -12896,8 +12950,8 @@
                      <th>Regels IMBRO/A</th>
                      <td>
                         
-                        <p>Voor IMBRO/A-gegevens kan de <em>einddiepte bemonstering</em> niet bekend zijn, in dat geval is de einddiepte van het onderste interval niet groter
-                           dan de <em>einddiepte boren</em> van de entiteit <em>Boring</em>.
+                        <p>De <em>einddiepte</em> van de onderste post-sedimentaire discontinuïteit mag niet groter zijn dan de waarde
+                           van het attribuut <em>einddiepte boren</em> van de entiteit <em>Boring</em> wanneer de waarde van het attribuut <em>einddiepte bemonstering</em> van de entiteit <em>Boring</em> ontbreekt.
                         </p>
                         
                      </td>
@@ -13000,7 +13054,8 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>Het gegeven is aanwezig wanneer de waarde van het attribuut <em>in gesteente</em> gelijk is aan <em>nee</em>. In andere gevallen ontbreekt het gegeven.
+                        <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>in gesteente</em> gelijk is aan <em>nee</em>.<br clear="none">
+                           Het attribuut mag niet aanwezig zijn in alle andere gevallen.
                         </p>
                         
                      </td>
@@ -13053,7 +13108,8 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>Het gegeven is aanwezig wanneer de waarde van het attribuut <em>in gesteente</em> gelijk is aan <em>ja</em>. In andere gevallen ontbreekt het gegeven.
+                        <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>in gesteente</em> gelijk is aan <em>ja</em>.<br clear="none">
+                           Het attribuut mag niet aanwezig zijn in alle andere gevallen.
                         </p>
                         
                      </td>
@@ -13124,7 +13180,8 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>Het gegeven is aanwezig wanneer de waarde van het attribuut <em>samengestelde discontinuïteit</em> gelijk is aan <em>ja</em>. In andere gevallen ontbreekt het gegeven.
+                        <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>samengestelde discontinuïteit</em> gelijk is aan <em>ja</em>.<br clear="none">
+                           Het attribuut mag niet aanwezig zijn in alle andere gevallen.
                         </p>
                         
                      </td>
@@ -13177,7 +13234,8 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>Het gegeven is aanwezig wanneer de waarde van het attribuut <em>in gesteente</em> gelijk is aan <em>ja</em>. In andere gevallen ontbreekt het gegeven.
+                        <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>in gesteente</em> gelijk is aan <em>ja</em>.<br clear="none">
+                           Het attribuut mag niet aanwezig zijn in alle andere gevallen.
                         </p>
                         
                      </td>
@@ -13234,7 +13292,8 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>Het gegeven is aanwezig wanneer de waarde van het attribuut <em>in gesteente</em> gelijk is aan <em>ja</em>. In andere gevallen ontbreekt het gegeven.
+                        <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>in gesteente</em> gelijk is aan <em>ja</em>.<br clear="none">
+                           Het attribuut mag niet aanwezig zijn in alle andere gevallen.
                         </p>
                         
                      </td>
@@ -13291,7 +13350,8 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>Het gegeven ontbreekt wanneer de waarde van het attribuut <em>breedteklasse</em> gelijk is aan <em>uiterstSmal</em>. Het gegeven is aanwezig wanneer de waarde gelijk is aan <em>matigBreed</em> en <em>breed</em>. In andere gevallen mag het gegeven ontbreken.
+                        <p>Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>breedteklasse</em> gelijk is aan <em>uiterstSmal</em>.<br clear="none">
+                           Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>breedteklasse</em> gelijk is aan <em>matigBreed</em> en <em>breed</em>.
                         </p>
                         
                      </td>
@@ -14604,7 +14664,7 @@
                      <th>Toelichting</th>
                      <td>
                         
-                        <p>De grindmediaan wordt bepaald wanneer de grond grind bevat.</p>
+                        <p>De grindmediaan wordt bepaald wanneer de primaire fractie grind is.</p>
                         
                      </td>
                   </tr>
