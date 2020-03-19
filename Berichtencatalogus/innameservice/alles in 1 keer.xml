@@ -95,7 +95,7 @@
                      <bhrgtcom:carbonateContentClass codeSpace="urn:bro:bhrgt:CarbonateContentClass">kalkloos</bhrgtcom:carbonateContentClass>
                      <!--Optional:-->
                      <bhrgtcom:organicMatterContentClass codeSpace="urn:bro:bhrgt:OrganicMatterContentClass">nietOrganisch</bhrgtcom:organicMatterContentClass>
-                     <bhrgtcom:rooted xsi:nil="true"/>
+                     <!-- removed <bhrgtcom:rooted xsi:nil="true"/> -->
                      <!--Optional:-->
                      <!--bhrgtcom:crossBedding>nee</bhrgtcom:crossBedding-->
                      <!--Optional:-->
@@ -137,13 +137,6 @@
                         <bhrgtcom:sphericity xsi:nil="true" codeSpace="urn:bro:bhrgt:Sphericity"/>
                         <!--Optional:-->
                         <bhrgtcom:roughness codeSpace="urn:bro:bhrgt:Roughness">glad</bhrgtcom:roughness>
-                     </bhrgtcom:grainshape>
-                     <bhrgtcom:grainshape>
-                        <bhrgtcom:sizeFraction codeSpace="urn:bro:bhrgt:SizeFraction">grind</bhrgtcom:sizeFraction>
-                        <bhrgtcom:angularity codeSpace="urn:bro:bhrgt:Angularity">zeerAfgerond</bhrgtcom:angularity>
-                        <bhrgtcom:sphericity codeSpace="urn:bro:bhrgt:Sphericity">bol</bhrgtcom:sphericity>
-                        <!--Optional:-->
-                        <!--bhrgtcom:roughness codeSpace="urn:bro:bhrgt:Roughness">glad</bhrgtcom:roughness-->
                      </bhrgtcom:grainshape>
                   </bhrgtcom:soil>
                </bhrgtcom:layer>
@@ -191,7 +184,7 @@
                      <bhrgtcom:carbonateContentClass codeSpace="urn:bro:bhrgt:CarbonateContentClass">kalkloos</bhrgtcom:carbonateContentClass>
                      <!--Optional:-->
                      <bhrgtcom:organicMatterContentClass codeSpace="urn:bro:bhrgt:OrganicMatterContentClass">nietOrganisch</bhrgtcom:organicMatterContentClass>
-                     <bhrgtcom:rooted xsi:nil="true"/>
+                     <!-- removed <bhrgtcom:rooted xsi:nil="true"/> -->
                      <!--Optional:-->
                      <!--bhrgtcom:crossBedding>nee</bhrgtcom:crossBedding-->
                      <!--Optional:-->
@@ -253,8 +246,8 @@
                   <!--bhrgtcom:activityType codeSpace="urn:bro:bhrgt:ActivityType">onbekend</bhrgtcom:activityType-->
                   <!--Optional:-->
                   <!--bhrgtcom:specialMaterial codeSpace="urn:bro:bhrgt:SpecialMaterial">glauconietzand</bhrgtcom:specialMaterial-->
-                  <!--Optional:-->
-                  <!--bhrgtcom:slant>nee</bhrgtcom:slant-->
+                  <!--not Optional when internalstructure = ja:-->
+                  <bhrgtcom:slant>nee</bhrgtcom:slant>
                   <!--Optional:-->
                   <bhrgtcom:internalStructureIntact>ja</bhrgtcom:internalStructureIntact>
                   <!--Optional:-->
