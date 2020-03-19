@@ -26,7 +26,7 @@
                -->
             </bhrgtcom:descriptionReportDate>
             <!--1 or 2 repetitions:-->
-            <bhrgtcom:descriptionProcedure codeSpace="urn:bro:bhrgt:DescriptionProcedure">ISO14688d1v2019</bhrgtcom:descriptionProcedure>
+            <bhrgtcom:descriptionProcedure codeSpace="urn:bro:bhrgt:DescriptionProcedure">ISO14688d1v2019c11</bhrgtcom:descriptionProcedure>
             <bhrgtcom:descriptionProcedure codeSpace="urn:bro:bhrgt:DescriptionProcedure">ISO14689d1v2018</bhrgtcom:descriptionProcedure>
             <!--Optional:-->
             <bhrgtcom:descriptionOperator>
@@ -113,7 +113,7 @@
                      <!--Optional:-->
                      <!--bhrgtcom:veryCoarseGravelContentClass codeSpace="urn:bro:bhrgt:VeryCoarseGravelContentClass">spoorTot1</bhrgtcom:veryCoarseGravelContentClass-->
                      <!--Optional:-->
-                     <bhrgtcom:sandMedianClass codeSpace="urn:bro:bhrgt:SandMedianClass">middelgrof210tot300um</bhrgtcom:sandMedianClass>
+                     <bhrgtcom:sandMedianClass codeSpace="urn:bro:bhrgt:SandMedianClass">matigGrofNEN5104</bhrgtcom:sandMedianClass>
                      <!--Optional:-->
                      <!--bhrgtcom:sandSortingNEN5104 codeSpace="urn:bro:bhrgt:SandSortingNEN5104">matigKlein</bhrgtcom:sandSortingNEN5104-->
                      <!--Optional:-->
