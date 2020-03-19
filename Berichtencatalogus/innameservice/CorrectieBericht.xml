@@ -93,13 +93,7 @@
                 <bhrgtcom:angularity codeSpace="urn:bro:bhrgt:Angularity">afgerond</bhrgtcom:angularity>
                 <bhrgtcom:sphericity codeSpace="urn:bro:bhrgt:Sphericity">bol</bhrgtcom:sphericity>
               </bhrgtcom:grainshape>
-              <bhrgtcom:grainshape>
-                <bhrgtcom:sizeFraction codeSpace="urn:bro:bhrgt:SizeFraction">grind</bhrgtcom:sizeFraction>
-                <bhrgtcom:angularity codeSpace="urn:bro:bhrgt:Angularity">zeerAfgerond</bhrgtcom:angularity>
-                <bhrgtcom:sphericity codeSpace="urn:bro:bhrgt:Sphericity">plat</bhrgtcom:sphericity>
-                <bhrgtcom:roughness codeSpace="urn:bro:bhrgt:Roughness">glad</bhrgtcom:roughness>
-              </bhrgtcom:grainshape>
-            </bhrgtcom:soil>
+              </bhrgtcom:soil>
           </bhrgtcom:layer>
           <bhrgtcom:layer>
             <bhrgtcom:upperBoundary uom="m">38.91</bhrgtcom:upperBoundary>
