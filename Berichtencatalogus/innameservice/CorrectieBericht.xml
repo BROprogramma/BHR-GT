@@ -82,7 +82,7 @@
               <bhrgtcom:sandMedianClass codeSpace="urn:bro:bhrgt:SandMedianClass">fijn105tot150um</bhrgtcom:sandMedianClass>
               <bhrgtcom:sandSortingNEN5104 codeSpace="urn:bro:bhrgt:SandSortingNEN5104">onbekend</bhrgtcom:sandSortingNEN5104>
               <bhrgtcom:peatType codeSpace="urn:bro:bhrgt:PeatType">rietveen</bhrgtcom:peatType>
-              <bhrgtcom:organicSoilTexture codeSpace="urn:bro:bhrgt:OrganicSoilTexture">fijnvezelig</bhrgtcom:organicSoilTexture>
+              <bhrgtcom:organicSoilTexture codeSpace="urn:bro:bhrgt:OrganicSoilTexture">vezeligFijn</bhrgtcom:organicSoilTexture>
               <bhrgtcom:fineSoilConsistency codeSpace="urn:bro:bhrgt:FineSoilConsistency">stevig</bhrgtcom:fineSoilConsistency>
               <bhrgtcom:organicSoilConsistency codeSpace="urn:bro:bhrgt:OrganicSoilConsistency">vast</bhrgtcom:organicSoilConsistency>
               <bhrgtcom:peatTensileStrength codeSpace="urn:bro:bhrgt:PeatTensileStrength">matig</bhrgtcom:peatTensileStrength>
