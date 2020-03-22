@@ -13,7 +13,7 @@
    <body>
       <p>Conceptual model/Geotechnisch booronderzoek (BHR-GT)/20200312</p>
       <p>Imvertor: 1.59.2</p>
-      <p>Model release: Conceptualmodel-GeotechnischbooronderzoekBHR-GT-1.9-1-20200312-20200322-131210</p>
+      <p>Model release: Conceptualmodel-GeotechnischbooronderzoekBHR-GT-1.9-1-20200312-20200322-150609</p>
       <hr>
       <section>
          <h1>Artikel 1 Definitie van registratieobject, entiteiten en attributen</h1>
@@ -15195,13 +15195,12 @@
                                  
                               </p>
                               
-                              <p>Voor het uitvoeren van de metingen is het van belang te weten hoe snel de waterspanning
-                                 een verandering van druk kan opnemen. Om de reactiesnelheid te bepalen wordt aan het
-                                 eind van de verzadigingsfase een test uitgevoerd. De toename in celdruk zal idealiter
-                                 direct worden opgenomen door het water en dat is het geval bij volledige verzadiging.
-                                 Dit wordt meestal niet gehaald. In de procedure is een grenswaarde gesteld, wanneer
-                                 deze niet wordt gehaald wordt dit als bijzonderheid uitvoering vastgelegd (waarde
-                                 <em>onvoldoendeVerzadigd</em>).
+                              <p>Voor het uitvoeren van de metingen is het van belang te weten hoe snel het water een
+                                 verandering van druk kan opnemen. Om de reactiesnelheid te bepalen wordt aan het eind
+                                 van de verzadigingsfase een test uitgevoerd. De toename in celdruk zal idealiter direct
+                                 worden opgenomen door het water en dat is het geval bij volledige verzadiging. Dit
+                                 wordt meestal niet gehaald. In de procedure is een grenswaarde gesteld, wanneer deze
+                                 niet wordt gehaald wordt dit als bijzonderheid uitvoering vastgelegd (waarde <em>onvoldoendeVerzadigd</em>).
                               </p>
                               
                               <p>Het doel is om het proefstuk tijdens de verzadiging zo min mogelijk te verstoren.
@@ -16263,7 +16262,7 @@
                            <th>Definitie</th>
                            <td>
                               
-                              <p>De hoogte van het proefstuk na een bepaalde belastingstijd.</p>
+                              <p>De hoogte van het proefstuk na een bepaalde duur van belasting.</p>
                               
                            </td>
                         </tr>
@@ -16293,7 +16292,7 @@
                               <th>Definitie</th>
                               <td>
                                  
-                                 <p>De tijd tussen het begin van de bepaling en het moment waarop de toestand is bepaald.</p>
+                                 <p>De tijd tussen het begin van de bepaling en het moment van de meting.</p>
                                  
                               </td>
                            </tr>
@@ -16354,7 +16353,7 @@
                               <td>
                                  
                                  <p>Het quotiënt van het verschil tussen de beginhoogte van het proefstuk en de hoogte
-                                    op het moment waarop de toestand is bepaald, en de beginhoogte.
+                                    op het moment van de meting, en de beginhoogte.
                                  </p>
                                  
                               </td>
@@ -16393,7 +16392,7 @@
                                  
                                  <p>De afstand waarover de bovenkant van het proefstuk is verplaatst wordt gemeten, in
                                     mm. De verplaatsing wordt omgerekend naar verticale rek en daarbij wordt al dan niet
-                                    gecorrigeerd voor apparaatrek. Verticale rek wordt aangeduid met het symbool ?<sub>v</sub>. De beginhoogte is de hoogte aan het begin van de eerste bepalingsstap (verlopen
+                                    gecorrigeerd voor apparaatrek. Verticale rek wordt aangeduid met het symbool ɛ<sub>v</sub>. De beginhoogte is de hoogte aan het begin van de eerste bepalingsstap (verlopen
                                     tijd = 0) (dit wordt de lineaire rekmaat genoemd).
                                  </p>
                                  
@@ -16501,7 +16500,7 @@
                               <th>Definitie</th>
                               <td>
                                  
-                                 <p>De tijd tussen het begin van de bepaling en het moment waarop de toestand is bepaald.</p>
+                                 <p>De tijd tussen het begin van de bepaling en het moment van de meting.</p>
                                  
                               </td>
                            </tr>
@@ -16562,7 +16561,7 @@
                               <td>
                                  
                                  <p>Het quotiënt van het verschil tussen de beginhoogte van het proefstuk en de hoogte
-                                    op het moment waarop de toestand is bepaald, en de beginhoogte.
+                                    op het moment van de meting, en de beginhoogte.
                                  </p>
                                  
                               </td>
@@ -16600,15 +16599,14 @@
                               <td>
                                  
                                  <p>De afstand waarover de bovenkant van het proefstuk is verplaatst wordt gemeten, in
-                                    mm. De verplaatsing wordt omgerekend naar verticale rek en daarbij wordt al dan niet
-                                    gecorrigeerd voor apparaatrek. Verticale rek wordt aangeduid met het symbool ?<sub>v</sub>. De beginhoogte is de hoogte aan het begin van de eerste bepalingsstap (verlopen
-                                    tijd = 0) (dit wordt de lineaire rekmaat genoemd).
-                                 </p>
-                                 
-                                 <p>Bij de bepaling van het spanningverloop is een vervormingssnelheid opgelegd. Het is
-                                    niet voldoende om de gemiddelde snelheid per stap vast te leggen omdat de verticale
-                                    rek van het proefstuk tijdens de vervorming varieert en om die redenen is de verticale
-                                    rek vastgelegd. 
+                                    mm. De verplaatsing wordt omgerekend naar verticale rek (de zogenaamde lineaire rekmaat)
+                                    en daarbij wordt al dan niet gecorrigeerd voor apparaatrek. Verticale rek wordt aangeduid
+                                    met het symbool ɛ<sub>v</sub>. De beginhoogte is de hoogte aan het begin van de eerste bepalingsstap (verlopen
+                                    tijd = 0).<br clear="none">
+                                    Bij de bepaling van het spanningsverloop is een vervormingssnelheid opgelegd. Het
+                                    is niet voldoende om de gemiddelde snelheid per stap vast te leggen omdat de verticale
+                                    rek van het proefstuk tijdens de vervorming varieert en om die reden is de verticale
+                                    rek vastgelegd.
                                  </p>
                                  
                               </td>
@@ -16631,7 +16629,9 @@
                               <th>Definitie</th>
                               <td>
                                  
-                                 <p>Het verschil tussen de waterspanning op het moment van de meting en de beginwaterspanning.</p>
+                                 <p>Het verschil tussen de waterspanning in het proefstuk op het moment van de meting
+                                    en de verzadigingsdruk.
+                                 </p>
                                  
                               </td>
                            </tr>
@@ -16680,15 +16680,10 @@
                                  <p>Wanneer het proefstuk met constante snelheid wordt vervormd krijgt het proefstuk niet
                                     de gelegenheid om in evenwicht te komen met de belasting en ontstaat er wateroverspanning
                                     of wateronderspanning in het proefstuk. Beide zijn vormen van verschilwaterspanning
-                                    en dat wordt aangeduid met het symbool ?u. Wanneer tijdens een belastingstap het water
-                                    niet snel genoeg uitgeperst kan worden is er sprake van overspanning (positieve waarde).
-                                    Wanneer tijdens een ontlastingstap het proefstuk niet snel genoeg water kan opnemen
-                                    om de volledige toename in volume op te vullen, is er sprake van onderspanning (negatieve
-                                    waarde).
-                                    De verschilwaterspanning is de waterspanning gemeten aan de onderzijde van het proefstuk
-                                    minus de beginwaterspanning en dat is de waterspanning na afloop van de verzadigingsfase
-                                    of is direct gemeten met een verschildrukopnemer. De waterspanning wordt standaard
-                                    gecorrigeerd naar de gemiddelde waterspanning in het proefstuk. 
+                                    en dat wordt aangeduid met het symbool Δu. Bij een positieve waarde is er sprake van
+                                    wateroverspanning en bij een negatieve waarde van wateronderspanning.<br clear="none">
+                                    De verschilwaterspanning wordt berekend of gemeten met een verschildrukopnemer en
+                                    wordt standaard gecorrigeerd naar de gemiddelde waterspanning in het proefstuk.
                                  </p>
                                  
                               </td>
@@ -16753,10 +16748,10 @@
                                     snelheid te vervormen wordt gemeten en omgerekend naar druk. De spanning boven in
                                     het proefstuk wordt gelijkgesteld aan de druk. Een deel van de spanning wordt gedragen
                                     door het korrelskelet en een deel door het poriënwater. De verticale korrelspanning,
-                                    aangeduid met het symbool s'<sub>v</sub>, wordt berekend en is de verticale spanning minus de verschilwaterspanning. Idealiter
+                                    aangeduid met het symbool σ'<sub>v</sub>, wordt berekend en is de verticale spanning minus de verschilwaterspanning. Idealiter
                                     wordt de verticale korrelspanning bovenin het proefstuk omgerekend naar de verticale
                                     korrelspanning in het midden van het proefstuk door de waarde te corrigeren voor wandwrijving,
-                                    zie wandwrijvingscorrectiemethode.
+                                    zie wandwrijvingcorrectiemethode.
                                  </p>
                                  
                               </td>
@@ -16826,7 +16821,7 @@
                               <th>Toelichting</th>
                               <td>
                                  
-                                 <p>De horizontale korrelspanning, aangeduid met het symbool s'<sub>h</sub>, wordt niet standaard bepaald en kan alleen gemeten worden indien in de ring een
+                                 <p>De horizontale korrelspanning, aangeduid met het symbool σ'<sub>h</sub>, wordt niet standaard bepaald en kan alleen gemeten worden indien in de ring een
                                     speciale opnemer is ingebouwd. Op de waarde van de horizontale spanning zijn geen
                                     correcties toegepast.
                                  </p>
@@ -16874,23 +16869,22 @@
                            <th>Toelichting</th>
                            <td>
                               
-                              <p>Grond bestaat uit korrels en water. De korrels zijn met elkaar verbonden en via de
-                                 contactpunten wordt spanning doorgegeven. Hierdoor vertoont de grond een bepaalde
-                                 samenhang. De grond bezwijkt wanneer de contacten tussen de korrels verbroken worden.
-                                 
+                              <p>Grond bestaat uit korrels en water. De korrels raken elkaar en via de contactpunten
+                                 wordt spanning doorgegeven. Hierdoor vertoont de grond een bepaalde samenhang. De
+                                 grond bezwijkt wanneer de contacten tussen de korrels verbroken worden.<br clear="none">
                                  Tijdens de bepaling wordt het materiaal als in ongedraineerde toestand beschouwd.
                                  Ongedraineerd betekent dat het water tijdens de bepaling niet wordt uitgeperst maar
-                                 in het materiaal blijft zitten. Een deel van de opgelegde spanning wordt dan overgenomen
-                                 door het water.
+                                 in het materiaal blijft zitten. Een deel van de opgelegde druk wordt dan overgenomen
+                                 door het water.<br clear="none">
                                  De bepaling wordt uitgevoerd door met de hand een eenvoudig apparaat de grond in te
                                  drukken en de kracht te meten die nodig is om het materiaal te doen bezwijken. De
                                  meting wordt omgerekend naar schuifspanning. Er vindt geen voorbehandeling plaats,
-                                 de meting wordt direct op een vlak gemaakt deel van het boormonster uitgevoerd. 
+                                 de meting wordt direct op een vlak gemaakt deel van het boormonster uitgevoerd.<br clear="none">
                                  De bepaling wordt uitgevoerd aan cohesieve grond, en dat wil zeggen grond die samenhang
                                  vertoont doordat het een zekere consistentie heeft, met uitzondering van stijve en
-                                 zeer stijve grond; de bepaling vereist monsterkwaliteit QM1, QM2 en QM3.
-                                 De bepaling maximale ongedraineerde schuifsterkte is een zogenaamde classificatieproef
-                                 die is opgenomen in de ISO 14688-2.
+                                 zeer stijve grond; de bepaling vereist monsterkwaliteit QM1, QM2 en QM3.<br clear="none">
+                                 De bepaling ongedraineerde schuifsterkte is een zogenaamde classificatieproef die
+                                 is opgenomen in de ISO 14688-2.
                               </p>
                               
                            </td>
@@ -16948,8 +16942,8 @@
                               <th>Toelichting</th>
                               <td>
                                  
-                                 <p>De procedure voor het bepalen van de maximale ongedraineerde schuifsterkte is opgenomen
-                                    in de NEN-EN-ISO 14688-2. De bepaling was niet eerder genormeerd.
+                                 <p>De procedure voor het bepalen van de ongedraineerde schuifsterkte is opgenomen in
+                                    de NEN-EN-ISO 14688-2. De bepaling was niet eerder genormeerd.
                                  </p>
                                  
                               </td>
@@ -17009,16 +17003,15 @@
                               <th>Toelichting</th>
                               <td>
                                  
-                                 <p>De bepaling wordt uitgevoerd met een zakpenetrometer of een handvin (torvane). 
-                                    Bij de zakpenetrometer wordt de drukkracht gemeten en die wordt standaard omgerekend
-                                    naar drukspanning (kracht per eenheid oppervlakte). De drukspanning wordt vervolgens
-                                    omgerekend naar schuifspanning op basis van een simpel bezwijkmodel (de drukspanning
-                                    gedeeld door 2). 
+                                 <p>De bepaling wordt uitgevoerd met een zakpenetrometer of een handvin (torvane). Bij
+                                    de zakpenetrometer wordt de kracht gemeten waarmee de penetrometer de grond in wordt
+                                    geduwd en die wordt standaard omgerekend naar verticale druk (kracht per eenheid oppervlakte).
+                                    De druk wordt vervolgens omgerekend naar schuifspanning op basis van een simpel bezwijkmodel
+                                    (de druk gedeeld door 2).<br clear="none">
                                     Bij gebruik van de handvin wordt de schuifkracht gemeten en die wordt standaard omgerekend
-                                    naar de schuifspanning (kracht per eenheid oppervlakte).
-                                    Het resultaat van de bepalingen is indicatief. De bepaling kan zowel in het lab als
-                                    in het veld zijn uitgevoerd. Waar de bepaling is uitgevoerd, is niet van invloed op
-                                    het resultaat.
+                                    naar de schuifspanning. Het resultaat van de bepalingen is indicatief. De bepaling
+                                    kan zowel in het lab als in het veld zijn uitgevoerd. Waar de bepaling is uitgevoerd,
+                                    is niet van invloed op het resultaat.
                                  </p>
                                  
                               </td>
@@ -17094,7 +17087,7 @@
                               <th>Definitie</th>
                               <td>
                                  
-                                 <p>De aanduiding die aangeeft of de bepaling verticaal is uitgevoerd.</p>
+                                 <p>De aanduiding die aangeeft of het meetinstrument verticaal het proefstuk is ingegaan.</p>
                                  
                               </td>
                            </tr>
@@ -17147,7 +17140,7 @@
                               <th>Definitie</th>
                               <td>
                                  
-                                 <p>De vochtigheidstoestand van het materiaal op het moment van bepalen.</p>
+                                 <p>De vochtigheidstoestand van het materiaal aan het begin van de bepaling.</p>
                                  
                               </td>
                            </tr>
@@ -17234,10 +17227,10 @@
                               <td>
                                  
                                  <p>De waarde van het gegeven is normaliter het gemiddelde van twee metingen. Daarbij
-                                    geldt wel dat de laagste meting niet kleiner mag zijn dan 75% van de hoogste meting.
+                                    geldt wel dat de laagste meting niet kleiner mag zijn dan 75 % van de hoogste meting.
                                     Wanneer er meer metingen moeten worden uitgevoerd om aan het criterium te voldoen,
                                     wordt alleen het paar metingen beschouwd dat aan het criterium voldoet.
-                                    Wanneer het verschil groter is dan 75%, worden de uiterste waarden gegeven.
+                                    Wanneer het verschil groter is dan 75 %, worden de uiterste waarden gegeven.
                                  </p>
                                  
                               </td>
@@ -17425,28 +17418,30 @@
                            <th>Toelichting</th>
                            <td>
                               
-                              <p>Tijdens de bepaling wordt het schuifspanningsverloop bij een bepaalde verticale rek
-                                 bepaald met de zogenaamde triaxiaalproef. Het proefstuk wordt gedurende een bepaalde
-                                 tijd met een bepaalde snelheid samengedrukt, door het verticaal te belasten. Het proefstuk
-                                 is tijdens de bepaling vrij om in alle richtingen te vervormen. 
+                              <p>Bij belasting vervormt grond en wanneer de vervorming zich als gevolg van horizontale
+                                 drukverschillen niet tot de verticale richting beperkt, kan de grond instabiel worden
+                                 en gaan schuiven. Om inzicht te krijgen in dat proces wordt het schuifspanningsverloop
+                                 bij belasting bepaald. 
+                                 Het schuifspanningsverloop wordt bepaald door het proefstuk gedurende een bepaalde
+                                 periode met een bepaalde snelheid verticaal te belasten. Het proefstuk is tijdens
+                                 de bepaling vrij om in alle richtingen te vervormen. De bepaling kent meestal drie
+                                 fasen de verzadigingsfase, vervolgens de consolidatiefase en tenslotte de belastingfase.
+                                 De eerste twee fasen kunnen worden overgeslagen. De belastingfase wordt altijd uitgevoerd.
+                                 De bepaling duurt maximaal 3 weken.<br clear="none">
                                  Normaliter wordt 1 bepaling per onderzocht interval uitgevoerd. Bij wijze van uitzondering
-                                 kunnen 3 bepalingen (3 proefstukken 'naast elkaar') aan 1 onderzocht interval worden
-                                 uitgevoerd. De proefstukken worden dan bij verschillende drukken geconsolideerd. 
-                                 De bepaling wordt uitgevoerd aan grond. De bepaling aan een niet verstoord proefstuk
-                                 vereist monsterkwaliteit QM1, QM2 of QM3. Normaliter/idealiter omvat het proefstuk
-                                 de volledige doorsnede van het boormonster. In dat geval wordt het materiaal na afloop
+                                 kunnen 3 bepalingen (3 proefstukken 'naast elkaar') worden uitgevoerd. De proefstukken
+                                 worden dan bij verschillende drukken geconsolideerd. 
+                              </p>
+                              
+                              <p>De bepaling wordt uitgevoerd aan grond en vereist een proefstuk uit een niet verstoord
+                                 boormonster met monsterkwaliteit QM1, QM2 of QM3. Normaliter omvat het proefstuk de
+                                 volledige doorsnede van het boormonster. In dat geval wordt het materiaal na afloop
                                  van de bepaling beschreven (onderzocht materiaal). Wanneer niet het gehele monster
                                  wordt gebruikt voor de bepaling, is er voldoende materiaal over om te beschrijven.
-                                 In dat geval is het materiaal beschreven als onderdeel van de boormonsterbeschrijving.
-                                 De kwaliteit van het monster waar een proefstuk van wordt gemaakt kan alle waarden
-                                 hebben.
-                                 De bepaling wordt uitgevoerd aan grond. De bepaling aan een niet verstoord proefstuk
-                                 vereist monsterkwaliteit QM1, QM2 of QM3. Idealiter omvat het proefstuk de volledige
-                                 doorsnede van het boormonster. In dat geval wordt het materiaal na afloop van de bepaling
-                                 beschreven (onderzocht materiaal). Wanneer niet het gehele monster wordt gebruikt
-                                 voor de bepaling, is er voldoende materiaal over om te beschrijven. In dat geval is
-                                 het materiaal beschreven als onderdeel van de boormonsterbeschrijving. De monsterkwaliteit
-                                 van een gemaakt proefstuk kan alle waarden hebben.
+                                 In dat geval is het materiaal beschreven als onderdeel van de boormonsterbeschrijving.<br clear="none">
+                                 Wanneer het doel van het onderzoek en de soort grond bepalen dat er een proefstuk
+                                 wordt gemaakt kan de kwaliteit van het boormonster waar het proefstuk van wordt gemaakt
+                                 alle waarden hebben.
                               </p>
                               
                            </td>
@@ -17570,8 +17565,8 @@
                         </tbody>
                      </table>
                      
-                  </section><a class="anchor" id="detail_attribute_Model_Bepalingschuifspanningsverloopbijbelasting_proefstukverstoord"></a><section id="detail_attribute_Model_Bepalingschuifspanningsverloopbijbelasting_proefstukverstoord">
-                     <h4>  proefstuk verstoord</h4>
+                  </section><a class="anchor" id="detail_attribute_Model_Bepalingschuifspanningsverloopbijbelasting_proefstukgemaakt"></a><section id="detail_attribute_Model_Bepalingschuifspanningsverloopbijbelasting_proefstukgemaakt">
+                     <h4>  proefstuk gemaakt</h4>
                      
                      <table style="width: 100%;">
                         <colgroup style="width: 30%;"></colgroup>
@@ -17585,7 +17580,7 @@
                               <th>Definitie</th>
                               <td>
                                  
-                                 <p>De aanduiding die aangeeft of het proefstuk een verstoord boormonster betreft.</p>
+                                 <p>De aanduiding die aangeeft of het proefstuk is gemaakt.</p>
                                  
                               </td>
                            </tr>
@@ -17613,16 +17608,16 @@
                               <th>Toelichting</th>
                               <td>
                                  
-                                 <p>De eisen die aan het monster worden gesteld hangen af van het doel van het onderzoek
+                                 <p>De eisen die aan het proefstuk worden gesteld hangen af van het doel van het onderzoek
                                     en de aard van het materiaal. Wanneer het doel van het onderzoek het bepalen van in-situ
-                                    eigenschappen is, wordt de bepaling uitgevoerd aan een niet verstoord boormonster,
-                                    tenzij de grond onvoldoende cohesief is. In dat laatste geval wordt het materiaal
-                                    op een bepaalde manier voorbehandeld en is er sprake van een gemaakt proefstuk. Wanneer
-                                    het doel van het onderzoek de eigenschappen van het materiaal te bepalen onder andere
-                                    omstandigheden dan in situ gelden is, wordt het materiaal voorbehandeld en is er sprake
-                                    van een gemaakt proefstuk.
-                                    Een ongeconsolideerd ongedraineerde uitvoering wordt altijd uitgevoerd op een niet
-                                    verstoord proefstuk.
+                                    eigenschappen is, wordt de bepaling uitgevoerd aan een proefstuk uit een niet verstoord
+                                    boormonster, tenzij de grond onvoldoende cohesief is. In dat laatste geval wordt het
+                                    materiaal op een bepaalde manier voorbehandeld en is er sprake van een gemaakt proefstuk.
+                                    Wanneer het doel van het onderzoek de eigenschappen van het materiaal te bepalen onder
+                                    andere omstandigheden dan in situ gelden is, wordt het materiaal voorbehandeld en
+                                    is er sprake van een gemaakt proefstuk.<br clear="none">
+                                    De ongeconsolideerd ongedraineerde bepaling wordt altijd uitgevoerd aan een proefstuk
+                                    uit een niet verstoord boormonster.
                                  </p>
                                  
                               </td>
@@ -17645,7 +17640,7 @@
                               <th>Definitie</th>
                               <td>
                                  
-                                 <p>De vochtigheidstoestand van het materiaal op het moment van bepalen.</p>
+                                 <p>De vochtigheidstoestand van het materiaal aan het begin van de bepaling.</p>
                                  
                               </td>
                            </tr>
@@ -17673,7 +17668,7 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>proefstuk verstoord</em> gelijk is aan <em>nee</em>. 
+                                 <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>proefstuk gemaakt</em> gelijk is aan <em>nee</em>.<br clear="none">
                                     Het attribuut mag niet aanwezig zijn in alle andere gevallen.
                                  </p>
                                  
@@ -17684,8 +17679,8 @@
                               <td>
                                  
                                  <p>De bepaling kan op veldvochtig tot volledig uitgedroogd materiaal worden uitgevoerd.
-                                    Het gegeven is relevant wanneer de bepaling wordt uitgevoerd aan een niet verstoord
-                                    boormonster.
+                                    Het gegeven is relevant wanneer de bepaling wordt uitgevoerd aan een proefstuk uit
+                                    een niet verstoord boormonster.
                                  </p>
                                  
                               </td>
@@ -17736,7 +17731,7 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>proefstuk verstoord</em> gelijk is aan <em>nee</em>. 
+                                 <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>proefstuk gemaakt</em> gelijk is aan <em>nee</em>.<br clear="none">
                                     Het attribuut mag niet aanwezig zijn in alle andere gevallen.
                                  </p>
                                  
@@ -17808,8 +17803,8 @@
                                  
                                  <p>De diameter van het proefstuk wordt gemeten conform ISO 17892-2, nadat het proefstuk
                                     tot een cilinder is gevormd en voordat het membraan om het proefstuk is getrokken.
-                                    Wanneer een proefstuk wordt gemaakt van niet-cohesief materiaal en is samengesteld
-                                    in een mal is de diameter van het proefstuk gelijk aan de binnendiameter van de mal.
+                                    Wanneer het proefstuk is gemaakt van niet-cohesief materiaal is de diameter van het
+                                    proefstuk gelijk aan de binnendiameter van de mal.
                                  </p>
                                  
                               </td>
@@ -17870,8 +17865,8 @@
                                  
                                  <p>De hoogte van het proefstuk wordt gemeten conform ISO 17892-2, nadat het proefstuk
                                     tot een cilinder is gevormd en voordat het membraan om het proefstuk is getrokken.
-                                    Wanneer een proefstuk wordt gemaakt van niet-cohesief materiaal en is samengesteld
-                                    in een mal is de hoogte van het proefstuk gelijk aan de hoogte van de mal. 
+                                    Wanneer een proefstuk is gemaakt van niet-cohesief materiaal is de hoogte van het
+                                    proefstuk gelijk aan de hoogte van de mal.<br clear="none">
                                     Uit de hoogte en de diameter kan het volume van het proefstuk worden berekend. De
                                     beginhoogte van het proefstuk is het nulpunt voor de hoogte en wordt als referentie
                                     gebruikt voor het bepalen van de verticale rek.
@@ -17951,7 +17946,7 @@
                               <th>Definitie</th>
                               <td>
                                  
-                                 <p>De aanduiding die aangeeft of filterstrookjes rondom het proefstuk zijn geplaatst.
+                                 <p>De aanduiding die aangeeft of drainagestroken rondom het proefstuk zijn geplaatst.
                                     
                                  </p>
                                  
@@ -17991,11 +17986,11 @@
                               <th>Toelichting</th>
                               <td>
                                  
-                                 <p>Wanneer het proefstuk bestaat uit slecht doorlatend materiaal worden filterstrookjes
+                                 <p>Wanneer het proefstuk bestaat uit slecht doorlatend materiaal worden drainagestroken
                                     om het proefstuk geplaatst om de afstroming tijdens de consolidatiefase te verbeteren
                                     en de verdeling van de waterspanning in het proefstuk tijdens de belastingfase te
                                     verbeteren. Wanneer het proefstuk is samengesteld uit zand is het niet mogelijk om
-                                    filterstrookjes te plaatsen.
+                                    drainagestroken te plaatsen.
                                  </p>
                                  
                               </td>
@@ -18135,7 +18130,7 @@
                               <th>Definitie</th>
                               <td>
                                  
-                                 <p>De reden waarom de uitvoerder van de bepaling met de bepaling is opgehouden.</p>
+                                 <p>De reden waarom de uitvoerder met de bepaling is opgehouden.</p>
                                  
                               </td>
                            </tr>
@@ -18380,7 +18375,7 @@
                               <th>Toelichting</th>
                               <td>
                                  
-                                 <p>Correctie voor rek van de drukcel wordt standaard toegepast. De rek wordt door middel
+                                 <p>Correctie voor rek van de drukcel wordt gewoonlijk toegepast. De rek wordt door middel
                                     van kalibratie bepaald en is afhankelijk van de celdruk.
                                  </p>
                                  
@@ -18529,7 +18524,7 @@
                               <th>Toelichting</th>
                               <td>
                                  
-                                 <p>De membraandikte wordt gemeten per membraan of per levering.</p>
+                                 <p>De membraandikte wordt gemeten.</p>
                                  
                               </td>
                            </tr>
@@ -18606,7 +18601,7 @@
                            <th>Definitie</th>
                            <td>
                               
-                              <p>De gegevens die betrekking hebben op het corrigeren van de invloed van filterstrookjes
+                              <p>De gegevens die betrekking hebben op het corrigeren van de invloed van drainagestroken
                                  op het resultaat.
                               </p>
                               
@@ -18616,7 +18611,7 @@
                            <th>Regels</th>
                            <td>
                               
-                              <p>De entiteit moet aanwezig zijn wanneer de waarde van het attribuut <em>filterstrookjes geplaatst</em> gelijk is aan <em>ja</em>.
+                              <p>De entiteit moet aanwezig zijn wanneer de waarde van het attribuut <em>drainagestroken gebruikt</em> gelijk is aan <em>ja</em>.<br clear="none">
                                  De entiteit mag niet aanwezig zijn in alle andere gevallen.
                               </p>
                               
@@ -18626,10 +18621,10 @@
                            <th>Toelichting</th>
                            <td>
                               
-                              <p>De invloed van de filterstrookjes is afhankelijk van de grootte van de vervorming
+                              <p>De invloed van de drainagestroken is afhankelijk van de grootte van de vervorming
                                  van het proefstuk en bij lage spanningen relatief groot. De methoden voor correctie
                                  verschillen en zijn nog in ontwikkeling. Om het voor hergebruik mogelijk te maken
-                                 andere correctiemethoden toe te passen zijn enkele kengegevens van de filterstrookjes
+                                 andere correctiemethoden toe te passen zijn enkele kengegevens van de drainagestroken
                                  vastgelegd.
                               </p>
                               
@@ -18651,7 +18646,7 @@
                               <th>Definitie</th>
                               <td>
                                  
-                                 <p>De manier waarop de verticale korrelspanning is gecorrigeerd voor de invloed van filterstrookjes.</p>
+                                 <p>De manier waarop de verticale korrelspanning is gecorrigeerd voor de invloed van drainagestroken.</p>
                                  
                               </td>
                            </tr>
@@ -18693,7 +18688,7 @@
                               <th>Definitie</th>
                               <td>
                                  
-                                 <p>De manier waarop filterstrookjes rondom het proefstuk zijn geplaatst. </p>
+                                 <p>De manier waarop drainagestroken rondom het proefstuk zijn geplaatst. </p>
                                  
                               </td>
                            </tr>
@@ -18721,7 +18716,7 @@
                               <th>Toelichting</th>
                               <td>
                                  
-                                 <p>De filterstrookjes nemen door de vervorming van het proefstuk een deel van de belasting
+                                 <p>De drainagestrookjes nemen door de vervorming van het proefstuk een deel van de druk
                                     op. Bij diagonaal geplaatste strookjes is de invloed kleiner dan bij verticaal geplaatste
                                     strookjes.
                                  </p>
@@ -18746,7 +18741,7 @@
                               <th>Definitie</th>
                               <td>
                                  
-                                 <p>Het deel van het oppervlak dat door de filterstrookjes in beslag wordt genomen, uitgedrukt
+                                 <p>Het deel van het oppervlak dat door de drainagestroken in beslag wordt genomen, uitgedrukt
                                     in een klasse. 
                                  </p>
                                  
@@ -18801,7 +18796,7 @@
                            <th>Regels</th>
                            <td>
                               
-                              <p>De entiteit moet aanwezig zijn wanneer de waarde van het attribuut <em>proefstuk verstoord</em> gelijk is aan <em>ja</em>.
+                              <p>De entiteit moet aanwezig zijn wanneer de waarde van het attribuut <em>proefstuk gemaakt</em> van de entiteit <em>Bepaling schuifspanningsverloop bij belasting</em> gelijk is aan <em>ja</em>.<br clear="none">
                                  De entiteit mag niet aanwezig zijn in alle andere gevallen.
                               </p>
                               
@@ -18872,9 +18867,10 @@
                                     van de mal wordt dichtgemaakt en afgesloten. Het proefstuk wordt licht vacuüm gezogen
                                     waardoor een kleine onderdruk in het proefstuk ontstaat (ca. 10 kPa). Ten slotte wordt
                                     de mal verwijderd. Wanneer het proefstuk is gemaakt van cohesief materiaal wordt het
-                                    materiaal waaruit het onderzochte interval bestaat eerst intensief gekneed en of aangestampt
-                                    met de proctor. Vervolgens wordt van een deel van het materiaal het proefstuk gemaakt
-                                    en worden de onder- en bovenkant recht afgesneden en het proefstuk nauwkeurig getrimd.
+                                    materiaal waaruit het onderzochte interval bestaat eerst intensief gekneed en eventueel
+                                    aangestampt of het materiaal wordt aangestampt met de proctor. Vervolgens wordt van
+                                    een deel van het materiaal het proefstuk gemaakt en worden de onder- en bovenkant
+                                    recht afgesneden en het proefstuk nauwkeurig getrimd.
                                  </p>
                                  
                               </td>
@@ -19018,7 +19014,7 @@
                               <td>
                                  
                                  <p>De volumieke massa wordt bepaald door de massa te wegen en het volume te bereken uit
-                                    de gemeten hoogte en diameter van het gemaakte proefstuk.
+                                    de hoogte en diameter van het gemaakte proefstuk.
                                  </p>
                                  
                               </td>
@@ -19089,7 +19085,7 @@
                               <td>
                                  
                                  <p>De droge volumieke massa wordt bepaald door de massa te wegen en het volume te bereken
-                                    uit de gemeten hoogte en diameter van het proefstuk.
+                                    uit de hoogte en diameter van het proefstuk.<br clear="none">
                                     In de bodemkunde wordt de droge volumieke massa droge bulkdichtheid genoemd. 
                                  </p>
                                  
@@ -19136,12 +19132,12 @@
                               
                               <p>Het proefstuk wordt verzadigd om een toestand te bereiken die overeenkomt met die
                                  van grond in de verzadigde zone van de ondergrond. In de verzadigde zone wordt de
-                                 grondspanning niet beinvloed door de aanwezigheid van (samendrukbaar) gas in de poriën,
+                                 grondspanning niet beïnvloed door de aanwezigheid van (samendrukbaar) gas in de poriën,
                                  omdat het gas is opgelost in het poriënwater. Gedurende de verzadigingsfase wordt
                                  de druk in de poriën van het proefstuk geleidelijk verhoogd door water in het proefstuk
                                  te persen. De  aanwezige lucht wordt daardoor gecomprimeerd en lost op in het poriënwater.
                                  Tegelijkertijd wordt ook de celdruk verhoogd om te voorkomen dat het proefstuk gaat
-                                 vervormen.
+                                 vervormen.<br clear="none">
                                  Bij slecht doorlatend materiaal en bij droog materiaal wordt de druk langzaam opgebouwd
                                  en bij meer doorlatend materiaal kan de druk sneller worden opgevoerd. De verzadiging
                                  duurt gewoonlijk 2 tot 24 uur.
@@ -19218,7 +19214,7 @@
                               <th>Definitie</th>
                               <td>
                                  
-                                 <p>De aanduiding die aangeeft of natte poreuze stenen zijn gebruikt. </p>
+                                 <p>De aanduiding die aangeeft of ruwe poreuze stenen zijn gebruikt.</p>
                                  
                               </td>
                            </tr>
@@ -19241,17 +19237,6 @@
                            <tr>
                               <th>&nbsp;&nbsp;Type</th>
                               <td>Waardelijst niet uitbreidbaar</td>
-                           </tr>
-                           <tr>
-                              <th>Toelichting</th>
-                              <td>
-                                 
-                                 <p>De bepaling wordt standaard met natte, oppervlakkig afgedroogde stenen uitgevoerd.
-                                    Wanneer men verwacht dat het materiaal door opname van water zal gaan zwellen worden
-                                    droge poreuze stenen gebruikt. 
-                                 </p>
-                                 
-                              </td>
                            </tr>
                         </tbody>
                      </table>
@@ -19299,8 +19284,8 @@
                               <th>Toelichting</th>
                               <td>
                                  
-                                 <p>Het gebruikt medium is het soort water dat tijdens de verzadigingsfase in de poriën
-                                    van het proefstuk is geperst.
+                                 <p>Het gebruikt medium is in deze bepaling het soort water dat tijdens de verzadigingsfase
+                                    in de poriën van het proefstuk is geperst.
                                  </p>
                                  
                               </td>
@@ -19354,7 +19339,7 @@
                               <td>
                                  
                                  <p>Idealiter beweegt de drukplaat vrij mee naar beneden en boven tijdens de verzadigingsfase.
-                                    Uit praktische overwegingen wordt de drukstang soms vast gezet zodat het proefstuk
+                                    Uit praktische overwegingen wordt de drukstang soms vastgezet zodat het proefstuk
                                     niet in hoogte kan veranderen.
                                  </p>
                                  
@@ -19407,8 +19392,8 @@
                               <td>
                                  
                                  <p>Normaliter wordt de celdruk automatisch gestuurd. Bij sommige apparaten wordt de celdruk
-                                    handmatig gestuurd en in dat geval lopen de poriëndruk en de celdruk niet in gelijke
-                                    mate op. 
+                                    handmatig gestuurd en in dat geval lopen de waterdruk in het proefstuk en de celdruk
+                                    niet in gelijke mate op.
                                  </p>
                                  
                               </td>
@@ -19596,13 +19581,12 @@
                               <th>Toelichting</th>
                               <td>
                                  
-                                 <p>Voor het uitvoeren van de metingen is het van belang te weten in welke mate de waterspanning
-                                    de druk bij drukveranderingen kan opnemen.  Om dat te bepalen wordt de watertoe- en
-                                    afvoer van het proefstuk afgesloten. Vervolgens wordt de celdruk in een keer opgevoerd
-                                    (meestal met 10-100 kPa). De toename in celdruk zal idealiter volledig worden opgenomen
-                                    door de waterspanning en dat is het geval bij volledige verzadiging. Dit wordt meestal
-                                    niet gehaald. 
-                                    In de procedure is een grenswaarde gesteld, deze wordt zelden niet gehaald. 
+                                 <p>Voor het uitvoeren van de metingen is het van belang te weten in welke mate het water
+                                    een verandering van druk kan opnemen. Om dat te bepalen wordt de watertoe- en afvoer
+                                    van het proefstuk afgesloten. Vervolgens wordt de celdruk in een keer opgevoerd (meestal
+                                    met 10-100 kPa). De toename in celdruk zal idealiter volledig worden opgenomen door
+                                    het water en dat is het geval bij volledige verzadiging. Dit wordt meestal niet gehaald.
+                                    In de procedure is een grenswaarde gesteld. 
                                  </p>
                                  
                               </td>
