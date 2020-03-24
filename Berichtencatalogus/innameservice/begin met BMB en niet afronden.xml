@@ -42,6 +42,10 @@
                <bhrgtcom:descriptionLocation codeSpace="urn:bro:bhrgt:DescriptionLocation">veld</bhrgtcom:descriptionLocation>
                <bhrgtcom:describedMaterial codeSpace="urn:bro:bhrgt:DescribedMaterial">grond</bhrgtcom:describedMaterial>
                <!--Optional:-->
+               <bhrgtcom:sampleMoistness codeSpace="urn:bro:bhrgt:SampleMoistness">veldvochtig</bhrgtcom:sampleMoistness>
+               <!--Optional:-->
+               <!--bhrgtcom:boreholeLogChecked>nee</bhrgtcom:boreholeLogChecked-->
+               <!--Optional:-->
                <!--bhrgtcom:meanHighestGroundwaterLevel uom="m">1.50</bhrgtcom:meanHighestGroundwaterLevel-->
                <!--Optional:-->
                <!--bhrgtcom:meanLowestGroundwaterLevel uom="m">2.51</bhrgtcom:meanLowestGroundwaterLevel-->
@@ -56,12 +60,12 @@
                   <!--bhrgtcom:activityType codeSpace="urn:bro:bhrgt:ActivityType">geroerd</bhrgtcom:activityType-->
                   <!--Optional:-->
                   <bhrgtcom:specialMaterial codeSpace="urn:bro:bhrgt:SpecialMaterial">puin</bhrgtcom:specialMaterial>
-                  <!--Optional:-->
+                  <!--Optional: mandatory when internalstructure = ja -->
                   <!--bhrgtcom:slant>nee</bhrgtcom:slant-->
                   <!--Optional:-->
                   <!--bhrgtcom:internalStructureIntact>ja</bhrgtcom:internalStructureIntact-->
-                  <!--Optional:-->
-                  <bhrgtcom:bedded>ja</bhrgtcom:bedded>
+                  <!--Optional: mandatory when internalstructure = ja -->
+                  <!--bhrgtcom:bedded>ja</bhrgtcom:bedded-->
                   <!--Optional:-->
                   <bhrgtcom:compositeLayer>nee</bhrgtcom:compositeLayer>
                   <!--Optional:-->
@@ -86,7 +90,6 @@
                      <bhrgtcom:carbonateContentClass codeSpace="urn:bro:bhrgt:CarbonateContentClass">kalkloos</bhrgtcom:carbonateContentClass>
                      <!--Optional:-->
                      <!--bhrgtcom:organicMatterContentClass codeSpace="urn:bro:bhrgt:OrganicMatterContentClass">nietOrganisch</bhrgtcom:organicMatterContentClass-->
-                     <bhrgtcom:rooted xsi:nil="true"/>
                      <!--Optional:-->
                      <!--bhrgtcom:gravelMedianClass codeSpace="urn:bro:bhrgt:GravelMedianClass">fijn</bhrgtcom:gravelMedianClass-->
                      <!--Optional:-->
@@ -96,7 +99,7 @@
                      <!--Optional:-->
                      <!--bhrgtcom:veryCoarseGravelContentClass codeSpace="urn:bro:bhrgt:VeryCoarseGravelContentClass">spoorTot1</bhrgtcom:veryCoarseGravelContentClass-->
                      <!--Optional:-->
-                     <!--bhrgtcom:sandMedianClass codeSpace="urn:bro:bhrgt:SandMedianClass">middelgrof210tot300um</bhrgtcom:sandMedianClass-->
+                     <!--bhrgtcom:sandMedianClass codeSpace="urn:bro:bhrgt:SandMedianClass">uiterstGrofNEN5104</bhrgtcom:sandMedianClass-->
                      <!--Optional:-->
                      <!--bhrgtcom:sandSortingNEN5104 codeSpace="urn:bro:bhrgt:SandSortingNEN5104">matigKlein</bhrgtcom:sandSortingNEN5104-->
                      <!--Optional:-->
@@ -113,13 +116,16 @@
                      <!--bhrgtcom:geotechnicalDepositionalCharacteristic codeSpace="urn:bro:bhrgt:GeotechnicalDepositionalCharacteristic">dekzand</bhrgtcom:geotechnicalDepositionalCharacteristic-->
                      <!--Optional:-->
                      <!--bhrgtcom:depositionalAge codeSpace="urn:bro:bhrgt:DepositionalAge">holoceen</bhrgtcom:depositionalAge-->
-                     <!--0 to 2 repetitions:-->
-                     <!--bhrgtcom:grainshape>
+                     <!--Optional:-->
+                     <!--
+                     <bhrgtcom:grainshape>
                         <bhrgtcom:sizeFraction codeSpace="urn:bro:bhrgt:SizeFraction">zand</bhrgtcom:sizeFraction>
                         <bhrgtcom:angularity codeSpace="urn:bro:bhrgt:Angularity">afgerond</bhrgtcom:angularity>
                         <bhrgtcom:sphericity xsi:nil="true" codeSpace="urn:bro:bhrgt:Sphericity"/>
+                        <!-Optional:->
                         <bhrgtcom:roughness codeSpace="urn:bro:bhrgt:Roughness">glad</bhrgtcom:roughness>
-                     </bhrgtcom:grainshape-->
+                     </bhrgtcom:grainshape>
+					 -->
                   </bhrgtcom:soil>
                </bhrgtcom:layer>
                <!--Zero or more repetitions:-->

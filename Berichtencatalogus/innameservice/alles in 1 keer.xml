@@ -43,7 +43,7 @@
                <bhrgtcom:descriptionLocation codeSpace="urn:bro:bhrgt:DescriptionLocation">onbekend</bhrgtcom:descriptionLocation>
                <bhrgtcom:describedMaterial codeSpace="urn:bro:bhrgt:DescribedMaterial">grond</bhrgtcom:describedMaterial>
                <!--Optional:-->
-               <!--bhrgtcom:sampleMoistness codeSpace="urn:bro:bhrgt:SampleMoistness">veldvochtig</bhrgtcom:sampleMoistness-->
+               <bhrgtcom:sampleMoistness codeSpace="urn:bro:bhrgt:SampleMoistness">veldvochtig</bhrgtcom:sampleMoistness>
                <!--Optional:-->
                <!--bhrgtcom:boreholeLogChecked>nee</bhrgtcom:boreholeLogChecked-->
                <!--Optional:-->
@@ -61,11 +61,11 @@
                   <!--bhrgtcom:activityType codeSpace="urn:bro:bhrgt:ActivityType">onbekend</bhrgtcom:activityType-->
                   <!--Optional:-->
                   <!--bhrgtcom:specialMaterial codeSpace="urn:bro:bhrgt:SpecialMaterial">glauconietzand</bhrgtcom:specialMaterial-->
-                  <!--Optional:-->
+                  <!--Optional: mandatory when internalstructure = ja -->
                   <!--bhrgtcom:slant>nee</bhrgtcom:slant-->
                   <!--Optional:-->
                   <!--bhrgtcom:internalStructureIntact>ja</bhrgtcom:internalStructureIntact-->
-                  <!--Optional:-->
+                  <!--Optional: mandatory when internalstructure = ja -->
                   <!--bhrgtcom:bedded>ja</bhrgtcom:bedded-->
                   <!--Optional:-->
                   <!--bhrgtcom:compositeLayer>nee</bhrgtcom:compositeLayer-->
@@ -95,7 +95,6 @@
                      <bhrgtcom:carbonateContentClass codeSpace="urn:bro:bhrgt:CarbonateContentClass">kalkloos</bhrgtcom:carbonateContentClass>
                      <!--Optional:-->
                      <bhrgtcom:organicMatterContentClass codeSpace="urn:bro:bhrgt:OrganicMatterContentClass">nietOrganisch</bhrgtcom:organicMatterContentClass>
-                     <!-- removed <bhrgtcom:rooted xsi:nil="true"/> -->
                      <!--Optional:-->
                      <!--bhrgtcom:crossBedding>nee</bhrgtcom:crossBedding-->
                      <!--Optional:-->
@@ -130,14 +129,16 @@
                      <!--bhrgtcom:geotechnicalDepositionalCharacteristic codeSpace="urn:bro:bhrgt:GeotechnicalDepositionalCharacteristic">dekzand</bhrgtcom:geotechnicalDepositionalCharacteristic-->
                      <!--Optional:-->
                      <!--bhrgtcom:depositionalAge codeSpace="urn:bro:bhrgt:DepositionalAge">holoceen</bhrgtcom:depositionalAge-->
-                     <!--0 to 2 repetitions:-->
+                     <!--Optional:-->
+                     <!--
                      <bhrgtcom:grainshape>
                         <bhrgtcom:sizeFraction codeSpace="urn:bro:bhrgt:SizeFraction">zand</bhrgtcom:sizeFraction>
                         <bhrgtcom:angularity codeSpace="urn:bro:bhrgt:Angularity">afgerond</bhrgtcom:angularity>
                         <bhrgtcom:sphericity xsi:nil="true" codeSpace="urn:bro:bhrgt:Sphericity"/>
-                        <!--Optional:-->
+                        <!-Optional:->
                         <bhrgtcom:roughness codeSpace="urn:bro:bhrgt:Roughness">glad</bhrgtcom:roughness>
                      </bhrgtcom:grainshape>
+                     -->
                   </bhrgtcom:soil>
                </bhrgtcom:layer>
                <bhrgtcom:layer>
@@ -150,11 +151,11 @@
                   <!--bhrgtcom:activityType codeSpace="urn:bro:bhrgt:ActivityType">onbekend</bhrgtcom:activityType-->
                   <!--Optional:-->
                   <!--bhrgtcom:specialMaterial codeSpace="urn:bro:bhrgt:SpecialMaterial">glauconietzand</bhrgtcom:specialMaterial-->
-                  <!--Optional:-->
+                  <!--Optional: mandatory when internalstructure = ja -->
                   <!--bhrgtcom:slant>nee</bhrgtcom:slant-->
                   <!--Optional:-->
                   <!--bhrgtcom:internalStructureIntact>ja</bhrgtcom:internalStructureIntact-->
-                  <!--Optional:-->
+                  <!--Optional: mandatory when internalstructure = ja -->
                   <!--bhrgtcom:bedded>ja</bhrgtcom:bedded-->
                   <!--Optional:-->
                   <!--bhrgtcom:compositeLayer>nee</bhrgtcom:compositeLayer-->
@@ -184,7 +185,6 @@
                      <bhrgtcom:carbonateContentClass codeSpace="urn:bro:bhrgt:CarbonateContentClass">kalkloos</bhrgtcom:carbonateContentClass>
                      <!--Optional:-->
                      <bhrgtcom:organicMatterContentClass codeSpace="urn:bro:bhrgt:OrganicMatterContentClass">nietOrganisch</bhrgtcom:organicMatterContentClass>
-                     <!-- removed <bhrgtcom:rooted xsi:nil="true"/> -->
                      <!--Optional:-->
                      <!--bhrgtcom:crossBedding>nee</bhrgtcom:crossBedding-->
                      <!--Optional:-->
@@ -202,7 +202,7 @@
                      <!--Optional:-->
                      <!--bhrgtcom:veryCoarseGravelContentClass codeSpace="urn:bro:bhrgt:VeryCoarseGravelContentClass">spoorTot1</bhrgtcom:veryCoarseGravelContentClass-->
                      <!--Optional:-->
-                     <bhrgtcom:sandMedianClass codeSpace="urn:bro:bhrgt:SandMedianClass">middelgrof210tot300um</bhrgtcom:sandMedianClass>
+                     <bhrgtcom:sandMedianClass codeSpace="urn:bro:bhrgt:SandMedianClass">uiterstGrofNEN5104</bhrgtcom:sandMedianClass>
                      <!--Optional:-->
                      <!--bhrgtcom:sandSortingNEN5104 codeSpace="urn:bro:bhrgt:SandSortingNEN5104">matigKlein</bhrgtcom:sandSortingNEN5104-->
                      <!--Optional:-->
@@ -219,21 +219,16 @@
                      <!--bhrgtcom:geotechnicalDepositionalCharacteristic codeSpace="urn:bro:bhrgt:GeotechnicalDepositionalCharacteristic">dekzand</bhrgtcom:geotechnicalDepositionalCharacteristic-->
                      <!--Optional:-->
                      <!--bhrgtcom:depositionalAge codeSpace="urn:bro:bhrgt:DepositionalAge">holoceen</bhrgtcom:depositionalAge-->
-                     <!--0 to 2 repetitions:-->
+                     <!--Optional:-->
+                     <!--
                      <bhrgtcom:grainshape>
                         <bhrgtcom:sizeFraction codeSpace="urn:bro:bhrgt:SizeFraction">zand</bhrgtcom:sizeFraction>
                         <bhrgtcom:angularity codeSpace="urn:bro:bhrgt:Angularity">afgerond</bhrgtcom:angularity>
                         <bhrgtcom:sphericity xsi:nil="true" codeSpace="urn:bro:bhrgt:Sphericity"/>
-                        <!--Optional:-->
+                        <!-Optional:->
                         <bhrgtcom:roughness codeSpace="urn:bro:bhrgt:Roughness">glad</bhrgtcom:roughness>
                      </bhrgtcom:grainshape>
-                     <bhrgtcom:grainshape>
-                        <bhrgtcom:sizeFraction codeSpace="urn:bro:bhrgt:SizeFraction">grind</bhrgtcom:sizeFraction>
-                        <bhrgtcom:angularity codeSpace="urn:bro:bhrgt:Angularity">zeerAfgerond</bhrgtcom:angularity>
-                        <bhrgtcom:sphericity codeSpace="urn:bro:bhrgt:Sphericity">bol</bhrgtcom:sphericity>
-                        <!--Optional:-->
-                        <!--bhrgtcom:roughness codeSpace="urn:bro:bhrgt:Roughness">glad</bhrgtcom:roughness-->
-                     </bhrgtcom:grainshape>
+                     -->
                   </bhrgtcom:soil>
                </bhrgtcom:layer>
                <bhrgtcom:layer>
@@ -246,11 +241,11 @@
                   <!--bhrgtcom:activityType codeSpace="urn:bro:bhrgt:ActivityType">onbekend</bhrgtcom:activityType-->
                   <!--Optional:-->
                   <!--bhrgtcom:specialMaterial codeSpace="urn:bro:bhrgt:SpecialMaterial">glauconietzand</bhrgtcom:specialMaterial-->
-                  <!--not Optional when internalstructure = ja:-->
+                  <!--Optional: mandatory when internalstructure = ja -->
                   <bhrgtcom:slant>nee</bhrgtcom:slant>
                   <!--Optional:-->
                   <bhrgtcom:internalStructureIntact>ja</bhrgtcom:internalStructureIntact>
-                  <!--Optional:-->
+                  <!--Optional: mandatory when internalstructure = ja -->
                   <bhrgtcom:bedded>ja</bhrgtcom:bedded>
                   <!--Optional:-->
                   <bhrgtcom:compositeLayer>ja</bhrgtcom:compositeLayer>
@@ -343,8 +338,6 @@
              <bhrgtcom:described>nee</bhrgtcom:described>
              <!--Optional:-->
              <!--bhrgtcom:investigatedMaterial>...</bhrgtcom:investigatedMaterial-->
-             <!--Optional: DON'T USE IT -->
-             <!-- bhrgtcom:verticalDeformationDetermination>...</bhrgtcom:verticalDeformationDetermination -->
              <!--Optional:-->
              <!-- bhrgtcom:maximumUndrainedShearStrengthDetermination>...</bhrgtcom:maximumUndrainedShearStrengthDetermination -->
              <!--Optional:-->
@@ -360,16 +353,16 @@
                <!--Optional:-->
                <!--bhrgtcom:equivalentMassDeterminationMethod codeSpace="urn:bro:bhrgt:EquivalentMassDeterminationMethod">massaBepaald</bhrgtcom:equivalentMassDeterminationMethod -->
                <!--Optional:-->
-               <!--bhrgtcom:equivalentMass uom="%">12.3</bhrgtcom:equivalentMass -->
-               <!--Optional:-->
+               <!--bhrgtcom:equivalentMass uom="g/cm3">1.1234</bhrgtcom:equivalentMass-->
+               <!--0 to 2 repetitions:-->
                <!--bhrgtcom:performanceIrregularity codeSpace="urn:bro:bhrgt:PerformanceIrregularity">materiaalVerloren</bhrgtcom:performanceIrregularity -->
                <!--0 to 2 repetitions:-->
                <!--bhrgtcom:materialIrregularity codeSpace="urn:bro:bhrgt:MaterialIrregularity">desintegratie</bhrgtcom:materialIrregularity -->
                <!--Optional:-->
                <bhrgtcom:usedOpticalModel codeSpace="urn:bro:bhrgt:UsedOpticalModel">Fraunhofer</bhrgtcom:usedOpticalModel>
                <bhrgtcom:basicParticleSizeDistribution>
-                 <bhrgtcom:fractionSmaller63um uom="%">3</bhrgtcom:fractionSmaller63um>
-                 <bhrgtcom:fractionLarger63um uom="%">97</bhrgtcom:fractionLarger63um>
+                 <bhrgtcom:fractionSmaller63um uom="%">2.5</bhrgtcom:fractionSmaller63um>
+                 <bhrgtcom:fractionLarger63um uom="%">97.5</bhrgtcom:fractionLarger63um>
                  <!--Optional:-->
                  <!--bhrgtcom:standardDistributionFractionSmaller63um>...</bhrgtcom:standardDistributionFractionSmaller63um-->
                  <!--Optional:-->

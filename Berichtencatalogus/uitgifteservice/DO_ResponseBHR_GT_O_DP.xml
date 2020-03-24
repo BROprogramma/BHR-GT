@@ -236,7 +236,6 @@
             <bhrgtcom:anthropogenic>ja</bhrgtcom:anthropogenic>
             <bhrgtcom:activityType codeSpace="urn:bro:bhrgt:ActivityType">gecontroleerdAangebracht</bhrgtcom:activityType>
             <bhrgtcom:specialMaterial codeSpace="urn:bro:bhrgt:SpecialMaterial">puin</bhrgtcom:specialMaterial>
-            <bhrgtcom:slant>nee</bhrgtcom:slant>
           </bhrgtcom:layer>
           <bhrgtcom:layer>
             <bhrgtcom:upperBoundary uom="m">6.74</bhrgtcom:upperBoundary>
@@ -244,9 +243,7 @@
             <bhrgtcom:lowerBoundary uom="m">38.91</bhrgtcom:lowerBoundary>
             <bhrgtcom:lowerBoundaryDetermination codeSpace="urn:bro:bhrgt:BoundaryPositioningMethod">waargenomenGeleidelijk</bhrgtcom:lowerBoundaryDetermination>
             <bhrgtcom:anthropogenic>nee</bhrgtcom:anthropogenic>
-            <bhrgtcom:slant>ja</bhrgtcom:slant>
             <bhrgtcom:internalStructureIntact>nee</bhrgtcom:internalStructureIntact>
-            <bhrgtcom:bedded>ja</bhrgtcom:bedded>
             <bhrgtcom:compositeLayer>ja</bhrgtcom:compositeLayer>
             <bhrgtcom:bedding codeSpace="urn:bro:bhrgt:Bedding">dikGelamineerd</bhrgtcom:bedding>
             <bhrgtcom:soil>
@@ -264,7 +261,6 @@
               <bhrgtcom:dispersedInhomogeneity codeSpace="urn:bro:bhrgt:DispersedInhomogeneity">zandsteenlensjesWeinig</bhrgtcom:dispersedInhomogeneity>
               <bhrgtcom:carbonateContentClass codeSpace="urn:bro:bhrgt:CarbonateContentClass">kalkloos</bhrgtcom:carbonateContentClass>
               <bhrgtcom:organicMatterContentClass codeSpace="urn:bro:bhrgt:OrganicMatterContentClass">nietOrganisch</bhrgtcom:organicMatterContentClass>
-              <bhrgtcom:rooted>nee</bhrgtcom:rooted>
               <bhrgtcom:crossBedding>nee</bhrgtcom:crossBedding>
               <bhrgtcom:gradedBedding>nee</bhrgtcom:gradedBedding>
               <bhrgtcom:mixed>ja</bhrgtcom:mixed>
@@ -279,20 +275,8 @@
               <bhrgtcom:organicSoilTexture codeSpace="urn:bro:bhrgt:OrganicSoilTexture">vezeligFijn</bhrgtcom:organicSoilTexture>
               <bhrgtcom:fineSoilConsistency codeSpace="urn:bro:bhrgt:FineSoilConsistency">stevig</bhrgtcom:fineSoilConsistency>
               <bhrgtcom:organicSoilConsistency codeSpace="urn:bro:bhrgt:OrganicSoilConsistency">vast</bhrgtcom:organicSoilConsistency>
-              <bhrgtcom:peatTensileStrength codeSpace="urn:bro:bhrgt:PeatTensileStrength">matig</bhrgtcom:peatTensileStrength>
               <bhrgtcom:geotechnicalDepositionalCharacteristic codeSpace="urn:bro:bhrgt:GeotechnicalDepositionalCharacteristic">marienLagunair</bhrgtcom:geotechnicalDepositionalCharacteristic>
               <bhrgtcom:depositionalAge codeSpace="urn:bro:bhrgt:DepositionalAge">holoceen</bhrgtcom:depositionalAge>
-              <bhrgtcom:grainshape>
-                <bhrgtcom:sizeFraction codeSpace="urn:bro:bhrgt:SizeFraction">zand</bhrgtcom:sizeFraction>
-                <bhrgtcom:angularity codeSpace="urn:bro:bhrgt:Angularity">afgerond</bhrgtcom:angularity>
-                <bhrgtcom:sphericity codeSpace="urn:bro:bhrgt:Sphericity">bol</bhrgtcom:sphericity>
-              </bhrgtcom:grainshape>
-              <bhrgtcom:grainshape>
-                <bhrgtcom:sizeFraction codeSpace="urn:bro:bhrgt:SizeFraction">grind</bhrgtcom:sizeFraction>
-                <bhrgtcom:angularity codeSpace="urn:bro:bhrgt:Angularity">zeerAfgerond</bhrgtcom:angularity>
-                <bhrgtcom:sphericity codeSpace="urn:bro:bhrgt:Sphericity">plat</bhrgtcom:sphericity>
-                <bhrgtcom:roughness codeSpace="urn:bro:bhrgt:Roughness">glad</bhrgtcom:roughness>
-              </bhrgtcom:grainshape>
             </bhrgtcom:soil>
           </bhrgtcom:layer>
           <bhrgtcom:layer>
@@ -357,16 +341,16 @@
             <!--Optional:-->
             <!--bhrgtcom:equivalentMassDeterminationMethod codeSpace="urn:bro:bhrgt:EquivalentMassDeterminationMethod">massaBepaald</bhrgtcom:equivalentMassDeterminationMethod-->
             <!--Optional:-->
-            <!--bhrgtcom:equivalentMass uom="%">12.3</bhrgtcom:equivalentMass-->
-            <!--Optional:-->
+            <!--bhrgtcom:equivalentMass uom="g/cm3">1.1234</bhrgtcom:equivalentMass-->
+            <!--0 to 2 repetitions:-->
             <!--bhrgtcom:performanceIrregularity codeSpace="urn:bro:bhrgt:PerformanceIrregularity">materiaalVerloren</bhrgtcom:performanceIrregularity-->
             <!--0 to 2 repetitions:-->
             <!--bhrgtcom:materialIrregularity codeSpace="urn:bro:bhrgt:MaterialIrregularity">desintegratie</bhrgtcom:materialIrregularity-->
             <!--Optional:-->
             <bhrgtcom:usedOpticalModel codeSpace="urn:bro:bhrgt:UsedOpticalModel">Fraunhofer</bhrgtcom:usedOpticalModel>
             <bhrgtcom:basicParticleSizeDistribution>
-              <bhrgtcom:fractionSmaller63um uom="%">3</bhrgtcom:fractionSmaller63um>
-              <bhrgtcom:fractionLarger63um uom="%">97</bhrgtcom:fractionLarger63um>
+              <bhrgtcom:fractionSmaller63um uom="%">2.5</bhrgtcom:fractionSmaller63um>
+              <bhrgtcom:fractionLarger63um uom="%">97.5</bhrgtcom:fractionLarger63um>
               <!--Optional:-->
               <!--bhrgtcom:standardDistributionFractionSmaller63um>...</bhrgtcom:standardDistributionFractionSmaller63um-->
               <!--Optional:-->
