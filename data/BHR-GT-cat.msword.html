@@ -13,7 +13,7 @@
    <body>
       <p>Conceptual model/Geotechnisch booronderzoek (BHR-GT)/20200312</p>
       <p>Imvertor: 1.59.2</p>
-      <p>Model release: Conceptualmodel-GeotechnischbooronderzoekBHR-GT-1.9-1-20200312-20200324-075601</p>
+      <p>Model release: Conceptualmodel-GeotechnischbooronderzoekBHR-GT-1.9-1-20200312-20200324-091451</p>
       <hr>
       <section>
          <h1>Artikel 1 Definitie van registratieobject, entiteiten en attributen</h1>
@@ -8661,7 +8661,9 @@
                               <td>
                                  
                                  <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> van de entiteit <em>Boorprofiel</em> gelijk is aan <em>klasse2ongeroerd</em> en de waarde van het attribuut <em>antropogeen</em> gelijk is aan <em>ja</em>.<br clear="none">
-                                    Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>antropogeen</em> niet gelijk is aan <em>ja</em>.
+                                    Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> van de entiteit <em>Boorprofiel</em> gelijk is aan <em>klasse2geroerd of</em> 
+                                    <em>klasse3</em>.<br clear="none">
+                                    Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>antropogeen</em> niet gelijk is aan <em>ja</em>. 
                                  </p>
                                  
                               </td>
@@ -8670,7 +8672,10 @@
                               <th>Toelichting</th>
                               <td>
                                  
-                                 <p>Menselijk ingrijpen leidt tot veranderingen van de eigenschappen van de ondergrond.
+                                 <p>Het gegeven wordt alleen vastgelegd bij de beschrijving van ongeroerde monsters onder
+                                    klasse 2. Het is goede praktijk om bij handboringen waarvan alle monsters in het veld
+                                    zijn beschreven (<em>klasse2ongedifferentieerd</em>) dezelfde spelregels te volgen.<br clear="none">
+                                    Menselijk ingrijpen leidt tot veranderingen van de eigenschappen van de ondergrond.
                                     Vanuit geotechnisch perspectief is het van belang het menselijk ingrijpen te typeren
                                     om ten minste een globaal beeld te geven van de aard van de verandering. Zo zal los
                                     gestort zand een lagere dichtheid hebben dan zand dat van nature aanwezig is, terwijl
@@ -8728,10 +8733,10 @@
                               <th>Toelichting</th>
                               <td>
                                  
-                                 <p>Een laag bestaat uit bijzonder materiaal wanneer meer dan 50% van de massa bijzonder
+                                 <p>Een laag bestaat uit bijzonder materiaal wanneer meer dan 5 0% van de massa bijzonder
                                     materiaal is, en bij een groot verschil in volumieke massa wanneer het materiaal bepalend
-                                    is voor de geotechnische eigenschappen. 
-                                    Dat materiaal kan zowel natuurlijk als antropogeen van aard zijn. 
+                                    is voor de geotechnische eigenschappen. Dat materiaal kan zowel natuurlijk als antropogeen
+                                    van aard zijn.<br clear="none">
                                     Een laag die uit bijzonder materiaal bestaat wordt minder uitgebreid beschreven dan
                                     een laag die uit grond of gesteente bestaat.
                                  </p>
@@ -8785,7 +8790,7 @@
                               <td>
                                  
                                  <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> gelijk is aan <em>klasse2ongeroerd</em> of <em>klasse2ongedifferentieerd</em> en het attribuut <em>bijzonder materiaal</em> ontbreekt.<br clear="none">
-                                    Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> gelijk is aan <em>klasse2geroerd</em>.
+                                    Het attribuut mag niet aanwezig zijn in alle andere gevallen.
                                  </p>
                                  
                               </td>
@@ -8794,9 +8799,8 @@
                               <th>Toelichting</th>
                               <td>
                                  
-                                 <p>Voor klasse 3 bestaat vrijheid van keuze, omdat een combinatie van factoren bepaalt
-                                    of het gegeven mag bestaan (de precieze strekking van de opdracht, de keuze die de
-                                    uitvoerder maakt en de kwaliteit van de monsters).<br clear="none">
+                                 <p>Het gegeven wordt alleen vastgelegd bij de beschrijving van ongeroerde monsters onder
+                                    klasse 2. Bij handboringen waarvan alle monsters in het veld zijn beschreven (<em>klasse2ongedifferentieerd</em>) wordt het gegeven ook vastgelegd.<br clear="none">
                                     Het gegeven is onder NEN 5104 niet vastgelegd.
                                  </p>
                                  
@@ -8935,10 +8939,7 @@
                               <td>
                                  
                                  <p>Het gegeven wordt vastgelegd wanneer de kwaliteit van de grond- of gesteentemonsters
-                                    dat rechtvaardigt en dat is wanneer de interne structuur intact is, maar dat geldt
-                                    niet onverkort voor organische grond. In de praktijk worden laagjes organische grond
-                                    dikker dan 2 centimeter apart beschreven en alleen bij een zeer hoge monsterkwaliteit
-                                    wordt het al dan niet gelamineerd zijn (zie gelaagdheid) van die laagjes beschreven.
+                                    dat rechtvaardigt en dat is wanneer de interne structuur intact is.
                                  </p>
                                  
                               </td>
@@ -9403,7 +9404,7 @@
                            </tr>
                            <tr>
                               <th>Kardinaliteit</th>
-                              <td>0..*</td>
+                              <td>1..*</td>
                            </tr>
                            <tr>
                               <th>Domein</th>
@@ -9418,19 +9419,15 @@
                               <td>Waardelijst uitbreidbaar</td>
                            </tr>
                            <tr>
-                              <th>Regels</th>
-                              <td>
-                                 
-                                 <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>geotechnische grondsoort</em> gelijk is aan <em>keien</em>, <em>keienMetGrind</em>, <em>keienMetZand</em>, <em>keienMetSilt</em>, <em>keienMetKlei</em>, <em>keitjes</em>, <em>keitjesMetGrind</em>, <em>keitjesMetZand</em>, <em>keitjesMetSilt</em>, <em>keitjesMetKlei</em>, <em>grind</em>, <em>grindMetKeien</em>, <em>grindMetKeitjes</em>, <em>zwakZandigGrind</em>, <em>sterkZandigGrind</em>, <em>siltigGrind</em>, <em>kleiigGrind</em>, <em>zand</em>, <em>zandMetKeien</em>, <em>zandMetKeitjes</em>, <em>zwakGrindigZand</em>, <em>sterkGrindigZand</em>, <em>siltigZand</em>, <em>siltigZandMetGrind</em>, <em>kleiigZand</em>, <em>kleiigZandMetGrind</em>, <em>silt</em>, <em>siltMetKeien</em>, <em>siltMetKeitjes</em>, <em>zwakGrindigSilt</em>, <em>sterkGrindigSilt</em>, <em>zwakZandigSilt</em>, <em>zwakZandigSiltMetGrind</em>, <em>sterkZandigSilt</em>, <em>sterkZandigSiltMetGrind</em>, <em>klei</em>, <em>kleiMetKeien</em>, <em>kleiMetKeitjes</em>, <em>zwakGrindigeKlei</em>, <em>sterkGrindigeKlei</em>, <em>zwakZandigeKlei</em>, <em>zwakZandigeKleiMetGrind</em>, <em>sterkZandigeKlei</em> of <em>sterkZandigeKleiMetGrind</em>.
-                                 </p>
-                                 
-                              </td>
+                              <th>Mogelijk geen waarde</th>
+                              <td>Ja</td>
                            </tr>
                            <tr>
-                              <th>Regels IMBRO/A</th>
+                              <th>Reden geen waarde</th>
                               <td>
                                  
-                                 <p>Wanneer de waarde van het attribuut <em>beschrijfprocedure</em> van de entiteit <em>Boormonsterbeschrijving</em> gelijk is aan <em>NEN5104Synthetisch,</em> mag het gegeven ontbreken. 
+                                 <p>De waarde mag ontbreken wanneer de waarde van het attribuut <em>beschrijfprocedure</em> van de entiteit <em>Boormonsterbeschrijving</em> gelijk is aan <em>NEN5104Synthetisch.</em> 
+                                    
                                  </p>
                                  
                               </td>
@@ -9443,8 +9440,8 @@
                                     belangrijk zijn voor het herleiden van de oorsprong van de grond of wanneer ze de
                                     geotechnische eigenschappen van de grond kunnen beïnvloeden. Bijzondere bestanddelen
                                     hebben gewoonlijk of een natuurlijke of een antropogene herkomst maar in enkele gevallen
-                                    is beide mogelijk.
-                                    In het geval er geen bijzondere bestanddelen aanwezig zijn wordt de waarde <em>geen</em> vastgelegd.
+                                    is beide mogelijk. In het geval er geen bijzondere bestanddelen aanwezig zijn wordt
+                                    de waarde <em>geen</em> vastgelegd.<br clear="none">
                                     Onder de procedure NEN 5104 staat het vrij  bijzondere bestanddelen te benoemen en
                                     er wordt dan geen relatie met de geotechnische eigenschappen van de grond verondersteld.
                                     
@@ -9570,7 +9567,7 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p>Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> van de entiteit <em>Boorprofiel</em> gelijk is aan <em>klasse2geroerd</em>.
+                                 <p>Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> van de entiteit <em>Boorprofiel</em> gelijk is aan <em>klasse2geroerd of klasse3</em>.
                                  </p>
                                  
                               </td>
@@ -9579,8 +9576,10 @@
                               <th>Toelichting</th>
                               <td>
                                  
-                                 <p>Het voorkomen van vlekken is een aanwijzing voor verandering van de chemische samenstelling
-                                    van de grond na afzetting van het sediment.
+                                 <p>Het gegeven wordt alleen vastgelegd bij de beschrijving van ongeroerde monsters onder
+                                    klasse 2 en alleen wanneer de waarde bepaald kan worden. De uitvoerder beoordeelt
+                                    zelf wanneer dat het geval is. Het voorkomen van vlekken is een aanwijzing voor verandering
+                                    van de chemische samenstelling van de grond na afzetting van het sediment.<br clear="none">
                                     Het gegeven is onder NEN 5104 niet vastgelegd. 
                                  </p>
                                  
@@ -9688,7 +9687,8 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> niet gelijk is aan <em>klasse3</em>.
+                                 <p>Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> gelijk is aan <em>klasse3</em>.<br clear="none">
+                                    Het attribuut moet aanwezig zijn in alle gevallen.
                                  </p>
                                  
                               </td>
@@ -9707,9 +9707,10 @@
                               <th>Toelichting</th>
                               <td>
                                  
-                                 <p>Hoe het voorkomen van concentraties, brokjes en lensjes, van afwijkende grondsoort
-                                    of soorten gesteente, moet worden geïnterpreteerd hangt af van de beschrijfkwaliteit.
-                                    Wanneer het profiel als beschrijfkwaliteit de waarde <em>klasse2ongeroerd</em> heeft, mag men ervan uitgaan dat de inhomogeniteit een in-situ eigenschap is. In
+                                 <p>Het gegeven wordt alleen vastgelegd onder klasse 2. Hoe het voorkomen van concentraties,
+                                    brokjes en lensjes, van afwijkende grondsoort of soorten gesteente, moet worden geïnterpreteerd
+                                    hangt af van de beschrijfkwaliteit. Wanneer het profiel als beschrijfkwaliteit de
+                                    waarde <em>klasse2ongeroerd</em> heeft, mag men ervan uitgaan dat de inhomogeniteit een in-situ eigenschap is. In
                                     het geval de beschrijfkwaliteit een andere waarde heeft is dat niet altijd het geval
                                     en zal het voorkomen van afwijkende materialen veelal de expressie zijn van vermenging
                                     van lagen met een andere samenstelling. 
@@ -9764,8 +9765,10 @@
                               <td>
                                  
                                  <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> van de entiteit <em>Boorprofiel</em> gelijk is aan <em>klasse2ongeroerd</em> en de waarde van het attribuut <em>geotechnische grondsoort</em> gelijk is aan <em>grind</em>, <em>grindMetKeien</em>, <em>grindMetKeitjes</em>, <em>zwakZandigGrind</em>, <em>sterkZandigGrind</em>, <em>siltigGrind</em>, <em>kleiigGrind</em>, <em>zand</em>, <em>zandMetKeien</em>, <em>zandMetKeitjes</em>, <em>zwakGrindigZand</em>, <em>sterkGrindigZand</em>, <em>siltigZand</em>, <em>siltigZandMetGrind</em>, <em>kleiigZand</em>, <em>kleiigZandMetGrind</em>, <em>silt</em>, <em>siltMetKeien</em>, <em>siltMetKeitjes</em>, <em>zwakGrindigSilt</em>, <em>sterkGrindigSilt</em>, <em>zwakZandigSilt</em>, <em>zwakZandigSiltMetGrind</em>, <em>sterkZandigSilt</em>, <em>sterkZandigSiltMetGrind</em>, <em>klei</em>, <em>kleiMetKeien</em>, <em>kleiMetKeitjes</em>, <em>zwakGrindigeKlei</em>, <em>sterkGrindigeKlei</em>, <em>zwakZandigeKlei</em>, <em>zwakZandigeKleiMetGrind</em>, <em>sterkZandigeKlei</em> of <em>sterkZandigeKleiMetGrind</em>.<br clear="none">
-                                    Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> van de entiteit <em>Boorprofiel</em> gelijk is aan <em>klasse2geroerd</em>.<br clear="none">
-                                    
+                                    Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> van de entiteit <em>Boorprofiel</em> gelijk is aan <em>klasse2ongedifferentieerd</em> en de waarde van het attribuut <em>interne</em> 
+                                    <em>structuur</em> 
+                                    <em>intact</em> gelijk is aan <em>ja</em> en de waarde van het attribuut <em>geotechnische grondsoort</em> gelijk is aan <em>grind</em>, <em>grindMetKeien</em>, <em>grindMetKeitjes</em>, <em>zwakZandigGrind</em>, <em>sterkZandigGrind</em>, <em>siltigGrind</em>, <em>kleiigGrind</em>, <em>zand</em>, <em>zandMetKeien</em>, <em>zandMetKeitjes</em>, <em>zwakGrindigZand</em>, <em>sterkGrindigZand</em>, <em>siltigZand</em>, <em>siltigZandMetGrind</em>, <em>kleiigZand</em>, <em>kleiigZandMetGrind</em>, <em>silt</em>, <em>siltMetKeien</em>, <em>siltMetKeitjes</em>, <em>zwakGrindigSilt</em>, <em>sterkGrindigSilt</em>, <em>zwakZandigSilt</em>, <em>zwakZandigSiltMetGrind</em>, <em>sterkZandigSilt</em>, <em>sterkZandigSiltMetGrind</em>, <em>klei</em>, <em>kleiMetKeien</em>, <em>kleiMetKeitjes</em>, <em>zwakGrindigeKlei</em>, <em>sterkGrindigeKlei</em>, <em>zwakZandigeKlei</em>, <em>zwakZandigeKleiMetGrind</em>, <em>sterkZandigeKlei</em> of <em>sterkZandigeKleiMetGrind</em>.<br clear="none">
+                                    Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> van de entiteit <em>Boorprofiel</em> gelijk is aan <em>klasse2geroerd of klasse3</em>.
                                  </p>
                                  
                               </td>
@@ -9784,10 +9787,12 @@
                               <th>Toelichting</th>
                               <td>
                                  
-                                 <p>Het kalkgehalte wordt geschat naar de mate van opbruisen met verdund zoutzuur (10
-                                    % HCl).<br clear="none">
-                                    Het  kalkgehalte wordt niet bepaald als de grond is geclassificeerd als een zeer grove
-                                    grond of als een organische grond.
+                                 <p>Het gegeven wordt alleen vastgelegd bij de beschrijving van ongeroerde monsters onder
+                                    klasse 2. Het is goede praktijk om bij handboringen waarvan alle monsters in het veld
+                                    zijn beschreven (<em>klasse2ongedifferentieerd</em>) dezelfde spelregels te volgen.<br clear="none">
+                                    Het kalkgehalte wordt geschat naar de mate van opbruisen met verdund zoutzuur (10
+                                    % HCl). Het  kalkgehalte wordt niet bepaald als de grond is geclassificeerd als een
+                                    zeer grove grond of als een organische grond.
                                  </p>
                                  
                               </td>
@@ -9838,7 +9843,9 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> van de entiteit <em>Boorprofiel</em> gelijk is aan <em>klasse2geroerd</em>, <em>klasse2ongeroerd</em> of <em>klasse2ongedifferentieerd&nbsp;</em>en de waarde van het attribuut <em>geotechnische grondsoort</em> niet gelijk is aan <em>detritus</em>, <em>zwakZandigeDetritus</em>, <em>sterkZandigeDetritus</em>, <em>siltigeDetritus</em>, <em>kleiigeDetritus</em>, <em>humus</em>, <em>zwakZandigeHumus</em>, <em>sterkZandigeHumus</em>, <em>siltigeHumus</em>, <em>kleiigeHumus</em>, <em>veen</em>, <em>zwakZandigVeen</em>, <em>sterkZandigVeen</em>, <em>siltigVeen</em>, <em>kleiigVeen</em>, <em>bruinkool</em> of <em>gyttja</em>. 
+                                 <p>Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> van de entiteit <em>Boorprofiel</em> gelijk is aan <em>klasse3.</em> 
+                                    Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>geotechnische grondsoort</em> gelijk is aan <em>detritus</em>, <em>zwakZandigeDetritus</em>, <em>sterkZandigeDetritus</em>, <em>siltigeDetritus</em>, <em>kleiigeDetritus</em>, <em>humus</em>, <em>zwakZandigeHumus</em>, <em>sterkZandigeHumus</em>, <em>siltigeHumus</em>, <em>kleiigeHumus</em>, <em>veen</em>, <em>zwakZandigVeen</em>, <em>sterkZandigVeen</em>, <em>siltigVeen</em>, <em>kleiigVeen</em>, <em>bruinkool</em> of <em>gyttja</em>.<br clear="none">
+                                    Het attribuut moet aanwezig zijn in alle andere gevallen.
                                  </p>
                                  
                               </td>
@@ -9856,8 +9863,8 @@
                               <th>Toelichting</th>
                               <td>
                                  
-                                 <p>Het aandeel organische stof wordt volgens NEN-EN-ISO 14688-1 bepaald op basis van
-                                    waarneembare en voelbare eigenschappen.<br clear="none">
+                                 <p>Het gegeven wordt alleen vastgelegd onder klasse 2. Het aandeel organische stof wordt
+                                    volgens NEN-EN-ISO 14688-1 bepaald op basis van waarneembare en voelbare eigenschappen.
                                     De organischestofgehalteklasse wordt niet bepaald als de grond is geclassificeerd
                                     als een organische grond.
                                  </p>
@@ -9926,7 +9933,8 @@
                                     vindt tijdens de vorming van het sediment sortering plaats naar grootte en gewicht.
                                     Het voorkomen van een dergelijke sortering is van invloed op de geotechnische eigenschappen
                                     van de grond. Verder geeft het ook meer inzicht in de omstandigheden waaronder het
-                                    sediment is gevormd.
+                                    sediment is gevormd. Het gegeven kan alleen worden  vastgelegd wanneer de kwaliteit
+                                    van de monsters dat rechtvaardigt en dat is wanneer de interne structuur niet is verstoord.<br clear="none">
                                     Het gegeven is onder NEN 5104 niet vastgelegd.
                                  </p>
                                  
@@ -9995,9 +10003,9 @@
                                     Het voorkomen van een dergelijke sortering is van invloed op de geotechnische eigenschappen
                                     van de grond. Verder geeft het ook meer inzicht in de omstandigheden waaronder het
                                     sediment is gevormd.
-                                    Het gegeven wordt vastgelegd wanneer de kwaliteit van de monsters dat rechtvaardigt
-                                    en dat is wanneer de interne structuur niet is verstoord.
-                                    Het gegeven is onder NEN 5104 niet vastgelegd.
+                                    Het gegeven kan alleen worden vastgelegd wanneer de kwaliteit van de monsters dat
+                                    rechtvaardigt en dat is wanneer de interne structuur niet is verstoord. Het gegeven
+                                    is onder NEN 5104 niet vastgelegd.
                                  </p>
                                  
                               </td>
@@ -10050,7 +10058,7 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p>Het gegeven mag niet aanwezig zijn wanneer de waarde van het attribuut <em>interne structuur intact</em> van de entiteit <em>Laag</em> gelijk is aan <em>nee</em>.
+                                 <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>interne structuur intact</em> van de entiteit <em>Laag</em> gelijk is aan <em>ja</em>. 
                                  </p>
                                  
                               </td>
@@ -10060,7 +10068,7 @@
                               <td>
                                  
                                  <p>Het gegeven wordt vastgelegd wanneer de kwaliteit van de monsters dat rechtvaardigt
-                                    en dat is wanneer de interne structuur niet is verstoord.
+                                    en dat is wanneer de interne structuur niet is verstoord.<br clear="none">
                                     Het gegeven is onder NEN 5104 niet vastgelegd.
                                  </p>
                                  
@@ -10561,7 +10569,8 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p>Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>geotechnische grondsoort</em> niet gelijk is aan <em>veen</em>, <em>zwakZandigVeen</em>, <em>sterkZandigVeen</em>, <em>siltigVeen</em> of <em>kleiigVeen</em>.
+                                 <p>Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> van de entiteit <em>Boorprofiel</em> gelijk is aan <em>klasse3</em>.<br clear="none">
+                                    Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>geotechnische grondsoort</em> niet gelijk is aan <em>veen</em>, <em>zwakZandigVeen</em>, <em>sterkZandigVeen</em>, <em>siltigVeen</em> of <em>kleiigVeen</em>. 
                                  </p>
                                  
                               </td>
@@ -10579,7 +10588,8 @@
                               <th>Toelichting</th>
                               <td>
                                  
-                                 <p>Het hangt van de aard van de opdracht en de keuzen die de uitvoerder heeft gemaakt
+                                 <p>Wanneer het boorprofiel aan de eisen van klasse 2 van de beschrijfprocedure voldoet,
+                                    hangt het van de aard van de opdracht en de keuzen die de uitvoerder heeft gemaakt
                                     af of het gegeven is vastgelegd.
                                  </p>
                                  
@@ -10632,8 +10642,11 @@
                               <td>
                                  
                                  <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> van de entiteit <em>Boorprofiel</em> gelijk is aan <em>klasse2ongeroerd</em> en de waarde van het attribuut <em>geotechnische grondsoort</em> gelijk is aan <em>detritus</em>, <em>zwakZandigeDetritus</em>, <em>sterkZandigeDetritus</em>, <em>siltigeDetritus</em>, <em>kleiigeDetritus</em>, <em>humus</em>, <em>zwakZandigeHumus</em>, <em>sterkZandigeHumus</em>, <em>siltigeHumus</em>, <em>kleiigeHumus</em>, <em>veen</em>, <em>zwakZandigVeen</em>, <em>sterkZandigVeen</em>, <em>siltigVeen</em> of <em>kleiigVeen</em>.<br clear="none">
+                                    Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> van de entiteit <em>Boorprofiel</em> gelijk is aan <em>klasse2ongedifferentieerd</em> en de waarde van het attribuut <em>interne</em> 
+                                    <em>structuur</em> 
+                                    <em>intact</em> gelijk is aan <em>ja</em> en de waarde van het attribuut <em>geotechnische grondsoort</em> gelijk is aan <em>detritus</em>, <em>zwakZandigeDetritus</em>, <em>sterkZandigeDetritus</em>, <em>siltigeDetritus</em>, <em>kleiigeDetritus</em>, <em>humus</em>, <em>zwakZandigeHumus</em>, <em>sterkZandigeHumus</em>, <em>siltigeHumus</em>, <em>kleiigeHumus</em>, <em>veen</em>, <em>zwakZandigVeen</em>, <em>sterkZandigVeen</em>, <em>siltigVeen</em> of <em>kleiigVeen</em>.<br clear="none">
                                     Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>geotechnische grondsoort</em> niet gelijk is aan <em>detritus</em>, <em>zwakZandigeDetritus</em>, <em>sterkZandigeDetritus</em>, <em>siltigeDetritus</em>, <em>kleiigeDetritus</em>, <em>humus</em>, <em>zwakZandigeHumus</em>, <em>sterkZandigeHumus</em>, <em>siltigeHumus</em>, <em>kleiigeHumus</em>, <em>veen</em>, <em>zwakZandigVeen</em>, <em>sterkZandigVeen</em>, <em>siltigVeen</em> of <em>kleiigVeen</em>.<br clear="none">
-                                    Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> van de entiteit <em>Boorprofiel</em> gelijk is aan <em>klasse2geroerd</em>. 
+                                    Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> van de entiteit <em>Boorprofiel</em> gelijk is aan <em>klasse2geroerd en klasse3</em>. 
                                  </p>
                                  
                               </td>
@@ -10651,10 +10664,13 @@
                               <th>Toelichting</th>
                               <td>
                                  
-                                 <p>De textuur wordt bepaald voor organische gronden, met uitzondering van bruinkool en
+                                 <p>Het gegeven wordt alleen vastgelegd bij de beschrijving van ongeroerde monsters onder
+                                    klasse 2. Het is goede praktijk om bij handboringen waarvan alle monsters in het veld
+                                    zijn beschreven (<em>klasse2ongedifferentieerd</em>) dezelfde spelregels te volgen.<br clear="none">
+                                    De textuur wordt bepaald voor organische gronden, met uitzondering van bruinkool en
                                     gyttja. Bruinkool bestaat uit een vast mengsel van vezels en amorfe massa en gyttja
-                                    is per definitie amorf. De waarde voor humus en detritus is fijnvezelig of grofvezelig.<br clear="none">
-                                    Beschrijvingen&nbsp;&nbsp; die zijn gemaakt onder NEN 5104 hanteren een andere indeling.
+                                    is per definitie amorf. Beschrijvingen die zijn gemaakt onder NEN 5104 hanteren een
+                                    andere indeling. 
                                  </p>
                                  
                               </td>
@@ -10709,11 +10725,15 @@
                                        zwakZandigSiltMetGrind, sterkZandigSilt, sterkZandigSiltMetGrind, klei, kleiMetKeien,
                                        kleiMetKeitjes, zwakGrindigeKlei, sterkGrindigeKlei, zwakZandigeKlei, zwakZandigeKleiMetGrind,
                                        sterkZandigeKlei</em> of <em>sterkZandigeKleiMetGrind</em>.<br clear="none">
-                                    Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>geotechnische</em> grondsoort niet gelijk is aan <em>silt, siltMetKeien, siltMetKeitjes, zwakGrindigSilt, sterkGrindigSilt, zwakZandigSilt,
+                                    Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> van de entiteit <em>Boorprofiel</em> gelijk is aan <em>klasse2ongedifferentieerd</em> en de waarde van het attribuut <em>geotechnische grondsoort</em> gelijk is aan <em>silt, siltMetKeien, siltMetKeitjes, zwakGrindigSilt, sterkGrindigSilt, zwakZandigSilt,
                                        zwakZandigSiltMetGrind, sterkZandigSilt, sterkZandigSiltMetGrind, klei, kleiMetKeien,
                                        kleiMetKeitjes, zwakGrindigeKlei, sterkGrindigeKlei, zwakZandigeKlei, zwakZandigeKleiMetGrind,
                                        sterkZandigeKlei</em> of <em>sterkZandigeKleiMetGrind</em>.<br clear="none">
-                                    Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> van de entiteit <em>Boorprofiel</em> gelijk is aan <em>klasse2geroerd</em>. 
+                                    Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> van de entiteit <em>Boorprofiel</em> gelijk is aan <em>klasse2geroerd of klasse3</em>.<br clear="none">
+                                    Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>geotechnische</em> grondsoort niet gelijk is aan <em>silt, siltMetKeien, siltMetKeitjes, zwakGrindigSilt, sterkGrindigSilt, zwakZandigSilt,
+                                       zwakZandigSiltMetGrind, sterkZandigSilt, sterkZandigSiltMetGrind, klei, kleiMetKeien,
+                                       kleiMetKeitjes, zwakGrindigeKlei, sterkGrindigeKlei, zwakZandigeKlei, zwakZandigeKleiMetGrind,
+                                       sterkZandigeKlei</em> of <em>sterkZandigeKleiMetGrind</em>.
                                  </p>
                                  
                               </td>
@@ -10724,6 +10744,17 @@
                                  
                                  <p>Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfprocedure</em> van de entiteit <em>Boormonsterbeschrijving</em> gelijk is aan <em>NEN5104Synthetisch</em> en de waarde van het attribuut <em>grondsoort NEN5104</em> niet gelijk is aan <em>zwakSiltigeKlei, matigSiltigeKlei, sterkSiltigeKlei, uiterstSiltigeKlei, zwakZandigeKlei,
                                        matigZandigeKlei, sterkZandigeKlei, zwakZandigeLeem</em> of <em>sterkZandigeLeem</em>. 
+                                 </p>
+                                 
+                              </td>
+                           </tr>
+                           <tr>
+                              <th>Toelichting</th>
+                              <td>
+                                 
+                                 <p>Het gegeven wordt alleen vastgelegd bij de beschrijving van ongeroerde monsters onder
+                                    klasse 2. Het is goede praktijk om bij handboringen waarvan alle monsters in het veld
+                                    zijn beschreven (<em>klasse2ongedifferentieerd</em>) dezelfde spelregels te volgen.
                                  </p>
                                  
                               </td>
@@ -10777,10 +10808,13 @@
                                  <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> van de entiteit <em>Boorprofiel</em> gelijk is aan <em>klasse2ongeroerd</em> en de waarde van het attribuut <em>geotechnische grondsoort</em> gelijk is aan <em>detritus, zwakZandigeDetritus, sterkZandigeDetritus, siltigeDetritus, kleiigeDetritus,
                                        humus, zwakZandigeHumus, sterkZandigeHumus, siltigeHumus, kleiigeHumus, veen, zwakZandigVeen,
                                        sterkZandigVeen, siltigVeen, kleiigVeen, bruinkool</em> of <em>gyttja</em>.<br clear="none">
-                                    Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>geotechnische grondsoort</em> niet gelijk is aan <em>detritus, zwakZandigeDetritus, sterkZandigeDetritus, siltigeDetritus, kleiigeDetritus,
+                                    Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> van de entiteit <em>Boorprofiel</em> gelijk is aan <em>klasse2ongedifferentieerd</em> en de waarde van het attribuut <em>geotechnische grondsoort</em> gelijk is aan <em>detritus, zwakZandigeDetritus, sterkZandigeDetritus, siltigeDetritus, kleiigeDetritus,
                                        humus, zwakZandigeHumus, sterkZandigeHumus, siltigeHumus, kleiigeHumus, veen, zwakZandigVeen,
                                        sterkZandigVeen, siltigVeen, kleiigVeen, bruinkool</em> of <em>gyttja</em>.<br clear="none">
-                                    Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> van de entiteit <em>Boorprofiel</em> gelijk is aan <em>klasse2geroerd</em>. 
+                                    Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> van de entiteit <em>Boorprofiel</em> gelijk is aan <em>klasse2geroerd of klasse3</em>.<br clear="none">
+                                    Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>geotechnische grondsoort</em> niet gelijk is aan <em>detritus, zwakZandigeDetritus, sterkZandigeDetritus, siltigeDetritus, kleiigeDetritus,
+                                       humus, zwakZandigeHumus, sterkZandigeHumus, siltigeHumus, kleiigeHumus, veen, zwakZandigVeen,
+                                       sterkZandigVeen, siltigVeen, kleiigVeen, bruinkool</em> of <em>gyttja</em>.
                                  </p>
                                  
                               </td>
@@ -10799,7 +10833,10 @@
                               <th>Toelichting</th>
                               <td>
                                  
-                                 <p>Bruinkool heeft altijd de waarde <em>vast</em>.
+                                 <p>Het gegeven wordt alleen vastgelegd bij de beschrijving van ongeroerde monsters onder
+                                    klasse 2. Het is goede praktijk om bij handboringen waarvan alle monsters in het veld
+                                    zijn beschreven (<em>klasse2ongedifferentieerd</em>) dezelfde spelregels te volgen.<br clear="none">
+                                    Bruinkool heeft altijd de waarde <em>vast</em>.
                                  </p>
                                  
                               </td>
@@ -10860,7 +10897,10 @@
                               <th>Toelichting</th>
                               <td>
                                  
-                                 <p>Het gegeven is onder NEN 5104 niet vastgelegd.</p>
+                                 <p>Het gegeven wordt vastgelegd wanneer de kwaliteit van de monsters dat rechtvaardigt
+                                    en dat is wanneer de interne structuur niet is verstoord. Het gegeven is onder NEN
+                                    5104 niet vastgelegd.
+                                 </p>
                                  
                               </td>
                            </tr>
@@ -10912,7 +10952,7 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p>Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> van de entiteit <em>Boorprofiel</em> gelijk is aan <em>klasse3</em>.
+                                 <p>Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> van de entiteit <em>Boorprofiel</em> gelijk is aan <em>klasse2geroerd</em> of <em>klasse3</em>.
                                  </p>
                                  
                               </td>
@@ -12501,6 +12541,15 @@
                            </td>
                         </tr>
                         <tr>
+                           <th>Regels</th>
+                           <td>
+                              
+                              <p>De entiteit mag niet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> van de entiteit <em>Boorprofiel</em> gelijk is aan klasse2geroerd of <em>klasse3</em>.
+                              </p>
+                              
+                           </td>
+                        </tr>
+                        <tr>
                            <th>Toelichting</th>
                            <td>
                               
@@ -12522,8 +12571,8 @@
                                  schiet het begrippenapparaat te kort en wordt aangegeven dat het betreffende interval
                                  niet kan worden beschreven met als reden mechanische verstoring. 
                                  Het gegeven wordt vastgelegd wanneer de kwaliteit van de monsters dat toelaat en dat
-                                 is wanneer de interne structuur van de lagen intact is.<br clear="none">
-                                 Het gegeven is onder NEN 5104 niet vastgelegd.
+                                 is wanneer de interne structuur van de lagen intact is. Het gegeven is onder NEN 5104
+                                 niet vastgelegd.
                               </p>
                               
                            </td>
@@ -13169,9 +13218,9 @@
                                  
                                  <p>In de praktijkrichtlijn zijn (worden) afspraken opgenomen die aangeven hoe monsters
                                     behandeld worden en algemene Nederlandse afspraken die aanvullend zijn op de internationale
-                                    bepalingsprocedures.
+                                    bepalingsprocedures.<br clear="none">
                                     De Nationale Praktijkrichtlijn (NPR) is er nog niet en is naar verwachting gereed
-                                    in 2020.
+                                    in 2021.
                                  </p>
                                  
                               </td>
@@ -13226,8 +13275,8 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p>De organisatie moet binnen de basisregistratie ondergrond als uitvoerder van booronderzoek
-                                    bekend zijn.
+                                 <p>De organisatie moet bekend zijn binnen de basisregistratie ondergrond als uitvoerder
+                                    van booronderzoek bekend zijn.
                                  </p>
                                  
                               </td>
@@ -13392,8 +13441,8 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p>De einddiepte is groter dan de begindiepte van het interval. 
-                                    De einddiepte is niet groter dan de <em>einddiepte bemonstering</em> van de entiteit <em>Boring</em>.
+                                 <p>De <em>einddiepte</em> moet groter zijn dan de <em>begindiepte</em> van het onderzocht interval.<br clear="none">
+                                    De <em>einddiepte</em> mag niet groter zijn dan de waarde van het attribuut <em>einddiepte bemonstering</em> van de entiteit <em>Boring</em>.
                                  </p>
                                  
                               </td>
@@ -13878,7 +13927,7 @@
                            <th>Regels</th>
                            <td>
                               
-                              <p>De entiteit moet aanwezig zijn wanneer de waarde van het attribuut <em>beschreven</em> van de entiteit <em>Onderzocht interval</em> gelijk is aan <em>ja</em>. 
+                              <p>De entiteit moet aanwezig zijn wanneer de waarde van het attribuut <em>beschreven</em> van de entiteit <em>Onderzocht interval</em> gelijk is aan <em>ja</em>.<br clear="none">
                                  De entiteit mag niet aanwezig zijn in alle andere gevallen.
                               </p>
                               
@@ -13991,7 +14040,7 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p>Het attribuut mag niet aanwezig zijn wanneer het attribuut <em>bijzonder materiaal</em> aanwezig is. 
+                                 <p>Het attribuut mag niet aanwezig zijn wanneer het attribuut <em>bijzonder materiaal</em> aanwezig is.<br clear="none">
                                     Het attribuut moet aanwezig zijn in alle andere gevallen.
                                  </p>
                                  
@@ -14057,14 +14106,7 @@
                               <td>
                                  
                                  <p>Het attribuut mag niet aanwezig zijn wanneer het attribuut <em>bijzonder materiaal</em> aanwezig is.<br clear="none">
-                                    Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>geotechnische grondsoort</em> gelijk is aan k<em>eien, keienMetGrind, keienMetZand, keienMetSilt, keienMetKlei, keitjes, keitjesMetGrind,
-                                       keitjesMetZand, keitjesMetSilt, keitjesMetKlei, grind, grindMetKeien, grindMetKeitjes,
-                                       zwakZandigGrind, sterkZandigGrind, siltigGrind, kleiigGrind, zand, zandMetKeien, zandMetKeitjes,
-                                       zwakGrindigZand, sterkGrindigZand, siltigZand, siltigZandMetGrind, kleiigZand, kleiigZandMetGrind,
-                                       silt, siltMetKeien, siltMetKeitjes, zwakGrindigSilt, sterkGrindigSilt, zwakZandigSilt,
-                                       zwakZandigSiltMetGrind, sterkZandigSilt, sterkZandigSiltMetGrind, klei, kleiMetKeien,
-                                       kleiMetKeitjes, zwakGrindigeKlei, sterkGrindigeKlei, zwakZandigeKlei, zwakZandigeKleiMetGrind,
-                                       sterkZandigeKlei</em> of <em>sterkZandigeKleiMetGrind</em>.
+                                    Het attribuut moet aanwezig zijn in alle andere gevallen.
                                  </p>
                                  
                               </td>
@@ -14074,8 +14116,8 @@
                               <td>
                                  
                                  <p>Bijzondere bestanddelen hebben gewoonlijk of een natuurlijke of een antropogene herkomst
-                                    maar in enkele gevallen is beide mogelijk.
-                                    In het geval er geen bijzondere bestanddelen aanwezig zijn wordt de waarde <em>geen</em> vastgelegd.
+                                    maar in enkele gevallen is beide mogelijk. In het geval er geen bijzondere bestanddelen
+                                    aanwezig zijn wordt de waarde <em>geen</em> vastgelegd.
                                  </p>
                                  
                               </td>
@@ -14126,7 +14168,7 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p>Het attribuut mag niet aanwezig zijn wanneer het attribuut <em>bijzonder materiaal</em> aanwezig is. 
+                                 <p>Het attribuut mag niet aanwezig zijn wanneer het attribuut <em>bijzonder materiaal</em> aanwezig is.<br clear="none">
                                     Het attribuut moet aanwezig zijn in alle andere gevallen.
                                  </p>
                                  
@@ -14178,8 +14220,7 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p>Het attribuut mag niet aanwezig zijn wanneer het attribuut bijzonder materiaal aanwezig
-                                    is.<br clear="none">
+                                 <p>Het attribuut mag niet aanwezig zijn wanneer het attribuut <em>bijzonder materiaal</em> aanwezig is.<br clear="none">
                                     Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>geotechnische grondsoort</em> gelijk is aan <em>keien</em>, <em>keienMetGrind</em>, <em>keienMetZand</em>, <em>keienMetSilt</em>, <em>keienMetKlei</em>, <em>keitjes</em>, <em>keitjesMetGrind</em>, <em>keitjesMetZand</em>, <em>keitjesMetSilt</em>, <em>keitjesMetKlei</em>, <em>grind</em>, <em>grindMetKeien</em>, <em>grindMetKeitjes</em>, <em>zwakZandigGrind</em>, <em>sterkZandigGrind</em>, <em>siltigGrind</em>, <em>kleiigGrind</em>, <em>zand</em>, <em>zandMetKeien</em>, <em>zandMetKeitjes</em>, <em>zwakGrindigZand</em>, <em>sterkGrindigZand</em>, <em>siltigZand</em>, <em>siltigZandMetGrind</em>, <em>kleiigZand</em>, <em>kleiigZandMetGrind</em>, <em>silt</em>, <em>siltMetKeien</em>, <em>siltMetKeitjes</em>, <em>zwakGrindigSilt</em>, <em>sterkGrindigSilt</em>, <em>zwakZandigSilt</em>, <em>zwakZandigSiltMetGrind</em>, <em>sterkZandigSilt</em>, <em>sterkZandigSiltMetGrind</em>, <em>klei</em>, <em>kleiMetKeien</em>, <em>kleiMetKeitjes</em>, <em>zwakGrindigeKlei</em>, <em>sterkGrindigeKlei</em>, <em>zwakZandigeKlei</em>, <em>zwakZandigeKleiMetGrind</em>, <em>sterkZandigeKlei</em> of <em>sterkZandigeKleiMetGrind</em>.<br clear="none">
                                     
                                  </p>
@@ -14244,8 +14285,8 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p>Het attribuut mag niet aanwezig zijn wanneer het attribuut <em>bijzonder materiaal</em> aanwezig.
-                                    Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>geotechnische grondsoort</em> gelijk is aan <em>detritus</em>, <em>zwakZandigeDetritus</em>, <em>sterkZandigeDetritus</em>, <em>siltigeDetritus</em>, <em>kleiigeDetritus</em>, <em>humus</em>, <em>zwakZandigeHumus</em>, <em>sterkZandigeHumus</em>, <em>siltigeHumus</em>, <em>kleiigeHumus</em>, <em>veen</em>, <em>zwakZandigVeen</em>, <em>sterkZandigVeen</em>, <em>siltigVeen</em>, <em>kleiigVeen</em>, <em>bruinkool</em> of <em>gyttja</em>. 
+                                 <p>Het attribuut mag niet aanwezig zijn wanneer het attribuut <em>bijzonder materiaal</em> aanwezig.<br clear="none">
+                                    Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>geotechnische grondsoort</em> gelijk is aan <em>detritus</em>, <em>zwakZandigeDetritus</em>, <em>sterkZandigeDetritus</em>, <em>siltigeDetritus</em>, <em>kleiigeDetritus</em>, <em>humus</em>, <em>zwakZandigeHumus</em>, <em>sterkZandigeHumus</em>, <em>siltigeHumus</em>, <em>kleiigeHumus</em>, <em>veen</em>, <em>zwakZandigVeen</em>, <em>sterkZandigVeen</em>, <em>siltigVeen</em>, <em>kleiigVeen</em>, <em>bruinkool</em> of <em>gyttja</em>.<br clear="none">
                                     Het attribuut moet aanwezig zijn in alle andere gevallen.
                                  </p>
                                  
@@ -14367,7 +14408,7 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>geotechnische grondsoort</em> gelijk is aan <em>zand</em>, <em>zandMetKeien</em>, <em>zandMetKeitjes</em>, <em>zwakGrindigZand</em>, <em>sterkGrindigZand</em>, <em>siltigZand</em>, <em>siltigZandMetGrind</em>, <em>kleiigZand</em> of <em>kleiigZandMetGrind</em>.
+                                 <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>geotechnische grondsoort</em> gelijk is aan <em>zand</em>, <em>zandMetKeien</em>, <em>zandMetKeitjes</em>, <em>zwakGrindigZand</em>, <em>sterkGrindigZand</em>, <em>siltigZand</em>, <em>siltigZandMetGrind</em>, <em>kleiigZand</em> of <em>kleiigZandMetGrind</em>.<br clear="none">
                                     Het attribuut mag niet aanwezig zijn in alle andere gevallen.
                                  </p>
                                  
@@ -14377,9 +14418,9 @@
                               <th>Toelichting</th>
                               <td>
                                  
-                                 <p>De zandmediaan wordt bepaald wanneer de primaire fractie zand is.
-                                    Tenminste wordt een indeling van grof, middelgrof of fijn gemaakt, bij voorkeur worden
-                                    de klassen middelgrof en fijn nauwkeuriger ingedeeld.
+                                 <p>De zandmediaan wordt bepaald wanneer de primaire fractie zand is. Tenminste wordt
+                                    een indeling van grof, middelgrof of fijn gemaakt, bij voorkeur worden de klassen
+                                    middelgrof en fijn nauwkeuriger ingedeeld.
                                  </p>
                                  
                               </td>
@@ -14415,7 +14456,7 @@
                            <th>Regels</th>
                            <td>
                               
-                              <p>De entiteit moet aanwezig zijn wanneer de waarde van het attribuut <em>bepaalde eigenschappen</em> van de entiteit <em>Onderzocht interval</em> gelijk is aan <em>zetting</em> of <em>zettingWaterdoorlatendheid</em>. 
+                              <p>De entiteit moet aanwezig zijn wanneer de waarde van het attribuut <em>bepaalde eigenschappen</em> van de entiteit <em>Onderzocht interval</em> gelijk is aan <em>zetting</em> of <em>zettingWaterdoorlatendheid</em>.<br clear="none">
                                  De entiteit mag niet aanwezig zijn in alle andere gevallen.
                               </p>
                               
@@ -14488,7 +14529,7 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p>De waarde van het attribuut moet gelijk zijn aan <em>ISO17892d5v2017</em> of <em>ASTM</em>_<em>D4186v2012e1</em>.
+                                 <p>De waarde van het attribuut moet gelijk zijn aan <em>ISO17892d5v2017</em> of <em>ASTM</em>_<em>D4186v2012</em>.
                                  </p>
                                  
                               </td>
@@ -15169,7 +15210,7 @@
                            <td>
                               
                               <p>De entiteit moet aanwezig zijn wanneer de waarde van het attribuut <em>bepalingsmethode</em> van de entiteit <em>Bepaling</em> 
-                                 <em>zettingseigenschappen</em> gelijk is aan <em>samendrukkenSnelheidgestuurd</em>.
+                                 <em>zettingseigenschappen</em> gelijk is aan <em>samendrukkenSnelheidgestuurd</em>.<br clear="none">
                                  De entiteit mag niet aanwezig zijn in alle andere gevallen.
                               </p>
                               
@@ -15197,10 +15238,8 @@
                                  van de verzadigingsfase een test uitgevoerd. De toename in celdruk zal idealiter direct
                                  worden opgenomen door het water en dat is het geval bij volledige verzadiging. Dit
                                  wordt meestal niet gehaald. In de procedure is een grenswaarde gesteld, wanneer deze
-                                 niet wordt gehaald wordt dit als bijzonderheid uitvoering vastgelegd (waarde <em>onvoldoendeVerzadigd</em>).
-                              </p>
-                              
-                              <p>Het doel is om het proefstuk tijdens de verzadiging zo min mogelijk te verstoren.
+                                 niet wordt gehaald wordt dit als bijzonderheid uitvoering vastgelegd (waarde <em>onvoldoendeVerzadigd</em>).<br clear="none">
+                                 Het doel is om het proefstuk tijdens de verzadiging zo min mogelijk te verstoren.
                                  Het kan voorkomen dat het materiaal gaat zwellen of wordt samengedrukt. Enkele kengetallen
                                  worden vastgelegd om aan te geven in welke mate er verstoringen van het proefstuk
                                  hebben plaatsgevonden tijdens de verzadiging.
@@ -15894,7 +15933,7 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>bepalingsmethode</em> van de entiteit <em>Bepaling zettingseigenschappen</em> gelijk is aan <em>samendrukkenBelastinggestuurd</em>. 
+                                 <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>bepalingsmethode</em> van de entiteit <em>Bepaling zettingseigenschappen</em> gelijk is aan <em>samendrukkenBelastinggestuurd</em>.<br clear="none">
                                     Het attribuut mag niet aanwezig zijn in alle andere gevallen.
                                  </p>
                                  
@@ -15966,7 +16005,7 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>bepalingsmethode</em> van de entiteit <em>Bepaling zettingseigenschappen</em> gelijk is aan <em>samendrukkenSnelheidgestuurd</em>. 
+                                 <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>bepalingsmethode</em> van de entiteit <em>Bepaling zettingseigenschappen</em> gelijk is aan <em>samendrukkenSnelheidgestuurd</em>.<br clear="none">
                                     Het attribuut mag niet aanwezig zijn in alle andere gevallen.
                                  </p>
                                  
@@ -16028,7 +16067,7 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>bepalingsmethode</em> van de entiteit <em>Bepaling zettingseigenschappen</em> gelijk is aan <em>samendrukkenBelastinggestuurd</em>. 
+                                 <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>bepalingsmethode</em> van de entiteit <em>Bepaling zettingseigenschappen</em> gelijk is aan <em>samendrukkenBelastinggestuurd</em>.<br clear="none">
                                     Het attribuut mag niet aanwezig zijn in alle andere gevallen.
                                  </p>
                                  
@@ -16217,8 +16256,8 @@
                            <th>Regels</th>
                            <td>
                               
-                              <p>De entiteit mag niet aanwezig zijn wanneer de waarde van het attribuut <em>bepalingsmethode</em> van de entiteit <em>Bepaling zettingsverloop</em> gelijk is aan <em>samendrukkenSnelheidgestuurd</em>. 
-                                 De entiteit mag niet aanwezig zijn wanneer de waarde van het attribuut <em>zwel geconstateerd</em> gelijk is aan <em>ja</em>. 
+                              <p>De entiteit mag niet aanwezig zijn wanneer de waarde van het attribuut <em>bepalingsmethode</em> van de entiteit <em>Bepaling zettingsverloop</em> gelijk is aan <em>samendrukkenSnelheidgestuurd</em>.<br clear="none">
+                                 De entiteit mag niet aanwezig zijn wanneer de waarde van het attribuut <em>zwel geconstateerd</em> gelijk is aan <em>ja</em>.<br clear="none">
                                  De entiteit moet aanwezig zijn in alle andere gevallen.
                               </p>
                               
@@ -16423,7 +16462,7 @@
                            <th>Regels</th>
                            <td>
                               
-                              <p>De entiteit moet aanwezig zijn wanneer de waarde van het attribuut <em>bepalingsmethode</em> van de entiteit <em>Bepaling zettingseigenschappen</em> gelijk is aan <em>samendrukkenSnelheidgestuurd</em>.
+                              <p>De entiteit moet aanwezig zijn wanneer de waarde van het attribuut <em>bepalingsmethode</em> van de entiteit <em>Bepaling zettingseigenschappen</em> gelijk is aan <em>samendrukkenSnelheidgestuurd</em>.<br clear="none">
                                  De entiteit mag niet aanwezig zijn in alle andere gevallen.
                               </p>
                               
@@ -16439,7 +16478,7 @@
                                  krijgt tijdens de vervorming niet de gelegenheid om in evenwicht te komen met de belasting
                                  waardoor een wateroverspanning of wateronderspanning in het proefstuk ontstaat. Tijdens
                                  de relaxatiestap krijgt het proefstuk wel de gelegenheid om in evenwicht met de belasting
-                                 te komen.
+                                 te komen.<br clear="none">
                                  Het verloop van de korrelspanning en de waterspanning worden in de tijd bepaald.
                               </p>
                               
@@ -16662,7 +16701,7 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p>Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>staptype</em> gelijk is aan <em>relaxatiestap</em>.
+                                 <p>Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>staptype</em> gelijk is aan <em>relaxatiestap</em>.<br clear="none">
                                     Het attribuut moet aanwezig zijn in alle andere gevallen.
                                  </p>
                                  
@@ -17482,7 +17521,7 @@
                               <td>Waardelijst uitbreidbaar</td>
                            </tr>
                            <tr>
-                              <th>Toelichting</th>
+                              <th>Regels</th>
                               <td>
                                  
                                  <p>De waarde van het attribuut moet gelijk zijn aan <em>ISO17892d8v2018</em> of <em>ISO17892d9v2018</em>.
@@ -18021,7 +18060,7 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>bepalingsmethode</em> gelijk is aan <em>belastenGeconsolideerdGedraineerd</em> of <em>belastenGeconsolideerdOngedraineerd</em>. 
+                                 <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>bepalingsmethode</em> gelijk is aan <em>belastenGeconsolideerdGedraineerd</em> of <em>belastenGeconsolideerdOngedraineerd</em>.<br clear="none">
                                     Het attribuut mag niet aanwezig zijn in alle andere gevallen.
                                  </p>
                                  
@@ -18088,7 +18127,7 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>bepalingsmethode</em> gelijk is aan <em>belastenGeconsolideerdGedraineerd</em> of <em>belastenGeconsolideerdOngedraineerd</em>. 
+                                 <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>bepalingsmethode</em> gelijk is aan <em>belastenGeconsolideerdGedraineerd</em> of <em>belastenGeconsolideerdOngedraineerd</em>.<br clear="none">
                                     Het attribuut mag niet aanwezig zijn in alle andere gevallen.
                                  </p>
                                  
@@ -18925,7 +18964,7 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>maakmethode</em> gelijk is aan <em>kneden</em>, <em>knedenStampen</em> of <em>stampenProctor</em>.
+                                 <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>maakmethode</em> gelijk is aan <em>kneden</em>, <em>knedenStampen</em> of <em>stampenProctor</em>.<br clear="none">
                                     Het attribuut mag niet aanwezig zijn in alle andere gevallen.
                                  </p>
                                  
@@ -18997,7 +19036,7 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>maakmethode</em> gelijk is aan <em>kneden</em>, <em>knedenStampen</em> of <em>stampenProctor</em>. 
+                                 <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>maakmethode</em> gelijk is aan <em>kneden</em>, <em>knedenStampen</em> of <em>stampenProctor</em>.<br clear="none">
                                     Het attribuut mag niet aanwezig zijn in alle andere gevallen.
                                  </p>
                                  
@@ -19068,7 +19107,7 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>maakmethode</em> gelijk is aan <em>samenstellenStampenVochtig</em>, <em>samenstellenStampenVochtigOnderCompactie</em>, <em>samenstellenStampenDroog</em>, <em>samenstellenStrooienDroog</em> of <em>samenstellenStrooienOnderWater</em>. 
+                                 <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>maakmethode</em> gelijk is aan <em>samenstellenStampenVochtig</em>, <em>samenstellenStampenVochtigOnderCompactie</em>, <em>samenstellenStampenDroog</em>, <em>samenstellenStrooienDroog</em> of <em>samenstellenStrooienOnderWater</em>.<br clear="none">
                                     Het attribuut mag niet aanwezig zijn in alle andere gevallen.
                                  </p>
                                  
@@ -19114,7 +19153,7 @@
                            <th>Regels</th>
                            <td>
                               
-                              <p>De entiteit moet aanwezig zijn wanneer de waarde van het attribuut <em>bepalingsmethode</em> van de entiteit <em>Bepaling schuifspanningsverloop bij belasting</em> gelijk is aan <em>belastenGeconsolideerdGedraineerd</em> of <em>belastenGeconsolideerdOngedraineerd</em>. 
+                              <p>De entiteit moet aanwezig zijn wanneer de waarde van het attribuut <em>bepalingsmethode</em> van de entiteit <em>Bepaling schuifspanningsverloop bij belasting</em> gelijk is aan <em>belastenGeconsolideerdGedraineerd</em> of <em>belastenGeconsolideerdOngedraineerd</em>.<br clear="none">
                                  De entiteit mag niet aanwezig zijn in alle andere gevallen.
                               </p>
                               
@@ -19693,7 +19732,7 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>verstoring opgetreden</em> gelijk is <em>ja</em> en de waarde van het attribuut <em>constante hoogte</em> gelijk is aan <em>nee</em>. 
+                                 <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>verstoring opgetreden</em> gelijk is <em>ja</em> en de waarde van het attribuut <em>constante hoogte</em> gelijk is aan <em>nee</em>.<br clear="none">
                                     Het attribuut mag niet aanwezig zijn in alle andere gevallen.
                                  </p>
                                  
@@ -19768,7 +19807,7 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>verstoring opgetreden</em> gelijk is <em>ja</em> en de waarde van het attribuut <em>constante hoogte</em> gelijk is aan <em>ja</em>.
+                                 <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>verstoring opgetreden</em> gelijk is <em>ja</em> en de waarde van het attribuut <em>constante hoogte</em> gelijk is aan <em>ja</em>.<br clear="none">
                                     Het attribuut mag niet aanwezig zijn in alle andere gevallen.
                                  </p>
                                  
@@ -20004,7 +20043,6 @@
                               <td>
                                  
                                  <p>De horizontale consolidatiespanning wordt aangeduid met het symbool σ<sub>h</sub>, en is het gevolg van de celdruk.
-                                    kengetal
                                  </p>
                                  
                               </td>
@@ -20064,7 +20102,6 @@
                               <td>
                                  
                                  <p>De verticale consolidatiespanning wordt aangeduid met het symbool σ<sub>v</sub>, en is het gevolg van de celdruk en de druk van de drukstang.
-                                    kengetal
                                  </p>
                                  
                               </td>
@@ -20445,7 +20482,7 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>consolidatiemethode</em> van de entiteit <em>Consolidatiefase</em> gelijk is aan <em>anisotroopSpanningsgestuurd</em>, <em>anisotroopVervormingsgestuurd</em> of <em>isotroopAnisotroop</em>. 
+                                 <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>consolidatiemethode</em> van de entiteit <em>Consolidatiefase bij belasten</em> gelijk is aan <em>anisotroopSpanningsgestuurd</em>, <em>anisotroopVervormingsgestuurd</em> of <em>isotroopAnisotroop</em>.<br clear="none">
                                     Het attribuut mag niet aanwezig zijn in alle andere gevallen.
                                  </p>
                                  
@@ -20519,7 +20556,7 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>consolidatiemethode</em> van de entiteit <em>Consolidatiefase</em> gelijk is aan <em>anisotroopSpanningsgestuurd</em> of <em>anisotroopVervormingsgestuurd</em>. 
+                                 <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>consolidatiemethode</em> van de entiteit <em>Consolidatiefase bij belasten</em> gelijk is aan <em>anisotroopSpanningsgestuurd</em> of <em>anisotroopVervormingsgestuurd</em>.<br clear="none">
                                     Het attribuut mag niet aanwezig zijn in alle andere gevallen.
                                  </p>
                                  
@@ -21080,7 +21117,7 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p>Het attribuut moet aanwezig zijn wanneer de waarde van de <em>bepalingsmethode</em> van de entiteit <em>Bepaling schuifspanningsverloop bij belasting</em> gelijk is aan <em>belastenGeconsolideerdGedraineerd</em>. 
+                                 <p>Het attribuut moet aanwezig zijn wanneer de waarde van de <em>bepalingsmethode</em> van de entiteit <em>Bepaling schuifspanningsverloop bij belasting</em> gelijk is aan <em>belastenGeconsolideerdGedraineerd</em>.<br clear="none">
                                     Het attribuut mag niet aanwezig zijn in alle andere gevallen.
                                  </p>
                                  
@@ -21155,7 +21192,7 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p>Het attribuut moet aanwezig zijn wanneer de waarde van de <em>bepalingsmethode</em> van de entiteit <em>Bepaling schuifspanningsverloop bij belasting</em> gelijk is aan <em>belastenGeconsolideerdOngedraineerd</em> of <em>belastenOngeconsolideerdOngedraineerd</em>.
+                                 <p>Het attribuut moet aanwezig zijn wanneer de waarde van de <em>bepalingsmethode</em> van de entiteit <em>Bepaling schuifspanningsverloop bij belasting</em> gelijk is aan <em>belastenGeconsolideerdOngedraineerd</em> of <em>belastenOngeconsolideerdOngedraineerd</em>.<br clear="none">
                                     Het attribuut mag niet aanwezig zijn in alle andere gevallen.
                                  </p>
                                  
@@ -23263,9 +23300,8 @@
                               
                               <p>Bij de bepaling van de consistentiegrenzen worden de vloeigrens en de uitrolgrens
                                  bepaald, dat zijn de grenzen waarbinnen de grond zich plastisch gedraagt. Het resultaat
-                                 van de bepaling is indicatief.<br clear="none">
-                                 De bepaling wordt uitgevoerd aan cohesieve grond en de monsterkwaliteit kan alle waarden
-                                 hebben.<br clear="none">
+                                 van de bepaling is indicatief. De bepaling wordt uitgevoerd aan cohesieve grond en
+                                 de monsterkwaliteit kan alle waarden hebben.<br clear="none">
                                  De bepaling van de consistentiegrenzen is een zogenaamde classificatieproef die is
                                  opgenomen in de ISO 14688-2.
                               </p>
@@ -23379,18 +23415,14 @@
                                  <p>Het materiaal wordt  gehomogeniseerd en botresten, ijzerconcreties,  niet-stenig antropogeen
                                     materiaal, en de korrels van 500 µm en groter worden verwijderd.  Een deel van het
                                     materiaal wordt gebruikt voor het bepalen van de vloeigrens en een deel voor het bepalen
-                                    van de uitrolgrens. 
-                                 </p>
-                                 
-                                 <p>Voor het bepalen van de vloeigrens wordt het materiaal gekneed tot het de gewenste
+                                    van de uitrolgrens.<br clear="none">
+                                    Voor het bepalen van de vloeigrens wordt het materiaal gekneed tot het de gewenste
                                     consistentie heeft en daarbij wordt water toegevoegd. De plasticiteitstoestand  van
                                     het materiaal wordt bepaald met de Casagrandemethode of met de valconus en wordt een
                                     aantal malen herhaald, steeds bij een ander watergehalte. Het watergehalte wordt op
                                     de standaard manier bepaald en dat is door drogen.  Uit het verloop van de plasticiteit
-                                    wordt de vloeigrens afgeleid. 
-                                 </p>
-                                 
-                                 <p>De uitrolgrens wordt altijd bepaald volgens dezelfde methode, en dat is door het uitrollen
+                                    wordt de vloeigrens afgeleid.<br clear="none">
+                                    De uitrolgrens wordt altijd bepaald volgens dezelfde methode, en dat is door het uitrollen
                                     van het materiaal tot het uiteenvalt. Het watergehalte dat het materiaal dan heeft
                                     wordt bepaald en dat gebeurt op de standaard manier.<br clear="none">
                                     
@@ -23564,7 +23596,7 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>bepalingsmethode</em> gelijk is aan <em>valconusKleistaaf</em>.
+                                 <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>bepalingsmethode</em> gelijk is aan <em>valconusKleistaaf</em>.<br clear="none">
                                     Het attribuut mag niet aanwezig zijn in alle andere gevallen.
                                  </p>
                                  
@@ -23871,6 +23903,16 @@
                            </td>
                         </tr>
                         <tr>
+                           <th>Regels</th>
+                           <td>
+                              
+                              <p>De entiteit mag niet aanwezig zijn wanneer de waarde van het attribuut <em>vloeigrens</em> van de entiteit <em>Bepaling consistentiegrenzen</em> ontbreekt.<br clear="none">
+                                 De entiteit moet aanwezig zijn in alle andere gevallen.
+                              </p>
+                              
+                           </td>
+                        </tr>
+                        <tr>
                            <th>Toelichting</th>
                            <td>
                               
@@ -23985,7 +24027,7 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>bepalingsmethode</em> van de entiteit Bepaling <em>consistentiegrenzen</em> gelijk is aan <em>valconusKleistaaf</em>.
+                                 <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>bepalingsmethode</em> van de entiteit <em>Bepaling consistentiegrenzen</em> gelijk is aan <em>valconusKleistaaf</em>.<br clear="none">
                                     Het attribuut mag niet aanwezig zijn in alle andere gevallen.
                                  </p>
                                  
@@ -24055,7 +24097,7 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>bepalingsmethode</em> van de entiteit <em>Bepaling consistentiegrenzen</em> gelijk is aan <em>casagrandeKleistaaf</em>. 
+                                 <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>bepalingsmethode</em> van de entiteit <em>Bepaling consistentiegrenzen</em> gelijk is aan <em>casagrandeKleistaaf</em>.<br clear="none">
                                     Het attribuut mag niet aanwezig zijn in alle andere gevallen.
                                  </p>
                                  
@@ -24177,9 +24219,8 @@
                               <td>
                                  
                                  <p>De korrelgrootteverdeling wordt volgens een bepaalde methode of combinatie van methoden
-                                    uitgevoerd conform ISO 17892-4. 
-                                    Wanneer de verdeling van de korrels kleiner dan 63 µm wordt bepaald door middel van
-                                    röntgenstraling, wordt ook ISO 13317-3 gebruikt. 
+                                    uitgevoerd conform ISO 17892-4. Wanneer de verdeling van de korrels kleiner dan 63
+                                    µm wordt bepaald door middel van röntgenstraling, wordt ook ISO 13317-3 gebruikt.
                                     Wanneer de verdeling wordt bepaald met laserdiffractie, wordt de gehele bepaling uitgevoerd
                                     conform ISO 13320.
                                  </p>
@@ -24244,19 +24285,19 @@
                               <td>
                                  
                                  <p>Afhankelijk van de opdracht en de aard van het materiaal wordt vooraf bepaald welke
-                                    methode of combinatie van methoden wordt gebruikt.
+                                    methode of combinatie van methoden wordt gebruikt.<br clear="none">
                                     Bij alle methoden, laserdiffractie uitgezonderd, wordt het materiaal na de voorbehandeling
                                     nat gezeefd over de 63µm-zeef. Hiermee worden de korrels kleiner dan 63 µm, gewoonlijk
                                     aangeduid als fijne fractie, gescheiden van de korrels groter dan 63 µm, gewoonlijk
                                     aangeduid als de grove fractie. Wanneer er geen fijne fractie in het materiaal aanwezig
-                                    is (minder dan 5 %) wordt deze stap overgeslagen. 
+                                    is (minder dan 5 %) wordt deze stap overgeslagen.<br clear="none">
                                     Normaliter wordt de grove fractie verder onderverdeeld wanneer het aandeel groter
-                                    is dan 10 %. Dit gebeurt door het droge materiaal te zeven. 
+                                    is dan 10 %. Dit gebeurt door het droge materiaal te zeven.<br clear="none">
                                     De fijne fractie wordt normaliter ook verder onderverdeeld wanneer het aandeel groter
                                     is dan 10 %. De verdeling van de fijne fractie wordt bepaald op basis van de bezinksnelheid
                                     van de korrels en die wordt bepaald met behulp van een pipet, een hydrometer of door
                                     middel van röntgenstraling. De klassegrenzen bij deze methoden zijn minder nauwkeurig
-                                    dan bij zeving.
+                                    dan bij zeving.<br clear="none">
                                     Wanneer laserdiffractie wordt toegepast, wordt het materiaal na de voorbehandeling
                                     nat gezeefd over de 2mm-zeef. De verdeling van de korrels kleiner dan 2 mm wordt bepaald
                                     door middel van laserdiffractie en die van de korrels groter dan 2 mm door middel
@@ -24311,8 +24352,8 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p>De waarde van het attribuut moet gelijk zijn aan <em>basisBasis</em> wanneer de waarde van het attribuut <em>bepalingsmethode</em> gelijk is aan <em>natZeven</em>. 
-                                    De waarde van het attribuut mag niet gelijk zijn aan <em>basisBasis</em> wanneer de waarde van het attribuut <em>bepalingsmethode</em> niet gelijk is aan <em>natZeven</em>. 
+                                 <p>De waarde van het attribuut moet gelijk zijn aan <em>basisBasis</em> wanneer de waarde van het attribuut <em>bepalingsmethode</em> gelijk is aan <em>natZeven</em>.<br clear="none">
+                                    De waarde van het attribuut mag niet gelijk zijn aan <em>basisBasis</em> wanneer de waarde van het attribuut <em>bepalingsmethode</em> niet gelijk is aan <em>natZeven</em>.<br clear="none">
                                     De waarde van het attribuut moet gelijk zijn aan <em>basisStandaard</em> of <em>basisUitgebreid</em> wanneer de waarde van het attribuut <em>bepalingsmethode</em> gelijk is aan <em>droogZeven</em>. 
                                  </p>
                                  
@@ -24381,9 +24422,9 @@
                                  <p>De afspraak is dat botresten, ijzerconcreties en niet-stenig antropogeen materiaal
                                     voorafgaand aan de bepaling worden verwijderd. Afhankelijk van de opdracht kunnen
                                     ook andere bestanddelen vooraf worden verwijderd. Die bestanddelen worden gespecificeerd.
-                                    Verwijdering gebeurt handmatig en enkel grove bestanddelen worden verwijderd.
-                                    Wanneer koolzure kalk of organische stof van te voren is verwijderd, is het gehalte
-                                    ervan altijd bepaald.
+                                    Verwijdering gebeurt handmatig en enkel grove bestanddelen worden verwijderd. Wanneer
+                                    koolzure kalk of organische stof van te voren is verwijderd, is het gehalte ervan
+                                    altijd bepaald.<br clear="none">
                                     De afspraak wordt opgenomen in de Nationale Praktijkrichtlijn.
                                  </p>
                                  
@@ -24435,7 +24476,7 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p>Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>bepalingsmethode</em> gelijk is aan <em>droogZeven</em>. 
+                                 <p>Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>bepalingsmethode</em> gelijk is aan <em>droogZeven</em>.<br clear="none">
                                     Het attribuut moet aanwezig zijn in alle andere gevallen.
                                  </p>
                                  
@@ -24626,7 +24667,7 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>bepalingsmethode</em> gelijk is aan <em>natDroogZevenLaser</em>. 
+                                 <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>bepalingsmethode</em> gelijk is aan <em>natDroogZevenLaser</em>.<br clear="none">
                                     Het attribuut mag niet aanwezig zijn in alle andere gevallen.
                                  </p>
                                  
@@ -24791,7 +24832,7 @@
                            <th>Regels</th>
                            <td>
                               
-                              <p>De som van de fracties is 100%.</p>
+                              <p>De som van alle fracties moet gelijk zijn aan 100.</p>
                               
                            </td>
                         </tr>
@@ -24924,9 +24965,11 @@
                            <th>Regels</th>
                            <td>
                               
-                              <p>De entiteit moet aanwezig zijn wanneer de waarde van het attribuut <em>fractieverdeling</em> van de entiteit <em>Bepaling korrelgrootteverdeling</em> gelijk is aan <em>standaardBasis</em>, <em>standaardStandaard</em> of <em>standaardUitgebreid</em>. 
-                                 De entiteit mag niet aanwezig zijn in alle andere gevallen. 
-                                 De som van alle fracties is gelijk aan de waarde van het attribuut <em>fractie kleiner63um</em> van de entiteit <em>Basis korrelgrootteverdeling</em>.
+                              <p>De entiteit moet aanwezig zijn wanneer de waarde van het attribuut <em>fractieverdeling</em> van de entiteit <em>Bepaling korrelgrootteverdeling</em> gelijk is aan <em>standaardBasis</em>, <em>standaardStandaard</em> of <em>standaardUitgebreid</em>.<br clear="none">
+                                 De entiteit mag niet aanwezig zijn in alle andere gevallen.
+                              </p>
+                              
+                              <p>De som van alle fracties moet gelijk zijn aan de waarde van het attribuut <em>fractie kleiner63um</em> van de entiteit <em>Basis korrelgrootteverdeling</em>.
                               </p>
                               
                            </td>
@@ -25168,9 +25211,11 @@
                            <th>Regels</th>
                            <td>
                               
-                              <p>De entiteit moet aanwezig zijn wanneer de waarde van het attribuut <em>fractieverdeling</em> van de entiteit <em>Bepaling korrelgrootteverdeling</em> gelijk is aan <em>uitgebreidBasis</em>, <em>uitgebreidStandaard</em> of <em>uitgebreidUitgebreid</em>. 
+                              <p>De entiteit moet aanwezig zijn wanneer de waarde van het attribuut <em>fractieverdeling</em> van de entiteit <em>Bepaling korrelgrootteverdeling</em> gelijk is aan <em>uitgebreidBasis</em>, <em>uitgebreidStandaard</em> of <em>uitgebreidUitgebreid</em>.<br clear="none">
                                  De entiteit mag niet aanwezig zijn in alle andere gevallen. 
-                                 De som van alle fracties is gelijk aan de waarde van het attribuut <em>fractie kleiner63um</em> van de entiteit <em>Basis korrelgrootteverdeling</em>.
+                              </p>
+                              
+                              <p>De som van alle fracties moet gelijk zijn aan de waarde van het attribuut <em>fractie kleiner63um</em> van de entiteit <em>Basis korrelgrootteverdeling</em>.
                               </p>
                               
                            </td>
@@ -25560,11 +25605,12 @@
                            <th>Regels</th>
                            <td>
                               
-                              <p>De entiteit moet aanwezig zijn wanneer de waarde van het attribuut <em>fractieverdeling</em> van de entiteit <em>Bepaling korrelgrootteverdeling</em> gelijk is aan <em>basisStandaard</em>, <em>standaardStandaard</em> of <em>uitgebreidStandaard</em>. 
+                              <p>De entiteit moet aanwezig zijn wanneer de waarde van het attribuut <em>fractieverdeling</em> van de entiteit <em>Bepaling korrelgrootteverdeling</em> gelijk is aan <em>basisStandaard</em>, <em>standaardStandaard</em> of <em>uitgebreidStandaard</em>.<br clear="none">
                                  De entiteit mag niet aanwezig zijn in alle andere gevallen. 
-                                 De som van alle fracties is gelijk aan de waarde van het attribuut <em>fractie groter63um</em> van de entiteit <em>Basis korrelgrootteverdeling</em>.
-                                 De waarde van twee aaneensluitende klassen mag ontbreken. In dat geval is de som van
-                                 alle fracties kleiner dan de waarde van het attribuut <em>fractie groter63um</em> van de entiteit <em>Basis korrelgrootteverdeling</em>.
+                              </p>
+                              
+                              <p>De som van alle fracties moet gelijk zijn aan de waarde van het attribuut <em>fractie groter63um</em> van de entiteit <em>Basis korrelgrootteverdeling</em>.<br clear="none">
+                                 De som van alle fracties moet kleiner zijn dan de waarde van het attribuut <em>fractie groter63um</em> van de entiteit <em>Basis korrelgrootteverdeling</em> wanneer de waarden van twee aaneensluitende fracties ontbreken. 
                               </p>
                               
                            </td>
@@ -26629,11 +26675,12 @@
                            <th>Regels</th>
                            <td>
                               
-                              <p>De entiteit moet aanwezig zijn wanneer de waarde van het attribuut <em>fractieverdeling</em> van de entiteit <em>Bepaling korrelgrootteverdeling</em> gelijk is aan <em>basisUitgebreid</em>, <em>standaardUitgebreid</em> of <em>uitgebreidUitgebreid</em>. 
+                              <p>De entiteit moet aanwezig zijn wanneer de waarde van het attribuut <em>fractieverdeling</em> van de entiteit <em>Bepaling korrelgrootteverdeling</em> gelijk is aan <em>basisUitgebreid</em>, <em>standaardUitgebreid</em> of <em>uitgebreidUitgebreid</em>.<br clear="none">
                                  De entiteit mag niet aanwezig zijn in alle andere gevallen. 
-                                 De som van alle fracties is gelijk aan de waarde van het attribuut <em>fractie groter63um</em> van de entiteit <em>Basis korrelgrootteverdeling</em>.
-                                 De waarden van twee aaneensluitende klassen mogen ontbreken. In dat geval is de som
-                                 van alle fracties kleiner dan de waarde van het attribuut <em>fractie groter63um</em> van de entiteit <em>Basis korrelgrootteverdeling</em>.
+                              </p>
+                              
+                              <p>De som van alle fracties moet gelijk zijn aan de waarde van het attribuut <em>fractie groter63um</em> van de entiteit <em>Basis korrelgrootteverdeling</em>.<br clear="none">
+                                 De som van alle fracties moet kleiner zijn dan de waarde van het attribuut <em>fractie groter63um</em> van de entiteit <em>Basis korrelgrootteverdeling</em> wanneer de waarden van twee aaneensluitende fracties ontbreken.
                               </p>
                               
                            </td>
@@ -26645,8 +26692,7 @@
                               <p>Wanneer de grove fractie uitgebreid wordt onderverdeeld bestaan er verschillende varianten.
                                  Idealiter heeft men de opdracht de complete set van tweeëntwintig zeven te gebruiken
                                  en dat betekent dat zes van de fracties uit de standaardverdeling in tweeën worden
-                                 gesplitst. Maar de opdracht kan ook zijn om een of enkele fracties op te splitsen.
-                                 
+                                 gesplitst. Maar de opdracht kan ook zijn om een of enkele fracties op te splitsen.<br clear="none">
                                  In alle gevallen zouden de percentages van de fracties bij elkaar gelijk moeten zijn
                                  aan het percentage van de grove fractie in de basisverdeling. Wanneer alles goed gaat,
                                  gaat dat op. Maar wanneer een van de zeven uit de standaardset kapot is gegaan, krijgen
@@ -26772,7 +26818,7 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p>Het attribuut mag niet aanwezig zijn wanneer het attribuut <em>fractie 63tot90um</em> aanwezig is. 
+                                 <p>Het attribuut mag niet aanwezig zijn wanneer het attribuut <em>fractie 63tot90um</em> aanwezig is.<br clear="none">
                                     Het attribuut moet aanwezig zijn in alle andere gevallen.
                                  </p>
                                  
@@ -26844,7 +26890,7 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p>Het attribuut mag niet aanwezig zijn wanneer het attribuut <em>fractie 63tot90um</em> aanwezig is. 
+                                 <p>Het attribuut mag niet aanwezig zijn wanneer het attribuut <em>fractie 63tot90um</em> aanwezig is.<br clear="none">
                                     Het attribuut moet aanwezig zijn in alle andere gevallen.
                                  </p>
                                  
@@ -26982,7 +27028,7 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p>Het attribuut mag niet aanwezig zijn wanneer het attribuut <em>fractie 90tot125um</em> aanwezig is. 
+                                 <p>Het attribuut mag niet aanwezig zijn wanneer het attribuut <em>fractie 90tot125um</em> aanwezig is.<br clear="none">
                                     Het attribuut moet aanwezig zijn in alle andere gevallen.
                                  </p>
                                  
@@ -27056,7 +27102,7 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p>Het attribuut mag niet aanwezig zijn wanneer het attribuut <em>fractie 90tot125um</em> aanwezig is. 
+                                 <p>Het attribuut mag niet aanwezig zijn wanneer het attribuut <em>fractie 90tot125um</em> aanwezig is.<br clear="none">
                                     Het attribuut moet aanwezig zijn in alle andere gevallen.
                                  </p>
                                  
@@ -27194,7 +27240,7 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p>Het attribuut mag niet aanwezig zijn wanneer het attribuut <em>fractie 125tot180um</em> aanwezig is.
+                                 <p>Het attribuut mag niet aanwezig zijn wanneer het attribuut <em>fractie 125tot180um</em> aanwezig is.<br clear="none">
                                     Het attribuut moet aanwezig zijn in alle andere gevallen.
                                  </p>
                                  
@@ -27268,7 +27314,7 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p>Het attribuut mag niet aanwezig zijn wanneer het attribuut <em>fractie 125tot180um</em> aanwezig is.
+                                 <p>Het attribuut mag niet aanwezig zijn wanneer het attribuut <em>fractie 125tot180um</em> aanwezig is.<br clear="none">
                                     Het attribuut moet aanwezig zijn in alle andere gevallen.
                                  </p>
                                  
@@ -27406,7 +27452,7 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p>Het attribuut mag niet aanwezig zijn wanneer het attribuut <em>fractie 180tot250um</em> aanwezig is. 
+                                 <p>Het attribuut mag niet aanwezig zijn wanneer het attribuut <em>fractie 180tot250um</em> aanwezig is.<br clear="none">
                                     Het attribuut moet aanwezig zijn in alle andere gevallen.
                                  </p>
                                  
@@ -27480,7 +27526,7 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p>Het attribuut mag niet aanwezig zijn wanneer het attribuut <em>fractie 180tot250um</em> aanwezig is. 
+                                 <p>Het attribuut mag niet aanwezig zijn wanneer het attribuut <em>fractie 180tot250um</em> aanwezig is.<br clear="none">
                                     Het attribuut moet aanwezig zijn in alle andere gevallen.
                                  </p>
                                  
@@ -28060,7 +28106,7 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p>Het attribuut mag niet aanwezig zijn wanneer het attribuut <em>fractie 4tot8mm</em> aanwezig is. 
+                                 <p>Het attribuut mag niet aanwezig zijn wanneer het attribuut <em>fractie 4tot8mm</em> aanwezig is.<br clear="none">
                                     Het attribuut moet aanwezig zijn in alle andere gevallen.
                                  </p>
                                  
@@ -28132,7 +28178,7 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p>Het attribuut mag niet aanwezig zijn wanneer het attribuut <em>fractie 4tot8mm</em> aanwezig is. 
+                                 <p>Het attribuut mag niet aanwezig zijn wanneer het attribuut <em>fractie 4tot8mm</em> aanwezig is.<br clear="none">
                                     Het attribuut moet aanwezig zijn in alle andere gevallen.
                                  </p>
                                  
@@ -28268,7 +28314,7 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p>Het attribuut mag niet aanwezig zijn wanneer het attribuut <em>fractie 8tot16mm</em> aanwezig is. 
+                                 <p>Het attribuut mag niet aanwezig zijn wanneer het attribuut <em>fractie 8tot16mm</em> aanwezig is.<br clear="none">
                                     Het attribuut moet aanwezig zijn in alle andere gevallen.
                                  </p>
                                  
@@ -28342,7 +28388,7 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p>Het attribuut mag niet aanwezig zijn wanneer het attribuut <em>fractie 8tot16mm</em> aanwezig is. 
+                                 <p>Het attribuut mag niet aanwezig zijn wanneer het attribuut <em>fractie 8tot16mm</em> aanwezig is.<br clear="none">
                                     Het attribuut moet aanwezig zijn in alle andere gevallen.
                                  </p>
                                  
@@ -28899,7 +28945,7 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>bepalingsmethode</em> gelijk is aan <em>constantHead</em>.
+                                 <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>bepalingsmethode</em> gelijk is aan <em>constantHead</em>.<br clear="none">
                                     Het attribuut mag niet aanwezig zijn in alle andere gevallen.
                                  </p>
                                  
@@ -29026,7 +29072,7 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>bepalingsmethode</em> gelijk is aan <em>fallingHead</em>.
+                                 <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>bepalingsmethode</em> gelijk is aan <em>fallingHead</em>.<br clear="none">
                                     Het attribuut mag niet aanwezig zijn in alle andere gevallen.
                                  </p>
                                  
@@ -29090,7 +29136,7 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>bepalingsmethode</em> gelijk is aan <em>fallingHead</em>.
+                                 <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>bepalingsmethode</em> gelijk is aan <em>fallingHead</em>.<br clear="none">
                                     Het attribuut mag niet aanwezig zijn in alle andere gevallen.
                                  </p>
                                  
@@ -29371,7 +29417,7 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>bepalingsmethode</em> gelijk is aan <em>fallingHead</em>.
+                                 <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>bepalingsmethode</em> gelijk is aan <em>fallingHead</em>.<br clear="none">
                                     Het attribuut mag niet aanwezig zijn in alle andere gevallen.
                                  </p>
                                  
@@ -29620,7 +29666,7 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>bepalingsmethode</em> gelijk is aan <em>fallingHead</em>.
+                                 <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>bepalingsmethode</em> gelijk is aan <em>fallingHead</em>.<br clear="none">
                                     Het attribuut mag niet aanwezig zijn in alle andere gevallen.
                                  </p>
                                  
@@ -29672,7 +29718,7 @@
                            <th>Regels</th>
                            <td>
                               
-                              <p>De entiteit moet aanwezig zijn wanneer de waarde van het attribuut <em>bepalingsmethode</em> van de entiteit <em>Bepaling verzadigde waterdoorlatendheid</em> gelijk is aan <em>constantHead</em>.
+                              <p>De entiteit moet aanwezig zijn wanneer de waarde van het attribuut <em>bepalingsmethode</em> van de entiteit <em>Bepaling verzadigde waterdoorlatendheid</em> gelijk is aan <em>constantHead</em>.<br clear="none">
                                  De entiteit mag niet aanwezig zijn in alle andere gevallen.
                               </p>
                               
@@ -29843,7 +29889,7 @@
                            <th>Regels</th>
                            <td>
                               
-                              <p>De entiteit moet aanwezig zijn wanneer de waarde van het attribuut <em>bepalingsmethode</em> van de entiteit <em>Bepaling verzadigde waterdoorlatendheid</em> gelijk is aan <em>fallingHead</em>. 
+                              <p>De entiteit moet aanwezig zijn wanneer de waarde van het attribuut <em>bepalingsmethode</em> van de entiteit <em>Bepaling verzadigde waterdoorlatendheid</em> gelijk is aan <em>fallingHead</em>.<br clear="none">
                                  De entiteit mag niet aanwezig zijn in alle andere gevallen.
                               </p>
                               
@@ -30014,7 +30060,7 @@
                            <th>Regels</th>
                            <td>
                               
-                              <p>De entiteit moet aanwezig zijn wanneer de waarde van het attribuut <em>watergehalte bepaald</em> van de entiteit <em>Onderzocht interval</em> gelijk is aan <em>ja</em>. 
+                              <p>De entiteit moet aanwezig zijn wanneer de waarde van het attribuut <em>watergehalte bepaald</em> van de entiteit <em>Onderzocht interval</em> gelijk is aan <em>ja</em>.<br clear="none">
                                  De entiteit mag niet aanwezig zijn in alle andere gevallen.
                               </p>
                               
@@ -30028,10 +30074,8 @@
                                  eventueel worden bepaalde bestanddelen verwijderd. De hoeveelheid water wordt berekend
                                  uit het massaverlies dat het gevolg is van de verwijdering van het water uit het materiaal.
                                  De bepaling wordt uitgevoerd aan grond en aan stenig bijzonder materiaal en de monsterkwaliteit
-                                 kan alle waarden hebben.
-                              </p>
-                              
-                              <p>De bepaling watergehalte is een zogenaamde classificatieproef die is opgenomen in
+                                 kan alle waarden hebben.<br clear="none">
+                                 De bepaling watergehalte is een zogenaamde classificatieproef die is opgenomen in
                                  de ISO 14688-2.
                               </p>
                               
@@ -30081,7 +30125,7 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p>De waarde van het attribuut is gelijk aan <em>ISO17892d1v2014</em>.
+                                 <p>De waarde van het attribuut moet gelijk zijn aan <em>ISO17892d1v2014</em>.
                                  </p>
                                  
                               </td>
@@ -30132,7 +30176,7 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p>De waarde van het attribuut is gelijk aan <em>drogen</em> of <em>berekenenWatergehalte</em>.
+                                 <p>De waarde van het attribuut moet gelijk zijn aan <em>drogen</em> of <em>berekenenWatergehalte</em>.
                                  </p>
                                  
                               </td>
@@ -30141,7 +30185,7 @@
                               <th>Toelichting</th>
                               <td>
                                  
-                                 <p>Het materiaal wordt in de huidige praktijk altijd in de oven gedroogd. 
+                                 <p>Het materiaal wordt in de huidige praktijk altijd in de oven gedroogd.<br clear="none">
                                     In het uitzonderlijke geval dat het type analyse een niet verstoord monster vereist
                                     en het proefstuk praktisch de volledige doorsnede van een boormonster omvat en de
                                     hoeveelheid water in het proefstuk tijdens de analyse verandert, kan het watergehalte
@@ -30198,7 +30242,7 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>bepalingsmethode</em> gelijk is aan <em>drogen</em>.
+                                 <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>bepalingsmethode</em> gelijk is aan <em>drogen</em>.<br clear="none">
                                     Het attribuut mag niet aanwezig zijn in alle andere gevallen.
                                  </p>
                                  
@@ -30596,7 +30640,7 @@
                            <th>Regels</th>
                            <td>
                               
-                              <p>De entiteit moet aanwezig zijn wanneer de waarde van het attribuut <em>organischestofgehalte bepaald</em> van de entiteit <em>Onderzocht interval</em> gelijk is aan <em>ja</em>. 
+                              <p>De entiteit moet aanwezig zijn wanneer de waarde van het attribuut <em>organischestofgehalte bepaald</em> van de entiteit <em>Onderzocht interval</em> gelijk is aan <em>ja</em>.<br clear="none">
                                  De entiteit mag niet aanwezig zijn in alle andere gevallen.
                               </p>
                               
@@ -30608,8 +30652,8 @@
                               
                               <p>Het materiaal wordt vooraf gehomogeniseerd en gedroogd, eventueel worden bepaalde
                                  bestanddelen verwijderd. Het gehalte organische stof wordt berekend uit het massaverlies
-                                 dat het gevolg is van de verwijdering van de organische stof uit het materiaal. 
-                                 De bepaling wordt uitgevoerd aan grond en de monsterkwaliteit kan alle waarden hebben.
+                                 dat het gevolg is van de verwijdering van de organische stof uit het materiaal. De
+                                 bepaling wordt uitgevoerd aan grond en de monsterkwaliteit kan alle waarden hebben.<br clear="none">
                                  De bepaling organischestofgehalte is een zogenaamde classificatieproef die is opgenomen
                                  in de ISO 14688-2.
                               </p>
@@ -30912,9 +30956,8 @@
                               <td>
                                  
                                  <p>De meetresultaten kunnen zijn gecorrigeerd voor het verlies van water dat door kleideeltjes
-                                    wordt vastgehouden. 
-                                    De correctie is gebaseerd op het aandeel van de fractie 0-2 µm (de lutumfractie) zoals
-                                    bepaald in de korrelgrootteverdeling.
+                                    wordt vastgehouden. De correctie is gebaseerd op het aandeel van de fractie 0-2 µm
+                                    (de lutumfractie) zoals bepaald in de korrelgrootteverdeling.
                                  </p>
                                  
                               </td>
@@ -31000,7 +31043,7 @@
                            <th>Regels</th>
                            <td>
                               
-                              <p>De entiteit moet aanwezig zijn wanneer de waarde van het attribuut <em>kalkgehalte bepaald</em> van de entiteit <em>Onderzocht interval</em> gelijk is aan <em>ja</em>. 
+                              <p>De entiteit moet aanwezig zijn wanneer de waarde van het attribuut <em>kalkgehalte bepaald</em> van de entiteit <em>Onderzocht interval</em> gelijk is aan <em>ja</em>.<br clear="none">
                                  De entiteit mag niet aanwezig zijn in alle andere gevallen.
                               </p>
                               
@@ -31013,9 +31056,8 @@
                               <p>Het materiaal waaruit het onderzochte interval bestaat wordt vooraf gehomogeniseerd
                                  en gedroogd, eventueel worden bepaalde bestanddelen verwijderd. Het gehalte koolzure
                                  kalk wordt berekend uit het massaverlies dat het gevolg is van de verwijdering of
-                                 omzetting van het kalk uit het materiaal.
-                                 De bepaling wordt uitgevoerd aan grond en de monsterkwaliteit kan alle waarden hebben.
-                                 
+                                 omzetting van het kalk uit het materiaal. De bepaling wordt uitgevoerd aan grond en
+                                 de monsterkwaliteit kan alle waarden hebben.<br clear="none">
                                  De bepaling kalkgehalte is een zogenaamde classificatieproef die is opgenomen in de
                                  ISO 14688-2.
                               </p>
@@ -31339,7 +31381,7 @@
                            <th>Regels</th>
                            <td>
                               
-                              <p>De entiteit moet aanwezig zijn wanneer de waarde van het attribuut <em>volumieke massa bepaald</em> van de entiteit <em>Onderzocht interval</em> gelijk is aan <em>ja</em>. 
+                              <p>De entiteit moet aanwezig zijn wanneer de waarde van het attribuut <em>volumieke massa bepaald</em> van de entiteit <em>Onderzocht interval</em> gelijk is aan <em>ja</em>.<br clear="none">
                                  De entiteit mag niet aanwezig zijn in alle andere gevallen.
                               </p>
                               
@@ -31351,8 +31393,8 @@
                               
                               <p>De bepaling wordt gewoonlijk uitgevoerd aan cohesieve grond, en dat wil zeggen grond
                                  dat samenhang vertoont doordat het een zekere consistentie heeft, met monsterkwaliteit
-                                 QM1, QM2 en QM3 en aan stenig bijzonder materiaal.
-                                 De volumieke massa wordt berekend uit het volume en de massa van het materiaal.
+                                 QM1, QM2 en QM3 en aan stenig bijzonder materiaal. De volumieke massa wordt berekend
+                                 uit het volume en de massa van het materiaal.<br clear="none">
                                  De bepaling volumieke massa is een zogenaamde classificatieproef die is opgenomen
                                  in de ISO 14688-2.
                               </p>
@@ -31464,7 +31506,7 @@
                               <td>
                                  
                                  <p>De volumieke massa wordt berekend uit metingen van het volume en de massa. De metingen
-                                    vallen altijd onder de lineaire meetmethode in de ISO 17892-2. 
+                                    vallen altijd onder de lineaire meetmethode in de ISO 17892-2.<br clear="none">
                                     Afhankelijk van de methode is de bepaling meer of minder nauwkeurig. De nauwkeurige
                                     methoden worden uitgevoerd in het laboratorium. De minder nauwkeurige methode wordt
                                     normaliter in het veld uitgevoerd en dat is bepaling waarbij het materiaal tijdens
@@ -31677,7 +31719,7 @@
                            <th>Regels</th>
                            <td>
                               
-                              <p>De entiteit moet aanwezig zijn wanneer de waarde van het attribuut <em>volumieke massa vaste delen bepaald</em> van de entiteit <em>Onderzocht interval</em> gelijk is aan <em>ja</em>. 
+                              <p>De entiteit moet aanwezig zijn wanneer de waarde van het attribuut <em>volumieke massa vaste delen bepaald</em> van de entiteit <em>Onderzocht interval</em> gelijk is aan <em>ja</em>.<br clear="none">
                                  De entiteit mag niet aanwezig zijn in alle andere gevallen.
                               </p>
                               
@@ -31690,14 +31732,14 @@
                               <p>De volumieke massa vaste delen wordt berekend uit het volume en de massa van de vaste
                                  delen van het materiaal. Het materiaal wordt vooraf gehomogeniseerd en gedroogd, eventueel
                                  worden bepaalde bestanddelen verwijderd, wordt het materiaal losgemaakt en worden
-                                 de grove delen (groter dan 4 mm) vergruisd. 
+                                 de grove delen (groter dan 4 mm) vergruisd.<br clear="none">
                                  Het gegeven wordt bepaald om bijv. de poriënratio of de verzadigingsgraad te kunnen
                                  bepalen. De poriënratio is de verhouding tussen het volume van de poriën en het volume
                                  van het onderzochte materiaal. De verzadigingsgraad is de verhouding tussen het volume
-                                 van de vloeistof in de poriën, het poriënwater, en het volume van de poriën. 
+                                 van de vloeistof in de poriën, het poriënwater, en het volume van de poriën.<br clear="none">
                                  De bepaling wordt uitgevoerd aan cohesief materiaal, en dat wil zeggen grond of stenig
                                  bijzonder materiaal dat samenhang vertoont doordat het een zekere consistentie heeft.
-                                 De monsterkwaliteit kan alle waarden hebben.
+                                 De monsterkwaliteit kan alle waarden hebben.<br clear="none">
                                  De bepaling volumieke massa vaste delen is een zogenaamde classificatieproef die is
                                  opgenomen in de ISO 14688-2 als dichtheid gronddeeltjes.
                               </p>
@@ -31819,7 +31861,7 @@
                                  <p>De volumieke massa van de vaste delen wordt berekend uit metingen van het volume en
                                     de massa van de vaste delen van het materiaal. De metingen worden altijd uitgevoerd
                                     met een gas of vloeistof gevulde pyknometer conform ISO 17892-3. Afhankelijk van het
-                                    gebruikte medium is de bepaling meer of minder nauwkeurig.
+                                    gebruikte medium is de bepaling meer of minder nauwkeurig.<br clear="none">
                                     De meting wordt herhaald tot de voorgeschreven betrouwbaarheid is bereikt.
                                  </p>
                                  
