@@ -13,7 +13,7 @@
    <body>
       <p>Conceptual model/Geotechnisch booronderzoek (BHR-GT)/20200312</p>
       <p>Imvertor: 1.59.2</p>
-      <p>Model release: Conceptualmodel-GeotechnischbooronderzoekBHR-GT-1.9-1-20200312-20200324-091451</p>
+      <p>Model release: Conceptualmodel-GeotechnischbooronderzoekBHR-GT-1.9-1-20200312-20200324-231739</p>
       <hr>
       <section>
          <h1>Artikel 1 Definitie van registratieobject, entiteiten en attributen</h1>
@@ -734,10 +734,8 @@
                               <td>
                                  
                                  <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>registratiestatus</em> van de entiteit <em>Registratiegeschiedenis</em> gelijk is aan <em>voltooid</em>.<br clear="none">
-                                    Het attribuut mag niet aanwezig zijn in alle andere gevallen.
-                                 </p>
-                                 
-                                 <p>De <em>rapportagedatum onderzoek</em> mag niet liggen na het <em>tijdstip voltooiing registratie</em> van de entiteit <em>Registratiegeschiedenis</em>.
+                                    Het attribuut mag niet aanwezig zijn in alle andere gevallen.<br clear="none">
+                                    De <em>rapportagedatum onderzoek</em> mag niet liggen na het <em>tijdstip voltooiing registratie</em> van de entiteit <em>Registratiegeschiedenis</em>.
                                  </p>
                                  
                               </td>
@@ -1805,7 +1803,7 @@
                               
                               <p>De basisregistratie ondergrond leidt bij het aanvullen van de registratie de juiste
                                  waarde af uit de gegevens in het brondocument. In deze versie van de catalogus vinden
-                                 er geen&nbsp; tussentijdse gebeurtenissen plaats. 
+                                 er geen&nbsp;tussentijdse gebeurtenissen plaats.
                               </p>
                               
                            </td>
@@ -2182,7 +2180,7 @@
                            </tr>
                            <tr>
                               <th>Juridische status</th>
-                              <td>Authentiek</td>
+                              <td>Niet-authentiek</td>
                            </tr>
                            <tr>
                               <th>Kardinaliteit</th>
@@ -2363,9 +2361,7 @@
                               <th>Reden geen waarde</th>
                               <td>
                                  
-                                 <p>Voor IMBRO/A-gegevens kan de verschuiving niet bepaald zijn, alleen in dat geval heeft
-                                    het gegeven geen waarde.
-                                 </p>
+                                 <p>Voor IMBRO/A-gegevens mag de waarde ontbreken.</p>
                                  
                               </td>
                            </tr>
@@ -2375,7 +2371,9 @@
                                  
                                  <p>De waarde kan positief of negatief zijn. Als de waarde positief is, ligt het lokaal
                                     verticaal referentiepunt boven het verticaal referentievlak. Met behulp van de verschuiving
-                                    kan een diepte omgerekend worden naar een positie ten opzichte van het verticaal referentievlak.
+                                    kan een diepte omgerekend worden naar een positie ten opzichte van het verticaal referentievlak.<br clear="none">
+                                    Voor gegevens die zijn aangeleverd in het kader van archiefoverdracht kan de verschuiving
+                                    niet bepaald zijn.
                                  </p>
                                  
                               </td>
@@ -2581,8 +2579,8 @@
                               <th>Reden geen waarde</th>
                               <td>
                                  
-                                 <p>Voor IMBRO/A-gegevens kan de verschuiving niet bepaald zijn, alleen in dat geval heeft
-                                    het gegeven geen waarde.
+                                 <p>Voor IMBRO/A-gegevens mag de waarde ontbreken wanneer de waarde van het attribuut
+                                    <em>verschuiving</em> ontbreekt.
                                  </p>
                                  
                               </td>
@@ -2802,6 +2800,10 @@
                               <th>&nbsp;&nbsp;Naam</th>
                               <td>Coördinatenpaar</td>
                            </tr>
+                           <tr>
+                              <th>Is afgeleid</th>
+                              <td>Ja</td>
+                           </tr>
                         </tbody>
                      </table>
                      
@@ -2915,11 +2917,9 @@
                            <th>Regels</th>
                            <td>
                               
-                              <p>De entiteit moet aanwezig zijn wanneer de waarde van het attribuut <em>terreintoestand bepaald</em> gelijk is aan <em>ja</em>.<br clear="none">
-                                 De entiteit mag niet aanwezig zijn in alle andere gevallen.
-                              </p>
-                              
-                              <p>Ten minste één van de volgende gegevens moet aanwezig zijn: het attribuut <em>bodemgebruik</em>, <em>ligging op grondlichaam</em> of <em>tijdelijke verandering</em>.
+                              <p>De entiteit moet aanwezig zijn wanneer de waarde van het attribuut <em>terreintoestand bepaald</em> van de entiteit <em>Booronderzoek</em> gelijk is aan <em>ja</em>.<br clear="none">
+                                 De entiteit mag niet aanwezig zijn in alle andere gevallen.<br clear="none">
+                                 Ten minste één van de volgende gegevens moet aanwezig zijn: het attribuut <em>bodemgebruik</em>, <em>ligging op grondlichaam</em> of <em>tijdelijke verandering</em>.
                               </p>
                               
                            </td>
@@ -4186,9 +4186,8 @@
                               <th>Toelichting</th>
                               <td>
                                  
-                                 <p>Het gegeven heeft onder meer als doel de samenhang van de informatie te borgen.
-                                    Onderzoek onder IMBRO/A vertoont te weinig samenhang om dit gegeven betekenis te laten
-                                    hebben. 
+                                 <p>Het gegeven heeft onder meer als doel de samenhang van de informatie te borgen. Onderzoek
+                                    onder IMBRO/A vertoont te weinig samenhang om dit gegeven betekenis te laten hebben.
                                     Voor gegevens die zijn aangeleverd in het kader van archiefoverdracht is dit gegeven
                                     zelden vastgelegd.
                                  </p>
@@ -4257,7 +4256,7 @@
                                  
                                  <p>Het gegeven geeft aan of de eigenschappen van de ondergrond onbedoeld door de mens
                                     veranderd zijn. Het gegeven heeft betrekking op een waarneming en krijgt alleen de
-                                    waarde <em>ja</em>, wanneer de uitvoerder geconstateerd heeft dat de ondergrond verontreinigd is.
+                                    waarde <em>ja</em>, wanneer de uitvoerder geconstateerd heeft dat de ondergrond verontreinigd is.<br clear="none">
                                     Voor gegevens die zijn aangeleverd in het kader van archiefoverdracht is dit gegeven
                                     zelden vastgelegd.
                                  </p>
@@ -4868,9 +4867,7 @@
                               <th>Reden geen waarde</th>
                               <td>
                                  
-                                 <p>Voor IMBRO/A-gegevens kan de geboorde diameter niet bekend zijn, alleen in dat geval
-                                    heeft het gegeven geen waarde.
-                                 </p>
+                                 <p>Voor IMBRO/A-gegevens mag de waarde ontbreken.</p>
                                  
                               </td>
                            </tr>
@@ -4879,7 +4876,9 @@
                               <td>
                                  
                                  <p>Het gaat om de diameter van het gat dat door boren is ontstaan. Het uiteindelijk gat
-                                    kan groter zijn doordat de wand afbrokkelt of gedeeltelijk instort.
+                                    kan groter zijn doordat de wand afbrokkelt of gedeeltelijk instort.<br clear="none">
+                                    Voor gegevens die zijn aangeleverd in het kader van archiefoverdracht kan de geboorde
+                                    diameter niet bekend zijn.
                                  </p>
                                  
                               </td>
@@ -5996,7 +5995,7 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>apparaattype</em> gelijk is aan <em>corebarrelSingleTube</em>, <em>corebarrelDoubleTube</em>, <em>corebarrelTripleTube</em> of steekbus.<br clear="none">
+                                 <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>apparaattype</em> gelijk is aan <em>corebarrelSingleTube</em>, <em>corebarrelDoubleTube</em>, <em>corebarrelTripleTube</em> of <em>steekbus</em>.<br clear="none">
                                     Het attribuut mag niet aanwezig zijn in alle andere gevallen.
                                  </p>
                                  
@@ -6165,7 +6164,7 @@
                            <th>Regels</th>
                            <td>
                               
-                              <p>De entiteit mag niet aanwezig zijn wanneer de waarde van het attribuut <em>gesteente</em> aangeboord van de entiteit <em>Boring</em> gelijk is aan <em>nee</em>.<br clear="none">
+                              <p>De entiteit mag niet aanwezig zijn wanneer de waarde van het attribuut <em>gesteente aangeboord</em> van de entiteit <em>Boring</em> gelijk is aan <em>nee</em>.<br clear="none">
                                  De entiteit mag niet aanwezig zijn wanneer de waarde van het attribuut <em>bemonsteringsmethode</em> van de entiteit <em>Bemonsterd interval</em> niet gelijk is aan <em>opDiepteKernen</em>.
                               </p>
                               
@@ -6784,7 +6783,7 @@
                                     kunnen ook per ongeluk buizen in het gat zijn achtergebleven. Redenen om het gat verbuisd
                                     achter te laten zijn bijvoorbeeld voorkomen dat in de ondergrond al aanwezige verontreiniging
                                     zich kan verspreiden, of beschermen van het boorgat en de daarin aanwezige constructies
-                                    tegen instorting of corrosie.
+                                    tegen instorting of corrosie.<br clear="none">
                                     Voor gegevens die zijn aangeleverd in het kader van archiefoverdracht is zelden informatie
                                     over permanente verbuizing vastgelegd.
                                  </p>
@@ -7257,8 +7256,16 @@
                               <th>Reden geen waarde</th>
                               <td>
                                  
-                                 <p>Voor IMBRO/A-gegevens kan de kleur niet bepaald zijn, alleen in dat geval heeft het
-                                    gegeven geen waarde.
+                                 <p>Voor IMBRO/A-gegevens mag de waarde ontbreken.</p>
+                                 
+                              </td>
+                           </tr>
+                           <tr>
+                              <th>Toelichting</th>
+                              <td>
+                                 
+                                 <p>Voor gegevens die zijn aangeleverd in het kader van archiefoverdracht kan de kleur
+                                    niet bepaald zijn.
                                  </p>
                                  
                               </td>
@@ -7322,11 +7329,10 @@
                               <td>
                                  
                                  <p>De dikte van de sliblaag wordt bepaald door de bovenkant en de onderkant van de laag
-                                    ten opzichte van het wateroppervlak te bepalen. 
-                                    In veel gevallen wordt voor de positiebepaling van de bovenkant een andere methode
-                                    gebruikt dan voor de positiebepaling van de onderkant. 
+                                    ten opzichte van het wateroppervlak te bepalen. In veel gevallen wordt voor de positiebepaling
+                                    van de bovenkant een andere methode gebruikt dan voor de positiebepaling van de onderkant.
                                     Het gegeven geeft inzicht in de nauwkeurigheid waarmee de dikte van de sliblaag is
-                                    bepaald.
+                                    bepaald.<br clear="none">
                                     Voor gegevens die zijn aangeleverd in het kader van archiefoverdracht is zelden vastgelegd
                                     hoe de bovenkant en de onderkant van de sliblaag is bepaald.
                                  </p>
@@ -8111,10 +8117,8 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p>Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>beschreven materiaal</em> gelijk is aan <em>gesteente</em>.
-                                 </p>
-                                 
-                                 <p>De waarde van het attribuut mag niet groter zijn dan de waarde van het attribuut <em>einddiepte boren</em> van de entiteit <em>Boring</em>.
+                                 <p>Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>beschreven materiaal</em> gelijk is aan <em>gesteente</em>.<br clear="none">
+                                    De waarde van het attribuut mag niet groter zijn dan de waarde van het attribuut <em>einddiepte boren</em> van de entiteit <em>Boring</em>.
                                  </p>
                                  
                               </td>
@@ -8392,8 +8396,8 @@
                               <th>Reden geen waarde</th>
                               <td>
                                  
-                                 <p>Wanneer de waarde van het attribuut beschrijfprocedure van de entiteit Boormonsterbeschrijving
-                                    gelijk is aan NEN5104Synthetisch, heeft het gegeven geen waarde.
+                                 <p>Voor IMBRO/A-gegevens moet de waarde ontbreken wanneer de waarde van het attribuut
+                                    <em>beschrijfprocedure</em> van de entiteit <em>Boormonsterbeschrijving</em> gelijk is aan <em>NEN5104Synthetisch</em>.
                                  </p>
                                  
                               </td>
@@ -8402,8 +8406,7 @@
                               <th>Toelichting</th>
                               <td>
                                  
-                                 <p>Wanneer de bovengrens samenvalt met het maaiveld of de waterbodem, geldt die als waargenomen.
-                                    
+                                 <p>Wanneer de bovengrens samenvalt met het maaiveld of de waterbodem, geldt die als waargenomen.<br clear="none">
                                     Het gegeven is onder NEN 5104 niet vastgelegd.
                                  </p>
                                  
@@ -8551,8 +8554,8 @@
                               <th>Reden geen waarde</th>
                               <td>
                                  
-                                 <p>Wanneer de waarde van het attribuut beschrijfprocedure van de entiteit Boormonsterbeschrijving
-                                    gelijk is aan NEN5104Synthetisch, heeft het gegeven geen waarde.
+                                 <p>Voor IMBRO/A-gegevens moet de waarde ontbreken wanneer de waarde van het attribuut
+                                    <em>beschrijfprocedure</em> van de entiteit <em>Boormonsterbeschrijving</em> gelijk is aan <em>NEN5104Synthetisch</em>.
                                  </p>
                                  
                               </td>
@@ -9059,7 +9062,7 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>gelaagd</em> gelijk is aan ja en de waarde van het attribuut <em>samengesteld</em> gelijk is aan <em>nee</em>.<br clear="none">
+                                 <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>gelaagd</em> gelijk is aan <em>ja</em> en de waarde van het attribuut <em>samengesteld</em> gelijk is aan <em>nee</em>.<br clear="none">
                                     Het attribuut mag niet aanwezig zijn in alle andere gevallen.
                                  </p>
                                  
@@ -9149,8 +9152,8 @@
                               <th>Reden geen waarde</th>
                               <td>
                                  
-                                 <p>Wanneer de waarde van het attribuut beschrijfprocedure van de entiteit Boormonsterbeschrijving
-                                    gelijk is aan NEN5104Synthetisch, heeft het gegeven geen waarde.
+                                 <p>Voor IMBRO/A-gegevens moet de waarde ontbreken wanneer de waarde van het attribuut
+                                    <em>beschrijfprocedure</em> van de entiteit <em>Boormonsterbeschrijving</em> gelijk is aan <em>NEN5104Synthetisch</em>.
                                  </p>
                                  
                               </td>
@@ -9211,7 +9214,7 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p>Het gegeven ontbreekt wanneer de waarde van het attribuut <em>beschrijfprocedure</em> van de entiteit <em>Boormonsterbeschrijving</em> niet gelijk is aan <em>NEN5104Synthetisch</em> en dat is onder IMBRO altijd het geval.
+                                 <p>Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfprocedure</em> van de entiteit <em>Boormonsterbeschrijving</em> niet gelijk is aan <em>NEN5104Synthetisch</em> en dat is onder IMBRO altijd het geval.
                                  </p>
                                  
                               </td>
@@ -9275,7 +9278,7 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p>Het gegeven ontbreekt wanneer de waarde van het attribuut <em>beschrijfprocedure</em> van de entiteit <em>Boormonsterbeschrijving</em> niet gelijk is aan <em>NEN5104Synthetisch</em> en dat is onder IMBRO altijd het geval.
+                                 <p>Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfprocedure</em> van de entiteit <em>Boormonsterbeschrijving</em> niet gelijk is aan <em>NEN5104Synthetisch</em> en dat is onder IMBRO altijd het geval.
                                  </p>
                                  
                               </td>
@@ -9347,7 +9350,7 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p>Het gegeven ontbreekt wanneer de waarde van het attribuut <em>beschrijfprocedure</em> van de entiteit <em>Boormonsterbeschrijving</em> niet gelijk is aan <em>NEN5104Synthetisch</em> en dat is onder IMBRO altijd het geval.
+                                 <p>Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfprocedure</em> van de entiteit <em>Boormonsterbeschrijving</em> niet gelijk is aan <em>NEN5104Synthetisch</em> en dat is onder IMBRO altijd het geval.
                                  </p>
                                  
                               </td>
@@ -9499,9 +9502,8 @@
                               <th>Reden geen waarde</th>
                               <td>
                                  
-                                 <p>Wanneer de waarde van het attribuut beschrijfprocedure van de entiteit Boormonsterbeschrijving
-                                    gelijk is aan NEN5104Synthetisch kan de kleur niet bepaald zijn, alleen in dat geval
-                                    heeft het gegeven geen waarde.
+                                 <p>Voor IMBRO/A-gegevens mag de waarde ontbreken wanneer de waarde van het attribuut
+                                    <em>beschrijfprocedure</em> van de entiteit <em>Boormonsterbeschrijving</em> gelijk is aan <em>NEN5104Synthetisch</em>.
                                  </p>
                                  
                               </td>
@@ -9515,7 +9517,7 @@
                                     de door verschillende personen en bij verschillende lichtsterkte uitgevoerde beschrijvingen
                                     te waarborgen. Om de namen van kleuren een meer objectieve basis te geven en het gebruik
                                     van een kleurenkaart te ondersteunen, is de vertaling naar de codes van de Munsell
-                                    kleurenkaarten voor grond en gesteente opgenomen in de codelijst (<em>Munsell Soil Color Chart</em> en <em>Munsell Rock Color Chart)</em>.
+                                    kleurenkaarten voor grond en gesteente opgenomen in de codelijst (<em>Munsell Soil Color Chart</em> en <em>Munsell Rock Color Chart)</em>.<br clear="none">
                                     De kleur die is vastgelegd onder NEN 5104 kan niet naar Munsellcodes worden vertaald.
                                  </p>
                                  
@@ -9919,7 +9921,7 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p>Het gegeven mag niet aanwezig zijn wanneer de waarde van het attribuut <em>interne structuur intact</em> van de entiteit <em>Laag</em> gelijk is aan <em>nee</em>.
+                                 <p>Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>interne structuur intact</em> van de entiteit <em>Laag</em> gelijk is aan <em>nee</em>.
                                  </p>
                                  
                               </td>
@@ -9988,7 +9990,7 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p>Het gegeven mag niet aanwezig zijn wanneer de waarde van het attribuut <em>interne structuur intact</em> van de entiteit <em>Laag</em> gelijk is aan <em>nee</em>.
+                                 <p>Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>interne structuur intact</em> van de entiteit <em>Laag</em> gelijk is aan <em>nee</em>.
                                  </p>
                                  
                               </td>
@@ -10120,7 +10122,7 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p>Het gegeven mag niet aanwezig zijn wanneer de waarde van het attribuut <em>vermengd</em> gelijk is aan <em>nee</em>.
+                                 <p>Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>vermengd</em> gelijk is aan <em>nee</em>.
                                  </p>
                                  
                               </td>
@@ -10252,7 +10254,7 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p>Het gegeven ontbreekt wanneer de waarde van het attribuut <em>beschrijfprocedure</em> van de entiteit <em>Boormonsterbeschrijving</em> niet gelijk is aan <em>NEN5104Synthetisch</em> en dat is onder IMBRO altijd het geval.
+                                 <p>Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfprocedure</em> van de entiteit <em>Boormonsterbeschrijving</em> niet gelijk is aan <em>NEN5104Synthetisch</em> en dat is onder IMBRO altijd het geval.
                                  </p>
                                  
                               </td>
@@ -10313,7 +10315,7 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p>Het gegeven ontbreekt wanneer de waarde van het attribuut <em>beschrijfprocedure</em> van de entiteit <em>Boormonsterbeschrijving</em> niet gelijk is aan <em>NEN5104Synthetisch</em> en dat is onder IMBRO altijd het geval.
+                                 <p>Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfprocedure</em> van de entiteit <em>Boormonsterbeschrijving</em> niet gelijk is aan <em>NEN5104Synthetisch</em> en dat is onder IMBRO altijd het geval.
                                  </p>
                                  
                               </td>
@@ -10374,7 +10376,7 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p>Het gegeven ontbreekt wanneer de waarde van het attribuut <em>beschrijfprocedure</em> van de entiteit <em>Boormonsterbeschrijving</em> niet gelijk is aan <em>NEN5104Synthetisch</em> en dat is onder IMBRO altijd het geval.
+                                 <p>Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfprocedure</em> van de entiteit <em>Boormonsterbeschrijving</em> niet gelijk is aan <em>NEN5104Synthetisch</em> en dat is onder IMBRO altijd het geval.
                                  </p>
                                  
                               </td>
@@ -10508,7 +10510,7 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p>Het gegeven ontbreekt wanneer de waarde van het attribuut <em>beschrijfprocedure</em> van de entiteit <em>Boormonsterbeschrijving</em> niet gelijk is aan <em>NEN5104Synthetisch</em> en dat is onder IMBRO altijd het geval.
+                                 <p>Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfprocedure</em> van de entiteit <em>Boormonsterbeschrijving</em> niet gelijk is aan <em>NEN5104Synthetisch</em> en dat is onder IMBRO altijd het geval.
                                  </p>
                                  
                               </td>
@@ -10887,7 +10889,7 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>interne structuur intact</em> gelijk is aan <em>ja</em> en de waarde van het attribuut <em>geotechnische grondsoort</em> gelijk is aan <em>veen</em>, <em>zwakZandigVeen</em>, <em>sterkZandigVeen</em>, <em>siltigVeen</em> of <em>kleiigVeen</em>.<br clear="none">
+                                 <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>interne structuur intact</em> van de entiteit <em>Laag</em> gelijk is aan <em>ja</em> en de waarde van het attribuut <em>geotechnische grondsoort</em> gelijk is aan <em>veen</em>, <em>zwakZandigVeen</em>, <em>sterkZandigVeen</em>, <em>siltigVeen</em> of <em>kleiigVeen</em>.<br clear="none">
                                     Het attribuut mag niet aanwezig zijn in alle andere gevallen.
                                  </p>
                                  
@@ -11203,8 +11205,8 @@
                               <th>Reden geen waarde</th>
                               <td>
                                  
-                                 <p>Wanneer de waarde van het attribuut beschrijfprocedure van de entiteit Boormonsterbeschrijving
-                                    gelijk is aan NEN5104Synthetisch, heeft het gegeven geen waarde.
+                                 <p>Voor IMBRO/A-gegevens moet de waarde ontbreken wanneer de waarde van het attribuut
+                                    <em>beschrijfprocedure</em> van de entiteit <em>Boormonsterbeschrijving</em> gelijk is aan <em>NEN5104Synthetisch</em>.
                                  </p>
                                  
                               </td>
@@ -11214,8 +11216,7 @@
                               <td>
                                  
                                  <p>Het gegeven is van invloed op de pakking, stabiliteit en doorlatendheid en geeft inzicht
-                                    in de omstandigheden waaronder het sediment is afgezet en de herkomst van het materiaal.
-                                    
+                                    in de omstandigheden waaronder het sediment is afgezet en de herkomst van het materiaal.<br clear="none">
                                     Onder NEN 5104 is dit gegeven niet vastgelegd.
                                  </p>
                                  
@@ -11591,7 +11592,7 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>samengestelde laag</em> gelijk is aan <em>ja</em>.<br clear="none">
+                                 <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>samengestelde laag</em> van de entiteit <em>Laag</em> gelijk is aan <em>ja</em>.<br clear="none">
                                     Het attribuut mag niet aanwezig zijn in alle andere gevallen.
                                  </p>
                                  
@@ -11755,7 +11756,7 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p>Het gegeven mag niet aanwezig zijn wanneer de waarde van het attribuut <em>interne structuur intact</em> van de entiteit <em>Laag</em> gelijk is aan <em>nee</em>.
+                                 <p>Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>interne structuur intact</em> van de entiteit <em>Laag</em> gelijk is aan <em>nee</em>.
                                  </p>
                                  
                               </td>
@@ -11769,7 +11770,7 @@
                                     vindt tijdens de vorming van het sediment sortering plaats naar grootte en gewicht.
                                     Het voorkomen van een dergelijke sortering is van invloed op de geotechnische eigenschappen
                                     van de grond. Verder geeft het ook meer inzicht in de omstandigheden waaronder het
-                                    sediment is gevormd.
+                                    sediment is gevormd.<br clear="none">
                                     Het gegeven wordt vastgelegd wanneer de kwaliteit van de monsters dat rechtvaardigt
                                     en dat is wanneer de gelaagdheid intact is en de interne structuur niet is verstoord.
                                  </p>
@@ -11824,7 +11825,7 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p>Het gegeven mag niet aanwezig zijn wanneer de waarde van het attribuut <em>interne structuur intact</em> van de entiteit <em>Laag</em> gelijk is aan <em>nee</em>.
+                                 <p>Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>interne structuur intact</em> van de entiteit <em>Laag</em> gelijk is aan <em>nee</em>.
                                  </p>
                                  
                               </td>
@@ -11891,7 +11892,7 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p>Het gegeven mag niet aanwezig zijn wanneer de waarde van het attribuut <em>interne structuur intact</em> van de entiteit <em>Laag</em> gelijk is aan <em>nee</em>.
+                                 <p>Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>interne structuur intact</em> van de entiteit <em>Laag</em> gelijk is aan <em>nee</em>.
                                  </p>
                                  
                               </td>
@@ -12006,7 +12007,7 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p>Het gegeven mag niet aanwezig zijn wanneer de waarde van het attribuut <em>interne structuur intact</em> van de entiteit <em>Laag</em> gelijk is aan <em>nee</em>.
+                                 <p>Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>interne structuur intact</em> van de entiteit <em>Laag</em> gelijk is aan <em>nee</em>.
                                  </p>
                                  
                               </td>
@@ -12099,7 +12100,7 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p>Het gegeven mag niet aanwezig zijn wanneer de waarde van het attribuut <em>interne structuur intact</em> van de entiteit <em>Laag</em> gelijk is aan <em>nee</em>.
+                                 <p>Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>interne structuur intact</em> van de entiteit <em>Laag</em> gelijk is aan <em>nee</em>.
                                  </p>
                                  
                               </td>
@@ -12544,7 +12545,7 @@
                            <th>Regels</th>
                            <td>
                               
-                              <p>De entiteit mag niet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> van de entiteit <em>Boorprofiel</em> gelijk is aan klasse2geroerd of <em>klasse3</em>.
+                              <p>De entiteit mag niet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfkwaliteit</em> van de entiteit <em>Boorprofiel</em> gelijk is aan <em>klasse2geroerd</em> of <em>klasse3</em>.
                               </p>
                               
                            </td>
@@ -14709,9 +14710,10 @@
                               <th>Toelichting</th>
                               <td>
                                  
-                                 <p>In Nederland worden standaard ringen gebruikt met een diameter van 50 mm, 63 mm en
-                                    66 mm. Bij belastinggestuurd samendrukken is de ringhoogte altijd 20 mm. Bij snelheidgestuurd
-                                    samendrukken wordt de hoogte van het proefstuk na afloop van de verzadigingsfase bepaald.<br clear="none">
+                                 <p>In Nederland worden gewoonlijk ringen gebruikt met een diameter van 50 mm, 63 mm en
+                                    66 mm. Bij belastinggestuurd samendrukken is de hoogte van het proefstuk gelijk aan
+                                    de ringhoogte en die is altijd 20 mm. Bij snelheidgestuurd samendrukken wordt de hoogte
+                                    van het proefstuk na afloop van de verzadigingsfase bepaald.<br clear="none">
                                     Zowel de diameter als de hoogte van het proefstuk hebben invloed op de wrijving die
                                     het materiaal in de ring ondervindt, de wandwrijving. Hoe groter de diameter hoe kleiner
                                     de invloed.
@@ -23718,8 +23720,7 @@
                               <th>Reden geen waarde</th>
                               <td>
                                  
-                                 <p>De waarde mag ontbreken wanneer de waarde van het attribuut bepalingsmethode gelijk
-                                    is aan casagrandeKleistaaf.
+                                 <p>De waarde mag ontbreken wanneer de waarde van het attribuut <em>bepalingsmethode</em> gelijk is aan <em>casagrandeKleistaaf</em>.
                                  </p>
                                  
                               </td>
@@ -23732,11 +23733,8 @@
                                     wordt de vloeigrens gesteld op het watergehalte waarbij na 25 keer vallen 10 mm van
                                     de lengte van de groef is dichtgevloeid. Bij gebruik van de valconus wordt de vloeigrens
                                     gesteld op het watergehalte bij een indringingsdiepte van 10 mm bij gebruik van de
-                                    Engelse conus en een indringingsdiepte van 20 mm bij gebruik van de Zweedse conus.
-                                    
-                                 </p>
-                                 
-                                 <p>Wanneer het materiaal onvoldoende cohesief is, kan het voorkomen dat het materiaal
+                                    Engelse conus en een indringingsdiepte van 20 mm bij gebruik van de Zweedse conus.<br clear="none">
+                                    Wanneer het materiaal onvoldoende cohesief is, kan het voorkomen dat het materiaal
                                     te snel vloeit en het niet lukt om de vloeigrens te bepalen met de Casagrandemethode.
                                  </p>
                                  
@@ -23862,7 +23860,8 @@
                               <th>Reden geen waarde</th>
                               <td>
                                  
-                                 <p>De waarde ontbreekt wanneer de waarde van het attribuut vloeigrens ontbreekt.</p>
+                                 <p>De waarde moet ontbreken wanneer de waarde van het attribuut <em>vloeigrens</em> ontbreekt.
+                                 </p>
                                  
                               </td>
                            </tr>
@@ -24146,7 +24145,7 @@
                            <td>
                               
                               <p>Voor de korrelgrootteverdeling wordt grond gezien als een mengsel van minerale deeltjes
-                                 van verschillende grootte. De minerale deeltjes noemen we korrels. 
+                                 van verschillende grootte. De minerale deeltjes worden korrels genoemd. 
                                  Het materiaal waaruit het onderzochte interval bestaat wordt vooraf gehomogeniseerd,
                                  eventueel worden bepaalde bestanddelen verwijderd en worden samengeklonterde korreltjes
                                  van elkaar los gemaakt (<em>dispersie</em>). 
@@ -25686,7 +25685,9 @@
                               <th>Reden geen waarde</th>
                               <td>
                                  
-                                 <p>De waarde mag ontbreken wanneer tijdens de bepaling een zeef kapot is gegaan. </p>
+                                 <p>Het kan voorkomen dat tijdens de bepaling een zeef kapot gaat, alleen in dat geval
+                                    ontbreekt de waarde.
+                                 </p>
                                  
                               </td>
                            </tr>
@@ -25750,7 +25751,9 @@
                               <th>Reden geen waarde</th>
                               <td>
                                  
-                                 <p>De waarde mag ontbreken wanneer tijdens de bepaling een zeef kapot is gegaan. </p>
+                                 <p>Het kan voorkomen dat tijdens de bepaling een zeef kapot gaat, alleen in dat geval
+                                    ontbreekt de waarde.
+                                 </p>
                                  
                               </td>
                            </tr>
@@ -25814,7 +25817,9 @@
                               <th>Reden geen waarde</th>
                               <td>
                                  
-                                 <p>De waarde mag ontbreken wanneer tijdens de bepaling een zeef kapot is gegaan. </p>
+                                 <p>Het kan voorkomen dat tijdens de bepaling een zeef kapot gaat, alleen in dat geval
+                                    ontbreekt de waarde.
+                                 </p>
                                  
                               </td>
                            </tr>
@@ -25878,7 +25883,9 @@
                               <th>Reden geen waarde</th>
                               <td>
                                  
-                                 <p>De waarde mag ontbreken wanneer tijdens de bepaling een zeef kapot is gegaan. </p>
+                                 <p>Het kan voorkomen dat tijdens de bepaling een zeef kapot gaat, alleen in dat geval
+                                    ontbreekt de waarde.
+                                 </p>
                                  
                               </td>
                            </tr>
@@ -25942,7 +25949,9 @@
                               <th>Reden geen waarde</th>
                               <td>
                                  
-                                 <p>De waarde mag ontbreken wanneer tijdens de bepaling een zeef kapot is gegaan. </p>
+                                 <p>Het kan voorkomen dat tijdens de bepaling een zeef kapot gaat, alleen in dat geval
+                                    ontbreekt de waarde.
+                                 </p>
                                  
                               </td>
                            </tr>
@@ -26006,7 +26015,9 @@
                               <th>Reden geen waarde</th>
                               <td>
                                  
-                                 <p>De waarde mag ontbreken wanneer tijdens de bepaling een zeef kapot is gegaan. </p>
+                                 <p>Het kan voorkomen dat tijdens de bepaling een zeef kapot gaat, alleen in dat geval
+                                    ontbreekt de waarde.
+                                 </p>
                                  
                               </td>
                            </tr>
@@ -26070,7 +26081,9 @@
                               <th>Reden geen waarde</th>
                               <td>
                                  
-                                 <p>De waarde mag ontbreken wanneer tijdens de bepaling een zeef kapot is gegaan. </p>
+                                 <p>Het kan voorkomen dat tijdens de bepaling een zeef kapot gaat, alleen in dat geval
+                                    ontbreekt de waarde.
+                                 </p>
                                  
                               </td>
                            </tr>
@@ -26134,7 +26147,9 @@
                               <th>Reden geen waarde</th>
                               <td>
                                  
-                                 <p>De waarde mag ontbreken wanneer tijdens de bepaling een zeef kapot is gegaan. </p>
+                                 <p>Het kan voorkomen dat tijdens de bepaling een zeef kapot gaat, alleen in dat geval
+                                    ontbreekt de waarde.
+                                 </p>
                                  
                               </td>
                            </tr>
@@ -26198,7 +26213,9 @@
                               <th>Reden geen waarde</th>
                               <td>
                                  
-                                 <p>De waarde mag ontbreken wanneer tijdens de bepaling een zeef kapot is gegaan. </p>
+                                 <p>Het kan voorkomen dat tijdens de bepaling een zeef kapot gaat, alleen in dat geval
+                                    ontbreekt de waarde.
+                                 </p>
                                  
                               </td>
                            </tr>
@@ -26262,7 +26279,9 @@
                               <th>Reden geen waarde</th>
                               <td>
                                  
-                                 <p>De waarde mag ontbreken wanneer tijdens de bepaling een zeef kapot is gegaan. </p>
+                                 <p>Het kan voorkomen dat tijdens de bepaling een zeef kapot gaat, alleen in dat geval
+                                    ontbreekt de waarde.
+                                 </p>
                                  
                               </td>
                            </tr>
@@ -26324,7 +26343,9 @@
                               <th>Reden geen waarde</th>
                               <td>
                                  
-                                 <p>De waarde mag ontbreken wanneer tijdens de bepaling een zeef kapot is gegaan. </p>
+                                 <p>Het kan voorkomen dat tijdens de bepaling een zeef kapot gaat, alleen in dat geval
+                                    ontbreekt de waarde.
+                                 </p>
                                  
                               </td>
                            </tr>
@@ -26386,7 +26407,9 @@
                               <th>Reden geen waarde</th>
                               <td>
                                  
-                                 <p>De waarde mag ontbreken wanneer tijdens de bepaling een zeef kapot is gegaan. </p>
+                                 <p>Het kan voorkomen dat tijdens de bepaling een zeef kapot gaat, alleen in dat geval
+                                    ontbreekt de waarde.
+                                 </p>
                                  
                               </td>
                            </tr>
@@ -26448,7 +26471,9 @@
                               <th>Reden geen waarde</th>
                               <td>
                                  
-                                 <p>De waarde mag ontbreken wanneer tijdens de bepaling een zeef kapot is gegaan. </p>
+                                 <p>Het kan voorkomen dat tijdens de bepaling een zeef kapot gaat, alleen in dat geval
+                                    ontbreekt de waarde.
+                                 </p>
                                  
                               </td>
                            </tr>
@@ -26512,7 +26537,9 @@
                               <th>Reden geen waarde</th>
                               <td>
                                  
-                                 <p>De waarde mag ontbreken wanneer tijdens de bepaling een zeef kapot is gegaan. </p>
+                                 <p>Het kan voorkomen dat tijdens de bepaling een zeef kapot gaat, alleen in dat geval
+                                    ontbreekt de waarde.
+                                 </p>
                                  
                               </td>
                            </tr>
@@ -26576,7 +26603,9 @@
                               <th>Reden geen waarde</th>
                               <td>
                                  
-                                 <p>De waarde mag ontbreken wanneer tijdens de bepaling een zeef kapot is gegaan. </p>
+                                 <p>Het kan voorkomen dat tijdens de bepaling een zeef kapot gaat, alleen in dat geval
+                                    ontbreekt de waarde.
+                                 </p>
                                  
                               </td>
                            </tr>
@@ -26640,7 +26669,9 @@
                               <th>Reden geen waarde</th>
                               <td>
                                  
-                                 <p>De waarde mag ontbreken wanneer tijdens de bepaling een zeef kapot is gegaan. </p>
+                                 <p>Het kan voorkomen dat tijdens de bepaling een zeef kapot gaat, alleen in dat geval
+                                    ontbreekt de waarde.
+                                 </p>
                                  
                               </td>
                            </tr>
@@ -26760,7 +26791,9 @@
                               <th>Reden geen waarde</th>
                               <td>
                                  
-                                 <p>De waarde mag ontbreken wanneer tijdens de bepaling een zeef kapot is gegaan. </p>
+                                 <p>Het kan voorkomen dat tijdens de bepaling een zeef kapot gaat, alleen in dat geval
+                                    ontbreekt de waarde.
+                                 </p>
                                  
                               </td>
                            </tr>
@@ -26832,7 +26865,9 @@
                               <th>Reden geen waarde</th>
                               <td>
                                  
-                                 <p>De waarde mag ontbreken wanneer tijdens de bepaling een zeef kapot is gegaan. </p>
+                                 <p>Het kan voorkomen dat tijdens de bepaling een zeef kapot gaat, alleen in dat geval
+                                    ontbreekt de waarde.
+                                 </p>
                                  
                               </td>
                            </tr>
@@ -26904,7 +26939,9 @@
                               <th>Reden geen waarde</th>
                               <td>
                                  
-                                 <p>De waarde mag ontbreken wanneer tijdens de bepaling een zeef kapot is gegaan. </p>
+                                 <p>Het kan voorkomen dat tijdens de bepaling een zeef kapot gaat, alleen in dat geval
+                                    ontbreekt de waarde.
+                                 </p>
                                  
                               </td>
                            </tr>
@@ -26968,7 +27005,9 @@
                               <th>Reden geen waarde</th>
                               <td>
                                  
-                                 <p>De waarde mag ontbreken wanneer tijdens de bepaling een zeef kapot is gegaan. </p>
+                                 <p>Het kan voorkomen dat tijdens de bepaling een zeef kapot gaat, alleen in dat geval
+                                    ontbreekt de waarde.
+                                 </p>
                                  
                               </td>
                            </tr>
@@ -27042,7 +27081,9 @@
                               <th>Reden geen waarde</th>
                               <td>
                                  
-                                 <p>De waarde mag ontbreken wanneer tijdens de bepaling een zeef kapot is gegaan. </p>
+                                 <p>Het kan voorkomen dat tijdens de bepaling een zeef kapot gaat, alleen in dat geval
+                                    ontbreekt de waarde.
+                                 </p>
                                  
                               </td>
                            </tr>
@@ -27116,7 +27157,9 @@
                               <th>Reden geen waarde</th>
                               <td>
                                  
-                                 <p>De waarde mag ontbreken wanneer tijdens de bepaling een zeef kapot is gegaan. </p>
+                                 <p>Het kan voorkomen dat tijdens de bepaling een zeef kapot gaat, alleen in dat geval
+                                    ontbreekt de waarde.
+                                 </p>
                                  
                               </td>
                            </tr>
@@ -27180,7 +27223,9 @@
                               <th>Reden geen waarde</th>
                               <td>
                                  
-                                 <p>De waarde mag ontbreken wanneer tijdens de bepaling een zeef kapot is gegaan. </p>
+                                 <p>Het kan voorkomen dat tijdens de bepaling een zeef kapot gaat, alleen in dat geval
+                                    ontbreekt de waarde.
+                                 </p>
                                  
                               </td>
                            </tr>
@@ -27254,7 +27299,9 @@
                               <th>Reden geen waarde</th>
                               <td>
                                  
-                                 <p>De waarde mag ontbreken wanneer tijdens de bepaling een zeef kapot is gegaan. </p>
+                                 <p>Het kan voorkomen dat tijdens de bepaling een zeef kapot gaat, alleen in dat geval
+                                    ontbreekt de waarde.
+                                 </p>
                                  
                               </td>
                            </tr>
@@ -27328,7 +27375,9 @@
                               <th>Reden geen waarde</th>
                               <td>
                                  
-                                 <p>De waarde mag ontbreken wanneer tijdens de bepaling een zeef kapot is gegaan. </p>
+                                 <p>Het kan voorkomen dat tijdens de bepaling een zeef kapot gaat, alleen in dat geval
+                                    ontbreekt de waarde.
+                                 </p>
                                  
                               </td>
                            </tr>
@@ -27392,7 +27441,9 @@
                               <th>Reden geen waarde</th>
                               <td>
                                  
-                                 <p>De waarde mag ontbreken wanneer tijdens de bepaling een zeef kapot is gegaan. </p>
+                                 <p>Het kan voorkomen dat tijdens de bepaling een zeef kapot gaat, alleen in dat geval
+                                    ontbreekt de waarde.
+                                 </p>
                                  
                               </td>
                            </tr>
@@ -27466,7 +27517,9 @@
                               <th>Reden geen waarde</th>
                               <td>
                                  
-                                 <p>De waarde mag ontbreken wanneer tijdens de bepaling een zeef kapot is gegaan. </p>
+                                 <p>Het kan voorkomen dat tijdens de bepaling een zeef kapot gaat, alleen in dat geval
+                                    ontbreekt de waarde.
+                                 </p>
                                  
                               </td>
                            </tr>
@@ -27540,7 +27593,9 @@
                               <th>Reden geen waarde</th>
                               <td>
                                  
-                                 <p>De waarde mag ontbreken wanneer tijdens de bepaling een zeef kapot is gegaan. </p>
+                                 <p>Het kan voorkomen dat tijdens de bepaling een zeef kapot gaat, alleen in dat geval
+                                    ontbreekt de waarde.
+                                 </p>
                                  
                               </td>
                            </tr>
@@ -27604,7 +27659,9 @@
                               <th>Reden geen waarde</th>
                               <td>
                                  
-                                 <p>De waarde mag ontbreken wanneer tijdens de bepaling een zeef kapot is gegaan. </p>
+                                 <p>Het kan voorkomen dat tijdens de bepaling een zeef kapot gaat, alleen in dat geval
+                                    ontbreekt de waarde.
+                                 </p>
                                  
                               </td>
                            </tr>
@@ -27668,7 +27725,9 @@
                               <th>Reden geen waarde</th>
                               <td>
                                  
-                                 <p>De waarde mag ontbreken wanneer tijdens de bepaling een zeef kapot is gegaan. </p>
+                                 <p>Het kan voorkomen dat tijdens de bepaling een zeef kapot gaat, alleen in dat geval
+                                    ontbreekt de waarde.
+                                 </p>
                                  
                               </td>
                            </tr>
@@ -27732,7 +27791,9 @@
                               <th>Reden geen waarde</th>
                               <td>
                                  
-                                 <p>De waarde mag ontbreken wanneer tijdens de bepaling een zeef kapot is gegaan. </p>
+                                 <p>Het kan voorkomen dat tijdens de bepaling een zeef kapot gaat, alleen in dat geval
+                                    ontbreekt de waarde.
+                                 </p>
                                  
                               </td>
                            </tr>
@@ -27796,7 +27857,9 @@
                               <th>Reden geen waarde</th>
                               <td>
                                  
-                                 <p>De waarde mag ontbreken wanneer tijdens de bepaling een zeef kapot is gegaan. </p>
+                                 <p>Het kan voorkomen dat tijdens de bepaling een zeef kapot gaat, alleen in dat geval
+                                    ontbreekt de waarde.
+                                 </p>
                                  
                               </td>
                            </tr>
@@ -27860,7 +27923,9 @@
                               <th>Reden geen waarde</th>
                               <td>
                                  
-                                 <p>De waarde mag ontbreken wanneer tijdens de bepaling een zeef kapot is gegaan. </p>
+                                 <p>Het kan voorkomen dat tijdens de bepaling een zeef kapot gaat, alleen in dat geval
+                                    ontbreekt de waarde.
+                                 </p>
                                  
                               </td>
                            </tr>
@@ -27924,7 +27989,9 @@
                               <th>Reden geen waarde</th>
                               <td>
                                  
-                                 <p>De waarde mag ontbreken wanneer tijdens de bepaling een zeef kapot is gegaan. </p>
+                                 <p>Het kan voorkomen dat tijdens de bepaling een zeef kapot gaat, alleen in dat geval
+                                    ontbreekt de waarde.
+                                 </p>
                                  
                               </td>
                            </tr>
@@ -27986,7 +28053,9 @@
                               <th>Reden geen waarde</th>
                               <td>
                                  
-                                 <p>De waarde mag ontbreken wanneer tijdens de bepaling een zeef kapot is gegaan. </p>
+                                 <p>Het kan voorkomen dat tijdens de bepaling een zeef kapot gaat, alleen in dat geval
+                                    ontbreekt de waarde.
+                                 </p>
                                  
                               </td>
                            </tr>
@@ -28048,7 +28117,9 @@
                               <th>Reden geen waarde</th>
                               <td>
                                  
-                                 <p>De waarde mag ontbreken wanneer tijdens de bepaling een zeef kapot is gegaan. </p>
+                                 <p>Het kan voorkomen dat tijdens de bepaling een zeef kapot gaat, alleen in dat geval
+                                    ontbreekt de waarde.
+                                 </p>
                                  
                               </td>
                            </tr>
@@ -28120,7 +28191,9 @@
                               <th>Reden geen waarde</th>
                               <td>
                                  
-                                 <p>De waarde mag ontbreken wanneer tijdens de bepaling een zeef kapot is gegaan. </p>
+                                 <p>Het kan voorkomen dat tijdens de bepaling een zeef kapot gaat, alleen in dat geval
+                                    ontbreekt de waarde.
+                                 </p>
                                  
                               </td>
                            </tr>
@@ -28192,7 +28265,9 @@
                               <th>Reden geen waarde</th>
                               <td>
                                  
-                                 <p>De waarde mag ontbreken wanneer tijdens de bepaling een zeef kapot is gegaan. </p>
+                                 <p>Het kan voorkomen dat tijdens de bepaling een zeef kapot gaat, alleen in dat geval
+                                    ontbreekt de waarde.
+                                 </p>
                                  
                               </td>
                            </tr>
@@ -28254,7 +28329,9 @@
                               <th>Reden geen waarde</th>
                               <td>
                                  
-                                 <p>De waarde mag ontbreken wanneer tijdens de bepaling een zeef kapot is gegaan. </p>
+                                 <p>Het kan voorkomen dat tijdens de bepaling een zeef kapot gaat, alleen in dat geval
+                                    ontbreekt de waarde.
+                                 </p>
                                  
                               </td>
                            </tr>
@@ -28328,7 +28405,9 @@
                               <th>Reden geen waarde</th>
                               <td>
                                  
-                                 <p>De waarde mag ontbreken wanneer tijdens de bepaling een zeef kapot is gegaan. </p>
+                                 <p>Het kan voorkomen dat tijdens de bepaling een zeef kapot gaat, alleen in dat geval
+                                    ontbreekt de waarde.
+                                 </p>
                                  
                               </td>
                            </tr>
@@ -28402,7 +28481,9 @@
                               <th>Reden geen waarde</th>
                               <td>
                                  
-                                 <p>De waarde mag ontbreken wanneer tijdens de bepaling een zeef kapot is gegaan. </p>
+                                 <p>Het kan voorkomen dat tijdens de bepaling een zeef kapot gaat, alleen in dat geval
+                                    ontbreekt de waarde.
+                                 </p>
                                  
                               </td>
                            </tr>
@@ -28466,7 +28547,9 @@
                               <th>Reden geen waarde</th>
                               <td>
                                  
-                                 <p>De waarde mag ontbreken wanneer tijdens de bepaling een zeef kapot is gegaan. </p>
+                                 <p>Het kan voorkomen dat tijdens de bepaling een zeef kapot gaat, alleen in dat geval
+                                    ontbreekt de waarde.
+                                 </p>
                                  
                               </td>
                            </tr>
@@ -28530,7 +28613,9 @@
                               <th>Reden geen waarde</th>
                               <td>
                                  
-                                 <p>De waarde mag ontbreken wanneer tijdens de bepaling een zeef kapot is gegaan. </p>
+                                 <p>Het kan voorkomen dat tijdens de bepaling een zeef kapot gaat, alleen in dat geval
+                                    ontbreekt de waarde.
+                                 </p>
                                  
                               </td>
                            </tr>
@@ -28594,7 +28679,9 @@
                               <th>Reden geen waarde</th>
                               <td>
                                  
-                                 <p>De waarde mag ontbreken wanneer tijdens de bepaling een zeef kapot is gegaan. </p>
+                                 <p>Het kan voorkomen dat tijdens de bepaling een zeef kapot gaat, alleen in dat geval
+                                    ontbreekt de waarde.
+                                 </p>
                                  
                               </td>
                            </tr>
@@ -34265,8 +34352,8 @@
                         
                         <p>Methode voor het bepalen van het zettingsverloop van grond door het uitvoeren van
                            de samendrukkingsproef. De proef kent een aantal stappen, waarin gedurende een bepaalde
-                           tijd een bepaalde druk wordt uitgeoefend op een proefstuk en de snelheid van verticale
-                           vervorming wordt gemeten.
+                           tijd een bepaalde druk wordt uitgeoefend op een proefstuk en gemeten hoe snel de hoogte
+                           van het proefstuk verandert.
                         </p>
                         
                      </td>
@@ -34280,8 +34367,8 @@
                         <p>Methode voor het bepalen van het spanningsverloop in de grond als gevolg van zetting
                            door het uitvoeren van de constant rate of strain (CRS) proef. De proef kent een aantal
                            stappen waarin een proefstuk gedurende een bepaalde tijd een bepaalde snelheid van
-                           verticale vervorming wordt opgelegd en de verandering van de spanning in het proefstuk
-                           worden gemeten.
+                           vervormen wordt opgelegd en de verandering van de spanning in het proefstuk wordt
+                           gemeten.
                         </p>
                         
                      </td>
@@ -34873,8 +34960,8 @@
                      <td>✔</td>
                      <td>
                         
-                        <p>NEN-EN-ISO 14688-1:2019+C11 <em>Geotechnisch onderzoek en beproeving – Identificatie en classificatie van grond –
-                              Deel1: Identificatie en beschrijving (incl. Nederlandse bijlage)</em>. Een door de NEN voor Nederland vastgestelde norm t.b.v. het identificeren van onverharde
+                        <p>NEN-EN-ISO 14688-1:2019+C11:2020 <em>Geotechnisch onderzoek en beproeving – Identificatie en classificatie van grond –
+                              Deel1: Identificatie en beschrijving (incl. Nederlandse bijlage:2019)</em>. Een door de NEN voor Nederland vastgestelde norm t.b.v. het identificeren van onverharde
                            grondmonsters voor geotechniek gebaseerd op de ISO norm. De norm is vastgesteld in
                            september 2013 en is de vervanger voor de NEN 5104. De versie uit 2019 is een herziening.
                            In 2020 zijn correcties opgenomen.
@@ -34888,8 +34975,8 @@
                      <td>✔</td>
                      <td>
                         
-                        <p>NEN-EN-ISO 14688-1:2019+C11 <em>Geotechnisch onderzoek en beproeving – Identificatie en classificatie van grond –
-                              Deel1: Identificatie en beschrijving (incl. Nederlandse bijlage)</em> beschrijft de procedure voor de beschrijving van grondmonsters voor geotechniek.
+                        <p>NEN-EN-ISO 14688-1:2019+C11:2020 <em>Geotechnisch onderzoek en beproeving – Identificatie en classificatie van grond –
+                              Deel1: Identificatie en beschrijving (incl. Nederlandse bijlage:2019)</em> beschrijft de procedure voor de beschrijving van grondmonsters voor geotechniek.
                            Een internationale norm met een Nederlandse bijlage.
                            NEN-EN-ISO 14689-1: 2018 <em>Geotechnisch onderzoek en beproeving - Identificatie en classificatie van gesteente
                               - Deel 1: Identificatie en beschrijving</em> beschrijft de procedure voor de beschrijving van gesteentemonsters voor geotechniek.
