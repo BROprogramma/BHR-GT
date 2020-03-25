@@ -13,7 +13,7 @@
    <body>
       <p>Conceptual model/Geotechnisch booronderzoek (BHR-GT)/20200312</p>
       <p>Imvertor: 1.59.2</p>
-      <p>Model release: Conceptualmodel-GeotechnischbooronderzoekBHR-GT-1.9-1-20200312-20200325-105627</p>
+      <p>Model release: Conceptualmodel-GeotechnischbooronderzoekBHR-GT-1.9-1-20200312-20200325-122651</p>
       <hr>
       <section>
          <h1>Artikel 1 Definitie van registratieobject, entiteiten en attributen</h1>
@@ -13122,7 +13122,7 @@
                            <th>Regels</th>
                            <td>
                               
-                              <p>Het attribuut mag niet aanwezig zijn wanneer <em>einddiepte bemonstering</em> geen waarde heeft.
+                              <p>Het attribuut mag niet aanwezig zijn wanneer het attribuut <em>einddiepte bemonstering</em> van de entiteit <em>Boring</em> geen waarde heeft.
                               </p>
                               
                            </td>
@@ -13278,7 +13278,7 @@
                               <td>
                                  
                                  <p>De organisatie moet bekend zijn binnen de basisregistratie ondergrond als uitvoerder
-                                    van booronderzoek bekend zijn.
+                                    van booronderzoek.
                                  </p>
                                  
                               </td>
@@ -16260,7 +16260,7 @@
                            <td>
                               
                               <p>De entiteit mag niet aanwezig zijn wanneer de waarde van het attribuut <em>bepalingsmethode</em> van de entiteit <em>Bepaling zettingsverloop</em> gelijk is aan <em>samendrukkenSnelheidgestuurd</em>.<br clear="none">
-                                 De entiteit mag niet aanwezig zijn wanneer de waarde van het attribuut <em>zwel geconstateerd</em> gelijk is aan <em>ja</em>.<br clear="none">
+                                 De entiteit mag niet aanwezig zijn wanneer de waarde van het attribuut <em>zwel geconstateerd</em> van de entiteit <em>Bepalingsstap</em> gelijk is aan <em>ja</em>.<br clear="none">
                                  De entiteit moet aanwezig zijn in alle andere gevallen.
                               </p>
                               
@@ -16704,7 +16704,7 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p>Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>staptype</em> gelijk is aan <em>relaxatiestap</em>.<br clear="none">
+                                 <p>Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>staptype</em> van de entiteit <em>Bepalingsstap</em> gelijk is aan <em>relaxatiestap</em>.<br clear="none">
                                     Het attribuut moet aanwezig zijn in alle andere gevallen.
                                  </p>
                                  
@@ -16908,6 +16908,9 @@
                                  drukken en de kracht te meten die nodig is om het materiaal te doen bezwijken. De
                                  meting wordt omgerekend naar schuifspanning. Er vindt geen voorbehandeling plaats,
                                  de meting wordt direct op een vlak gemaakt deel van het boormonster uitgevoerd.<br clear="none">
+                                 Normaliter wordt 1 bepaling per onderzocht interval uitgevoerd. Bij wijze van uitzondering
+                                 kunnen 2 bepalingen 'naast elkaar' worden uitgevoerd. De schuifsterkte wordt dan op
+                                 verschillende manieren bepaald.<br clear="none">
                                  De bepaling wordt uitgevoerd aan cohesieve grond, en dat wil zeggen grond die samenhang
                                  vertoont doordat het een zekere consistentie heeft, met uitzondering van stijve en
                                  zeer stijve grond; de bepaling vereist monsterkwaliteit QM1, QM2 en QM3.<br clear="none">
@@ -16994,7 +16997,7 @@
                               <th>Definitie</th>
                               <td>
                                  
-                                 <p>De manier waarop de maximale schuifsterkte is bepaald.</p>
+                                 <p>De manier waarop de ongedraineerde schuifsterkte is bepaald.</p>
                                  
                               </td>
                            </tr>
@@ -17436,7 +17439,7 @@
                            <th>Regels</th>
                            <td>
                               
-                              <p>De entiteit moet aanwezig zijn wanneer de waarde van het attribuut <em>bepaalde eigenschappen</em> gelijk is aan <em>schuifspanningverloopBelasting</em> of <em>schuifspanningverloopBelastingPlus</em>.<br clear="none">
+                              <p>De entiteit moet aanwezig zijn wanneer de waarde van het attribuut <em>bepaalde eigenschappen</em> van de entiteit <em>Onderzocht interval</em> gelijk is aan <em>schuifspanningverloopBelasting</em> of <em>schuifspanningverloopBelastingPlus</em>.<br clear="none">
                                  De entiteit mag niet aanwezig zijn in alle andere gevallen.
                               </p>
                               
@@ -18639,7 +18642,7 @@
                            <th>Regels</th>
                            <td>
                               
-                              <p>De entiteit moet aanwezig zijn wanneer de waarde van het attribuut <em>drainagestroken gebruikt</em> gelijk is aan <em>ja</em>.<br clear="none">
+                              <p>De entiteit moet aanwezig zijn wanneer de waarde van het attribuut <em>drainagestroken gebruikt</em> van de entiteit <em>Bepaling schuifspanningsverloop bij belasting</em> gelijk is aan <em>ja</em>.<br clear="none">
                                  De entiteit mag niet aanwezig zijn in alle andere gevallen.
                               </p>
                               
@@ -18959,7 +18962,7 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>maakmethode</em> gelijk is aan <em>kneden</em>, <em>knedenStampen</em> of <em>stampenProctor</em>.<br clear="none">
+                                 <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>maakmethode</em> gelijk is aan <em>kneden</em>, <em>knedenEnStampen</em> of <em>stampenProctor</em>.<br clear="none">
                                     Het attribuut mag niet aanwezig zijn in alle andere gevallen.
                                  </p>
                                  
@@ -19031,7 +19034,7 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>maakmethode</em> gelijk is aan <em>kneden</em>, <em>knedenStampen</em> of <em>stampenProctor</em>.<br clear="none">
+                                 <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>maakmethode</em> gelijk is aan <em>kneden</em>, <em>knedenEnStampen</em> of <em>stampenProctor</em>.<br clear="none">
                                     Het attribuut mag niet aanwezig zijn in alle andere gevallen.
                                  </p>
                                  
@@ -19853,7 +19856,8 @@
                            <th>Regels</th>
                            <td>
                               
-                              <p>De entiteit moet aanwezig zijn wanneer de waarde van <em>bepalingsmethode</em> van de entiteit <em>Bepaling schuifspanningsverloop bij belasting</em> gelijk is aan <em>belastenGeconsolideerdGedraineerd</em> of <em>belastenGeconsolideerdOngedraineerd</em>.
+                              <p>De entiteit moet aanwezig zijn wanneer de waarde van <em>bepalingsmethode</em> van de entiteit <em>Bepaling schuifspanningsverloop bij belasting</em> gelijk is aan <em>belastenGeconsolideerdGedraineerd</em> of <em>belastenGeconsolideerdOngedraineerd</em>.<br clear="none">
+                                 De entiteit mag niet aanwezig zijn in alle andere gevallen.
                               </p>
                               
                            </td>
@@ -20742,10 +20746,11 @@
                            <th>Toelichting</th>
                            <td>
                               
-                              <p>Tijdens de belastingfase wordt het proefstuk met een bepaalde snelheid samengedrukt,
-                                 door het verticaal te belasten. Het proefstuk is tijdens de bepaling vrij om in alle
-                                 richtingen te vervormen. Tijdens het belasten neemt de schuifspanning in het proefstuk
-                                 toe. Het verloop van de schuifspanning wordt in de tijd bepaald.
+                              <p>Het schuifspanningsverloop wordt bepaald door het proefstuk met een constante snelheid
+                                 samen te drukken door het uitvoeren van de triaxiaalproef. Het proefstuk is tijdens
+                                 de bepaling vrij om in alle richtingen te vervormen. Tijdens het belasten neemt de
+                                 schuifspanning in het proefstuk toe. Het verloop van de schuifspanning wordt in de
+                                 tijd bepaald.
                               </p>
                               
                            </td>
@@ -21236,7 +21241,7 @@
                            <th>Regels</th>
                            <td>
                               
-                              <p>De entiteit moet aanwezig zijn wanneer de waarde van het attribuut <em>bepaalde eigenschappen</em> gelijk is aan <em>schuifspanningverloopHorVervorming</em> of <em>schuifspanningverloopHorVervormingPlus</em>.<br clear="none">
+                              <p>De entiteit moet aanwezig zijn wanneer de waarde van het attribuut <em>bepaalde eigenschappen</em> van de entiteit <em>Onderzocht interval</em> gelijk is aan <em>schuifspanningverloopHorVervorming</em> of <em>schuifspanningverloopHorVervormingPlus</em>.<br clear="none">
                                  De entiteit mag niet aanwezig zijn in alle andere gevallen.
                               </p>
                               
@@ -21376,9 +21381,10 @@
                                  
                                  <p>Het schuifspanningsverloop wordt bepaald door de boven- en onderkant van het proefstuk
                                     met een constante snelheid van elkaar af te bewegen. Het proefstuk zit vast tussen
-                                    twee poreuze stenen. De stenen hebben een structuur waardoor het proefstuk wordt meegenomen
-                                    tijdens het schuiven. Tijdens de bepaling wordt het proefstuk op constante hoogte
-                                    gehouden waardoor een ongedraineerde toestand wordt gesimuleerd. 
+                                    twee poreuze stenen en is volledig rondom ondersteund. De stenen hebben een structuur
+                                    waardoor het proefstuk wordt meegenomen tijdens het schuiven. Tijdens de bepaling
+                                    wordt het proefstuk op constante hoogte gehouden waardoor een ongedraineerde toestand
+                                    wordt gesimuleerd. 
                                  </p>
                                  
                               </td>
@@ -22195,7 +22201,7 @@
                            <th>Regels</th>
                            <td>
                               
-                              <p>De entiteit moet aanwezig zijn wanneer de waarde van het attribuut <em>proefstuk gemaakt</em> gelijk is aan <em>ja</em>.<br clear="none">
+                              <p>De entiteit moet aanwezig zijn wanneer de waarde van het attribuut <em>proefstuk gemaakt</em> van de entiteit <em>Bepaling schuifspanningsverloop bij horizontale vervorming</em> gelijk is aan <em>ja</em>.<br clear="none">
                                  De entiteit mag niet aanwezig zijn in alle andere gevallen.
                               </p>
                               
@@ -22947,9 +22953,10 @@
                            <th>Toelichting</th>
                            <td>
                               
-                              <p>Tijdens de schuiffase wordt het proefstuk met een bepaalde snelheid in horizontale
-                                 richting vervormd. Door het vervormen neemt de schuifspanning in het proefstuk toe.
-                                 Het verloop van de schuifspanning wordt in relatie tot de vervorming bepaald.
+                              <p>Het schuifspanningsverloop wordt bepaald door het proefstuk met een constante snelheid
+                                 in horizontale richting te vervormen door het uitvoeren van de direct simple shear
+                                 (DSS) proef. Tijdens het vervormen neemt de schuifspanning in het proefstuk toe. Het
+                                 verloop van de schuifspanning wordt in relatie tot de vervorming bepaald.
                               </p>
                               
                            </td>
@@ -24070,7 +24077,7 @@
                            </tr>
                            <tr>
                               <th>&nbsp;&nbsp;Waardebereik</th>
-                              <td>0 tot 30</td>
+                              <td>0 tot 50</td>
                            </tr>
                            <tr>
                               <th>Regels</th>
@@ -30252,7 +30259,7 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p>De waarde van het attribuut moet gelijk zijn aan <em>drogen</em> of <em>berekenenWatergehalte</em>.
+                                 <p>De waarde van het attribuut moet gelijk zijn aan <em>drogenOven</em> of <em>berekenenWatergehalte</em>.
                                  </p>
                                  
                               </td>
@@ -30318,7 +30325,7 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>bepalingsmethode</em> gelijk is aan <em>drogen</em>.<br clear="none">
+                                 <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>bepalingsmethode</em> gelijk is aan <em>drogenOven</em>.<br clear="none">
                                     Het attribuut mag niet aanwezig zijn in alle andere gevallen.
                                  </p>
                                  
@@ -48192,8 +48199,7 @@
                      <td>
                         
                         <p>De verticale spanning is gecorrigeerd voor wrijving in de ring. De wrijving is een
-                           aangenomen waarde op basis van het Protocol laboratoriumproeven voor grondonderzoek
-                           aan waterkeringen, 2016.
+                           aangenomen waarde op basis van het <em>Protocol laboratoriumproeven voor grondonderzoek aan waterkeringen, 2016</em>.
                         </p>
                         
                      </td>
