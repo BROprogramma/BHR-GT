@@ -21,5 +21,5 @@ Op [basisregistratieondergrond.nl is een overzicht][8] te vinden van alle vastge
 [4]: https://github.com/BROprogramma/BHR-GT/issues?utf8=%E2%9C%93&q=is%3Aissue+label%3A%22Bevinding+realisatie%22+label%3A%22tranche+2%22+
 [5]: https://github.com/BROprogramma/BHR-GT/issues?utf8=%E2%9C%93&q=is%3Aissue+label%3A%22tranche+2%22+label%3A%22beheerrelease+2020-1%22+
 [6]: https://basisregistratieondergrond.nl/publish/library/265/terugkoppeling_publieke_consultatie_bhr-gt.xlsx
-[7]: https://basisregistratieondergrond.nl/publish/library/265/catalogus_booronderzoek_geotechische_boormonsterbeschrijving_en_boormonsteranalyse_v0_99_docx.pdf
+[7]: https://basisregistratieondergrond.nl/publish/library/265/catalogus_geotechische_boormonsterbeschrijving_en_analyse_v1_99_docx.pdf
 [8]: https://basisregistratieondergrond.nl/werken-bro/producten-diensten/standaarden/catalogi/
