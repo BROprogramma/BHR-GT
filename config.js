@@ -7,10 +7,6 @@ var respecConfig = {
   maxTocLevel: 4,
   editors: [
     {
-      name: "TNO Geologische Dienst Nederland",
-      url: "https://www.tno.nl/nl/",
-    },
-    {
       name: "Geonovum",
       url: "https://www.geonovum.nl", 
     },  
