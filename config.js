@@ -1,8 +1,7 @@
 var respecConfig = {
   specStatus: "GN-WV",
   specType: "IM",
-  subtitle: [{"Booronderzoek"},
-	{"Geotechnische boormonsterbeschrijving en boormonsteranalyse"},],
+  subtitle: "Geotechnische boormonsterbeschrijving en boormonsteranalyse",
   //canonicalURI: "WV",
   //publishDate: "2019-10-31",
   maxTocLevel: 4,
@@ -15,6 +14,7 @@ var respecConfig = {
   authors: [
     {
       name: "Geonovum",
+	  url: "https://www.geonovum.nl",
 	  mailto: "support@broservicedesk.nl",
 	  note: "088 – 8664 999",      
     }],
