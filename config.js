@@ -5,6 +5,21 @@ var respecConfig = {
   //canonicalURI: "WV",
   //publishDate: "2019-10-31",
   maxTocLevel: 4,
+logos: [
+  {src: 'logo_bro.png',
+    href: "http://basisregistratieondergrond.nl",
+    alt: "Basisregistratie Ondergrond",
+    width: 252,
+    height: 130,
+    id: 'BRO'},
+  {
+    src: 'logo_minbzk.png',
+    href: "https://www.geobasisregistraties.nl/basisregistraties/ondergrond",
+    alt: "Ministerie BZK",
+    width: 229,
+    height: 130,
+    id: 'BZK',
+  }]  ,	
   editors: [
     {
       name: "Geonovum",
