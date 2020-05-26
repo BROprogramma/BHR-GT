@@ -1,7 +1,8 @@
 var respecConfig = {
   specStatus: "GN-WV",
   specType: "IM",
-  subtitle: "Booronderzoek toegepast geologische boormonsterbeschrijving",
+  subtitle: "Booronderzoek",
+  subtitle: "Geotechnische boormonsterbeschrijving en boormonsteranalyse",
   //canonicalURI: "WV",
   //publishDate: "2019-10-31",
   maxTocLevel: 4,
@@ -11,6 +12,12 @@ var respecConfig = {
       url: "https://www.geonovum.nl", 
     },  
   ],
+  authors: [
+    {
+      name: "Geonovum",
+	  mailto: "support@broservicedesk.nl",
+	  note: "088 – 8664 999",      
+    }],
   shortName: "bhr-gt",
   pubDomain: "bro",
   github: "https://github.com/BROprogramma/BHR-GT",
