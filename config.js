@@ -30,9 +30,7 @@ logos: [
     {
       name: "Geonovum",
 	  url: "https://www.geonovum.nl",
-	  mailto: "support@broservicedesk.nl",
-	  note: "088 – 8664 999",      
-    }],
+	}],
   shortName: "bhr-gt",
   pubDomain: "bro",
   github: "https://github.com/BROprogramma/BHR-GT",
