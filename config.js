@@ -6,7 +6,7 @@ var respecConfig = {
   publishDate: "2020-03-25",
   maxTocLevel: 4,
 logos: [
-  {src: 'logo_bro.png',
+  {src: 'https://docs.geostandaarden.nl/bro/gen/logo_bro.png',
     href: "http://basisregistratieondergrond.nl",
     alt: "Basisregistratie Ondergrond",
     width: 252,
