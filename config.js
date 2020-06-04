@@ -13,7 +13,7 @@ logos: [
     height: 130,
     id: 'BRO'},
   {
-    src: 'logo_minbzk.png',
+    src: 'https://docs.geostandaarden.nl/bro/gen/logo_minbzk.png',
     href: "https://www.geobasisregistraties.nl/basisregistraties/ondergrond",
     alt: "Ministerie BZK",
     width: 229,
