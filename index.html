@@ -378,8 +378,8 @@
 	</section>
 	</section>
 
-  
-<!-- H5 OPBOUW GEGEVENSDEFINITIE-->
+	
+  <!-- H5 OPBOUW GEGEVENSDEFINITIE-->
 	<section id="intro-gegevensdefinitie" class='generic informative'>
     <h2>Opbouw van de gegevensdefinitie</h2>
 		<section id='gegevensdefinitie'data-include="https://docs.geostandaarden.nl/bro/gen/intro-cat-inleiding.html"></section>
@@ -388,22 +388,10 @@
 		<!-- hier alleen de domeinuitleg includeren voor domeinen die in het registratieobject gebruikt worden -->
 		<p>Een domein beschrijft welke waarden een attribuut mag hebben. De domeinen die in de gegevensdefinitie worden gebruikt worden hieronder toegelicht. Sommige domeinen bestaan uit een keuze of zijn samengesteld en die worden als laatste besproken.</p>
 		
-		
-		<section id="tekst"><h4>Tekst</h4>
-		<p>Het domein <i>Tekst</i> bestaat uit een stuk tekst van een bepaalde maximale lengte. De tekst mag alleen bestaan uit de tekens die voorkomen in de MES-1 set. De MES-1 set omvat 335 tekens en wordt gebruikt binnen de landen van de Europese Unie die een Latijns schrift kennen. 
-		<br>Het domein wordt volledig gespecificeerd door met de aanduiding tekst ook de maximale lengte mee te (Tekst N). In het domeinmodel wordt volstaan met de algemene aanduiding Tekst.</p>
-		</section>
-
 		<section id="aantal"><h4>Aantal</h4>
 		<p>Het domein <i>Aantal</i> wordt gebruikt voor een telbare hoeveelheid. Het is een natuurlijk getal met een bepaalde maximale lengte. 
 		<br>Het domein wordt volledig gespecificeerd door met de aanduiding aantal ook de maximale lengte mee te (Aantal N). Gewoonlijk wordt de waardeverzameling verder ingeperkt door een bereik te specificeren. In het domeinmodel wordt volstaan met de algemene aanduiding Aantal.</p>
 		</section>	
-
-		<section id="nummer">
-		<h4>Nummer</h4>
-		<p>Het domein <i>Nummer</i> wordt gebruikt om de plaats in een reeks aan te geven. Het is een opeenvolging van cijfers met een bepaalde maximale lengte. Een nummer heeft geen rekenkundige betekenis, maar heeft een betekenisvolle volgorde.
-		<br>Het domein wordt volledig gespecificeerd door met de aanduiding nummer ook de maximale lengte mee te geven (Nummer N). Eventueel wordt de waardeverzameling verder ingeperkt door een bereik te specificeren. In het domeinmodel wordt volstaan met de algemene aanduiding Nummer.</p>
-		</section>
 
 		<section id="code"><h4>Code</h4>
 		<p>Een domein van het type code is een opeenvolging van cijfers, van letters of van cijfers en letters met een bepaalde opbouw en met een specifieke betekenis. Een code heeft gewoonlijk een betekenis die ook buiten de basisregistratie ondergrond geldt. Een code wordt uitgegeven door een verantwoordelijke instantie. Om de opbouw van een code weer te geven wordt gebruik gemaakt van de letters C en N. De letter C staat voor character (Eng.) en duidt een letter aan, de letter N staat voor number (Eng.) en duidt een cijfer aan.
@@ -413,6 +401,17 @@
 		<section id="duur"><h4>Duur</h4>
 		<p>Het domein <i>Duur</i> wordt gebruikt om de lengte van een periode aan te geven. Het is een natuurlijk getal met een bepaalde maximale lengte. Bij duur hoort een tijdseenheid. De basisregistratie ondergrond gebruikt de eenheden jaren (J), maanden (M), weken (W) en dagen (D). 
 		<br>Het domein wordt volledig gespecificeerd door met de aanduiding duur ook de maximale lengte mee te geven (Duur N). Gewoonlijk wordt de waardeverzameling verder ingeperkt door een bereik te specificeren. In het domeinmodel wordt volstaan met de algemene aanduiding Duur.</p>
+		</section>
+
+		<section id="nummer">
+		<h4>Nummer</h4>
+		<p>Het domein <i>Nummer</i> wordt gebruikt om de plaats in een reeks aan te geven. Het is een opeenvolging van cijfers met een bepaalde maximale lengte. Een nummer heeft geen rekenkundige betekenis, maar heeft een betekenisvolle volgorde.
+		<br>Het domein wordt volledig gespecificeerd door met de aanduiding nummer ook de maximale lengte mee te geven (Nummer N). Eventueel wordt de waardeverzameling verder ingeperkt door een bereik te specificeren. In het domeinmodel wordt volstaan met de algemene aanduiding Nummer.</p>
+		</section>
+
+		<section id="tekst"><h4>Tekst</h4>
+		<p>Het domein <i>Tekst</i> bestaat uit een stuk tekst van een bepaalde maximale lengte. De tekst mag alleen bestaan uit de tekens die voorkomen in de MES-1 set. De MES-1 set omvat 335 tekens en wordt gebruikt binnen de landen van de Europese Unie die een Latijns schrift kennen. 
+		<br>Het domein wordt volledig gespecificeerd door met de aanduiding tekst ook de maximale lengte mee te (Tekst N). In het domeinmodel wordt volstaan met de algemene aanduiding Tekst.</p>
 		</section>
 
 		<section id="gemeten-waarden"><h4>Gemeten waarden</h4>
@@ -666,10 +665,10 @@
 		<p>Voor organisaties buiten Nederland wordt het domein ingevuld met het equivalent van het KvK-nummer in een handelsregister van een andere lidstaat van de Europese Unie dan Nederland, het <i>EuropeesHandelsnummer</i>. Het Europees handelsnummer, de zogenaamde EUID, is geïntroduceerd ten behoeve van de koppeling van handelsregisters. De code is gebaseerd op ISO 6523 en is opgebouwd uit een landcode, registeridentificatiecode, inschrijvingsnummer en controlegetal. De landcode is de 2-letterige code van ISO3166, de registeridentificatiecode is de identificatie van het nationale register omdat in sommige landen meerdere handelsregisters bestaan en het inschrijvingsnummer is het nummer waaronder de onderneming is ingeschreven in het betreffende register. Het controlegetal ter voorkomen van identificatiefouten wordt nog niet gebruikt. De opbouw per element is variabel en daarom is het Europees Handelsnummer in de BRO als domein Tekst 40 opgenomen.</p>
 		<p>Wanneer een attribuut het domein Organisatie heeft is het voldoende de naam te geven, omdat de opbouw en de twee keuzen altijd hetzelfde zijn.</p> 	   
 		</section>
+		</section>
 		<section id="meetreeks" data-include="https://docs.geostandaarden.nl/bro/gen/meetreeks.html"></section>
 		<section id="domeinmodel" data-include="https://docs.geostandaarden.nl/bro/gen/domeinmodel-gen.html"></section>
 		<section id="verplichte-gegevens-waarden" data-include="https://docs.geostandaarden.nl/bro/gen/verplichte-gegevens-waarden.html"></section>
-		</section>
 	</section>
 
 
