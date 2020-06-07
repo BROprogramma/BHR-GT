@@ -383,291 +383,294 @@
 	<section id="intro-gegevensdefinitie" class='generic informative'>
     <h2>Opbouw van de gegevensdefinitie</h2>
 		<section id='gegevensdefinitie'data-include="https://docs.geostandaarden.nl/bro/gen/intro-cat-inleiding.html"></section>
-		<section id="domeinen">
-		<h3>Domeinen</h3>
+		
+		<section id="domeinen"><h3>Domeinen</h3>
 		<!-- hier alleen de domeinuitleg includeren voor domeinen die in het registratieobject gebruikt worden -->
 		<p>Een domein beschrijft welke waarden een attribuut mag hebben. De domeinen die in de gegevensdefinitie worden gebruikt worden hieronder toegelicht. Sommige domeinen bestaan uit een keuze of zijn samengesteld en die worden als laatste besproken.</p>
-		<h4>Tekst</h4>
-<p>Het domein <i>Tekst</i> bestaat uit een stuk tekst van een bepaalde maximale lengte. De tekst mag alleen bestaan uit de tekens die voorkomen in de MES-1 set. De MES-1 set omvat 335 tekens en wordt gebruikt binnen de landen van de Europese Unie die een Latijns schrift kennen. 
-<br>Het domein wordt volledig gespecificeerd door met de aanduiding tekst ook de maximale lengte mee te (Tekst N). In het domeinmodel wordt volstaan met de algemene aanduiding Tekst.</p>
+		</section>
+		
+		<section id="tekst"><h4>Tekst</h4>
+		<p>Het domein <i>Tekst</i> bestaat uit een stuk tekst van een bepaalde maximale lengte. De tekst mag alleen bestaan uit de tekens die voorkomen in de MES-1 set. De MES-1 set omvat 335 tekens en wordt gebruikt binnen de landen van de Europese Unie die een Latijns schrift kennen. 
+		<br>Het domein wordt volledig gespecificeerd door met de aanduiding tekst ook de maximale lengte mee te (Tekst N). In het domeinmodel wordt volstaan met de algemene aanduiding Tekst.</p>
+		</section>
 
+		<section id="aantal"><h4>Aantal</h4>
+		<p>Het domein <i>Aantal</i> wordt gebruikt voor een telbare hoeveelheid. Het is een natuurlijk getal met een bepaalde maximale lengte. 
+		<br>Het domein wordt volledig gespecificeerd door met de aanduiding aantal ook de maximale lengte mee te (Aantal N). Gewoonlijk wordt de waardeverzameling verder ingeperkt door een bereik te specificeren. In het domeinmodel wordt volstaan met de algemene aanduiding Aantal.</p>
+		</section>	
 
-<h4>Aantal</h4>
-<p>Het domein <i>Aantal</i> wordt gebruikt voor een telbare hoeveelheid. Het is een natuurlijk getal met een bepaalde maximale lengte. 
-<br>Het domein wordt volledig gespecificeerd door met de aanduiding aantal ook de maximale lengte mee te (Aantal N). Gewoonlijk wordt de waardeverzameling verder ingeperkt door een bereik te specificeren. In het domeinmodel wordt volstaan met de algemene aanduiding Aantal.</p>
+		<section id="nummer">
+		<h4>Nummer</h4>
+		<p>Het domein <i>Nummer</i> wordt gebruikt om de plaats in een reeks aan te geven. Het is een opeenvolging van cijfers met een bepaalde maximale lengte. Een nummer heeft geen rekenkundige betekenis, maar heeft een betekenisvolle volgorde.
+		<br>Het domein wordt volledig gespecificeerd door met de aanduiding nummer ook de maximale lengte mee te geven (Nummer N). Eventueel wordt de waardeverzameling verder ingeperkt door een bereik te specificeren. In het domeinmodel wordt volstaan met de algemene aanduiding Nummer.</p>
+		</section>
 
+		<section id="code"><h4>Code</h4>
+		<p>Een domein van het type code is een opeenvolging van cijfers, van letters of van cijfers en letters met een bepaalde opbouw en met een specifieke betekenis. Een code heeft gewoonlijk een betekenis die ook buiten de basisregistratie ondergrond geldt. Een code wordt uitgegeven door een verantwoordelijke instantie. Om de opbouw van een code weer te geven wordt gebruik gemaakt van de letters C en N. De letter C staat voor character (Eng.) en duidt een letter aan, de letter N staat voor number (Eng.) en duidt een cijfer aan.
+		<br>Een code heeft een bepaalde naam. Wanneer een attribuut een domein van het type code heeft, wordt bij de beschrijving van het attribuut de naam van het domein en de opbouw opgenomen. Uit de definitie van het attribuut zelf moet blijken wat de specifieke betekenis is van de code. In het domeinmodel wordt het domein aangeduid met zijn naam.</p>
+		</section>
 
-<h4>Nummer</h4>
-<p>Het domein <i>Nummer</i> wordt gebruikt om de plaats in een reeks aan te geven. Het is een opeenvolging van cijfers met een bepaalde maximale lengte. Een nummer heeft geen rekenkundige betekenis, maar heeft een betekenisvolle volgorde.
-<br>Het domein wordt volledig gespecificeerd door met de aanduiding nummer ook de maximale lengte mee te geven (Nummer N). Eventueel wordt de waardeverzameling verder ingeperkt door een bereik te specificeren. In het domeinmodel wordt volstaan met de algemene aanduiding Nummer.</p>
+		<section id="duur"><h4>Duur</h4>
+		<p>Het domein <i>Duur</i> wordt gebruikt om de lengte van een periode aan te geven. Het is een natuurlijk getal met een bepaalde maximale lengte. Bij duur hoort een tijdseenheid. De basisregistratie ondergrond gebruikt de eenheden jaren (J), maanden (M), weken (W) en dagen (D). 
+		<br>Het domein wordt volledig gespecificeerd door met de aanduiding duur ook de maximale lengte mee te geven (Duur N). Gewoonlijk wordt de waardeverzameling verder ingeperkt door een bereik te specificeren. In het domeinmodel wordt volstaan met de algemene aanduiding Duur.</p>
+		</section>
 
+		<section id="gemeten-waarden"><h4>Gemeten waarden</h4>
+		<p>Voor gegevens die gemeten of berekend zijn worden twee domeinen gebruikt. Een voor een waarde waarvan de nauwkeurigheid altijd hetzelfde is (Meetwaarde) en een voor een waarde waarvan de nauwkeurigheid varieert (Meetwaarde in machten).</p> 
+		<p>Beiden zijn rationale getallen met een bepaalde maximale lengte. Bij een gemeten waarde hoort een eenheid. De basisregistratie ondergrond gebruikt voor de eenheden de codes uit het UCUM (Unified Code for Units of Measure)-systeem. In bijzondere gevallen is de eenheid dimensieloos.</p> 
+		</section>
+			<section id="meetwaarde"><h5>Meetwaarde</h5></section>
+			<section id="meetwaarde-in-machten" ><h5>Meetwaarde in machten</h5></section>
 
-<h4>Code</h4>
-<p>Een domein van het type code is een opeenvolging van cijfers, van letters of van cijfers en letters met een bepaalde opbouw en met een specifieke betekenis. Een code heeft gewoonlijk een betekenis die ook buiten de basisregistratie ondergrond geldt. Een code wordt uitgegeven door een verantwoordelijke instantie. Om de opbouw van een code weer te geven wordt gebruik gemaakt van de letters C en N. De letter C staat voor character (Eng.) en duidt een letter aan, de letter N staat voor number (Eng.) en duidt een cijfer aan.
-<br>Een code heeft een bepaalde naam. Wanneer een attribuut een domein van het type code heeft, wordt bij de beschrijving van het attribuut de naam van het domein en de opbouw opgenomen. Uit de definitie van het attribuut zelf moet blijken wat de specifieke betekenis is van de code. In het domeinmodel wordt het domein aangeduid met zijn naam.</p>
+		<section id="tijdstip"><h4>Tijdstip</h4> 
+		<p>Voor gegevens die over tijdstippen gaan worden twee domeinen gebruikt. Een voor een tijdstip tot op de seconde nauwkeurig (DatumTijd) en een voor een tijdstip tot op de dag nauwkeurig (Datum).</p>
+		<p>In ieder domein gaat het om de tijd gemeten volgens de Gregoriaanse kalender. Indien het domein DatumTijd wordt gebruikt moet ook de tijdzone worden meegegeven. Voor de tijdzone is UTC de referentie. UTC is de mondiaal geaccepteerde standaardtijd en de opvolger van GMT (Greenwich Mean Time); de drie letters staan voor Coordinated Universal Time. Door de tijdzone mee te geven kan lokale tijd worden omgezet naar UTC.</p>
+		<p>De opbouw van de twee domeinen volgt dezelfde conventies. Het eerste element in de opbouw staat voor het jaar, dan volgt de maand, enz., en het laatste element staat voor de tijdzone. Om de verschillende elementen aan te geven worden letters gebruikt: jaar (J), maand (M), dag (D), uur (U), minuut (M)en seconde (S), gevolgd door de tijdzone. Het aantal letters geeft de lengte aan.</p>
+		<p>Voor de meest uitgebreide variant van de opbouw, die van DatumTijd, wordt dit JJJJ-MM-DDTUU:MM:SS+UU:MM. De T is het teken dat de datum en het tijdstip op die datum scheidt. De + is het scheidingteken tussen het tijdstip en de tijdzone. Zoals uit de opbouw blijkt wordt de tijdzone in uren en minuten gegeven. De meeste tijdzones zijn overigens uitgedrukt in gehele uren (UU:00). In Nederland geldt Centraal Europese Tijd (UTC+1:00) of Centraal Europese Zomertijd (UTC+2.00).</p>
+		</section>
+			<section id="datum"><h5>Datum</h5>
+			<p>Het domein <i>Datum</i> wordt gebruikt om een datum volgens de Gregoriaanse kalender tot op de dag nauwkeurig aan te geven. De opbouw is JJJJ-MM-DD. 
+			<br>Bij het domein Datum is het voldoende de naam te geven, omdat de opbouw altijd hetzelfde is. Gewoonlijk wordt de waardeverzameling verder ingeperkt door een bereik te specificeren.</p> 
+			</section>
+			<section id="datumTijd"><h5>DatumTijd</h5>
+			<p>Het domein <i>DatumTijd</i> wordt gebruikt om een tijdstip volgens de Gregoriaanse kalender tot op de seconde nauwkeurig aan te geven. De opbouw is JJJJ-MM-DDTUU:MM:SS+UU:MM. 
+			<br>Bij het domein DatumTijd is het voldoende de naam te geven, omdat de opbouw altijd hetzelfde is. Gewoonlijk wordt de waardeverzameling verder ingeperkt door een bereik te specificeren.</p> 
+			</section>
+			<section id="onvolledigedatum"><h5>OnvolledigeDatum</h5>
+			<p>Voor gegevens die onder het kwaliteitsregime IMBRO/A aangeleverd worden, geldt een derde domein met vier keuzemogelijkheden.<p>
+			<ul>
+			<li>De datum tot op de dag nauwkeurig, met als opbouw JJJJ-MM-DD</li>
+			<li>De datum tot op de maand nauwkeurig, met als opbouw JJJJ-MM</li>
+			<li>De datum tot op het jaar nauwkeurig, met als opbouw JJJJ</li>
+			<li>Geen datum bekend, met als vaste waarde <i>onbekend</i>.</li>
+			</ul>
+			<p>De keuze die gemaakt wordt is gebaseerd op de beschikbaarheid van gegevens. De gebruiker moet ervan uit gaan dat de informatie zo nauwkeurig mogelijk is opgenomen. 
+			Bij het domein OnvolledigeDatum is het voldoende de naam te geven, omdat de opbouw en de vier keuzen altijd hetzelfde zijn.</p>
+			</section>
 
+		<section id="tijdinterval"><h4>Tijdinterval</h4>
+		<p>Voor gegevens die over tijdintervallen gaan wordt in de huidige praktijk het domein Datuminterval gebruikt.</p>
+		</section>
+			<section id="datuminterval"><h5>Datuminterval</h5>
+			<p>Het domein <i>DatumInterval</i> wordt gebruikt om een periode die tot op de dag nauwkeurig begrensd is aan te geven. Het bestaat uit een begindatum en een einddatum, beide van het domein Datum (JJJJ-MM-DD) en de beide data vallen binnen de periode. 
+			<br>Bij het domein Datuminterval is het voldoende de naam te geven, omdat de opbouw altijd hetzelfde is. Eventueel wordt de waardeverzameling verder ingeperkt door een bereik te specificeren.</p>
+			</section>
+		
+		<section id="waardelijst"><h4>Waardelijst</h4>
+		<p>Een waardelijst is een lijst van de waarden die het attribuut mag hebben. Er zijn twee typen waardelijsten, waardelijsten die in de toekomst kunnen worden uitgebreid en waardelijsten die niet kunnen worden uitgebreid. Een waardelijst heeft een bepaalde naam.</p>
+		</section>
 
-<h4>Duur</h4>
-<p>Het domein <i>Duur</i> wordt gebruikt om de lengte van een periode aan te geven. Het is een natuurlijk getal met een bepaalde maximale lengte. Bij duur hoort een tijdseenheid. De basisregistratie ondergrond gebruikt de eenheden jaren (J), maanden (M), weken (W) en dagen (D). 
-<br>Het domein wordt volledig gespecificeerd door met de aanduiding duur ook de maximale lengte mee te geven (Duur N). Gewoonlijk wordt de waardeverzameling verder ingeperkt door een bereik te specificeren. In het domeinmodel wordt volstaan met de algemene aanduiding Duur.</p>
+			<section id="waardelijst-niet-uitbreidbaar"><h5>Waardelijst niet-uitbreidbaar<h5>
+			<p>Een niet-uitbreidbare waardelijst wordt gebruikt wanneer uitbreiding niet mogelijk is. Alle waarden staan vast. 
+			<br>Wanneer een attribuut een niet-uitbreidbare waardelijst als domein heeft is het voldoende de naam te geven, omdat de inhoud altijd hetzelfde is. In de basisregistratie ondergrond worden drie niet-uitbreidbare waardelijsten gebruikt.<p>  
 
-<h4>Gemeten waarden</h4>
-<p>Voor gegevens die gemeten of berekend zijn worden twee domeinen gebruikt. Een voor een waarde waarvan de nauwkeurigheid altijd hetzelfde is (Meetwaarde) en een voor een waarde waarvan de nauwkeurigheid varieert (Meetwaarde in machten).</p> 
-<p>Beiden zijn rationale getallen met een bepaalde maximale lengte. Bij een gemeten waarde hoort een eenheid. De basisregistratie ondergrond gebruikt voor de eenheden de codes uit het UCUM (Unified Code for Units of Measure)-systeem. In bijzondere gevallen is de eenheid dimensieloos.</p> 
+			<h6>IndicatieJaNee</h6>
+			<table style="width:50%">
+			  <tr>
+				<th>Waarde</th>
+			  </tr>
+			  <tr>
+				<td>ja</td>
+			  </tr>
+			  <tr>
+				<td>nee</td>
+			  </tr>
+			</table>
 
-<h5>Meetwaarde</h5>
-<h5>Meetwaarde in machten</h5>
+			<h6>IndicatieJaNeeOnbekend</h6>
+			<table style="width:50%">
+			  <tr>
+				<th>Waarde</th>
+			  </tr>
+			  <tr>
+				<td>ja</td>
+			  </tr>
+			  <tr>
+				<td>nee</td>
+			  </tr>
+				<tr>
+				<td>onbekend</td>
+			  </tr>
+			</table>
+			<h6>Kwaliteitsregime</h6>
+			<table style="width:50%">
+			  <tr>
+				<th>Waarde</th>
+			  </tr>
+			  <tr>
+				<td>IMBRO</td>
+			  </tr>
+			  <tr>
+				<td>IMBRO/A</td>
+			  </tr>
+			</table>
+			</section>
+			<section id="waardelijst-uitbreidbaar"><h5>Waardelijst uitbreidbaar</h5>
+			<p>Een uitbreidbare waardelijst wordt gebruikt wanneer uitbreiding mogelijk moet zijn. 
+			<br>De uitbreidbare waardelijsten hebben in de basisregistratie ondergrond een vaste structuur, bij de waarde wordt altijd de omschrijving van de waarde opgenomen en wordt vastgelegd of de waarde voor IMBRO geldt, of de waarde voor IMBRO/A geldt en eventueel wordt de categorie waarin de waarde valt vastgelegd. In bijzondere gevallen is de structuur anders en wordt de definitie van de structuur bij de betreffende waardelijst vastgelegd.
+			<br>Wanneer een attribuut een uitbreidbare waardelijst als domein heeft wordt de naam van de lijst opgenomen. De lijst zelf is in een apart hoofdstuk van de gegevensdefinitie opgenomen.</p> 
+			</section>
+			
+		<section id="coordinatenpaar"><h4>Coördinatenpaar</h4>
+		<p>Het domein <i>Coördinatenpaar</i> wordt gebruikt om de positie van een punt op het aardoppervlak vast te leggen. De positie wordt bepaald in een specifiek referentiestelsel en uitgedrukt in twee coördinaten. Ieder van de coördinaten heeft een meetwaarde en de notatie voor het paar is (coördinaat 1, coördinaat 2). 
+		<br>In de basisregistratie ondergrond worden drie referentiestelsels voor horizontale posities gebruikt. Het referentiestelsel bepaalt hoe de tweedimensionale ruimte wordt beschreven en daarmee wat de coördinaten voorstellen en wat de karakteristiek van de twee meetwaarden is. 
+		<br>Voor het referentiestelsel RD zijn de coördinaten cartesisch en is de notatie (x,y). De eerste coördinaat (x) heeft betrekking op de positie op een west-oost georiënteerde as, de tweede coördinaat (y) op een zuid-noord georiënteerde as. Een positie oostelijk van de oorsprong, resp. noordelijk van de oorsprong heeft een positieve waarde.
+		<br>Voor WGS84 (ongeprojecteerd) en ETRS89 (ongeprojecteerd) zijn de coördinaten geografisch en is de notatie (φ,λ). De eerste coördinaat heeft betrekking op de geografische breedte, de tweede op de geografische lengte. Een positie oostelijk van de Greenwichmeridiaan, resp. noordelijk van de evenaar heeft een positieve waarde.
+		<br>Wanneer een attribuut het domein Coördinatenpaar heeft is het voldoende de naam te geven, omdat de opbouw altijd hetzelfde is.</p> 
+		<table>
+			<tr>
+				<td colspan="4">Coördinatenpaar voor RD (x,y)</td>
+			</tr>
+			<tr>
+				<td WIDTH="40"></td>
+				<td>Meetwaarde</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td>Patroon</td>
+				<td>6.3</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td>Eenheid</td>
+				<td>m (meter)</td>
+				</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td>minimumwaarde x</td>
+				<td>-7000</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td>maximumwaarde x</td>
+				<td>289000</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td>minimumwaarde y</td>
+				<td>289000</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td>maximumwaarde y</td>
+				<td>629000</td>
+			</tr>
+			<tr HEIGHT="10"></tr>
+			<tr>
+				<td colspan="4">Coördinatenpaar voor WGS84 (φ,λ)</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td WIDTH="40">Meetwaarde</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td>Patroon</td>
+				<td>2.9</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td>Eenheid</td>
+				<td>° (graden, decimaal)</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td>minimumwaarde φ</td>
+				<td>51.3</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td>maximumwaarde φ</td>
+				<td>56</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td>minimumwaarde λ</td>
+				<td>2.4</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td>maximumwaarde λ</td>
+				<td>6.8</td>
+			</tr>
+			<tr HEIGHT="10"></tr>
+			<tr>
+				<td colspan="4">Coördinatenpaar voor ETRS89 (φ,λ)</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td WIDTH="40">Meetwaarde</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td>Patroon</td>
+				<td>2.9</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td>Eenheid</td>
+				<td>° (graden, decimaal)</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td>minimumwaarde φ</td>
+				<td>50.6</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td>maximumwaarde φ</td>
+				<td>56</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td>minimumwaarde λ</td>
+				<td>2.4</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td>maximumwaarde λ</td>
+				<td>7.4</td>
+			</tr>
+		</table>
+		</section>
 
+		<section id="organisatie"><h4>Organisatie</h4>
+		<p>Het domein <i>Organisatie</i> wordt gebruikt om de organisaties die een rol hebben in de basisregistratie ondergrond te identificeren. De invulling van het domein hangt af van waar de organisatie gevestigd is en voor de basisregistratie ondergrond gaat het daarbij om Nederland of een andere lidstaat van de Europese Unie.</p>
 
-<h4>Tijdstip</h4> 
-<p>Voor gegevens die over tijdstippen gaan worden twee domeinen gebruikt. Een voor een tijdstip tot op de seconde nauwkeurig (DatumTijd) en een voor een tijdstip tot op de dag nauwkeurig (Datum).</p>
-<p>In ieder domein gaat het om de tijd gemeten volgens de Gregoriaanse kalender. Indien het domein DatumTijd wordt gebruikt moet ook de tijdzone worden meegegeven. Voor de tijdzone is UTC de referentie. UTC is de mondiaal geaccepteerde standaardtijd en de opvolger van GMT (Greenwich Mean Time); de drie letters staan voor Coordinated Universal Time. Door de tijdzone mee te geven kan lokale tijd worden omgezet naar UTC.</p>
-<p>De opbouw van de twee domeinen volgt dezelfde conventies. Het eerste element in de opbouw staat voor het jaar, dan volgt de maand, enz., en het laatste element staat voor de tijdzone. Om de verschillende elementen aan te geven worden letters gebruikt: jaar (J), maand (M), dag (D), uur (U), minuut (M)en seconde (S), gevolgd door de tijdzone. Het aantal letters geeft de lengte aan.</p>
-<p>Voor de meest uitgebreide variant van de opbouw, die van DatumTijd, wordt dit JJJJ-MM-DDTUU:MM:SS+UU:MM. De T is het teken dat de datum en het tijdstip op die datum scheidt. De + is het scheidingteken tussen het tijdstip en de tijdzone. Zoals uit de opbouw blijkt wordt de tijdzone in uren en minuten gegeven. De meeste tijdzones zijn overigens uitgedrukt in gehele uren (UU:00). In Nederland geldt Centraal Europese Tijd (UTC+1:00) of Centraal Europese Zomertijd (UTC+2.00).</p>
-<h5>Datum</h5>
-<p>Het domein <i>Datum</i> wordt gebruikt om een datum volgens de Gregoriaanse kalender tot op de dag nauwkeurig aan te geven. De opbouw is JJJJ-MM-DD. 
-<br>Bij het domein Datum is het voldoende de naam te geven, omdat de opbouw altijd hetzelfde is. Gewoonlijk wordt de waardeverzameling verder ingeperkt door een bereik te specificeren.</p> 
-<h5>DatumTijd</h5>
-<p>Het domein <i>DatumTijd</i> wordt gebruikt om een tijdstip volgens de Gregoriaanse kalender tot op de seconde nauwkeurig aan te geven. De opbouw is JJJJ-MM-DDTUU:MM:SS+UU:MM. 
-<br>Bij het domein DatumTijd is het voldoende de naam te geven, omdat de opbouw altijd hetzelfde is. Gewoonlijk wordt de waardeverzameling verder ingeperkt door een bereik te specificeren.</p> 
+		<p>In het geval de organisatie in Nederland gevestigd is, wordt het domein ingevuld met het gegeven dat een onderneming of de maatschappelijke activiteit van een rechtspersoon in het Handelsregister identificeert, het KvK-nummer. Het <i>KvK-nummer</i> is van het type code en de opbouw is NNNNNNNN.</p> 
 
-<h5>OnvolledigeDatum</h5>
-<p>Voor gegevens die onder het kwaliteitsregime IMBRO/A aangeleverd worden, geldt een derde domein met vier keuzemogelijkheden.<p>
-<ul>
-<li>De datum tot op de dag nauwkeurig, met als opbouw JJJJ-MM-DD</li>
-<li>De datum tot op de maand nauwkeurig, met als opbouw JJJJ-MM</li>
-<li>De datum tot op het jaar nauwkeurig, met als opbouw JJJJ</li>
-<li>Geen datum bekend, met als vaste waarde <i>onbekend</i>.</li>
-</ul>
-<p>De keuze die gemaakt wordt is gebaseerd op de beschikbaarheid van gegevens. De gebruiker moet ervan uit gaan dat de informatie zo nauwkeurig mogelijk is opgenomen. 
-Bij het domein OnvolledigeDatum is het voldoende de naam te geven, omdat de opbouw en de vier keuzen altijd hetzelfde zijn.</p>
-
-
-<h4>Tijdinterval</h4>
-<p>Voor gegevens die over tijdintervallen gaan wordt in de huidige praktijk het domein Datuminterval gebruikt.</p>
-
-<h5>Datuminterval</h5>
-<p>Het domein <i>DatumInterval</i> wordt gebruikt om een periode die tot op de dag nauwkeurig begrensd is aan te geven. Het bestaat uit een begindatum en een einddatum, beide van het domein Datum (JJJJ-MM-DD) en de beide data vallen binnen de periode. 
-<br>Bij het domein Datuminterval is het voldoende de naam te geven, omdat de opbouw altijd hetzelfde is. Eventueel wordt de waardeverzameling verder ingeperkt door een bereik te specificeren.</p>
-
-
-<h4>Waardelijst</h4>
-<p>Een waardelijst is een lijst van de waarden die het attribuut mag hebben. Er zijn twee typen waardelijsten, waardelijsten die in de toekomst kunnen worden uitgebreid en waardelijsten die niet kunnen worden uitgebreid. Een waardelijst heeft een bepaalde naam.</p>
-
-<h5>Waardelijst niet-uitbreidbaar<h5>
-<p>Een niet-uitbreidbare waardelijst wordt gebruikt wanneer uitbreiding niet mogelijk is. Alle waarden staan vast. 
-<br>Wanneer een attribuut een niet-uitbreidbare waardelijst als domein heeft is het voldoende de naam te geven, omdat de inhoud altijd hetzelfde is. In de basisregistratie ondergrond worden drie niet-uitbreidbare waardelijsten gebruikt.<p>  
-
-<h6>IndicatieJaNee</h6>
-<table style="width:50%">
-  <tr>
-    <th>Waarde</th>
-  </tr>
-  <tr>
-    <td>ja</td>
-  </tr>
-  <tr>
-    <td>nee</td>
-  </tr>
-</table>
-
-<h6>IndicatieJaNeeOnbekend</h6>
-<table style="width:50%">
-  <tr>
-    <th>Waarde</th>
-  </tr>
-  <tr>
-    <td>ja</td>
-  </tr>
-  <tr>
-    <td>nee</td>
-  </tr>
-    <tr>
-    <td>onbekend</td>
-  </tr>
-</table>
-<h6>Kwaliteitsregime</h6>
-<table style="width:50%">
-  <tr>
-    <th>Waarde</th>
-  </tr>
-  <tr>
-    <td>IMBRO</td>
-  </tr>
-  <tr>
-    <td>IMBRO/A</td>
-  </tr>
-</table>
-
-<h5>Waardelijst uitbreidbaar</h5>
-<p>Een uitbreidbare waardelijst wordt gebruikt wanneer uitbreiding mogelijk moet zijn. 
-<br>De uitbreidbare waardelijsten hebben in de basisregistratie ondergrond een vaste structuur, bij de waarde wordt altijd de omschrijving van de waarde opgenomen en wordt vastgelegd of de waarde voor IMBRO geldt, of de waarde voor IMBRO/A geldt en eventueel wordt de categorie waarin de waarde valt vastgelegd. In bijzondere gevallen is de structuur anders en wordt de definitie van de structuur bij de betreffende waardelijst vastgelegd.
-<br>Wanneer een attribuut een uitbreidbare waardelijst als domein heeft wordt de naam van de lijst opgenomen. De lijst zelf is in een apart hoofdstuk van de gegevensdefinitie opgenomen.</p> 
-
-
-
-
-<h4>Coördinatenpaar</h4>
-<p>Het domein <i>Coördinatenpaar</i> wordt gebruikt om de positie van een punt op het aardoppervlak vast te leggen. De positie wordt bepaald in een specifiek referentiestelsel en uitgedrukt in twee coördinaten. Ieder van de coördinaten heeft een meetwaarde en de notatie voor het paar is (coördinaat 1, coördinaat 2). 
-<br>In de basisregistratie ondergrond worden drie referentiestelsels voor horizontale posities gebruikt. Het referentiestelsel bepaalt hoe de tweedimensionale ruimte wordt beschreven en daarmee wat de coördinaten voorstellen en wat de karakteristiek van de twee meetwaarden is. 
-<br>Voor het referentiestelsel RD zijn de coördinaten cartesisch en is de notatie (x,y). De eerste coördinaat (x) heeft betrekking op de positie op een west-oost georiënteerde as, de tweede coördinaat (y) op een zuid-noord georiënteerde as. Een positie oostelijk van de oorsprong, resp. noordelijk van de oorsprong heeft een positieve waarde.
-<br>Voor WGS84 (ongeprojecteerd) en ETRS89 (ongeprojecteerd) zijn de coördinaten geografisch en is de notatie (φ,λ). De eerste coördinaat heeft betrekking op de geografische breedte, de tweede op de geografische lengte. Een positie oostelijk van de Greenwichmeridiaan, resp. noordelijk van de evenaar heeft een positieve waarde.
-<br>Wanneer een attribuut het domein Coördinatenpaar heeft is het voldoende de naam te geven, omdat de opbouw altijd hetzelfde is.</p> 
-
-<table>
-    <tr>
-        <td colspan="4">Coördinatenpaar voor RD (x,y)</td>
-    </tr>
-    <tr>
-        <td WIDTH="40"></td>
-        <td>Meetwaarde</td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td></td>
-        <td></td>
-        <td>Patroon</td>
-        <td>6.3</td>
-    </tr>
-    <tr>
-        <td></td>
-        <td></td>
-        <td>Eenheid</td>
-        <td>m (meter)</td>
-    </tr>
-    <tr>
-        <td></td>
-        <td></td>
-        <td>minimumwaarde x</td>
-        <td>-7000</td>
-    </tr>
-    <tr>
-        <td></td>
-        <td></td>
-        <td>maximumwaarde x</td>
-        <td>289000</td>
-    </tr>
-    <tr>
-	    <td></td>
-	    <td></td>
-	    <td>minimumwaarde y</td>
-	    <td>289000</td>
-    </tr>
-    <tr>
-	    <td></td>
-	    <td></td>
-	    <td>maximumwaarde y</td>
-	    <td>629000</td>
-    </tr>
-    <tr HEIGHT="10"></tr>
-    <tr>
-        <td colspan="4">Coördinatenpaar voor WGS84 (φ,λ)</td>
-    </tr>
-    <tr>
-        <td></td>
-        <td WIDTH="40">Meetwaarde</td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td></td>
-        <td></td>
-        <td>Patroon</td>
-        <td>2.9</td>
-    </tr>
-    <tr>
-        <td></td>
-        <td></td>
-        <td>Eenheid</td>
-        <td>° (graden, decimaal)</td>
-    </tr>
-    <tr>
-        <td></td>
-        <td></td>
-        <td>minimumwaarde φ</td>
-        <td>51.3</td>
-    </tr>
-    <tr>
-        <td></td>
-        <td></td>
-        <td>maximumwaarde φ</td>
-        <td>56</td>
-    </tr>
-    <tr>
-        <td></td>
-        <td></td>
-        <td>minimumwaarde λ</td>
-        <td>2.4</td>
-    </tr>
-    <tr>
-        <td></td>
-        <td></td>
-        <td>maximumwaarde λ</td>
-        <td>6.8</td>
-    </tr>
-    <tr HEIGHT="10"></tr>
-    <tr>
-        <td colspan="4">Coördinatenpaar voor ETRS89 (φ,λ)</td>
-    </tr>
-    <tr>
-        <td></td>
-        <td WIDTH="40">Meetwaarde</td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td></td>
-        <td></td>
-        <td>Patroon</td>
-        <td>2.9</td>
-    </tr>
-    <tr>
-        <td></td>
-        <td></td>
-        <td>Eenheid</td>
-        <td>° (graden, decimaal)</td>
-    </tr>
-    <tr>
-        <td></td>
-        <td></td>
-        <td>minimumwaarde φ</td>
-        <td>50.6</td>
-    </tr>
-    <tr>
-        <td></td>
-        <td></td>
-        <td>maximumwaarde φ</td>
-        <td>56</td>
-    </tr>
-    <tr>
-        <td></td>
-        <td></td>
-        <td>minimumwaarde λ</td>
-        <td>2.4</td>
-    </tr>
-    <tr>
-        <td></td>
-        <td></td>
-        <td>maximumwaarde λ</td>
-        <td>7.4</td>
-    </tr>
-</table>
-
-
-
-<h4>Organisatie</h4>
-<p>Het domein <i>Organisatie</i> wordt gebruikt om de organisaties die een rol hebben in de basisregistratie ondergrond te identificeren. De invulling van het domein hangt af van waar de organisatie gevestigd is en voor de basisregistratie ondergrond gaat het daarbij om Nederland of een andere lidstaat van de Europese Unie.</p>
-
-<p>In het geval de organisatie in Nederland gevestigd is, wordt het domein ingevuld met het gegeven dat een onderneming of de maatschappelijke activiteit van een rechtspersoon in het Handelsregister identificeert, het KvK-nummer. Het <i>KvK-nummer</i> is van het type code en de opbouw is NNNNNNNN.</p> 
-
-<p>Voor organisaties buiten Nederland wordt het domein ingevuld met het equivalent van het KvK-nummer in een handelsregister van een andere lidstaat van de Europese Unie dan Nederland, het <i>EuropeesHandelsnummer</i>. Het Europees handelsnummer, de zogenaamde EUID, is geïntroduceerd ten behoeve van de koppeling van handelsregisters. De code is gebaseerd op ISO 6523 en is opgebouwd uit een landcode, registeridentificatiecode, inschrijvingsnummer en controlegetal. De landcode is de 2-letterige code van ISO3166, de registeridentificatiecode is de identificatie van het nationale register omdat in sommige landen meerdere handelsregisters bestaan en het inschrijvingsnummer is het nummer waaronder de onderneming is ingeschreven in het betreffende register. Het controlegetal ter voorkomen van identificatiefouten wordt nog niet gebruikt. De opbouw per element is variabel en daarom is het Europees Handelsnummer in de BRO als domein Tekst 40 opgenomen.</p>
-<p>Wanneer een attribuut het domein Organisatie heeft is het voldoende de naam te geven, omdat de opbouw en de twee keuzen altijd hetzelfde zijn.</p> 	   
+		<p>Voor organisaties buiten Nederland wordt het domein ingevuld met het equivalent van het KvK-nummer in een handelsregister van een andere lidstaat van de Europese Unie dan Nederland, het <i>EuropeesHandelsnummer</i>. Het Europees handelsnummer, de zogenaamde EUID, is geïntroduceerd ten behoeve van de koppeling van handelsregisters. De code is gebaseerd op ISO 6523 en is opgebouwd uit een landcode, registeridentificatiecode, inschrijvingsnummer en controlegetal. De landcode is de 2-letterige code van ISO3166, de registeridentificatiecode is de identificatie van het nationale register omdat in sommige landen meerdere handelsregisters bestaan en het inschrijvingsnummer is het nummer waaronder de onderneming is ingeschreven in het betreffende register. Het controlegetal ter voorkomen van identificatiefouten wordt nog niet gebruikt. De opbouw per element is variabel en daarom is het Europees Handelsnummer in de BRO als domein Tekst 40 opgenomen.</p>
+		<p>Wanneer een attribuut het domein Organisatie heeft is het voldoende de naam te geven, omdat de opbouw en de twee keuzen altijd hetzelfde zijn.</p> 	   
 		</section>
 		<section id="meetreeks" data-include="https://docs.geostandaarden.nl/bro/gen/meetreeks.html"></section>
 		<section id="domeinmodel" data-include="https://docs.geostandaarden.nl/bro/gen/domeinmodel-gen.html"></section>
 		<section id="verplichte-gegevens-waarden" data-include="https://docs.geostandaarden.nl/bro/gen/verplichte-gegevens-waarden.html"></section>
 	</section>
+
 
 
 <!-- H6 GEGEVENSDEFINITIE en H7 WAARDELIJSTEN -->
