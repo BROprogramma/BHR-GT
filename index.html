@@ -387,7 +387,7 @@
 		<section id="domeinen"><h3>Domeinen</h3>
 		<!-- hier alleen de domeinuitleg includeren voor domeinen die in het registratieobject gebruikt worden -->
 		<p>Een domein beschrijft welke waarden een attribuut mag hebben. De domeinen die in de gegevensdefinitie worden gebruikt worden hieronder toegelicht. Sommige domeinen bestaan uit een keuze of zijn samengesteld en die worden als laatste besproken.</p>
-		</section>
+		
 		
 		<section id="tekst"><h4>Tekst</h4>
 		<p>Het domein <i>Tekst</i> bestaat uit een stuk tekst van een bepaalde maximale lengte. De tekst mag alleen bestaan uit de tekens die voorkomen in de MES-1 set. De MES-1 set omvat 335 tekens en wordt gebruikt binnen de landen van de Europese Unie die een Latijns schrift kennen. 
@@ -418,16 +418,16 @@
 		<section id="gemeten-waarden"><h4>Gemeten waarden</h4>
 		<p>Voor gegevens die gemeten of berekend zijn worden twee domeinen gebruikt. Een voor een waarde waarvan de nauwkeurigheid altijd hetzelfde is (Meetwaarde) en een voor een waarde waarvan de nauwkeurigheid varieert (Meetwaarde in machten).</p> 
 		<p>Beiden zijn rationale getallen met een bepaalde maximale lengte. Bij een gemeten waarde hoort een eenheid. De basisregistratie ondergrond gebruikt voor de eenheden de codes uit het UCUM (Unified Code for Units of Measure)-systeem. In bijzondere gevallen is de eenheid dimensieloos.</p> 
-		</section>
+		
 			<section id="meetwaarde"><h5>Meetwaarde</h5></section>
 			<section id="meetwaarde-in-machten" ><h5>Meetwaarde in machten</h5></section>
-
+		</section>
+		
 		<section id="tijdstip"><h4>Tijdstip</h4> 
 		<p>Voor gegevens die over tijdstippen gaan worden twee domeinen gebruikt. Een voor een tijdstip tot op de seconde nauwkeurig (DatumTijd) en een voor een tijdstip tot op de dag nauwkeurig (Datum).</p>
 		<p>In ieder domein gaat het om de tijd gemeten volgens de Gregoriaanse kalender. Indien het domein DatumTijd wordt gebruikt moet ook de tijdzone worden meegegeven. Voor de tijdzone is UTC de referentie. UTC is de mondiaal geaccepteerde standaardtijd en de opvolger van GMT (Greenwich Mean Time); de drie letters staan voor Coordinated Universal Time. Door de tijdzone mee te geven kan lokale tijd worden omgezet naar UTC.</p>
 		<p>De opbouw van de twee domeinen volgt dezelfde conventies. Het eerste element in de opbouw staat voor het jaar, dan volgt de maand, enz., en het laatste element staat voor de tijdzone. Om de verschillende elementen aan te geven worden letters gebruikt: jaar (J), maand (M), dag (D), uur (U), minuut (M)en seconde (S), gevolgd door de tijdzone. Het aantal letters geeft de lengte aan.</p>
 		<p>Voor de meest uitgebreide variant van de opbouw, die van DatumTijd, wordt dit JJJJ-MM-DDTUU:MM:SS+UU:MM. De T is het teken dat de datum en het tijdstip op die datum scheidt. De + is het scheidingteken tussen het tijdstip en de tijdzone. Zoals uit de opbouw blijkt wordt de tijdzone in uren en minuten gegeven. De meeste tijdzones zijn overigens uitgedrukt in gehele uren (UU:00). In Nederland geldt Centraal Europese Tijd (UTC+1:00) of Centraal Europese Zomertijd (UTC+2.00).</p>
-		</section>
 			<section id="datum"><h5>Datum</h5>
 			<p>Het domein <i>Datum</i> wordt gebruikt om een datum volgens de Gregoriaanse kalender tot op de dag nauwkeurig aan te geven. De opbouw is JJJJ-MM-DD. 
 			<br>Bij het domein Datum is het voldoende de naam te geven, omdat de opbouw altijd hetzelfde is. Gewoonlijk wordt de waardeverzameling verder ingeperkt door een bereik te specificeren.</p> 
@@ -447,20 +447,19 @@
 			<p>De keuze die gemaakt wordt is gebaseerd op de beschikbaarheid van gegevens. De gebruiker moet ervan uit gaan dat de informatie zo nauwkeurig mogelijk is opgenomen. 
 			Bij het domein OnvolledigeDatum is het voldoende de naam te geven, omdat de opbouw en de vier keuzen altijd hetzelfde zijn.</p>
 			</section>
-
+		</section>
+		
 		<section id="tijdinterval"><h4>Tijdinterval</h4>
 		<p>Voor gegevens die over tijdintervallen gaan wordt in de huidige praktijk het domein Datuminterval gebruikt.</p>
-		</section>
 			<section id="datuminterval"><h5>Datuminterval</h5>
 			<p>Het domein <i>DatumInterval</i> wordt gebruikt om een periode die tot op de dag nauwkeurig begrensd is aan te geven. Het bestaat uit een begindatum en een einddatum, beide van het domein Datum (JJJJ-MM-DD) en de beide data vallen binnen de periode. 
 			<br>Bij het domein Datuminterval is het voldoende de naam te geven, omdat de opbouw altijd hetzelfde is. Eventueel wordt de waardeverzameling verder ingeperkt door een bereik te specificeren.</p>
 			</section>
+		</section>
 		
 		<section id="waardelijst"><h4>Waardelijst</h4>
 		<p>Een waardelijst is een lijst van de waarden die het attribuut mag hebben. Er zijn twee typen waardelijsten, waardelijsten die in de toekomst kunnen worden uitgebreid en waardelijsten die niet kunnen worden uitgebreid. Een waardelijst heeft een bepaalde naam.</p>
-		</section>
-
-			<section id="waardelijst-niet-uitbreidbaar"><h5>Waardelijst niet-uitbreidbaar<h5>
+			<section id="waardelijst-niet-uitbreidbaar"><h5>Waardelijst niet-uitbreidbaar</h5>
 			<p>Een niet-uitbreidbare waardelijst wordt gebruikt wanneer uitbreiding niet mogelijk is. Alle waarden staan vast. 
 			<br>Wanneer een attribuut een niet-uitbreidbare waardelijst als domein heeft is het voldoende de naam te geven, omdat de inhoud altijd hetzelfde is. In de basisregistratie ondergrond worden drie niet-uitbreidbare waardelijsten gebruikt.<p>  
 
@@ -510,6 +509,7 @@
 			<br>De uitbreidbare waardelijsten hebben in de basisregistratie ondergrond een vaste structuur, bij de waarde wordt altijd de omschrijving van de waarde opgenomen en wordt vastgelegd of de waarde voor IMBRO geldt, of de waarde voor IMBRO/A geldt en eventueel wordt de categorie waarin de waarde valt vastgelegd. In bijzondere gevallen is de structuur anders en wordt de definitie van de structuur bij de betreffende waardelijst vastgelegd.
 			<br>Wanneer een attribuut een uitbreidbare waardelijst als domein heeft wordt de naam van de lijst opgenomen. De lijst zelf is in een apart hoofdstuk van de gegevensdefinitie opgenomen.</p> 
 			</section>
+		</section>
 			
 		<section id="coordinatenpaar"><h4>Coördinatenpaar</h4>
 		<p>Het domein <i>Coördinatenpaar</i> wordt gebruikt om de positie van een punt op het aardoppervlak vast te leggen. De positie wordt bepaald in een specifiek referentiestelsel en uitgedrukt in twee coördinaten. Ieder van de coördinaten heeft een meetwaarde en de notatie voor het paar is (coördinaat 1, coördinaat 2). 
@@ -669,8 +669,8 @@
 		<section id="meetreeks" data-include="https://docs.geostandaarden.nl/bro/gen/meetreeks.html"></section>
 		<section id="domeinmodel" data-include="https://docs.geostandaarden.nl/bro/gen/domeinmodel-gen.html"></section>
 		<section id="verplichte-gegevens-waarden" data-include="https://docs.geostandaarden.nl/bro/gen/verplichte-gegevens-waarden.html"></section>
+		</section>
 	</section>
-
 
 
 <!-- H6 GEGEVENSDEFINITIE en H7 WAARDELIJSTEN -->
