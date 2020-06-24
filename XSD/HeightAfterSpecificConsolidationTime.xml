@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+    Copyright TNO Geologische Dienst Nederland
+
+    Alle rechten voorbehouden.
+    Niets uit deze software mag worden vermenigvuldigd en/of openbaar gemaakt door middel van druk, fotokopie,
+    microfilm of op welke andere wijze dan ook, zonder voorafgaande toestemming van TNO.
+
+    Indien deze software in opdracht werd uitgebracht, wordt voor de rechten en verplichtingen van opdrachtgever
+    en opdrachtnemer verwezen naar de Algemene Voorwaarden voor opdrachten aan TNO, dan wel de betreffende
+    terzake tussen de partijen gesloten overeenkomst.
+
+-->
+<swe:DataRecord
+        id="HeightAfterSpecificConsolidationTime"
+        xmlns:swe="http://www.opengis.net/swe/2.0"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.opengis.net/swe/2.0 https://schema.broservices.nl/profile/swe/1.0/swe-profile.xsd">
+    <swe:label>Hoogte na bepaalde consolidatietijd</swe:label>
+    <swe:field name="elapsedTime">
+        <swe:Quantity>
+            <swe:uom code="s" />
+        </swe:Quantity>
+    </swe:field>
+    <swe:field name="verticalStrain">
+        <swe:Quantity>
+             <swe:uom code="%" />
+        </swe:Quantity>
+    </swe:field>
+</swe:DataRecord>
