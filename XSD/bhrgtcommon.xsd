@@ -28,7 +28,6 @@
             <gmlsf:ComplianceLevel>0</gmlsf:ComplianceLevel>
         </xs:appinfo>
     </xs:annotation>
-    
     <!--
     <xs:import namespace="http://www.broservices.nl/xsd/brocommon/3.0" schemaLocation="https://schema.broservices.nl/xsd/brocommon/3.0/brocommon.xsd"/>
     <xs:import namespace="http://www.opengis.net/gml/3.2" schemaLocation="https://schema.broservices.nl/profile/gml/1.0/gml-profile.xsd"/>
@@ -1226,6 +1225,15 @@
                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De datum waarop het boren is beëindigd.</xs:documentation>
                 </xs:annotation>
             </xs:element>
+            <xs:element name="boringOperator"
+                        type="brocom:OrganizationType"
+                        minOccurs="0"
+                        maxOccurs="1">
+                <xs:annotation>
+                    <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het KvK-nummer van de onderneming of de maatschappelijke activiteit van de rechtspersoon die voor de bronhouder geldt als verantwoordelijk voor de uitvoering van de boring en het eventueel leveren van monsters, of het equivalent daarvan in een handelsregister van een andere lidstaat van de Europese Unie dan Nederland.
+                        Explanation: Het gegeven wordt alleen uitgeleverd aan de dataleverancier en de bronhouder.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
             <xs:element name="preparation"
                         minOccurs="1"
                         maxOccurs="1"
@@ -1422,20 +1430,6 @@
                         Explanation: De afwerking geeft inzicht in hoe de ondergrond is achtergelaten na afloop van de werkzaamheden in het veld.</xs:documentation>
                 </xs:annotation>
             </xs:element>
-            <xs:element name="boringOperator"
-                        minOccurs="0"
-                        maxOccurs="1"
-                        type="brocom:OrganizationType">
-                <xs:annotation>
-                    <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het KvK-nummer van de onderneming of de maatschappelijke activiteit van de rechtspersoon die voor de bronhouder geldt als verantwoordelijk voor de uitvoering van de boring en het eventueel leveren van monsters, of het equivalent daarvan in een handelsregister van een andere lidstaat van de Europese Unie dan Nederland.
-                        Explanation: Het gegeven wordt alleen uitgeleverd aan de dataleverancier en de bronhouder.</xs:documentation>
-                </xs:annotation>
-            </xs:element>
-            <xs:element minOccurs="0"
-                        maxOccurs="unbounded"
-                        name="boringVelocity"
-                        nillable="false"
-                        type="bhrgtcom:BoringVelocityType"/>
             <xs:element minOccurs="0"
                         maxOccurs="unbounded"
                         name="excavatedLayer"
@@ -1448,9 +1442,9 @@
                         type="bhrgtcom:BoredIntervalType"/>
             <xs:element minOccurs="0"
                         maxOccurs="unbounded"
-                        name="completedInterval"
+                        name="boringVelocity"
                         nillable="false"
-                        type="bhrgtcom:CompletedIntervalType"/>
+                        type="bhrgtcom:BoringVelocityType"/>
             <xs:element minOccurs="1"
                         maxOccurs="unbounded"
                         name="sampledInterval"
@@ -1461,6 +1455,11 @@
                         name="contaminatedInterval"
                         nillable="false"
                         type="bhrgtcom:ContaminatedIntervalType"/>
+            <xs:element minOccurs="0"
+                        maxOccurs="unbounded"
+                        name="completedInterval"
+                        nillable="false"
+                        type="bhrgtcom:CompletedIntervalType"/>
         </xs:sequence>
     </xs:complexType>
     <xs:complexType name="BoringVelocityType">
@@ -1734,6 +1733,14 @@
     </xs:complexType>
     <xs:complexType name="DeliveredLocationType">
         <xs:sequence>
+            <xs:element name="location"
+                        type="gml:PointPropertyType"
+                        minOccurs="1"
+                        maxOccurs="1">
+                <xs:annotation>
+                    <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: TODO</xs:documentation>
+                </xs:annotation>
+            </xs:element>
             <xs:element name="horizontalPositioningDate"
                         type="brocom:PartialDateType"
                         minOccurs="1"
@@ -1762,14 +1769,6 @@
                 <xs:annotation>
                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het KvK-nummer van de onderneming of de maatschappelijke activiteit van de rechtspersoon die voor de bronhouder geldt als verantwoordelijk voor de uitvoering van de plaatsbepaling, of het equivalent daarvan in een handelsregister van een andere lidstaat van de Europese Unie dan Nederland.
                         Explanation: Het gegeven wordt alleen uitgeleverd aan de dataleverancier en de bronhouder.</xs:documentation>
-                </xs:annotation>
-            </xs:element>
-            <xs:element name="location"
-                        type="gml:PointPropertyType"
-                        minOccurs="1"
-                        maxOccurs="1">
-                <xs:annotation>
-                    <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: TODO</xs:documentation>
                 </xs:annotation>
             </xs:element>
         </xs:sequence>
@@ -1957,16 +1956,16 @@
                     </xs:simpleContent>
                 </xs:complexType>
             </xs:element>
-            <xs:element minOccurs="0"
-                        maxOccurs="unbounded"
-                        name="notDescribedInterval"
-                        nillable="false"
-                        type="bhrgtcom:NotDescribedIntervalType"/>
             <xs:element minOccurs="1"
                         maxOccurs="unbounded"
                         name="layer"
                         nillable="false"
                         type="bhrgtcom:LayerType"/>
+            <xs:element minOccurs="0"
+                        maxOccurs="unbounded"
+                        name="notDescribedInterval"
+                        nillable="false"
+                        type="bhrgtcom:NotDescribedIntervalType"/>
             <xs:element minOccurs="0"
                         maxOccurs="unbounded"
                         name="postSedimentaryDiscontinuity"
@@ -2547,6 +2546,37 @@
                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het volgnummer van de bepalingsstap.</xs:documentation>
                 </xs:annotation>
             </xs:element>
+            <xs:element name="wetPerformed"
+                        type="brocom:IndicationYesNoType"
+                        minOccurs="0"
+                        maxOccurs="1">
+                <xs:annotation>
+                    <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De aanduiding die aangeeft of de stap nat is uitgevoerd.
+                        Explanation: Bij de bepaling van het zettingsverloop worden de stappen standaard nat uitgevoerd. Dat betekent dat natte poreuze stenen worden gebruikt en het deel van het apparaat waar het proefstuk in wordt geplaatst, wordt gevuld met water voordat de meting begint. Wanneer men verwacht dat het materiaal door opname van water zal gaan zwellen worden de eerste stappen droog uitgevoerd met droge poreuze stenen en wordt water op een later moment toegevoegd.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="swellObserved"
+                        type="brocom:IndicationYesNoType"
+                        minOccurs="0"
+                        maxOccurs="1">
+                <xs:annotation>
+                    <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De aanduiding die aangeeft of in de stap zwel is geconstateerd.
+                        Explanation: Door toevoeging van water kan het gebeuren dat het materiaal gaat zwellen. Dat is ongewenst. In dat geval wordt direct door gegaan naar de volgende stap en heeft de betreffende stap geen resultaat.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="strainPoint24hours" minOccurs="0" maxOccurs="1">
+                <xs:annotation>
+                    <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De verticale rek op de 1440e minuut van de bepalingsstap.
+                        Explanation: Bij de bepaling van het zettingsverloop is het niet eenduidig vast te stellen wanneer het materiaal volledig is geconsolideerd. Het zogenaamde 24uursrekpunt is gebaseerd op de aanname dat de consolidatiefase 24 uur (1440 minuten) na het aanpassen van druk is afgerond. De verticale rek na 24 uur wordt afgeleid uit het zettingsverloop en is gelijk aan de verticale rek bepaald op het moment het dichtst bij de verlopen tijd van 1440 minuten na het begin van de bepalingsstap ligt.</xs:documentation>
+                </xs:annotation>
+                <xs:complexType>
+                    <xs:simpleContent>
+                        <xs:restriction base="gml:MeasureType">
+                            <xs:attribute name="uom" type="gml:UomIdentifier" use="required" fixed="%"/>
+                        </xs:restriction>
+                    </xs:simpleContent>
+                </xs:complexType>
+            </xs:element>
             <xs:element name="stepType"
                         minOccurs="1"
                         maxOccurs="1"
@@ -2582,37 +2612,6 @@
                     <xs:simpleContent>
                         <xs:restriction base="gml:MeasureType">
                             <xs:attribute name="uom" type="gml:UomIdentifier" use="required" fixed="mm/h"/>
-                        </xs:restriction>
-                    </xs:simpleContent>
-                </xs:complexType>
-            </xs:element>
-            <xs:element name="wetPerformed"
-                        type="brocom:IndicationYesNoType"
-                        minOccurs="0"
-                        maxOccurs="1">
-                <xs:annotation>
-                    <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De aanduiding die aangeeft of de stap nat is uitgevoerd.
-                        Explanation: Bij de bepaling van het zettingsverloop worden de stappen standaard nat uitgevoerd. Dat betekent dat natte poreuze stenen worden gebruikt en het deel van het apparaat waar het proefstuk in wordt geplaatst, wordt gevuld met water voordat de meting begint. Wanneer men verwacht dat het materiaal door opname van water zal gaan zwellen worden de eerste stappen droog uitgevoerd met droge poreuze stenen en wordt water op een later moment toegevoegd.</xs:documentation>
-                </xs:annotation>
-            </xs:element>
-            <xs:element name="swellObserved"
-                        type="brocom:IndicationYesNoType"
-                        minOccurs="0"
-                        maxOccurs="1">
-                <xs:annotation>
-                    <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De aanduiding die aangeeft of in de stap zwel is geconstateerd.
-                        Explanation: Door toevoeging van water kan het gebeuren dat het materiaal gaat zwellen. Dat is ongewenst. In dat geval wordt direct door gegaan naar de volgende stap en heeft de betreffende stap geen resultaat.</xs:documentation>
-                </xs:annotation>
-            </xs:element>
-            <xs:element name="strainPoint24hours" minOccurs="0" maxOccurs="1">
-                <xs:annotation>
-                    <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De verticale rek op de 1440e minuut van de bepalingsstap.
-                        Explanation: Bij de bepaling van het zettingsverloop is het niet eenduidig vast te stellen wanneer het materiaal volledig is geconsolideerd. Het zogenaamde 24uursrekpunt is gebaseerd op de aanname dat de consolidatiefase 24 uur (1440 minuten) na het aanpassen van druk is afgerond. De verticale rek na 24 uur wordt afgeleid uit het zettingsverloop en is gelijk aan de verticale rek bepaald op het moment het dichtst bij de verlopen tijd van 1440 minuten na het begin van de bepalingsstap ligt.</xs:documentation>
-                </xs:annotation>
-                <xs:complexType>
-                    <xs:simpleContent>
-                        <xs:restriction base="gml:MeasureType">
-                            <xs:attribute name="uom" type="gml:UomIdentifier" use="required" fixed="%"/>
                         </xs:restriction>
                     </xs:simpleContent>
                 </xs:complexType>
@@ -2879,40 +2878,15 @@
                         nillable="false"
                         type="bhrgtcom:InvestigatedMaterialType"/>
             <xs:element minOccurs="0"
-                        maxOccurs="1"
-                        name="volumetricMassDensitySolidsDetermination"
+                        maxOccurs="2"
+                        name="undrainedShearStrengthDetermination"
                         nillable="false"
-                        type="bhrgtcom:VolumetricMassDensitySolidsDeterminationType"/>
-            <xs:element minOccurs="0"
-                        maxOccurs="1"
-                        name="volumetricMassDensityDetermination"
-                        nillable="false"
-                        type="bhrgtcom:VolumetricMassDensityDeterminationType"/>
-            <xs:element minOccurs="0"
-                        maxOccurs="1"
-                        name="consistencyLimitsDetermination"
-                        nillable="false"
-                        type="bhrgtcom:ConsistencyLimitsDeterminationPropertyType"/>
-            <xs:element minOccurs="0"
-                        maxOccurs="3"
-                        name="shearStressChangeDuringLoadingDetermination"
-                        nillable="false"
-                        type="bhrgtcom:ShearStressChangeDuringLoadingDeterminationPropertyType"/>
+                        type="bhrgtcom:UndrainedShearStrengthDeterminationType"/>
             <xs:element minOccurs="0"
                         maxOccurs="1"
                         name="particleSizeDistributionDetermination"
                         nillable="false"
                         type="bhrgtcom:ParticleSizeDistributionDeterminationType"/>
-            <xs:element minOccurs="0"
-                        maxOccurs="1"
-                        name="saturatedPermeabilityDetermination"
-                        nillable="false"
-                        type="bhrgtcom:SaturatedPermeabilityDeterminationPropertyType"/>
-            <xs:element minOccurs="0"
-                        maxOccurs="2"
-                        name="undrainedShearStrengthDetermination"
-                        nillable="false"
-                        type="bhrgtcom:UndrainedShearStrengthDeterminationType"/>
             <xs:element minOccurs="0"
                         maxOccurs="1"
                         name="waterContentDetermination"
@@ -2930,14 +2904,39 @@
                         type="bhrgtcom:CarbonateContentDeterminationType"/>
             <xs:element minOccurs="0"
                         maxOccurs="1"
-                        name="shearStressChangeDuringHorizontalDeformationDetermination"
+                        name="volumetricMassDensityDetermination"
                         nillable="false"
-                        type="bhrgtcom:ShearStressChangeDuringHorizontalDeformationDeterminationPropertyType"/>
+                        type="bhrgtcom:VolumetricMassDensityDeterminationType"/>
+            <xs:element minOccurs="0"
+                        maxOccurs="1"
+                        name="volumetricMassDensitySolidsDetermination"
+                        nillable="false"
+                        type="bhrgtcom:VolumetricMassDensitySolidsDeterminationType"/>
             <xs:element minOccurs="0"
                         maxOccurs="1"
                         name="settlementCharacteristicsDetermination"
                         nillable="false"
                         type="bhrgtcom:SettlementCharacteristicsDeterminationPropertyType"/>
+            <xs:element minOccurs="0"
+                        maxOccurs="3"
+                        name="shearStressChangeDuringLoadingDetermination"
+                        nillable="false"
+                        type="bhrgtcom:ShearStressChangeDuringLoadingDeterminationPropertyType"/>
+            <xs:element minOccurs="0"
+                        maxOccurs="1"
+                        name="shearStressChangeDuringHorizontalDeformationDetermination"
+                        nillable="false"
+                        type="bhrgtcom:ShearStressChangeDuringHorizontalDeformationDeterminationPropertyType"/>
+            <xs:element minOccurs="0"
+                        maxOccurs="1"
+                        name="consistencyLimitsDetermination"
+                        nillable="false"
+                        type="bhrgtcom:ConsistencyLimitsDeterminationPropertyType"/>
+            <xs:element minOccurs="0"
+                        maxOccurs="1"
+                        name="saturatedPermeabilityDetermination"
+                        nillable="false"
+                        type="bhrgtcom:SaturatedPermeabilityDeterminationPropertyType"/>
         </xs:sequence>
     </xs:complexType>
     <xs:complexType name="InvestigatedMaterialType">
@@ -3136,15 +3135,6 @@
                         Explanation: Een laag bestaat uit bijzonder materiaal wanneer meer dan 5 0% van de massa bijzonder materiaal is, en bij een groot verschil in volumieke massa wanneer het materiaal bepalend is voor de geotechnische eigenschappen. Dat materiaal kan zowel natuurlijk als antropogeen van aard zijn. Een laag die uit bijzonder materiaal bestaat wordt minder uitgebreid beschreven dan een laag die uit grond of gesteente bestaat.</xs:documentation>
                 </xs:annotation>
             </xs:element>
-            <xs:element name="internalStructureIntact"
-                        type="brocom:IndicationYesNoType"
-                        minOccurs="0"
-                        maxOccurs="1">
-                <xs:annotation>
-                    <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De aanduiding die aangeeft of de interne opbouw van de laag intact is.
-                        Explanation: Het gegeven wordt alleen vastgelegd bij de beschrijving van ongeroerde monsters onder klasse 2. Bij handboringen waarvan alle monsters in het veld zijn beschreven (klasse2ongedifferentieerd) wordt het gegeven ook vastgelegd. Het gegeven is onder NEN 5104 niet vastgelegd.</xs:documentation>
-                </xs:annotation>
-            </xs:element>
             <xs:element name="slant"
                         type="brocom:IndicationYesNoType"
                         minOccurs="0"
@@ -3152,6 +3142,15 @@
                 <xs:annotation>
                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De aanduiding die aangeeft of de laag scheef staat.
                         Explanation: Lagen in de ondergrond liggen niet altijd horizontaal. Onder bepaalde omstandigheden worden lagen onder een hoek afgezet en na afzetting kunnen lagen zijn scheefgesteld doordat ze onder druk zijn komen te staan. Het gegeven moet in die context worden begrepen. Een laag staat scheef wanneer de laaggrens een hoek groter dan 15 graden maakt met een doorsnede loodrecht op de lengterichting van het monster. Het gegeven is onder NEN 5104 niet vastgelegd.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="internalStructureIntact"
+                        type="brocom:IndicationYesNoType"
+                        minOccurs="0"
+                        maxOccurs="1">
+                <xs:annotation>
+                    <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De aanduiding die aangeeft of de interne opbouw van de laag intact is.
+                        Explanation: Het gegeven wordt alleen vastgelegd bij de beschrijving van ongeroerde monsters onder klasse 2. Bij handboringen waarvan alle monsters in het veld zijn beschreven (klasse2ongedifferentieerd) wordt het gegeven ook vastgelegd. Het gegeven is onder NEN 5104 niet vastgelegd.</xs:documentation>
                 </xs:annotation>
             </xs:element>
             <xs:element name="bedded"
@@ -3279,6 +3278,15 @@
                         Explanation: De afspraak is dat botresten, ijzerconcreties en niet-stenig antropogeen materiaal voorafgaand aan de bepaling worden verwijderd. Afhankelijk van de opdracht kunnen ook andere bestanddelen vooraf worden verwijderd. Die bestanddelen worden gespecificeerd. Verwijdering gebeurt handmatig en enkel grove bestanddelen worden verwijderd. De afspraak wordt opgenomen in de Nationale Praktijkrichtlijn.</xs:documentation>
                 </xs:annotation>
             </xs:element>
+            <xs:element name="lutumCorrectionApplied"
+                        type="brocom:IndicationYesNoType"
+                        minOccurs="0"
+                        maxOccurs="1">
+                <xs:annotation>
+                    <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De aanduiding die aangeeft of de meetresultaten zijn gecorrigeerd voor het verlies van water dat aan korrels kleiner dan 2 µm gebonden is.
+                        Explanation: De meetresultaten kunnen zijn gecorrigeerd voor het verlies van water dat door kleideeltjes wordt vastgehouden. De correctie is gebaseerd op het aandeel van de fractie 0-2 µm (de lutumfractie) zoals bepaald in de korrelgrootteverdeling.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
             <xs:element name="performanceIrregularity"
                         minOccurs="0"
                         maxOccurs="2"
@@ -3290,15 +3298,6 @@
                     </xs:appinfo>
                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Een bijzonderheid die zich tijdens de uitvoering van de bepaling heeft voorgedaan en die van invloed kan zijn op de resultaten.
                         Explanation: Tijdens de uitvoering kunnen zich kleine problemen voordoen waardoor de uitvoerder de bepaling niet helemaal op de ideale wijze kan uitvoeren. Wanneer een dergelijke situatie zich voordoet en het probleem van invloed kan zijn op het resultaat, legt de uitvoerder het als bijzonderheid vast.</xs:documentation>
-                </xs:annotation>
-            </xs:element>
-            <xs:element name="lutumCorrectionApplied"
-                        type="brocom:IndicationYesNoType"
-                        minOccurs="0"
-                        maxOccurs="1">
-                <xs:annotation>
-                    <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De aanduiding die aangeeft of de meetresultaten zijn gecorrigeerd voor het verlies van water dat aan korrels kleiner dan 2 µm gebonden is.
-                        Explanation: De meetresultaten kunnen zijn gecorrigeerd voor het verlies van water dat door kleideeltjes wordt vastgehouden. De correctie is gebaseerd op het aandeel van de fractie 0-2 µm (de lutumfractie) zoals bepaald in de korrelgrootteverdeling.</xs:documentation>
                 </xs:annotation>
             </xs:element>
             <xs:element name="organicMatterContent" minOccurs="1" maxOccurs="1">
@@ -3356,19 +3355,6 @@
                         Explanation: Er wordt altijd een verdeling in twee klassen bepaald: het aandeel van de korrels kleiner dan 63 µm en het aandeel van de korrels groter dan 63 µm. Bij de methode natZeven is dit het eindresultaat. In alle andere gevallen worden een of beide fracties nader onderverdeeld volgens de standaardverdeling eventueel met een uitbreiding van een nog meer gedetailleerde verdeling van enkele fracties.</xs:documentation>
                 </xs:annotation>
             </xs:element>
-            <xs:element name="removedMaterial"
-                        minOccurs="1"
-                        maxOccurs="unbounded"
-                        type="bhrgtcom:RemovedMaterialType">
-                <xs:annotation>
-                    <xs:appinfo>
-                        <CodeListName>RemovedMaterial</CodeListName>
-                        <CodeListURI/>
-                    </xs:appinfo>
-                    <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De aanduiding die aangeeft welke bestanddelen voorafgaand aan de bepaling uit het te onderzoeken materiaal zijn verwijderd.
-                        Explanation: De afspraak is dat botresten, ijzerconcreties en niet-stenig antropogeen materiaal voorafgaand aan de bepaling worden verwijderd. Afhankelijk van de opdracht kunnen ook andere bestanddelen vooraf worden verwijderd. Die bestanddelen worden gespecificeerd. Verwijdering gebeurt handmatig en enkel grove bestanddelen worden verwijderd. Wanneer koolzure kalk of organische stof van te voren is verwijderd, is het gehalte ervan altijd bepaald. De afspraak wordt opgenomen in de Nationale Praktijkrichtlijn.</xs:documentation>
-                </xs:annotation>
-            </xs:element>
             <xs:element name="dispersionMethod"
                         minOccurs="0"
                         maxOccurs="1"
@@ -3380,6 +3366,19 @@
                     </xs:appinfo>
                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De manier waarop samengeklonterde korrels van elkaar zijn losgemaakt.
                         Explanation: Dispersie kan achterwege blijven wanneer men constateert dat er geen samenklontering kan optreden en dat is wanneer er geen fijn materiaal (klei) in het materiaal aanwezig is.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="removedMaterial"
+                        minOccurs="1"
+                        maxOccurs="unbounded"
+                        type="bhrgtcom:RemovedMaterialType">
+                <xs:annotation>
+                    <xs:appinfo>
+                        <CodeListName>RemovedMaterial</CodeListName>
+                        <CodeListURI/>
+                    </xs:appinfo>
+                    <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De aanduiding die aangeeft welke bestanddelen voorafgaand aan de bepaling uit het te onderzoeken materiaal zijn verwijderd.
+                        Explanation: De afspraak is dat botresten, ijzerconcreties en niet-stenig antropogeen materiaal voorafgaand aan de bepaling worden verwijderd. Afhankelijk van de opdracht kunnen ook andere bestanddelen vooraf worden verwijderd. Die bestanddelen worden gespecificeerd. Verwijdering gebeurt handmatig en enkel grove bestanddelen worden verwijderd. Wanneer koolzure kalk of organische stof van te voren is verwijderd, is het gehalte ervan altijd bepaald. De afspraak wordt opgenomen in de Nationale Praktijkrichtlijn.</xs:documentation>
                 </xs:annotation>
             </xs:element>
             <xs:element name="calculationValueSettlingVelocity" minOccurs="0" maxOccurs="1">
@@ -3410,19 +3409,6 @@
                         Explanation: Voor het juiste gebruik van het resultaat is het van belang te weten of de waarde van de volumieke massa die is gebruikt om de diameter van de korrels te bepalen is gebaseerd op een aanname, afleiding of op basis van een gemeten waarde.</xs:documentation>
                 </xs:annotation>
             </xs:element>
-            <xs:element name="usedOpticalModel"
-                        minOccurs="0"
-                        maxOccurs="1"
-                        type="bhrgtcom:UsedOpticalModelType">
-                <xs:annotation>
-                    <xs:appinfo>
-                        <CodeListName>UsedOpticalModel</CodeListName>
-                        <CodeListURI/>
-                    </xs:appinfo>
-                    <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De manier waarop de meetresultaten van laserdiffractie zijn vertaald naar de korrelgrootteverdeling.
-                        Explanation: Laserdiffractie is een optische meetmethode waarbij het lichtpatroon dat ontstaat door de verstrooiing en buiging van het licht door de deeltjes in het materiaal (0 tot 2 mm) wordt gemeten. Met behulp van een optisch model wordt het gemeten patroon omgerekend naar de korrelgrootteverdeling.</xs:documentation>
-                </xs:annotation>
-            </xs:element>
             <xs:element name="performanceIrregularity"
                         minOccurs="0"
                         maxOccurs="2"
@@ -3447,6 +3433,19 @@
                     </xs:appinfo>
                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Een bijzonderheid die bij de bepaling is geconstateerd door het onderzochte materiaal te bekijken, en die van invloed kan zijn op de resultaten van de bepaling.
                         Explanation: Tijdens de uitvoering kunnen er bijzonderheden worden geconstateerd die extra informatie over de aard van het onderzochte materiaal geven. In de huidige praktijk legt de uitvoerder eventuele bijzonderheden altijd vast.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="usedOpticalModel"
+                        minOccurs="0"
+                        maxOccurs="1"
+                        type="bhrgtcom:UsedOpticalModelType">
+                <xs:annotation>
+                    <xs:appinfo>
+                        <CodeListName>UsedOpticalModel</CodeListName>
+                        <CodeListURI/>
+                    </xs:appinfo>
+                    <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De manier waarop de meetresultaten van laserdiffractie zijn vertaald naar de korrelgrootteverdeling.
+                        Explanation: Laserdiffractie is een optische meetmethode waarbij het lichtpatroon dat ontstaat door de verstrooiing en buiging van het licht door de deeltjes in het materiaal (0 tot 2 mm) wordt gemeten. Met behulp van een optisch model wordt het gemeten patroon omgerekend naar de korrelgrootteverdeling.</xs:documentation>
                 </xs:annotation>
             </xs:element>
             <xs:element minOccurs="1"
@@ -4653,19 +4652,6 @@
                         Explanation: De bepaling wordt uitgevoerd met een zakpenetrometer of een handvin (torvane). Bij de zakpenetrometer wordt de kracht gemeten waarmee de penetrometer de grond in wordt geduwd en die wordt standaard omgerekend naar verticale druk (kracht per eenheid oppervlakte). De druk wordt vervolgens omgerekend naar schuifspanning op basis van een simpel bezwijkmodel (de druk gedeeld door 2). Bij gebruik van de handvin wordt de schuifkracht gemeten en die wordt standaard omgerekend naar de schuifspanning. Het resultaat van de bepalingen is indicatief. De bepaling kan zowel in het lab als in het veld zijn uitgevoerd. Waar de bepaling is uitgevoerd, is niet van invloed op het resultaat.</xs:documentation>
                 </xs:annotation>
             </xs:element>
-            <xs:element name="sampleMoistness"
-                        minOccurs="1"
-                        maxOccurs="1"
-                        type="bhrgtcom:SampleMoistnessType">
-                <xs:annotation>
-                    <xs:appinfo>
-                        <CodeListName>SampleMoistness</CodeListName>
-                        <CodeListURI/>
-                    </xs:appinfo>
-                    <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De vochtigheidstoestand van het materiaal aan het begin van de bepaling.
-                        Explanation: Volledig uitgedroogd materiaal wordt niet gebruikt voor de bepaling.</xs:documentation>
-                </xs:annotation>
-            </xs:element>
             <xs:element name="determinationDiameter"
                         minOccurs="1"
                         maxOccurs="1"
@@ -4686,6 +4672,19 @@
                 <xs:annotation>
                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De aanduiding die aangeeft of het meetinstrument verticaal het proefstuk is ingegaan.
                         Explanation: De bepaling kan alleen verticaal of horizontaal worden uitgevoerd. In de meeste gevallen gaat het meeinstrument verticaal het proefstuk in en dat is de richting van het monster in de ondergrond.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="sampleMoistness"
+                        minOccurs="1"
+                        maxOccurs="1"
+                        type="bhrgtcom:SampleMoistnessType">
+                <xs:annotation>
+                    <xs:appinfo>
+                        <CodeListName>SampleMoistness</CodeListName>
+                        <CodeListURI/>
+                    </xs:appinfo>
+                    <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De vochtigheidstoestand van het materiaal aan het begin van de bepaling.
+                        Explanation: Volledig uitgedroogd materiaal wordt niet gebruikt voor de bepaling.</xs:documentation>
                 </xs:annotation>
             </xs:element>
             <xs:element name="undrainedShearStrength" minOccurs="0" maxOccurs="1">
@@ -4827,19 +4826,6 @@
                         Explanation: De volumieke massa van de vaste delen wordt berekend uit metingen van het volume en de massa van de vaste delen van het materiaal. De metingen worden altijd uitgevoerd met een gas of vloeistof gevulde pyknometer conform ISO 17892-3. Afhankelijk van het gebruikte medium is de bepaling meer of minder nauwkeurig. De meting wordt herhaald tot de voorgeschreven betrouwbaarheid is bereikt.</xs:documentation>
                 </xs:annotation>
             </xs:element>
-            <xs:element name="removedMaterial"
-                        minOccurs="1"
-                        maxOccurs="unbounded"
-                        type="bhrgtcom:RemovedMaterialType">
-                <xs:annotation>
-                    <xs:appinfo>
-                        <CodeListName>RemovedMaterial</CodeListName>
-                        <CodeListURI/>
-                    </xs:appinfo>
-                    <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De aanduiding die aangeeft welke bestanddelen voorafgaand aan de bepaling uit het te onderzoeken materiaal zijn verwijderd.
-                        Explanation: De afspraak is dat botresten, ijzerconcreties en niet-stenig antropogeen materiaal voorafgaand aan de bepaling worden verwijderd. Afhankelijk van de opdracht kunnen ook andere bestanddelen vooraf worden verwijderd. Die bestanddelen worden gespecificeerd. Verwijdering gebeurt handmatig en enkel grove bestanddelen worden verwijderd. De afspraak wordt opgenomen in de Nationale Praktijkrichtlijn.</xs:documentation>
-                </xs:annotation>
-            </xs:element>
             <xs:element name="usedMedium"
                         minOccurs="1"
                         maxOccurs="1"
@@ -4864,6 +4850,19 @@
                     </xs:appinfo>
                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De grootte van de ruimte in het apparaat waarin het materiaal is geplaatst.
                         Explanation: Bij een vloeistofpyknometer wordt het materiaal in de pyknometer geplaatst en is de pyknometer de monsterhouder. Bij de gaspyknometer wordt het materiaal in een houder in de gaspyknometer geplaatst. Normaliter is de houder voor ten minste 75% gevuld met materiaal en volstaat een monsterhouder van 50 ml. Voor materiaal met een lage volumieke massa van de vaste delen, zoals veen is een houder van 100 ml nodig.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="removedMaterial"
+                        minOccurs="1"
+                        maxOccurs="unbounded"
+                        type="bhrgtcom:RemovedMaterialType">
+                <xs:annotation>
+                    <xs:appinfo>
+                        <CodeListName>RemovedMaterial</CodeListName>
+                        <CodeListURI/>
+                    </xs:appinfo>
+                    <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De aanduiding die aangeeft welke bestanddelen voorafgaand aan de bepaling uit het te onderzoeken materiaal zijn verwijderd.
+                        Explanation: De afspraak is dat botresten, ijzerconcreties en niet-stenig antropogeen materiaal voorafgaand aan de bepaling worden verwijderd. Afhankelijk van de opdracht kunnen ook andere bestanddelen vooraf worden verwijderd. Die bestanddelen worden gespecificeerd. Verwijdering gebeurt handmatig en enkel grove bestanddelen worden verwijderd. De afspraak wordt opgenomen in de Nationale Praktijkrichtlijn.</xs:documentation>
                 </xs:annotation>
             </xs:element>
             <xs:element name="performanceIrregularity"
@@ -4949,6 +4948,11 @@
                         Explanation: De afspraak is dat botresten, ijzerconcreties en niet-stenig antropogeen materiaal voorafgaand aan de bepaling worden verwijderd. Afhankelijk van de opdracht kunnen ook andere bestanddelen vooraf worden verwijderd. Die bestanddelen worden gespecificeerd. Verwijdering gebeurt handmatig en enkel grove bestanddelen worden verwijderd. De afspraak wordt opgenomen in de Nationale Praktijkrichtlijn.</xs:documentation>
                 </xs:annotation>
             </xs:element>
+            <xs:element minOccurs="1"
+                        maxOccurs="2"
+                        name="determinationResult"
+                        nillable="false"
+                        type="bhrgtcom:DeterminationResultType"/>
             <xs:element name="performanceIrregularity"
                         minOccurs="0"
                         maxOccurs="2"
@@ -4975,11 +4979,6 @@
                         Explanation: Tijdens de uitvoering kunnen er bijzonderheden worden geconstateerd die extra informatie over de aard van het onderzochte materiaal geven. In de huidige praktijk legt de uitvoerder eventuele bijzonderheden altijd vast.</xs:documentation>
                 </xs:annotation>
             </xs:element>
-            <xs:element minOccurs="1"
-                        maxOccurs="2"
-                        name="determinationResult"
-                        nillable="false"
-                        type="bhrgtcom:DeterminationResultType"/>
         </xs:sequence>
     </xs:complexType>
     <xs:complexType name="ConsolidationStageAtHorizontalDeformationType">

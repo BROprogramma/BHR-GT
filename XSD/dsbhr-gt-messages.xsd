@@ -14,8 +14,8 @@
 -->
 <xs:schema xmlns:dsbhrgt="http://www.broservices.nl/xsd/dsbhr-gt/2.0"
            xmlns:xs="http://www.w3.org/2001/XMLSchema"
-           xmlns:bhrgtcom="http://www.broservices.nl/xsd/bhrgtcommon/2.0"
            xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0"
+           xmlns:bhrgtcom="http://www.broservices.nl/xsd/bhrgtcommon/2.0"
            xmlns:gml="http://www.opengis.net/gml/3.2"
            xmlns:gmlsf="http://www.opengis.net/gmlsf/2.0"
            targetNamespace="http://www.broservices.nl/xsd/dsbhr-gt/2.0"
@@ -28,14 +28,13 @@
             <gmlsf:ComplianceLevel>0</gmlsf:ComplianceLevel>
         </xs:appinfo>
     </xs:annotation>
-
     <!--
-    <xs:import namespace="http://www.broservices.nl/xsd/bhrgtcommon/2.0" schemaLocation="https://schema.broservices.nl/xsd/bhrgtcommon/2.0/bhrgtcommon.xsd"/>
     <xs:import namespace="http://www.broservices.nl/xsd/brocommon/3.0" schemaLocation="https://schema.broservices.nl/xsd/brocommon/3.0/brocommon.xsd"/>
+    <xs:import namespace="http://www.broservices.nl/xsd/bhrgtcommon/2.0" schemaLocation="https://schema.broservices.nl/xsd/bhrgtcommon/2.0/bhrgtcommon.xsd"/>
     <xs:import namespace="http://www.opengis.net/gml/3.2" schemaLocation="https://schema.broservices.nl/profile/gml/1.0/gml-profile.xsd"/>
     -->
-    <xs:import namespace="http://www.broservices.nl/xsd/bhrgtcommon/2.0" schemaLocation="bhrgtcommon.xsd"/>
     <xs:import namespace="http://www.broservices.nl/xsd/brocommon/3.0" schemaLocation="https://raw.githubusercontent.com/BROprogramma/BHR-GT/gh-pages/XSD/brocommon.xsd"/>
+    <xs:import namespace="http://www.broservices.nl/xsd/bhrgtcommon/2.0" schemaLocation="https://raw.githubusercontent.com/BROprogramma/BHR-GT/gh-pages/XSD/bhrgtcommon.xsd"/>
     <xs:import namespace="http://www.opengis.net/gml/3.2" schemaLocation="https://raw.githubusercontent.com/BROprogramma/BHR-GT/gh-pages/XSD/gml-profile.xsd"/>
 
     <xs:element name="dispatchDataRequest" type="brocom:DispatchDataRequestType" />
@@ -64,7 +63,7 @@
         </xs:complexContent>
     </xs:complexType>
 
-    <xs:element name="dispatchCharacteristicsResponse" type="dsbhrgt:DispatchCharacteristicsResponseType"/>
+    <xs:element name="dispatchCharacteristicsResponse" type="dsbhrgt:DispatchCharacteristicsResponseType" />
     <xs:complexType name="DispatchCharacteristicsResponseType">
         <xs:complexContent>
             <xs:extension base="brocom:DispatchResponseType">
@@ -87,7 +86,7 @@
         </xs:complexContent>
     </xs:complexType>
 
-    <xs:element name="dispatchDataResponse" type="dsbhrgt:DispatchDataResponseType"/>
+    <xs:element name="dispatchDataResponse" type="dsbhrgt:DispatchDataResponseType" />
     <xs:complexType name="DispatchDataResponseType">
         <xs:complexContent>
             <xs:extension base="brocom:DispatchResponseType">
@@ -409,16 +408,6 @@
                                 name="standardizedLocation"
                                 nillable="false"
                                 type="brocom:StandardizedLocationType"/>
-                    <xs:element minOccurs="0"
-                                maxOccurs="1"
-                                name="siteCharacteristic"
-                                nillable="false"
-                                type="bhrgtcom:SiteCharacteristicType"/>
-                    <xs:element minOccurs="0"
-                                maxOccurs="1"
-                                name="boreholeSampleAnalysis"
-                                nillable="false"
-                                type="bhrgtcom:BoreholeSampleAnalysisType"/>
                     <xs:element minOccurs="1"
                                 maxOccurs="1"
                                 name="boring"
@@ -426,14 +415,24 @@
                                 type="bhrgtcom:BoringType"/>
                     <xs:element minOccurs="0"
                                 maxOccurs="1"
-                                name="boreholeSampleDescription"
+                                name="siteCharacteristic"
                                 nillable="false"
-                                type="bhrgtcom:BoreholeSampleDescriptionType"/>
+                                type="bhrgtcom:SiteCharacteristicType"/>
                     <xs:element minOccurs="0"
                                 maxOccurs="1"
                                 name="fluidMudLayer"
                                 nillable="false"
                                 type="bhrgtcom:FluidMudLayerType"/>
+                    <xs:element minOccurs="0"
+                                maxOccurs="1"
+                                name="boreholeSampleDescription"
+                                nillable="false"
+                                type="bhrgtcom:BoreholeSampleDescriptionType"/>
+                    <xs:element minOccurs="0"
+                                maxOccurs="1"
+                                name="boreholeSampleAnalysis"
+                                nillable="false"
+                                type="bhrgtcom:BoreholeSampleAnalysisType"/>
                 </xs:sequence>
             </xs:extension>
         </xs:complexContent>
