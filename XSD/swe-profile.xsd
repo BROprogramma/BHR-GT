@@ -1,18 +1,11 @@
-<schema
-  xmlns="http://www.w3.org/2001/XMLSchema"
-  xmlns:swe="http://www.opengis.net/swe/2.0"
-  xmlns:xlink="http://www.w3.org/1999/xlink"
-  targetNamespace="http://www.opengis.net/swe/2.0"
-  elementFormDefault="qualified"
-  attributeFormDefault="unqualified"
-  version="2.1.0">
+<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:swe="http://www.opengis.net/swe/2.0" xmlns:xlink="http://www.w3.org/1999/xlink" targetNamespace="http://www.opengis.net/swe/2.0" elementFormDefault="qualified" attributeFormDefault="unqualified" version="2.1.0">
   <annotation>
     <documentation>SWE Common profile for BRO.</documentation>
   </annotation>
   <!--
 	<import namespace="http://www.w3.org/1999/xlink" schemaLocation="https://schema.broservices.nl/profile/xlink/1.0/xlink-profile.xsd"/>
 	-->
-  <import namespace="http://www.w3.org/1999/xlink" schemaLocation="xlink-profile.xsd"/>
+  <import namespace="http://www.w3.org/1999/xlink" schemaLocation="https://raw.githubusercontent.com/BROprogramma/BHR-GT/gh-pages/XSD/xlink-profile.xsd"/>
   <!-- ================================================= -->
   <element name="AbstractSWE" type="swe:AbstractSWEType" abstract="true"/>
   <!-- ================================================= -->
