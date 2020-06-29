@@ -2878,6 +2878,11 @@
                         nillable="false"
                         type="bhrgtcom:InvestigatedMaterialType"/>
             <xs:element minOccurs="0"
+                        maxOccurs="1"
+                        name="settlementCharacteristicsDetermination"
+                        nillable="false"
+                        type="bhrgtcom:SettlementCharacteristicsDeterminationPropertyType"/>
+            <xs:element minOccurs="0"
                         maxOccurs="2"
                         name="undrainedShearStrengthDetermination"
                         nillable="false"
@@ -2912,11 +2917,6 @@
                         name="volumetricMassDensitySolidsDetermination"
                         nillable="false"
                         type="bhrgtcom:VolumetricMassDensitySolidsDeterminationType"/>
-            <xs:element minOccurs="0"
-                        maxOccurs="1"
-                        name="settlementCharacteristicsDetermination"
-                        nillable="false"
-                        type="bhrgtcom:SettlementCharacteristicsDeterminationPropertyType"/>
             <xs:element minOccurs="0"
                         maxOccurs="3"
                         name="shearStressChangeDuringLoadingDetermination"
