@@ -42,7 +42,7 @@
         <swe:Quantity>
             <swe:nilValues>
                 <swe:NilValues>
-                    <swe:nilValue reason="urn:ogc:def:nil:OGC:unknown">-999999</swe:nilValue>
+                    <swe:nilValue reason="urn:ogc:def:nil:OGC:unknown">NaN</swe:nilValue>
                 </swe:NilValues>
             </swe:nilValues>
             <swe:uom code="%" />
@@ -52,7 +52,7 @@
         <swe:Quantity>
             <swe:nilValues>
                 <swe:NilValues>
-                    <swe:nilValue reason="urn:ogc:def:nil:OGC:unknown">-999999</swe:nilValue>
+                    <swe:nilValue reason="urn:ogc:def:nil:OGC:unknown">NaN</swe:nilValue>
                 </swe:NilValues>
             </swe:nilValues>
             <swe:uom code="kPa" />
