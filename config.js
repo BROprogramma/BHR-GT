@@ -17,26 +17,18 @@ logos: [
   editors: [
     {
       name: "Geonovum",
-      url: "https://www.geonovum.nl", 
+      url: "https://www.geonovum.nl/geo-standaarden/bro-basisregistratie-ondergrond", 
     },  
   ],
   authors: [
     {
       name: "Geonovum",
-	  url: "https://www.geonovum.nl",
+	  url: "https://www.geonovum.nl/geo-standaarden/bro-basisregistratie-ondergrond",
 	}],
-  shortName: "bhr-gt",
+  shortName: "BHR-GT",
   pubDomain: "bro",
   github: "https://github.com/BROprogramma/BHR-GT",
   previousPublishDate: "2019-10-31",
   previousStatus: "GN-CV",
-  //localBiblio: {
-  //  "ISO19136": {
-  //    "href": "https://www.iso.org/standard/32554.html",
-  //    "title": "ISO 19136:2007 Geographic information -- Geography Markup Language (GML)",
-  //    "authors": [""],
-  //    "date": "September 2007",
-  //    "publisher": "International Organization for Standardization",
-  //  },
-  //},
-};
+  //localBiblio: {},
+ };
