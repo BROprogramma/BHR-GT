@@ -20,7 +20,6 @@
            xmlns:gmlsf="http://www.opengis.net/gmlsf/2.0"
            targetNamespace="http://www.broservices.nl/xsd/dsbhr-gt/2.0"
            elementFormDefault="qualified"
-           attributeFormDefault="unqualified"
            version="1.99.1">
 
     <xs:annotation>
@@ -472,7 +471,7 @@
                 <xs:annotation>
                     <xs:appinfo>
                         <CodeListName>DeterminedProperties</CodeListName>
-                        <CodeListURI>urn:bro:bhrgt:DeterminedProperties</CodeListURI>
+                        <CodeListURI/>
                     </xs:appinfo>
                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De aanduiding die aangeeft van welke eigenschappen van het materiaal waaruit het onderzochte interval bestaat de waarde is bepaald.</xs:documentation>
                 </xs:annotation>
@@ -584,7 +583,7 @@
                         <xs:annotation>
                             <xs:appinfo>
                                 <CodeListName>DeterminedProperties</CodeListName>
-                                <CodeListURI>urn:bro:bhrgt:DeterminedProperties</CodeListURI>
+                                <CodeListURI/>
                             </xs:appinfo>
                             <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De aanduiding die aangeeft van welke eigenschappen van het materiaal waaruit het onderzochte interval bestaat de waarde is bepaald.</xs:documentation>
                         </xs:annotation>
