@@ -5,7 +5,7 @@
         Based on: gml:AbstractFeature, gml:ReferenceType, gml:PointPropertyType, gml:EnvelopeType, gml:MeasureType, gml:TimeInstantPropertyType, (gml:CodeWithAuthorityType)
         0.0.2: anyURI toegevoegd aan TimePositionUnion</documentation>
   </annotation>
-  <import namespace="http://www.w3.org/1999/xlink" schemaLocation="https://raw.githubusercontent.com/BROprogramma/BHR-GT/gh-pages/XSD/xlink-profile.xsd"/>
+  <import namespace="http://www.w3.org/1999/xlink" schemaLocation="xlink-profile.xsd"/>
   <!-- ================================================= -->
   <element name="AbstractFeature" type="gml:AbstractFeatureType" abstract="true" substitutionGroup="gml:AbstractGML"/>
   <!-- ================================================= -->

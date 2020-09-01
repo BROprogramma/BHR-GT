@@ -21,21 +21,22 @@
            targetNamespace="http://www.broservices.nl/xsd/dsbhr-gt/2.0"
            elementFormDefault="qualified"
            attributeFormDefault="unqualified"
-           version="1.99">
+           version="1.99.1">
 
     <xs:annotation>
         <xs:appinfo source="http://schemas.opengis.net/gmlsfProfile/2.0/gmlsfLevels.xsd">
             <gmlsf:ComplianceLevel>0</gmlsf:ComplianceLevel>
         </xs:appinfo>
     </xs:annotation>
+
     <!--
     <xs:import namespace="http://www.broservices.nl/xsd/brocommon/3.0" schemaLocation="https://schema.broservices.nl/xsd/brocommon/3.0/brocommon.xsd"/>
     <xs:import namespace="http://www.broservices.nl/xsd/bhrgtcommon/2.0" schemaLocation="https://schema.broservices.nl/xsd/bhrgtcommon/2.0/bhrgtcommon.xsd"/>
     <xs:import namespace="http://www.opengis.net/gml/3.2" schemaLocation="https://schema.broservices.nl/profile/gml/1.0/gml-profile.xsd"/>
     -->
-    <xs:import namespace="http://www.broservices.nl/xsd/brocommon/3.0" schemaLocation="https://raw.githubusercontent.com/BROprogramma/BHR-GT/gh-pages/XSD/brocommon.xsd"/>
-    <xs:import namespace="http://www.broservices.nl/xsd/bhrgtcommon/2.0" schemaLocation="https://raw.githubusercontent.com/BROprogramma/BHR-GT/gh-pages/XSD/bhrgtcommon.xsd"/>
-    <xs:import namespace="http://www.opengis.net/gml/3.2" schemaLocation="https://raw.githubusercontent.com/BROprogramma/BHR-GT/gh-pages/XSD/gml-profile.xsd"/>
+    <xs:import namespace="http://www.broservices.nl/xsd/brocommon/3.0" schemaLocation="brocommon.xsd"/>
+    <xs:import namespace="http://www.broservices.nl/xsd/bhrgtcommon/2.0" schemaLocation="bhrgtcommon.xsd"/>
+    <xs:import namespace="http://www.opengis.net/gml/3.2" schemaLocation="gml-profile.xsd"/>
 
     <xs:element name="dispatchDataRequest" type="brocom:DispatchDataRequestType" />
     <xs:element name="parseFault" type="brocom:ParseFaultType" />
@@ -375,9 +376,10 @@
                         </xs:annotation>
                     </xs:element>
                     <xs:element name="siteCharacteristicDetermined"
-                                type="brocom:IndicationYesNoUnknownType"
+                                type="brocom:IndicationYesNoType"
                                 minOccurs="0"
-                                maxOccurs="1">
+                                maxOccurs="1"
+                                nillable="true">
                         <xs:annotation>
                             <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De aanduiding die aangeeft of in het onderzoek gegevens over de toestand van het terrein zijn vastgelegd die van betekenis zijn voor de beoordeling van de resultaten.
                                 Explanation: Voor gegevens die zijn aangeleverd in het kader van archiefoverdracht is zelden informatie over de toestand van het terrein vastgelegd.</xs:documentation>
@@ -463,14 +465,14 @@
 
     <xs:complexType name="DeterminedPropertiesOverviewType">
         <xs:sequence>
-            <xs:element name="determinedProperty"
+            <xs:element name="determinedProperties"
                         minOccurs="1"
                         maxOccurs="unbounded"
-                        type="dsbhrgt:DeterminedPropertyType">
+                        type="bhrgtcom:DeterminedPropertiesType">
                 <xs:annotation>
                     <xs:appinfo>
-                        <CodeListName>DeterminedProperty</CodeListName>
-                        <CodeListURI>urn:bro:bhrgt:DeterminedProperty</CodeListURI>
+                        <CodeListName>DeterminedProperties</CodeListName>
+                        <CodeListURI>urn:bro:bhrgt:DeterminedProperties</CodeListURI>
                     </xs:appinfo>
                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De aanduiding die aangeeft van welke eigenschappen van het materiaal waaruit het onderzochte interval bestaat de waarde is bepaald.</xs:documentation>
                 </xs:annotation>
@@ -575,14 +577,14 @@
                             <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het datuminterval waarbinnen de rapportagedatum analyse van het booronderzoek ligt.</xs:documentation>
                         </xs:annotation>
                     </xs:element>
-                    <xs:element name="determinedProperty"
+                    <xs:element name="determinedProperties"
                                 minOccurs="0"
                                 maxOccurs="1"
-                                type="dsbhrgt:DeterminedPropertyType">
+                                type="bhrgtcom:DeterminedPropertiesType">
                         <xs:annotation>
                             <xs:appinfo>
-                                <CodeListName>DeterminedProperty</CodeListName>
-                                <CodeListURI>urn:bro:bhrgt:DeterminedProperty</CodeListURI>
+                                <CodeListName>DeterminedProperties</CodeListName>
+                                <CodeListURI>urn:bro:bhrgt:DeterminedProperties</CodeListURI>
                             </xs:appinfo>
                             <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De aanduiding die aangeeft van welke eigenschappen van het materiaal waaruit het onderzochte interval bestaat de waarde is bepaald.</xs:documentation>
                         </xs:annotation>
@@ -733,16 +735,6 @@
                               type="xs:anyURI"
                               use="required"
                               fixed="urn:bro:bhrgt:EventName"/>
-            </xs:restriction>
-        </xs:simpleContent>
-    </xs:complexType>
-    <xs:complexType name="DeterminedPropertyType">
-        <xs:simpleContent>
-            <xs:restriction base="gml:CodeWithAuthorityType">
-                <xs:attribute name="codeSpace"
-                              type="xs:anyURI"
-                              use="required"
-                              fixed="urn:bro:bhrgt:DeterminedProperty"/>
             </xs:restriction>
         </xs:simpleContent>
     </xs:complexType>
