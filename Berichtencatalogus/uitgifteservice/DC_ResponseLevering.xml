@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dispatchCharacteristicsResponse
         xmlns="http://www.broservices.nl/xsd/dsbhr-gt/2.0"
-        xmlns:bhrgtcom="http://www.broservices.nl/xsd/bhrgtcommon/2.0"
         xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0"
         xmlns:gml="http://www.opengis.net/gml/3.2"
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"

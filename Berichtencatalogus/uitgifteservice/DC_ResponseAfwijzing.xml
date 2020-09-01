@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dispatchCharacteristicsResponse
-    xmlns="http://www.broservices.nl/xsd/dsbhr-gt/1.0"
+    xmlns="http://www.broservices.nl/xsd/dsbhr-gt/2.0"
     xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://www.broservices.nl/xsd/dsbhr-gt/1.0 ../../XSD/dsbhr-gt-messages.xsd">
+    xsi:schemaLocation="http://www.broservices.nl/xsd/dsbhr-gt/2.0 ../../XSD/dsbhr-gt-messages.xsd">
+  <!-- Disclaimer: dit voorbeeldbericht valideert tegen de XSD van de uitgifteservice.
+       Het houdt geen rekening met bedrijfsregels en is vaktechnisch/inhoudelijk niet voorbeeldig.
+    xsi:schemaLocation="http://www.broservices.nl/xsd/dsbhr-gt/2.0 https://schema.broservices.nl/xsd/dsbhr-gt/2.0/dsbhr-gt-messages.xsd">
+  -->
   <brocom:responseType>rejection</brocom:responseType>
   <brocom:requestReference>uitgifte-18</brocom:requestReference>
   <brocom:rejectionTime>2017-06-23T10:02:37+01:00</brocom:rejectionTime>

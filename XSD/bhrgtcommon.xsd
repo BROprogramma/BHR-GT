@@ -2617,11 +2617,11 @@
                 </xs:complexType>
             </xs:element>
             <xs:element name="heightChangeDuringSettlement"
-                        type="swe:DataArrayType"
+                        type="bhrgtcom:DataArrayType"
                         minOccurs="0"
                         maxOccurs="1"/>
             <xs:element name="stressChangeDuringSettlement"
-                        type="swe:DataArrayType"
+                        type="bhrgtcom:DataArrayType"
                         minOccurs="0"
                         maxOccurs="1"/>
         </xs:sequence>
@@ -5075,7 +5075,7 @@
         </xs:complexType>
       </xs:element>
       <xs:element name="volumeChangeDuringConsolidation"
-                  type="swe:DataArrayType"
+                  type="bhrgtcom:DataArrayType"
                   minOccurs="1"
                   maxOccurs="1"/>
     </xs:sequence>
@@ -5101,7 +5101,7 @@
                 </xs:complexType>
             </xs:element>
             <xs:element name="heightChangeDuringConsolidation"
-                        type="swe:DataArrayType"
+                        type="bhrgtcom:DataArrayType"
                         minOccurs="1"
                         maxOccurs="1"/>
         </xs:sequence>
@@ -5175,7 +5175,7 @@
                 </xs:annotation>
             </xs:element>
             <xs:element name="shearStressChangeDuringLoading"
-                        type="swe:DataArrayType"
+                        type="bhrgtcom:DataArrayType"
                         minOccurs="1"
                         maxOccurs="1"/>
         </xs:sequence>
@@ -5679,7 +5679,7 @@
                 </xs:annotation>
             </xs:element>
             <xs:element name="shearStressChangeDuringHorizontalDeformation"
-                        type="swe:DataArrayType"
+                        type="bhrgtcom:DataArrayType"
                         minOccurs="1"
                         maxOccurs="1"/>
         </xs:sequence>
@@ -6747,5 +6747,20 @@
                               fixed="urn:bro:bhrgt:WallFrictionCorrectionMethod"/>
             </xs:restriction>
         </xs:simpleContent>
+    </xs:complexType>
+    <xs:complexType name="DataArrayType">
+        <xs:complexContent>
+            <xs:extension base="swe:DataArrayType">
+                <xs:sequence>
+                    <xs:element minOccurs="1" maxOccurs="1" name="values">
+                        <xs:complexType>
+                            <xs:complexContent mixed="true">
+                                <xs:extension base="swe:EncodedValuesPropertyType" />
+                            </xs:complexContent>
+                        </xs:complexType>
+                    </xs:element>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
     </xs:complexType>
 </xs:schema>
