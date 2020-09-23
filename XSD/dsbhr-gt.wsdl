@@ -1,71 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- edited with XMLSpy v2019 rel. 3 sp1 (http://www.altova.com) by TNO Information Services (TNO Corporate Staforganen) -->
-<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:msg="http://www.broservices.nl/xsd/dsbhr-gt/1.0" xmlns:tns="http://www.broservices.nl/wsdl/dsbhr-gt/1.0" name="dsbhr-gt" targetNamespace="http://www.broservices.nl/wsdl/dsbhr-gt/1.0">
-  <wsdl:documentation>
+<wsdl:definitions name="dsbhr-gt"
+    xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
+    xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata"
+    xmlns:msg="http://www.broservices.nl/xsd/dsbhr-gt/2.0"
+	xmlns:tns="http://www.broservices.nl/wsdl/dsbhr-gt/2.0"
+	targetNamespace="http://www.broservices.nl/wsdl/dsbhr-gt/2.0">
+
+    <wsdl:documentation>
         Deze WSDL beschrijft de webservice voor uitgifte van geotechnisch booronderzoek
     </wsdl:documentation>
-  <wsdl:types>
-    <xsd:schema xmlns:tns="http://www.broservices.nl/wsdl/dsbhr-gt/1.0" targetNamespace="http://www.broservices.nl/wsdl/dsbhr-gt/1.0">
-      <xsd:import namespace="http://www.broservices.nl/xsd/dsbhr-gt/1.0" schemaLocation="https://schema.broservices.nl/xsd/dsbhr-gt/1.0/dsbhr-gt-messages.xsd"/>
-    </xsd:schema>
-  </wsdl:types>
-  <wsdl:message name="dispatchDataRequest">
-    <wsdl:part name="request" element="msg:dispatchDataRequest"/>
-  </wsdl:message>
-  <wsdl:message name="dispatchDataResponse">
-    <wsdl:part name="response" element="msg:dispatchDataResponse"/>
-  </wsdl:message>
-  <wsdl:message name="dispatchCharacteristicsRequest">
-    <wsdl:part name="request" element="msg:dispatchCharacteristicsRequest"/>
-  </wsdl:message>
-  <wsdl:message name="dispatchCharacteristicsResponse">
-    <wsdl:part name="response" element="msg:dispatchCharacteristicsResponse"/>
-  </wsdl:message>
-  <wsdl:message name="parseSoapFault">
-    <wsdl:part name="parseFault" element="msg:parseFault"/>
-  </wsdl:message>
-  <wsdl:portType name="dsbhr-gt">
-    <wsdl:operation name="dispatchData">
-      <wsdl:input message="tns:dispatchDataRequest" wsam:Action="http://www.broservices.nl/wus/dsbhr-gt/dispatchDataRequest"/>
-      <wsdl:output message="tns:dispatchDataResponse" wsam:Action="http://www.broservices.nl/wus/dsbhr-gt/dispatchDataResponse"/>
-      <wsdl:fault name="parsefault" message="tns:parseSoapFault" wsam:Action="http://www.broservices.nl/wus/dsbhr-gt/parseSoapFault"/>
-    </wsdl:operation>
-    <wsdl:operation name="dispatchCharacteristics">
-      <wsdl:input message="tns:dispatchCharacteristicsRequest" wsam:Action="http://www.broservices.nl/wus/dsbhr-gt/dispatchCharacteristicsRequest"/>
-      <wsdl:output message="tns:dispatchCharacteristicsResponse" wsam:Action="http://www.broservices.nl/wus/dsbhr-gt/dispatchCharacteristicsResponse"/>
-      <wsdl:fault name="parsefault" message="tns:parseSoapFault" wsam:Action="http://www.broservices.nl/wus/dsbhr-gt/parseSoapFault"/>
-    </wsdl:operation>
-  </wsdl:portType>
-  <wsdl:binding name="dsbhr-gt_SOAP" type="tns:dsbhr-gt">
-    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
-    <wsdl:operation name="dispatchData">
-      <soap:operation soapAction="" style="document"/>
-      <wsdl:input>
-        <soap:body use="literal"/>
-      </wsdl:input>
-      <wsdl:output>
-        <soap:body use="literal"/>
-      </wsdl:output>
-      <wsdl:fault name="parsefault">
-        <soap:fault name="parsefault" use="literal"/>
-      </wsdl:fault>
-    </wsdl:operation>
-    <wsdl:operation name="dispatchCharacteristics">
-      <soap:operation soapAction="" style="document"/>
-      <wsdl:input>
-        <soap:body use="literal"/>
-      </wsdl:input>
-      <wsdl:output>
-        <soap:body use="literal"/>
-      </wsdl:output>
-      <wsdl:fault name="parsefault">
-        <soap:fault name="parsefault" use="literal"/>
-      </wsdl:fault>
-    </wsdl:operation>
-  </wsdl:binding>
-  <wsdl:service name="dsbhr-gt">
-    <wsdl:port name="dsbhr-gt_SOAP" binding="tns:dsbhr-gt_SOAP">
-      <soap:address location="REPLACE_WITH_ACTUAL_URL"/>
-    </wsdl:port>
-  </wsdl:service>
+
+    <wsdl:types>
+        <xsd:schema xmlns:tns="http://www.broservices.nl/wsdl/dsbhr-gt/2.0" targetNamespace="http://www.broservices.nl/wsdl/dsbhr-gt/2.0">
+            <!--
+            <xsd:import namespace="http://www.broservices.nl/xsd/dsbhr-gt/2.0" schemaLocation="https://schema.broservices.nl/xsd/dsbhr-gt/2.0/dsbhr-gt-messages.xsd" />
+            -->
+            <xsd:import namespace="http://www.broservices.nl/xsd/dsbhr-gt/2.0" schemaLocation="dsbhr-gt-messages.xsd" />
+        </xsd:schema>
+    </wsdl:types>
+
+    <wsdl:message name="dispatchDataRequest">
+        <wsdl:part name="request" element="msg:dispatchDataRequest" />
+    </wsdl:message>
+    <wsdl:message name="dispatchDataResponse">
+        <wsdl:part name="response" element="msg:dispatchDataResponse" />
+    </wsdl:message>
+    <wsdl:message name="dispatchCharacteristicsRequest">
+        <wsdl:part name="request" element="msg:dispatchCharacteristicsRequest" />
+    </wsdl:message>
+    <wsdl:message name="dispatchCharacteristicsResponse">
+        <wsdl:part name="response" element="msg:dispatchCharacteristicsResponse" />
+    </wsdl:message>
+
+    <wsdl:message name="parseSoapFault">
+        <wsdl:part element="msg:parseFault" name="parseFault" />
+    </wsdl:message>
+
+    <wsdl:portType name="dsbhr-gt">
+        <wsdl:operation name="dispatchData">
+            <wsdl:input message="tns:dispatchDataRequest" wsam:Action="http://www.broservices.nl/wus/dsbhr-gt/dispatchDataRequest" />
+            <wsdl:output message="tns:dispatchDataResponse" wsam:Action="http://www.broservices.nl/wus/dsbhr-gt/dispatchDataResponse" />
+            <wsdl:fault message="tns:parseSoapFault" name="parsefault" wsam:Action="http://www.broservices.nl/wus/dsbhr-gt/parseSoapFault" />
+        </wsdl:operation>
+        <wsdl:operation name="dispatchCharacteristics">
+            <wsdl:input message="tns:dispatchCharacteristicsRequest" wsam:Action="http://www.broservices.nl/wus/dsbhr-gt/dispatchCharacteristicsRequest" />
+            <wsdl:output message="tns:dispatchCharacteristicsResponse" wsam:Action="http://www.broservices.nl/wus/dsbhr-gt/dispatchCharacteristicsResponse" />
+            <wsdl:fault message="tns:parseSoapFault" name="parsefault" wsam:Action="http://www.broservices.nl/wus/dsbhr-gt/parseSoapFault" />
+        </wsdl:operation>
+    </wsdl:portType>
+
+
+    <wsdl:binding name="dsbhr-gt_SOAP" type="tns:dsbhr-gt">
+        <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http" />
+        <wsdl:operation name="dispatchData">
+            <soap:operation soapAction="" style="document" />
+            <wsdl:input>
+                <soap:body use="literal" />
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal" />
+            </wsdl:output>
+            <wsdl:fault name="parsefault">
+                <soap:fault use="literal" name="parsefault" />
+            </wsdl:fault>
+        </wsdl:operation>
+        <wsdl:operation name="dispatchCharacteristics">
+            <soap:operation soapAction="" style="document" />
+            <wsdl:input>
+                <soap:body use="literal" />
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal" />
+            </wsdl:output>
+            <wsdl:fault name="parsefault">
+                <soap:fault use="literal" name="parsefault" />
+            </wsdl:fault>
+        </wsdl:operation>
+    </wsdl:binding>
+
+    <wsdl:service name="dsbhr-gt">
+        <wsdl:port name="dsbhr-gt_SOAP" binding="tns:dsbhr-gt_SOAP">
+            <soap:address location="REPLACE_WITH_ACTUAL_URL" />
+        </wsdl:port>
+    </wsdl:service>
+
 </wsdl:definitions>
