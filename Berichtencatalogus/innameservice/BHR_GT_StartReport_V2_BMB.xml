@@ -209,7 +209,7 @@
         <!--bhrgtcom:groundwaterLevel uom="m">1.5</bhrgtcom:groundwaterLevel-->
         <bhrgtcom:samplingProcedure codeSpace="urn:bro:bhrgt:SamplingProcedure">ISO22475d1v2006</bhrgtcom:samplingProcedure>
         <bhrgtcom:finalDepthSampling uom="m">2.45</bhrgtcom:finalDepthSampling>
-        <bhrgtcom:subsurfaceContaminated>onbekend</bhrgtcom:subsurfaceContaminated>
+        <bhrgtcom:subsurfaceContaminated xsi:nil="true"/>
         <bhrgtcom:boreholeCompleted>onbekend</bhrgtcom:boreholeCompleted>
         <!--Zero or more repetitions:-->
         <!--bhrgtcom:excavatedLayer>

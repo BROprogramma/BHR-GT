@@ -217,7 +217,7 @@
                     <swe:encoding>
                       <swe:TextEncoding decimalSeparator="." tokenSeparator="," blockSeparator=" "/>
                     </swe:encoding>
-                    <swe:values>
+                    <bhrgtcom:values>
                       0 0
                       1000,0.01
                       2000,0.02
@@ -318,7 +318,7 @@
                       97000,0.97
                       98000,0.98
                       99000,0.99
-                    </swe:values>
+                    </bhrgtcom:values>
                   </bhrgtcom:heightChangeDuringSettlement>
                   <!--Optional:
                   <bhrgtcom:stressChangeDuringSettlement>
@@ -353,7 +353,7 @@
                     <swe:encoding>
                       <swe:TextEncoding decimalSeparator="." tokenSeparator="," blockSeparator=";"/>
                     </swe:encoding>
-                    <swe:values>1,2;3,4</swe:values>
+                    <bhrgtcom:values>1,2;3,4</bhrgtcom:values>
                   </bhrgtcom:heightChangeDuringSettlement>
                 </bhrgtcom:determinationStep>
                 <bhrgtcom:determinationStep>
@@ -374,7 +374,7 @@
                     <swe:encoding>
                       <swe:TextEncoding decimalSeparator="." tokenSeparator="," blockSeparator=";"/>
                     </swe:encoding>
-                    <swe:values>1,2;3,4</swe:values>
+                    <bhrgtcom:values>1,2;3,4</bhrgtcom:values>
                   </bhrgtcom:heightChangeDuringSettlement>
                 </bhrgtcom:determinationStep>
                 <bhrgtcom:determinationStep>
@@ -395,7 +395,7 @@
                     <swe:encoding>
                       <swe:TextEncoding decimalSeparator="." tokenSeparator="," blockSeparator=";"/>
                     </swe:encoding>
-                    <swe:values>1,2;3,4</swe:values>
+                    <bhrgtcom:values>1,2;3,4</bhrgtcom:values>
                   </bhrgtcom:heightChangeDuringSettlement>
                 </bhrgtcom:determinationStep>
                 <bhrgtcom:determinationStep>
@@ -416,7 +416,7 @@
                     <swe:encoding>
                       <swe:TextEncoding decimalSeparator="." tokenSeparator="," blockSeparator=";"/>
                     </swe:encoding>
-                    <swe:values>1,2;3,4</swe:values>
+                    <bhrgtcom:values>1,2;3,4</bhrgtcom:values>
                   </bhrgtcom:heightChangeDuringSettlement>
                 </bhrgtcom:determinationStep>
               </bhrgtcom:SettlementCharacteristicsDetermination>
@@ -594,7 +594,7 @@
           <!--bhrgtcom:groundwaterLevel uom="m">1.5</bhrgtcom:groundwaterLevel-->
           <bhrgtcom:samplingProcedure codeSpace="urn:bro:bhrgt:SamplingProcedure">ISO22475d1v2006</bhrgtcom:samplingProcedure>
           <bhrgtcom:finalDepthSampling uom="m">2.45</bhrgtcom:finalDepthSampling>
-          <bhrgtcom:subsurfaceContaminated>onbekend</bhrgtcom:subsurfaceContaminated>
+          <bhrgtcom:subsurfaceContaminated xsi:nil="true"/>
           <bhrgtcom:boreholeCompleted>onbekend</bhrgtcom:boreholeCompleted>
           <!--Zero or more repetitions:-->
           <!--bhrgtcom:excavatedLayer>
