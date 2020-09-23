@@ -1413,9 +1413,10 @@
                 </xs:complexType>
             </xs:element>
             <xs:element name="subsurfaceContaminated"
-                        type="brocom:IndicationYesNoUnknownType"
+                        type="brocom:IndicationYesNoType"
                         minOccurs="1"
-                        maxOccurs="1">
+                        maxOccurs="1"
+                        nillable="true">
                 <xs:annotation>
                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De aanduiding die aangeeft of er tijdens het boren verontreiniging van de ondergrond is geconstateerd.
                         Explanation: Het gegeven geeft aan of de eigenschappen van de ondergrond onbedoeld door de mens veranderd zijn. Het gegeven heeft betrekking op een waarneming en krijgt alleen de waarde ja, wanneer de uitvoerder geconstateerd heeft dat de ondergrond verontreinigd is. Voor gegevens die zijn aangeleverd in het kader van archiefoverdracht is dit gegeven zelden vastgelegd.</xs:documentation>
@@ -1586,9 +1587,10 @@
                 </xs:complexType>
             </xs:element>
             <xs:element name="permanentCasingPresent"
-                        type="brocom:IndicationYesNoUnknownType"
+                        type="brocom:IndicationYesNoType"
                         minOccurs="1"
-                        maxOccurs="1">
+                        maxOccurs="1"
+                        nillable="true">
                 <xs:annotation>
                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De aanduiding die aangeeft of er na het voltooien van de werkzaamheden buizen in de ondergrond zijn achtergelaten die de wand van het geboorde gat afsluiten.
                         Explanation: De wand van het geboorde gat kan over bepaalde trajecten worden verbuisd, maar er kunnen ook per ongeluk buizen in het gat zijn achtergebleven. Redenen om het gat verbuisd achter te laten zijn bijvoorbeeld voorkomen dat in de ondergrond al aanwezige verontreiniging zich kan verspreiden, of beschermen van het boorgat en de daarin aanwezige constructies tegen instorting of corrosie. Voor gegevens die zijn aangeleverd in het kader van archiefoverdracht is zelden informatie over permanente verbuizing vastgelegd.</xs:documentation>
@@ -1828,6 +1830,7 @@
             </xs:element>
             <xs:element name="verticalPositioningDate"
                         type="brocom:PartialDateType"
+                        nillable="true"
                         minOccurs="1"
                         maxOccurs="1">
                 <xs:annotation>
@@ -6748,6 +6751,7 @@
             </xs:restriction>
         </xs:simpleContent>
     </xs:complexType>
+
     <xs:complexType name="DataArrayType">
         <xs:complexContent>
             <xs:extension base="swe:DataArrayType">
@@ -6763,4 +6767,5 @@
             </xs:extension>
         </xs:complexContent>
     </xs:complexType>
+
 </xs:schema>
