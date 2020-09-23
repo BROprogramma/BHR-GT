@@ -13,7 +13,7 @@
     <brocom:responseType>dispatch</brocom:responseType>
     <brocom:requestReference>101</brocom:requestReference>
     <brocom:dispatchTime>2017-03-10T09:09:43+01:00</brocom:dispatchTime>
-    <numberOfDocuments>1</numberOfDocuments>
+    <numberOfDocuments>2</numberOfDocuments>
     <dispatchDocument>
         <BHR_GT_C gml:id="SEQ_0001">
             <brocom:broId>BHR123456789012</brocom:broId>
@@ -22,10 +22,10 @@
             <brocom:qualityRegime>IMBRO/A</brocom:qualityRegime>
             <brocom:objectRegistrationTime>2017-02-23T00:00:00+01:00</brocom:objectRegistrationTime>
             <brocom:underReview>nee</brocom:underReview>
-            <brocom:standardizedLocation srsName="urn:ogc:def:crs:EPSG::4258" gml:id="BRO_0002">
+            <brocom:standardizedLocation srsName="urn:ogc:def:crs:EPSG::4258" gml:id="SEQ_0002">
                 <gml:pos>52.287820210 5.090415500</gml:pos>
             </brocom:standardizedLocation>
-            <brocom:deliveredLocation srsName="urn:ogc:def:crs:EPSG::28992" gml:id="BRO_0001">
+            <brocom:deliveredLocation srsName="urn:ogc:def:crs:EPSG::28992" gml:id="SEQ_0003">
                 <gml:pos>134750.000 477800.000</gml:pos>
             </brocom:deliveredLocation>
             <surveyPurpose codeSpace="urn:bro:bhrgt:SurveyPurpose">bouwwerk</surveyPurpose>
@@ -58,5 +58,12 @@
                 <determinedProperties codeSpace="urn:bro:bhrgt:DeterminedProperties">zettingWaterdoorlatendheid</determinedProperties>
             </determinedPropertiesOverview>
         </BHR_GT_C>
+    </dispatchDocument>
+    <dispatchDocument>
+        <brocom:BRO_DO gml:id="SEQ_0004">
+          <brocom:broId>BHR210987654321</brocom:broId>
+          <brocom:deregistered>ja</brocom:deregistered>
+          <brocom:deregistrationTime>2020-09-02T11:27:04+02:00</brocom:deregistrationTime>
+        </brocom:BRO_DO>
     </dispatchDocument>
 </dispatchCharacteristicsResponse>
