@@ -254,9 +254,10 @@
                   </xs:annotation>
                </xs:element>
                <xs:element name="siteCharacteristicDetermined"
-                           type="brocom:IndicationYesNoUnknownType"
+                           type="brocom:IndicationYesNoType"
                            minOccurs="0"
-                           maxOccurs="1">
+                           maxOccurs="1"
+                           nillable="true">
                   <xs:annotation>
                      <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De aanduiding die aangeeft of in het onderzoek gegevens over de toestand van het terrein zijn vastgelegd die van betekenis zijn voor de beoordeling van de resultaten.
                         Explanation: Voor gegevens die zijn aangeleverd in het kader van archiefoverdracht is zelden informatie over de toestand van het terrein vastgelegd.</xs:documentation>
