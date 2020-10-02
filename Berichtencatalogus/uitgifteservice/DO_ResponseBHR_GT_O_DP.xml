@@ -437,7 +437,7 @@
                                         <swe:TextEncoding decimalSeparator="." tokenSeparator="," blockSeparator=" "/>
                                     </swe:encoding>
                                     <bhrgtcom:values>
-                                        0 0
+                                        0,0
                                         1000,0.01
                                         2000,0.02
                                         3000,0.03
