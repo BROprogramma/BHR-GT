@@ -1,5 +1,5 @@
 var respecConfig = {
-  specStatus: "GN-WV",
+  specStatus: "GN-DEF",
   specType: "IM",
   subtitle: "Geotechnische boormonsterbeschrijving en boormonsteranalyse",
   //canonicalURI: "WV",
