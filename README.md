@@ -1,5 +1,5 @@
-# Booronderzoek - geotechniek
-Deze repository wordt gebruikt voor het ontwikkelen van de geotechnische deelverzamelingen van de BRO catalogus Booronderzoek - geotechniek. 
+# Geotechnisch booronderzoek
+Deze repository wordt gebruikt voor het ontwikkelen van de geotechnische deelverzamelingen van de BRO catalogus Geotechnisch booronderzoek.
 
 De onderhanden versie van deze catalogus is te vinden op https://broprogramma.github.io/BHR-GT/.
 
