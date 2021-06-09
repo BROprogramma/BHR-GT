@@ -29,6 +29,6 @@ logos: [
   pubDomain: "bro",
   github: "https://github.com/BROprogramma/BHR-GT",
   previousPublishDate: "2020-03-25",
-  previousStatus: "GN-DEF",
+  previousStatus: "GN-WV",
   //localBiblio: {},
  };
