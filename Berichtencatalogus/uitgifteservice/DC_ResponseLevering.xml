@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dispatchCharacteristicsResponse
-        xmlns="http://www.broservices.nl/xsd/dsbhr-gt/2.0"
+        xmlns="http://www.broservices.nl/xsd/dsbhr-gt/2.1"
         xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0"
         xmlns:gml="http://www.opengis.net/gml/3.2"
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="http://www.broservices.nl/xsd/dsbhr-gt/2.0 ../../XSD/dsbhr-gt-messages.xsd"
->
+        xsi:schemaLocation="http://www.broservices.nl/xsd/dsbhr-gt/2.1 https://schema.broservices.nl/xsd/dsbhr-gt/2.1/dsbhr-gt-messages.xsd"
+    >
     <!-- Disclaimer: dit voorbeeldbericht valideert tegen de XSD van de uitgifteservice.
-         Het houdt geen rekening met bedrijfsregels en is vaktechnisch/inhoudelijk niet voorbeeldig.
-        xsi:schemaLocation="http://www.broservices.nl/xsd/dsbhr-gt/2.0 https://schema.broservices.nl/xsd/dsbhr-gt/2.0/dsbhr-gt-messages.xsd"
+         Het houdt geen rekening met bedrijfsregels en is mogelijkerwijs vaktechnisch/inhoudelijk niet voorbeeldig.
     -->
     <brocom:responseType>dispatch</brocom:responseType>
     <brocom:requestReference>101</brocom:requestReference>
@@ -53,10 +52,10 @@
                 <samplingQuality codeSpace="urn:bro:bhrgt:SamplingQuality">klasseA</samplingQuality>
                 <samplingQuality codeSpace="urn:bro:bhrgt:SamplingQuality">deelsOngeroerd</samplingQuality>
             </samplingQualityOverview>
-            <determinedPropertiesOverview>
-                <determinedProperties codeSpace="urn:bro:bhrgt:DeterminedProperties">basisparameter</determinedProperties>
-                <determinedProperties codeSpace="urn:bro:bhrgt:DeterminedProperties">zettingWaterdoorlatendheid</determinedProperties>
-            </determinedPropertiesOverview>
+            <analysisTypeOverview>
+                <analysisType codeSpace="urn:bro:bhrgt:AnalysisType">basisparameter</analysisType>
+                <analysisType codeSpace="urn:bro:bhrgt:AnalysisType">zettingWaterdoorlatendheid</analysisType>
+            </analysisTypeOverview>
         </BHR_GT_C>
     </dispatchDocument>
     <dispatchDocument>

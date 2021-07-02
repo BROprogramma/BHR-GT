@@ -1,235 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dispatchDataResponse
-        xmlns="http://www.broservices.nl/xsd/dsbhr-gt/2.1"
+<registrationRequest 
+        xmlns="http://www.broservices.nl/xsd/isbhr-gt/2.1"
         xmlns:bhrgtcom="http://www.broservices.nl/xsd/bhrgtcommon/2.1"
         xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0"
         xmlns:swe="http://www.opengis.net/swe/2.0"
         xmlns:gml="http://www.opengis.net/gml/3.2"
         xmlns:xlink="http://www.w3.org/1999/xlink"
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="http://www.broservices.nl/xsd/dsbhr-gt/2.1 https://schema.broservices.nl/xsd/dsbhr-gt/2.1/dsbhr-gt-messages.xsd"
-    >
-    <!-- Disclaimer: dit voorbeeldbericht valideert tegen de XSD van de uitgifteservice.
-         Het houdt geen rekening met bedrijfsregels en is mogelijkerwijs vaktechnisch/inhoudelijk niet voorbeeldig.
+        xsi:schemaLocation="http://www.broservices.nl/xsd/isbhr-gt/2.1 https://schema.broservices.nl/xsd/isbhr-gt/2.1/isbhr-gt-messages.xsd">
+    <!-- Disclaimer: dit voorbeeldbericht valideert tegen de validatieservice van de acceptatie omgeving van het bronhouderportaal, maar de gegevens zijn fictief en waarschijnlijk niet correct.-->
+    <!-- Inhoud:
+         * Algemene gegevens.
+         * Veldwerk (aangeleverde locatie, aangeleverde verticale positie, boring, terreintoestand, sliblaag).
+         * Boormonsterbeschrijving.
+         * Boormonsteranalyse:
+           + Bepaling korrelgrootteverdeling.
+           + Bepaling watergehalte.
+           + Bepaling consistentiegrenzen.
+         * Einddatum rapportage.
     -->
-    <brocom:responseType>dispatch</brocom:responseType>
-    <brocom:requestReference>uitgifte-23</brocom:requestReference>
-    <brocom:dispatchTime>2017-03-10T09:37:01+01:00</brocom:dispatchTime>
-    <dispatchDocument>
-        <BHR_GT_O_DP gml:id="SEQ_0001">
-            <brocom:broId>BHR123456789012</brocom:broId>
-            <brocom:deliveryAccountableParty>52766179</brocom:deliveryAccountableParty>
-            <brocom:objectIdAccountableParty>objectIdAccountableParty</brocom:objectIdAccountableParty>
-            <brocom:deliveryResponsibleParty>52766179</brocom:deliveryResponsibleParty>
-            <brocom:qualityRegime>IMBRO/A</brocom:qualityRegime>
-            <deliveryContext codeSpace="urn:bro:bhrgt:DeliveryContext">WW</deliveryContext>
-            <surveyPurpose codeSpace="urn:bro:bhrgt:SurveyPurpose">infrastructuurWater</surveyPurpose>
-            <discipline codeSpace="urn:bro:bhrgt:Discipline">geotechniek</discipline>
-            <surveyProcedure codeSpace="urn:bro:bhrgt:SurveyProcedure">EN1997d2v2007</surveyProcedure>
-            <researchReportDate>
-                <!--You have a CHOICE of the next 4 items at this level-->
-                <!--
-                <brocom:date>2018-10-27</brocom:date>
-                <brocom:yearMonth>2018-10</brocom:yearMonth>
-                <brocom:year>2018</brocom:year>
-                <brocom:voidReason>onbekend</brocom:voidReason>
-                -->
-                <brocom:date>2018-10-27</brocom:date>
-            </researchReportDate>
-            <!--Optional:-->
-            <researchOperator>
-                <brocom:chamberOfCommerceNumber>09098104</brocom:chamberOfCommerceNumber>
-            </researchOperator>
-            <registrationHistory>
-                <brocom:objectRegistrationTime>2021-06-25T00:00:00+02:00</brocom:objectRegistrationTime>
-                <brocom:registrationStatus codeSpace="urn:bro:RegistrationStatus">voltooid</brocom:registrationStatus>
-                <brocom:corrected>nee</brocom:corrected>
-                <brocom:underReview>nee</brocom:underReview>
-                <brocom:deregistered>nee</brocom:deregistered>
-                <brocom:reregistered>nee</brocom:reregistered>
-            </registrationHistory>
-            <reportHistory>
-                <reportStartDate>
-					<brocom:date>2018-10-27</brocom:date>
-                </reportStartDate>
-                <reportEndDate>
-					<brocom:date>2018-10-27</brocom:date>
-                </reportEndDate>
-            </reportHistory>
-            <deliveredLocation>
-                <bhrgtcom:location>
-                    <gml:Point gml:id="SEQ_0002" srsName="urn:ogc:def:crs:EPSG::28992">
-                        <gml:pos>134750.000 477800.000</gml:pos>
-                    </gml:Point>
-                </bhrgtcom:location>
-                <bhrgtcom:horizontalPositioningDate>
-                    <brocom:date>2018-09-23</brocom:date>
-                </bhrgtcom:horizontalPositioningDate>
-                <bhrgtcom:horizontalPositioningMethod codeSpace="urn:bro:bhrgt:HorizontalPositioningMethod">tachymetrie0tot10cm</bhrgtcom:horizontalPositioningMethod>
-                <!--Optional:-->
-                <bhrgtcom:horizontalPositioningOperator>
-                    <brocom:chamberOfCommerceNumber>09098104</brocom:chamberOfCommerceNumber>
-                </bhrgtcom:horizontalPositioningOperator>
-            </deliveredLocation>
-            <deliveredVerticalPosition>
-                <bhrgtcom:localVerticalReferencePoint codeSpace="urn:bro:bhrgt:LocalVerticalReferencePoint">maaiveld</bhrgtcom:localVerticalReferencePoint>
-                <bhrgtcom:offset uom="m">123.321</bhrgtcom:offset>
-                <!--Optional:-->
-                <!--bhrgtcom:waterDepth uom="m">1.2</bhrgtcom:waterDepth-->
-                <bhrgtcom:verticalDatum codeSpace="urn:bro:bhrgt:VerticalDatum">NAP</bhrgtcom:verticalDatum>
-                <bhrgtcom:verticalPositioningDate>
-                   <brocom:date>2018-09-23</brocom:date>
-                </bhrgtcom:verticalPositioningDate>
-                <bhrgtcom:verticalPositioningMethod codeSpace="urn:bro:bhrgt:VerticalPositioningMethod">tachymetrie0tot10cm</bhrgtcom:verticalPositioningMethod>
-                <!--Optional:-->
-                <bhrgtcom:verticalPositioningOperator>
-                    <brocom:chamberOfCommerceNumber>09098104</brocom:chamberOfCommerceNumber>
-                </bhrgtcom:verticalPositioningOperator>
-            </deliveredVerticalPosition>
-            <standardizedLocation>
-                <brocom:location srsName="urn:ogc:def:crs:EPSG::4258" gml:id="SEQ_0003">
-                    <gml:pos>52.287820210 5.090415500</gml:pos>
-                </brocom:location>
-                <brocom:coordinateTransformation codeSpace="urn:bro:CoordinateTransformation">RDNAPTRANS2008</brocom:coordinateTransformation>
-            </standardizedLocation>
-            <boring>
-                <bhrgtcom:boringStartDate>
-                    <brocom:date>2018-09-23</brocom:date>
-                </bhrgtcom:boringStartDate>
-                <bhrgtcom:boringEndDate>
-                     <brocom:date>2018-09-23</brocom:date>
-                </bhrgtcom:boringEndDate>
-                <!--Optional:-->
-                <bhrgtcom:boringOperator>
-                    <brocom:chamberOfCommerceNumber>09098104</brocom:chamberOfCommerceNumber>
-                </bhrgtcom:boringOperator>
-                <bhrgtcom:preparation codeSpace="urn:bro:bhrgt:Preparation">geen</bhrgtcom:preparation>
-                <!--Optional:-->
-                <!--bhrgtcom:finalDepthPreparation uom="m">1</bhrgtcom:finalDepthPreparation-->
-                <bhrgtcom:trajectoryExcavated>nee</bhrgtcom:trajectoryExcavated>
-                <!--Optional:-->
-                <!--bhrgtcom:finalDepthExcavation uom="m">1</bhrgtcom:finalDepthExcavation-->
-                <bhrgtcom:rockReached>ja</bhrgtcom:rockReached>
-                <!--1 to 2 repetitions:-->
-                <bhrgtcom:boringProcedure codeSpace="urn:bro:bhrgt:BoringProcedure">SIKB2101vanafV3.3</bhrgtcom:boringProcedure>
-                <bhrgtcom:finalDepthBoring uom="m">2.78</bhrgtcom:finalDepthBoring>
-                <bhrgtcom:stopCriterion codeSpace="urn:bro:bhrgt:StopCriterion">einddoel</bhrgtcom:stopCriterion>
-                <!--Optional:-->
-                <!--bhrgtcom:temporaryCasingUsed>nee</bhrgtcom:temporaryCasingUsed-->
-                <!--Optional:-->
-                <!--bhrgtcom:finalDepthTemporaryCasing uom="m">2</bhrgtcom:finalDepthTemporaryCasing-->
-                <!--Optional:-->
-                <!--bhrgtcom:flushingMediumUsed>nee</bhrgtcom:flushingMediumUsed-->
-                <!--Optional:-->
-                <!--bhrgtcom:flushingAdditive codeSpace="urn:bro:bhrgt:FlushingAdditive">geen</bhrgtcom:flushingAdditive-->
-                <!--Optional:-->
-                <!--bhrgtcom:groundwaterLevel uom="m">1.5</bhrgtcom:groundwaterLevel-->
-                <bhrgtcom:samplingProcedure codeSpace="urn:bro:bhrgt:SamplingProcedure">ISO22475d1v2006</bhrgtcom:samplingProcedure>
-                <bhrgtcom:finalDepthSampling uom="m">2.78</bhrgtcom:finalDepthSampling>
-                <bhrgtcom:subsurfaceContaminated>ja</bhrgtcom:subsurfaceContaminated>
-                <bhrgtcom:boreholeCompleted>ja</bhrgtcom:boreholeCompleted>
-                <!--Zero or more repetitions:-->
-                <!--bhrgtcom:excavatedLayer>
-                    <bhrgtcom:upperBoundary uom="m">0</bhrgtcom:upperBoundary>
-                    <bhrgtcom:lowerBoundary uom="m">0.3</bhrgtcom:lowerBoundary>
-                    <bhrgtcom:excavatedMaterial codeSpace="urn:bro:bhrgt:ExcavatedMaterial">ophoogmateriaalLicht</bhrgtcom:excavatedMaterial>
-                </bhrgtcom:excavatedLayer>
-                <bhrgtcom:excavatedLayer>
-                    <bhrgtcom:upperBoundary uom="m">0.3</bhrgtcom:upperBoundary>
-                    <bhrgtcom:lowerBoundary uom="m">0.75</bhrgtcom:lowerBoundary>
-                    <bhrgtcom:excavatedMaterial codeSpace="urn:bro:bhrgt:ExcavatedMaterial">puin</bhrgtcom:excavatedMaterial>
-                </bhrgtcom:excavatedLayer-->
-                <!--1 or more repetitions:-->
-                <bhrgtcom:boredInterval>
-                    <bhrgtcom:beginDepth uom="m">0</bhrgtcom:beginDepth>
-                    <bhrgtcom:endDepth uom="m">2.78</bhrgtcom:endDepth>
-                    <bhrgtcom:boringTechnique codeSpace="urn:bro:bhrgt:BoringTechnique">mechanischDrukken</bhrgtcom:boringTechnique>
-                    <bhrgtcom:boredDiameter uom="mm">100</bhrgtcom:boredDiameter>
-                </bhrgtcom:boredInterval>
-                <!--Zero or more repetitions:-->
-                <bhrgtcom:boringVelocity>
-                    <bhrgtcom:elapsedTime uom="s">800</bhrgtcom:elapsedTime>
-                    <bhrgtcom:depth uom="m">1</bhrgtcom:depth>
-                </bhrgtcom:boringVelocity>
-                <bhrgtcom:boringVelocity>
-                    <bhrgtcom:elapsedTime uom="s">1600</bhrgtcom:elapsedTime>
-                    <bhrgtcom:depth uom="m">2.4</bhrgtcom:depth>
-                </bhrgtcom:boringVelocity>
-                <bhrgtcom:boringVelocity>
-                    <bhrgtcom:elapsedTime uom="s">12345.1</bhrgtcom:elapsedTime>
-                    <bhrgtcom:depth uom="m">2.78</bhrgtcom:depth>
-                </bhrgtcom:boringVelocity>
-                <!--1 or more repetitions:-->
-                <bhrgtcom:sampledInterval>
-                    <bhrgtcom:beginDepth uom="m">0</bhrgtcom:beginDepth>
-                    <bhrgtcom:endDepth uom="m">2.45</bhrgtcom:endDepth>
-                    <bhrgtcom:preTreatment codeSpace="urn:bro:bhrgt:PreTreatment">geen</bhrgtcom:preTreatment>
-                    <bhrgtcom:samplingMethod codeSpace="urn:bro:bhrgt:SamplingMethod">opDiepteKernen</bhrgtcom:samplingMethod>
-                    <bhrgtcom:samplingQuality codeSpace="urn:bro:bhrgt:SamplingQuality">klasseE</bhrgtcom:samplingQuality>
-                    <!--Optional:-->
-                    <!--bhrgtcom:orientatedSampled>nee</bhrgtcom:orientatedSampled-->
-                    <!--Optional:-->
-                    <bhrgtcom:sampler>
-                        <bhrgtcom:samplerType codeSpace="urn:bro:bhrgt:SamplerType">steekbus</bhrgtcom:samplerType>
-                        <!--Optional:-->
-                        <bhrgtcom:sampleContainerDiameter uom="mm">45</bhrgtcom:sampleContainerDiameter>
-                        <!--Optional:-->
-                        <bhrgtcom:sampleContainerLength uom="m">2.5</bhrgtcom:sampleContainerLength>
-                        <!--Optional:-->
-                        <bhrgtcom:cuttingShoeInsideDiameter uom="mm">45</bhrgtcom:cuttingShoeInsideDiameter>
-                        <!--Optional:-->
-                        <bhrgtcom:stockingUsed>nee</bhrgtcom:stockingUsed>
-                        <!--Optional:-->
-                        <bhrgtcom:rightAngledCuttingShoe>nee</bhrgtcom:rightAngledCuttingShoe>
-                        <!--Optional:-->
-                        <bhrgtcom:taperAngle uom="deg">5</bhrgtcom:taperAngle>
-                        <!--Optional:-->
-                        <bhrgtcom:cuttingShoeOutsideDiameter uom="mm">50</bhrgtcom:cuttingShoeOutsideDiameter>
-                        <!--Optional:-->
-                        <bhrgtcom:lubricationFluidUsed>nee</bhrgtcom:lubricationFluidUsed>
-                        <!--Optional:-->
-                        <bhrgtcom:coreCatcherPresent>ja</bhrgtcom:coreCatcherPresent>
-                        <!--Optional:-->
-                        <bhrgtcom:pistonPresent>nee</bhrgtcom:pistonPresent>
-                    </bhrgtcom:sampler>
-                    <!--Optional:-->
-                    <bhrgtcom:coreRecovery>
-                        <bhrgtcom:totalCoreRecovery uom="%">90</bhrgtcom:totalCoreRecovery>
-                        <bhrgtcom:solidCoreRecovery uom="%">50</bhrgtcom:solidCoreRecovery>
-                        <bhrgtcom:rockQualityDesignation uom="%">60</bhrgtcom:rockQualityDesignation>
-                        <bhrgtcom:fieldDetermined>ja</bhrgtcom:fieldDetermined>
-                    </bhrgtcom:coreRecovery>
-                </bhrgtcom:sampledInterval>
-                <!--Zero or more repetitions:-->
-                <bhrgtcom:contaminatedInterval>
-                    <bhrgtcom:beginDepth uom="m">0.3</bhrgtcom:beginDepth>
-                    <bhrgtcom:endDepth uom="m">0.75</bhrgtcom:endDepth>
-                </bhrgtcom:contaminatedInterval>
-                <!--Zero or more repetitions:-->
-                <bhrgtcom:completedInterval>
-                    <bhrgtcom:beginDepth uom="m">0</bhrgtcom:beginDepth>
-                    <bhrgtcom:endDepth uom="m">3</bhrgtcom:endDepth>
-                    <bhrgtcom:permanentCasingPresent>nee</bhrgtcom:permanentCasingPresent>
-                    <!--Optional:-->
-                    <!--bhrgtcom:diameterPermanentCasing uom="mm">40</bhrgtcom:diameterPermanentCasing-->
-                    <!--Optional:-->
-                    <!--bhrgtcom:materialPermanentCasing codeSpace="urn:bro:bhrgt:CasingMaterial">pe</bhrgtcom:materialPermanentCasing-->
-                    <bhrgtcom:backfillMaterial codeSpace="urn:bro:bhrgt:BackfillMaterial">grout</bhrgtcom:backfillMaterial>
-                    <!--Optional:-->
-                    <!--bhrgtcom:backfillMaterialWashed></bhrgtcom:backfillMaterialWashed-->
-                    <!--Optional:-->
-                    <bhrgtcom:backfillMaterialCertified>nee</bhrgtcom:backfillMaterialCertified>
-                </bhrgtcom:completedInterval>
-            </boring>
-            <!--Optional: required if siteCharacteristicDetermined = ja; forbidden if siteCharacteristicDetermined = nee-->
-            <siteCharacteristic>
-                <!--All 3 items are optional, but at least 1 must be provided if siteCharacteristic is present-->
-                <bhrgtcom:soilUse codeSpace="urn:bro:bhrgt:SoilUse">grasland</bhrgtcom:soilUse>
-                <bhrgtcom:positionOnGroundBody codeSpace="urn:bro:bhrgt:PositionOnGroundBody">talud</bhrgtcom:positionOnGroundBody>
-                <bhrgtcom:temporaryChange codeSpace="urn:bro:bhrgt:TemporaryChange">bevriezing</bhrgtcom:temporaryChange>
-            </siteCharacteristic>
-            <!--Optional:-->
-            <!--fluidMudLayer>...</fluidMudLayer-->
+    <brocom:requestReference>verzoek_3</brocom:requestReference>
+    <brocom:deliveryAccountableParty>27376655</brocom:deliveryAccountableParty>
+    <brocom:qualityRegime>IMBRO</brocom:qualityRegime>
+    <sourceDocument>
+        <BHR_GT_CompleteReport_V1 gml:id="id_0001">
             <!--Optional:-->
             <boreholeSampleDescription>
                 <bhrgtcom:descriptionReportDate>
@@ -616,7 +410,7 @@
                     <!--bhrgtcom:shearStressChangeDuringHorizontalDeformationDetermination>...</bhrgtcom:shearStressChangeDuringHorizontalDeformationDetermination-->
                     <!--Optional:-->
                     <bhrgtcom:consistencyLimitsDetermination>
-                        <bhrgtcom:ConsistencyLimitsDetermination gml:id="SEQ_0004">
+                        <bhrgtcom:ConsistencyLimitsDetermination gml:id="id_0002">
                             <!-- vaste waarde -->
                             <bhrgtcom:determinationProcedure codeSpace="urn:bro:bhrgt:DeterminationProcedure">ISO17892d12v2018</bhrgtcom:determinationProcedure>
                             <bhrgtcom:determinationMethod codeSpace="urn:bro:bhrgt:DeterminationMethod">casagrandeKleistaaf</bhrgtcom:determinationMethod>
@@ -656,6 +450,188 @@
                     <!--bhrgtcom:saturatedPermeabilityDetermination>...</bhrgtcom:saturatedPermeabilityDetermination-->
                 </bhrgtcom:investigatedInterval>
             </boreholeSampleAnalysis>
-        </BHR_GT_O_DP>
-    </dispatchDocument>
-</dispatchDataResponse>
+            <objectIdAccountableParty>objectIdAccountableParty</objectIdAccountableParty>
+            <deliveryContext codeSpace="urn:bro:bhrgt:DeliveryContext">WW</deliveryContext>
+            <surveyPurpose codeSpace="urn:bro:bhrgt:SurveyPurpose">infrastructuurWater</surveyPurpose>
+            <discipline codeSpace="urn:bro:bhrgt:Discipline">geotechniek</discipline>
+            <surveyProcedure codeSpace="urn:bro:bhrgt:SurveyProcedure">EN1997d2v2007</surveyProcedure>
+            <!--Optional:-->
+            <researchOperator>
+                <brocom:chamberOfCommerceNumber>09098104</brocom:chamberOfCommerceNumber>
+            </researchOperator>
+            <!--Optional:-->
+            <siteCharacteristicDetermined>ja</siteCharacteristicDetermined>
+            <deliveredLocation>
+                <bhrgtcom:location>
+                    <gml:Point gml:id="id_0003" srsName="urn:ogc:def:crs:EPSG::28992">
+                        <gml:pos>134750.000 477800.000</gml:pos>
+                    </gml:Point>
+                </bhrgtcom:location>
+                <bhrgtcom:horizontalPositioningDate>
+                    <brocom:date>2018-09-23</brocom:date>
+                </bhrgtcom:horizontalPositioningDate>
+                <bhrgtcom:horizontalPositioningMethod codeSpace="urn:bro:bhrgt:HorizontalPositioningMethod">tachymetrie0tot10cm</bhrgtcom:horizontalPositioningMethod>
+                <!--Optional:-->
+                <bhrgtcom:horizontalPositioningOperator>
+                    <brocom:chamberOfCommerceNumber>09098104</brocom:chamberOfCommerceNumber>
+                </bhrgtcom:horizontalPositioningOperator>
+             </deliveredLocation>
+            <deliveredVerticalPosition>
+                <bhrgtcom:localVerticalReferencePoint codeSpace="urn:bro:bhrgt:LocalVerticalReferencePoint">maaiveld</bhrgtcom:localVerticalReferencePoint>
+                <bhrgtcom:offset uom="m">123.321</bhrgtcom:offset>
+                <!--Optional:-->
+                <!--bhrgtcom:waterDepth uom="m">1.2</bhrgtcom:waterDepth-->
+                <bhrgtcom:verticalDatum codeSpace="urn:bro:bhrgt:VerticalDatum">NAP</bhrgtcom:verticalDatum>
+                <bhrgtcom:verticalPositioningDate>
+                   <brocom:date>2018-09-23</brocom:date>
+                </bhrgtcom:verticalPositioningDate>
+                <bhrgtcom:verticalPositioningMethod codeSpace="urn:bro:bhrgt:VerticalPositioningMethod">tachymetrie0tot10cm</bhrgtcom:verticalPositioningMethod>
+                <!--Optional:-->
+                <bhrgtcom:verticalPositioningOperator>
+                    <brocom:chamberOfCommerceNumber>09098104</brocom:chamberOfCommerceNumber>
+                </bhrgtcom:verticalPositioningOperator>
+            </deliveredVerticalPosition>
+            <boring>
+                <bhrgtcom:boringStartDate>
+                    <brocom:date>2018-09-23</brocom:date>
+                </bhrgtcom:boringStartDate>
+                <bhrgtcom:boringEndDate>
+                     <brocom:date>2018-09-23</brocom:date>
+                </bhrgtcom:boringEndDate>
+                <!--Optional:-->
+                <bhrgtcom:boringOperator>
+                    <brocom:chamberOfCommerceNumber>09098104</brocom:chamberOfCommerceNumber>
+                </bhrgtcom:boringOperator>
+                <bhrgtcom:preparation codeSpace="urn:bro:bhrgt:Preparation">geen</bhrgtcom:preparation>
+                <!--Optional:-->
+                <!--bhrgtcom:finalDepthPreparation uom="m">1</bhrgtcom:finalDepthPreparation-->
+                <bhrgtcom:trajectoryExcavated>nee</bhrgtcom:trajectoryExcavated>
+                <!--Optional:-->
+                <!--bhrgtcom:finalDepthExcavation uom="m">1</bhrgtcom:finalDepthExcavation-->
+                <bhrgtcom:rockReached>ja</bhrgtcom:rockReached>
+                <!--1 to 2 repetitions:-->
+                <bhrgtcom:boringProcedure codeSpace="urn:bro:bhrgt:BoringProcedure">SIKB2101vanafV3.3</bhrgtcom:boringProcedure>
+                <bhrgtcom:finalDepthBoring uom="m">2.78</bhrgtcom:finalDepthBoring>
+                <bhrgtcom:stopCriterion codeSpace="urn:bro:bhrgt:StopCriterion">einddoel</bhrgtcom:stopCriterion>
+                <!--Optional:-->
+                <!--bhrgtcom:temporaryCasingUsed>nee</bhrgtcom:temporaryCasingUsed-->
+                <!--Optional:-->
+                <!--bhrgtcom:finalDepthTemporaryCasing uom="m">2</bhrgtcom:finalDepthTemporaryCasing-->
+                <!--Optional:-->
+                <!--bhrgtcom:flushingMediumUsed>nee</bhrgtcom:flushingMediumUsed-->
+                <!--Optional:-->
+                <!--bhrgtcom:flushingAdditive codeSpace="urn:bro:bhrgt:FlushingAdditive">geen</bhrgtcom:flushingAdditive-->
+                <!--Optional:-->
+                <!--bhrgtcom:groundwaterLevel uom="m">1.5</bhrgtcom:groundwaterLevel-->
+                <bhrgtcom:samplingProcedure codeSpace="urn:bro:bhrgt:SamplingProcedure">ISO22475d1v2006</bhrgtcom:samplingProcedure>
+                <bhrgtcom:finalDepthSampling uom="m">2.78</bhrgtcom:finalDepthSampling>
+                <bhrgtcom:subsurfaceContaminated>ja</bhrgtcom:subsurfaceContaminated>
+                <bhrgtcom:boreholeCompleted>ja</bhrgtcom:boreholeCompleted>
+                <!--Zero or more repetitions:-->
+                <!--bhrgtcom:excavatedLayer>
+                    <bhrgtcom:upperBoundary uom="m">0</bhrgtcom:upperBoundary>
+                    <bhrgtcom:lowerBoundary uom="m">0.3</bhrgtcom:lowerBoundary>
+                    <bhrgtcom:excavatedMaterial codeSpace="urn:bro:bhrgt:ExcavatedMaterial">ophoogmateriaalLicht</bhrgtcom:excavatedMaterial>
+                </bhrgtcom:excavatedLayer>
+                <bhrgtcom:excavatedLayer>
+                    <bhrgtcom:upperBoundary uom="m">0.3</bhrgtcom:upperBoundary>
+                    <bhrgtcom:lowerBoundary uom="m">0.75</bhrgtcom:lowerBoundary>
+                    <bhrgtcom:excavatedMaterial codeSpace="urn:bro:bhrgt:ExcavatedMaterial">puin</bhrgtcom:excavatedMaterial>
+                </bhrgtcom:excavatedLayer-->
+                <!--1 or more repetitions:-->
+                <bhrgtcom:boredInterval>
+                    <bhrgtcom:beginDepth uom="m">0</bhrgtcom:beginDepth>
+                    <bhrgtcom:endDepth uom="m">2.78</bhrgtcom:endDepth>
+                    <bhrgtcom:boringTechnique codeSpace="urn:bro:bhrgt:BoringTechnique">mechanischDrukken</bhrgtcom:boringTechnique>
+                    <bhrgtcom:boredDiameter uom="mm">100</bhrgtcom:boredDiameter>
+                </bhrgtcom:boredInterval>
+                <!--Zero or more repetitions:-->
+                <bhrgtcom:boringVelocity>
+                    <bhrgtcom:elapsedTime uom="s">800</bhrgtcom:elapsedTime>
+                    <bhrgtcom:depth uom="m">1</bhrgtcom:depth>
+                </bhrgtcom:boringVelocity>
+                <bhrgtcom:boringVelocity>
+                    <bhrgtcom:elapsedTime uom="s">1600</bhrgtcom:elapsedTime>
+                    <bhrgtcom:depth uom="m">2.4</bhrgtcom:depth>
+                </bhrgtcom:boringVelocity>
+                <bhrgtcom:boringVelocity>
+                    <bhrgtcom:elapsedTime uom="s">12345.1</bhrgtcom:elapsedTime>
+                    <bhrgtcom:depth uom="m">2.78</bhrgtcom:depth>
+                </bhrgtcom:boringVelocity>
+                <!--1 or more repetitions:-->
+                <bhrgtcom:sampledInterval>
+                    <bhrgtcom:beginDepth uom="m">0</bhrgtcom:beginDepth>
+                    <bhrgtcom:endDepth uom="m">2.45</bhrgtcom:endDepth>
+                    <bhrgtcom:preTreatment codeSpace="urn:bro:bhrgt:PreTreatment">geen</bhrgtcom:preTreatment>
+                    <bhrgtcom:samplingMethod codeSpace="urn:bro:bhrgt:SamplingMethod">opDiepteKernen</bhrgtcom:samplingMethod>
+                    <bhrgtcom:samplingQuality codeSpace="urn:bro:bhrgt:SamplingQuality">klasseE</bhrgtcom:samplingQuality>
+                    <!--Optional:-->
+                    <!--bhrgtcom:orientatedSampled>nee</bhrgtcom:orientatedSampled-->
+                    <!--Optional:-->
+                    <bhrgtcom:sampler>
+                        <bhrgtcom:samplerType codeSpace="urn:bro:bhrgt:SamplerType">steekbus</bhrgtcom:samplerType>
+                        <!--Optional:-->
+                        <bhrgtcom:sampleContainerDiameter uom="mm">45</bhrgtcom:sampleContainerDiameter>
+                        <!--Optional:-->
+                        <bhrgtcom:sampleContainerLength uom="m">2.5</bhrgtcom:sampleContainerLength>
+                        <!--Optional:-->
+                        <bhrgtcom:cuttingShoeInsideDiameter uom="mm">45</bhrgtcom:cuttingShoeInsideDiameter>
+                        <!--Optional:-->
+                        <bhrgtcom:stockingUsed>nee</bhrgtcom:stockingUsed>
+                        <!--Optional:-->
+                        <bhrgtcom:rightAngledCuttingShoe>nee</bhrgtcom:rightAngledCuttingShoe>
+                        <!--Optional:-->
+                        <bhrgtcom:taperAngle uom="deg">5</bhrgtcom:taperAngle>
+                        <!--Optional:-->
+                        <bhrgtcom:cuttingShoeOutsideDiameter uom="mm">50</bhrgtcom:cuttingShoeOutsideDiameter>
+                        <!--Optional:-->
+                        <bhrgtcom:lubricationFluidUsed>nee</bhrgtcom:lubricationFluidUsed>
+                        <!--Optional:-->
+                        <bhrgtcom:coreCatcherPresent>ja</bhrgtcom:coreCatcherPresent>
+                        <!--Optional:-->
+                        <bhrgtcom:pistonPresent>nee</bhrgtcom:pistonPresent>
+                    </bhrgtcom:sampler>
+                    <!--Optional:-->
+                    <bhrgtcom:coreRecovery>
+                        <bhrgtcom:totalCoreRecovery uom="%">90</bhrgtcom:totalCoreRecovery>
+                        <bhrgtcom:solidCoreRecovery uom="%">50</bhrgtcom:solidCoreRecovery>
+                        <bhrgtcom:rockQualityDesignation uom="%">60</bhrgtcom:rockQualityDesignation>
+                        <bhrgtcom:fieldDetermined>ja</bhrgtcom:fieldDetermined>
+                    </bhrgtcom:coreRecovery>
+                </bhrgtcom:sampledInterval>
+                <!--Zero or more repetitions:-->
+                <bhrgtcom:contaminatedInterval>
+                    <bhrgtcom:beginDepth uom="m">0.3</bhrgtcom:beginDepth>
+                    <bhrgtcom:endDepth uom="m">0.75</bhrgtcom:endDepth>
+                </bhrgtcom:contaminatedInterval>
+                <!--Zero or more repetitions:-->
+                <bhrgtcom:completedInterval>
+                    <bhrgtcom:beginDepth uom="m">0</bhrgtcom:beginDepth>
+                    <bhrgtcom:endDepth uom="m">3</bhrgtcom:endDepth>
+                    <bhrgtcom:permanentCasingPresent>nee</bhrgtcom:permanentCasingPresent>
+                    <!--Optional:-->
+                    <!--bhrgtcom:diameterPermanentCasing uom="mm">40</bhrgtcom:diameterPermanentCasing-->
+                    <!--Optional:-->
+                    <!--bhrgtcom:materialPermanentCasing codeSpace="urn:bro:bhrgt:CasingMaterial">pe</bhrgtcom:materialPermanentCasing-->
+                    <bhrgtcom:backfillMaterial codeSpace="urn:bro:bhrgt:BackfillMaterial">grout</bhrgtcom:backfillMaterial>
+                    <!--Optional:-->
+                    <!--bhrgtcom:backfillMaterialWashed></bhrgtcom:backfillMaterialWashed-->
+                    <!--Optional:-->
+                    <bhrgtcom:backfillMaterialCertified>nee</bhrgtcom:backfillMaterialCertified>
+                </bhrgtcom:completedInterval>
+            </boring>
+            <!--Optional: required if siteCharacteristicDetermined = ja; forbidden if siteCharacteristicDetermined = nee-->
+            <siteCharacteristic>
+                <!--All 3 items are optional, but at least 1 must be provided if siteCharacteristic is present-->
+                <bhrgtcom:soilUse codeSpace="urn:bro:bhrgt:SoilUse">grasland</bhrgtcom:soilUse>
+                <bhrgtcom:positionOnGroundBody codeSpace="urn:bro:bhrgt:PositionOnGroundBody">talud</bhrgtcom:positionOnGroundBody>
+                <bhrgtcom:temporaryChange codeSpace="urn:bro:bhrgt:TemporaryChange">bevriezing</bhrgtcom:temporaryChange>
+            </siteCharacteristic>
+            <!--Optional:-->
+            <!--fluidMudLayer>...</fluidMudLayer-->
+            <researchReportDate>
+                <brocom:date>2018-10-27</brocom:date>
+            </researchReportDate>
+        </BHR_GT_CompleteReport_V1>
+    </sourceDocument>
+</registrationRequest>
