@@ -741,7 +741,7 @@
                   </tr>
                </tbody>
             </table>
-            </section><a class="anchor" id="detail_d347078e4668"></a><section id="detail_d347078e4668">
+            </section><a class="anchor" id="detail_d347121e4668"></a><section id="detail_d347121e4668">
             <h4>  registratiegeschiedenis</h4>
             <table style="width: 100%;">
                <colgroup style="width: 30%;"></colgroup>
@@ -774,7 +774,7 @@
                   </tr>
                </tbody>
             </table>
-         </section><a class="anchor" id="detail_d347078e4835"></a><section id="detail_d347078e4835">
+         </section><a class="anchor" id="detail_d347121e4835"></a><section id="detail_d347121e4835">
             <h4>  rapportagegeschiedenis</h4>
             <table style="width: 100%;">
                <colgroup style="width: 30%;"></colgroup>
@@ -807,7 +807,7 @@
                   </tr>
                </tbody>
             </table>
-         </section><a class="anchor" id="detail_d347078e5021"></a><section id="detail_d347078e5021">
+         </section><a class="anchor" id="detail_d347121e5021"></a><section id="detail_d347121e5021">
             <h4>  aangeleverde locatie</h4>
             <table style="width: 100%;">
                <colgroup style="width: 30%;"></colgroup>
@@ -841,7 +841,7 @@
                   </tr>
                </tbody>
             </table>
-         </section><a class="anchor" id="detail_d347078e5206"></a><section id="detail_d347078e5206">
+         </section><a class="anchor" id="detail_d347121e5206"></a><section id="detail_d347121e5206">
             <h4>  aangeleverde verticale positie</h4>
             <table style="width: 100%;">
                <colgroup style="width: 30%;"></colgroup>
@@ -875,7 +875,7 @@
                   </tr>
                </tbody>
             </table>
-         </section><a class="anchor" id="detail_d347078e5391"></a><section id="detail_d347078e5391">
+         </section><a class="anchor" id="detail_d347121e5391"></a><section id="detail_d347121e5391">
             <h4>  gestandaardiseerde locatie</h4>
             <table style="width: 100%;">
                <colgroup style="width: 30%;"></colgroup>
@@ -909,7 +909,7 @@
                   </tr>
                </tbody>
             </table>
-         </section><a class="anchor" id="detail_d347078e5576"></a><section id="detail_d347078e5576">
+         </section><a class="anchor" id="detail_d347121e5576"></a><section id="detail_d347121e5576">
             <h4>  terreintoestand</h4>
             <table style="width: 100%;">
                <colgroup style="width: 30%;"></colgroup>
@@ -1849,7 +1849,7 @@
                   </tr>
                </tbody>
             </table>
-            </section><a class="anchor" id="detail_d347078e8729"></a><section id="detail_d347078e8729">
+            </section><a class="anchor" id="detail_d347121e8729"></a><section id="detail_d347121e8729">
             <h4>  tussentijdse gebeurtenis</h4>
             <table style="width: 100%;">
                <colgroup style="width: 30%;"></colgroup>
@@ -4254,7 +4254,7 @@
                   </tr>
                </tbody>
             </table>
-            </section><a class="anchor" id="detail_d347078e24257"></a><section id="detail_d347078e24257">
+            </section><a class="anchor" id="detail_d347121e24257"></a><section id="detail_d347121e24257">
             <h4>  boorsnelheid</h4>
             <table style="width: 100%;">
                <colgroup style="width: 30%;"></colgroup>
@@ -5430,7 +5430,7 @@
                   </tr>
                </tbody>
             </table>
-            </section><a class="anchor" id="detail_d347078e29957"></a><section id="detail_d347078e29957">
+            </section><a class="anchor" id="detail_d347121e29957"></a><section id="detail_d347121e29957">
             <h4>  bemonsteringsapparaat</h4>
             <table style="width: 100%;">
                <colgroup style="width: 30%;"></colgroup>
@@ -5463,7 +5463,7 @@
                   </tr>
                </tbody>
             </table>
-         </section><a class="anchor" id="detail_d347078e30142"></a><section id="detail_d347078e30142">
+         </section><a class="anchor" id="detail_d347121e30142"></a><section id="detail_d347121e30142">
             <h4>  kernopbrengst</h4>
             <table style="width: 100%;">
                <colgroup style="width: 30%;"></colgroup>
@@ -7362,7 +7362,7 @@
                   </tr>
                   <tr>
                      <th>Kardinaliteit</th>
-                     <td>1</td>
+                     <td>1..2</td>
                   </tr>
                   <tr>
                      <th>Domein</th>
@@ -7379,6 +7379,13 @@
                      <td>Waardelijst uitbreidbaar</td>
                   </tr>
                   <tr>
+                     <th>Regels</th>
+                     <td>
+                        
+                        <p>De waarden moeten uniek zijn binnen de Boormonsterbeschrijving.</p>
+                        </td>
+                  </tr>
+                  <tr>
                      <th>Toelichting</th>
                      <td>
                         
@@ -7387,7 +7394,7 @@
                            in een norm, protocol of richtlijn. Dat kan overigens een richtlijn zijn die de uitvoerder
                            voor zichzelf gebruikt. Het gegeven is opgenomen omdat het inzicht biedt in de kwaliteit
                            van het werk. Het gebruik van procedures varieert van vakgebied tot vakgebied en voor
-                           grond gelden andere afspraken dan voor gesteente.
+                           grond gelden andere afspraken dan voor gesteente.<br clear="none">
                            Voor booronderzoek dat onder kwaliteitsregime IMBRO valt, is de boormonsterbeschrijving
                            altijd onder NEN-EN-ISO 14688-1 tot stand gekomen. Een boormonsterbeschrijving die
                            onder NEN 5104 tot stand is gekomen, valt per definitie onder booronderzoek met kwaliteitsregime
@@ -8913,8 +8920,7 @@
                      <th>Definitie</th>
                      <td>
                         
-                        <p>De typering van een laag die uit laagjes van hetzelfde materiaal bestaat, naar dikte
-                           van de laagjes.</p>
+                        <p>De typering van een laag die uit laagjes bestaat, naar dikte van de laagjes.</p>
                         </td>
                   </tr>
                   <tr>
@@ -8943,13 +8949,13 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>gelaagd</em> gelijk is aan <em>ja</em> en de waarde van het attribuut <em>samengesteld</em> gelijk is aan <em>nee</em>.<br clear="none">
+                        <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>gelaagd</em> gelijk is aan <em>ja</em>.<br clear="none">
                            Het attribuut mag niet aanwezig zijn in alle andere gevallen.</p>
                         </td>
                   </tr>
                </tbody>
             </table>
-            </section><a class="anchor" id="detail_d347078e50939"></a><section id="detail_d347078e50939">
+            </section><a class="anchor" id="detail_d347121e50965"></a><section id="detail_d347121e50965">
             <h4>  grond</h4>
             <table style="width: 100%;">
                <colgroup style="width: 30%;"></colgroup>
@@ -8975,7 +8981,7 @@
                   </tr>
                </tbody>
             </table>
-         </section><a class="anchor" id="detail_d347078e51082"></a><section id="detail_d347078e51082">
+         </section><a class="anchor" id="detail_d347121e51108"></a><section id="detail_d347121e51108">
             <h4>  gesteente</h4>
             <table style="width: 100%;">
                <colgroup style="width: 30%;"></colgroup>
@@ -9152,8 +9158,8 @@
                   </tr>
                </tbody>
             </table>
-            </section><a class="anchor" id="detail_attribute_Model_Grond_grindgehalteklasse"></a><section id="detail_attribute_Model_Grond_grindgehalteklasse">
-            <h4>  grindgehalteklasse</h4>
+            </section><a class="anchor" id="detail_attribute_Model_Grond_grindgehalteklasseNEN5104"></a><section id="detail_attribute_Model_Grond_grindgehalteklasseNEN5104">
+            <h4>  grindgehalteklasse NEN5104</h4>
             
             <table style="width: 100%;">
                <colgroup style="width: 30%;"></colgroup>
@@ -9317,7 +9323,7 @@
                   </tr>
                   <tr>
                      <th>Kardinaliteit</th>
-                     <td>1..*</td>
+                     <td>0..*</td>
                   </tr>
                   <tr>
                      <th>Domein</th>
@@ -9332,6 +9338,13 @@
                   <tr>
                      <th>&nbsp;&nbsp;Type</th>
                      <td>Waardelijst uitbreidbaar</td>
+                  </tr>
+                  <tr>
+                     <th>Regels</th>
+                     <td>
+                        
+                        <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfprocedure</em> van de entiteit <em>Boormonsterbeschrijving</em> niet gelijk is aan <em>NEN5104Synthetisch</em> en dat is onder IMBRO altijd het geval.</p>
+                        </td>
                   </tr>
                   <tr>
                      <th>Mogelijk geen waarde</th>
@@ -10312,8 +10325,8 @@
                   </tr>
                </tbody>
             </table>
-            </section><a class="anchor" id="detail_attribute_Model_Grond_zandspreiding"></a><section id="detail_attribute_Model_Grond_zandspreiding">
-            <h4>  zandspreiding</h4>
+            </section><a class="anchor" id="detail_attribute_Model_Grond_zandspreidingNEN5104"></a><section id="detail_attribute_Model_Grond_zandspreidingNEN5104">
+            <h4>  zandspreiding NEN5104</h4>
             
             <table style="width: 100%;">
                <colgroup style="width: 30%;"></colgroup>
@@ -10369,8 +10382,8 @@
                   </tr>
                </tbody>
             </table>
-            </section><a class="anchor" id="detail_attribute_Model_Grond_soortveen"></a><section id="detail_attribute_Model_Grond_soortveen">
-            <h4>  soort veen</h4>
+            </section><a class="anchor" id="detail_attribute_Model_Grond_veensoort"></a><section id="detail_attribute_Model_Grond_veensoort">
+            <h4>  veensoort</h4>
             
             <table style="width: 100%;">
                <colgroup style="width: 30%;"></colgroup>
@@ -10726,8 +10739,8 @@
                   </tr>
                </tbody>
             </table>
-            </section><a class="anchor" id="detail_attribute_Model_Grond_afzettingskarakteristiek"></a><section id="detail_attribute_Model_Grond_afzettingskarakteristiek">
-            <h4>  afzettingskarakteristiek</h4>
+            </section><a class="anchor" id="detail_attribute_Model_Grond_geotechnischeafzettingskarakteristiek"></a><section id="detail_attribute_Model_Grond_geotechnischeafzettingskarakteristiek">
+            <h4>  geotechnische afzettingskarakteristiek</h4>
             
             <table style="width: 100%;">
                <colgroup style="width: 30%;"></colgroup>
@@ -10853,7 +10866,7 @@
                   </tr>
                </tbody>
             </table>
-            </section><a class="anchor" id="detail_d347078e58447"></a><section id="detail_d347078e58447">
+            </section><a class="anchor" id="detail_d347121e58508"></a><section id="detail_d347121e58508">
             <h4>  korrelvorm</h4>
             <table style="width: 100%;">
                <colgroup style="width: 30%;"></colgroup>
@@ -11879,7 +11892,7 @@
                   </tr>
                </tbody>
             </table>
-            </section><a class="anchor" id="detail_d347078e64353"></a><section id="detail_d347078e64353">
+            </section><a class="anchor" id="detail_d347121e64414"></a><section id="detail_d347121e64414">
             <h4>  verweringsgraad</h4>
             <table style="width: 100%;">
                <colgroup style="width: 30%;"></colgroup>
@@ -13580,7 +13593,7 @@
                   </tr>
                </tbody>
             </table>
-            </section><a class="anchor" id="detail_d347078e73984"></a><section id="detail_d347078e73984">
+            </section><a class="anchor" id="detail_d347121e74045"></a><section id="detail_d347121e74045">
             <h4>  onderzocht materiaal</h4>
             <table style="width: 100%;">
                <colgroup style="width: 30%;"></colgroup>
@@ -15245,7 +15258,7 @@
                   </tr>
                </tbody>
             </table>
-            </section><a class="anchor" id="detail_d347078e78815"></a><section id="detail_d347078e78815">
+            </section><a class="anchor" id="detail_d347121e78876"></a><section id="detail_d347121e78876">
             <h4>  verzadigingsfase bij samendrukken</h4>
             <table style="width: 100%;">
                <colgroup style="width: 30%;"></colgroup>
@@ -15271,7 +15284,7 @@
                   </tr>
                </tbody>
             </table>
-         </section><a class="anchor" id="detail_d347078e78938"></a><section id="detail_d347078e78938">
+         </section><a class="anchor" id="detail_d347121e78999"></a><section id="detail_d347121e78999">
             <h4>  bepalingsstap</h4>
             <table style="width: 100%;">
                <colgroup style="width: 30%;"></colgroup>
@@ -16245,7 +16258,7 @@
                   </tr>
                </tbody>
             </table>
-            </section><a class="anchor" id="detail_d347078e83253"></a><section id="detail_d347078e83253">
+            </section><a class="anchor" id="detail_d347121e83314"></a><section id="detail_d347121e83314">
             <h4>  zettingsverloop</h4>
             <table style="width: 100%;">
                <colgroup style="width: 30%;"></colgroup>
@@ -16271,7 +16284,7 @@
                   </tr>
                </tbody>
             </table>
-         </section><a class="anchor" id="detail_d347078e83376"></a><section id="detail_d347078e83376">
+         </section><a class="anchor" id="detail_d347121e83437"></a><section id="detail_d347121e83437">
             <h4>  spanningsverloop bij Zetting</h4>
             <table style="width: 100%;">
                <colgroup style="width: 30%;"></colgroup>
@@ -16339,7 +16352,7 @@
                      </td>
                </tr>
             </tbody>
-         </table><a class="anchor" id="detail_d347078e83925"></a><section id="detail_d347078e83925">
+         </table><a class="anchor" id="detail_d347121e83986"></a><section id="detail_d347121e83986">
             <h4>  zettingstoestand</h4>
             <table style="width: 100%;">
                <colgroup style="width: 30%;"></colgroup>
@@ -16537,7 +16550,7 @@
                      </td>
                </tr>
             </tbody>
-         </table><a class="anchor" id="detail_d347078e87057"></a><section id="detail_d347078e87057">
+         </table><a class="anchor" id="detail_d347121e87118"></a><section id="detail_d347121e87118">
             <h4>  spanning bij bepaalde zetting</h4>
             <table style="width: 100%;">
                <colgroup style="width: 30%;"></colgroup>
@@ -18323,7 +18336,7 @@
                   </tr>
                </tbody>
             </table>
-            </section><a class="anchor" id="detail_d347078e94187"></a><section id="detail_d347078e94187">
+            </section><a class="anchor" id="detail_d347121e94248"></a><section id="detail_d347121e94248">
             <h4>  membraancorrectie</h4>
             <table style="width: 100%;">
                <colgroup style="width: 30%;"></colgroup>
@@ -18349,7 +18362,7 @@
                   </tr>
                </tbody>
             </table>
-         </section><a class="anchor" id="detail_d347078e94310"></a><section id="detail_d347078e94310">
+         </section><a class="anchor" id="detail_d347121e94371"></a><section id="detail_d347121e94371">
             <h4>  drainagestrookcorrectie</h4>
             <table style="width: 100%;">
                <colgroup style="width: 30%;"></colgroup>
@@ -18375,7 +18388,7 @@
                   </tr>
                </tbody>
             </table>
-         </section><a class="anchor" id="detail_d347078e94433"></a><section id="detail_d347078e94433">
+         </section><a class="anchor" id="detail_d347121e94494"></a><section id="detail_d347121e94494">
             <h4>  gemaakt proefstuk voor belasten</h4>
             <table style="width: 100%;">
                <colgroup style="width: 30%;"></colgroup>
@@ -18401,7 +18414,7 @@
                   </tr>
                </tbody>
             </table>
-         </section><a class="anchor" id="detail_d347078e94556"></a><section id="detail_d347078e94556">
+         </section><a class="anchor" id="detail_d347121e94617"></a><section id="detail_d347121e94617">
             <h4>  verzadigingsfase bij belasten</h4>
             <table style="width: 100%;">
                <colgroup style="width: 30%;"></colgroup>
@@ -18427,7 +18440,7 @@
                   </tr>
                </tbody>
             </table>
-         </section><a class="anchor" id="detail_d347078e94679"></a><section id="detail_d347078e94679">
+         </section><a class="anchor" id="detail_d347121e94740"></a><section id="detail_d347121e94740">
             <h4>  consolidatiefase bij belasten</h4>
             <table style="width: 100%;">
                <colgroup style="width: 30%;"></colgroup>
@@ -18453,7 +18466,7 @@
                   </tr>
                </tbody>
             </table>
-         </section><a class="anchor" id="detail_d347078e94802"></a><section id="detail_d347078e94802">
+         </section><a class="anchor" id="detail_d347121e94863"></a><section id="detail_d347121e94863">
             <h4>  belastingfase</h4>
             <table style="width: 100%;">
                <colgroup style="width: 30%;"></colgroup>
@@ -20130,7 +20143,7 @@
                   </tr>
                </tbody>
             </table>
-            </section><a class="anchor" id="detail_d347078e113704"></a><section id="detail_d347078e113704">
+            </section><a class="anchor" id="detail_d347121e113765"></a><section id="detail_d347121e113765">
             <h4>  volumeverloop bij consolidatie</h4>
             <table style="width: 100%;">
                <colgroup style="width: 30%;"></colgroup>
@@ -20188,7 +20201,7 @@
                      </td>
                </tr>
             </tbody>
-         </table><a class="anchor" id="detail_d347078e117921"></a><section id="detail_d347078e117921">
+         </table><a class="anchor" id="detail_d347121e117982"></a><section id="detail_d347121e117982">
             <h4>  volume bij bepaalde consolidatie</h4>
             <table style="width: 100%;">
                <colgroup style="width: 30%;"></colgroup>
@@ -20614,7 +20627,7 @@
                   </tr>
                </tbody>
             </table>
-            </section><a class="anchor" id="detail_d347078e121667"></a><section id="detail_d347078e121667">
+            </section><a class="anchor" id="detail_d347121e121728"></a><section id="detail_d347121e121728">
             <h4>  schuifspanningsverloop bij belasting</h4>
             <table style="width: 100%;">
                <colgroup style="width: 30%;"></colgroup>
@@ -20673,7 +20686,7 @@
                      </td>
                </tr>
             </tbody>
-         </table><a class="anchor" id="detail_d347078e122747"></a><section id="detail_d347078e122747">
+         </table><a class="anchor" id="detail_d347121e122808"></a><section id="detail_d347121e122808">
             <h4>  schuifspanning bij bepaalde belasting</h4>
             <table style="width: 100%;">
                <colgroup style="width: 30%;"></colgroup>
@@ -21993,7 +22006,7 @@
                   </tr>
                </tbody>
             </table>
-            </section><a class="anchor" id="detail_d347078e129757"></a><section id="detail_d347078e129757">
+            </section><a class="anchor" id="detail_d347121e129818"></a><section id="detail_d347121e129818">
             <h4>  gemaakt proefstuk voor horizontaal vervormen</h4>
             <table style="width: 100%;">
                <colgroup style="width: 30%;"></colgroup>
@@ -22019,7 +22032,7 @@
                   </tr>
                </tbody>
             </table>
-         </section><a class="anchor" id="detail_d347078e129880"></a><section id="detail_d347078e129880">
+         </section><a class="anchor" id="detail_d347121e129941"></a><section id="detail_d347121e129941">
             <h4>  consolidatiefase bij horizontaal vervormen</h4>
             <table style="width: 100%;">
                <colgroup style="width: 30%;"></colgroup>
@@ -22045,7 +22058,7 @@
                   </tr>
                </tbody>
             </table>
-         </section><a class="anchor" id="detail_d347078e130003"></a><section id="detail_d347078e130003">
+         </section><a class="anchor" id="detail_d347121e130064"></a><section id="detail_d347121e130064">
             <h4>  schuiffase</h4>
             <table style="width: 100%;">
                <colgroup style="width: 30%;"></colgroup>
@@ -22333,7 +22346,7 @@
                   </tr>
                </tbody>
             </table>
-            </section><a class="anchor" id="detail_d347078e131994"></a><section id="detail_d347078e131994">
+            </section><a class="anchor" id="detail_d347121e132055"></a><section id="detail_d347121e132055">
             <h4>  consolidatiestap</h4>
             <table style="width: 100%;">
                <colgroup style="width: 30%;"></colgroup>
@@ -22475,7 +22488,7 @@
                   </tr>
                </tbody>
             </table>
-            </section><a class="anchor" id="detail_d347078e132601"></a><section id="detail_d347078e132601">
+            </section><a class="anchor" id="detail_d347121e132662"></a><section id="detail_d347121e132662">
             <h4>  hoogteverloop bij consolidatie</h4>
             <table style="width: 100%;">
                <colgroup style="width: 30%;"></colgroup>
@@ -22532,7 +22545,7 @@
                      </td>
                </tr>
             </tbody>
-         </table><a class="anchor" id="detail_d347078e133663"></a><section id="detail_d347078e133663">
+         </table><a class="anchor" id="detail_d347121e133724"></a><section id="detail_d347121e133724">
             <h4>  hoogte na bepaalde consolidatietijd</h4>
             <table style="width: 100%;">
                <colgroup style="width: 30%;"></colgroup>
@@ -22815,7 +22828,7 @@
                   </tr>
                </tbody>
             </table>
-            </section><a class="anchor" id="detail_d347078e136032"></a><section id="detail_d347078e136032">
+            </section><a class="anchor" id="detail_d347121e136093"></a><section id="detail_d347121e136093">
             <h4>  schuifspanningsverloop bij horizontale vervorming</h4>
             <table style="width: 100%;">
                <colgroup style="width: 30%;"></colgroup>
@@ -22873,7 +22886,7 @@
                      </td>
                </tr>
             </tbody>
-         </table><a class="anchor" id="detail_d347078e136280"></a><section id="detail_d347078e136280">
+         </table><a class="anchor" id="detail_d347121e136341"></a><section id="detail_d347121e136341">
             <h4>  schuifspanning bij bepaalde horizontale vervorming</h4>
             <table style="width: 100%;">
                <colgroup style="width: 30%;"></colgroup>
@@ -23708,7 +23721,7 @@
                   </tr>
                </tbody>
             </table>
-            </section><a class="anchor" id="detail_d347078e142257"></a><section id="detail_d347078e142257">
+            </section><a class="anchor" id="detail_d347121e142318"></a><section id="detail_d347121e142318">
             <h4>  plasticiteit bij bepaald watergehalte</h4>
             <table style="width: 100%;">
                <colgroup style="width: 30%;"></colgroup>
@@ -24572,7 +24585,7 @@
                   </tr>
                </tbody>
             </table>
-            </section><a class="anchor" id="detail_d347078e146536"></a><section id="detail_d347078e146536">
+            </section><a class="anchor" id="detail_d347121e146597"></a><section id="detail_d347121e146597">
             <h4>  basis korrelgrotteverderling</h4>
             <table style="width: 100%;">
                <colgroup style="width: 30%;"></colgroup>
@@ -24718,7 +24731,7 @@
                   </tr>
                </tbody>
             </table>
-            </section><a class="anchor" id="detail_d347078e148582"></a><section id="detail_d347078e148582">
+            </section><a class="anchor" id="detail_d347121e148643"></a><section id="detail_d347121e148643">
             <h4>  standaardverdeling fractie kleiner63um</h4>
             <table style="width: 100%;">
                <colgroup style="width: 30%;"></colgroup>
@@ -24744,7 +24757,7 @@
                   </tr>
                </tbody>
             </table>
-         </section><a class="anchor" id="detail_d347078e148725"></a><section id="detail_d347078e148725">
+         </section><a class="anchor" id="detail_d347121e148786"></a><section id="detail_d347121e148786">
             <h4>  uitgebreide verdeling fractie kleiner63um</h4>
             <table style="width: 100%;">
                <colgroup style="width: 30%;"></colgroup>
@@ -24770,7 +24783,7 @@
                   </tr>
                </tbody>
             </table>
-         </section><a class="anchor" id="detail_d347078e148868"></a><section id="detail_d347078e148868">
+         </section><a class="anchor" id="detail_d347121e148929"></a><section id="detail_d347121e148929">
             <h4>  standaardverdeling fractie groter63um</h4>
             <table style="width: 100%;">
                <colgroup style="width: 30%;"></colgroup>
@@ -24796,7 +24809,7 @@
                   </tr>
                </tbody>
             </table>
-         </section><a class="anchor" id="detail_d347078e149011"></a><section id="detail_d347078e149011">
+         </section><a class="anchor" id="detail_d347121e149072"></a><section id="detail_d347121e149072">
             <h4>  uitgebreide verdeling fractie groter63um</h4>
             <table style="width: 100%;">
                <colgroup style="width: 30%;"></colgroup>
@@ -29146,7 +29159,7 @@
                   </tr>
                </tbody>
             </table>
-            </section><a class="anchor" id="detail_d347078e167986"></a><section id="detail_d347078e167986">
+            </section><a class="anchor" id="detail_d347121e168047"></a><section id="detail_d347121e168047">
             <h4>  verzadigde waterdoorlatendheid bij bepaalde droge volumieke massa</h4>
             <table style="width: 100%;">
                <colgroup style="width: 30%;"></colgroup>
@@ -29172,7 +29185,7 @@
                   </tr>
                </tbody>
             </table>
-         </section><a class="anchor" id="detail_d347078e168109"></a><section id="detail_d347078e168109">
+         </section><a class="anchor" id="detail_d347121e168170"></a><section id="detail_d347121e168170">
             <h4>  verzadigde waterdoorlatendheid bij bepaalde belasting</h4>
             <table style="width: 100%;">
                <colgroup style="width: 30%;"></colgroup>
@@ -29868,7 +29881,7 @@
                   </tr>
                </tbody>
             </table>
-            </section><a class="anchor" id="detail_d347078e171450"></a><section id="detail_d347078e171450">
+            </section><a class="anchor" id="detail_d347121e171511"></a><section id="detail_d347121e171511">
             <h4>  resultaat bepaling</h4>
             <table style="width: 100%;">
                <colgroup style="width: 30%;"></colgroup>
