@@ -3,7 +3,7 @@ var respecConfig = {
   specType: "IM",
   subtitle: "Geotechnische boormonsterbeschrijving en boormonsteranalyse",
   //canonicalURI: "WV",
-  //publishDate: "2020-03-25",
+  publishDate: "2021-10-12",
   maxTocLevel: 4,
 logos: [
   {
