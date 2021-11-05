@@ -159,7 +159,7 @@
                                 Explanation: Het domein bevat begrippen die naar een oppervlak verwijzen. Het lokaal verticaal referentiepunt geldt als het punt waar het onderzoek aan de ondergrond begonnen is. De laag slib die plaatselijk op de waterbodem ligt, wordt niet tot de ondergrond gerekend en ligt boven het lokaal verticaal referentiepunt.</xs:documentation>
                         </xs:annotation>
                     </xs:element>
-                    <xs:element name="offset" minOccurs="1" maxOccurs="1">
+                    <xs:element name="offset" nillable="true" minOccurs="1" maxOccurs="1">
                         <xs:annotation>
                             <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De verticale positie van het lokaal verticaal referentiepunt t.o.v. het verticaal referentievlak.
                                 Explanation: De waarde kan positief of negatief zijn. Als de waarde positief is, ligt het lokaal verticaal referentiepunt boven het verticaal referentievlak. Met behulp van de verschuiving kan een diepte omgerekend worden naar een positie ten opzichte van het verticaal referentievlak.</xs:documentation>
