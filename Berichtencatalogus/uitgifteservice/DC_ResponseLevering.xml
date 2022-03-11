@@ -1,68 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dispatchCharacteristicsResponse
-        xmlns="http://www.broservices.nl/xsd/dsbhr-gt/2.1"
-        xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0"
-        xmlns:gml="http://www.opengis.net/gml/3.2"
+<soap:Envelope 
+        xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="http://www.broservices.nl/xsd/dsbhr-gt/2.1 https://schema.broservices.nl/xsd/dsbhr-gt/2.1/dsbhr-gt-messages.xsd"
-    >
-    <!-- Disclaimer: dit voorbeeldbericht valideert tegen de XSD van de uitgifteservice.
-         Het houdt geen rekening met bedrijfsregels en is mogelijkerwijs vaktechnisch/inhoudelijk niet voorbeeldig.
-    -->
-    <brocom:responseType>dispatch</brocom:responseType>
-    <brocom:requestReference>101</brocom:requestReference>
-    <brocom:dispatchTime>2017-03-10T09:09:43+01:00</brocom:dispatchTime>
-    <numberOfDocuments>2</numberOfDocuments>
-    <dispatchDocument>
-        <BHR_GT_C gml:id="SEQ_0001">
-            <brocom:broId>BHR123456789012</brocom:broId>
-            <brocom:deregistered>nee</brocom:deregistered>
-            <brocom:deliveryAccountableParty>52766179</brocom:deliveryAccountableParty>
-            <brocom:qualityRegime>IMBRO/A</brocom:qualityRegime>
-            <brocom:objectRegistrationTime>2017-02-23T00:00:00+01:00</brocom:objectRegistrationTime>
-            <brocom:underReview>nee</brocom:underReview>
-            <brocom:standardizedLocation srsName="urn:ogc:def:crs:EPSG::4258" gml:id="SEQ_0002">
-                <gml:pos>52.287820210 5.090415500</gml:pos>
-            </brocom:standardizedLocation>
-            <brocom:deliveredLocation srsName="urn:ogc:def:crs:EPSG::28992" gml:id="SEQ_0003">
-                <gml:pos>134750.000 477800.000</gml:pos>
-            </brocom:deliveredLocation>
-            <surveyPurpose codeSpace="urn:bro:bhrgt:SurveyPurpose">bouwwerk</surveyPurpose>
-            <discipline codeSpace="urn:bro:bhrgt:Discipline">geotechniek</discipline>
-            <researchReportDate>
-                <brocom:date>2018-10-23</brocom:date>
-            </researchReportDate>
-            <localVerticalReferencePoint codeSpace="urn:bro:bhrgt:LocalVerticalReferencePoint">waterbodem</localVerticalReferencePoint>
-            <offset uom="m">1.303</offset>
-            <verticalDatum codeSpace="urn:bro:bhrgt:VerticalDatum">NAP</verticalDatum>
-            <boringStartDate>
-                <brocom:date>2018-08-23</brocom:date>
-            </boringStartDate>
-            <boringEndDate>
-                <brocom:date>2018-08-23</brocom:date>
-            </boringEndDate>
-            <rockReached>ja</rockReached>
-            <finalDepthBoring uom="m">47.2</finalDepthBoring>
-            <descriptionReportDate>
-                <brocom:date>2018-09-23</brocom:date>
-            </descriptionReportDate>
-            <descriptionProcedure codeSpace="urn:bro:bhrgt:DescriptionProcedure">NEN-5104</descriptionProcedure>
-            <analysisReportDate>2018-10-23</analysisReportDate>
-            <samplingQualityOverview>
-                <samplingQuality codeSpace="urn:bro:bhrgt:SamplingQuality">klasseA</samplingQuality>
-                <samplingQuality codeSpace="urn:bro:bhrgt:SamplingQuality">deelsOngeroerd</samplingQuality>
-            </samplingQualityOverview>
-            <analysisTypeOverview>
-                <analysisType codeSpace="urn:bro:bhrgt:AnalysisType">basisparameter</analysisType>
-                <analysisType codeSpace="urn:bro:bhrgt:AnalysisType">zettingWaterdoorlatendheid</analysisType>
-            </analysisTypeOverview>
-        </BHR_GT_C>
-    </dispatchDocument>
-    <dispatchDocument>
-        <brocom:BRO_DO gml:id="SEQ_0004">
-          <brocom:broId>BHR210987654321</brocom:broId>
-          <brocom:deregistered>ja</brocom:deregistered>
-          <brocom:deregistrationTime>2020-09-02T11:27:04+02:00</brocom:deregistrationTime>
-        </brocom:BRO_DO>
-    </dispatchDocument>
-</dispatchCharacteristicsResponse>
+        xsi:schemaLocation="http://schemas.xmlsoap.org/soap/envelope/ http://schemas.xmlsoap.org/soap/envelope/">
+    <soap:Body>
+        <dispatchCharacteristicsResponse
+                xmlns="http://www.broservices.nl/xsd/dsbhr-gt/2.1"
+                xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0"
+                xmlns:gml="http://www.opengis.net/gml/3.2"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                xsi:schemaLocation="http://www.broservices.nl/xsd/dsbhr-gt/2.1 https://schema.broservices.nl/xsd/dsbhr-gt/2.1/dsbhr-gt-messages.xsd"
+            >
+            <!-- Disclaimer: dit voorbeeldbericht valideert tegen de XSD van de uitgifteservice.
+                 Het houdt geen rekening met bedrijfsregels en is mogelijkerwijs vaktechnisch/inhoudelijk niet voorbeeldig.
+            -->
+            <brocom:responseType>dispatch</brocom:responseType>
+            <brocom:requestReference>101</brocom:requestReference>
+            <brocom:dispatchTime>2017-03-10T09:09:43+01:00</brocom:dispatchTime>
+            <numberOfDocuments>2</numberOfDocuments>
+            <dispatchDocument>
+                <BHR_GT_C gml:id="SEQ_0001">
+                    <brocom:broId>BHR123456789012</brocom:broId>
+                    <brocom:deregistered>nee</brocom:deregistered>
+                    <brocom:deliveryAccountableParty>52766179</brocom:deliveryAccountableParty>
+                    <brocom:qualityRegime>IMBRO/A</brocom:qualityRegime>
+                    <brocom:objectRegistrationTime>2017-02-23T00:00:00+01:00</brocom:objectRegistrationTime>
+                    <brocom:underReview>nee</brocom:underReview>
+                    <brocom:standardizedLocation srsName="urn:ogc:def:crs:EPSG::4258" gml:id="SEQ_0002">
+                        <gml:pos>52.287820210 5.090415500</gml:pos>
+                    </brocom:standardizedLocation>
+                    <brocom:deliveredLocation srsName="urn:ogc:def:crs:EPSG::28992" gml:id="SEQ_0003">
+                        <gml:pos>134750.000 477800.000</gml:pos>
+                    </brocom:deliveredLocation>
+                    <surveyPurpose codeSpace="urn:bro:bhrgt:SurveyPurpose">bouwwerk</surveyPurpose>
+                    <discipline codeSpace="urn:bro:bhrgt:Discipline">geotechniek</discipline>
+                    <researchReportDate>
+                        <brocom:date>2018-10-23</brocom:date>
+                    </researchReportDate>
+                    <localVerticalReferencePoint codeSpace="urn:bro:bhrgt:LocalVerticalReferencePoint">waterbodem</localVerticalReferencePoint>
+                    <offset uom="m">1.303</offset>
+                    <verticalDatum codeSpace="urn:bro:bhrgt:VerticalDatum">NAP</verticalDatum>
+                    <boringStartDate>
+                        <brocom:date>2018-08-23</brocom:date>
+                    </boringStartDate>
+                    <boringEndDate>
+                        <brocom:date>2018-08-23</brocom:date>
+                    </boringEndDate>
+                    <rockReached>ja</rockReached>
+                    <finalDepthBoring uom="m">47.2</finalDepthBoring>
+                    <descriptionReportDate>
+                        <brocom:date>2018-09-23</brocom:date>
+                    </descriptionReportDate>
+                    <descriptionProcedure codeSpace="urn:bro:bhrgt:DescriptionProcedure">NEN-5104</descriptionProcedure>
+                    <analysisReportDate>2018-10-23</analysisReportDate>
+                    <samplingQualityOverview>
+                        <samplingQuality codeSpace="urn:bro:bhrgt:SamplingQuality">klasseA</samplingQuality>
+                        <samplingQuality codeSpace="urn:bro:bhrgt:SamplingQuality">deelsOngeroerd</samplingQuality>
+                    </samplingQualityOverview>
+                    <analysisTypeOverview>
+                        <analysisType codeSpace="urn:bro:bhrgt:AnalysisType">basisparameter</analysisType>
+                        <analysisType codeSpace="urn:bro:bhrgt:AnalysisType">zettingWaterdoorlatendheid</analysisType>
+                    </analysisTypeOverview>
+                </BHR_GT_C>
+            </dispatchDocument>
+            <dispatchDocument>
+                <brocom:BRO_DO gml:id="SEQ_0004">
+                  <brocom:broId>BHR210987654321</brocom:broId>
+                  <brocom:deregistered>ja</brocom:deregistered>
+                  <brocom:deregistrationTime>2020-09-02T11:27:04+02:00</brocom:deregistrationTime>
+                </brocom:BRO_DO>
+            </dispatchDocument>
+        </dispatchCharacteristicsResponse>
+    </soap:Body>
+</soap:Envelope>
