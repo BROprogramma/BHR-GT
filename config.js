@@ -28,7 +28,7 @@ logos: [
   shortName: "BHR-GT",
   pubDomain: "bro",
   github: "https://github.com/BROprogramma/BHR-GT",
-  previousPublishDate: "2022-07-18",
-  previousStatus: "GN-VV",
+  previousPublishDate: "2022-09-01",
+  previousStatus: "GN-DEF",
   //localBiblio: {},
  };
