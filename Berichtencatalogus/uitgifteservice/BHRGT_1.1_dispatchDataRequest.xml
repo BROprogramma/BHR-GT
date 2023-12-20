@@ -1,9 +1,0 @@
-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="http://www.broservices.nl/xsd/dsbhr-gt/1.0" xmlns:ns1="http://www.broservices.nl/xsd/brocommon/3.0">
-   <soapenv:Header/>
-   <soapenv:Body>
-      <ns:dispatchDataRequest>
-         <ns1:requestReference>requestReference</ns1:requestReference>
-         <ns1:broId>BHR000000699396</ns1:broId>
-      </ns:dispatchDataRequest>
-   </soapenv:Body>
-</soapenv:Envelope>
