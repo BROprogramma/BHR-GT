@@ -5,21 +5,21 @@
                   xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata"
                   xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                   xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0"
-                  xmlns:msg="http://www.broservices.nl/xsd/isbhr-gt/2.0"
-                  xmlns:tns="http://www.broservices.nl/wsdl/isbhr-gt/2.0"
-                  targetNamespace="http://www.broservices.nl/wsdl/isbhr-gt/2.0">
+                  xmlns:msg="http://www.broservices.nl/xsd/isbhr-gt/2.2"
+                  xmlns:tns="http://www.broservices.nl/wsdl/isbhr-gt/2.2"
+                  targetNamespace="http://www.broservices.nl/wsdl/isbhr-gt/2.2">
 
     <wsdl:documentation>
         Deze WSDL beschrijft de webservice voor inname van geotechnische booronderzoek
     </wsdl:documentation>
 
     <wsdl:types>
-        <xsd:schema xmlns:tns="http://www.broservices.nl/wsdl/isbhr-gt/2.0" targetNamespace="http://www.broservices.nl/wsdl/isbhr-gt/2.0">
+        <xsd:schema xmlns:tns="http://www.broservices.nl/wsdl/isbhr-gt/2.2" targetNamespace="http://www.broservices.nl/wsdl/isbhr-gt/2.2">
             <!--
-            <xsd:import namespace="http://www.broservices.nl/xsd/isbhr-gt/2.0" schemaLocation="https://schema.broservices.nl/xsd/isbhr-gt/2.0/isbhr-gt-messages.xsd" />
+            <xsd:import namespace="http://www.broservices.nl/xsd/isbhr-gt/2.1" schemaLocation="https://schema.broservices.nl/xsd/isbhr-gt/2.1/isbhr-gt-messages.xsd" />
             <xsd:import namespace="http://www.broservices.nl/xsd/brocommon/3.0" schemaLocation="https://schema.broservices.nl/xsd/brocommon/3.0/brocommon.xsd" />
             -->
-            <xsd:import namespace="http://www.broservices.nl/xsd/isbhr-gt/2.0" schemaLocation="isbhr-gt-messages.xsd" />
+            <xsd:import namespace="http://www.broservices.nl/xsd/isbhr-gt/2.2" schemaLocation="isbhr-gt-messages.xsd" />
             <xsd:import namespace="http://www.broservices.nl/xsd/brocommon/3.0" schemaLocation="brocommon.xsd" />
         </xsd:schema>
     </wsdl:types>

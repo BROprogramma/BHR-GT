@@ -1,39 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--
-
-    Copyright TNO Geologische Dienst Nederland
-
-    Alle rechten voorbehouden.
-    Niets uit deze software mag worden vermenigvuldigd en/of openbaar gemaakt door middel van druk, fotokopie,
-    microfilm of op welke andere wijze dan ook, zonder voorafgaande toestemming van TNO.
-
-    Indien deze software in opdracht werd uitgebracht, wordt voor de rechten en verplichtingen van opdrachtgever
-    en opdrachtnemer verwezen naar de Algemene Voorwaarden voor opdrachten aan TNO, dan wel de betreffende
-    terzake tussen de partijen gesloten overeenkomst.
-
--->
-<xs:schema xmlns:isbhrgt="http://www.broservices.nl/xsd/isbhr-gt/2.0"
+<xs:schema xmlns:isbhrgt="http://www.broservices.nl/xsd/isbhr-gt/2.2"
            xmlns:xs="http://www.w3.org/2001/XMLSchema"
            xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0"
-           xmlns:bhrgtcom="http://www.broservices.nl/xsd/bhrgtcommon/2.0"
+           xmlns:bhrgtcom="http://www.broservices.nl/xsd/bhrgtcommon/2.2"
            xmlns:gml="http://www.opengis.net/gml/3.2"
            xmlns:gmlsf="http://www.opengis.net/gmlsf/2.0"
-           targetNamespace="http://www.broservices.nl/xsd/isbhr-gt/2.0"
+           targetNamespace="http://www.broservices.nl/xsd/isbhr-gt/2.2"
            elementFormDefault="qualified"
-           version="1.99">
+           version="2.2.0">
 
    <xs:annotation>
       <xs:appinfo source="http://schemas.opengis.net/gmlsfProfile/2.0/gmlsfLevels.xsd">
          <gmlsf:ComplianceLevel>0</gmlsf:ComplianceLevel>
       </xs:appinfo>
    </xs:annotation>
-   <!--
+
+<!--
    <xs:import namespace="http://www.broservices.nl/xsd/brocommon/3.0" schemaLocation="https://schema.broservices.nl/xsd/brocommon/3.0/brocommon.xsd"/>
-   <xs:import namespace="http://www.broservices.nl/xsd/bhrgtcommon/2.0" schemaLocation="https://schema.broservices.nl/xsd/bhrgtcommon/2.0/bhrgtcommon.xsd"/>
+   <xs:import namespace="http://www.broservices.nl/xsd/bhrgtcommon/2.2" schemaLocation="https://schema.broservices.nl/xsd/bhrgtcommon/2.2/bhrgtcommon.xsd"/>
    <xs:import namespace="http://www.opengis.net/gml/3.2" schemaLocation="https://schema.broservices.nl/profile/gml/1.0/gml-profile.xsd"/>
-   -->
+-->
    <xs:import namespace="http://www.broservices.nl/xsd/brocommon/3.0" schemaLocation="brocommon.xsd"/>
-   <xs:import namespace="http://www.broservices.nl/xsd/bhrgtcommon/2.0" schemaLocation="bhrgtcommon.xsd"/>
+   <xs:import namespace="http://www.broservices.nl/xsd/bhrgtcommon/2.2" schemaLocation="bhrgtcommon.xsd"/>
    <xs:import namespace="http://www.opengis.net/gml/3.2" schemaLocation="gml-profile.xsd"/>
 
    <xs:element name="intakeResponse" type="brocom:IntakeResponseType" />
@@ -95,16 +83,16 @@
       </xs:complexContent>
    </xs:complexType>
 
-   <xs:element name="BHR_GT_CompleteReport_V2"
-               type="isbhrgt:BHR_GT_CompleteReport_V2Type"
-               substitutionGroup="isbhrgt:BHR_GT_StartReport_V2">
+   <xs:element name="BHR_GT_CompleteReport_V1"
+               type="isbhrgt:BHR_GT_CompleteReport_V1Type"
+               substitutionGroup="isbhrgt:BHR_GT_StartReport_V1">
       <xs:annotation>
          <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het brondocument wordt aangeboden wanneer de rapportage van het geotechnisch booronderzoek in een keer volledig wordt gerapporteerd. De registratie is met dit brondocument direct voltooid.</xs:documentation>
       </xs:annotation>
    </xs:element>
-   <xs:complexType name="BHR_GT_CompleteReport_V2Type">
+   <xs:complexType name="BHR_GT_CompleteReport_V1Type">
       <xs:complexContent>
-         <xs:extension base="isbhrgt:BHR_GT_StartReport_V2Type">
+         <xs:extension base="isbhrgt:BHR_GT_StartReport_V1Type">
             <xs:sequence>
                <xs:element name="researchReportDate"
                            type="brocom:PartialDateType"
@@ -118,20 +106,15 @@
          </xs:extension>
       </xs:complexContent>
    </xs:complexType>
-   <xs:complexType name="BHR_GT_CompleteReport_V2PropertyType">
-      <xs:sequence minOccurs="1">
-         <xs:element ref="isbhrgt:BHR_GT_CompleteReport_V2"/>
-      </xs:sequence>
-   </xs:complexType>
 
-   <xs:element name="BHR_GT_EndReport_V2"
-               type="isbhrgt:BHR_GT_EndReport_V2Type"
+   <xs:element name="BHR_GT_EndReport_V1"
+               type="isbhrgt:BHR_GT_EndReport_V1Type"
                substitutionGroup="gml:AbstractFeature">
       <xs:annotation>
          <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het brondocument wordt aangeboden wanneer het geotechnisch booronderzoek wordt aangevuld met de laatste rapportage en daarmee volledig is gerapporteerd. De registratie is met dit brondocument voltooid.</xs:documentation>
       </xs:annotation>
    </xs:element>
-   <xs:complexType name="BHR_GT_EndReport_V2Type">
+   <xs:complexType name="BHR_GT_EndReport_V1Type">
       <xs:complexContent>
          <xs:extension base="gml:AbstractFeatureType">
             <xs:sequence>
@@ -157,20 +140,15 @@
          </xs:extension>
       </xs:complexContent>
    </xs:complexType>
-   <xs:complexType name="BHR_GT_EndReport_V2PropertyType">
-      <xs:sequence minOccurs="1">
-         <xs:element ref="isbhrgt:BHR_GT_EndReport_V2"/>
-      </xs:sequence>
-   </xs:complexType>
 
-   <xs:element name="BHR_GT_StartReport_V2"
-               type="isbhrgt:BHR_GT_StartReport_V2Type"
+   <xs:element name="BHR_GT_StartReport_V1"
+               type="isbhrgt:BHR_GT_StartReport_V1Type"
                substitutionGroup="gml:AbstractFeature">
       <xs:annotation>
          <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het brondocument wordt aangeboden wanneer de rapportage van het geotechnisch booronderzoek in delen wordt gerapporteerd. De registratie is met dit brondocument gestart</xs:documentation>
       </xs:annotation>
    </xs:element>
-   <xs:complexType name="BHR_GT_StartReport_V2Type">
+   <xs:complexType name="BHR_GT_StartReport_V1Type">
       <xs:complexContent>
          <xs:extension base="gml:AbstractFeatureType">
             <xs:sequence>
@@ -189,7 +167,8 @@
                            maxOccurs="1"
                            type="xs:string">
                   <xs:annotation>
-                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: TODO</xs:documentation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De identificatie die door of voor de bronhouder is gebruikt om het object in de eigen administratie te kunnen vinden, voordat het was geregistreerd in de basisregistratie ondergrond.
+Explanation: Het gegeven wordt alleen uitgeleverd aan de dataleverancier en de bronhouder. Het is in de registratie opgenomen om de communicatie tussen de registerbeheerder en de bronhouder of dataleverancier te vergemakkelijken.</xs:documentation>
                   </xs:annotation>
                </xs:element>
                <xs:element name="deliveryContext"
@@ -256,8 +235,7 @@
                <xs:element name="siteCharacteristicDetermined"
                            type="brocom:IndicationYesNoType"
                            minOccurs="0"
-                           maxOccurs="1"
-                           nillable="true">
+                           maxOccurs="1">
                   <xs:annotation>
                      <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De aanduiding die aangeeft of in het onderzoek gegevens over de toestand van het terrein zijn vastgelegd die van betekenis zijn voor de beoordeling van de resultaten.
                         Explanation: Voor gegevens die zijn aangeleverd in het kader van archiefoverdracht is zelden informatie over de toestand van het terrein vastgelegd.</xs:documentation>
@@ -292,11 +270,6 @@
          </xs:extension>
       </xs:complexContent>
    </xs:complexType>
-   <xs:complexType name="BHR_GT_StartReport_V2PropertyType">
-      <xs:sequence minOccurs="1">
-         <xs:element ref="isbhrgt:BHR_GT_StartReport_V2"/>
-      </xs:sequence>
-   </xs:complexType>
 
    <xs:complexType name="CorrectionReasonType">
       <xs:simpleContent>
@@ -310,9 +283,9 @@
    </xs:complexType>
    <xs:complexType name="SourceDocumentType">
       <xs:choice minOccurs="1" maxOccurs="1">
-         <xs:element name="BHR_GT_CompleteReport_V2" type="isbhrgt:BHR_GT_CompleteReport_V2Type"/>
-         <xs:element name="BHR_GT_StartReport_V2" type="isbhrgt:BHR_GT_StartReport_V2Type"/>
-         <xs:element name="BHR_GT_EndReport_V2" type="isbhrgt:BHR_GT_EndReport_V2Type"/>
+         <xs:element name="BHR_GT_CompleteReport_V1" type="isbhrgt:BHR_GT_CompleteReport_V1Type"/>
+         <xs:element name="BHR_GT_StartReport_V1" type="isbhrgt:BHR_GT_StartReport_V1Type"/>
+         <xs:element name="BHR_GT_EndReport_V1" type="isbhrgt:BHR_GT_EndReport_V1Type"/>
       </xs:choice>
    </xs:complexType>
 </xs:schema>

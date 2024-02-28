@@ -3,21 +3,26 @@
     xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
     xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
 	xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0"
     xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata"
-    xmlns:msg="http://www.broservices.nl/xsd/dsbhr-gt/2.0"
-	xmlns:tns="http://www.broservices.nl/wsdl/dsbhr-gt/2.0"
-	targetNamespace="http://www.broservices.nl/wsdl/dsbhr-gt/2.0">
+    xmlns:msg="http://www.broservices.nl/xsd/dsbhr-gt/2.2"
+	xmlns:tns="http://www.broservices.nl/wsdl/dsbhr-gt/2.2"
+	targetNamespace="http://www.broservices.nl/wsdl/dsbhr-gt/2.2">
 
     <wsdl:documentation>
         Deze WSDL beschrijft de webservice voor uitgifte van geotechnisch booronderzoek
+        Changes compared to Version:1.0.0:
+        - soap header toegevoegd voor delivery responsible party
     </wsdl:documentation>
 
     <wsdl:types>
-        <xsd:schema xmlns:tns="http://www.broservices.nl/wsdl/dsbhr-gt/2.0" targetNamespace="http://www.broservices.nl/wsdl/dsbhr-gt/2.0">
+        <xsd:schema xmlns:tns="http://www.broservices.nl/wsdl/dsbhr-gt/2.2" targetNamespace="http://www.broservices.nl/wsdl/dsbhr-gt/2.2">
             <!--
-            <xsd:import namespace="http://www.broservices.nl/xsd/dsbhr-gt/2.0" schemaLocation="https://schema.broservices.nl/xsd/dsbhr-gt/2.0/dsbhr-gt-messages.xsd" />
-            -->
-            <xsd:import namespace="http://www.broservices.nl/xsd/dsbhr-gt/2.0" schemaLocation="dsbhr-gt-messages.xsd" />
+            <xsd:import namespace="http://www.broservices.nl/xsd/dsbhr-gt/2.1" schemaLocation="https://schema.broservices.nl/xsd/dsbhr-gt/2.1/dsbhr-gt-messages.xsd" />
+            <xsd:import namespace="http://www.broservices.nl/xsd/brocommon/3.0" schemaLocation="https://schema.broservices.nl/xsd/brocommon/3.0/brocommon.xsd" />
+			-->
+            <xsd:import namespace="http://www.broservices.nl/xsd/dsbhr-gt/2.2" schemaLocation="dsbhr-gt-messages.xsd" />
+            <xsd:import namespace="http://www.broservices.nl/xsd/brocommon/3.0" schemaLocation="brocommon.xsd" />
         </xsd:schema>
     </wsdl:types>
 
@@ -36,6 +41,10 @@
 
     <wsdl:message name="parseSoapFault">
         <wsdl:part element="msg:parseFault" name="parseFault" />
+    </wsdl:message>
+
+    <wsdl:message name="DeliveryResponsiblePartyHeader">
+        <wsdl:part name="deliveryResponsibleParty" element="brocom:deliveryResponsibleParty"></wsdl:part>
     </wsdl:message>
 
     <wsdl:portType name="dsbhr-gt">
@@ -58,6 +67,7 @@
             <soap:operation soapAction="" style="document" />
             <wsdl:input>
                 <soap:body use="literal" />
+                <soap:header use="literal" part="deliveryResponsibleParty" message="tns:DeliveryResponsiblePartyHeader" />
             </wsdl:input>
             <wsdl:output>
                 <soap:body use="literal" />
@@ -70,6 +80,7 @@
             <soap:operation soapAction="" style="document" />
             <wsdl:input>
                 <soap:body use="literal" />
+                <soap:header use="literal" part="deliveryResponsibleParty" message="tns:DeliveryResponsiblePartyHeader" />
             </wsdl:input>
             <wsdl:output>
                 <soap:body use="literal" />

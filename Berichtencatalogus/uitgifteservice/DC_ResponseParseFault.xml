@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <soap:Envelope 
         xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-        xmlns:dsbhrgt="http://www.broservices.nl/xsd/dsbhr-gt/2.1"
-        xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0"
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="http://www.broservices.nl/xsd/dsbhr-gt/2.1 https://schema.broservices.nl/xsd/dsbhr-gt/2.1/dsbhr-gt-messages.xsd"
-    >
+        xsi:schemaLocation="http://schemas.xmlsoap.org/soap/envelope/ http://schemas.xmlsoap.org/soap/envelope/">
     <!-- Disclaimer: dit voorbeeldbericht valideert tegen de XSD van de uitgifteservice.
          Het houdt geen rekening met bedrijfsregels en is mogelijkerwijs vaktechnisch/inhoudelijk niet voorbeeldig.
     -->
@@ -14,7 +11,14 @@
             <faultcode>soap:Client</faultcode>
             <faultstring>Het verzoek voldoet niet aan het schema.</faultstring>
             <detail>
-                <dsbhrgt:parseFault>
+                <dsbhrgt:parseFault
+                    xmlns:dsbhrgt="http://www.broservices.nl/xsd/dsbhr-gt/2.2"
+                    xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="http://www.broservices.nl/xsd/dsbhr-gt/2.2 ../../XSD/dsbhr-gt-messages.xsd">
+                <!--
+                    xsi:schemaLocation="http://www.broservices.nl/xsd/dsbhr-gt/2.2 https://schema.broservices.nl/xsd/dsbhr-gt/2.2/dsbhr-gt-messages.xsd">
+                -->
                     <brocom:abortTime>2017-06-23T09:59:49+01:00</brocom:abortTime>
                     <brocom:abortReason>
                         <brocom:sequenceNumber>1</brocom:sequenceNumber>
