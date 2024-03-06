@@ -12,12 +12,12 @@
             <faultstring>Het verzoek voldoet niet aan het schema.</faultstring>
             <detail>
                 <dsbhrgt:parseFault
-                    xmlns:dsbhrgt="http://www.broservices.nl/xsd/dsbhr-gt/2.2"
+                    xmlns:dsbhrgt="http://www.broservices.nl/xsd/dsbhr-gt/2.1"
                     xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0"
                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                    xsi:schemaLocation="http://www.broservices.nl/xsd/dsbhr-gt/2.2 ../../XSD/dsbhr-gt-messages.xsd">
+                    xsi:schemaLocation="http://www.broservices.nl/xsd/dsbhr-gt/2.1 ../../XSD/dsbhr-gt-messages.xsd">
                 <!--
-                    xsi:schemaLocation="http://www.broservices.nl/xsd/dsbhr-gt/2.2 https://schema.broservices.nl/xsd/dsbhr-gt/2.2/dsbhr-gt-messages.xsd">
+                    xsi:schemaLocation="http://www.broservices.nl/xsd/dsbhr-gt/2.1 https://schema.broservices.nl/xsd/dsbhr-gt/2.1/dsbhr-gt-messages.xsd">
                 -->
                     <brocom:abortTime>2017-06-23T09:59:49+01:00</brocom:abortTime>
                     <brocom:abortReason>

@@ -1,13 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns:dsbhrgt="http://www.broservices.nl/xsd/dsbhr-gt/2.2"
+<!--
+
+    Copyright TNO Geologische Dienst Nederland
+
+    Alle rechten voorbehouden.
+    Niets uit deze software mag worden vermenigvuldigd en/of openbaar gemaakt door middel van druk, fotokopie,
+    microfilm of op welke andere wijze dan ook, zonder voorafgaande toestemming van TNO.
+
+    Indien deze software in opdracht werd uitgebracht, wordt voor de rechten en verplichtingen van opdrachtgever
+    en opdrachtnemer verwezen naar de Algemene Voorwaarden voor opdrachten aan TNO, dan wel de betreffende
+    terzake tussen de partijen gesloten overeenkomst.
+
+-->
+<xs:schema xmlns:dsbhrgt="http://www.broservices.nl/xsd/dsbhr-gt/2.1"
            xmlns:xs="http://www.w3.org/2001/XMLSchema"
            xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0"
-           xmlns:bhrgtcom="http://www.broservices.nl/xsd/bhrgtcommon/2.2"
+           xmlns:bhrgtcom="http://www.broservices.nl/xsd/bhrgtcommon/2.1"
            xmlns:gml="http://www.opengis.net/gml/3.2"
            xmlns:gmlsf="http://www.opengis.net/gmlsf/2.0"
-           targetNamespace="http://www.broservices.nl/xsd/dsbhr-gt/2.2"
+           targetNamespace="http://www.broservices.nl/xsd/dsbhr-gt/2.1"
            elementFormDefault="qualified"
-           version="2.2.1">
+           version="2.1.1">
 
     <xs:annotation>
         <xs:appinfo source="http://schemas.opengis.net/gmlsfProfile/2.0/gmlsfLevels.xsd">
@@ -15,13 +28,13 @@
         </xs:appinfo>
     </xs:annotation>
 
-<!--
+    <!--
     <xs:import namespace="http://www.broservices.nl/xsd/brocommon/3.0" schemaLocation="https://schema.broservices.nl/xsd/brocommon/3.0/brocommon.xsd"/>
-    <xs:import namespace="http://www.broservices.nl/xsd/bhrgtcommon/2.2" schemaLocation="https://schema.broservices.nl/xsd/bhrgtcommon/2.2/bhrgtcommon.xsd"/>
+    <xs:import namespace="http://www.broservices.nl/xsd/bhrgtcommon/2.1" schemaLocation="https://schema.broservices.nl/xsd/bhrgtcommon/2.1/bhrgtcommon.xsd"/>
     <xs:import namespace="http://www.opengis.net/gml/3.2" schemaLocation="https://schema.broservices.nl/profile/gml/1.0/gml-profile.xsd"/>
--->
+    -->
     <xs:import namespace="http://www.broservices.nl/xsd/brocommon/3.0" schemaLocation="brocommon.xsd"/>
-    <xs:import namespace="http://www.broservices.nl/xsd/bhrgtcommon/2.2" schemaLocation="bhrgtcommon.xsd"/>
+    <xs:import namespace="http://www.broservices.nl/xsd/bhrgtcommon/2.1" schemaLocation="bhrgtcommon.xsd"/>
     <xs:import namespace="http://www.opengis.net/gml/3.2" schemaLocation="gml-profile.xsd"/>
 
     <xs:element name="dispatchDataRequest" type="brocom:DispatchDataRequestType" />

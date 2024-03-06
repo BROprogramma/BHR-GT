@@ -1,48 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-							   
-<xs:schema xmlns:bhrgtcom="http://www.broservices.nl/xsd/bhrgtcommon/2.2"
-													  
+<!--
+
+    Copyright TNO Geologische Dienst Nederland
+
+    Alle rechten voorbehouden.
+    Niets uit deze software mag worden vermenigvuldigd en/of openbaar gemaakt door middel van druk, fotokopie,
+    microfilm of op welke andere wijze dan ook, zonder voorafgaande toestemming van TNO.
+
+    Indien deze software in opdracht werd uitgebracht, wordt voor de rechten en verplichtingen van opdrachtgever
+    en opdrachtnemer verwezen naar de Algemene Voorwaarden voor opdrachten aan TNO, dan wel de betreffende
+    terzake tussen de partijen gesloten overeenkomst.
+
+-->
+<xs:schema xmlns:bhrgtcom="http://www.broservices.nl/xsd/bhrgtcommon/2.1"
            xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0"
            xmlns:gml="http://www.opengis.net/gml/3.2"
-													 
            xmlns:gmlsf="http://www.opengis.net/gmlsf/2.0"
-           xmlns:imf="http://www.imvertor.org/xsl/functions"
-           xmlns:imvert="http://www.imvertor.org/schema/system"
-           xmlns:math="http://www.w3.org/2005/xpath-functions/math"
            xmlns:swe="http://www.opengis.net/swe/2.0"
            xmlns:xs="http://www.w3.org/2001/XMLSchema"
-           targetNamespace="http://www.broservices.nl/xsd/bhrgtcommon/2.2"
+           targetNamespace="http://www.broservices.nl/xsd/bhrgtcommon/2.1"
            elementFormDefault="qualified"
            attributeFormDefault="unqualified"
-           version="2.2.0">
-	<xs:annotation>
-		<xs:appinfo source="http://www.imvertor.org/model-info/project">Logical model</xs:appinfo>
-		<xs:appinfo source="http://www.imvertor.org/model-info/application">Geotechnisch booronderzoek (BHR-GT)</xs:appinfo>
-		<xs:appinfo source="http://www.imvertor.org/model-info/release">20220718</xs:appinfo>
-		<xs:appinfo source="http://www.imvertor.org/model-info/version">2.2.0</xs:appinfo>
-		<xs:appinfo source="http://www.imvertor.org/model-info/phase">1</xs:appinfo>
-		<xs:appinfo source="http://www.imvertor.org/model-info/uri">http://www.broservices.nl/xsd/bhrgtcommon</xs:appinfo>
-		<xs:appinfo source="http://www.imvertor.org/model-info/generated">2024-01-03T15:32:45Z</xs:appinfo>
-		<xs:appinfo source="http://www.imvertor.org/xml-schema-info/file-location">Geotechnisch%20booronderzoek%20%28BHR-GT%29/unknown/v20220718/Bhrgtcom.xsd</xs:appinfo>
-		<xs:appinfo source="http://www.imvertor.org/xml-schema-info/generated">January 3, 2024 at 15:32:45</xs:appinfo>
-		<xs:appinfo source="http://www.imvertor.org/xml-schema-info/generator">1.67.1</xs:appinfo>
-		<xs:documentation source="http://www.imvertor.org/schema-info/file-location">Geotechnisch%20booronderzoek%20%28BHR-GT%29/unknown/v20220718/Bhrgtcom.xsd</xs:documentation>
-		<xs:documentation source="http://www.imvertor.org/schema-info/conversion">
-        This schema is based on an UML specification, which is transformed by the Imvertor software. Imvertor modules are in the public domain, see http://www.imvertor.org.
-    </xs:documentation>
-	</xs:annotation>
+           version="2.1.1">
 	<xs:annotation>
 		<xs:appinfo source="http://schemas.opengis.net/gmlsfProfile/2.0/gmlsfLevels.xsd">
 			<gmlsf:ComplianceLevel>0</gmlsf:ComplianceLevel>
 		</xs:appinfo>
 	</xs:annotation>
-	
+
 	<!--
-	<xs:import namespace="http://www.broservices.nl/xsd/brocommon/3.0" schemaLocation="https://schema.broservices.nl/xsd/brocommon/3.0/brocommon.xsd"/>
+    <xs:import namespace="http://www.broservices.nl/xsd/brocommon/3.0" schemaLocation="https://schema.broservices.nl/xsd/brocommon/3.0/brocommon.xsd"/>
 	<xs:import namespace="http://www.opengis.net/gml/3.2" schemaLocation="https://schema.broservices.nl/profile/gml/1.0/gml-profile.xsd"/>
 	<xs:import namespace="http://www.opengis.net/swe/2.0" schemaLocation="https://schema.broservices.nl/profile/swe/1.0/swe-profile.xsd"/>
     -->
-	<xs:import namespace="http://www.broservices.nl/xsd/brocommon/3.0" schemaLocation="brocommon.xsd"/>
+    <xs:import namespace="http://www.broservices.nl/xsd/brocommon/3.0" schemaLocation="brocommon.xsd"/>
 	<xs:import namespace="http://www.opengis.net/gml/3.2" schemaLocation="gml-profile.xsd"/>
 	<xs:import namespace="http://www.opengis.net/swe/2.0" schemaLocation="swe-profile.xsd"/>
 	

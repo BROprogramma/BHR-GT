@@ -5,9 +5,9 @@
 	xmlns:xsd="http://www.w3.org/2001/XMLSchema"
     xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0"
     xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata"
-    xmlns:msg="http://www.broservices.nl/xsd/dsbhr-gt/2.2"
-	xmlns:tns="http://www.broservices.nl/wsdl/dsbhr-gt/2.2"
-	targetNamespace="http://www.broservices.nl/wsdl/dsbhr-gt/2.2">
+    xmlns:msg="http://www.broservices.nl/xsd/dsbhr-gt/2.1"
+	xmlns:tns="http://www.broservices.nl/wsdl/dsbhr-gt/2.1"
+	targetNamespace="http://www.broservices.nl/wsdl/dsbhr-gt/2.1">
 
     <wsdl:documentation>
         Deze WSDL beschrijft de webservice voor uitgifte van geotechnisch booronderzoek
@@ -16,12 +16,12 @@
     </wsdl:documentation>
 
     <wsdl:types>
-        <xsd:schema xmlns:tns="http://www.broservices.nl/wsdl/dsbhr-gt/2.2" targetNamespace="http://www.broservices.nl/wsdl/dsbhr-gt/2.2">
+        <xsd:schema xmlns:tns="http://www.broservices.nl/wsdl/dsbhr-gt/2.2" targetNamespace="http://www.broservices.nl/wsdl/dsbhr-gt/2.1">
             <!--
             <xsd:import namespace="http://www.broservices.nl/xsd/dsbhr-gt/2.1" schemaLocation="https://schema.broservices.nl/xsd/dsbhr-gt/2.1/dsbhr-gt-messages.xsd" />
             <xsd:import namespace="http://www.broservices.nl/xsd/brocommon/3.0" schemaLocation="https://schema.broservices.nl/xsd/brocommon/3.0/brocommon.xsd" />
-			-->
-            <xsd:import namespace="http://www.broservices.nl/xsd/dsbhr-gt/2.2" schemaLocation="dsbhr-gt-messages.xsd" />
+            -->
+            <xsd:import namespace="http://www.broservices.nl/xsd/dsbhr-gt/2.1" schemaLocation="dsbhr-gt-messages.xsd" />
             <xsd:import namespace="http://www.broservices.nl/xsd/brocommon/3.0" schemaLocation="brocommon.xsd" />
         </xsd:schema>
     </wsdl:types>
