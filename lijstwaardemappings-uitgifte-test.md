@@ -12,7 +12,7 @@ Als er voor een vervallen waarde één nieuwe waarde in de plaats is gekomen, da
     <th>Catalogusversie vervallen waarde laatst geldig</th>
   </tr>
   <tr>
-    <td>OrganischestofGehalteKlasse</td>
+    <td>OrganischestofGehalteKlasseNEN5104</td>
     <td>nietHumeus</td>
     <td>zwakHumeus</td>
     <td>2.1</td>
