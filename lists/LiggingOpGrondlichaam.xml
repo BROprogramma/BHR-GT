@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<LiggingOpGrondlichaam>
+		<Waarde>binnenteen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De binnenteen is de overgang van het talud naar het maaiveld aan de binnenzijde (bij dijken de landzijde) van het grondlichaam.</Omschrijving>
+	</LiggingOpGrondlichaam>
+	<LiggingOpGrondlichaam>
+		<Waarde>buitenteen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De buitenteen is de overgang van het talud naar het maaiveld aan de buitenzijde (bij dijken de waterzijde) van het grondlichaam.</Omschrijving>
+	</LiggingOpGrondlichaam>
+	<LiggingOpGrondlichaam>
+		<Waarde>kruin</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De top of het hoogste vlak van het grondlichaam.</Omschrijving>
+	</LiggingOpGrondlichaam>
+	<LiggingOpGrondlichaam>
+		<Waarde>talud</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De zijwand van het grondlichaam.</Omschrijving>
+	</LiggingOpGrondlichaam>
+	<LiggingOpGrondlichaam>
+		<Waarde>teen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De overgang van het talud naar het maaiveld, niet nader gespecificeerd naar binnen- of buitenkant.</Omschrijving>
+	</LiggingOpGrondlichaam>
+</domeintabel>

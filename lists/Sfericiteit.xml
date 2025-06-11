@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Sfericiteit>
+		<Waarde>bol</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De gemiddelde korrel is in alle richtingen ongeveer even lang.</Omschrijving>
+	</Sfericiteit>
+	<Sfericiteit>
+		<Waarde>langwerpig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De gemiddelde korrel is in twee van de drie richtingen ongeveer even lang, maar in de derde veel langer</Omschrijving>
+	</Sfericiteit>
+	<Sfericiteit>
+		<Waarde>plat</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De gemiddelde korrel is in twee van de drie richtingen ongeveer even lang, maar in de derde veel korter.</Omschrijving>
+	</Sfericiteit>
+</domeintabel>

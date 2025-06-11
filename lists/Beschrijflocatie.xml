@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Beschrijflocatie>
+		<Waarde>lab</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De monsters zijn beschreven in een beschrijfruimte.</Omschrijving>
+	</Beschrijflocatie>
+	<Beschrijflocatie>
+		<Waarde>veld</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De monsters zijn beschreven in het veld, direct na monstername.</Omschrijving>
+	</Beschrijflocatie>
+	<Beschrijflocatie>
+		<Waarde>veldlab</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De monsters zijn beschreven in een container aan boord van een schip of een daarmee vergelijkbare ruimte, direct na monstername.</Omschrijving>
+	</Beschrijflocatie>
+	<Beschrijflocatie>
+		<Waarde>onbekend</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De plek waar de monsters zijn beschreven is niet bekend.</Omschrijving>
+	</Beschrijflocatie>
+</domeintabel>

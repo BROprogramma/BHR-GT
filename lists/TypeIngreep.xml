@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<TypeIngreep>
+		<Waarde>gecontroleerdAangebracht</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Opgebracht materiaal dat tot een bepaalde graad verdicht is (engineered fill).</Omschrijving>
+	</TypeIngreep>
+	<TypeIngreep>
+		<Waarde>geroerd</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De natuurlijke samenhang van de grond is door ploegen of andere vormen van omwoelen verstoord.</Omschrijving>
+	</TypeIngreep>
+	<TypeIngreep>
+		<Waarde>losGestort</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Opgebracht materiaal dat los gestort is.</Omschrijving>
+	</TypeIngreep>
+	<TypeIngreep>
+		<Waarde>nietBepaald</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De wijze waarop de mens in de opbouw van de ondergrond heeft ingegrepen, kon niet worden bepaald.</Omschrijving>
+	</TypeIngreep>
+	<TypeIngreep>
+		<Waarde>onbekend</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het is niet bekend op welke wijze de mens in de opbouw van de ondergrond heeft ingegrepen.</Omschrijving>
+	</TypeIngreep>
+</domeintabel>

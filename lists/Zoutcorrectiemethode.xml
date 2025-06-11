@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Zoutcorrectiemethode>
+		<Waarde>nietToegepast</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het watergehalte is niet gecorrigeerd voor het gehalte aan opgeloste zouten.</Omschrijving>
+	</Zoutcorrectiemethode>
+	<Zoutcorrectiemethode>
+		<Waarde>zoutgehalteAangenomen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het watergehalte is gecorrigeerd voor het gehalte aan opgeloste zouten. Het zoutgehalte van het poriënwater is een aangenomen waarde.</Omschrijving>
+	</Zoutcorrectiemethode>
+	<Zoutcorrectiemethode>
+		<Waarde>zoutgehalteBepaald</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het watergehalte is gecorrigeerd voor het gehalte aan opgeloste zouten. Het zoutgehalte van het poriënwater is bepaald.</Omschrijving>
+	</Zoutcorrectiemethode>
+</domeintabel>

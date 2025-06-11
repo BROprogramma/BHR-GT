@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Coordinaattransformatie>
+		<Waarde>7parameterTransformatie</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De gegevens zijn getransformeerd van WGS84 naar ETRS89, gebruikmakend van de 7-parameter transformatie. De transformatieparameters zijn afkomstig van de Dienst der Hydrografie en zijn tijdsafhankelijk. Voor elk jaar is een parameterset beschikbaar voor de berekening van coördinaten in ETRS89 in Nederland, waarna een transformatieprocedure naar de juiste dag volgt.</Omschrijving>
+	</Coordinaattransformatie>
+	<Coordinaattransformatie>
+		<Waarde>7parameterTransformatie1989</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De gegevens zijn getransformeerd van WGS84 naar ETRS89, gebruikmakend van de 7-parameter transformatie. De transformatieparameters zijn afkomstig van de Dienst der Hydrografie en zijn tijdsafhankelijk. Bij transformatie is gebruik gemaakt van de parameterset 1989.0.</Omschrijving>
+	</Coordinaattransformatie>
+	<Coordinaattransformatie>
+		<Waarde>nietGetransformeerd</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De gegevens zijn aangeleverd in ETRS89; transformatie was niet nodig.</Omschrijving>
+	</Coordinaattransformatie>
+	<Coordinaattransformatie>
+		<Waarde>RDNAPTRANS2008</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De gegevens zijn getransformeerd van RD naar ETRS89, gebruikmakend van de transformatie RDNAPTRANS™, versie 2008. RDNAPTRANS™ is de officiële transformatie tussen RD/NAP en ETRS89 afkomstig van het Kadaster.</Omschrijving>
+	</Coordinaattransformatie>
+	<Coordinaattransformatie>
+		<Waarde>RDNAPTRANS2018</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De gegevens zijn getransformeerd van RD naar ETRS89, gebruikmakend van de transformatie RDNAPTRANS™, versie 2018. RDNAPTRANS™ is de officiële transformatie tussen RD/NAP en ETRS89 afkomstig van het Kadaster, Rijkswaterstaat en de Dienst der Hydrografie van de Koninklijke Marine in het samenwerkingsverband NSGI (Nederlandse Samenwerking Geodetische Infrastructuur).</Omschrijving>
+	</Coordinaattransformatie>
+	<Coordinaattransformatie>
+		<Waarde>RDNAPTRANS2008MV0</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De gegevens zijn getransformeerd van RD naar ETRS89, gebruikmakend van de Transformatie RDNAPTRANS™, versie 2008. De positie van het aardoppervlak is onbekend, bij transformatie is uitgegaan van 0 m NAP. RDNAPTRANS™ is de officiële transformatie tussen RD/NAP en ETRS89 afkomstig van het Kadaster.</Omschrijving>
+	</Coordinaattransformatie>
+	<Coordinaattransformatie>
+		<Waarde>RDNAPTRANS2018MV0</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De gegevens zijn getransformeerd van RD naar ETRS89, gebruikmakend van de Transformatie RDNAPTRANS™, versie 2008. De positie van het aardoppervlak is onbekend, bij transformatie is uitgegaan van 0 m NAP. RDNAPTRANS™ is de officiële transformatie tussen RD/NAP en ETRS89 afkomstig van het Kadaster.</Omschrijving>
+	</Coordinaattransformatie>
+</domeintabel>

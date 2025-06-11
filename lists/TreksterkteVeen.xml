@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<TreksterkteVeen>
+		<Waarde>geen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De vezels grijpen niet in elkaar. Monsters zonder treksterkte geven geen weerstand bij het uit elkaar trekken, de vezels zijn te klein of afwezig om in elkaar te haken.</Omschrijving>
+	</TreksterkteVeen>
+	<TreksterkteVeen>
+		<Waarde>laag</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De vezels grijpen iets in elkaar. Bij monsters met een lage treksterkte glijden de vezels langs elkaar zonder veel weerstand. Dit komt voor bij monster die veel kleine vezels hebben en enkele grote vezels.</Omschrijving>
+	</TreksterkteVeen>
+	<TreksterkteVeen>
+		<Waarde>matig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De vezels grijpen in elkaar. Bij monsters met een matige treksterkte wordt weerstand gevoeld bij het uit elkaar trekken van de grond. De vezels blijven aan elkaar haken en vormen een netwerk dat de grond ondersteunt.</Omschrijving>
+	</TreksterkteVeen>
+	<TreksterkteVeen>
+		<Waarde>hoog</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De vezels grijpen sterk in elkaar. Bij monsters met een hoge treksterkte wordt veel weerstand gevoeld bij het uit elkaar trekken. De vezels vormen een netwerk of mat. Bij het uit elkaar trekken breken of knappen vezels.</Omschrijving>
+	</TreksterkteVeen>
+</domeintabel>

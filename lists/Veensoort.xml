@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Veensoort>
+		<Waarde>bosveen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het veen bestaat uit een bruinkleurige matrix die weinig samenhang vertoont met daarin licht geel- tot roodbruine resten van hout die typisch millimeters tot decimeters groot zijn. Dit type veen kan een relatief grote minerale component hebben.</Omschrijving>
+	</Veensoort>
+	<Veensoort>
+		<Waarde>heideveen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het veen bestaat uit een samenhangende bruin- tot zwartkleurige matrix van fijn vezelig materiaal met daarin veel als zodanig herkenbare roodbruine resten van worteltjes en takjes van heide: dunne, kronkelige, houtige resten van typisch centimeters lengte. Dit type veen is gewoonlijk mineraalarm.</Omschrijving>
+	</Veensoort>
+	<Veensoort>
+		<Waarde>mosveen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het veen heeft veelal een platige structuur en bestaat voornamelijk uit zeer fijne bruinkleurige vezeltjes met een schilferig uiterlijk. Dit type veen is gewoonlijk mineraalarm.</Omschrijving>
+	</Veensoort>
+	<Veensoort>
+		<Waarde>rietveen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het veen bestaat voornamelijk uit als zodanig herkenbare geelkleurige resten van riet: glanzende, platte, fijne worteltjes, typisch millimeters groot en resten van wortelstokken en stengels, typisch centimeters tot decimeters groot. Dit type veen kan een relatief grote minerale component hebben.</Omschrijving>
+	</Veensoort>
+	<Veensoort>
+		<Waarde>veenmosveen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het veen bestaat voornamelijk uit als zodanig herkenbare resten van veenmos: gelige blaadjes en stengeltjes die typisch millimeters tot centimeters groot zijn. Dit type veen is gewoonlijk mineraalarm.</Omschrijving>
+	</Veensoort>
+	<Veensoort>
+		<Waarde>wollegrasveen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het veen bevat als zodanig herkenbare resten van borstels van de basale bladscheden van eenarig wollegras: haren met typisch een lengte van een of enkele centimeters. Dit type veen is gewoonlijk mineraalarm en heeft een bruinige kleur.</Omschrijving>
+	</Veensoort>
+	<Veensoort>
+		<Waarde>zeggeveen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het veen bestaat voornamelijk uit als zodanig herkenbare resten van zegge: dunne worteltjes die typisch millimeters tot centimeters groot zijn, platte vooral brede bladresten die typisch millimeters tot centimeters lang zijn en licht geel tot bruin van kleur zijn. Dit type veen kan een geringe minerale component hebben.</Omschrijving>
+	</Veensoort>
+	<Veensoort>
+		<Waarde>scheuchzeriaveen</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het veen bestaat voornamelijk uit als zodanig herkenbare resten van Scheuchzeria: platte, kronkelige, bruine lichtglanzende stengels met dicht op elkaar staande knopen met typisch een lengte van een of enkele centimeters. Dit type veen is gewoonlijk mineraalarm.</Omschrijving>
+	</Veensoort>
+</domeintabel>

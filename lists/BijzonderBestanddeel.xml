@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<BijzonderBestanddeel>
+		<Waarde>artefact</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een antropogeen bestanddeel: de niet nader omschreven (resten van) voorwerpen die door de mens gemaakt zijn.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>botrestenWeinig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een natuurlijk bestanddeel: resten van botten, voorkomend in een mate die niet van invloed is op de geotechnische eigenschappen van de grond.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>botrestenVeel</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een natuurlijk bestanddeel: resten van botten, voorkomend in een mate die van invloed is op de geotechnische eigenschappen van de grond.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>donkereMineralenWeinig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een natuurlijk bestanddeel: deeltjes die opaak en donker van kleur en minder hard dan kwarts zijn, voorkomend in een mate die niet van invloed is op de geotechnische eigenschappen van de grond.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>donkereMineralenVeel</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een natuurlijk bestanddeel: deeltjes die opaak en donker van kleur en minder hard dan kwarts zijn, voorkomend in een mate die van invloed is op de geotechnische eigenschappen van de grond.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>geen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Geen bijzondere bestanddelen.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>geotextiel</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een antropogeen bestanddeel: textiel en folies die gebruikt worden in grondverbetering en meestal uit kunststof bestaan.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>glauconietWeinig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een natuurlijk bestanddeel: groene, groenige of bruine korrels die uit glauconiet of goethiet bestaan. Deze kleimineralen maken minder dan 25% van de grond uit; het voorkomen ervan beïnvloedt de eigenschappen van de grond omdat het korrels zijn die zich als klei gedragen.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>glauconietVeel</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een natuurlijk bestanddeel: groene, groenige of bruine korrels die uit glauconiet of goethiet bestaan. Deze kleimineralen maken 25 tot 50% van de grond uit; het voorkomen ervan beïnvloedt de eigenschappen van de grond omdat het korrels zijn die zich als klei gedragen.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>glimmerWeinig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een natuurlijk bestanddeel: gladde plaatvormige deeltjes die meestal uit de mineralen muskoviet of biotiet bestaan. De glimmers komen in zo geringe mate voor dat zij niet van invloed zijn op de geotechnische eigenschappen van de grond en dat is het geval wanneer ze minder dan 1% van de grond uitmaken.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>glimmerVeel</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een natuurlijk bestanddeel: gladde plaatvormige deeltjes die meestal uit de mineralen muskoviet of biotiet bestaan. De glimmers komen in zo grote mate voor dat zij van invloed zijn op de geotechnische eigenschappen van de grond en dat is al het geval wanneer ze 1% van de grond uitmaken.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>houtGebruikt</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een antropogeen bestanddeel: hout of houtig materiaal dat door de mens gebruikt is. Voorbeelden zijn rijsmatten, funderingspalen, beschoeiingen, scheepswrakken.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>houtskoolWeinig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een antropogeen of natuurlijk bestanddeel: door verbranding verkoolde resten van hout, meestal gebroken stukjes; voorkomend in een mate die niet van invloed is op de geotechnische eigenschappen van de grond.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>houtskoolVeel</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een antropogeen of natuurlijk bestanddeel: door verbranding verkoolde resten van hout, meestal gebroken stukjes; voorkomend in een mate die van invloed is op de geotechnische eigenschappen van de grond.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>huisvuil</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een antropogeen bestanddeel: niet nader omschreven huishoudelijk afval.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>ijzerconcretiesWeinig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een natuurlijk bestanddeel: delen van de grond die door ijzer(hydr)oxiden tot een geheel zijn verkit, voorkomend in een mate die niet van invloed is op de geotechnische eigenschappen van de grond.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>ijzerconcretiesVeel</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een natuurlijk bestanddeel: delen van de grond die door ijzer(hydr)oxiden tot een geheel zijn verkit, voorkomend in een mate die van invloed is op de geotechnische eigenschappen van de grond.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>ijzersulfideWeinig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een natuurlijk bestanddeel: delen van de grond die uit ijzersulfide bestaan, vrijwel altijd de mineralen pyriet of markasiet; voorkomend in een mate die niet van invloed is op de geotechnische eigenschappen van de grond.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>ijzersulfideVeel</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een natuurlijk bestanddeel: delen van de grond die uit ijzersulfide bestaan, vrijwel altijd de mineralen pyriet of markasiet; voorkomend in een mate die van invloed is op de geotechnische eigenschappen van de grond.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>kalkconcretiesWeinig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een natuurlijk bestanddeel: delen van de grond die door carbonaat tot een geheel zijn verkit, bijvoorbeeld een septarie; voorkomend in een mate die niet van invloed is op de geotechnische eigenschappen van de grond.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>kalkconcretiesVeel</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een natuurlijk bestanddeel: delen van de grond die door carbonaat tot een geheel zijn verkit, bijvoorbeeld een septarie; voorkomend in een mate die van invloed is op de geotechnische eigenschappen van de grond.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>kalkGemaakt</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een antropogeen bestanddeel: op kalk gebaseerd materiaal van menselijke makelij zoals gebluste kalk of als hulpstof herkenbare kalk.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>ophoogmateriaalLichtKunststof</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een antropogeen bestanddeel: ophoogmateriaal met een laag soortelijk gewicht dat vooral uit plastics en soortgelijke kunststoffen bestaat, met als voorbeeld geëxpandeerd polystyreen.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>ophoogmateriaalLichtStenig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een antropogeen bestanddeel: ophoogmateriaal met een laag soortelijk gewicht dat uit stenig materiaal van menselijke makelij bestaat. Voorbeelden zijn bims, geëxpandeerde kleikorrels, flugsand, schuimbeton en schuimglas.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>plantenrestenHoutig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een natuurlijk bestanddeel: de houtige, onverteerde resten van planten, zoals stammen en takken. Deze waarde is vervangen door de waarden &lt;i&gt;plantenrestenHoutigWeinig &lt;/i&gt;en &lt;i&gt;plantenrestenHoutigVeel&lt;/i&gt;.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>plantenrestenHoutigWeinig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Natuurlijk bestanddeel: onverteerde resten van de houtige delen (stammen, takken, houtige wortels en zaden) van planten. Deze resten kunnen bestaan uit de gebroken fragmenten of uit doorsnedes van de houtige delen. De grootte varieert van millimeters tot enkele decimeters. Het materiaal kan zeer zacht tot zeer hard zijn. Deze plantenresten maken minder dan 25 % van de grond uit.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>plantenrestenHoutigVeel</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Natuurlijk bestanddeel: onverteerde resten van de houtige delen (stammen, takken, houtige wortels en zaden) van planten. Deze resten kunnen bestaan uit de gebroken fragmenten of uit doorsnedes van de houtige delen. De grootte varieert van millimeters tot enkele decimeters. Het materiaal kan zeer zacht tot zeer hard zijn. Deze plantenresten maken 25 tot 50 % van de grond uit.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>plantenrestenNietHoutig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een natuurlijk bestanddeel: de niet-houtige, onverteerde resten van planten, zoals worteltjes, rietstengels en bladeren. Deze waarde is vervangen door de waarden &lt;i&gt;plantenrestenNietHoutigWeinig &lt;/i&gt;en &lt;i&gt;plantenrestenNietHoutigVeel&lt;/i&gt;.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>plantenrestenNietHoutigWeinig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Natuurlijk bestanddeel: onverteerde resten van de niet-houtige delen van planten, zoals worteltjes, rietstengels en bladeren. Deze plantenresten maken minder dan 25 % van de grond uit.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>plantenrestenNietHoutigVeel</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Natuurlijk bestanddeel: onverteerde resten van de niet-houtige delen van planten, zoals worteltjes, rietstengels en bladeren. Deze plantenresten maken 25 tot 50 % van de grond uit.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>puin</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een antropogeen bestanddeel: bouw- en sloopafval, veelal een mengsel van stenige materialen die door de mens gemaakt of bewerkt zijn; soilmix, een mengsel van de grond ter plaatse met een materiaal als cement of waterglas, wordt ook hiertoe gerekend.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>schelpmateriaalWeinig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een natuurlijk bestanddeel: schelpen en resten van schelpen en wel voorkomend in een mate dat de geotechnische eigenschappen van de grond niet worden beïnvloed.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>schelpmateriaalVeel</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een natuurlijk bestanddeel: schelpen en resten van schelpen, voorkomend in een mate dat de geotechnische eigenschappen van de grond worden beïnvloed.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>stenen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een antropogeen bestanddeel: stenen van natuurlijk materiaal die gebruikt zijn als ballast of stortsteen of het bijproduct zijn van mijnbouw.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>verbrandingsrestenFijn</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een antropogeen bestanddeel: minerale verbrandingsresten met een diameter vergelijkbaar met die van silt en lutum (kleiner dan 63 &amp;#38;#181;m), veelal vliegas genoemd.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>verbrandingsrestenMiddelGrof</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een antropogeen bestanddeel: minerale verbrandingsresten met een diameter die vergelijkbaar is met zand (0,063 - 2 mm), veelal bodemas genoemd.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>verbrandingsrestenGrof</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een antropogeen bestanddeel: minerale verbrandingsresten met een diameter groter dan 2mm; veelal slakken genoemd.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>vuursteenWeinig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een natuurlijk bestanddeel: concreties die bestaan uit vrijwel amorfe kwarts, voorkomend in een mate die niet van invloed is op de geotechnische eigenschappen van de grond.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>vuursteenVeel</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een natuurlijk bestanddeel: concreties die bestaan uit vrijwel amorfe kwarts, voorkomend in een mate die van invloed is op de geotechnische eigenschappen van de grond.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>wegverhardingsmateriaal</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een antropogeen bestanddeel: materiaal dat gebruikt is voor het verharden van wegen en erven. Voorbeelden zijn asfalt, betonklinkers, klinkers, steenslag en tegels.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>breuksteen</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen materiaal: stenen van natuurlijk materiaal die gebruikt zijn als ballast of stortsteen.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>glauconiet</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een natuurlijk bestanddeel: groene, groenige of bruine korrels die uit glauconiet of goethiet bestaan. De mate van voorkomen is niet gespecificeerd; het voorkomen ervan beïnvloedt de eigenschappen van de grond omdat het korrels zijn die zich als klei gedragen.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>houtNietGespecificeerd</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een antropogeen of natuurlijk bestanddeel: omvat de IMBRO-waarden houtGebruikt en plantenrestenHoutig.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>houtskool</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een antropogeen of natuurlijk bestanddeel: door verbranding verkoolde resten van hout, meestal gebroken stukjes; de mate van voorkomen is niet gespecificeerd.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>ijzerconcreties</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een natuurlijk bestanddeel: delen van de grond die door ijzer(hydr)oxiden tot een geheel zijn verkit; de mate van voorkomen is niet gespecificeerd.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>kalkNietGespecificeerd</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een antropogeen of natuurlijk bestanddeel: omvat de IMBRO-waarden kalkGemaakt en kalkconcretiesVeel en kalkconcretiesWeinig.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>mijnsteen</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen materiaal: stenen van natuurlijk materiaal die het bijproduct zijn van mijnbouw.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>vuursteen</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een natuurlijk bestanddeel: concreties die bestaan uit vrijwel amorfe kwarts; de mate van voorkomen is niet gespecificeerd.</Omschrijving>
+	</BijzonderBestanddeel>
+</domeintabel>

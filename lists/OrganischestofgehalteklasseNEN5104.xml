@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<OrganischestofgehalteklasseNEN5104>
+		<Waarde>nietHumeus</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Organische stof is niet aanwezig.</Omschrijving>
+	</OrganischestofgehalteklasseNEN5104>
+	<OrganischestofgehalteklasseNEN5104>
+		<Waarde>zwakHumeus</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Organische stof is aanwezig en maakt minder dan 2,5 % van de massa uit, tenzij de grond als een klei is benoemd dan kan het aandeel tot 5 % bedragen.</Omschrijving>
+	</OrganischestofgehalteklasseNEN5104>
+	<OrganischestofgehalteklasseNEN5104>
+		<Waarde>matigHumeus</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Organische stof maakt tussen 2,5 en 8 % van de massa uit, tenzij de grond als een klei is benoemd dan kan het aandeel tot 16 % bedragen.</Omschrijving>
+	</OrganischestofgehalteklasseNEN5104>
+	<OrganischestofgehalteklasseNEN5104>
+		<Waarde>sterkHumeus</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Organische stof maakt tussen 8 en 16 % van de massa uit, tenzij de grond als een klei is benoemd dan kan het aandeel tot 30 % bedragen.</Omschrijving>
+	</OrganischestofgehalteklasseNEN5104>
+</domeintabel>

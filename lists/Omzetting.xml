@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Omzetting>
+		<Waarde>nietOmgezet</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Geen zichtbare omzetting van gesteentemateriaal.</Omschrijving>
+	</Omzetting>
+	<Omzetting>
+		<Waarde>gedeeltelijkOmgezet</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een deel van de mineralen is omgezet. Bijvoorbeeld veldspaten in kleimineralen.</Omschrijving>
+	</Omzetting>
+	<Omzetting>
+		<Waarde>volledigOmgezet</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Alle mineralen zijn omgezet.</Omschrijving>
+	</Omzetting>
+</domeintabel>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<VerticaalReferentievlak>
+		<Waarde>LAT</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagst mogelijke waterstand gebaseerd op de stand van zon en maan (Lowest Astronomical Tide).</Omschrijving>
+	</VerticaalReferentievlak>
+	<VerticaalReferentievlak>
+		<Waarde>MSL</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Gemiddeld zeeniveau (Mean Sea Level).</Omschrijving>
+	</VerticaalReferentievlak>
+	<VerticaalReferentievlak>
+		<Waarde>NAP</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Normaal Amsterdams Peil.</Omschrijving>
+	</VerticaalReferentievlak>
+</domeintabel>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Gesteentesoort>
+		<Waarde>breccie</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het gesteente bestaat voor meer dan 50% uit grove, hoekige korrels met een mediaan groter dan 2 mm.</Omschrijving>
+	</Gesteentesoort>
+	<Gesteentesoort>
+		<Waarde>conglomeraat</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het gesteente bestaat voor meer dan 50% uit grove, afgeronde korrels met een mediaan groter dan 2 mm.</Omschrijving>
+	</Gesteentesoort>
+	<Gesteentesoort>
+		<Waarde>conglomeraatFijneMatrix</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het gesteente bestaat uit grove, afgeronde korrels die elkaar raken met daartussen fijnkorrelig materiaal. De mediaan van de grove fractie is groter dan 2 mm.</Omschrijving>
+	</Gesteentesoort>
+	<Gesteentesoort>
+		<Waarde>conglomeraatZandig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het gesteente bestaat uit grove, afgeronde korrels die elkaar raken met daartussen fijner grofkorrelig materiaal. De mediaan van de grove fractie is groter dan 2 mm en de mediaan van de fijnere fractie ligt tussen 0,063 en 2 mm.</Omschrijving>
+	</Gesteentesoort>
+	<Gesteentesoort>
+		<Waarde>dolomiet</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het gesteente bestaat voor meer dan 95% uit calcium-magnesiumcarbonaat.</Omschrijving>
+	</Gesteentesoort>
+	<Gesteentesoort>
+		<Waarde>gips</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het gesteente bestaat voor meer dan 95% uit calciumsulfaat.</Omschrijving>
+	</Gesteentesoort>
+	<Gesteentesoort>
+		<Waarde>kalksteenFijnkorrelig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het gesteente bestaat voor meer dan 50% uit korrels van koolzure kalk waarvan de mediaan kleiner is dan 0,063 mm.</Omschrijving>
+	</Gesteentesoort>
+	<Gesteentesoort>
+		<Waarde>kalksteenGrofkorrelig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het gesteente bestaat voor meer dan 50% uit korrels van koolzure kalk waarvan de mediaan tussen 0,063 en 2 mm ligt.</Omschrijving>
+	</Gesteentesoort>
+	<Gesteentesoort>
+		<Waarde>kalksteenHardsteen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het gesteente bestaat voor meer dan 50% uit koolzure kalk en korrels zijn niet (meer) herkenbaar.</Omschrijving>
+	</Gesteentesoort>
+	<Gesteentesoort>
+		<Waarde>kleisteen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het gesteente bestaat uit siliciklastisch materiaal waarvan de korrels niet met een loep zichtbaar zijn en een mes niet krassen.</Omschrijving>
+	</Gesteentesoort>
+	<Gesteentesoort>
+		<Waarde>kleisteenZandig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het gesteente bestaat voor 50-95% uit siliciklastisch materiaal waarvan de korrels niet met een loep zichtbaar zijn en een mes niet krassen, met daarin grovere deeltjes met een mediaan die tussen de 0,063 en 2 mm ligt.</Omschrijving>
+	</Gesteentesoort>
+	<Gesteentesoort>
+		<Waarde>mergel</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Fijn- of grofkorrelige kalksteen die voor meer dan 95% uit koolzure kalk bestaat, in Limburg voorkomt en waarin veel resten van fossielen te zien zijn.</Omschrijving>
+	</Gesteentesoort>
+	<Gesteentesoort>
+		<Waarde>mergelKleiig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een mengsel dat voor 50 tot 95% uit mergel bestaat en voor het overige uit niet-kalkig materiaal, waarvan de korrels niet met een loep zichtbaar zijn en een mes niet krassen.</Omschrijving>
+	</Gesteentesoort>
+	<Gesteentesoort>
+		<Waarde>mergelSiltig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een mengsel dat voor 50 tot 95% uit mergel bestaat en voor het overige uit niet-kalkig materiaal, waarvan de korrels niet met een loupe zichtbaar zijn en een mes krassen of knarsen tussen de tanden.</Omschrijving>
+	</Gesteentesoort>
+	<Gesteentesoort>
+		<Waarde>mergelZandig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een mengsel dat voor 50 tot 95% uit mergel bestaat en voor het overige uit niet-kalkig materiaal, waarvan de korrels een mediaan tussen de 0,063 en 2 mm hebben.</Omschrijving>
+	</Gesteentesoort>
+	<Gesteentesoort>
+		<Waarde>siltsteen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het gesteente bestaat uit siliciklastisch materiaal en dat bestaat voor meer dan 95 % uit korrels die kleiner zijn dan 0,063 mm en die een mes krassen of tussen de tanden knarsen.</Omschrijving>
+	</Gesteentesoort>
+	<Gesteentesoort>
+		<Waarde>siltsteenZandig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het gesteente bestaat uit siliciklastisch materiaal en dat bestaat voor 50-95% uit korrels die kleiner zijn dan 0,063 mm en die een mes krassen en verder uit grovere korrels waarvan de mediaan tussen de 0,063 en 2 mm ligt; de grovere korrels raken elkaar niet.</Omschrijving>
+	</Gesteentesoort>
+	<Gesteentesoort>
+		<Waarde>steenkool</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het gesteente bestaat uit zwart, amorf organisch materiaal.</Omschrijving>
+	</Gesteentesoort>
+	<Gesteentesoort>
+		<Waarde>steenzout</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het gesteente bestaat uit kristallijn zout.</Omschrijving>
+	</Gesteentesoort>
+	<Gesteentesoort>
+		<Waarde>vuursteen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het gesteente bestaat uit microkristallijne, opake kwarts.</Omschrijving>
+	</Gesteentesoort>
+	<Gesteentesoort>
+		<Waarde>zandsteen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het gesteente bestaat uit siliciklastisch materiaal en dat bestaat voor meer dan 95% uit kwartskorrels met een mediaan die tussen 0,063 en 2 mm ligt.</Omschrijving>
+	</Gesteentesoort>
+	<Gesteentesoort>
+		<Waarde>zandsteenKleiig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het gesteente bestaat uit siliciklastisch materiaal en dat bestaat voor 50 tot 95% uit kwartskorrels met een mediaan die tussen 0,063 en 2 mm ligt en voor het overige uit materiaal, waarvan de korrels niet met een loep zichtbaar zijn en die een mes niet krassen.</Omschrijving>
+	</Gesteentesoort>
+	<Gesteentesoort>
+		<Waarde>zandsteenKwartsietisch</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het gesteente bestaat uit kwartskorrels met een mediaan groter dan 0,063 mm en verder alleen uit kwarts cement. Bij doorslaan loopt de breuk veelal door de kwartskorrels heen.</Omschrijving>
+	</Gesteentesoort>
+	<Gesteentesoort>
+		<Waarde>zandsteenSiltig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het gesteente bestaat uit siliciklastisch materiaal en bestaat voor 50 tot 95% uit kwartskorrels met een mediaan die tussen 0,063 en 2 mm ligt en voor het overige uit materiaal, waarvan de korrels niet met een loep zichtbaar zijn en een mes krassen.</Omschrijving>
+	</Gesteentesoort>
+</domeintabel>

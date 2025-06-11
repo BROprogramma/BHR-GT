@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<GrondsoortNEN5104>
+		<Waarde>blokken</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Grond die voor meer dan 50 % van de massa uit blokken, voor een onbepaald deel uit minder grof mineraal materiaal bestaat en een onbepaald deel organische stof bevat. Deze grondsoort zou gezien, de grootte van blokken, in boringen eigenlijk niet voor mogen komen.</Omschrijving>
+	</GrondsoortNEN5104>
+	<GrondsoortNEN5104>
+		<Waarde>keienNietGespecificeerd</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Grond die voor meer dan 50 % van de massa uit keien, voor een onbepaald deel uit minder grof mineraal materiaal bestaat en een onbepaald deel organische stof bevat.</Omschrijving>
+	</GrondsoortNEN5104>
+	<GrondsoortNEN5104>
+		<Waarde>keitjesNietGespecificeerd</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Grond die voor meer dan 50 % van de massa uit keitjes, voor een onbepaald deel uit minder grof mineraal materiaal bestaat en een onbepaald deel organische stof bevat. In de NEN 5104 worden keitjes overigens stenen genoemd.</Omschrijving>
+	</GrondsoortNEN5104>
+	<GrondsoortNEN5104>
+		<Waarde>siltigGrind</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Grond die voor meer dan 30 procent van de massa uit grind, voor meer dan 20 procent uit silt plus lutum en voor minder dan 20 procent uit zand bestaat en niet veel organische stof bevat.</Omschrijving>
+	</GrondsoortNEN5104>
+	<GrondsoortNEN5104>
+		<Waarde>zwakZandigGrind</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Grond die voor meer dan 30 procent van het massa uit grind, voor minder dan 20 procent uit silt plus lutum en voor minder dan 10 procent uit zand bestaat en niet veel organische stof bevat.</Omschrijving>
+	</GrondsoortNEN5104>
+	<GrondsoortNEN5104>
+		<Waarde>matigZandigGrind</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Grond die voor meer dan 30 % van het massa uit grind, voor minder dan 20 % uit silt plus lutum en voor 10 tot 30 % uit zand bestaat en niet veel organische stof bevat.</Omschrijving>
+	</GrondsoortNEN5104>
+	<GrondsoortNEN5104>
+		<Waarde>sterkZandigGrind</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Grond die voor meer dan 30 % van het massa uit grind, voor 30 tot 50 % uit zand en voor minder dan 20 % uit silt plus lutum bestaat en niet veel organische stof bevat.</Omschrijving>
+	</GrondsoortNEN5104>
+	<GrondsoortNEN5104>
+		<Waarde>uiterstZandigGrind</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Grond die voor meer dan 30 % van het massa uit grind, voor meer dan 50 % uit zand en voor minder dan 20 % uit silt plus lutum bestaat en niet veel organische stof bevat.</Omschrijving>
+	</GrondsoortNEN5104>
+	<GrondsoortNEN5104>
+		<Waarde>mineraalarmVeen</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Grond die voor meer dan 35 % van de massa uit organische stof die vezelig is en samenhang vertoont bestaat, voor maximaal 30 % uit lutum en voor maximaal 65 % uit silt plus zand.</Omschrijving>
+	</GrondsoortNEN5104>
+	<GrondsoortNEN5104>
+		<Waarde>zwakKleiigVeen</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Grond die voor 25 tot 70 % van de massa uit organische stof die vezelig is en samenhang vertoont bestaat, voor minder dan 70 % uit silt plus zand en voor tussen 5 en 55 % uit lutum.</Omschrijving>
+	</GrondsoortNEN5104>
+	<GrondsoortNEN5104>
+		<Waarde>sterkKleiigVeen</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Grond die voor 15 tot 45 % van de massa uit organische stof die vezelig is en samenhang vertoont bestaat, voor minder dan 77,5 % uit silt plus zand en voor tussen 7 en 70 % uit lutum.</Omschrijving>
+	</GrondsoortNEN5104>
+	<GrondsoortNEN5104>
+		<Waarde>zwakZandigVeen</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Grond die voor 22,5 tot 40 % van de massa uit organische stof die vezelig is en samenhang vertoont bestaat, voor tussen 55 en 77,5 % uit silt plus zand en voor minder dan 5 % uit lutum.</Omschrijving>
+	</GrondsoortNEN5104>
+	<GrondsoortNEN5104>
+		<Waarde>sterkZandigVeen</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Grond die voor 15 tot 25 % van de massa uit organische stof die vezelig is en samenhang vertoont bestaat, voor tussen 70 en 85 % uit silt plus zand en voor minder dan 7 % uit lutum.</Omschrijving>
+	</GrondsoortNEN5104>
+	<GrondsoortNEN5104>
+		<Waarde>bruinkoolNietGespecificeerd</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Grond die voor minimaal 15 % van de massa uit organische stof die vezelig is en samenhang vertoont en ingekoold is bestaat en voor een onbepaald deel uit mineraal materiaal.</Omschrijving>
+	</GrondsoortNEN5104>
+	<GrondsoortNEN5104>
+		<Waarde>detritusNietGespecificeerd</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Grond die voor minimaal 15 % van de massa uit organische stof die vezelig is en geen samenhang vertoont bestaat en voor een onbepaald deel uit mineraal materiaal.</Omschrijving>
+	</GrondsoortNEN5104>
+	<GrondsoortNEN5104>
+		<Waarde>dy</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Grond die vrijwel volledig uit organische stof bestaat, amorf en zwartig is en een geleiachtige consistentie heeft.</Omschrijving>
+	</GrondsoortNEN5104>
+	<GrondsoortNEN5104>
+		<Waarde>gyttjaNietGespecificeerd</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Grond die voor minimaal 15 % van de massa uit organische stof die fijnkorrelig is en samenhang vertoont bestaat en voor een onbepaald deel uit mineraal materiaal.</Omschrijving>
+	</GrondsoortNEN5104>
+	<GrondsoortNEN5104>
+		<Waarde>zwakSiltigeKlei</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Grond die minder dan 30 % grind en minder dan 15 % organische stof bevat en die, als die twee bestanddelen worden uitgesloten, voor meer dan 50 % van de massa uit lutum bestaat.</Omschrijving>
+	</GrondsoortNEN5104>
+	<GrondsoortNEN5104>
+		<Waarde>matigSiltigeKlei</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Grond die minder dan 30 % grind en minder dan 15 % organische stof bevat en die, als die twee bestanddelen worden uitgesloten, voor meer dan 35 % van de massa uit lutum bestaat.</Omschrijving>
+	</GrondsoortNEN5104>
+	<GrondsoortNEN5104>
+		<Waarde>sterkSiltigeKlei</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Grond die minder dan 30 % grind en minder dan 15 % organische stof bevat en die, als die twee bestanddelen worden uitgesloten, voor meer dan 25 % van de massa uit lutum bestaat.</Omschrijving>
+	</GrondsoortNEN5104>
+	<GrondsoortNEN5104>
+		<Waarde>uiterstSiltigeKlei</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Grond die minder dan 30 % grind en minder dan 15 % organische stof bevat en die, als die twee bestanddelen worden uitgesloten, voor tussen 8 en 25 % van de massa uit lutum, voor tussen 25 en 75 % uit silt en voor minder dan 50 % uit zand bestaat, maar waarvan de precieze verhouding tussen de hoeveelheden zand, silt en lutum niet goed in woorden is uit te drukken.</Omschrijving>
+	</GrondsoortNEN5104>
+	<GrondsoortNEN5104>
+		<Waarde>zwakZandigeKlei</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Grond die minder dan 30 % grind en minder dan 15 % organische stof bevat en die, als die twee bestanddelen worden uitgesloten, voor tussen 17,5 en 25 % van de massa uit lutum, voor meer dan 50 % uit zand en voor de rest uit silt bestaat.</Omschrijving>
+	</GrondsoortNEN5104>
+	<GrondsoortNEN5104>
+		<Waarde>matigZandigeKlei</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Grond die minder dan 30 % grind en minder dan 15 % organische stof bevat en die, als die twee bestanddelen worden uitgesloten, voor tussen 12 en 17,5 % van de massa uit lutum, voor meer dan 50 % uit zand en voor de rest uit silt bestaat.</Omschrijving>
+	</GrondsoortNEN5104>
+	<GrondsoortNEN5104>
+		<Waarde>sterkZandigeKlei</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Grond die minder dan 30 % grind en minder dan 15 % organische stof bevat en die, als die twee bestanddelen worden uitgesloten, voor tussen 8 en 12 % van de massa uit lutum, voor meer dan 50 % uit zand en voor de rest uit silt bestaat.</Omschrijving>
+	</GrondsoortNEN5104>
+	<GrondsoortNEN5104>
+		<Waarde>zwakZandigeLeem</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Grond die minder dan 30 % grind en minder dan 15 % organische stof bevat en die, als die twee bestanddelen worden uitgesloten, voor meer dan 65 uit silt, voor maximaal 25 % uit lutum en voor maximaal 15 % uit zand bestaat.</Omschrijving>
+	</GrondsoortNEN5104>
+	<GrondsoortNEN5104>
+		<Waarde>sterkZandigeLeem</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Grond die minder dan 30 % grind en minder dan 15 % organische stof bevat en die, als die twee bestanddelen worden uitgesloten, voor meer dan 42 % uit silt, voor maximaal 20 % uit lutum en voor tussen 15 en 50 % uit zand bestaat, maar waarvan de precieze verhouding tussen de hoeveelheden zand, silt en lutum niet goed in woorden is uit te drukken.</Omschrijving>
+	</GrondsoortNEN5104>
+	<GrondsoortNEN5104>
+		<Waarde>kleiigZand</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Grond die minder dan 30 % grind en minder dan 15 % organische stof bevat en die, als die twee bestanddelen worden uitgesloten, voor minimaal 82,5 % van de massa uit zand, voor 5 tot 8 % uit lutum en voor maximaal 12,5 % uit silt bestaat.</Omschrijving>
+	</GrondsoortNEN5104>
+	<GrondsoortNEN5104>
+		<Waarde>zwakSiltigZand</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Grond die minder dan 30 % grind en minder dan 15 % organische stof bevat en die, als die twee bestanddelen worden uitgesloten, voor minimaal 90 % van de massa uit zand, voor maximaal 5 % uit lutum en voor maximaal 10 % uit silt bestaat.</Omschrijving>
+	</GrondsoortNEN5104>
+	<GrondsoortNEN5104>
+		<Waarde>matigSiltigZand</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Grond die minder dan 30 % grind en minder dan 15 % organische stof bevat en die, als die twee bestanddelen worden uitgesloten, voor tussen 82,5 en 90 % van de massa uit zand, voor maximaal 5 % uit lutum en voor tussen 10 en 17,5 % uit silt bestaat.</Omschrijving>
+	</GrondsoortNEN5104>
+	<GrondsoortNEN5104>
+		<Waarde>sterkSiltigZand</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Grond die minder dan 30 % grind en minder dan 15 % organische stof bevat en die, als die twee bestanddelen worden uitgesloten, voor tussen 67,5 en 82,5 % van de massa uit zand, voor maximaal 8 % uit lutum en voor tussen 17,5 en 32,5 % uit silt bestaat.</Omschrijving>
+	</GrondsoortNEN5104>
+	<GrondsoortNEN5104>
+		<Waarde>uiterstSiltigZand</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Grond die minder dan 30 % grind en minder dan 15 % organische stof bevat en die, als die twee bestanddelen worden uitgesloten, voor tussen 50 en 67,5 % van de massa uit zand, voor maximaal 8 % uit lutum en voor tussen 32,5 en 50 % uit silt bestaat.</Omschrijving>
+	</GrondsoortNEN5104>
+</domeintabel>
