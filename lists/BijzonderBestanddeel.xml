@@ -148,7 +148,7 @@
 		<Waarde>plantenrestenHoutig</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Een natuurlijk bestanddeel: de houtige, onverteerde resten van planten, zoals stammen en takken. Deze waarde is vervangen door de waarden &lt;i&gt;plantenrestenHoutigWeinig &lt;&gt;en &lt;i&gt;plantenrestenHoutigVeel&lt;&gt;.</Omschrijving>
+		<Omschrijving>Een natuurlijk bestanddeel: de houtige, onverteerde resten van planten, zoals stammen en takken. Deze waarde is vervangen door de waarden plantenrestenHoutigWeinig en plantenrestenHoutigVeel.</Omschrijving>
 	</BijzonderBestanddeel>
 	<BijzonderBestanddeel>
 		<Waarde>plantenrestenHoutigWeinig</Waarde>
@@ -166,7 +166,7 @@
 		<Waarde>plantenrestenNietHoutig</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Een natuurlijk bestanddeel: de niet-houtige, onverteerde resten van planten, zoals worteltjes, rietstengels en bladeren. Deze waarde is vervangen door de waarden &lt;i&gt;plantenrestenNietHoutigWeinig &lt;&gt;en &lt;i&gt;plantenrestenNietHoutigVeel&lt;&gt;.</Omschrijving>
+		<Omschrijving>Een natuurlijk bestanddeel: de niet-houtige, onverteerde resten van planten, zoals worteltjes, rietstengels en bladeren. Deze waarde is vervangen door de waarden plantenrestenNietHoutigWeinig en plantenrestenNietHoutigVeel.</Omschrijving>
 	</BijzonderBestanddeel>
 	<BijzonderBestanddeel>
 		<Waarde>plantenrestenNietHoutigWeinig</Waarde>
