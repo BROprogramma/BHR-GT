@@ -28,7 +28,7 @@
 		<Waarde>korrelgrootteverdelingMaximaleSchuifsterkte</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>De korrelgrootteverdeling en de maximale ongedraineerde schuifsterkte zijn bepaald en de verticale vervorming is niet bepaald. Van de basisparameters kunnen het watergehalte, organischestofgehalte, het kalkgehalte, de volumieke massa en de volumieke massa vaste delen zijn bepaald. Dit type analyse vereist een interval met een minimum lengte van 5 cm. De vereiste monsterkwaliteit is QM1, QM2 of QM3. Deze waarde is vervangen door de waarde &lt;i&gt;schuifsterktePlus&lt;&gt;.</Omschrijving>
+		<Omschrijving>De korrelgrootteverdeling en de maximale ongedraineerde schuifsterkte zijn bepaald en de verticale vervorming is niet bepaald. Van de basisparameters kunnen het watergehalte, organischestofgehalte, het kalkgehalte, de volumieke massa en de volumieke massa vaste delen zijn bepaald. Dit type analyse vereist een interval met een minimum lengte van 5 cm. De vereiste monsterkwaliteit is QM1, QM2 of QM3. Deze waarde is vervangen door de waarde schuifsterktePlus.</Omschrijving>
 	</TypeAnalyse>
 	<TypeAnalyse>
 		<Waarde>schuifspanningsverloopBelasting</Waarde>
