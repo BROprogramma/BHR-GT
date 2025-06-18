@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Voorbehandeling>
+		<Waarde>bevriezing</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De uitvoerder heeft het interval tijdens het boren bevroren.</Omschrijving>
+	</Voorbehandeling>
+	<Voorbehandeling>
+		<Waarde>geen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Er heeft tijdens het boren geen voorbehandeling plaatsgevonden.</Omschrijving>
+	</Voorbehandeling>
+	<Voorbehandeling>
+		<Waarde>injectieDragendVermogen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De uitvoerder heeft het interval tijdens het boren geïnjecteerd met materiaal om het dragend vermogen te vergroten.</Omschrijving>
+	</Voorbehandeling>
+	<Voorbehandeling>
+		<Waarde>injectieWaterdoorlatendheid</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De uitvoerder heeft het interval tijdens het boren geïnjecteerd met materiaal om de waterdoorlatendheid te verkleinen.</Omschrijving>
+	</Voorbehandeling>
+	<Voorbehandeling>
+		<Waarde>onbekend</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het is onbekend of er tijdens het boren voorbehandeling heeft plaatsgevonden.</Omschrijving>
+	</Voorbehandeling>
+</domeintabel>
