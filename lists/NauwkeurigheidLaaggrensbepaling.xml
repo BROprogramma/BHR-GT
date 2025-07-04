@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<NauwkeurigheidLaaggrensbepaling>
+		<Waarde>goed</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De diepte van de laaggrensbepaling kan 5 cm afwijken.</Omschrijving>
+	</NauwkeurigheidLaaggrensbepaling>
+	<NauwkeurigheidLaaggrensbepaling>
+		<Waarde>matig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De diepte van de laaggrensbepaling kan 50 cm afwijken.</Omschrijving>
+	</NauwkeurigheidLaaggrensbepaling>
+	<NauwkeurigheidLaaggrensbepaling>
+		<Waarde>slecht</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De diepte van de laaggrensbepaling kan 100 cm afwijken.</Omschrijving>
+	</NauwkeurigheidLaaggrensbepaling>
+</domeintabel>
