@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Holteverdeling>
+		<Waarde>gelijkmatig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Holtes komen in alle doorsnedes van een kern gelijkmatig verdeeld voor.</Omschrijving>
+	</Holteverdeling>
+	<Holteverdeling>
+		<Waarde>ongelijkmatig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Holtes komen niet in alle doorsnedes van een kern gelijkmatig verdeeld voor.</Omschrijving>
+	</Holteverdeling>
+</domeintabel>
