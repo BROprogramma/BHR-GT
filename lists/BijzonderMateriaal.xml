@@ -49,6 +49,12 @@
 		<Omschrijving>Natuurlijk materiaal: Een vrijwel geheel uit kalk bestaand sediment dat niet als gesteente is geclassificeerd.</Omschrijving>
 	</BijzonderMateriaal>
 	<BijzonderMateriaal>
+		<Waarde>mijnbouwafval</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen materiaal: afvalgesteente en resten dat afkomstig is van mijnbouwactiviteiten.</Omschrijving>
+	</BijzonderMateriaal>
+	<BijzonderMateriaal>
 		<Waarde>oer</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
