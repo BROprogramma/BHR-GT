@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<BijzonderBestanddeel>
+		<Waarde>artefact</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen materiaal: niet nader omschreven (resten van) voorwerpen die door de mens gemaakt zijn. Deze (resten van) voorwerpen maken maximaal 50% van de massa of het volume (afhankelijk van het soortelijk gewicht) van de grond uit. Deze waarde is toegestaan in de norm NEN-EN-ISO 14688-1:2019+NEN 8990:2020 en voorgaande versies ervan en is vanaf de norm NEN-EN-ISO 14688-1:2019+NEN 8990:2025 vervangen door de waarden artefactWeinig en artefactVeel.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>artefactWeinig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen materiaal: de niet nader omschreven (resten van) voorwerpen die door de mens gemaakt zijn. Deze (resten van) voorwerpen maken minder dan 25 % van de massa of het volume (afhankelijk van het soortelijk gewicht) van de grond uit. Deze waarde is toegestaan vanaf de norm NEN-EN-ISO 14688-1:2019+NEN 8990:2025.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>artefactVeel</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen materiaal: de niet nader omschreven (resten van) voorwerpen die door de mens gemaakt zijn. Deze (resten van) voorwerpen maken 25 tot 50 % van de massa of het volume (afhankelijk van het soortelijk gewicht) van de grond uit. Deze waarde is toegestaan vanaf de norm NEN-EN-ISO 14688-1:2019+NEN 8990:2025.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>asvulkanischWeinig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Natuurlijk materiaal: vulkanisch materiaal met een korrelgrootte kleiner dan 4 mm. Dit materiaal maakt minder dan 25 % van de massa van de grond uit.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>asvulkanischVeel</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Natuurlijk materiaal: vulkanisch materiaal met een korrelgrootte kleiner dan 4 mm. Dit materiaal maakt 25 tot 50 % van de massa van de grond uit.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>betonOngebroken</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen materiaal: beton dat niet als puin wordt geclassificeerd, bijvoorbeeld een betonplaat. Dit beton maakt minder dan 25 % van de massa van de grond uit.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>betonOngebroken</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen materiaal: beton dat niet als puin wordt geclassificeerd, bijvoorbeeld een betonplaat. Dit beton maakt 25 tot 50 % van de massa van de grond uit.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>botrestenWeinig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Natuurlijk materiaal: resten van botten. Deze botresten maken minder dan 25 % van de massa van de grond uit.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>botrestenVeel</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Natuurlijk materiaal: resten van botten. Deze botresten maken 25 tot 50 % van de massa van de grond uit.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>donkereMineralenWeinig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Natuurlijk materiaal: deeltjes die opaak en donker van kleur en minder hard dan kwarts zijn. Deze deeltjes maken minder dan 25 % van de massa van de grond uit.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>donkereMineralenVeel</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Natuurlijk materiaal: deeltjes die opaak en donker van kleur en minder hard dan kwarts zijn. Deze deeltjes maken 25 tot 50 % van de massa van de grond uit.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>geen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Geen bijzondere bestanddelen.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>geotextiel</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen materiaal: textiel en folies die gebruikt worden in grondverbetering en meestal uit kunststof bestaan. Dit textiel of folie maakt maximaal 50% van de massa of het volume (afhankelijk van het soortelijk gewicht) van de grond uit. Deze waarde is toegestaan in de norm NEN-EN-ISO 14688-1:2019+NEN 8990:2020 en voorgaande versies ervan en is vanaf de norm NEN-EN-ISO 14688-1:2019+NEN 8990:2025 vervangen door de waarden geotextielWeinig en geotextielVeel.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>geotextielWeinig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen materiaal: textiel en folies die gebruikt worden in grondverbetering en meestal uit kunststof bestaan. Dit textiel of folie maakt minder dan 25 % van de massa of het volume (afhankelijk van het soortelijk gewicht) van de grond uit. Deze waarde is toegestaan vanaf de norm NEN-EN-ISO 14688-1:2019+NEN 8990:2025.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>geotextielVeel</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen materiaal: textiel en folies die gebruikt worden in grondverbetering en meestal uit kunststof bestaan. Dit textiel of folie maakt 25 tot 50 % van de massa of het volume (afhankelijk van het soortelijk gewicht) van de grond uit. Deze waarde is toegestaan vanaf de norm NEN-EN-ISO 14688-1:2019+NEN 8990:2025.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>glauconietWeinig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Natuurlijk materiaal: groene, groenige of bruine korrels die uit glauconiet of goethiet bestaan. Deze korrels maken minder dan 25 % van de massa van de grond uit.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>glauconietVeel</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Natuurlijk materiaal: groene, groenige of bruine korrels die uit glauconiet of goethiet bestaan. Deze korrels maken 25 tot 50 % van de massa van de grond uit.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>glimmerWeinig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Natuurlijk materiaal: gladde plaatvormige deeltjes die meestal uit de mineralen muskoviet of biotiet bestaan. Deze deeltjes maken minder dan 1 % van de massa van de grond uit.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>glimmerVeel</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Natuurlijk materiaal: gladde plaatvormige deeltjes die meestal uit de mineralen muskoviet of biotiet bestaan. Deze deeltjes maken 1 % of meer van de massa van de grond uit.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>houtGebruikt</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen materiaal: hout of houtig materiaal dat door de mens gebruikt is. Voorbeelden zijn rijsmatten, funderingspalen, beschoeiingen, scheepswrakken. Dit hout of houtig materiaal maakt maximaal 50% van de massa of het volume (afhankelijk van het soortelijk gewicht) van de grond uit. Deze waarde is toegestaan in de norm NEN-EN-ISO 14688-1:2019+NEN 8990:2020 en voorgaande versies ervan en is vanaf de norm NEN-EN-ISO 14688-1:2019+NEN 8990:2025 vervangen door de waarden houtGebruiktWeinig en houtGebruiktVeel.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>houtGebruiktWeinig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen materiaal: hout of houtig materiaal dat door de mens gebruikt is. Voorbeelden zijn rijsmatten, funderingspalen, beschoeiingen, scheepswrakken. Dit hout of houtig materiaal maakt minder dan 25 % van de massa of het volume (afhankelijk van het soortelijk gewicht) van de grond uit. Deze waarde is toegestaan vanaf de norm NEN-EN-ISO 14688-1:2019+NEN 8990:2025.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>houtGebruiktVeel</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen materiaal: hout of houtig materiaal dat door de mens gebruikt is. Voorbeelden zijn rijsmatten, funderingspalen, beschoeiingen, scheepswrakken. Dit hout of houtig materiaal maakt 25 tot 50 % van de massa of het volume (afhankelijk van het soortelijk gewicht) van de grond uit. Deze waarde is toegestaan vanaf de norm NEN-EN-ISO 14688-1:2019+NEN 8990:2025.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>houtskoolWeinig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen of natuurlijk materiaal: door verbranding verkoolde resten van hout, meestal gebroken stukjes. Deze resten maken minder dan 25 % van de massa of van het volume (afhankelijk van het soortelijk gewicht) van de grond uit.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>houtskoolVeel</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen of natuurlijk materiaal: door verbranding verkoolde resten van hout, meestal gebroken stukjes. Deze resten maken 25 tot 50 % van de massa of van het volume (afhankelijk van het soortelijk gewicht) van de grond uit.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>huisvuil</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen materiaal: niet nader omschreven huishoudelijk afval. Dit afval maakt maximaal 50% van de massa of het volume (afhankelijk van het soortelijk gewicht) van de grond uit. Deze waarde is toegestaan in de norm NEN-EN-ISO 14688-1:2019+NEN 8990:2020 en voorgaande versies ervan en is vanaf de norm NEN-EN-ISO 14688-1:2019+NEN 8990:2025 vervangen door de waarden huisvuilWeinig en huisvuilVeel.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>huisvuilWeinig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen materiaal: niet nader omschreven huishoudelijk afval. Dit afval maakt minder dan 25 % van de massa of het volume (afhankelijk van het soortelijk gewicht) van de grond uit. Deze waarde is toegestaan vanaf de norm NEN-EN-ISO 14688-1:2019+NEN 8990:2025.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>huisvuilVeel</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen materiaal: niet nader omschreven huishoudelijk afval. Dit afval maakt 25 tot 50 % van de massa of het volume (afhankelijk van het soortelijk gewicht) van de grond uit. Deze waarde is toegestaan vanaf de norm NEN-EN-ISO 14688-1:2019+NEN 8990:2025.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>ijzerconcretiesWeinig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Natuurlijk materiaal: delen van de grond die door ijzer(hydr)oxiden tot een geheel zijn verkit. Deze delen maken minder dan 25 % van de massa van de grond uit.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>ijzerconcretiesVeel</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Natuurlijk materiaal: delen van de grond die door ijzer(hydr)oxiden tot een geheel zijn verkit. Deze delen maken 25 tot 50 % van de massa van de grond uit.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>ijzersulfideWeinig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Natuurlijk materiaal: delen van de grond die uit ijzersulfide bestaan, vrijwel altijd de mineralen pyriet of markasiet. Deze delen maken minder dan 25 % van de massa van de grond uit.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>ijzersulfideVeel</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Natuurlijk materiaal: delen van de grond die uit ijzersulfide bestaan, vrijwel altijd de mineralen pyriet of markasiet. Deze delen maken 25 tot 50 % van de massa van de grond uit.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>kalkconcretiesWeinig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Natuurlijk materiaal: delen van de grond die door carbonaat tot een geheel zijn verkit, bijvoorbeeld een septarie. Deze delen maken minder dan 25 % van de massa van de grond uit.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>kalkconcretiesVeel</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Natuurlijk materiaal: delen van de grond die door carbonaat tot een geheel zijn verkit, bijvoorbeeld een septarie. Deze delen maken 25 tot 50 % van de massa van de grond uit.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>kalkGemaakt</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen materiaal: op kalk gebaseerd materiaal van menselijke makelij zoals gebluste kalk of als hulpstof herkenbare kalk. Dit materiaal maakt maximaal 50% van de massa of het volume (afhankelijk van het soortelijk gewicht) van de grond uit. Deze waarde is toegestaan in de norm NEN-EN-ISO 14688-1:2019+NEN 8990:2020 en voorgaande versies ervan en is vanaf de norm NEN-EN-ISO 14688-1:2019+NEN 8990:2025 vervangen door de waarden kalkGemaaktWeinig en kalkGemaaktVeel.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>kalkGemaaktWeinig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen materiaal: op kalk gebaseerd materiaal van menselijke makelij zoals gebluste kalk of als hulpstof herkenbare kalk. Dit materiaal maakt minder dan 25 % van de massa of het volume (afhankelijk van het soortelijk gewicht) van de grond uit. Deze waarde is toegestaan vanaf de norm NEN-EN-ISO 14688-1:2019+NEN 8990:2025.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>kalkGemaaktVeel</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen materiaal: op kalk gebaseerd materiaal van menselijke makelij zoals gebluste kalk of als hulpstof herkenbare kalk. Dit materiaal maakt 25 tot 50 % van de massa of het volume (afhankelijk van het soortelijk gewicht) van de grond uit. Deze waarde is toegestaan vanaf de norm NEN-EN-ISO 14688-1:2019+NEN 8990:2025.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>kalkNatuurlijk</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Natuurlijk materiaal: op kalk gebaseerd materiaal van natuurlijke oorsprong. Dit materiaal maakt minder dan 25 % van de massa van de grond uit.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>kalkNatuurlijk</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Natuurlijk materiaal: op kalk gebaseerd materiaal van natuurlijke oorsprong. Dit materiaal maakt 25 tot 50 % van de massa van de grond uit.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>mijnbouwafvalWeinig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen materiaal: afvalgesteente en resten dat afkomstig is van mijnbouwactiviteiten. Dit materiaal maakt minder dan 25 % van de massa van de grond uit. </Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>mijnbouwafvalVeel</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen materiaal: afvalgesteente en resten dat afkomstig is van mijnbouwactiviteiten. Dit materiaal maakt 25 tot 50 % van de massa van de grond uit.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>ophoogmateriaalLichtKunststof</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen materiaal: ophoogmateriaal met een laag soortelijk gewicht dat vooral uit plastics en soortgelijke kunststoffen bestaat, met als voorbeeld geëxpandeerd polystyreen. Dit materiaal maakt maximaal 50% van de massa of het volume (afhankelijk van het soortelijk gewicht) van de grond uit. Deze waarde is toegestaan in de norm NEN-EN-ISO 14688-1:2019+NEN 8990:2020 en voorgaande versies ervan en is vanaf de norm NEN-EN-ISO 14688-1:2019+NEN 8990:2025 vervangen door de waarden ophoogmateriaalLichtKunststofWeinig en ophoogmateriaalLichtKunststofVeel.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>ophoogmateriaalLichtKunststofWeinig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen materiaal: ophoogmateriaal met een laag soortelijk gewicht dat vooral uit plastics en soortgelijke kunststoffen bestaat, met als voorbeeld geëxpandeerd polystyreen. Dit materiaal maakt minder dan 25 % van de massa of het volume (afhankelijk van het soortelijk gewicht) van de grond uit. Deze waarde is toegestaan vanaf de norm NEN-EN-ISO 14688-1:2019+NEN 8990:2025.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>ophoogmateriaalLichtKunststofVeel</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen materiaal: ophoogmateriaal met een laag soortelijk gewicht dat vooral uit plastics en soortgelijke kunststoffen bestaat, met als voorbeeld geëxpandeerd polystyreen. Dit materiaal maakt 25 tot 50 % van de massa of het volume (afhankelijk van het soortelijk gewicht) van de grond uit. Deze waarde is toegestaan vanaf de norm NEN-EN-ISO 14688-1:2019+NEN 8990:2025.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>ophoogmateriaalLichtStenig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen materiaal: ophoogmateriaal met een laag soortelijk gewicht dat uit stenig materiaal van menselijke makelij bestaat. Voorbeelden zijn bims, geëxpandeerde kleikorrels, flugsand, schuimbeton en schuimglas. Dit materiaal maakt maximaal 50% van de massa of het volume (afhankelijk van het soortelijk gewicht) van de grond uit. Deze waarde is toegestaan in de norm NEN-EN-ISO 14688-1:2019+NEN 8990:2020 en voorgaande versies ervan en is vanaf de norm NEN-EN-ISO 14688-1:2019+NEN 8990:2025 vervangen door de waarden ophoogmateriaalLichtStenigWeinig en ophoogmateriaalLichtStenigVeel.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>ophoogmateriaalLichtStenigWeinig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen materiaal: ophoogmateriaal met een laag soortelijk gewicht dat uit stenig materiaal van menselijke makelij bestaat. Voorbeelden zijn bims, geëxpandeerde kleikorrels, flugsand, schuimbeton en schuimglas. Dit materiaal maakt minder dan 25 % van de massa of het volume (afhankelijk van het soortelijk gewicht) van de grond uit. Deze waarde is toegestaan vanaf de norm NEN-EN-ISO 14688-1:2019+NEN 8990:2025.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>ophoogmateriaalLichtStenigVeel</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen materiaal: ophoogmateriaal met een laag soortelijk gewicht dat uit stenig materiaal van menselijke makelij bestaat. Voorbeelden zijn bims, geëxpandeerde kleikorrels, flugsand, schuimbeton en schuimglas. Dit materiaal maakt 25 tot 50 % van de massa of het volume (afhankelijk van het soortelijk gewicht) van de grond uit. Deze waarde is toegestaan vanaf de norm NEN-EN-ISO 14688-1:2019+NEN 8990:2025.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>plantenrestenHoutig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Natuurlijk materiaal: houtige, onverteerde resten van planten, zoals stammen en takken. Deze resten maken maximaal 50% van de massa van de grond uit. Deze waarde is vervangen door de waarden plantenrestenHoutigWeinig en plantenrestenHoutigVeel.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>plantenrestenHoutigWeinig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Natuurlijk materiaal: onverteerde resten van de houtige delen (stammen, takken, houtige wortels en zaden) van planten. Deze resten kunnen bestaan uit de gebroken fragmenten of uit doorsnedes van de houtige delen. De grootte varieert van millimeters tot enkele decimeters. Het materiaal kan zeer zacht tot zeer hard zijn. Deze resten maken minder dan 25 % van de massa van de grond uit.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>plantenrestenHoutigVeel</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Natuurlijk materiaal: onverteerde resten van de houtige delen (stammen, takken, houtige wortels en zaden) van planten. Deze resten kunnen bestaan uit de gebroken fragmenten of uit doorsnedes van de houtige delen. De grootte varieert van millimeters tot enkele decimeters. Het materiaal kan zeer zacht tot zeer hard zijn. Deze resten maken 25 tot 50 % van de massa van de grond uit.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>plantenrestenNietHoutig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Natuurlijk materiaal: niet-houtige, onverteerde resten van planten, zoals worteltjes, rietstengels en bladeren. Deze resten maken maximaal 50% van de massa van de grond uit. Deze waarde is vervangen door de waarden plantenrestenNietHoutigWeinig en plantenrestenNietHoutigVeel.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>plantenrestenNietHoutigWeinig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Natuurlijk materiaal: onverteerde resten van de niet-houtige delen van planten, zoals worteltjes, rietstengels en bladeren. Deze resten maken minder dan 25 % van de massa van de grond uit.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>plantenrestenNietHoutigVeel</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Natuurlijk materiaal: onverteerde resten van de niet-houtige delen van planten, zoals worteltjes, rietstengels en bladeren. Deze resten maken 25 tot 50 % van de massa van de grond uit.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>puin</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen materiaal: bouw- en sloopafval, veelal een mengsel van stenige materialen die door de mens gemaakt of bewerkt zijn; soilmix, een mengsel van de grond ter plaatse met een materiaal als cement of waterglas, wordt ook hiertoe gerekend. Dit afval maakt maximaal 50% van de massa of het volume (afhankelijk van het soortelijk gewicht) van de grond uit. Deze waarde is toegestaan in de norm NEN-EN-ISO 14688-1:2019+NEN 8990:2020 en voorgaande versies ervan en is vanaf de norm NEN-EN-ISO 14688-1:2019+NEN 8990:2025 vervangen door de waarden puinWeinig en puinVeel.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>puinWeinig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen materiaal: bouw- en sloopafval, veelal een mengsel van stenige materialen die door de mens gemaakt of bewerkt zijn; soilmix, een mengsel van de grond ter plaatse met een materiaal als cement of waterglas, wordt ook hiertoe gerekend. Dit afval maakt minder dan 25 % van de massa of het volume (afhankelijk van het soortelijk gewicht) van de grond uit. Deze waarde is toegestaan vanaf de norm NEN-EN-ISO 14688-1:2019+NEN 8990:2025.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>puinVeel</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen materiaal: bouw- en sloopafval, veelal een mengsel van stenige materialen die door de mens gemaakt of bewerkt zijn; soilmix, een mengsel van de grond ter plaatse met een materiaal als cement of waterglas, wordt ook hiertoe gerekend. Dit afval maakt 25 tot 50 % van de massa of het volume (afhankelijk van het soortelijk gewicht) van de grond uit. Deze waarde is toegestaan vanaf de norm NEN-EN-ISO 14688-1:2019+NEN 8990:2025.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>schelpmateriaalWeinig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Natuurlijk materiaal: schelpen en resten van schelpen. Deze schelpen en resten maken minder dan 25 % van de massa van de grond uit.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>schelpmateriaalVeel</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Natuurlijk materiaal: schelpen en resten van schelpen. Deze schelpen en resten maken 25 tot 50 % van de massa van de grond uit.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>stenen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen materiaal: stenen van natuurlijk materiaal die gebruikt zijn als ballast of stortsteen of het bijproduct zijn van mijnbouw. Deze stenen maken maximaal 50% van de massa of het volume (afhankelijk van het soortelijk gewicht) van de grond uit. Deze waarde is toegestaan in de norm NEN-EN-ISO 14688-1:2019+NEN 8990:2020 en voorgaande versies ervan en is vanaf de norm NEN-EN-ISO 14688-1:2019+NEN 8990:2025 vervangen door de waarden stenenWeinig en stenenVeel.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>stenenWeinig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen materiaal: stenen van natuurlijk materiaal die gebruikt zijn als ballast of stortsteen of het bijproduct zijn van mijnbouw. Deze stenen maken minder dan 25 % van de massa of het volume (afhankelijk van het soortelijk gewicht) van de grond uit. Deze waarde is toegestaan vanaf de norm NEN-EN-ISO 14688-1:2019+NEN 8990:2025.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>stenenVeel</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen materiaal: stenen van natuurlijk materiaal die gebruikt zijn als ballast of stortsteen of het bijproduct zijn van mijnbouw. Deze stenen maken 25 tot 50 % van de massa of het volume (afhankelijk van het soortelijk gewicht) van de grond uit. Deze waarde is toegestaan vanaf de norm NEN-EN-ISO 14688-1:2019+NEN 8990:2025.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>verbrandingsrestenFijn</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen materiaal: minerale verbrandingsresten met een diameter vergelijkbaar met die van silt en lutum (kleiner dan 63 µm), veelal vliegas genoemd. Deze resten maken maximaal 50% van de massa of het volume (afhankelijk van het soortelijk gewicht) van de grond uit. Deze waarde is toegestaan in de norm NEN-EN-ISO 14688-1:2019+NEN 8990:2020 en voorgaande versies ervan en is vanaf de norm NEN-EN-ISO 14688-1:2019+NEN 8990:2025 vervangen door de waarden verbrandingsrestenFijnWeinig en verbrandingsrestenFijnVeel.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>verbrandingsrestenFijnWeinig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen materiaal: minerale verbrandingsresten met een diameter vergelijkbaar met die van silt en lutum (kleiner dan 63 µm), veelal vliegas genoemd. Deze resten maken minder dan 25 % van de massa of het volume (afhankelijk van het soortelijk gewicht) van de grond uit. Deze waarde is toegestaan vanaf de norm NEN-EN-ISO 14688-1:2019+NEN 8990:2025.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>verbrandingsrestenFijnVeel</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen materiaal: minerale verbrandingsresten met een diameter vergelijkbaar met die van silt en lutum (kleiner dan 63 µm), veelal vliegas genoemd. Deze resten maken 25 tot 50 % van de massa of het volume (afhankelijk van het soortelijk gewicht) van de grond uit. Deze waarde is toegestaan vanaf de norm NEN-EN-ISO 14688-1:2019+NEN 8990:2025.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>verbrandingsrestenMiddelGrof</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen materiaal: minerale verbrandingsresten met een diameter die vergelijkbaar is met zand (0,063 - 2 mm), veelal bodemas genoemd. Deze resten maken maximaal 50% van de massa of het volume (afhankelijk van het soortelijk gewicht) van de grond uit. Deze waarde is toegestaan in de norm NEN-EN-ISO 14688-1:2019+NEN 8990:2020 en voorgaande versies ervan en is vanaf de norm NEN-EN-ISO 14688-1:2019+NEN 8990:2025 vervangen door de waarden verbrandingsrestenMiddelGrofWeinig en verbrandingsrestenMiddelGrofVeel.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>verbrandingsrestenMiddelGrofWeinig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen materiaal: minerale verbrandingsresten met een diameter die vergelijkbaar is met zand (0,063 - 2 mm), veelal bodemas genoemd.  Deze resten maken minder dan 25 % van de massa of het volume (afhankelijk van het soortelijk gewicht) van de grond uit. Deze waarde is toegestaan vanaf de norm NEN-EN-ISO 14688-1:2019+NEN 8990:2025.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>verbrandingsrestenMiddelGrofVeel</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen materiaal: minerale verbrandingsresten met een diameter die vergelijkbaar is met zand (0,063 - 2 mm), veelal bodemas genoemd. Deze resten maken 25 tot 50 % van de massa of het volume (afhankelijk van het soortelijk gewicht) van de grond uit. Deze waarde is toegestaan vanaf de norm NEN-EN-ISO 14688-1:2019+NEN 8990:2025.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>verbrandingsrestenGrof</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen materiaal: minerale verbrandingsresten met een diameter groter dan 2mm; veelal slakken genoemd. Deze resten maken maximaal 50% van de massa of het volume (afhankelijk van het soortelijk gewicht) van de grond uit. Deze waarde is toegestaan in de norm NEN-EN-ISO 14688-1:2019+NEN 8990:2020 en voorgaande versies ervan en is vanaf de norm NEN-EN-ISO 14688-1:2019+NEN 8990:2025 vervangen door de waarden verbrandingsrestenGrofWeinig en verbrandingsrestenGrofVeel.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>verbrandingsrestenGrofWeinig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen materiaal: minerale verbrandingsresten met een diameter groter dan 2mm; veelal slakken genoemd. Deze resten maken minder dan 25 % van de massa of het volume (afhankelijk van het soortelijk gewicht) van de grond uit. Deze waarde is toegestaan vanaf de norm NEN-EN-ISO 14688-1:2019+NEN 8990:2025.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>verbrandingsrestenGrofVeel</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen materiaal: minerale verbrandingsresten met een diameter groter dan 2mm; veelal slakken genoemd. Deze resten maken 25 tot 50 % van de massa of het volume (afhankelijk van het soortelijk gewicht) van de grond uit. Deze waarde is toegestaan vanaf de norm NEN-EN-ISO 14688-1:2019+NEN 8990:2025.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>vuursteenWeinig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Natuurlijk materiaal: concreties die bestaan uit vrijwel amorfe kwarts. Deze concreties maken minder dan 25 % van de massa van de grond uit.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>vuursteenVeel</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Natuurlijk materiaal: concreties die bestaan uit vrijwel amorfe kwarts. Deze concreties maken 25 tot 50 % van de massa van de grond uit.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>wegverhardingsmateriaal</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen materiaal: materiaal dat gebruikt is voor het verharden van wegen en erven. Voorbeelden zijn asfalt, betonklinkers, klinkers, steenslag en tegels. Dit materiaal maakt maximaal 50% van de massa of het volume (afhankelijk van het soortelijk gewicht) van de grond uit. Deze waarde is toegestaan in de norm NEN-EN-ISO 14688-1:2019+NEN 8990:2020 en voorgaande versies ervan en is vanaf de norm NEN-EN-ISO 14688-1:2019+NEN 8990:2025 vervangen door de waarden wegverhardingsmateriaalWeinig en wegverhardingsmateriaalVeel.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>wegverhardingsmateriaalWeinig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen materiaal: materiaal dat gebruikt is voor het verharden van wegen en erven. Voorbeelden zijn asfalt, betonklinkers, klinkers, steenslag en tegels.  Dit materiaal maakt minder dan 25 % van de massa of het volume (afhankelijk van het soortelijk gewicht) van de grond uit. Deze waarde is toegestaan vanaf de norm NEN-EN-ISO 14688-1:2019+NEN 8990:2025.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>wegverhardingsmateriaalVeel</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen materiaal: materiaal dat gebruikt is voor het verharden van wegen en erven. Voorbeelden zijn asfalt, betonklinkers, klinkers, steenslag en tegels. Dit materiaal maakt 25 tot 50 % van de massa of het volume (afhankelijk van het soortelijk gewicht) van de grond uit. Deze waarde is toegestaan vanaf de norm NEN-EN-ISO 14688-1:2019+NEN 8990:2025.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>breuksteen</Waarde>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen materiaal: stenen van natuurlijk materiaal die gebruikt zijn als ballast of stortsteen.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>glauconiet</Waarde>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Natuurlijk materiaal: groene, groenige of bruine korrels die uit glauconiet of goethiet bestaan. De mate van voorkomen is niet gespecificeerd; het voorkomen ervan beïnvloedt de eigenschappen van de grond omdat het korrels zijn die zich als klei gedragen.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>houtNietGespecificeerd</Waarde>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen of natuurlijk materiaal: omvat de IMBRO-waarden houtGebruikt en plantenrestenHoutig.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>houtskool</Waarde>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen of natuurlijk materiaal: door verbranding verkoolde resten van hout, meestal gebroken stukjes; de mate van voorkomen is niet gespecificeerd.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>ijzerconcreties</Waarde>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Natuurlijk materiaal: delen van de grond die door ijzer(hydr)oxiden tot een geheel zijn verkit; de mate van voorkomen is niet gespecificeerd.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>kalkNietGespecificeerd</Waarde>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen of natuurlijk materiaal: omvat de IMBRO-waarden kalkGemaakt, kalkconcretiesVeel en kalkconcretiesWeinig.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>mijnsteen</Waarde>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen materiaal: stenen van natuurlijk materiaal die het bijproduct zijn van mijnbouw.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>vuursteen</Waarde>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Natuurlijk materiaal: concreties die bestaan uit vrijwel amorfe kwarts; de mate van voorkomen is niet gespecificeerd.</Omschrijving>
+	</BijzonderBestanddeel>
+</domeintabel>
