@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<WeggegravenMateriaal>
+		<Waarde>grind</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Natuurlijke of antropogene grond die in hoofdzaak uit grind bestaat.</Omschrijving>
+	</WeggegravenMateriaal>
+	<WeggegravenMateriaal>
+		<Waarde>huisvuil</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Ongedifferentieerd huishoudelijk afval.</Omschrijving>
+	</WeggegravenMateriaal>
+	<WeggegravenMateriaal>
+		<Waarde>klei</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Natuurlijke of antropogene grond die in hoofdzaak uit klei bestaat.</Omschrijving>
+	</WeggegravenMateriaal>
+	<WeggegravenMateriaal>
+		<Waarde>ophoogmateriaalLicht</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Ophoogmateriaal met een laag soortelijk gewicht.</Omschrijving>
+	</WeggegravenMateriaal>
+	<WeggegravenMateriaal>
+		<Waarde>puin</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Bouw- en sloopafval; veelal een mengsel van stenig materiaal dat door de mens gemaakt of bewerkt is.</Omschrijving>
+	</WeggegravenMateriaal>
+	<WeggegravenMateriaal>
+		<Waarde>stenen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Stenen van natuurlijk materiaal dat door de mens bewerkt is tot bouwstenen, ballastblokken, (basalt)stortsteen of een bijproduct van mijnbouw zijn.</Omschrijving>
+	</WeggegravenMateriaal>
+	<WeggegravenMateriaal>
+		<Waarde>veen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Natuurlijke of antropogene grond die in hoofdzaak uit veen bestaat.</Omschrijving>
+	</WeggegravenMateriaal>
+	<WeggegravenMateriaal>
+		<Waarde>wegverhardingsmateriaal</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Materiaal dat gebruikt is voor het verharden van wegen en erven; voorbeelden zijn asfalt, betonklinkers, klinkers, steenslag en tegels.</Omschrijving>
+	</WeggegravenMateriaal>
+	<WeggegravenMateriaal>
+		<Waarde>zand</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Natuurlijke of antropogene grond die in hoofdzaak uit zand bestaat.</Omschrijving>
+	</WeggegravenMateriaal>
+</domeintabel>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Voorbereiding>
+		<Waarde>bevriezing</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De uitvoerder heeft voordat met boren is begonnen de ondergrond tot op een bepaalde diepte bevroren.</Omschrijving>
+	</Voorbereiding>
+	<Voorbereiding>
+		<Waarde>geen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De uitvoerder heeft geen voorbereidende werkzaamheden uitgevoerd.</Omschrijving>
+	</Voorbereiding>
+	<Voorbereiding>
+		<Waarde>injectieDragendVermogen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De uitvoerder heeft voordat met boren is begonnen de ondergrond tot op een bepaalde diepte geïnjecteerd met materiaal om het dragend vermogen te vergroten.</Omschrijving>
+	</Voorbereiding>
+	<Voorbereiding>
+		<Waarde>injectieWaterdoorlatendheid</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De uitvoerder heeft voordat met boren is begonnen de ondergrond tot op een bepaalde diepte geïnjecteerd met materiaal om de waterdoorlatendheid te verkleinen.</Omschrijving>
+	</Voorbereiding>
+	<Voorbereiding>
+		<Waarde>tijdelijkeVerbuizingVooraf</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De uitvoerder heeft voordat met boren is begonnen tot op een bepaalde diepte in de ondergrond een buis aangebracht.</Omschrijving>
+	</Voorbereiding>
+	<Voorbereiding>
+		<Waarde>vacuumconsolidatie</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De uitvoerder heeft voordat met boren is begonnen tot op een bepaalde diepte in de ondergrond vacuümconsolidatie toegepast.</Omschrijving>
+	</Voorbereiding>
+	<Voorbereiding>
+		<Waarde>verticaleDrainage</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De uitvoerder heeft voordat met boren is begonnen de ondergrond tot op een bepaalde diepte verticaal gedraineerd (strips, grindpalen, etc.).</Omschrijving>
+	</Voorbereiding>
+</domeintabel>

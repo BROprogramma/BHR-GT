@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Monstervochtigheid>
+		<Waarde>volledigUitgedroogd</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het materiaal bevat geen vocht.</Omschrijving>
+	</Monstervochtigheid>
+	<Monstervochtigheid>
+		<Waarde>uitgedroogd</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het materiaal bevat vocht maar vertoont ook sporen van krimp of vlekken die erop wijzen dat een deel van het vocht verdampt is.</Omschrijving>
+	</Monstervochtigheid>
+	<Monstervochtigheid>
+		<Waarde>veldvochtig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het materiaal is net zo vochtig als materiaal dat direct uit het boorgat komt.</Omschrijving>
+	</Monstervochtigheid>
+	<Monstervochtigheid>
+		<Waarde>onbekend</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De vochtigheidstoestand van het materiaal is niet bekend.</Omschrijving>
+	</Monstervochtigheid>
+</domeintabel>

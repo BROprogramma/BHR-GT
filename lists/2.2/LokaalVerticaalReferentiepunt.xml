@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<LokaalVerticaalReferentiepunt>
+		<Waarde>maaiveld</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het oppervlak van de vaste aarde, daar waar de aarde niet bedekt is met water. Het maaiveld vormt de grens tussen de ondergrond en de bovengrond.</Omschrijving>
+	</LokaalVerticaalReferentiepunt>
+	<LokaalVerticaalReferentiepunt>
+		<Waarde>waterbodem</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De bodem van het waterlichaam. Deze vormt de grens tussen de ondergrond en de bovengrond, daar waar de aarde bedekt is met water.</Omschrijving>
+	</LokaalVerticaalReferentiepunt>
+</domeintabel>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<StopcriteriumBepaling>
+		<Waarde>beperkingTechnisch</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De bepaling is voortijdig gestopt vanwege de beperkingen van het gebruikte apparaat.</Omschrijving>
+	</StopcriteriumBepaling>
+	<StopcriteriumBepaling>
+		<Waarde>einddoel</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het vooraf gestelde doel van de bepaling is bereikt.</Omschrijving>
+	</StopcriteriumBepaling>
+	<StopcriteriumBepaling>
+		<Waarde>membraanLek</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De bepaling is voortijdig gestopt omdat het membraan tijdens de bepaling lek raakte.</Omschrijving>
+	</StopcriteriumBepaling>
+</domeintabel>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<TypeAnalyse>
+		<Waarde>basisparameter</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Er zijn alleen een of meer basisparameters bepaald en dat zijn het watergehalte, het organischestofgehalte, het kalkgehalte, de volumieke massa en de volumieke massa vaste delen. Een interval met een lengte van 2 cm volstaat. De monsterkwaliteit stelt geen beperkingen. Alleen wanneer de volumieke massa is bepaald is de vereiste monsterkwaliteit gelijk aan QM1, QM2 of QM3.</Omschrijving>
+	</TypeAnalyse>
+	<TypeAnalyse>
+		<Waarde>consistentie</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De consistentiegrenzen zijn bepaald en de zettingseigenschappen, de maximale ongedraineerde schuifsterkte, het schuifspanningsverloop, de korrelgrootteverderling en de waterdoorlatendheid zijn niet bepaald. Van de basisparameters is het watergehalte altijd bepaald en kunnen het organischestofgehalte, het kalkgehalte en de volumieke massa zijn bepaald. Dit vereist een interval met een minimum lengte van 5 cm. De monsterkwaliteit stelt geen beperkingen.</Omschrijving>
+	</TypeAnalyse>
+	<TypeAnalyse>
+		<Waarde>consistentieKorrelverdeling</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De consistentiegrenzen en de korrelgrootteverdeling zijn bepaald en de zettingseigenschappen, de maximale ongedraineerde schuifsterkte, het schuifspanningsverloop en de waterdoorlatendheid zijn niet bepaald. Van de basisparameters is het watergehalte altijd bepaald en kunnen het organischestofgehalte, het kalkgehalte en de volumieke massa zijn bepaald. Dit vereist een interval met een minimum lengte van 5 cm. De monsterkwaliteit stelt geen beperkingen.</Omschrijving>
+	</TypeAnalyse>
+	<TypeAnalyse>
+		<Waarde>korrelgrootteverdeling</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De korrelgrootteverdeling is bepaald, en de zettingseigenschappen, de maximale ongedraineerde schuifsterkte, het schuifspanningsverloop, de consistentiegrenzen en de waterdoorlatendheid zijn niet bepaald. Van de basisparameters kunnen het watergehalte, organischestofgehalte, het kalkgehalte, de volumieke massa en de volumieke massa vaste delen zijn bepaald. Dit vereist een interval met een minimum lengte van 5 cm. De monsterkwaliteit stelt geen beperkingen. Alleen wanneer ook de volumieke massa is bepaald is de vereiste monsterkwaliteit gelijk aan QM1, QM2 of QM3.</Omschrijving>
+	</TypeAnalyse>
+	<TypeAnalyse>
+		<Waarde>korrelgrootteverdelingMaximaleSchuifsterkte</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De korrelgrootteverdeling en de maximale ongedraineerde schuifsterkte zijn bepaald en de verticale vervorming is niet bepaald. Van de basisparameters kunnen het watergehalte, organischestofgehalte, het kalkgehalte, de volumieke massa en de volumieke massa vaste delen zijn bepaald. Dit type analyse vereist een interval met een minimum lengte van 5 cm. De vereiste monsterkwaliteit is QM1, QM2 of QM3. Deze waarde is vervangen door de waarde schuifsterktePlus.</Omschrijving>
+	</TypeAnalyse>
+	<TypeAnalyse>
+		<Waarde>schuifspanningsverloopBelasting</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het schuifspanningsverloop bij belasting is bepaald en de zettingseigenschappen, de maximale ongedraineerde schuifsterkte, de consistentiegrenzen, de korrelgrootteverdeling en de waterdoorlatendheid zijn niet bepaald. Van de basisparameters zijn het watergehalte en de volumieke massa bij een proefstuk uit een niet verstoord boormonster altijd bepaald en bij een gemaakt proefstuk kunnen ze zijn bepaald en de volumieke massa vaste delen kan bij niet-cohesieve grond zijn bepaald. Eventueel kunnen het organischestofgehalte en het kalkgehalte zijn bepaald. Dit vereist een interval met een minimum lengte van 7 cm en dan moet het monster eigenlijk zo breed zijn dat er voldoende materiaal overblijft om daarvan het watergehalte te bepalen. Is er niet genoeg materiaal dan wordt het interval verlengt tot minimaal 10 cm; het watergehalte wordt dan zogezegd bepaald aan de afsnijdsels. Wordt het proefstuk gemaakt dan is een interval met een minimum lengte van 15 cm nodig. De vereiste monsterkwaliteit is QM1, QM2 of QM3 bij een proefstuk uit een niet verstoord boormonster. Bij een gemaakt proefstuk stelt de monsterkwaliteit geen beperkingen.</Omschrijving>
+	</TypeAnalyse>
+	<TypeAnalyse>
+		<Waarde>schuifspanningsverloopBelastingPlus</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het schuifspanningsverloop bij belasting is bepaald en bij cohesieve grond zijn de consistentiegrenzen bepaald en bij niet-cohesieve grond is de korrelgrootteverdeling bepaald. In uitzonderijke gevallen zijn zowel de consistentiegrenzen als de korrelgrootteverdeling bepaald. De zettingseigenschappen, de maximale ongedraineerde schuifsterkte en de waterdoorlatendheid zijn niet bepaald. Van de basisparameters is het watergehalte altijd bepaald, de volumieke massa is bij een proefstuk uit een niet verstoord boormonster altijd bepaald en bij een gemaakt proefstuk kan het zijn bepaald, de volumieke massa vaste delen kan bij niet-cohesieve grond zijn bepaald. Eventueel kunnen het organischestofgehalte en het kalkgehalte zijn bepaald. Dit vereist een interval met een minimum lengte van 7 cm en dan moet het monster eigenlijk zo breed zijn dat er voldoende materiaal overblijft om daarvan het watergehalte te bepalen. Is er niet genoeg materiaal dan wordt het interval verlengt tot minimaal 10 cm; het watergehalte wordt dan zogezegd bepaald aan de afsnijdsels. Wordt het proefstuk gemaakt dan is een interval met een minimum lengte van 15 cm nodig. De vereiste monsterkwaliteit is QM1, QM2 of QM3 bij een proefstuk uit een niet verstoord boormonster. Bij een gemaakt proefstuk stelt de monsterkwaliteit geen beperkingen.</Omschrijving>
+	</TypeAnalyse>
+	<TypeAnalyse>
+		<Waarde>schuifspanningsverloopHorVervorming</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het schuifspanningsverloop bij horizontale vervorming is bepaald en de zettingseigenschappen, de maximale ongedraineerde schuifsterkte, de consistentiegrenzen, de korrelgrootteverdeling en de waterdoorlatendheid zijn niet bepaald. Van de basisparameters zijn het watergehalte en de volumieke massa bij een proefstuk uit een niet verstoord boormonster altijd bepaald en bij een gemaakt proefstuk kunnen ze zijn bepaald. Eventueel kunnen de volumieke massa vaste delen en het kalkgehalte zijn bepaald. Dit vereist een interval met een minimum lengte van 2 cm en dan moet het monster eigenlijk zo breed zijn dat er voldoende materiaal overblijft om daarvan het watergehalte te bepalen. Is er niet genoeg materiaal dan wordt het interval verlengt tot minimaal 5 cm; het watergehalte wordt dan zogezegd bepaald aan de afsnijdsels. Wordt het proefstuk gemaakt dan is een interval met een minimum lengte van 15 cm nodig. De vereiste monsterkwaliteit is QM1, QM2 of QM3 bij een proefstuk uit een niet verstoord boormonster. Bij een gemaakt proefstuk stelt de monsterkwaliteit geen beperkingen.</Omschrijving>
+	</TypeAnalyse>
+	<TypeAnalyse>
+		<Waarde>schuifspanningsverloopHorVervormingPlus</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het schuifspanningsverloop bij horizontale vervorming en de consistentiegrenzen zijn bepaald. Bij een gemaakt proefstuk kan eventueel de korrelgrootteverdeling zijn bepaald. De zettingseigenschappen, de maximale ongedraineerde schuifsterkte en de waterdoorlatendheid zijn niet bepaald. Van de basisparameters is het watergehalte altijd bepaald, de volumieke massa is bij een proefstuk uit een niet verstoord boormonster altijd bepaald en bij een gemaakt proefstuk kan het zijn bepaald. Eventueel kunnen de volumieke massa vaste delen en het kalkgehalte zijn bepaald. Dit vereist een interval met een minimum lengte van 5 cm. Wordt het proefstuk gemaakt dan is een interval met een minimum lengte van 15 cm nodig. De vereiste monsterkwaliteit is QM1, QM2 of QM3 bij een proefstuk uit een niet verstoord boormonster. Bij een gemaakt proefstuk stelt de monsterkwaliteit geen beperkingen.</Omschrijving>
+	</TypeAnalyse>
+	<TypeAnalyse>
+		<Waarde>maximaleSchuifsterkte</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De maximale ongedraineerde schuifsterkte is bepaald en de zettingseigenschappen, het schuifspanningsverloop, de consistentiegrenzen, de korrelgrootteverdeling en de waterdoorlatendheid zijn niet bepaald. Van de basisparameters kunnen het watergehalte, het organischestofgehalte en het kalkgehalte zijn bepaald. Dit vereist een interval met een minimum lengte van 5 cm. De vereiste monsterkwaliteit is QM1, QM2 of QM3.</Omschrijving>
+	</TypeAnalyse>
+	<TypeAnalyse>
+		<Waarde>schuifsterktePlus</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De maximale ongedraineerde schuifsterkte is bepaald en daarbij zijn de consistentiegrenzen bepaald of is de korrelgrootteverdeling bepaald, in uitzonderijke gevallen zijn ze beiden bepaald. De zettingseigenschappen, het schuifspanningsverloop en de waterdoorlatendheid zijn niet bepaald. Van de basisparameters is het watergehalte altijd bepaald en kunnen het organischestofgehalte, het kalkgehalte en de volumieke massa zijn bepaald en wanneer de korrelgrootteverderling is bepaald kan de volumieke massa vaste delen zijn bepaald. Dit vereist een interval met een minimum lengte van 5 cm. De vereiste monsterkwaliteit is QM1, QM2 of QM3.</Omschrijving>
+	</TypeAnalyse>
+	<TypeAnalyse>
+		<Waarde>waterdoorlatendheid</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De waterdoorlatendheid is bepaald en de zettingseigenschappen, de maximale ongedraineerde schuifsterkte, het schuifspanningsverloop, de consistentiegrenzen en de korrelgrootteverdeling zijn niet bepaald. Van de basisparameters zijn het watergehalte en de volumieke massa bij cohesieve grond altijd bepaald, en bij niet-cohesieve grond kunnen ze zijn bepaald. De volumieke massa vaste delen, het organischestofgehalte en het kalkgehalte kunnen zijn bepaald. Dit vereist voor cohesieve grond een interval met een minimum lengte van 2 cm en dan moet het monster eigenlijk zo breed zijn dat er voldoende materiaal overblijft om daarvan het watergehalte te bepalen. Is er niet genoeg materiaal dan wordt het interval verlengt tot minimaal 5 cm; het watergehalte wordt dan zogezegd bepaald aan de afsnijdsels. Bij niet cohesieve grond is een interval met een minimum lengte van 10 cm nodig. De vereiste monsterkwaliteit is QM1, QM2 of QM3 voor cohesieve grond en bij niet-cohesieve grond stelt de monsterkwaliteit geen beperkingen.</Omschrijving>
+	</TypeAnalyse>
+	<TypeAnalyse>
+		<Waarde>waterdoorlatendheidPlus</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De waterdoorlatendheid en de korrelgrootteverdeling zijn bepaald en de zettingseigenschappen, de maximale ongedraineerde schuifsterkte, het schuifspanningsverloop en de consistentiegrenzen zijn niet bepaald. Van de basisparameters is het watergehalte altijd bepaald en de volumieke massa, de volumieke massa vaste delen, het organischestofgehalte en het kalkgehalte kunnen zijn bepaald. Dit vereist een interval met een minimum lengte van 10 cm. De monsterkwaliteit stelt geen beperkingen.</Omschrijving>
+	</TypeAnalyse>
+	<TypeAnalyse>
+		<Waarde>zetting</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De zettingseigenschappen zijn bepaald en de maximale ongedraineerde schuifsterkte, het schuifspanningsverloop, de consistentiegrenzen, de korrelgrootteverdeling en de waterdoorlatendheid zijn niet bepaald. Van de basisparameters zijn altijd het watergehalte en de volumieke massa bepaald. Het organischestofgehalte, het kalkgehalte en de volumieke massa vaste delen kunnen zijn bepaald. Dit vereist een interval met een lengte van 2 tot 6 cm (hoogte ring) en dan moet het monster eigenlijk zo breed zijn dat er voldoende materiaal overblijft om daarvan het watergehalte te bepalen. Is er niet genoeg materiaal dan zijn er twee mogelijkheden. Het heeft de voorkeur het watergehalte op hetzelfde materiaal te bepalen en dit doet men door het beproefde materiaal te drogen en het watergehalte te berekenen; in dit geval spreekt men over bepaling achteraf. De tweede optie is het interval te verlengen met een paar cm; het watergehalte wordt dan zogezegd bepaald aan de afsnijdsels. De vereiste monsterkwaliteit is QM1, QM2 of QM3.</Omschrijving>
+	</TypeAnalyse>
+	<TypeAnalyse>
+		<Waarde>zettingWaterdoorlatendheid</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De zettingseigenschappen en de waterdoorlatendheid (methode falling head) zijn bepaald en de maximale ongedraineerde schuifsterkte, het schuifspanningsverloop, de consistentiegrenzen en de korrelgrootteverdeling zijn niet bepaald. Van de basisparameters zijn altijd het watergehalte en de volumieke massa bepaald. Het organischestofgehalte, het kalkgehalte en de volumieke massa vaste delen kunnen zijn bepaald. Dit vereist een interval met een lengte van 2 tot 6 cm (hoogte ring) en dan moet het monster eigenlijk zo breed zijn dat er voldoende materiaal overblijft om daarvan het watergehalte te bepalen. Is er niet genoeg materiaal dan zijn er twee mogelijkheden. Het heeft de voorkeur het watergehalte op hetzelfde materiaal te bepalen en dit doet men door het beproefde materiaal te drogen en het watergehalte te berekenen; in dit geval spreekt men over bepaling achteraf. De tweede optie is het interval te verlengen met een paar cm; het watergehalte wordt dan zogezegd bepaald aan de afsnijdsels. De vereiste monsterkwaliteit is QM1, QM2 of QM3.</Omschrijving>
+	</TypeAnalyse>
+</domeintabel>

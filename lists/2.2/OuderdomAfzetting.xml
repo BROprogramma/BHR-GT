@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<OuderdomAfzetting>
+		<Waarde>holoceen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het deel van de ondergrond dat in het Holoceen is afgezet.</Omschrijving>
+	</OuderdomAfzetting>
+	<OuderdomAfzetting>
+		<Waarde>pleistoceen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het deel van de ondergrond dat in het Pleistoceen is afgezet.</Omschrijving>
+	</OuderdomAfzetting>
+	<OuderdomAfzetting>
+		<Waarde>prePleistoceenBoom</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het deel van de ondergrond dat voor het Pleistoceen is afgezet en uit klei bestaat die deel uitmaakt van het Laagpakket van Boom van de Rupel Formatie; deze klei wordt gekenmerkt door hoge stijfheid, homogeniteit en kan grote kalkconcreties (septarien) bevatten.</Omschrijving>
+	</OuderdomAfzetting>
+	<OuderdomAfzetting>
+		<Waarde>prePleistoceenGeenBoom</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het deel van de ondergrond dat voor het Pleistoceen is afgezet en niet uit klei bestaat die deel uitmaakt van het Laagpakket van Boom van de Rupel Formatie.</Omschrijving>
+	</OuderdomAfzetting>
+</domeintabel>

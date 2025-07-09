@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Stopcriterium>
+		<Waarde>beperkingTechnisch</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De veldactiviteit is voortijdig gestopt vanwege beperkingen van het gebruikte apparaat.</Omschrijving>
+	</Stopcriterium>
+	<Stopcriterium>
+		<Waarde>einddoel</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het vooraf gestelde doel van de veldactiviteit is bereikt; vaak is dat de beoogde einddiepte.</Omschrijving>
+	</Stopcriterium>
+	<Stopcriterium>
+		<Waarde>obstakelConstructie</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De veldactiviteit is voortijdig gestopt omdat op een deel van een constructie is gestuit; voorbeelden zijn resten van een bouwwerk, een rioolbuis.</Omschrijving>
+	</Stopcriterium>
+	<Stopcriterium>
+		<Waarde>obstakelGrindStenen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De veldactiviteit is voortijdig gestopt omdat op grind, zeer grove grond of stenen is gestuit.</Omschrijving>
+	</Stopcriterium>
+	<Stopcriterium>
+		<Waarde>obstakelIJzervloer</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De veldactiviteit is voortijdig gestopt omdat op een ijzervloer, ofwel een laag ijzeroer, is gestuit.</Omschrijving>
+	</Stopcriterium>
+	<Stopcriterium>
+		<Waarde>obstakelOnbekend</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De veldactiviteit is voortijdig gestopt omdat op een niet nader omschreven obstakel is gestuit.</Omschrijving>
+	</Stopcriterium>
+	<Stopcriterium>
+		<Waarde>obstakelPuin</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De veldactiviteit is voortijdig gestopt omdat op puin is gestuit.</Omschrijving>
+	</Stopcriterium>
+	<Stopcriterium>
+		<Waarde>obstakelVastGesteente</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De veldactiviteit is voortijdig gestopt omdat het vast gesteente is bereikt.</Omschrijving>
+	</Stopcriterium>
+	<Stopcriterium>
+		<Waarde>risico</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De veldactiviteit is voortijdig gestopt omdat er niet veilig verder gewerkt kan worden vanwege een niet nader omschreven risico.</Omschrijving>
+	</Stopcriterium>
+	<Stopcriterium>
+		<Waarde>risicoGrondwaterdruk</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De veldactiviteit is voortijdig gestopt omdat de grondwaterdruk te hoog is om veilig verder te kunnen werken.</Omschrijving>
+	</Stopcriterium>
+	<Stopcriterium>
+		<Waarde>storingOrganisatorisch</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De veldactiviteit is voortijdig gestopt omdat er een organisatorisch probleem is opgetreden.</Omschrijving>
+	</Stopcriterium>
+	<Stopcriterium>
+		<Waarde>storingTechnisch</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De veldactiviteit is voortijdig gestopt omdat er een technisch probleem is opgetreden.</Omschrijving>
+	</Stopcriterium>
+	<Stopcriterium>
+		<Waarde>werkwaterverlies</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De veldactiviteit is voortijdig gestopt omdat het werkwater zeer snel wegstroomde.</Omschrijving>
+	</Stopcriterium>
+	<Stopcriterium>
+		<Waarde>onbekend</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De veldactiviteit is voortijdig gestopt. De reden is niet bekend.</Omschrijving>
+	</Stopcriterium>
+</domeintabel>

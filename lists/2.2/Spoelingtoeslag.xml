@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Spoelingtoeslag>
+		<Waarde>bentoniet</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Water met toevoeging van bentoniet om de viscositeit te verhogen en circulatieverlies te verminderen.</Omschrijving>
+	</Spoelingtoeslag>
+	<Spoelingtoeslag>
+		<Waarde>bentonietBariet</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Water met toevoeging van bentoniet en bariumsulfaat om het soortelijk gewicht te verhogen.</Omschrijving>
+	</Spoelingtoeslag>
+	<Spoelingtoeslag>
+		<Waarde>bentonietMicrodolomiet</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Water met toevoeging van bentoniet en microdolomiet om het soortelijk gewicht te verhogen.</Omschrijving>
+	</Spoelingtoeslag>
+	<Spoelingtoeslag>
+		<Waarde>geen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Water zonder toevoeging.</Omschrijving>
+	</Spoelingtoeslag>
+	<Spoelingtoeslag>
+		<Waarde>polymeren</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Water met toevoeging van (biologisch afbreekbare) polymeren als CMC om de viscositeit te verhogen en circulatieverlies te verminderen.</Omschrijving>
+	</Spoelingtoeslag>
+	<Spoelingtoeslag>
+		<Waarde>onbekend</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het is niet bekend welk materiaal als spoeling is gebruikt.</Omschrijving>
+	</Spoelingtoeslag>
+</domeintabel>

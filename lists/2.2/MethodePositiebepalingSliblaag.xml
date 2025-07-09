@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<MethodePositiebepalingSliblaag>
+		<Waarde>akoestisch</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Via deze technieken wordt met een hoogfrequent (210 – 700 kHz) de afstand van een zender tot de bovenzijde van de sliblaag bepaald. Dit is de laag waarop het signaal reflecteert. Lage frequenties (15 – 30 kHZ) kunnen onder bepaalde omstandigheden gebruikt worden om de onderzijde van de sliblaag te definiëren.</Omschrijving>
+	</MethodePositiebepalingSliblaag>
+	<MethodePositiebepalingSliblaag>
+		<Waarde>elektromagnetisch</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Bij deze techniek worden elektromagnetische pulsen gebruikt om de waterdiepte en onderzijde van de sliblaag te bepalen. Er wordt gewerkt met een zender en ontvanger. De resolutie is afhankelijk van de geleidbaarheid van het water, grondsoort, meetfrequentie.</Omschrijving>
+	</MethodePositiebepalingSliblaag>
+	<MethodePositiebepalingSliblaag>
+		<Waarde>radioactief</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Bij deze techniek wordt in de waterkolom de dichtheid radioactief bepaald. Op basis van dichtheidsverschillen wordt de top van de sliblaag vastgesteld.</Omschrijving>
+	</MethodePositiebepalingSliblaag>
+	<MethodePositiebepalingSliblaag>
+		<Waarde>ultrasoon</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Bij deze techniek wordt in de waterkolom de dichtheid met hoogfrequente geluidsgolven bepaald. Op basis van dichtheidsverschillen wordt de top van de sliblaag vastgesteld.</Omschrijving>
+	</MethodePositiebepalingSliblaag>
+	<MethodePositiebepalingSliblaag>
+		<Waarde>versnelling</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Bij deze techniek laat met een object in de waterkolom vallen. Door gelijktijdig de diepte en versnelling te meten kan worden afgeleid op welke diepte zich de bovenzijde van de sliblaag zich bevindt. In het slib zal de valversnelling van het instrument vertragen.</Omschrijving>
+	</MethodePositiebepalingSliblaag>
+	<MethodePositiebepalingSliblaag>
+		<Waarde>visueel</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Voor metingen aan een monsterkolom wordt een transparante holle buis (aan de onderzijde al dan niet afsluitbaar) in de grond gedrukt. Visueel wordt dan de bovenzijde van de sliblaag bepaald.</Omschrijving>
+	</MethodePositiebepalingSliblaag>
+	<MethodePositiebepalingSliblaag>
+		<Waarde>waterdruk</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Deze techniek maakt gebruik van een meetinstrument dat achter een boot voortgetrokken wordt. Hiervoor dient de dichtheid van de top van de sliblaag vooraf gedefinieerd te worden. Door het meetinstrument deze dichtheid te geven hoeft alleen de hoogte van de waterkolom boven het meetinstrument gemeten te worden met een waterdrukmeter.</Omschrijving>
+	</MethodePositiebepalingSliblaag>
+	<MethodePositiebepalingSliblaag>
+		<Waarde>weerstandMechanisch</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Bij deze techniek wordt een meetlichaam mechanisch naar beneden gedrukt. De weerstanden hierbij worden geregistreerd. Dit kan tevens in de meetkop plaatsvinden zoals bij een sondering.</Omschrijving>
+	</MethodePositiebepalingSliblaag>
+	<MethodePositiebepalingSliblaag>
+		<Waarde>weerstandPeilhengel</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Bij toepassing van een peilhengel is een peilstok met een schijf van 10 cm diameter bevestigd aan een hengel. De hengel wordt gebruikt om de peilstok neer te laten tot deze blijft staan op een sliblaag. De diepte kan worden afgelezen (b-weerstand).</Omschrijving>
+	</MethodePositiebepalingSliblaag>
+	<MethodePositiebepalingSliblaag>
+		<Waarde>weerstandPeilstok</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Bij toepassing van een peilstok wordt gebruik gemaakt van een licht gewicht stok met een geperforeerde schijf van 10 tot 18 cm diameter om de bovenzijde van de sliblaag te bepalen op basis van gevoelde weerstand bij indrukken in de bodem (a-weerstand).</Omschrijving>
+	</MethodePositiebepalingSliblaag>
+</domeintabel>
