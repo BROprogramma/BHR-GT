@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<ConsistentieOrganischeGrond>
+		<Waarde>zeerSlap</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De grond loopt zonder knijpen tussen de vingers door.</Omschrijving>
+	</ConsistentieOrganischeGrond>
+	<ConsistentieOrganischeGrond>
+		<Waarde>slap</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De grond loopt met knijpen zeer gemakkelijk tussen de vingers door.</Omschrijving>
+	</ConsistentieOrganischeGrond>
+	<ConsistentieOrganischeGrond>
+		<Waarde>matigSlap</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De grond loopt met knijpen nog goed tussen de vingers door.</Omschrijving>
+	</ConsistentieOrganischeGrond>
+	<ConsistentieOrganischeGrond>
+		<Waarde>matigStevig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De grond is met stevig knijpen nog juist tussen de vingers door te krijgen.</Omschrijving>
+	</ConsistentieOrganischeGrond>
+	<ConsistentieOrganischeGrond>
+		<Waarde>stevig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De grond is ook met stevig knijpen niet tussen de vingers door te krijgen.</Omschrijving>
+	</ConsistentieOrganischeGrond>
+	<ConsistentieOrganischeGrond>
+		<Waarde>vast</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De grond is nog met de nagel in te drukken.</Omschrijving>
+	</ConsistentieOrganischeGrond>
+</domeintabel>

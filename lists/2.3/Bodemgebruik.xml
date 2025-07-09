@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Bodemgebruik>
+		<Waarde>akker</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Terrein in landelijk gebied in gebruik voor akkerbouw of vollegrondstuinbouw.</Omschrijving>
+	</Bodemgebruik>
+	<Bodemgebruik>
+		<Waarde>boomgaard</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Terrein in landelijk gebied in gebruik als boomgaard.</Omschrijving>
+	</Bodemgebruik>
+	<Bodemgebruik>
+		<Waarde>boomkwekerij</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Terrein in landelijk gebied in gebruik als boomkwekerij.</Omschrijving>
+	</Bodemgebruik>
+	<Bodemgebruik>
+		<Waarde>bos</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Terrein in landelijk gebied dat bedekt is met bos.</Omschrijving>
+	</Bodemgebruik>
+	<Bodemgebruik>
+		<Waarde>gebruikInTransitie</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Terrein dat niet-verhard is en nog niet werkelijk in gebruik is omdat men het gebruik van het terrein aan het veranderen is.</Omschrijving>
+	</Bodemgebruik>
+	<Bodemgebruik>
+		<Waarde>geenBodemgebruik</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Terrein met verhard oppervlak.</Omschrijving>
+	</Bodemgebruik>
+	<Bodemgebruik>
+		<Waarde>glastuinbouw</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Terrein in landelijk gebied in gebruik voor tuinbouw onder glas.</Omschrijving>
+	</Bodemgebruik>
+	<Bodemgebruik>
+		<Waarde>grasland</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Terrein of een kleiner stuk grond (grasland, wegberm, dijk) in landelijk gebied dat voor korte of lange tijd met gras begroeid is.</Omschrijving>
+	</Bodemgebruik>
+	<Bodemgebruik>
+		<Waarde>natuurGeenVegetatie</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Terrein in landelijk gebied dat in gebruik is als natuurterrein zonder vegetatie, bijvoorbeeld stranden, wadplaten of stuifzandgebieden.</Omschrijving>
+	</Bodemgebruik>
+	<Bodemgebruik>
+		<Waarde>natuurKorteVegetatie</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Terrein in landelijk gebied dat in gebruik is als natuurterrein en begroeid is met heide, riet of andere korte vegetatie.</Omschrijving>
+	</Bodemgebruik>
+	<Bodemgebruik>
+		<Waarde>nietLandelijkBomen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Terrein in niet-landelijk gebied dat overwegend met bomen is begroeid (plantsoenen, singels, begraafplaatsen, volkstuinen en campings).</Omschrijving>
+	</Bodemgebruik>
+	<Bodemgebruik>
+		<Waarde>nietLandelijkGras</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Terrein in niet-landelijk gebied dat overwegend met gras is begroeid (bijv. parken, golfbanen, sportparken, grasstroken en een grasveld bij zwembaden).</Omschrijving>
+	</Bodemgebruik>
+</domeintabel>

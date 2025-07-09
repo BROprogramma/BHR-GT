@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<BedekkingsgraadDrainagestrook>
+		<Waarde>25tot30</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De drainagestroken beslaan tussen de 25 en 30 % van het oppervlak.</Omschrijving>
+	</BedekkingsgraadDrainagestrook>
+	<BedekkingsgraadDrainagestrook>
+		<Waarde>30tot35</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De drainagestroken beslaan tussen de 30 en 35 % van het oppervlak.</Omschrijving>
+	</BedekkingsgraadDrainagestrook>
+	<BedekkingsgraadDrainagestrook>
+		<Waarde>35tot40</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De drainagestroken beslaan tussen de 35 en 40 % van het oppervlak.</Omschrijving>
+	</BedekkingsgraadDrainagestrook>
+	<BedekkingsgraadDrainagestrook>
+		<Waarde>40tot45</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De drainagestroken beslaan tussen de 40 en 45 % van het oppervlak.</Omschrijving>
+	</BedekkingsgraadDrainagestrook>
+	<BedekkingsgraadDrainagestrook>
+		<Waarde>45tot50</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De drainagestroken beslaan tussen de 45 en 50 % van het oppervlak.</Omschrijving>
+	</BedekkingsgraadDrainagestrook>
+</domeintabel>

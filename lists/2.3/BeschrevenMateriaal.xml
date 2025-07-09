@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<BeschrevenMateriaal>
+		<Waarde>gesteente</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het boorprofiel omvat alleen lagen die beschreven zijn als gesteente.</Omschrijving>
+	</BeschrevenMateriaal>
+	<BeschrevenMateriaal>
+		<Waarde>grond</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het boorprofiel omvat alleen lagen die beschreven zijn als grond of bijzonder materiaal.</Omschrijving>
+	</BeschrevenMateriaal>
+	<BeschrevenMateriaal>
+		<Waarde>grondGesteente</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het boorprofiel omvat lagen die beschreven zijn als grond of bijzonder materiaal zowel als lagen die beschreven zijn als gesteente.</Omschrijving>
+	</BeschrevenMateriaal>
+</domeintabel>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Aanvulmateriaal>
+		<Waarde>bentoniet</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een mengsel van water en bentoniet.</Omschrijving>
+	</Aanvulmateriaal>
+	<Aanvulmateriaal>
+		<Waarde>geen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Er is geen materiaal gebruikt. Het gat is mogelijk vanzelf volgelopen met materiaal dat uit het gat of van het maaiveld afkomstig is.</Omschrijving>
+	</Aanvulmateriaal>
+	<Aanvulmateriaal>
+		<Waarde>grind</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Grind dat gezeefd is en uit korrels bestaat met een grootte die tussen 2 en 6,3 mm ligt.</Omschrijving>
+	</Aanvulmateriaal>
+	<Aanvulmateriaal>
+		<Waarde>grindZand</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een mengsel van zand en grind dat gezeefd is en uit korrels bestaat met een grootte die tussen 63 µm en 6,3 mm ligt.</Omschrijving>
+	</Aanvulmateriaal>
+	<Aanvulmateriaal>
+		<Waarde>grindZandGrof</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een mengsel van zand en grind dat gezeefd is en uit korrels bestaat met een grootte die tussen 0,63 en 6,3 mm ligt.</Omschrijving>
+	</Aanvulmateriaal>
+	<Aanvulmateriaal>
+		<Waarde>grindZandOngezeefd</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een mengsel van zand en grind dat niet gezeefd is. Deze categorie omvat onder meer materiaal dat wordt aangeduid met termen als metselzand en ophoogzand.</Omschrijving>
+	</Aanvulmateriaal>
+	<Aanvulmateriaal>
+		<Waarde>grout</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een mengsel van cement en water zonder toeslag.</Omschrijving>
+	</Aanvulmateriaal>
+	<Aanvulmateriaal>
+		<Waarde>groutBentoniet</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een mengsel van cement en water met als toeslag bentoniet.</Omschrijving>
+	</Aanvulmateriaal>
+	<Aanvulmateriaal>
+		<Waarde>kleiZwelklasse1</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Korrels die bestaan uit klei met een zwelvermogen van minimaal 80 % in zout water (NaCl 10.000 mg/l) en met een doorlatendheid die kleiner is dan 10-9 m/s. Aan dit materiaal is geen detecteerbare stof toegevoegd. Het materiaal is vergelijkbaar met Mikolit-B en wordt gebruikt onder omstandigheden die hoge eisen stellen aan het waterkerend vermogen.</Omschrijving>
+	</Aanvulmateriaal>
+	<Aanvulmateriaal>
+		<Waarde>kleiZwelklasse1Detecteerbaar</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Korrels die bestaan uit klei met een zwelvermogen van minimaal 80 % in zout water (NaCl 10.000 mg/l) en met een doorlatendheid die kleiner is dan 10-9 m/s. Aan dit materiaal is een detecteerbare stof toegevoegd. Het materiaal is vergelijkbaar met Mikolit-B en wordt gebruikt onder omstandigheden die hoge eisen stellen aan het waterkerend vermogen.</Omschrijving>
+	</Aanvulmateriaal>
+	<Aanvulmateriaal>
+		<Waarde>kleiZwelklasse2</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Korrels die bestaan die bestaan uit klei met een zwelvermogen van minimaal 30 % in zout water (NaCl 10.000 mg/l) en met een doorlatendheid die kleiner is dan 10-9 m/s. Aan dit materiaal is geen detecteerbare stof toegevoegd. Het materiaal is vergelijkbaar met Mikolit-300 en wordt gebruikt onder omstandigheden die standaard eisen stellen aan het waterkerend vermogen.</Omschrijving>
+	</Aanvulmateriaal>
+	<Aanvulmateriaal>
+		<Waarde>kleiZwelklasse2Detecteerbaar</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Korrels die bestaan uit klei met een zwelvermogen van minimaal 30 % in zout water (NaCl 10.000 mg/l) en met een doorlatendheid die kleiner is dan 10-9 m/s. Aan dit materiaal is een detecteerbare stof toegevoegd. Het materiaal is vergelijkbaar met Mikolit-300 en wordt gebruikt onder omstandigheden die standaard eisen stellen aan het waterkerend vermogen.</Omschrijving>
+	</Aanvulmateriaal>
+	<Aanvulmateriaal>
+		<Waarde>kleiZwelklasse3</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Korrels die bestaan uit klei met een zwelvermogen van minimaal 30 % in demi water en met een doorlatendheid die kleiner is dan 10-9 m/s. Aan dit materiaal is geen detecteerbare stof toegevoegd. Het materiaal is vergelijkbaar met Mikolit-00 en wordt gebruikt onder omstandigheden die lage eisen stellen aan het waterkerend vermogen.</Omschrijving>
+	</Aanvulmateriaal>
+	<Aanvulmateriaal>
+		<Waarde>kleiZwelklasse3Detecteerbaar</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Korrels die bestaan uit klei met een zwelvermogen van minimaal 30 % in demi water en met een doorlatendheid die kleiner is dan 10-9 m/s. Aan dit materiaal is een detecteerbare stof toegevoegd. Het materiaal is vergelijkbaar met Mikolit-00 en wordt gebruikt onder omstandigheden die lage eisen stellen aan het waterkerend vermogen.</Omschrijving>
+	</Aanvulmateriaal>
+	<Aanvulmateriaal>
+		<Waarde>kleiZwelklasseOnbekend</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Korrels die bestaan uit klei met een onbekend zwelvermogen. Aan dit materiaal is geen detecteerbare stof toegevoegd.</Omschrijving>
+	</Aanvulmateriaal>
+	<Aanvulmateriaal>
+		<Waarde>kleiZwelklasseOnbekendDetecteerbaar</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Korrels die bestaan uit klei met een onbekend zwelvermogen, met een toevoeging van een detecteerbare stof.</Omschrijving>
+	</Aanvulmateriaal>
+	<Aanvulmateriaal>
+		<Waarde>verwijderdMateriaal</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het gat is opgevuld met de opgeboorde grond of de weggegraven ondergrond.</Omschrijving>
+	</Aanvulmateriaal>
+	<Aanvulmateriaal>
+		<Waarde>wegverhardingsmateriaal</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Materiaal dat gebruikt is voor het verharden van wegen en erven; voorbeelden zijn asfalt, betonklinkers, klinkers, steenslag en tegels.</Omschrijving>
+	</Aanvulmateriaal>
+	<Aanvulmateriaal>
+		<Waarde>zand</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Zand dat gezeefd is en uit korrels bestaat met een grootte die tussen 63 µm en 2 mm ligt.</Omschrijving>
+	</Aanvulmateriaal>
+	<Aanvulmateriaal>
+		<Waarde>zandMiddelgrof</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Zand dat gezeefd is en uit korrels bestaat met een grootte die tussen 0,2 en 0,63 mm ligt.</Omschrijving>
+	</Aanvulmateriaal>
+	<Aanvulmateriaal>
+		<Waarde>zandMiddelgrofGrof</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Zand dat gezeefd is en uit korrels bestaat met een grootte die tussen 0,2 en 2 mm ligt.</Omschrijving>
+	</Aanvulmateriaal>
+	<Aanvulmateriaal>
+		<Waarde>zandGrof</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Zand dat gezeefd is en uit korrels bestaat met een grootte die tussen 0,63 en 2 mm ligt.</Omschrijving>
+	</Aanvulmateriaal>
+</domeintabel>

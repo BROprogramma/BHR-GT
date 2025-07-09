@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Beschrijfkwaliteit>
+		<Waarde>klasse2geroerd</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De lagen zijn beschreven volgens de eisen die in NEN-EN-ISO 14688-1 gesteld zijn aan standaard geotechnisch booronderzoek (B2) voor het beschrijven van monsters van kwaliteitsklasse QM5. Het eventueel aanwezige gesteente is beschreven op een gelijkwaardige manier.</Omschrijving>
+	</Beschrijfkwaliteit>
+	<Beschrijfkwaliteit>
+		<Waarde>klasse2ongedifferentieerd</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De lagen zijn beschreven volgens de eisen die in NEN-EN-ISO 14688-1 gesteld zijn aan standaard geotechnisch booronderzoek (B2) voor handboringen waarvan alle monsters in het veld zijn beschreven, waarbij de kwaliteitsklasse van de monsters niet relevant is. Er is geen gesteente beschreven.</Omschrijving>
+	</Beschrijfkwaliteit>
+	<Beschrijfkwaliteit>
+		<Waarde>klasse2ongeroerd</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De lagen zijn beschreven volgens de eisen die in NEN-EN-ISO 14688-1 gesteld zijn aan standaard geotechnisch booronderzoek (B2) voor het beschrijven van monsters van minimaal kwaliteitsklasse QM4. Het eventueel aanwezige gesteente is beschreven op een gelijkwaardige manier.</Omschrijving>
+	</Beschrijfkwaliteit>
+	<Beschrijfkwaliteit>
+		<Waarde>klasse3</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De lagen zijn beschreven volgens de eisen die in NEN-EN-ISO 14688-1 gesteld zijn aan verkennend (hand)booronderzoek (B3). Er is geen gesteente beschreven.</Omschrijving>
+	</Beschrijfkwaliteit>
+	<Beschrijfkwaliteit>
+		<Waarde>nietGespecificeerd</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De lagen zijn beschreven op basis van NEN 5104 en met verschillen in monsterkwaliteit is bij de beschrijving niet consequent rekening gehouden; er is geen gesteente beschreven.</Omschrijving>
+	</Beschrijfkwaliteit>
+</domeintabel>
