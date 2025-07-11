@@ -7,7 +7,7 @@
 		<Omschrijving>De geschatte waarde wijkt maximaal 5 % af van de werkelijke waarde.</Omschrijving>
 	</NauwkeurigheidSchatting>
 	<NauwkeurigheidSchatting>
-		<Waarde>maximaal0procent</Waarde>
+		<Waarde>maximaal10procent</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
 		<Omschrijving>De geschatte waarde wijkt maximaal 10 % af van de werkelijke waarde.</Omschrijving>
