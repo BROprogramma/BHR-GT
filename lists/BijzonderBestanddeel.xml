@@ -136,13 +136,19 @@
 		<Waarde>houtGebruikt</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Antropogeen materiaal: hout of houtig materiaal dat door de mens gebruikt is. Voorbeelden zijn rijsmatten, funderingspalen, beschoeiingen, scheepswrakken. Dit hout of houtig materiaal maakt maximaal 50% van de massa of het volume (afhankelijk van het soortelijk gewicht) van de grond uit. Deze waarde is toegestaan in de norm NEN-EN-ISO 14688-1:2019+NEN 8990:2020 en voorgaande versies ervan en is vanaf de norm NEN-EN-ISO 14688-1:2019+NEN 8990:2025 vervangen door de waarden houtGebruiktWeinig en houtGebruiktVeel.</Omschrijving>
+		<Omschrijving>Antropogeen materiaal: hout of houtig materiaal dat door de mens gebruikt is. Voorbeelden zijn rijsmatten, funderingspalen, beschoeiingen, scheepswrakken. Dit hout of houtig materiaal maakt maximaal 50% van de massa of het volume (afhankelijk van het soortelijk gewicht) van de grond uit. Deze waarde is toegestaan in de norm NEN-EN-ISO 14688-1:2019+NEN 8990:2020 en voorgaande versies ervan en is vanaf de norm NEN-EN-ISO 14688-1:2019+NEN 8990:2025 vervangen door de waarden houtGebruiktSpoorTot1, houtgebruiktWeinig1Tot25 en houtGebruiktVeel.</Omschrijving>
 	</BijzonderBestanddeel>
 	<BijzonderBestanddeel>
-		<Waarde>houtGebruiktWeinig</Waarde>
+		<Waarde>houtGebruiktSpoorTot1</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Antropogeen materiaal: hout of houtig materiaal dat door de mens gebruikt is. Voorbeelden zijn rijsmatten, funderingspalen, beschoeiingen, scheepswrakken. Dit hout of houtig materiaal maakt minder dan 25 % van de massa of het volume (afhankelijk van het soortelijk gewicht) van de grond uit. Deze waarde is toegestaan vanaf de norm NEN-EN-ISO 14688-1:2019+NEN 8990:2025.</Omschrijving>
+		<Omschrijving>Antropogeen materiaal: hout of houtig materiaal dat door de mens gebruikt is. Voorbeelden zijn rijsmatten, funderingspalen, beschoeiingen, scheepswrakken. Dit hout of houtig materiaal maakt minder dan 1 % van de massa of het volume (afhankelijk van het soortelijk gewicht) van de grond uit. Deze waarde is toegestaan vanaf de norm NEN-EN-ISO 14688-1:2019+NEN 8990:2025.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>houtGebruiktWeinig1Tot25</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen materiaal: hout of houtig materiaal dat door de mens gebruikt is. Voorbeelden zijn rijsmatten, funderingspalen, beschoeiingen, scheepswrakken. Dit hout of houtig materiaal maakt 1 tot 25 % van de massa of het volume (afhankelijk van het soortelijk gewicht) van de grond uit. Deze waarde is toegestaan vanaf de norm NEN-EN-ISO 14688-1:2019+NEN 8990:2025.</Omschrijving>
 	</BijzonderBestanddeel>
 	<BijzonderBestanddeel>
 		<Waarde>houtGebruiktVeel</Waarde>
