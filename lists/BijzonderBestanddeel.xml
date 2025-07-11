@@ -67,12 +67,6 @@
 		<Omschrijving>Natuurlijk materiaal: deeltjes die opaak en donker van kleur en minder hard dan kwarts zijn. Deze deeltjes maken 25 tot 50 % van de massa van de grond uit.</Omschrijving>
 	</BijzonderBestanddeel>
 	<BijzonderBestanddeel>
-		<Waarde>geen</Waarde>
-		<IMBRO>v</IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Geen bijzondere bestanddelen.</Omschrijving>
-	</BijzonderBestanddeel>
-	<BijzonderBestanddeel>
 		<Waarde>geotextiel</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
@@ -91,10 +85,22 @@
 		<Omschrijving>Antropogeen materiaal: textiel en folies die gebruikt worden in grondverbetering en meestal uit kunststof bestaan. Dit textiel of folie maakt 25 tot 50 % van de massa of het volume (afhankelijk van het soortelijk gewicht) van de grond uit. Deze waarde is toegestaan vanaf de norm NEN-EN-ISO 14688-1:2019+NEN 8990:2025.</Omschrijving>
 	</BijzonderBestanddeel>
 	<BijzonderBestanddeel>
+		<Waarde>glauconietSpoorTot1</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Natuurlijk materiaal: groene, groenige of bruine korrels die uit glauconiet of goethiet bestaan. Deze korrels maken minder dan 1 % van de massa van de grond uit.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>glauconietWeinig1tot25</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Natuurlijk materiaal: groene, groenige of bruine korrels die uit glauconiet of goethiet bestaan. Deze korrels maken 1 tot 25 % van de massa van de grond uit.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
 		<Waarde>glauconietWeinig</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Natuurlijk materiaal: groene, groenige of bruine korrels die uit glauconiet of goethiet bestaan. Deze korrels maken minder dan 25 % van de massa van de grond uit.</Omschrijving>
+		<Omschrijving>Natuurlijk materiaal: groene, groenige of bruine korrels die uit glauconiet of goethiet bestaan. Deze korrels maken minder dan 25 % van de massa van de grond uit. Deze waarde is toegestaan in de norm NEN-EN-ISO 14688-1:2019+NEN 8990:2020 en voorgaande versies ervan en is vanaf de norm NEN-EN-ISO 14688-1:2019+NEN 8990:2025 vervangen door de waarden glauconietSpoorTot1 en glauconietWeinig1tot25.</Omschrijving>
 	</BijzonderBestanddeel>
 	<BijzonderBestanddeel>
 		<Waarde>glauconietVeel</Waarde>
@@ -103,16 +109,28 @@
 		<Omschrijving>Natuurlijk materiaal: groene, groenige of bruine korrels die uit glauconiet of goethiet bestaan. Deze korrels maken 25 tot 50 % van de massa van de grond uit.</Omschrijving>
 	</BijzonderBestanddeel>
 	<BijzonderBestanddeel>
+		<Waarde>glimmerSpoorTot0.1</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Natuurlijk materiaal: gladde plaatvormige deeltjes die meestal uit de mineralen muskoviet of biotiet bestaan. Deze deeltjes maken minder dan 0,1 % van het volume van de grond uit.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>glimmerWeinig0.1tot1</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Natuurlijk materiaal: gladde plaatvormige deeltjes die meestal uit de mineralen muskoviet of biotiet bestaan. Deze deeltjes maken 0,1 tot 1 % van het volume van de grond uit.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
 		<Waarde>glimmerWeinig</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Natuurlijk materiaal: gladde plaatvormige deeltjes die meestal uit de mineralen muskoviet of biotiet bestaan. Deze deeltjes maken minder dan 1 % van de massa van de grond uit.</Omschrijving>
+		<Omschrijving>Natuurlijk materiaal: gladde plaatvormige deeltjes die meestal uit de mineralen muskoviet of biotiet bestaan. Deze deeltjes maken minder dan 1 % van het volume van de grond uit. Deze waarde is toegestaan in de norm NEN-EN-ISO 14688-1:2019+NEN 8990:2020 en voorgaande versies ervan en is vanaf de norm NEN-EN-ISO 14688-1:2019+NEN 8990:2025 vervangen door de waarden glimmerSpoorTot0.1 en glimmerWeinig0.1tot1.</Omschrijving>
 	</BijzonderBestanddeel>
 	<BijzonderBestanddeel>
 		<Waarde>glimmerVeel</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Natuurlijk materiaal: gladde plaatvormige deeltjes die meestal uit de mineralen muskoviet of biotiet bestaan. Deze deeltjes maken 1 % of meer van de massa van de grond uit.</Omschrijving>
+		<Omschrijving>Natuurlijk materiaal: gladde plaatvormige deeltjes die meestal uit de mineralen muskoviet of biotiet bestaan. Deze deeltjes maken 1 % of meer van het volume van de grond uit.</Omschrijving>
 	</BijzonderBestanddeel>
 	<BijzonderBestanddeel>
 		<Waarde>houtGebruikt</Waarde>
@@ -283,10 +301,22 @@
 		<Omschrijving>Natuurlijk materiaal: houtige, onverteerde resten van planten, zoals stammen en takken. Deze resten maken maximaal 50% van de massa van de grond uit. Deze waarde is vervangen door de waarden plantenrestenHoutigWeinig en plantenrestenHoutigVeel.</Omschrijving>
 	</BijzonderBestanddeel>
 	<BijzonderBestanddeel>
+		<Waarde>plantenrestenHoutigSpoorTot1</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Natuurlijk materiaal: onverteerde resten van de houtige delen (stammen, takken, houtige wortels en zaden) van planten. Deze resten kunnen bestaan uit de gebroken fragmenten of uit doorsnedes van de houtige delen. De grootte varieert van millimeters tot enkele decimeters. Het materiaal kan zeer zacht tot zeer hard zijn. Deze resten maken minder dan 1 % van de massa van de grond uit.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>plantenrestenHoutigWeinig1tot25</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Natuurlijk materiaal: onverteerde resten van de houtige delen (stammen, takken, houtige wortels en zaden) van planten. Deze resten kunnen bestaan uit de gebroken fragmenten of uit doorsnedes van de houtige delen. De grootte varieert van millimeters tot enkele decimeters. Het materiaal kan zeer zacht tot zeer hard zijn. Deze resten maken 1 tot 25 % van de massa van de grond uit.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
 		<Waarde>plantenrestenHoutigWeinig</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Natuurlijk materiaal: onverteerde resten van de houtige delen (stammen, takken, houtige wortels en zaden) van planten. Deze resten kunnen bestaan uit de gebroken fragmenten of uit doorsnedes van de houtige delen. De grootte varieert van millimeters tot enkele decimeters. Het materiaal kan zeer zacht tot zeer hard zijn. Deze resten maken minder dan 25 % van de massa van de grond uit.</Omschrijving>
+		<Omschrijving>Natuurlijk materiaal: onverteerde resten van de houtige delen (stammen, takken, houtige wortels en zaden) van planten. Deze resten kunnen bestaan uit de gebroken fragmenten of uit doorsnedes van de houtige delen. De grootte varieert van millimeters tot enkele decimeters. Het materiaal kan zeer zacht tot zeer hard zijn. Deze resten maken minder dan 25 % van de massa van de grond uit. Deze waarde is toegestaan in de norm NEN-EN-ISO 14688-1:2019+NEN 8990:2020 en voorgaande versies ervan en is vanaf de norm NEN-EN-ISO 14688-1:2019+NEN 8990:2025 vervangen door de waarden plantenrestenHoutigSpoorTot1 en plantenrestenHoutigWeinig1tot25.</Omschrijving>
 	</BijzonderBestanddeel>
 	<BijzonderBestanddeel>
 		<Waarde>plantenrestenHoutigVeel</Waarde>
@@ -443,6 +473,12 @@
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
 		<Omschrijving>Antropogeen materiaal: materiaal dat gebruikt is voor het verharden van wegen en erven. Voorbeelden zijn asfalt, betonklinkers, klinkers, steenslag en tegels. Dit materiaal maakt 25 tot 50 % van de massa of het volume (afhankelijk van het soortelijk gewicht) van de grond uit. Deze waarde is toegestaan vanaf de norm NEN-EN-ISO 14688-1:2019+NEN 8990:2025.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>geen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Geen bijzondere bestanddelen.</Omschrijving>
 	</BijzonderBestanddeel>
 	<BijzonderBestanddeel>
 		<Waarde>breuksteen</Waarde>
