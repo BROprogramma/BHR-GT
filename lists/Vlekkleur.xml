@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Vlekkleur>
+		<Waarde>blauw</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De vlekken zijn blauw.</Omschrijving>
+	</Vlekkleur>
+	<Vlekkleur>
+		<Waarde>bruin</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De vlekken zijn bruin.</Omschrijving>
+	</Vlekkleur>
+	<Vlekkleur>
+		<Waarde>geel</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De vlekken zijn geel.</Omschrijving>
+	</Vlekkleur>
+		<Vlekkleur>
+		<Waarde>grijs</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De vlekken zijn grijs.</Omschrijving>
+	</Vlekkleur>
+	<Vlekkleur>
+		<Waarde>groen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De vlekken zijn groen.</Omschrijving>
+	</Vlekkleur>
+	<Vlekkleur>
+		<Waarde>olijf</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De vlekken zijn olijf.</Omschrijving>
+	</Vlekkleur>
+	<Vlekkleur>
+		<Waarde>oranje</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De vlekken zijn oranje.</Omschrijving>
+	</Vlekkleur>
+	<Vlekkleur>
+		<Waarde>rood</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De vlekken zijn rood.</Omschrijving>
+	</Vlekkleur>
+	<Vlekkleur>
+		<Waarde>wit</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De vlekken zijn wit.</Omschrijving>
+	</Vlekkleur>
+	<Vlekkleur>
+		<Waarde>zwart</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De vlekken zijn zwart.</Omschrijving>
+	</Vlekkleur>
+</domeintabel>
