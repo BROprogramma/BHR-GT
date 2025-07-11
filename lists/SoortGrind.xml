@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<SoortGrind>
+		<Waarde>kalksteen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Grind van kalksteen, een sedimentair gesteente dat voornamelijk is opgebouwd uit calciumcarbonaat (CaCO<sub>3</sub>, kalk). De kleur varieert, maar is vaak wit tot donkergrijs. Hieronder valt alle kalksteen met uitzondering van mergel en oölietische kalksteen die apart onderscheiden worden.</Omschrijving>
+	</SoortGrind>
+	<SoortGrind>
+		<Waarde>kristallijn</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Grind van kristallijn gesteente (metamorf gesteente of stollingsgesteente).</Omschrijving>
+	</SoortGrind>
+	<SoortGrind>
+		<Waarde>kwarts</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Grind van kwarts (transparant of wit).</Omschrijving>
+	</SoortGrind>
+	<SoortGrind>
+		<Waarde>kwartsietRevenien</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Grind van Revinienkwartsiet, een metamorfe zandsteen met een oorsprong in de Ardennen. Het is een grijze, donkergrijze, blauwgrijze of blauwgroene kwartsiet met duidelijk herkenbare pyrietkubussen. De pyriet is aan de buitenkant verweerd waardoor alleen de sterk hoekige tot vierkante holtes zijn achtergebleven; binnenin zijn de goudglanzende kubische pyrietkristallen zichtbaar met een grootte tot enkele millimeters.</Omschrijving>
+	</SoortGrind>
+	<SoortGrind>
+		<Waarde>kwartsietTaunus</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Grind van Taunuskwartsiet (gidsgesteente Rijnafzetting).</Omschrijving>
+	</SoortGrind>
+	<SoortGrind>
+		<Waarde>kwartsietZandsteen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Grind van kwartsiet (een metamorfe zandsteen) of zandsteen.</Omschrijving>
+	</SoortGrind>
+	<SoortGrind>
+		<Waarde>lydiet</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Grind van lydiet, een metamorfe radiolariet en dat is een sedimentair gesteente dat in de diepzee is gevormd en voor een groot deel uit radiolariën bestaat. Het bestaat vrijwel geheel uit kwarts en is herkenbaar aan de egaal zwarte of heel donkergrijze kleur en de matte glans; daarnaast heeft het vaak de vorm van een parallellepipedum waarvan de hoeken afgerond zijn. Het is zeer hard en vormvast. Incidenteel komen er dunne witte aders in voor. Lydiet en radiolariet verschillen van elkaar in structuur: lydiet is, op de aders na, zeer homogeen van kleur en structuur, terwijl radiolariet vaak tweekleurig is en verschillende laagjes heeft.</Omschrijving>
+	</SoortGrind>
+	<SoortGrind>
+		<Waarde>melafier</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Grind van melafier (groenzwart, maar vaker roodbruin tot violetrood gekleurde basalt; gidsgesteente Rijnafzetting).</Omschrijving>
+	</SoortGrind>
+	<SoortGrind>
+		<Waarde>mergel</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Mergel is een soort kalksteen die vrij zacht is, grofkorrelig, brokkelig en lichtgekleurd met veel herkenbare mariene fossielen. Staat ook wel bekend als tufkalk of krijtkalk.</Omschrijving>
+	</SoortGrind>
+	<SoortGrind>
+		<Waarde>radiolariet</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Grind van radiolariet, een sedimentair gesteente dat in de diepzee is gevormd en voor een groot deel uit radiolariën bestaat. Het is herkenbaar aan de enigszins gebande of gelaagde fijne structuur en zwarte, donkergrijze, bruine of grijsgroene kleur. Als deze laagjes verschillen in textuur betreft het vaak een afwisseling van zeer gladde homogene laagjes en iets ruwere enigszins pokdalige laagjes. Het heeft een matte glans. Radiolariet als geheel is zeer hard en is vaak vrij kubisch met afgeronde hoeken. Incidenteel komen er dunne witte vrij rechte aders in voor. Lydiet en radiolariet verschillen van elkaar in structuur: lydiet is op de aders na zeer homogeen van kleur en structuur terwijl radiolariet vaak uit twee kleuren bestaat en enigszins een verschil in textuur tussen verschillende laagjes heeft.</Omschrijving>
+	</SoortGrind>
+	<SoortGrind>
+		<Waarde>trachiet</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Grind van trachiet (kwartsrijk stollingsgesteente; gidsgesteente Rijnafzetting).</Omschrijving>
+	</SoortGrind>
+	<SoortGrind>
+		<Waarde>vuursteen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Grind van vuursteen (zwart of bruin).</Omschrijving>
+	</SoortGrind>
+	<SoortGrind>
+		<Waarde>onbekend</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het soort grind is niet bekend.</Omschrijving>
+	</SoortGrind>
+</domeintabel>
