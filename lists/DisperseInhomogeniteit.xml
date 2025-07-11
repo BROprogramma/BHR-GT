@@ -55,6 +55,30 @@
 		<Omschrijving>Kalksteenbrokjes maken 25 tot 50 % van het volume uit.</Omschrijving>
 	</DisperseInhomogeniteit>
 	<DisperseInhomogeniteit>
+		<Waarde>keienWeinig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Keien maken 5 tot 25 % van het volume uit.</Omschrijving>
+	</DisperseInhomogeniteit>
+	<DisperseInhomogeniteit>
+		<Waarde>keienVeel</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Keien maken 25 tot 50 % van het volume uit.</Omschrijving>
+	</DisperseInhomogeniteit>
+	<DisperseInhomogeniteit>
+		<Waarde>keitjesWeinig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Keitjes maken 5 tot 25 % van het volume uit.</Omschrijving>
+	</DisperseInhomogeniteit>
+	<DisperseInhomogeniteit>
+		<Waarde>keitjesVeel</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Keitjes maken 25 tot 50 % van het volume uit.</Omschrijving>
+	</DisperseInhomogeniteit>
+	<DisperseInhomogeniteit>
 		<Waarde>kleibrokjesWeinig</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
