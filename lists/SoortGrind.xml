@@ -16,7 +16,7 @@
 		<Waarde>kwarts</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Grind van kwarts (transparant of wit).</Omschrijving>
+		<Omschrijving>Grind van kwarts dat bestaat uit siliciumdioxide (SiO2) (transparant of wit).</Omschrijving>
 	</SoortGrind>
 	<SoortGrind>
 		<Waarde>kwartsietRevenien</Waarde>
@@ -28,7 +28,7 @@
 		<Waarde>kwartsietTaunus</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Grind van Taunuskwartsiet (gidsgesteente Rijnafzetting).</Omschrijving>
+		<Omschrijving>Grind van Taunuskwartsiet. Deze kwartsiet is grijs, geelwit tot heel licht roodgrijs en heeft onregelmatige wijn- tot steenrode vlekken. (gidsgesteente Rijnafzetting).</Omschrijving>
 	</SoortGrind>
 	<SoortGrind>
 		<Waarde>kwartsietZandsteen</Waarde>
@@ -46,7 +46,7 @@
 		<Waarde>melafier</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Grind van melafier (groenzwart, maar vaker roodbruin tot violetrood gekleurde basalt; gidsgesteente Rijnafzetting).</Omschrijving>
+		<Omschrijving>Grind van melafier, een oudere vorm van basalt, een stollingsgesteente, dat vaak roodbruin of violetrood van kleur is. Het kan ook donkergroen zijn, vooral als het amandelvormig is en de gasblazen zijn opgevuld met chloriet of andere mineralen (gidsgesteente Rijnafzetting).</Omschrijving>
 	</SoortGrind>
 	<SoortGrind>
 		<Waarde>mergel</Waarde>
@@ -64,18 +64,18 @@
 		<Waarde>trachiet</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Grind van trachiet (kwartsrijk stollingsgesteente; gidsgesteente Rijnafzetting).</Omschrijving>
+		<Omschrijving>Grind van trachiet, een uitvloeiingsgesteente, een type stollingsgesteente dat ontstaat bij vulkanische activiteit. Het is een lichtgekleurd gesteente, vaak grijsachtig, en wordt gekenmerkt door een fijnkorrelige tot porfierische textuur, met grotere kristallen (fenokristen) van alkaliveldspaat ingebed in een fijnere grondmassa (gidsgesteente Rijnafzetting).</Omschrijving>
 	</SoortGrind>
 	<SoortGrind>
 		<Waarde>vuursteen</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Grind van vuursteen (zwart of bruin).</Omschrijving>
+		<Omschrijving>Grind van vuursteen, sedimentair gesteente dat voornamelijk bestaat uit siliciumdioxide (SiO2) (zwart of bruin).</Omschrijving>
 	</SoortGrind>
 	<SoortGrind>
-		<Waarde>onbekend</Waarde>
+		<Waarde>nietHerkenbaar</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Het soort grind is niet bekend.</Omschrijving>
+		<Omschrijving>Het grind bestaat uit soorten die niet in de norm NEN-EN-ISO 14688-1+NEN 8990 benoemd zijn omdat ze vanuit geotechnische gezichtspunt niet relevant zijn.</Omschrijving>
 	</SoortGrind>
 </domeintabel>
