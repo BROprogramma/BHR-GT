@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Schelptype>
+		<Waarde>arcidae</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Familie: Arcidae (Arkschelpen), mariene tweekleppige.</Omschrijving>
+	</Schelptype>
+	<Schelptype>
+		<Waarde>arcticidae</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Familie: Arcticidae (Krompen), mariene tweekleppige.</Omschrijving>
+	</Schelptype>
+	<Schelptype>
+		<Waarde>bittiumReticulatum</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Soort: Bittium reticulatum (Muizenkeutel), mariene gastropode.</Omschrijving>
+	</Schelptype>
+	<Schelptype>
+		<Waarde>bivalvia</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Klasse: Bivalvia (Tweekleppigen).</Omschrijving>
+	</Schelptype>
+	<Schelptype>
+		<Waarde>brachiopoda</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Stam: Brachiopoda (Armpotigen), ongewervelde zeedieren.</Omschrijving>
+	</Schelptype>
+	<Schelptype>
+		<Waarde>buccinumUndatum</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Soort: Buccinum undatum (Wulk), mariene gastropode.</Omschrijving>
+	</Schelptype>
+	<Schelptype>
+		<Waarde>cephalopoda</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Klasse: Cephalopoda (Koppotigen, Inktvissen).</Omschrijving>
+	</Schelptype>
+	<Schelptype>
+		<Waarde>cerastoderma</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Geslacht: Cerastoderma (Kokkels), mariene tweekleppige.</Omschrijving>
+	</Schelptype>
+	<Schelptype>
+		<Waarde>cerastodermaEdule</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Soort: Cerastoderma edule (Gewone kokkel), mariene tweekleppige.</Omschrijving>
+	</Schelptype>
+	<Schelptype>
+		<Waarde>chameleaStriatula</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Soort: Chamelea striatula (Gewone venusschelp), mariene tweekleppige.</Omschrijving>
+	</Schelptype>
+	<Schelptype>
+		<Waarde>corbulidae</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Familie: Corbulidae (Korfschelpen), mariene tweekleppige.</Omschrijving>
+	</Schelptype>
+	<Schelptype>
+		<Waarde>donaxVittatus</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Soort: Donax vittatus (Zaagje), mariene tweekleppige.</Omschrijving>
+	</Schelptype>
+	<Schelptype>
+		<Waarde>ensisEnsis</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Soort: Ensis ensis (Kleine zwaardschede), mariene tweekleppige.</Omschrijving>
+	</Schelptype>
+	<Schelptype>
+		<Waarde>ensisLeei </Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Soort: Ensis leei (Amerikaanse zwaardschede), mariene tweekleppige. Geaccepteerd synoniem van Ensis americanus.</Omschrijving>
+	</Schelptype>
+	<Schelptype>
+		<Waarde>euspiraNitida</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Soort: Euspira nitida (Glanzende tepelhoorn), mariene gastropode.</Omschrijving>
+	</Schelptype>
+	<Schelptype>
+		<Waarde>lucinellaDivaricat</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Soort: Lucinella divaricat (Dubbeltjesschelp), mariene tweekleppige.</Omschrijving>
+	</Schelptype>
+	<Schelptype>
+		<Waarde>macomaBalthica</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Soort: Macoma balthica (Nonnetje), mariene tweekleppige.</Omschrijving>
+	</Schelptype>
+	<Schelptype>
+		<Waarde>macomangulusTenuis</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Soort: Macomangulus tenuis (Tere platschelp), mariene tweekleppige. Geaccepteerd synoniem van Angulus tenuis.</Omschrijving>
+	</Schelptype>
+	<Schelptype>
+		<Waarde>mactraCorallina</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Soort: Mactra corallina (Grote strandschelp, Grote gestreepte trogschelp), mariene tweekleppige.</Omschrijving>
+	</Schelptype>
+	<Schelptype>
+		<Waarde>mactraStultorum</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Soort: Mactra stultorum (Grote strandschelp), mariene tweekleppige. Wordt in de praktijk gebruikt als synoniem voor Mactra Corallina.</Omschrijving>
+	</Schelptype>
+	<Schelptype>
+		<Waarde>monoplacophora</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Klasse: Monoplacophora (Mutsweekdieren, Mutsslakken).</Omschrijving>
+	</Schelptype>
+	<Schelptype>
+		<Waarde>mytilusEdulis</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Soort: Mytilus edulis (Gewone mossel), mariene tweekleppige.</Omschrijving>
+	</Schelptype>
+	<Schelptype>
+		<Waarde>ostreaEdulis</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Soort: Ostrea edulis (Zeeuwse oester), mariene tweekleppige.</Omschrijving>
+	</Schelptype>
+	<Schelptype>
+		<Waarde>pectinidae</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Familie: Pectinidae (Mantels), mariene tweekleppige.</Omschrijving>
+	</Schelptype>
+	<Schelptype>
+		<Waarde>peringiaUlvae</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Soort: Peringia ulvae (Wadslakje), mariene en brakwater gastropode. Geaccepteerd synoniem van Hydrobia ulvae.</Omschrijving>
+	</Schelptype>
+	<Schelptype>
+		<Waarde>petricolariaPholadiformis</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Soort: Petricolaria pholadiformis (Amerikaanse boormossel), mariene tweekleppige.</Omschrijving>
+	</Schelptype>
+	<Schelptype>
+		<Waarde>polititapesAureus</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Soort: Polititapes aureus (Gouden tapijtschelp), mariene tweekleppige.</Omschrijving>
+	</Schelptype>
+	<Schelptype>
+		<Waarde>polyplacophora</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Klasse: Polyplacophora (Keverslakken).</Omschrijving>
+	</Schelptype>
+	<Schelptype>
+		<Waarde>scaphopoda</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Klasse: Scaphopoda (Stoottandjes, Olifantstandjes).</Omschrijving>
+	</Schelptype>
+	<Schelptype>
+		<Waarde>scrobiculariaPlana</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Soort: Scrobicularia plana (Platte slijkgaper), mariene tweekleppige.</Omschrijving>
+	</Schelptype>
+	<Schelptype>
+		<Waarde>spisula</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Geslacht: Spisula (Strandschelpen), mariene tweekleppige.</Omschrijving>
+	</Schelptype>
+	<Schelptype>
+		<Waarde>tritiaReticulata</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Soort: Tritia reticulata (Gevlochten fuikhoren), mariene gastropode.</Omschrijving>
+	</Schelptype>
+	<Schelptype>
+		<Waarde>turritellinellaTricarinata</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Soort: Turritellinella tricarinata (Penhoorn), mariene gastropode. Geaccepteerd synoniem van Turritella communis.</Omschrijving>
+	</Schelptype>
+	<Schelptype>
+		<Waarde>veneridae</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Familie: Veneridae (Venusschelpen, Tapijtschelpen, Artemisschelpen), mariene tweekleppige.</Omschrijving>
+	</Schelptype>
+	<Schelptype>
+		<Waarde>zirfaeaCrispata</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Soort: Zirfaea crispata (Ruwe boormossel), mariene tweekleppige.</Omschrijving>
+	</Schelptype>
+</domeintabel>
