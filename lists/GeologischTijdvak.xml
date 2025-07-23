@@ -16,7 +16,7 @@
 		<Waarde>EoceenPaleoceen</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Eoceen & Paleoceen. Het tijdvak is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+		<Omschrijving>Eoceen en Paleoceen. Het tijdvak is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
 	</GeologischTijdvak>
 	<GeologischTijdvak>
 		<Waarde>Holoceen</Waarde>
@@ -40,7 +40,7 @@
 		<Waarde>MiddenJuraVroegJura</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Midden-Jura & Vroeg-Jura. Het tijdvak is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+		<Omschrijving>Midden-Jura en Vroeg-Jura. Het tijdvak is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
 	</GeologischTijdvak>
 	<GeologischTijdvak>
 		<Waarde>Oligoceen</Waarde>
@@ -64,7 +64,7 @@
 		<Waarde>PlioceenMioceen</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Plioceen & Mioceen. Het tijdvak is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+		<Omschrijving>Plioceen en Mioceen. Het tijdvak is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
 	</GeologischTijdvak>
 	<GeologischTijdvak>
 		<Waarde>Siluur</Waarde>
@@ -82,6 +82,6 @@
 		<Waarde>VroegKrijtLaatJura</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Vroeg-Krijt & Laat-Jura. Het tijdvak is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+		<Omschrijving>Vroeg-Krijt en Laat-Jura. Het tijdvak is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
 	</GeologischTijdvak>
 </domeintabel>
