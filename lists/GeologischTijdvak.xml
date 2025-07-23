@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<GeologischTijdvak>
+		<Waarde>Carboon</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Carboon. Het tijdvak is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</GeologischTijdvak>
+	<GeologischTijdvak>
+		<Waarde>Devoon</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Devoon. Het tijdvak is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</GeologischTijdvak>
+	<GeologischTijdvak>
+		<Waarde>EoceenPaleoceen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Eoceen & Paleoceen. Het tijdvak is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</GeologischTijdvak>
+	<GeologischTijdvak>
+		<Waarde>Holoceen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Holoceen. Het tijdvak is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</GeologischTijdvak>
+	<GeologischTijdvak>
+		<Waarde>KrijtTotDevoon</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Krijt tot Devoon. Het tijdvak is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</GeologischTijdvak>
+	<GeologischTijdvak>
+		<Waarde>LaatKrijt</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laat-Krijt. Het tijdvak is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</GeologischTijdvak>
+	<GeologischTijdvak>
+		<Waarde>MiddenJuraVroegJura</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Midden-Jura & Vroeg-Jura. Het tijdvak is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</GeologischTijdvak>
+	<GeologischTijdvak>
+		<Waarde>Oligoceen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Oligoceen. Het tijdvak is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</GeologischTijdvak>
+	<GeologischTijdvak>
+		<Waarde>Perm</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Perm. Het tijdvak is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</GeologischTijdvak>
+	<GeologischTijdvak>
+		<Waarde>Pleistoceen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Pleistoceen. Het tijdvak is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</GeologischTijdvak>
+	<GeologischTijdvak>
+		<Waarde>PlioceenMioceen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Plioceen & Mioceen. Het tijdvak is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</GeologischTijdvak>
+	<GeologischTijdvak>
+		<Waarde>Siluur</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Siluur. Het tijdvak is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</GeologischTijdvak>
+	<GeologischTijdvak>
+		<Waarde>Trias</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Trias. Het tijdvak is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</GeologischTijdvak>
+	<GeologischTijdvak>
+		<Waarde>VroegKrijtLaatJura</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Vroeg-Krijt & Laat-Jura. Het tijdvak is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</GeologischTijdvak>
+	<GeologischTijdvak>
+		<Waarde></Waarde>
+		<IMBRO></IMBRO>
+		<IMBROA></IMBROA>
+		<Omschrijving></Omschrijving>
+	</GeologischTijdvak>
+	<GeologischTijdvak>
+		<Waarde></Waarde>
+		<IMBRO></IMBRO>
+		<IMBROA></IMBROA>
+		<Omschrijving></Omschrijving>
+	</GeologischTijdvak>
+	<GeologischTijdvak>
+		<Waarde></Waarde>
+		<IMBRO></IMBRO>
+		<IMBROA></IMBROA>
+		<Omschrijving></Omschrijving>
+	</GeologischTijdvak>
+	<GeologischTijdvak>
+		<Waarde></Waarde>
+		<IMBRO></IMBRO>
+		<IMBROA></IMBROA>
+		<Omschrijving></Omschrijving>
+	</GeologischTijdvak>
+	<GeologischTijdvak>
+		<Waarde></Waarde>
+		<IMBRO></IMBRO>
+		<IMBROA></IMBROA>
+		<Omschrijving></Omschrijving>
+	</GeologischTijdvak>
+	<GeologischTijdvak>
+		<Waarde></Waarde>
+		<IMBRO></IMBRO>
+		<IMBROA></IMBROA>
+		<Omschrijving></Omschrijving>
+	</GeologischTijdvak>
+	<GeologischTijdvak>
+		<Waarde></Waarde>
+		<IMBRO></IMBRO>
+		<IMBROA></IMBROA>
+		<Omschrijving></Omschrijving>
+	</GeologischTijdvak>
+	<GeologischTijdvak>
+		<Waarde></Waarde>
+		<IMBRO></IMBRO>
+		<IMBROA></IMBROA>
+		<Omschrijving></Omschrijving>
+	</GeologischTijdvak>
+	<GeologischTijdvak>
+		<Waarde></Waarde>
+		<IMBRO></IMBRO>
+		<IMBROA></IMBROA>
+		<Omschrijving></Omschrijving>
+	</GeologischTijdvak>
+	<GeologischTijdvak>
+		<Waarde></Waarde>
+		<IMBRO></IMBRO>
+		<IMBROA></IMBROA>
+		<Omschrijving></Omschrijving>
+	</GeologischTijdvak>
+</domeintabel>
