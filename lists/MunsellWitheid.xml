@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<MunsellWitheid>
+		<Waarde>1</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De waarde van de witheid is 1.</Omschrijving>
+	</MunsellWitheid>
+	<MunsellWitheid>
+		<Waarde>2</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De waarde van de witheid is 2.</Omschrijving>
+	</MunsellWitheid>
+	<MunsellWitheid>
+		<Waarde>2.5</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De waarde van de witheid is 2.5.</Omschrijving>
+	</MunsellWitheid>
+	<MunsellWitheid>
+		<Waarde>3</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De waarde van de witheid is 3.</Omschrijving>
+	</MunsellWitheid>
+	<MunsellWitheid>
+		<Waarde>4</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De waarde van de witheid is 4.</Omschrijving>
+	</MunsellWitheid>
+	<MunsellWitheid>
+		<Waarde>5</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De waarde van de witheid is 5.</Omschrijving>
+	</MunsellWitheid>
+	<MunsellWitheid>
+		<Waarde>6</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De waarde van de witheid is 6.</Omschrijving>
+	</MunsellWitheid>
+	<MunsellWitheid>
+		<Waarde>7</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De waarde van de witheid is 7.</Omschrijving>
+	</MunsellWitheid>
+	<MunsellWitheid>
+		<Waarde>8</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De waarde van de witheid is 8.</Omschrijving>
+	</MunsellWitheid>
+	<MunsellWitheid>
+		<Waarde>8.5</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De waarde van de witheid is 8.5.</Omschrijving>
+	</MunsellWitheid>
+	<MunsellWitheid>
+		<Waarde>9</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De waarde van de witheid is 9.</Omschrijving>
+	</MunsellWitheid>
+	<MunsellWitheid>
+		<Waarde>9.5</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De waarde van de witheid is 9.5.</Omschrijving>
+	</MunsellWitheid>
+</domeintabel>

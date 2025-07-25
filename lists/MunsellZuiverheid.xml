@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<MunsellZuiverheid>
+		<Waarde>1</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De waarde van de zuiverheid is 1.</Omschrijving>
+	</MunsellZuiverheid>
+	<MunsellZuiverheid>
+		<Waarde>2</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De waarde van de zuiverheid is 2.</Omschrijving>
+	</MunsellZuiverheid>
+	<MunsellZuiverheid>
+		<Waarde>3</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De waarde van de zuiverheid is 3.</Omschrijving>
+	</MunsellZuiverheid>
+	<MunsellZuiverheid>
+		<Waarde>4</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De waarde van de zuiverheid is 4.</Omschrijving>
+	</MunsellZuiverheid>
+	<MunsellZuiverheid>
+		<Waarde>6</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De waarde van de zuiverheid is 6.</Omschrijving>
+	</MunsellZuiverheid>
+	<MunsellZuiverheid>
+		<Waarde>8</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De waarde van de zuiverheid is 8.</Omschrijving>
+	</MunsellZuiverheid>
+</domeintabel>
