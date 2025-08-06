@@ -10,8 +10,8 @@
 		<Waarde>NEN_EN_ISO19901d8v2023</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>ISO 19901-8:2023 Petroleum and natural gas industries — Specific requirements for offshore structures — Part 8: Marine soil investigations is een internationale norm overgenomen als Europese norm (EN-ISO 19901-8:2023) en als Nederlandse norm NEN-EN-ISO 19901-8:2023 Aardolie- en aardgasindustrie - Specifieke eisen voor buitengaatse constructies - Deel 8: Zeebodemonderzoeken. De procedure wordt gebruikt voor booronderzoek op zee en dat is aan de zeezijde van de UNCLOS-basislijn.</Omschrijving>
-	</Boorprocedure>	
+		<Omschrijving>NEN-EN-ISO 19901-8:2023 Petroleum and natural gas industries — Specific requirements for offshore structures — Part 8: Marine soil investigations is een internationale norm overgenomen als Europese norm (EN-ISO 19901-8:2023) en als Nederlandse norm NEN-EN-ISO 19901-8:2023 Aardolie- en aardgasindustrie - Specifieke eisen voor buitengaatse constructies - Deel 8: Zeebodemonderzoeken. De procedure wordt gebruikt voor booronderzoek op zee en dat is aan de zeezijde van de UNCLOS-basislijn.</Omschrijving>
+	</Boorprocedure>
 	<Boorprocedure>
 		<Waarde>SIKB2001vanafV6.0</Waarde>
 		<IMBRO>v</IMBRO>
@@ -31,4 +31,5 @@
 		<Omschrijving>Het is niet bekend onder welke afspraken het boren is uitgevoerd.</Omschrijving>
 	</Boorprocedure>
 </domeintabel>
+
 
