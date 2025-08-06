@@ -13,16 +13,16 @@
 		<Omschrijving>NEN-EN-ISO 14688-1:2019 Geotechnisch onderzoek en beproeving – Identificatie en classificatie van grond – Deel1: Identificatie en beschrijving + NEN 8990:2020 Geotechnisch onderzoek en beproeving - Identificatie en classificatie van grond - Nederlandse aanvulling op NEN-EN-ISO 14688-1 beschrijft de procedure voor het beschrijven van grondmonsters voor geotechniek. Een internationale norm geaccepteerd door Europa en vertaalt in het Nederlands met een Nederlandse aanvulling.</Omschrijving>
 	</Beschrijfprocedure>
 	<Beschrijfprocedure>
-		<Waarde>ISO14688d1v2019NEN8990v2025</Waarde>
-		<IMBRO>v</IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>NEN-EN-ISO 14688-1:2019 Geotechnisch onderzoek en beproeving – Identificatie en classificatie van grond – Deel1: Identificatie en beschrijving + NEN 8990:2025 Geotechnisch onderzoek en beproeving - Identificatie en classificatie van grond - Nederlandse aanvulling op NEN-EN-ISO 14688-1 beschrijft de procedure voor het beschrijven van grondmonsters voor geotechniek. Een internationale norm geaccepteerd door Europa en vertaalt in het Nederlands met een Nederlandse aanvulling.</Omschrijving>
-	</Beschrijfprocedure>
-	<Beschrijfprocedure>
 		<Waarde>ISO14689d1v2018</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
 		<Omschrijving>NEN-EN-ISO 14689-1: 2018 Geotechnisch onderzoek en beproeving - Identificatie en classificatie van gesteente - Deel 1: Identificatie en beschrijving beschrijft de procedure voor de beschrijving van gesteentemonsters voor geotechniek. Een internationale norm geaccepteerd door Europa en Nederland.</Omschrijving>
+	</Beschrijfprocedure>
+	<Beschrijfprocedure>
+		<Waarde>NEN_EN_ISO14688d1v2019NEN8990v2025</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-EN-ISO 14688-1:2019 Geotechnisch onderzoek en beproeving – Identificatie en classificatie van grond – Deel1: Identificatie en beschrijving + NEN 8990:2025 Geotechnisch onderzoek en beproeving - Identificatie en classificatie van grond - Nederlandse aanvulling op NEN-EN-ISO 14688-1 beschrijft de procedure voor het beschrijven van grondmonsters voor geotechniek. Een internationale norm geaccepteerd door Europa en vertaalt in het Nederlands met een Nederlandse aanvulling.</Omschrijving>
 	</Beschrijfprocedure>
 	<Beschrijfprocedure>
 		<Waarde>NEN5104Synthetisch</Waarde>
@@ -31,3 +31,4 @@
 		<Omschrijving>De grond is geclassificeerd volgens NEN 5104 en die norm vormt de basis van de procedure. Wanneer de grond niet geclassificeerd kan worden is het bijzonder materiaal. De procedure kent geen strikt onderscheid tussen beschrijven, analyseren en interpreteren en daardoor kan het resultaat een synthetisch karakter hebben.</Omschrijving>
 	</Beschrijfprocedure>
 </domeintabel>
+
