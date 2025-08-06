@@ -34,13 +34,19 @@
 		<Waarde>betonOngebroken</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Antropogeen materiaal: beton dat niet als puin wordt geclassificeerd, bijvoorbeeld een betonplaat. Dit beton maakt minder dan 25 % van de massa van de grond uit.</Omschrijving>
+		<Omschrijving>Antropogeen materiaal: beton dat niet als puin wordt geclassificeerd, bijvoorbeeld een betonplaat. Deze waarde is toegestaan in de norm NEN-EN-ISO 14688-1:2019+NEN 8990:2020 en voorgaande versies ervan en is vanaf de norm NEN-EN-ISO 14688-1:2019+NEN 8990:2025 vervangen door de waarden betonOngebrokenWeinig en betonOngebrokenVeel.</Omschrijving>
 	</BijzonderBestanddeel>
 	<BijzonderBestanddeel>
-		<Waarde>betonOngebroken</Waarde>
+		<Waarde>betonOngebrokenWeinig</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Antropogeen materiaal: beton dat niet als puin wordt geclassificeerd, bijvoorbeeld een betonplaat. Dit beton maakt 25 tot 50 % van de massa van de grond uit.</Omschrijving>
+		<Omschrijving>Antropogeen materiaal: beton dat niet als puin wordt geclassificeerd, bijvoorbeeld een betonplaat. Dit beton maakt minder dan 25 % van de massa van de grond uit. Deze waarde is toegestaan vanaf de norm NEN-EN-ISO 14688-1:2019+NEN 8990:2025.</Omschrijving>
+	</BijzonderBestanddeel>
+	<BijzonderBestanddeel>
+		<Waarde>betonOngebrokenVeel</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen materiaal: beton dat niet als puin wordt geclassificeerd, bijvoorbeeld een betonplaat. Dit beton maakt 25 tot 50 % van de massa van de grond uit. Deze waarde is toegestaan vanaf de norm NEN-EN-ISO 14688-1:2019+NEN 8990:2025.</Omschrijving>
 	</BijzonderBestanddeel>
 	<BijzonderBestanddeel>
 		<Waarde>botrestenWeinig</Waarde>
