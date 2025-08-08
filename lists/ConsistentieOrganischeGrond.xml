@@ -4,19 +4,19 @@
 		<Waarde>zeerSlap</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Loopt zonder knijpen tussen de vingers door.</Omschrijving>
+		<Omschrijving>Loopt bij knijpen zeer gemakkelijk tussen de vingers door.</Omschrijving>
 	</ConsistentieOrganischeGrond>
 	<ConsistentieOrganischeGrond>
 		<Waarde>slap</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Loopt met knijpen zeer gemakkelijk tussen de vingers door.</Omschrijving>
+		<Omschrijving>Loopt bij knijpen tussen de vingers door.</Omschrijving>
 	</ConsistentieOrganischeGrond>
 	<ConsistentieOrganischeGrond>
 		<Waarde>matigSlap</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Loopt met knijpen nog goed tussen de vingers door.</Omschrijving>
+		<Omschrijving>Loopt bij knijpen nog goed tussen de vingers door.</Omschrijving>
 	</ConsistentieOrganischeGrond>
 	<ConsistentieOrganischeGrond>
 		<Waarde>matigStevig</Waarde>
@@ -28,13 +28,13 @@
 		<Waarde>stevig</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Is ook met stevig knijpen niet tussen de vingers door te krijgen. Deze waarde is geldig tot en met ISO14688d1v2019NEN8990v2020. In opvolgende versies is deze waarde opgegaan in de waarde 'Stijf'.</Omschrijving>
+		<Omschrijving>Is niet tussen de vingers door te krijgen. Deze waarde is geldig tot en met ISO14688d1v2019NEN8990v2020. In opvolgende versies is deze waarde opgegaan in de waarde 'Stijf'.</Omschrijving>
 	</ConsistentieOrganischeGrond>
 	<ConsistentieOrganischeGrond>
 		<Waarde>stevig2025</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Is met stevig knijpen nog juist tussen de vingers door te krijgen. Is niet tussen de vingers door te krijgen. Deze waarde is geldig vanaf NEN_EN_ISO14688d1v2019NEN8990v2025. Deze komt overeen met de waarde 'Matig stevig' uit ISO14688d1v2019NEN8990v2020 en eerder.</Omschrijving>
+		<Omschrijving>Is met stevig knijpen nog juist tussen de vingers door te krijgen. Deze waarde is geldig vanaf NEN_EN_ISO14688d1v2019NEN8990v2025. Deze komt overeen met de waarde 'Matig stevig' uit ISO14688d1v2019NEN8990v2020 en eerder.</Omschrijving>
 	</ConsistentieOrganischeGrond>
 	<ConsistentieOrganischeGrond>
 		<Waarde>vast</Waarde>
@@ -52,6 +52,6 @@
 		<Waarde>zeerStijf</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Is nog met een nagel in te drukken. Is niet tussen de vingers door te krijgen. Deze waarde is geldig vanaf NEN_EN_ISO14688d1v2019NEN8990v2025. Deze omvat de waarde 'Vast' uit ISO14688d1v2019NEN8990v2020 en eerder.</Omschrijving>
+		<Omschrijving>Is nog met een nagel in te drukken. Deze waarde is geldig vanaf NEN_EN_ISO14688d1v2019NEN8990v2025. Deze omvat de waarde 'Vast' uit ISO14688d1v2019NEN8990v2020 en eerder.</Omschrijving>
 	</ConsistentieOrganischeGrond>
 </domeintabel>
