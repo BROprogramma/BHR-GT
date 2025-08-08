@@ -22,36 +22,36 @@
 		<Waarde>matigStevig</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Is met stevig knijpen nog juist tussen de vingers door te krijgen. Deze waarde is geldig tot en met ISO14688d1v2019NEN8990v2020. In opvolgende versies is deze waarde opgegaan in de waarde 'Stevig2025'.</Omschrijving>
+		<Omschrijving>Is met stevig knijpen nog juist tussen de vingers door te krijgen. Deze waarde is geldig tot en met ISO14688d1v2019NEN8990v2020. In opvolgende versies is deze waarde opgegaan in de waarde <i>Stevig2025</i>.</Omschrijving>
 	</ConsistentieOrganischeGrond>
 	<ConsistentieOrganischeGrond>
 		<Waarde>stevig</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Is niet tussen de vingers door te krijgen. Deze waarde is geldig tot en met ISO14688d1v2019NEN8990v2020. In opvolgende versies is deze waarde opgegaan in de waarde 'Stijf'.</Omschrijving>
+		<Omschrijving>Is niet tussen de vingers door te krijgen. Deze waarde is geldig tot en met ISO14688d1v2019NEN8990v2020. In opvolgende versies is deze waarde opgegaan in de waarde <i>Stijf<i/>.</Omschrijving>
 	</ConsistentieOrganischeGrond>
 	<ConsistentieOrganischeGrond>
 		<Waarde>stevig2025</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Is met stevig knijpen nog juist tussen de vingers door te krijgen. Deze waarde is geldig vanaf NEN_EN_ISO14688d1v2019NEN8990v2025. Deze komt overeen met de waarde 'Matig stevig' uit ISO14688d1v2019NEN8990v2020 en eerder.</Omschrijving>
+		<Omschrijving>Is met stevig knijpen nog juist tussen de vingers door te krijgen. Deze waarde is geldig vanaf NEN_EN_ISO14688d1v2019NEN8990v2025. Deze komt overeen met de waarde <i>Matig stevig</i> uit ISO14688d1v2019NEN8990v2020 en eerder.</Omschrijving>
 	</ConsistentieOrganischeGrond>
 	<ConsistentieOrganischeGrond>
 		<Waarde>vast</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Is nog met de nagel in te drukken. Deze waarde is geldig tot en met ISO14688d1v2019NEN8990v2020. In opvolgende versies is deze waarde opgegaan in de waarde 'Zeer stijf'.</Omschrijving>
+		<Omschrijving>Is nog met de nagel in te drukken. Deze waarde is geldig tot en met ISO14688d1v2019NEN8990v2020. In opvolgende versies is deze waarde opgegaan in de waarde <i>Zeer stijf</i>.</Omschrijving>
 	</ConsistentieOrganischeGrond>
 		<ConsistentieOrganischeGrond>
 		<Waarde>stijf</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Is niet tussen de vingers door te krijgen. Deze waarde is geldig vanaf NEN_EN_ISO14688d1v2019NEN8990v2025. Deze komt overeen met de waarde 'Stevig' uit ISO14688d1v2019NEN8990v2020 en eerder.</Omschrijving>
+		<Omschrijving>Is niet tussen de vingers door te krijgen. Deze waarde is geldig vanaf NEN_EN_ISO14688d1v2019NEN8990v2025. Deze komt overeen met de waarde <i>Stevig</i> uit ISO14688d1v2019NEN8990v2020 en eerder.</Omschrijving>
 	</ConsistentieOrganischeGrond>
 		<ConsistentieOrganischeGrond>
 		<Waarde>zeerStijf</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Is nog met een nagel in te drukken. Deze waarde is geldig vanaf NEN_EN_ISO14688d1v2019NEN8990v2025. Deze omvat de waarde 'Vast' uit ISO14688d1v2019NEN8990v2020 en eerder.</Omschrijving>
+		<Omschrijving>Is nog met een nagel in te drukken. Deze waarde is geldig vanaf NEN_EN_ISO14688d1v2019NEN8990v2025. Deze omvat de waarde <i>Vast</i> uit ISO14688d1v2019NEN8990v2020 en eerder.</Omschrijving>
 	</ConsistentieOrganischeGrond>
 </domeintabel>
