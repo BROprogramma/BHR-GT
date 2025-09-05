@@ -1,0 +1,2751 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<LithostratigrafischeEenheid>
+		<Waarde>N</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Noordzee Supergroep. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NU</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Boven-Noordzee Groep. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUAA</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogene afzettingen (inf.). De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUAAOP</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Opgebrachte grond (inf.). De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUAAOM</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Omgewerkte grond (inf.). De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUAAES</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Esdekken (inf.). De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUNA</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Formatie van Naaldwijk. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUNASC</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagpakket van Schoorl. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUNAZA</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagpakket van Zandvoort. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUNAWA</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagpakket van Walcheren. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUNAWAYS</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>IJsselmeer Laag. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUNAWAZU</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Zuiderzee Laag. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUNAWAYE</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>IJe Laag. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUNAWAAL</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Almere Laag. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUNAWO</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagpakket van Wormer. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUNAWOBE</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laag van Bergen. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUNAWOVE</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laag van Velsen. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUEC</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Formatie van Echteld. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUKK</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Kreekrak Formatie. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUNI</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Formatie van Nieuwkoop. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUNIGR</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagpakket van Griendtsveen. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUNIFL</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Flevomeer Laag. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUNIHO</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Hollandveen Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUNIBA</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Basisveen Laag. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUBX</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Formatie van Boxtel. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUBXKO</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagpakket van Kootwijk. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUBXSI</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagpakket van Singraven. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUBXDE</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagpakket van Delwijnen. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUBXWI</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagpakket van Wierden. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUBXLM</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagpakket van Liempde. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUBXSC</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagpakket van Schimmert. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUBXTI</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagpakket van Tilligte. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUBXBS</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagpakket van Best. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUSB</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Southern Bight Formatie. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUSBBL</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Bligh Bank Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUSBTB</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Terschellinger Bank Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUSBBU</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Buitenbanken Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUSBIG</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Indefatigable Grounds Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUUA</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Urania Formatie. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUUAWM</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Western Mud Hole Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUUAWH</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Well Hole Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUBE</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Formatie van Beegden. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUBEWY</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laag van Wijchen. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUBERO</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laag van Rosmalen. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUBEOM</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagpakket van Oost-Maarland. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUBEGR</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagpakket van Gronsveld. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUBECA</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagpakket van Caberg. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUBERT</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagpakket van Rothem. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUBEGV</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagpakket van 's-Gravenvoeren. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUBEPI</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagpakket van St. Pietersberg. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUBEGE</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagpakket van St. Geertruid. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUBEVA</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagpakket van Valkenburg. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUBESB</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagpakket van Sibbe. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUBEMA</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagpakket van Margraten. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUBESV</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagpakket van Simpelveld. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUBENO</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagpakket van Noorbeek. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUBECR</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagpakket van Crapoel. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUBEKO</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagpakket van Kosberg. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUHT</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Formatie van Heijenrath. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUHS</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Formatie van Holset. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUKR</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Formatie van Kreftenheye. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUKRWY</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laag van Wijchen. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUKROC</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagpakket van Ockenburg. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUKRZU</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagpakket van Zutphen. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUKRTW</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagpakket van Twello. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUKRWE</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagpakket van Well. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUDB</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Dogger Bight Formatie. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUDBBC</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Botney Cut Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUDBDB</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Dogger Bank Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUDBVO</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Volans Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUDBBO</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Bolders Bank Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUDBWG</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Well Ground Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUKW</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Formatie van Koewacht. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUWB</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Formatie van Woudenberg. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUEE</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Eem Formatie. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUEEBB</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Bruine Bank Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUDR</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Formatie van Drente. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUDRSC</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagpakket van Schaarsbergen. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUDRGI</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagpakket van Gieten. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUDRGIGA</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laag van Gasselte. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUDRUI</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagpakket van Uitdam. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUDRUIOO</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laag van Oosterdok. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUDN</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Formatie van Drachten. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUUR</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Formatie van Urk. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUURTY</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagpakket van Tijnje. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUURVE</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagpakket van Veenhuizen. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUURLI</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagpakket van Lingsfort. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUEG</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Egmond Ground Formatie. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUPE</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Formatie van Peelo. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUPENI</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagpakket van Nieuwolda. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUAP</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Formatie van Appelscha. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUAPWE</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagpakket van Weerdinge. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUYR</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Yarmouth Roads Formatie. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUYRAL</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Alkaid Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUBV</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Batavier Formatie. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUAU</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Aurora Formatie. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUOS</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Outer Silver Pit Formatie. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUST</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Formatie van Sterksel. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUSY</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Formatie van Stramproy. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUSYHO</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagpakket van Hoogcruts. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUPZ</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Formatie van Peize. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUPZBA</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagpakket van Balk. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUWA</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Formatie van Waalre. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUWATE</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagpakket van Tegelen. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUWAHO</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagpakket van Hoogerheide. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUWAWO</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagpakket van Woensdrecht. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUMH</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Markhams Hole Formatie. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUWS</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Winterton Shoal Formatie. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUYG</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>IJmuiden Ground Formatie. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUSK</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Smith's Knoll Formatie. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUMS</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Formatie van Maassluis. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUWG</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Westkapelle Ground Formatie. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUOO</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Formatie van Oosterhout. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUOOWO</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagpakket van Wouw. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUOOSP</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagpakket van Sprundel. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUOOLI</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagpakket van Lievelde. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUBG</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Brielle Ground Formatie. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUKI</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Kiezeloöliet Formatie. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUKIVE</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laag van Venlo. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUKIRE</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laag van Reuver. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUKIBR</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagpakket van Brunssum. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUKIWA</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagpakket van Waubach. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUIE</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Formatie van Inden. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUBR</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Formatie van Breda. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUBRDE</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagpakket van Delden. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUBRZE</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagpakket van Zenderen. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUBREI</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagpakket van Eibergen. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUBRAA</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagpakket van Aalten. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUBRAAMI</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laag van Miste. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUBRAAST</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laag van Stemerdink. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUBRNI</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagpakket van Nieuweschans. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUBRVR</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagpakket van Vrijherenberg. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUBRHE</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagpakket van Heksenberg. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUBRKA</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagpakket van Kakert. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUBRKAEL</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laag van Elsloo. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUBRRC</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagpakket van Rucphen. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NUVI</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Ville Formatie. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NM</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Midden-Noordzee Groep. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NMVE</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Formatie van Veldhoven. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NMVESO</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagpakket van Someren. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NMVEWI</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagpakket van Wintelre. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NMVEVO</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagpakket van Voort. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NMRU</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Rupel Formatie. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NMRUST</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagpakket van Steensel. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NMRUBO</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagpakket van Boom. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NMRUBOWI</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laag van Winterswijk. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NMRUBOBR</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laag van Brinkheurne. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NMRUBOWO</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Woold Klei laag (inf.). De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NMRUBOKO</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Kotten Klei laag (inf.). De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NMRUWA</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagpakket van Waterval. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NMRUKS</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagpakket van Kleine-Spouwen. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NMRUBE</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagpakket van Berg. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NMRURA</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagpakket van Ratum. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NMRURAOO</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laag van Ootmarsum. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NMTO</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Formatie van Tongeren. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NMTORU</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagpakket van Ruisbroek. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NMTOWA</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagpakket van Watervliet. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NMTOBA</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagpakket van Bassevelde. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NMTOGO</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagpakket van Goudsberg. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NMTOKL</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagpakket van Klimmen. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NL</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Onder-Noordzee Groep. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NLDO</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Formatie van Dongen. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NLDOAS</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagpakket van Asse. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NLDOBR</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Zand van Brussel Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NLDOBM</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Mergel van Brussel Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NLDOIE</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagpakket van Ieper. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NLDOEN</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagpakket van Engelschhoek. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NLDOOO</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagpakket van Oosteind. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NLDOWY</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagpakket van De Wijk. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NLLA</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Formatie van Landen. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NLLARE</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagpakket van Reusel. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NLLALI</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagpakket van Liessel. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NLLAGE</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagpakket van Gelinden. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NLLAOR</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagpakket van Orp. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NLLASW</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagpakket van Swalmen. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>CK</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Krijtkalk Groep. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>CKEK</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Ekofisk Formatie. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>CKGR</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Formatie van Ommelanden. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>CKHM</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Formatie van Houthem. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>CKMA</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Formatie van Maastricht. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>CKGP</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Formatie van Gulpen. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>CKVA</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Formatie van Vaals. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>CKAK</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Formatie van Aken. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>CKOP</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Formatie van Oploo (inf.). De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>CKTX</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Formatie van Texel. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>CKTXP</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Plenus Mergel Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>CKTXM</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Texel Mergelsteen Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>CKTXG</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Texel Groenzand Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>KN</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Rijnland Groep. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>KNGL</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Formatie van Holland. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>KNGLU</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Boven-Holland Mergel Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>KNGLM</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Midden-Holland Kleisteen Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>KNGLG</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Holland Groenzand Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>KNGLS</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Spijkenisse Groenzand Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>KNGLL</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Onder-Holland Mergel Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>KNN</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Vlieland subgroep (inf.). De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>KNNC</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Vlieland Kleisteen Formatie. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>KNNCK</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Vlieland Mergel Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>KNNCM</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Hoofd-Vlieland Kleisteen laagpakket (inf.). De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>KNNCW</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagpakket van Westerbork. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>KNNCE</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagpakket van Ruinen. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>KNNCS</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagpakket van Schoonebeek (inf.). De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>KNNCV</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Bentheim Kleisteen Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>KNNCU</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagpakket van Eemhaven. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>KNNCA</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>IJsselmonde Kleisteen Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>KNNS</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Vlieland Zandsteen Formatie. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>KNNSF</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagpakket van Friesland. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>KNNSK</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Kotter Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>KNNSH</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Helder Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>KNNSO</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Logger Zandsteen laagpakket (inf.). De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>KNNSG</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Gildehaus Zandsteen Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>KNNSP</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Bentheim Zandsteen Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>KNNSL</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagpakket van De Lier. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>KNNSY</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>IJsselmonde Zandsteen Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>KNNSB</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Berkel Zandsteen Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>KNNSD</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Berkel Klastica laagpakket (inf.). De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>KNNSC</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Berkel Zand-Kleisteen Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>KNNSR</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagpakket van Rijswijk. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>KNNSI</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Rijn Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>S</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Boven-Jura Supergroep. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>SK</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Nedersaksen Groep. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>SKCF</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Formatie van Coevorden. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>SKCFU</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Boven-Coevorden Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>SKCFM</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Midden-Coevorden Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>SKCFL</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Onder-Coevorden Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>SKWF</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Formatie van Weiteveen. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>SKWFF</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Serpuliet Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>SKWFE</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Weiteveen Boven-Mergel Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>SKWFD</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Weiteveen Boven-Evaporiet Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>SKWFC</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Weiteveen Onder-Mergel Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>SKWFB</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Weiteveen Onder-Evaporiet Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>SKWFA</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Weiteveen Basale Klastica Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>SG</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Scruff Groep. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>SGLU</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Lutine Formatie. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>SGLUS</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Schill Grund Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>SGLUC</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Clay Deep Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>SGGS</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Scruff Groenzand Formatie. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>SGGSS</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Stortemelk Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>SGGSP</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Scruff Spiculiet Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>SGSK</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Formatie van Skylge. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>SGSKL</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagpakket van Lies. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>SGSKN</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagpakket van Noordsvaarder. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>SGSKT</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Terschelling Zandsteen Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>SGSKO</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Oyster Ground Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>SGKI</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Kimmeridge Klei Formatie. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>SL</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Schieland Groep. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>SLD</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Delfland Subgroep. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>SLDZ</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Formatie van Zurich. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>SLDZU</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Boven-Zurich laagpakket (inf.). De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>SLDZV</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Wadden Vulkanoklastisch Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>SLDZL</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Onder-Zurich laagpakket (inf.). De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>SLDB</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Breeveertien Formatie. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>SLDBH</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Helm Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>SLDBN</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Neomiodon Kleisteen Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>SLDBB</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagpakket van Bloemendaal. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>SLDBD</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Driehuis Gevlekte Kleisteen Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>SLDBS</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagpakket van Santpoort. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>SLDBC</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Fourteens Kleisteen Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>SLDBA</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagpakket van Aerdenhout. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>SLDN</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Formatie van Nieuwerkerk. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>SLDNR</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Rodenrijs Kleisteen Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>SLDND</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Delft Zandsteen Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>SLDNA</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagpakket van Alblasserdam. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>SLC</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Central Graben Subgroep. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>SLCU</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Boven-Graben Formatie. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>SLCM</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Midden-Graben Formatie. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>SLCMU</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Boven-kleisteen laagpakket (inf.). De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>SLCMS</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Midden-Graben Zandsteen Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>SLCML</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Onder-kleisteen laagpakket (inf.). De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>SLCL</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Onder-Graben Formatie. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>SLCP</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Puzzle Hole Formatie. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>SLCF</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Friese Front Formatie. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>SLCFM</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Hoofd-Friese Front laagpakket (inf.). De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>SLCFR</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Rifgronden Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>AT</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Altena Groep. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>ATBR</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Formatie van Brabant. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>ATBRO</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Oisterwijk Kalksteen Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>ATBRU</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Boven-Brabant Mergel Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>ATBR3</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Boven-Brabant Kalksteen Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>ATBRM</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Midden-Brabant Mergel Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>ATBR2</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Midden-Brabant Kalksteen Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>ATBRL</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Onder-Brabant Mergel Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>ATBR1</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Onder-Brabant Kalksteen Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>ATBRK</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagpakket van Klomps (inf.). De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>ATWD</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Formatie van Werkendam. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>ATWDU</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Boven-Werkendam Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>ATWDM</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Midden-Werkendam Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>ATWDL</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Onder-Werkendam Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>ATPO</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Posidonia Schalie Formatie. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>ATAL</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Formatie van Aalburg. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>ATRT</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Formatie van Sleen. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>RN</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Boven-Germaanse Trias Groep. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>RNKP</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Keuper Formatie. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>RNKPC</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Kleiige Keuper laagpakket (inf.). De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>RNKPU</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Boven-Keuper Kleisteen Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>RNKPD</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Dolomitische Keuper Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>RNKPR</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Rode Keuper Kleisteen Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>RNKPE</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Rode Keuper Evaporiet Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>RNKPM</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Midden-Keuper Kleisteen Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>RNKPS</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Hoofd-Keuper Evaporiet Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>RNKPL</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Onder-Keuper Kleisteen Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>RNMU</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Muschelkalk Formatie. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>RNMUU</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Boven-Muschelkalk Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>RNMUA</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Midden-Muschelkalk Mergel Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>RNMUE</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Muschelkalk Evaporiet Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>RNMUL</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Onder-Muschelkalk Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>RNMUC</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Muschelkalk Kleisteen laagpakket (inf.). De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>RNUB</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Boven-Bunter eenheid (inf.). De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>RNRO</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Röt Formatie. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>RNROU</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Boven-Röt Kleisteen Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>RNRO2</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Boven-Röt Evaporiet Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>RNROM</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Tussen-Röt Kleisteen Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>RNRO1</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Hoofd-Röt Evaporiet Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>RNROY</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Boven-Röt Randkleisteen Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>RNROF</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Röt Randzandsteen Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>RNROL</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Onder-Röt Randkleisteen Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>RNROC</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Röt Kleisteen Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>RNSO</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Formatie van Solling. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>RNSOC</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Solling Kleisteen Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>RNSOB</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Basale Solling Zandsteen Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>RNSOU</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Boven-Solling Kleisteen laagpakket (inf.). De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>RNSOM</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Midden-Solling Zandsteen laagpakket (inf.). De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>RNSOL</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Onder-Solling Kleisteen laagpakket (inf.). De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>RB</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Onder-Germaanse Trias Groep. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>RBM</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Hoofd-Bontzandsteen Subgroep. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>RBMH</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Formatie van Hardegsen. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>RBMD</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Formatie van Detfurth. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>RBMDU</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Boven-Detfurth Zandsteen Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>RBMDC</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Detfurth Kleisteen Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>RBMDL</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Onder-Detfurth Zandsteen Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>RBMV</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Formatie van Volpriehausen. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>RBMVA</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Volpriehausen Avicula laagpakket (inf.). De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>RBMVU</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Boven-Volpriehausen Zandsteen Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>RBMVC</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Volpriehausen Klei-Siltsteen Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>RBMVL</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Onder-Volpriehausen Zandsteen Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>RBBM</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Midden-Bunter zandsteen (inf.). De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>RBS</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Onder-Bontzandsteen Subgroep. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>RBSR</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Rogenstein Formatie. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>RBSM</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Hoofd-Kleisteen Formatie. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>RBSN</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Nederweert Zandsteen Formatie. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>ZE</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Zechstein Groep. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>ZEUC</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Zechstein Boven-Kleisteen Formatie. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>ZEZ5</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Z5 (Ohre) Formatie. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>ZEZ5H</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Z5 Zout Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>ZEZ5R</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Z5 Zoutklei Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>ZEZ4</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Z4 (Aller) Formatie. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>ZEZ4S</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Z4 Randzandsteen Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>ZEZ4T</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Z4 Boven-Anhydriet laagpakket (inf.). De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>ZEZ4H</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Z4 Zout Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>ZEZ4A</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Z4 Pegmatiet-Anhydriet Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>ZEZ4R</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Rode Zoutklei Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>ZEZ3</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Z3 (Leine) Formatie. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>ZEZ3S</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Z3 Randzandsteen Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>ZEZ3U</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Z3 Randkleisteen Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>ZEZ3H</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Z3 Zout Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>ZEZ3B</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Z3 Anhydriet/Carbonaat Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>ZEZ3A</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Z3 Hoofdanhydriet Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>ZEZ3C</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Z3 Carbonaat Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>ZEZ3G</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Grijze Zoutklei Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>ZEZ2</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Z2 (Stassfurt) Formatie. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>ZEZ2S</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Z2 Randzandsteen Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>ZEZ2T</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Z2 Dakanhydriet Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>ZEZ2H</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Z2 Zout Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>ZEZ2A</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Z2 Basale Anhydriet Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>ZEZ2M</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Z2 Midden-Kleisteen Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>ZEZ2F</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Z2 Randanhydriet Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>ZEZ2C</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Z2 Carbonaat Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>ZEZ2R</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Roodbruine Zoutklei Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>ZEZ1</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Z1 (Werra) Formatie. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>ZEZ1S</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Z1 Randzandsteen Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>ZEZ1W</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Z1 Anhydriet Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>ZEZ1C</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Z1 Carbonaat Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>ZEZ1K</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Koperschalie Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>ZEZ1T</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Z1 Boven-Anhydriet Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>ZEZ1H</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Z1 Zout Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>ZEZ1A</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Z1 Onder-Anhydriet Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>ZEZ1B</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Z1 Anhydriet/Carbonaat laagpakket (inf.). De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>ZEZ1M</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Z1 Midden-Kleisteen Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>ZEZ1F</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Z1 Randcarbonaat Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>ZEZ1G</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Z1 Onder-Kleisteen Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>ZEZ1E</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Randkoperschalie Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>ZESAU</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Boven-Zechstein zout (inf.). De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>ZESAL</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Onder-Zechstein zout (inf.). De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>ZEFC</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Zechstein randklastica (inf.). De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>ZEFRM</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Zechstein Midden-Kleisteen laagpakket (inf.). De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>ZEFRS</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Zechstein Randzandsteen laagpakket (inf.). De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>ZEUN</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Zechstein niet-gedifferentieerd (inf.). De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>ZESA</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Zechstein zout (inf.). De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>ZECP</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Zechstein caprock (inf.). De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>RO</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Boven-Rotliegend Groep. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>ROCL</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Silverpit Formatie. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>ROCLT</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagpakket van Ten Boer. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>ROCLA</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagpakket van Ameland. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>ROCLH</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagpakket van Hollum. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>ROCLB</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagpakket van Buren. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>ROCLU</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Boven-Silverpit Kleisteen Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>ROCLE</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Silverpit Evaporiet Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>ROCLL</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Onder-Silverpit Kleisteen Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>ROSL</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Formatie van Slochteren. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>ROSLA</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Akkrum Zandsteen laagpakket (inf.). De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>ROSLU</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Boven-Slochteren Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>ROSLL</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Onder-Slochteren Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>RV</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Onder-Rotliegend Groep. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>RVVE</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Emmen Vulkanieten Formatie. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>RVBA</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Basale Rotliegend klastica (inf.). De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>DC</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Limburg Groep. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>DCH</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Hunze Subgroep. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>DCHP</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Step Graben Formatie. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>DCHS</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Formatie van Strijen. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>DCHL</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Formatie van De Lutte. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>DCD</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Dinkel Subgroep. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>DCDG</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Hospital Ground Formatie. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>DCDN</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Formatie van Neeroeteren. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>DCDH</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Formatie van Hellevoetsluis. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>DCDT</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Formatie van Tubbergen. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>DCC</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Caumer Subgroep. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>DCCU</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Formatie van Maurits. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>DCCUK</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagpakket van Kemperkoul. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>DCCUM</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Hoofd-Maurits laagpakket (inf).. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>DCCR</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Formatie van Ruurlo. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>DCCB</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Formatie van Baarlo. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>DCCK</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Klaverbank Formatie. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>DCCKB</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Botney Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>DCCKM</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Hoofd-Klaverbank laagpakket (inf.). De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>DCG</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Geul Subgroep. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>DCGM</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Millstone Grit Formatie. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>DCGE</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Formatie van Epen. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>DCGET</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Boven-Epen laagpakket (inf.). De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>DCGEM</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Hoofd-Epen laagpakket (inf.). De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>DCGEU</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagpakket van Ubachsberg. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>DCGEG</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagpakket van Geverik. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>CL</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Kolenkalk Groep. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>CLZL</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Formatie van Zeeland. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>CLZLG</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagpakket van Goeree. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>CLZLS</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagpakket van Schouwen. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>CLZLB</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Laagpakket van Beveland. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>CF</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Farne Groep. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>CFYD</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Yoredale Formatie. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>CFEB</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Elleboog Formatie. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>CFCS</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Cementstone Formatie. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>OB</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Banjaard groep (inf.). De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>OBBS</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Formatie van Bosscheveld (inf.). De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>OBGC</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Bollen Kleisteen formatie (inf.). De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>OR</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Old Red Groep. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>ORTP</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Formatie van Tayport. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>ORBU</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Buchan Formatie. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>ORBUU</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Boven-Buchan laagpakket (inf.). De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>ORBUR</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Rhyoliet Laagpakket. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>ORBUL</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Onder-Buchan laagpakket (inf.). De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>ORPA</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Patch Formatie. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>OS</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Siluur. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>XX</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Stollingsgesteente. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>XXD</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Dike of sill. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>XXP</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Intrusief gesteente. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>XXE</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Extrusief gesteente. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>XXT</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Tufsteen of as. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>XXZV</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Zuidwal Vulkanieten Formatie. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+	<LithostratigrafischeEenheid>
+		<Waarde>NN</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Niet geïnterpreteerd. De eenheid is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</LithostratigrafischeEenheid>
+</domeintabel>
