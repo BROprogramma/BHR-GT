@@ -4,19 +4,19 @@
 		<Waarde>klasse1geroerd</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>De lagen zijn beschreven volgens de eisen die in NEN-EN-ISO 14688-1 gesteld zijn aan uitgebreide monsterbeschrijving (B1) voor het beschrijven van monsters van minimaal kwaliteitsklasse QM4. Het eventueel aanwezige gesteente is beschreven op een gelijkwaardige manier. Deze beschrijfkwaliteit is in de basis klasse2geroerd, uitgebreid met aanvullende bepalingen.</Omschrijving>
+		<Omschrijving>De lagen zijn beschreven volgens de eisen die in NEN-EN-ISO 14688-1 gesteld zijn aan uitgebreide monsterbeschrijving (B1) voor het beschrijven van monsters van kwaliteitsklasse QM4 of QM5. Het eventueel aanwezige gesteente is beschreven op een gelijkwaardige manier. Deze beschrijfkwaliteit is in de basis gelijk aan klasse2geroerd, maar uitgebreid met één of meer aanvullende bepalingen.</Omschrijving>
 	</Beschrijfkwaliteit>
 	<Beschrijfkwaliteit>
 		<Waarde>klasse1ongedifferentieerd</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>De lagen zijn beschreven volgens de eisen die in NEN-EN-ISO 14688-1 gesteld zijn aan uitgebreide monsterbeschrijving (B1) voor handboringen waarvan alle monsters in het veld zijn beschreven, waarbij de kwaliteitsklasse van de monsters niet relevant is. Er is geen gesteente beschreven. Deze beschrijfkwaliteit is in de basis klasse2ongedifferentieerd, uitgebreid met aanvullende bepalingen.</Omschrijving>
+		<Omschrijving>De lagen zijn beschreven volgens de eisen die in NEN-EN-ISO 14688-1 gesteld zijn aan uitgebreide monsterbeschrijving (B1) voor handboringen waarvan alle monsters in het veld zijn beschreven, waarbij de kwaliteitsklasse van de monsters niet relevant is. Er is geen gesteente beschreven. Deze beschrijfkwaliteit is in de basis gelijk aan klasse2ongedifferentieerd, maar uitgebreid met één of meer aanvullende bepalingen.</Omschrijving>
 	</Beschrijfkwaliteit>
 	<Beschrijfkwaliteit>
 		<Waarde>klasse1ongeroerd</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>De lagen zijn beschreven volgens de eisen die in NEN-EN-ISO 14688-1 gesteld zijn aan uitgebreide monsterbeschrijving (B1) voor het beschrijven van monsters met een minimale kwaliteitsklasse QM4 en uitgebreid met de aanvullende bepalingen. Het eventueel aanwezige gesteente is beschreven op een gelijkwaardige manier. Deze beschrijfkwaliteit is in de basis klasse2ongeroerd, uitgebreid met aanvullende bepalingen</Omschrijving>
+		<Omschrijving>De lagen zijn beschreven volgens de eisen die in NEN-EN-ISO 14688-1 gesteld zijn aan uitgebreide monsterbeschrijving (B1) voor het beschrijven van monsters met een minimale kwaliteitsklasse QM4 en uitgebreid met de aanvullende bepalingen. Het eventueel aanwezige gesteente is beschreven op een gelijkwaardige manier. Deze beschrijfkwaliteit is in de basis gelijk aan klasse2ongeroerd, maar uitgebreid met één of meer aanvullende bepalingen.</Omschrijving>
 	</Beschrijfkwaliteit>
 	<Beschrijfkwaliteit>
 		<Waarde>klasse2geroerd</Waarde>
