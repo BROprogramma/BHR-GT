@@ -4,8 +4,7 @@
 		<Waarde>lichtBlauw</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving xml:space="preserve"><![CDATA[LichtBlauw omvat de Munsellkleuren 5B 7/6 (light blue), 5B 6/2 (pale blue), 5P 6/2 (pale purple), 5PB 7/2 (pale blue) en 5B 8/2 (very pale blue).
-			LichtBlauw gebruikt onder <i>NEN5104Synthetisch</i> wordt niet gedefinieerd door de Munsellkleuren.]]></Omschrijving>
+		<Omschrijving>LichtBlauw omvat de Munsellkleuren 5B 7/6 (light blue), 5B 6/2 (pale blue), 5P 6/2 (pale purple), 5PB 7/2 (pale blue) en 5B 8/2 (very pale blue). LichtBlauw gebruikt onder <i>NEN5104Synthetisch</i> wordt niet gedefinieerd door de Munsellkleuren.</Omschrijving>
 	</Kleur>
 	<Kleur>
 		<Waarde>standaardBlauw</Waarde>
@@ -238,6 +237,7 @@
 		<Omschrijving>Rood zonder aanduiding van licht of donker zoals gebruikt onder <i>NEN5104Synthetisch</i>.</Omschrijving>
 	</Kleur>
 </domeintabel>
+
 
 
 
