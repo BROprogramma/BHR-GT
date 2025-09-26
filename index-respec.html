@@ -2,129 +2,115 @@
 <html lang="nl">
 
 <head>
-  	<meta content="text/html; charset=utf-8" http-equiv="content-type">
-  	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  	<link rel='shortcut icon' type='image/x-icon' href='https://tools.geostandaarden.nl/respec/style/logos/Geonovum.ico' />
-  	<link rel="stylesheet" type="text/css" href="https://tools.geostandaarden.nl/respec/style/bro-localstyle.css"/>
-  	<title>Basisregistratie Ondergrond Catalogus Booronderzoek</title>
-	<script class='remove' src='https://tools.geostandaarden.nl/respec/builds/respec-geonovum.js' async></script>
-  	<script class="remove" src="config.js"></script>
+  <meta content="text/html; charset=utf-8" http-equiv="content-type">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <script src="https://cdn.jsdelivr.net/gh/digitalbazaar/respec-mermaid@1.0.1/dist/main.js" class="remove"></script>
+  <script src="https://tools.geostandaarden.nl/respec/config/bro-config.js" class="remove"></script>
+  <script src="js/config.js" class="remove"></script>    
+  <script class="remove"> respecConfig = {...organisationConfig, ...respecConfig}</script>
+  <script>document.title = respecConfig.title</script>  
+  <title>Basisregistratie Ondergrond Catalogus Booronderzoek - Geotechnische boormonsterbeschrijving en boormonsteranalyse</title>
+  <link rel="shortcut icon" type="image/x-icon" href="https://tools.geostandaarden.nl/respec/style/logos/Geonovum.ico" />
+  <link rel="stylesheet" type="text/css" href="https://tools.geostandaarden.nl/respec/style/bro-localstyle.css"/>
+  <script src="https://gitdocumentatie.logius.nl/publicatie/respec/builds/respec-nlgov.js" class="remove" async></script> 
 </head>
 
 <body>
+  <!-- Damenvatting -->
+	<section id="abstract" data-include-format="markdown" data-include="samenvatting.md"></section>
 
+	<!-- Status van dit document document -->
+	<section id="sotd"></section><!-- Wordt automatisch gevuld -->	
 
-<!--SAMENVATTING-->
-	<section id='abstract'>
-	<p>Dit document beschrijft de definitie van het booronderzoek dat vanuit het vakgebied van de geotechniek is uitgevoerd, met een algemene toelichting.</p>
+	<!-- Hoofdstuk 1. Inleiding -->
+	<section id='inleiding' class='generic informative'>
+		<h2>Inleiding</h2>
+			<section id='leeswijzer' data-include='leeswijzer.md' data-include-format='markdown'></section>
+			<section id='doel-en-doelgroep' data-include='https://docs.geostandaarden.nl/bro/gen/doel-en-doelgroep.html'></section>
+			<section id='totstandkoming' data-include='https://docs.geostandaarden.nl/bro/gen/totstandkoming.html'></section>
+			<section id='beheer' data-include='https://docs.geostandaarden.nl/bro/gen/beheer.html'></section>
+	</section>	
+
+	<!-- Hoofdstuk 2. Algemene kenmerken en bergippen -->
+	<section
+		id="algemene-kenmerken-begrippen"
+		data-include='https://docs.geostandaarden.nl/bro/gen/algemene-kenmerken-en-begrippen.html'
+		class='generic informative'>
 	</section>
+	
+	<!-- Hoofdstuk 3. Booronderzoek -->
+	<section id='booronderzoek' class='generic informative'>
+		<h2>Booronderzoek</h2>
+			<section id="bodem-grondonderzoek">
+				<h3>Bodem- en grondonderzoek</h3>
+				<p>Booronderzoek is een van de vijf registratieobjecten in het domein bodem- en grondonderzoek.</p>
+				<div data-include='https://docs.geostandaarden.nl/bro/bg/bodem_en_grondonderzoek.html'></div>
+				<p>Voor de wet valt het booronderzoek overigens onder het begrip verkenning. Een verkenning is in de wet gedefinieerd als een waarneming van de opbouw van de ondergrond op een punt, langs een lijn of in een vlak. Booronderzoek is een verkenning op een punt.</p>
+			</section>
+			<section id='boor-en-wandonderzoek' data-include='https://docs.geostandaarden.nl/bro/bg/boor_en_wandonderzoek.html'></section>
+			<section id='vakgebieden' data-include='https://docs.geostandaarden.nl/bro/bg/BG_vakgebieden.html'></section>
+			<section id='begrippenkader' data-include='https://docs.geostandaarden.nl/bro/bg/boor_en_wandonderzoek_begrippenkader.html'></section>
+			<section id="registratieobject-booronderzoek">
+				<h3>Registratieobject booronderzoek</h3>
+				<p>In de basisregistratie ondergrond is booronderzoek een registratieobject en daarmee een informatieobject. Een registratieobject is een afbeelding van de werkelijkheid en niet de werkelijkheid zelf. In de werkelijkheid wordt booronderzoek bijna altijd projectmatig uitgevoerd. Een dergelijk project omvat vrijwel altijd een aantal boringen, maakt vaak weer deel uit van een project waarin ook andere technieken worden gebruikt, en strekt zich over een kleiner of groter gebied uit. Voor de basisregistratie ondergrond is het object booronderzoek altijd aan een specifieke locatie gebonden, een punt op de kaart.</p> 
+				<p>Een registratieobject is de belangrijkste eenheid van informatie in de basisregistratie ondergrond. Een registratieobject bestaat uit delen (entiteiten), en de delen hebben eigenschappen (attributen). Om het booronderzoek als informatieobject te kunnen definiëren, wordt vanuit een bepaalde benadering gedacht.</p> 
+				<p>In het denken over wat het object booronderzoek is en hoe de informatie van dat object moet worden gemodelleerd staat het begrip <i>onderzoek</i> centraal. Bij het begrip <i>onderzoek</i> moet men in essentie aan een activiteit, een proces of een aaneenschakeling van activiteiten of processen denken. Het <i>onderzoek</i> koppelt een <i>resultaat</i> aan een <i>object van onderzoek</i> en in het geval van de basisregistratie ondergrond is dat een <i>deel van de ondergrond</i>. 
+				<br>Waarom <i>onderzoek</i> een centrale plaats in het denken inneemt, behoeft wel enige toelichting omdat men in eerste instantie zou kunnen denken dat het resultaat van het onderzoek centraal moet staan omdat dat de informatie is waar het allemaal om draait. Inderdaad gaat het uiteindelijk om het <i>resultaat</i> van het onderzoek, dat is immers de informatie die men wil gebruiken. Maar de reden dat het onderzoek in de modellering centraal wordt gesteld, is dat wat een booronderzoek uniek maakt niet het resultaat of het object van onderzoek is, maar dat er op een bepaald moment onderzoek is gedaan. Het is de factor tijd die het onderzoek uniek maakt.</p>
+				<p>Omdat onderzoek een aaneenschakeling van activiteiten is, kan het resultaat door een groot aantal factoren worden beïnvloed. Hergebruik van informatie is het doel van iedere basisregistratie en om dat mogelijk te maken, moeten met het resultaat de gegevens worden vastgelegd die het onderzoek als proces beschrijven. Uitgangspunt voor de definitie is dan ook dat de gegevens over het proces voldoende informatie moeten bevatten om een gebruiker in staat te stellen te beoordelen of het resultaat geschikt is voor het doel dat hij beoogt.</p>
+				<p>Om het proces te kunnen vatten zijn de eerste vragen: waarmee begon het proces dat tot booronderzoek heeft geleid en waarmee eindigde het? 
+				<br>Voor de basisregistratie ondergrond begint de geschiedenis bij het uitvoeren van een opdracht tot onderzoek en eindigt de geschiedenis op het moment dat alle gegevens uit het onderzoek correct in de basisregistratie ondergrond zelf zijn vastgelegd. Gegevens over de opdracht tot het uitvoeren van booronderzoek worden niet opgenomen. Wel wordt er bij de registratie in de BRO impliciet informatie over de opdracht vastgelegd omdat gespecificeerd wordt binnen welk kader de gegevens zijn ingewonnen.</p> 
+				<div id='registratieobject-BHR' data-include='https://docs.geostandaarden.nl/bro/bg/registratieobject_BHR.html'></div>
+				<section id='standaardisatie-BHR' data-include='https://docs.geostandaarden.nl/bro/bg/standaardisatie_booronderzoek.html'></section>
+			</section>
+			<section id="basisgegevens" data-include='https://docs.geostandaarden.nl/bro/bg/basisgegevens.html'></section>
+			<div id='basisgegevens-BHR' data-include='https://docs.geostandaarden.nl/bro/bg/basisgegevens_BHR.html'></div>
+	</section>	
 
-
-<!--STATUS DOCUMENT-->
-	<section id='sotd'>
-	<p>Deze werkversie is een weergave van wat nu in productie staat voor geotechnisch booronderzoek (BHR-GT) in de landelijke voorziening BRO. Dat wil zeggen de vastgestelde gegevensdefinitie van het geotechnisch booronderzoek (hoofdstuk 6 en 7) en de vastgestelde toelichting (hoofdstuk 4), zoals opgenomen in de bijgewerkte versie van de ministeriële <a href='https://wetten.overheid.nl/BWBR0040482/2021-07-01'>Regeling basisregistratie ondergrond</a>, aangepast met de werkafspraken <a href='https://www.bro-productomgeving.nl/bpo/latest/bodem-en-grondonderzoek/booronderzoek-bhr/geotechnisch-booronderzoek-bhr-gt/bhr-gt-gegevenscatalogus/werkafspraak-geotechnisch-booronderzoek-tranche-3'>geotechnisch booronderzoek tranche 3</a> en <a href='https://www.bro-productomgeving.nl/bpo/latest/bodem-en-grondonderzoek/booronderzoek-bhr/geotechnisch-booronderzoek-bhr-gt/bhr-gt-gegevenscatalogus/werkafspraak-geotechnische-grondsoort-booronderzoek'>geotechnische grondsoort booronderzoek</a>, die op 1 juli 2021 in werking is getreden.
-	<br>Deze weergave is in de nieuwe presentatie, en dat is met gegevensgroepen en relaties.</p>
-	</section>
-	
-	
-<!-- H1 INLEIDING -->
-<section id='inleiding'>
-	<h2>Inleiding</h2>
-    	<section id='doel-en-doelgroep' class='generic' data-include='https://docs.geostandaarden.nl/bro/gen/doel-en-doelgroep.html'>
-    	</section>
-    	<section id='totstandkoming' class='generic' data-include='https://docs.geostandaarden.nl/bro/gen/totstandkoming.html'>
-    	</section>
-    	<section id='beheer' class='generic' data-include='https://docs.geostandaarden.nl/bro/gen/beheer.html'>
-    	</section>
-    	<section id="leeswijzer" class='generic'>
-    	<h3>Leeswijzer</h3>
-		<p><a href ="#inleiding">Hoofdstuk 1</a> geeft het doel en de doelgroep van een catalogus.</p>
-		<p><a href ="#algemene-kenmerken-en-begrippen">Hoofdstuk 2</a> behandelt enkele algemene aspecten van het BRO-systeem en begrippen van algemene aard.</p>
-		<p><a href ="#booronderzoek">Hoofdstuk 3</a> plaatst het object in de gegevenssystematiek van de basisregistratie ondergrond en vertelt wat de benadering is geweest bij het opstellen van de gegevensdefinitie.</p>
-		<p><a href ="#booronderzoek_geologie">Hoofdstuk 4</a> is de toelichting op de gegevensdefinitie van het registratieobject die in de ministeriële regeling is opgenomen.</p>
-		<p><a href ="#opbouw_gegevensdefinitie">Hoofdstuk 5</a> vertelt hoe de gegevensdefinitie is opgebouwd en welke aspecten van de gegevens daarin worden beschreven.</p>
-		<p><a href ="#gegevensdefinitie-0">Hoofdstuk 6</a> geeft de inhoud weer van het eerste artikel van de ministeriële regeling en dat is het deel waarin de definitie is opgenomen van het registratieobject, van de delen waaruit het is opgebouwd, de entiteiten, en van de eigenschappen van die delen, de attributen.</p>
-		<p><a href ="#uitbreidbare-waardelijsten">Hoofdstuk 7</a> geeft de inhoud weer van het tweede artikel van de ministeriële regeling en dat is het deel waarin de uitbreidbare waardelijsten staan waarnaar in hoofdstuk 6 verwezen wordt.</p>
-  	</section>
-</section>
-	
-	
-<!-- H2 ALGEMENE KENMERKEN EN BEGRIPPEN -->
-<section id='algemene-kenmerken-en-begrippen' data-include='https://docs.geostandaarden.nl/bro/gen/algemene-kenmerken-en-begrippen.html' class='generic informative'>
-</section>
-		
-	
-<!-- H3 BENADERING REGISTRATIEOBJECT -->
-<section id='booronderzoek' class='generic informative'>
-<h2>Booronderzoek</h2>
-	<section id="bodem-grondonderzoek">
-		<h3>Bodem- en grondonderzoek</h3>
-		<p>Booronderzoek is een van de vijf registratieobjecten in het domein bodem- en grondonderzoek.</p>
-		<div data-include='https://docs.geostandaarden.nl/bro/bg/bodem_en_grondonderzoek.html'></div>
-		<p>Voor de wet valt het booronderzoek overigens onder het begrip verkenning. Een verkenning is in de wet gedefinieerd als een waarneming van de opbouw van de ondergrond op een punt, langs een lijn of in een vlak. Booronderzoek is een verkenning op een punt.</p>
-	</section>
-	<section id='boor-en-wandonderzoek' data-include='https://docs.geostandaarden.nl/bro/bg/boor_en_wandonderzoek.html'></section>
-	<section id='vakgebieden' data-include='https://docs.geostandaarden.nl/bro/bg/BG_vakgebieden.html'></section>
-	<section id='begrippenkader' data-include='https://docs.geostandaarden.nl/bro/bg/boor_en_wandonderzoek_begrippenkader.html'></section>
-	<section id="registratieobject-booronderzoek">
-		<h3>Registratieobject booronderzoek</h3>
-		<p>In de basisregistratie ondergrond is booronderzoek een registratieobject en daarmee een informatieobject. Een registratieobject is een afbeelding van de werkelijkheid en niet de werkelijkheid zelf. In de werkelijkheid wordt booronderzoek bijna altijd projectmatig uitgevoerd. Een dergelijk project omvat vrijwel altijd een aantal boringen, maakt vaak weer deel uit van een project waarin ook andere technieken worden gebruikt, en strekt zich over een kleiner of groter gebied uit. Voor de basisregistratie ondergrond is het object booronderzoek altijd aan een specifieke locatie gebonden, een punt op de kaart.</p> 
-		<p>Een registratieobject is de belangrijkste eenheid van informatie in de basisregistratie ondergrond. Een registratieobject bestaat uit delen (entiteiten), en de delen hebben eigenschappen (attributen). Om het booronderzoek als informatieobject te kunnen definiëren, wordt vanuit een bepaalde benadering gedacht.</p> 
-		<p>In het denken over wat het object booronderzoek is en hoe de informatie van dat object moet worden gemodelleerd staat het begrip <i>onderzoek</i> centraal. Bij het begrip <i>onderzoek</i> moet men in essentie aan een activiteit, een proces of een aaneenschakeling van activiteiten of processen denken. Het <i>onderzoek</i> koppelt een <i>resultaat</i> aan een <i>object van onderzoek</i> en in het geval van de basisregistratie ondergrond is dat een <i>deel van de ondergrond</i>. 
-		<br>Waarom <i>onderzoek</i> een centrale plaats in het denken inneemt, behoeft wel enige toelichting omdat men in eerste instantie zou kunnen denken dat het resultaat van het onderzoek centraal moet staan omdat dat de informatie is waar het allemaal om draait. Inderdaad gaat het uiteindelijk om het <i>resultaat</i> van het onderzoek, dat is immers de informatie die men wil gebruiken. Maar de reden dat het onderzoek in de modellering centraal wordt gesteld, is dat wat een booronderzoek uniek maakt niet het resultaat of het object van onderzoek is, maar dat er op een bepaald moment onderzoek is gedaan. Het is de factor tijd die het onderzoek uniek maakt.</p>
-		<p>Omdat onderzoek een aaneenschakeling van activiteiten is, kan het resultaat door een groot aantal factoren worden beïnvloed. Hergebruik van informatie is het doel van iedere basisregistratie en om dat mogelijk te maken, moeten met het resultaat de gegevens worden vastgelegd die het onderzoek als proces beschrijven. Uitgangspunt voor de definitie is dan ook dat de gegevens over het proces voldoende informatie moeten bevatten om een gebruiker in staat te stellen te beoordelen of het resultaat geschikt is voor het doel dat hij beoogt.</p>
-		<p>Om het proces te kunnen vatten zijn de eerste vragen: waarmee begon het proces dat tot booronderzoek heeft geleid en waarmee eindigde het? 
-		<br>Voor de basisregistratie ondergrond begint de geschiedenis bij het uitvoeren van een opdracht tot onderzoek en eindigt de geschiedenis op het moment dat alle gegevens uit het onderzoek correct in de basisregistratie ondergrond zelf zijn vastgelegd. Gegevens over de opdracht tot het uitvoeren van booronderzoek worden niet opgenomen. Wel wordt er bij de registratie in de BRO impliciet informatie over de opdracht vastgelegd omdat gespecificeerd wordt binnen welk kader de gegevens zijn ingewonnen.</p> 
-		<div id='registratieobject-BHR' data-include='https://docs.geostandaarden.nl/bro/bg/registratieobject_BHR.html'></div>
-		<section id='standaardisatie-BHR' data-include='https://docs.geostandaarden.nl/bro/bg/standaardisatie_booronderzoek.html'></section>
-	</section>
-	<section id="basisgegevens" data-include='https://docs.geostandaarden.nl/bro/bg/basisgegevens.html'></section>
-	<div id='basisgegevens-BHR' data-include='https://docs.geostandaarden.nl/bro/bg/basisgegevens_BHR.html'></div>
-</section>	
-
-	
-<!-- H4 BESCHRIJVING REGISTRATIEOBJECT = toelichting-->
+	<!-- Hoofdstuk 4. Booronderzoek - Geologische boormonsterbeschrijving en boormonsteranalyse (normatieve/juridische deel) -->
 	<section id='booronderzoek_geotechniek' data-include='https://raw.githubusercontent.com/BROprogramma/BHR-GT/gh-pages/toelichting.html'>
 	</section>	
 	
-
-<!-- H5 OPBOUW GEGEVENSDEFINITIE -->
-<section id="opbouw_gegevensdefinitie" class='generic informative'>
-<h2>Opbouw van de gegevensdefinitie</h2>
-	<section id="gegevensdefinitie" data-include="https://docs.geostandaarden.nl/bro/gen/intro-cat-inleiding.html"></section>
-	<section id="domeinen">
-	<h3>Domeinen</h3>
-		<div id="domeinen-intro" data-include="https://docs.geostandaarden.nl/bro/gen/domeinen-intro.html"></div>
-		<section id="aantal" data-include="https://docs.geostandaarden.nl/bro/gen/aantal.html"></section>
-		<section id="code" data-include="https://docs.geostandaarden.nl/bro/gen/code.html"></section>
-		<section id="gemeten-waarden">
-		<h4>Gemeten waarden</h4>
-			<div id="gemeten-waarden-intro" data-include="https://docs.geostandaarden.nl/bro/gen/gemeten-waarden-intro.html"></div>
-			<section id="meetwaarde" data-include="https://docs.geostandaarden.nl/bro/gen/meetwaarde.html"></section>
-			<section id="meetwaarde-in-machten" data-include="https://docs.geostandaarden.nl/bro/gen/meetwaarde-machten.html"></section>
-			<section id="inname-gemeten-waarden" data-include="https://docs.geostandaarden.nl/bro/gen/inname-gemeten-waarden.html"></section>
+	<!-- Hoofdstuk 5. Opbouw van de gegevensdefinitie -->
+	<section id="opbouw_gegevensdefinitie" class='generic informative'>
+	<h2>Opbouw van de gegevensdefinitie</h2>
+		<section id="gegevensdefinitie" data-include="https://docs.geostandaarden.nl/bro/gen/intro-cat-inleiding.html"></section>
+		<section id="domeinen">
+			<h3>Domeinen</h3>
+				<div id="domeinen-intro" data-include="https://docs.geostandaarden.nl/bro/gen/domeinen-intro.html"></div>
+				<section id="aantal" data-include="https://docs.geostandaarden.nl/bro/gen/aantal.html"></section>
+				<section id="code" data-include="https://docs.geostandaarden.nl/bro/gen/code.html"></section>
+				<section id="gemeten-waarden">
+					<h4>Gemeten waarden</h4>
+						<div id="gemeten-waarden-intro" data-include="https://docs.geostandaarden.nl/bro/gen/gemeten-waarden-intro.html"></div>
+						<section id="meetwaarde" data-include="https://docs.geostandaarden.nl/bro/gen/meetwaarde.html"></section>
+						<section id="meetwaarde-in-machten" data-include="https://docs.geostandaarden.nl/bro/gen/meetwaarde-machten.html"></section>
+						<section id="inname-gemeten-waarden" data-include="https://docs.geostandaarden.nl/bro/gen/inname-gemeten-waarden.html"></section>
+				</section>
+				<section id="nummer" data-include="https://docs.geostandaarden.nl/bro/gen/nummer.html"></section>
+				<section id="tekst" data-include="https://docs.geostandaarden.nl/bro/gen/tekst.html"></section>		
+				<section id="tijdstip" data-include="https://docs.geostandaarden.nl/bro/gen/datumtijd.html"></section>
+				<section id="waardelijsten">
+					<h4>Waardelijsten</h4>
+					<div id="waardelijst-intro" data-include="https://docs.geostandaarden.nl/bro/gen/waardelijst.html"></div>
+						<section id="waardelijst-niet-uitbreidbaar" data-include="https://docs.geostandaarden.nl/bro/gen/enumeratie.html"></section>
+						<section id="waardelijst-uitbreidbaar" data-include="https://docs.geostandaarden.nl/bro/gen/codelijst.html"></section>
+				</section>
+				<section id="coordinatenpaar" data-include="https://docs.geostandaarden.nl/bro/gen/coordinatenpaar.html"></section>
+				<section id="organisatie" data-include="https://docs.geostandaarden.nl/bro/gen/organisatie.html"></section>
 		</section>
-		<section id="nummer" data-include="https://docs.geostandaarden.nl/bro/gen/nummer.html"></section>
-		<section id="tekst" data-include="https://docs.geostandaarden.nl/bro/gen/tekst.html"></section>		
-		<section id="tijdstip" data-include="https://docs.geostandaarden.nl/bro/gen/datumtijd.html"></section>
-		<section id="waardelijsten">
-		<h4>Waardelijsten</h4>
-		<div id="waardelijst-intro" data-include="https://docs.geostandaarden.nl/bro/gen/waardelijst.html"></div>
-			<section id="waardelijst-niet-uitbreidbaar" data-include="https://docs.geostandaarden.nl/bro/gen/enumeratie.html"></section>
-			<section id="waardelijst-uitbreidbaar" data-include="https://docs.geostandaarden.nl/bro/gen/codelijst.html"></section>
-		</section>
-		<section id="coordinatenpaar" data-include="https://docs.geostandaarden.nl/bro/gen/coordinatenpaar.html"></section>
-		<section id="organisatie" data-include="https://docs.geostandaarden.nl/bro/gen/organisatie.html"></section>
-	</section>
 		<section id="meetreeks" data-include="https://docs.geostandaarden.nl/bro/gen/meetreeks.html"></section>
 		<section id="domeinmodel" data-include="https://docs.geostandaarden.nl/bro/gen/domeinmodel-gen.html"></section>
 		<section id="verplichte-gegevens-waarden" data-include="https://docs.geostandaarden.nl/bro/gen/verplichte-gegevens-waarden.html"></section>
 	</section>
 
-
-<!-- H6 GEGEVENSDEFINITIE en H7 WAARDELIJSTEN -->
-  <div data-include="data/BHR-GT-cat.respec.html" data-include-replace=true></div>
-
+	<!-- Hoofdstukken 6 en 7. Gegevensdefinitie en Uitbreidbare waardenlijsten  -->
+	<div data-include="data/BHR-GT-cat.respec.html" data-include-replace=true></div>
+	
+	<!-- Leaflet required for panZoomImage-->
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+	<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+	<!-- panZoomImage -->
+	<script src="https://docs.geostandaarden.nl/bro/gen/js/panZoomImage.js"></script>	
 </body>
 
 </html>
