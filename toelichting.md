@@ -41,7 +41,9 @@ Geotechnisch booronderzoek omvat gewoonlijk drie van de vier deelonderzoeken die
 
 <figure id='deelonderzoeken'>
 	<img src="./media/BHR_GT_deelonderzoeken.png" alt="Deelonderzoeken" width="350"/>
-	<figcaption>Geotechnisch booronderzoek in deze versie van de catalogus; boormonsterfotografie en boorgatlogging zijn nog buiten scope.</figcaption>
+	<figcaption>
+		Geotechnisch booronderzoek in deze versie van de catalogus; boormonsterfotografie en boorgatlogging zijn nog buiten scope.
+	</figcaption>
 </figure>
 
 In de boormonsterbeschrijving wordt het materiaal dat uit de ondergrond naar boven is gehaald, beschreven op een manier die inzicht geeft in de opbouw van de ondergrond en de globale eigenschappen ervan. In het laboratorium worden allerlei proeven uitgevoerd om de samenstelling en een grote verscheidenheid aan eigenschappen nauwkeurig te bepalen. De verscheidenheid aan bepalingen is groot en iedere bepaling vraagt een eigen definitie. Dat vergt tijd en om die reden wordt de standaardisatie van boormonsteranalyse in twee fasen gerealiseerd.
@@ -106,13 +108,17 @@ Wanneer men ten slotte klaar is met boren kan het ontstane gat op een bepaalde m
 In het geval men monsters gestoken of gekernd heeft worden ook specificaties vastgelegd van het apparaat dat daarvoor gebruikt is. In <a href ="#bemonsteringsapparaat1"></a> en <a href ="#bemonsteringsapparaat2">figuur 7</a> wordt geïllustreerd wat de belangrijkste kenmerken zijn.
 
 <figure id='bemonsteringsapparaat1'>
-	<img src="./media/Bemonsteringsapparaat1.png" alt="Bemonsteringsapparaat" width="50"/>
-	<figcaption>Het bemonsteringsapparaat: (a) een apparaat met een haakse steekmond, (b) een apparaat waarvan de steekmond een hoek (ά) maakt met de verticaal en (c) een apparaat als b maar dan voorzien van een passieve zuiger. De letter l geeft de lengte van de container aan, d1 de doorgangsdiameter en d2 de diameter van de steekmond. De diameter van de container is gelijk aan de doorgangsdiameter.</figcaption>
+	<img src="./media/Bemonsteringsapparaat1.png" alt="Bemonsteringsapparaat" width="500"/>
+	<figcaption>
+		Het bemonsteringsapparaat: (a) een apparaat met een haakse steekmond, (b) een apparaat waarvan de steekmond een hoek (ά) maakt met de verticaal en (c) een apparaat als b maar dan voorzien van een passieve zuiger. De letter l geeft de lengte van de container aan, d1 de doorgangsdiameter en d2 de diameter van de steekmond. De diameter van de container is gelijk aan de doorgangsdiameter.
+	</figcaption>
 </figure>
 
 <figure id='bemonsteringsapparaat2'>
-	<img src="./media/Bemonsteringsapparaat2.png" alt="Bemonsteringsapparaat2" width="50"/>
-	<figcaption>Het bemonsteringsapparaat: (a) een apparaat met een afschroefbare steekmond en een vanger en (b) een zelfde apparaat maar dan met een variabele diameter en een container die voorzien is van een liner. De letter l geeft de lengte van de container aan, d1 de doorgangsdiameter, d2 de diameter van de steekmond en d3  de diameter van de container.</figcaption>
+	<img src="./media/Bemonsteringsapparaat2.png" alt="Bemonsteringsapparaat2" width="500"/>
+	<figcaption>
+		Het bemonsteringsapparaat: (a) een apparaat met een afschroefbare steekmond en een vanger en (b) een zelfde apparaat maar dan met een variabele diameter en een container die voorzien is van een liner. De letter l geeft de lengte van de container aan, d1 de doorgangsdiameter, d2 de diameter van de steekmond en d3  de diameter van de container.
+	</figcaption>
 </figure>
 
 ## Terreintoestand
@@ -186,7 +192,9 @@ In sommige gevallen vereist een bepaling een niet verstoord monster. Het deel da
 
 <figure id='onderzocht-interval'>
 	<img src="./media/Onderzochtinterval.png" alt="Onderzochtinterval" width="600"/>
-	<figcaption>Van een niet verstoord boormonster worden twee intervallen geanalyseerd. In het bovenste van de twee wordt een ring gestoken en het materiaal in de ring vormt het proefstuk dat wordt onderzocht; er blijft voldoende materiaal over om het materiaal op normale wijze te beschrijven. Van het monster dat het onderste interval omvat, worden de boven- en onderkant afgesneden. Het resterende proefstuk gaat in zijn geheel worden onderzocht; het materiaal kan niet op de normale wijze worden beschreven en blijft buiten de boormonsterbeschrijving. In bepaalde gevallen worden de afsnijdsels wel gebruikt voor aanvullende bepalingen. </figcaption>
+	<figcaption>
+		Van een niet verstoord boormonster worden twee intervallen geanalyseerd. In het bovenste van de twee wordt een ring gestoken en het materiaal in de ring vormt het proefstuk dat wordt onderzocht; er blijft voldoende materiaal over om het materiaal op normale wijze te beschrijven. Van het monster dat het onderste interval omvat, worden de boven- en onderkant afgesneden. Het resterende proefstuk gaat in zijn geheel worden onderzocht; het materiaal kan niet op de normale wijze worden beschreven en blijft buiten de boormonsterbeschrijving. In bepaalde gevallen worden de afsnijdsels wel gebruikt voor aanvullende bepalingen.
+	</figcaption>
 </figure>
 
 Welke bepalingen er zijn uitgevoerd, wordt voor ieder interval vastgelegd. Het gaat om een aantal basisparameters die op de toestand of de samenstelling van het materiaal betrekking hebben, en om de zettingseigenschappen, maximale ongedraineerde schuifsterkte, schuifspanningsverloop bij belasting en schuifspanningsverloop bij horizontale vervorming, consistentiegrenzen en korrelgrootteverdeling en verzadigde waterdoorlatendheid.
@@ -209,14 +217,18 @@ Voor het bepalen van het zettingsverloop wordt de ring met het proefstuk in een 
 
 <figure id='samendrukkingsapparaat'>
 	<img src="./media/Samendrukkingsapparaat.png" alt="Samendrukkingsapparaat" width="600"/>
-	<figcaption>Het samendrukkingsapparaat dat gebruikt wordt voor het bepalen van het zettingsverloop.</figcaption>
+	<figcaption>
+		Het samendrukkingsapparaat dat gebruikt wordt voor het bepalen van het zettingsverloop.
+	</figcaption>
 </figure>
 
 Het spanningsverloop tijdens zetting wordt bepaald met een CRS-apparaat en die afkorting staat voor constant rate of strain (<a href ="#CRS-apparaat"></a>).  Het grootste verschil met het samendrukkingsapparaat is dat de ring hier in een drukcel wordt geplaatst waarvan de druk geregeld kan worden door water toe- en af te voeren. Het proefstuk wordt eerst met water verzadigd (Verzadigingsfase). Ook deze proef kent een aantal stappen, maar hier wordt het proefstuk in iedere bepalingsstap een bepaalde snelheid van vervormen opgelegd en worden de spanningen in het proefstuk gemeten. De snelheid van vervormen wordt ter controle altijd precies gemeten (verlopen tijd en verticale rek).
 
 <figure id='CRS-apparaat'>
 	<img src="./media/CRSapparaat.png" alt="CRS-Apparaat" width="600"/>
-	<figcaption>Het CRS-apparaat dat gebruikt wordt voor het bepalen van het spanningsverloop bij zetting. </figcaption>
+	<figcaption>
+		Het CRS-apparaat dat gebruikt wordt voor het bepalen van het spanningsverloop bij zetting.
+	</figcaption>
 </figure>
 
 De registratie van de metingen vindt geautomatiseerd plaats en er worden gewoonlijk bepaalde correcties toegepast. Wanneer het proefstuk de volledige doorsnede van een monster beslaat, wordt het samengedrukte materiaal na afloop van de bepaling beschreven.
@@ -238,8 +250,10 @@ Het schuifspanningsverloop wordt bepaald van grond. Het precieze doel van het on
 Het proefstuk wordt altijd heel precies tot een cilinder gevormd, tussen twee poreuze stenen in een waterdicht membraan verpakt en in de drukcel van een triaxiaalapparaat geplaatst (<a href ="#triaxiaalapparaat"></a>). De drukcel is gevuld met vloeistof. Op de bovenste poreuze steen ligt de drukplaat die dient om de opgelegde belasting over te brengen op het ingepakte proefstuk. De druk van de vloeistof in de cel kan geregeld worden en via de poreuze stenen kan ook de poriëndruk in het proefstuk geregeld worden. Door het proefstuk te belasten gaat het vervormen en de proefopstelling is zo ontworpen dat vervorming in alle richtingen kan optreden.
 
 <figure id='triaxiaalapparaat'>
-	<img src="./media/Triaxiaalapparaat.png" alt="Triaxiaalapparaat" width="10px"/>
-	<figcaption>Het triaxiaalapparaat dat gebruikt wordt voor het bepalen van het schuifspanningsverloop bij belasting.</figcaption>
+	<img src="./media/Triaxiaalapparaat.png" alt="Triaxiaalapparaat" width="600"/>
+	<figcaption>
+		Het triaxiaalapparaat dat gebruikt wordt voor het bepalen van het schuifspanningsverloop bij belasting.
+	</figcaption>
 </figure>
 
 De bepaling kent meestal drie fasen en dan wordt het proefstuk eerst verzadigd met water (Verzadigingsfase), vervolgens laat men het proefstuk onder druk consolideren (Consolidatiefase) en tenslotte gaat men het proefstuk belasten (Belastingfase). De eerste twee fasen kunnen worden overgeslagen en dan spreekt men van ongeconsolideerde uitvoering. De belastingfase wordt altijd uitgevoerd, want dat is de fase waarin het schuifspanningsverloop wordt bepaald.
@@ -258,7 +272,9 @@ Het proefstuk wordt altijd heel precies tot een cilinder gevormd, tussen twee po
 
 <figure id='DSS-apparaat'>
 	<img src="./media/DSSapparaat.png" alt="DSS-Apparaat" width="600"/>
-	<figcaption>Het DSS-apparaat dat gebruikt wordt voor het bepalen van het schuifspanningsverloop bij horizontale vervorming. In het begin wordt het proefstuk dat in de ringen zit alleen belast (a) en daarna wordt het voetstuk ten opzichte van het bovenstuk verplaatst door er een horizontale kracht op uit te oefenen (b). Er bestaan ook apparaten waarin juist het bovenstuk wordt verplaatst.</figcaption>
+	<figcaption>
+		Het DSS-apparaat dat gebruikt wordt voor het bepalen van het schuifspanningsverloop bij horizontale vervorming. In het begin wordt het proefstuk dat in de ringen zit alleen belast (a) en daarna wordt het voetstuk ten opzichte van het bovenstuk verplaatst door er een horizontale kracht op uit te oefenen (b). Er bestaan ook apparaten waarin juist het bovenstuk wordt verplaatst.
+	</figcaption>
 </figure>
 
 Normaliter wordt het proefstuk tijdens de bepaling droog gehouden. Het deel van het apparaat waar het proefstuk in wordt geplaatst kan met water gevuld worden en men kan het proefstuk de gelegenheid geven om voorafgaand aan de bepaling water op te nemen (waterverzadigd).
