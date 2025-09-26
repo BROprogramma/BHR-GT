@@ -37,7 +37,7 @@ De eisen die een gebruiker van de basisregistratie aan de gegevens over de kwali
 
 ## Deelonderzoeken
 
-Geotechnisch booronderzoek omvat gewoonlijk drie van de vier deelonderzoeken die in booronderzoek kunnen worden onderscheiden en dat zijn de boormonsterbeschrijving, de boormonsteranalyse en de boormonsterfotografie. Het vierde deelonderzoek, de boorgatlogging, het onderzoek waarin het boorgat wordt bemeten, wordt weinig uitgevoerd. Van de vier deelonderzoeken zijn er twee in deze versie van de catalogus opgenomen, de boormonsterbeschrijving en de boormonsteranalyse [deelonderzoeken](deelonderzoeken).
+Geotechnisch booronderzoek omvat gewoonlijk drie van de vier deelonderzoeken die in booronderzoek kunnen worden onderscheiden en dat zijn de boormonsterbeschrijving, de boormonsteranalyse en de boormonsterfotografie. Het vierde deelonderzoek, de boorgatlogging, het onderzoek waarin het boorgat wordt bemeten, wordt weinig uitgevoerd. Van de vier deelonderzoeken zijn er twee in deze versie van de catalogus opgenomen, de boormonsterbeschrijving en de boormonsteranalyse:
 
 <figure id='deelonderzoeken'>
 	<img src="./media/BHR_GT_deelonderzoeken.png" alt="Deelonderzoeken" width="350"/>
@@ -105,7 +105,7 @@ Wanneer men ten slotte klaar is met boren kan het ontstane gat op een bepaalde m
 
 ## Bemonsteringsapparaat
 
-In het geval men monsters gestoken of gekernd heeft worden ook specificaties vastgelegd van het apparaat dat daarvoor gebruikt is. In <a href ="#bemonsteringsapparaat1"></a> en <a href ="#bemonsteringsapparaat2">figuur 7</a> wordt geïllustreerd wat de belangrijkste kenmerken zijn.
+In het geval men monsters gestoken of gekernd heeft worden ook specificaties vastgelegd van het apparaat dat daarvoor gebruikt is. In <a href ="#bemonsteringsapparaat1"></a> en <a href ="#bemonsteringsapparaat2"></a> wordt geïllustreerd wat de belangrijkste kenmerken zijn.
 
 <figure id='bemonsteringsapparaat1'>
 	<img src="./media/Bemonsteringsapparaat1.png" alt="Bemonsteringsapparaat" width="500"/>
@@ -203,7 +203,7 @@ Iedere bepaling die als onderdeel van de boormonsteranalyse wordt uitgevoerd, is
 
 ## Onderzocht materiaal
 
-Het materiaal waaruit een proefstuk bestaat dat de volledige doorsnede van een niet verstoord monster omvat, wordt pas na afloop van de bepaling beschreven (zie [Onderzocht interval](Onderzocht interval)). Het resultaat wordt apart vastgelegd en alleen de aspecten die na afloop van de bepaling nog als representatief voor het oorspronkelijk monster kunnen worden beschouwd, worden beschreven. In het uitzonderlijke geval dat het interval uit bijzonder materiaal bestaat, wordt alleen de naam van het materiaal vastgelegd.
+Het materiaal waaruit een proefstuk bestaat dat de volledige doorsnede van een niet verstoord monster omvat, wordt pas na afloop van de bepaling beschreven (zie [Onderzocht interval](#onderzocht-interval)). Het resultaat wordt apart vastgelegd en alleen de aspecten die na afloop van de bepaling nog als representatief voor het oorspronkelijk monster kunnen worden beschouwd, worden beschreven. In het uitzonderlijke geval dat het interval uit bijzonder materiaal bestaat, wordt alleen de naam van het materiaal vastgelegd.
 
 ## Bepaling van de zettingseigenschappen
 
