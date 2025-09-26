@@ -66,59 +66,260 @@ Hoewel het meeste geotechnisch booronderzoek zich richt op grond, kan het ook be
 
 ## Booronderzoek
 
+Deze entiteit draagt de naam van het registratieobject zelf en bevat de gegevens die het booronderzoek identificeren en allerlei administratieve gegevens die betrekking hebben op onder meer de herkomst van het onderzoek in de registratie. Zo geeft de entiteit informatie over het doel waarvoor het onderzoek is uitgevoerd (kader inwinning), en de grondslag voor de verplichting tot aanlevering (kader aanlevering).
+
+Booronderzoek begint eigenlijk altijd met activiteiten in het veld en die worden in bepaalde gevallen gevolgd door activiteiten binnenshuis, veelal in een laboratorium. Er is maar een geval waarin er geen werkzaamheden in het veld worden uitgevoerd en dat is wanneer booronderzoek gebruik maakt van de resultaten uit eerder veldwerk of uit veldwerk dat voor een andere opdrachtgever is uitgevoerd.<a href="#voetnoot1" style="position: relative; top: -0.5em; font-size: 80%;">noot</a>
+
+<div class="note" role="note" id="voetnoot1">
+<div role="heading" class="note-title marker" id="h-note" aria-level="5"></div>
+<aside class="">Noot booronderzoek: De eisen die voor de gegevens van deze vorm van booronderzoek moeten gelden zijn nog niet vastgesteld.</aside>
+</div>
+
 ## Registratiegeschiedenis
+
+De registratiegeschiedenis van een booronderzoek geeft de essentie van de geschiedenis van het object in de registratie ondergrond, de zgn. formele geschiedenis. De registratiegeschiedenis vertelt bijvoorbeeld wanneer voor het eerst gegevens van het object zijn geregistreerd en of er na registratie correcties zijn doorgevoerd.
 
 ## Rapportagegeschiedenis
 
+De bronhouder beslist of hij de resultaten van een booronderzoek in delen of in hun geheel gerapporteerd wil krijgen. Wanneer een rapport dat onder de wettelijke verplichtingen valt door de bronhouder is geaccepteerd, wordt het ter registratie aan de landelijke voorziening aangeboden. De rapportagegeschiedenis geeft de essentie van het verloop van de rapportage en vormt de zgn. materiële geschiedenis van het object booronderzoek.
+
 ## Boring
+
+De kernactiviteit in het veld is het maken van het gat, de boring. Voor het onderzoek is het van het grootste belang de gegevens vast te leggen die van invloed zijn op de uiteindelijke resultaten van het onderzoek. Daarnaast betekent boren dat men de toestand van de ondergrond verandert. Om de gevolgen van die ingreep later te kunnen beoordelen is het van belang te weten hoe men de ondergrond heeft achtergelaten.
+
+Aan het maken van een boorgat kunnen voorbereidende werkzaamheden zijn voorafgegaan. Het weggraven van materiaal is een bijzondere vorm van voorbereiding omdat daaruit ook gegevens over de opbouw van de ondergrond kunnen voortkomen. Wanneer het weggegraven materiaal globaal is beschreven wordt dat apart vastgelegd (Weggegraven laag) en niet als onderdeel van het deelonderzoek Boormonsterbeschrijving.
+
+Bij het boren gebruikt men een bepaalde techniek om het apparaat dat men gekozen heeft de grond in te drijven. Bij verkennend onderzoek dat zich tot geringe diepte beperkt boort men vaak met de hand, voor ander onderzoek gebeurt dat veelal mechanisch. Tijdens het boren kan men herhaaldelijk van techniek wisselen, en voor een goed begrip van de onderzoeksresultaten is het van belang te weten welk deel van de ondergrond met welke techniek is doorboord (Geboord interval).
+
+Wanneer men tevoren weet dat men in gesteente gaat boren wordt ook de Boorsnelheid vastgelegd. Die geeft namelijk informatie over de opbouw van de ondergrond.
+
+Het doel van het boren is dat er monsters uit de ondergrond worden gehaald. Dat kan op allerlei manieren gebeuren en tijdens het boren kan men herhaaldelijk van manier wisselen (Bemonsterd interval).
+
+Heeft men kernen genomen in gesteente dan wordt ook de opbrengst van het gekernde traject vastgelegd (Kernopbrengst).
+
+Tijdens het boren kan men constateren dat er in bepaalde intervallen sporen van verontreiniging voorkomen (Verontreinigd interval) en dat wordt dan vastgelegd om latere gebruikers te kunnen informeren.
+
+Wanneer men ten slotte klaar is met boren kan het ontstane gat op een bepaalde manier worden afgewerkt. Dat kan weer per diepte-interval verschillen (Afgewerkt interval).
 
 ## Bemonsteringsapparaat
 
+In het geval men monsters gestoken of gekernd heeft worden ook specificaties vastgelegd van het apparaat dat daarvoor gebruikt is. In <a href ="#bemonsteringsapparaat1"></a> en <a href ="#bemonsteringsapparaat2">figuur 7</a> wordt geïllustreerd wat de belangrijkste kenmerken zijn.
+
+<figure id='bemonsteringsapparaat1'>
+	<img src="./media/Bemonsteringsapparaat1.png" alt="Bemonsteringsapparaat" width="50"/>
+	<figcaption>Het bemonsteringsapparaat: (a) een apparaat met een haakse steekmond, (b) een apparaat waarvan de steekmond een hoek (ά) maakt met de verticaal en (c) een apparaat als b maar dan voorzien van een passieve zuiger. De letter l geeft de lengte van de container aan, d1 de doorgangsdiameter en d2 de diameter van de steekmond. De diameter van de container is gelijk aan de doorgangsdiameter.</figcaption>
+</figure>
+
+<figure id='bemonsteringsapparaat2'>
+	<img src="./media/Bemonsteringsapparaat2.png" alt="Bemonsteringsapparaat2" width="50"/>
+	<figcaption>Het bemonsteringsapparaat: (a) een apparaat met een afschroefbare steekmond en een vanger en (b) een zelfde apparaat maar dan met een variabele diameter en een container die voorzien is van een liner. De letter l geeft de lengte van de container aan, d1 de doorgangsdiameter, d2 de diameter van de steekmond en d3  de diameter van de container.</figcaption>
+</figure>
+
 ## Terreintoestand
+
+Voor, tijdens of direct na het boren kunnen in het veld waarnemingen worden gedaan die deel uitmaken van het booronderzoek. Die waarnemingen hebben betrekking op de toestand van het terrein. Dat begrip wordt in nogal ruime zin opgevat en dekt alle gegevens die vastgelegd worden om een goed begrip te krijgen van de ruimtelijke context waarbinnen het onderzoek is uitgevoerd.
 
 ## Sliblaag
 
+Bij boren op water kan er op de waterbodem een laag slib blijken te liggen. Wanneer dat voor het onderzoek relevant geacht is, worden enkele kenmerken daarvan vastgelegd.
+
 ## Boormonsterbeschrijving
+
+Boormonsterbeschrijving is het deelonderzoek dat betrekking heeft op het beschrijven van de monsters met als doel een of meer boorprofielen te maken. Er kunnen twee procedures gelden, omdat het beschrijven van grond en gesteente gecombineerd kan worden.
+
+Historische beschrijvingen van grond die onder NEN 5104 gemaakt zijn, verschillen fundamenteel van beschrijvingen van grond onder NEN-EN-ISO 14688-1. In het eerste geval is altijd sprake van één boorprofiel, in het tweede geval kunnen binnen een onderzoek drie verschillende boorprofielen gemaakt zijn.
 
 ## Boorprofiel
 
+Een boorprofiel is een resultaat van de boormonsterbeschrijving en beschrijft de laagopbouw van het deel van de ondergrond dat bemonsterd is.
+
+Een boorprofiel heeft een bepaalde beschrijfkwaliteit. Onder NEN 5104 heeft dat begrip eigenlijk geen onderscheidende waarde, omdat er altijd maar een profiel is. De kwaliteit daarvan wordt niet gespecificeerd omdat gewoonlijk niet meer te achterhalen is waarop de gegevens precies zijn gebaseerd.
+
+Onder NEN-EN-ISO 14688-1 heeft het begrip beschrijfkwaliteit wel onderscheidende waarde. Het betekent dat de kwaliteit van de monsters waarop de beschrijving gebaseerd is en de mate van detail in de beschrijving over het hele profiel vergelijkbaar zijn. <a href ="#boorprofielen"></a> illustreert het geval waarin een booronderzoek twee boorprofielen oplevert.
+
+<figure id='boorprofielen'>
+	<img src="./media/BHR_GT_boorprofiel.png" alt="boorprofielen" width="600"/>
+	<figcaption>Uit een boring komen geroerde en ongeroerde monsters en in de beschrijving worden dan twee boorprofielen gemaakt.</figcaption>
+</figure>
+
+Een geval waarin een boormonsterbeschrijving NEN-EN-ISO 14688-1 twee boorprofielen oplevert is wanneer op een bepaalde plaats een boring is gezet die op twee manieren bemonsterd is. Over het hele boortraject zijn monsters met een relatief lage kwaliteit, geroerde monsters, genomen. Daarnaast zijn van bepaalde dieptes monsters met een hoge kwaliteit, ongeroerde monsters, verkregen. Het verschil in kwaliteit is zo groot dat de monsters apart beschreven moeten worden. In het eerste geval ontstaat een continu profiel, in het tweede een discontinu profiel.
+
+Een derde profiel is nodig wanneer bovendien een deel van de monsters, gewoonlijk uit het bovenste deel van de ondergrond, beschreven is onder de eisen die aan verkennend onderzoek zijn gesteld. Die eisen zijn laag en dekken maar een deel van  kenmerken.
+
+Het uitgangspunt is in alle gevallen dat het boorprofiel alle met een bepaalde kwaliteit bemonsterde intervallen dekt en het hele traject compleet in lagen is beschreven. Het kan echter zijn dat dit niet gelukt is, bijvoorbeeld omdat er per ongeluk een monster verdwenen is. De intervallen die niet beschreven konden worden, worden expliciet in het profiel opgenomen (Niet-beschreven interval) en de reden waarom het niet beschreven is wordt vastgelegd.
+
 ## Laag
+
+De belangrijkste entiteiten in een boorprofiel zijn de lagen. Iedereen die de ondergrond beschrijft beschouwt de ondergrond als opgebouwd uit lagen. De dikte daarvan varieert met de schaal waarop men de ondergrond wil beschrijven. In de beschrijving van boormonsters zou men de doorsnijding kunnen waarnemen van lagen met de dikte die varieert van een millimeter tot tientallen meters.
+
+De praktijk is anders. De lagen in het boorprofiel zijn niet altijd waargenomen lagen of de doorsnijding daarvan. Vaak zijn het beschrijfeenheden en dat zijn in zekere zin artefacten omdat ze het resultaat zijn van de procedurele afspraken die in NEN-EN-ISO 14688 zijn vastgelegd. Daarin is de minimale dikte van een laag in de beschrijving op 2 cm gesteld en de maximale op 100 cm.
+
+Onder NEN 5104 is niet vastgelegd op welke wijze de grenzen van lagen zijn bepaald. Ook zijn er geen beperkingen gesteld aan de laagdikte. Veiligheidshalve zou men de lagen die onder NEN 5104 beschreven zijn, altijd moeten beschouwen als beschrijfeenheden.
+
+Lagen hebben een boven- en ondergrens, zijn van menselijke of natuurlijke oorsprong en bestaan uit een bepaald materiaal. In de geotechniek wordt onderscheid gemaakt tussen grond en gesteente enerzijds en bijzonder (lees: ander) materiaal anderzijds. Van bijzonder materiaal worden geen details vastgelegd, van grond en gesteente wel. Het onderscheid tussen grond en gesteente speelt alleen in bepaalde delen van Nederland. Grond bestaat uit los materiaal of uit materiaal dat met de hand vervormd kan worden. Gesteente bestaat uit vast materiaal dat niet met de hand vervormd kan worden. Dat onderscheid is in de meeste gevallen voldoende, maar uiteindelijk is er vaak sprake van een geleidelijke overgang van grond naar gesteente en kunnen aspecten als uitdroging en verwering het onderscheid verder bemoeilijken. In de praktijk moet men, wanneer een monster zo hard is dat bekrassen met een duimnagel er alleen een kerf in achterlaat, beslissen of men het als gesteente of grond wil beschrijven.
+
+Omdat een laag in veel gevallen een beschrijfeenheid is kan een laag weer uit laagjes zijn opgebouwd en die laagjes kunnen in samenstelling verschillen.
 
 ## Grond
 
+Onder NEN-EN-ISO 14688-1 worden van grond altijd de grondsoort, de kleur en het al dan niet voorkomen van sporen van beworteling vastgelegd. Welke kenmerken er verder worden vastgelegd hangt af van de beschrijfkwaliteit, de kwaliteit van de monsters en de grondsoort.
+
+Onder NEN 5104 wordt altijd de grondsoort vastgelegd en afhankelijk van de grondsoort ook het gehalte aan grind en organische stof, maar dat alles volgens een eigen systematiek. Wat er verder wordt vastgelegd is onder NEN 5104 niet voorbepaald.
+
 ## Gesteente
+
+Van gesteente worden altijd de gesteentesoort, de eventueel voorkomende bijzondere bestanddelen, het soort cement, de kleur, de kalkgehalteklasse en de sterkteklasse vastgelegd.
 
 ## Post-sedimentaire discontinuïteit
 
+De laagopbouw kan verstoord zijn doordat discontinuïteiten de lagen doorsnijden. Wanneer de laagopbouw ondanks de verstoring nog goed te beschrijven is, worden naast de lagen ook de kenmerken van de discontinuïteit vastgelegd. Als door verstoring de beschrijving van de laagopbouw praktisch onmogelijk is, wordt het verstoorde interval niet beschreven.
+
 ## Boormonsteranalyse
+
+Boormonsteranalyse is het deelonderzoek dat betrekking heeft op het doen van metingen aan boormonsters. Bijna zonder uitzondering worden de metingen in een laboratorium uitgevoerd. De catalogus dekt de bepalingen die in standaard geotechnisch booronderzoek uitgevoerd worden en dat zijn altijd  bepalingen aan grond en bijzonder materiaal. Analyse van gesteente is buiten beschouwing gelaten.
 
 ## Onderzocht interval
 
+In de boormonsteranalyse worden aan een of meer intervallen bepalingen gedaan, de onderzochte intervallen. De kwaliteit van het monster en de beschikbare hoeveelheid materiaal bepalen in eerste instantie wat er allemaal van een interval kan worden bepaald. De beperking in hoeveelheid materiaal betekent dat bepaalde bepalingen elkaar in de praktijk uitsluiten en dat bepalingen die wel gecombineerd kunnen worden elkaar veelal in een strikte volgorde moeten opvolgen.
+
+In sommige gevallen vereist een bepaling een niet verstoord monster. Het deel dat moet worden geanalyseerd, het proefstuk, wordt uit het monster genomen en de rest wordt beschreven. Wanneer de volledige doorsnede van het monster wordt gebruikt, blijft er een gat in het monster achter dat niet beschreven kan worden (zie <a href ="#onderzocht-interval"></a>). Het proefstuk gaat onbeschreven de bepaling in en het materiaal wordt na uitvoering van de bepaling beschreven door degene die de bepaling heeft uitgevoerd. De kwaliteit van het materiaal is dan ingrijpend veranderd en niet langer vergelijkbaar met dat van de niet onderzochte intervallen. Daarom wordt de beschrijving van het materiaal waaruit het proefstuk bestaat, als onderdeel van de boormonsteranalyse vastgelegd en niet opgenomen in de boormonsterbeschrijving.
+
+<figure id='onderzocht-interval'>
+	<img src="./media/Onderzochtinterval.png" alt="Onderzochtinterval" width="600"/>
+	<figcaption>Van een niet verstoord boormonster worden twee intervallen geanalyseerd. In het bovenste van de twee wordt een ring gestoken en het materiaal in de ring vormt het proefstuk dat wordt onderzocht; er blijft voldoende materiaal over om het materiaal op normale wijze te beschrijven. Van het monster dat het onderste interval omvat, worden de boven- en onderkant afgesneden. Het resterende proefstuk gaat in zijn geheel worden onderzocht; het materiaal kan niet op de normale wijze worden beschreven en blijft buiten de boormonsterbeschrijving. In bepaalde gevallen worden de afsnijdsels wel gebruikt voor aanvullende bepalingen. </figcaption>
+</figure>
+
+Welke bepalingen er zijn uitgevoerd, wordt voor ieder interval vastgelegd. Het gaat om een aantal basisparameters die op de toestand of de samenstelling van het materiaal betrekking hebben, en om de zettingseigenschappen, maximale ongedraineerde schuifsterkte, schuifspanningsverloop bij belasting en schuifspanningsverloop bij horizontale vervorming, consistentiegrenzen en korrelgrootteverdeling en verzadigde waterdoorlatendheid.
+
+Iedere bepaling die als onderdeel van de boormonsteranalyse wordt uitgevoerd, is aan een bepaalde procedure onderworpen en wordt volgens een bepaalde methode uitgevoerd. Wanneer er in de uitvoering keuzen worden gemaakt die voor de gebruiker van de gegevens relevant kan zijn, worden die vastgelegd. Datzelfde geldt voor de eventuele bijzonderheden die zich tijdens de uitvoering voordoen of die men na afloop constateert door het materiaal te bekijken.
+
 ## Onderzocht materiaal
+
+Het materiaal waaruit een proefstuk bestaat dat de volledige doorsnede van een niet verstoord monster omvat, wordt pas na afloop van de bepaling beschreven (zie [Onderzocht interval](Onderzocht interval)). Het resultaat wordt apart vastgelegd en alleen de aspecten die na afloop van de bepaling nog als representatief voor het oorspronkelijk monster kunnen worden beschouwd, worden beschreven. In het uitzonderlijke geval dat het interval uit bijzonder materiaal bestaat, wordt alleen de naam van het materiaal vastgelegd.
 
 ## Bepaling van de zettingseigenschappen
 
+Grond vervormt bij belasting en wanneer de vervorming alleen in verticale richting plaatsvindt, spreekt men van zetting. Bij zetting wordt de ruimte tussen de korrels (de poriën) kleiner en verliest de grond water. Het zettingsproces bestaat uit twee fasen, de consolidatiefase en de kruipfase. Tijdens de consolidatiefase verliest de grond water. Wanneer de belasting volledig door het korrelskelet wordt gedragen is de grond in een toestand van evenwicht gekomen, en zegt men dat de grond volledig is geconsolideerd. De eerste fase in het zettingsproces, de consolidatiefase, is dan afgesloten. Tijdens de kruipfase blijft het water in de grond en wordt het volume van de grond heel langzaam kleiner.
+
+Door een proefstuk samen te drukken en het zettingsverloop of het spanningsverloop bij zetting te bepalen, verwerft men inzicht in het zettingsgedrag van de grond. Het zettingsgedrag is afhankelijk van de belasting die de grond al in de ondergrond heeft ondergaan en van de materiaaleigenschappen, met name van de waterdoorlatendheid en de weerstand van het korrelskelet  tegen druk. De waterdoorlatendheid is van belang omdat de snelheid van vervorming  voornamelijk afhangt van de snelheid waarmee het aanwezige water kan wegstromen.
+
+Zettingseigenschappen worden alleen bepaald van cohesief materiaal en dat wil zeggen materiaal dat samenhang vertoont. De bepaling vereist een niet verstoord proefstuk en dat wordt op maat gemaakt zodat het past in de metalen ring die in een apparaat wordt ingebouwd. Het zettingsverloop wordt op een andere manier bepaald dan het spanningsverloop bij zetting en met een ander apparaat.</a>
+
+Voor het bepalen van het zettingsverloop wordt de ring met het proefstuk in een samendrukkingsapparaat geplaatst (<a href ="#samendrukkingsapparaat"></a>) dat met water gevuld wordt. De ring wordt aan de boven- en onderzijde afgedekt met poreuze stenen die het water doorlaten. Op de bovenste poreuze steen ligt de drukplaat die dient om de opgelegde belasting over te brengen op het proefstuk. De proef kent een aantal stappen en in iedere bepalingsstap wordt het proefstuk een bepaalde belasting opgelegd en gemeten hoe snel de hoogte van het proefstuk verandert. De verandering in hoogte wordt verticale rek genoemd.
+
+<figure id='samendrukkingsapparaat'>
+	<img src="./media/Samendrukkingsapparaat.png" alt="Samendrukkingsapparaat" width="600"/>
+	<figcaption>Het samendrukkingsapparaat dat gebruikt wordt voor het bepalen van het zettingsverloop.</figcaption>
+</figure>
+
+Het spanningsverloop tijdens zetting wordt bepaald met een CRS-apparaat en die afkorting staat voor constant rate of strain (<a href ="#CRS-apparaat"></a>).  Het grootste verschil met het samendrukkingsapparaat is dat de ring hier in een drukcel wordt geplaatst waarvan de druk geregeld kan worden door water toe- en af te voeren. Het proefstuk wordt eerst met water verzadigd (Verzadigingsfase). Ook deze proef kent een aantal stappen, maar hier wordt het proefstuk in iedere bepalingsstap een bepaalde snelheid van vervormen opgelegd en worden de spanningen in het proefstuk gemeten. De snelheid van vervormen wordt ter controle altijd precies gemeten (verlopen tijd en verticale rek).
+
+<figure id='CRS-apparaat'>
+	<img src="./media/CRSapparaat.png" alt="CRS-Apparaat" width="600"/>
+	<figcaption>Het CRS-apparaat dat gebruikt wordt voor het bepalen van het spanningsverloop bij zetting. </figcaption>
+</figure>
+
+De registratie van de metingen vindt geautomatiseerd plaats en er worden gewoonlijk bepaalde correcties toegepast. Wanneer het proefstuk de volledige doorsnede van een monster beslaat, wordt het samengedrukte materiaal na afloop van de bepaling beschreven.
+
 ## Bepaling van de maximale ongedraineerde schuifsterkte
+
+De maximale schuifsterkte is de schuifspanning waarbij materiaal bezwijkt. Ongedraineerd wil zeggen dat het water dat in het materiaal aanwezig is, er tijdens de bepaling in blijft zitten. Het water neemt dan een deel van de opgelegde spanning op.
+
+De maximale ongedraineerde schuifsterkte wordt alleen bepaald van cohesief materiaal. Er wordt een handvin (torvane) of een zakpenetrometer gebruikt. Dat zijn eenvoudige apparaten en de proeven kunnen snel en goedkoop uitgevoerd worden.
+
+Bepalingen met deze apparaten leveren indicatieve waarden. Een enkelvoudige bepaling is altijd een puntmeting. Standaard wordt op twee verschillende punten in het monster een meting uitgevoerd en wordt het gemiddelde van de metingen vastgelegd.
 
 ## Bepaling van het schuifspanningsverloop bij belasting
 
+Grond vervormt bij belasting en wanneer de vervorming zich als gevolg van horizontale drukverschillen niet tot de verticale richting beperkt, kan de grond instabiel worden en gaan schuiven. Dat risico bestaat bijvoorbeeld bij zware constructies of grondlichamen die op het maaiveld liggen, bij afgravingen (bouwputten en gegraven watergangen), en bij constructies in de ondergrond (tunnels en parkeergarages). Om inzicht te krijgen in dat proces wordt het schuifspanningsverloop bij belasting bepaald. De schuifspanning is het directe gevolg van een verschil in verticale en horizontale spanning in de grond. Als gevolg van schuifspanning gaat de grond bij een horizontaal drukverschil in horizontale richting vervormen. De schuifspanning kan oplopen tot het moment waarop de grond bezwijkt. De waarde van de schuifspanning op het moment van bezwijken is de schuifsterkte.
+
+Het schuifspanningsverloop wordt bepaald van grond. Het precieze doel van het onderzoek en de soort grond bepalen of er een proefstuk uit een niet verstoord monster wordt gestoken of dat er in het laboratorium een proefstuk wordt gemaakt (Gemaakt proefstuk). Dat laatste gebeurt door het materiaal op een bepaalde manier voor te behandelen (maakmethode) zodat het de gewenste eigenschappen krijgt.
+
+Het proefstuk wordt altijd heel precies tot een cilinder gevormd, tussen twee poreuze stenen in een waterdicht membraan verpakt en in de drukcel van een triaxiaalapparaat geplaatst (<a href ="#triaxiaalapparaat"></a>). De drukcel is gevuld met vloeistof. Op de bovenste poreuze steen ligt de drukplaat die dient om de opgelegde belasting over te brengen op het ingepakte proefstuk. De druk van de vloeistof in de cel kan geregeld worden en via de poreuze stenen kan ook de poriëndruk in het proefstuk geregeld worden. Door het proefstuk te belasten gaat het vervormen en de proefopstelling is zo ontworpen dat vervorming in alle richtingen kan optreden.
+
+<figure id='triaxiaalapparaat'>
+	<img src="./media/Triaxiaalapparaat.png" alt="Triaxiaalapparaat" width="10px"/>
+	<figcaption>Het triaxiaalapparaat dat gebruikt wordt voor het bepalen van het schuifspanningsverloop bij belasting.</figcaption>
+</figure>
+
+De bepaling kent meestal drie fasen en dan wordt het proefstuk eerst verzadigd met water (Verzadigingsfase), vervolgens laat men het proefstuk onder druk consolideren (Consolidatiefase) en tenslotte gaat men het proefstuk belasten (Belastingfase). De eerste twee fasen kunnen worden overgeslagen en dan spreekt men van ongeconsolideerde uitvoering. De belastingfase wordt altijd uitgevoerd, want dat is de fase waarin het schuifspanningsverloop wordt bepaald.
+
+Tijdens ieder van de fasen worden metingen uitgevoerd. Van de verzadigingsfase worden alleen enkele kengetallen vastgelegd (verzadigingsspanning, verticale rek, spanningsverschil).
+
+Tijdens de consolidatiefase wordt het proefstuk op een bepaalde manier onder druk gezet (consolidatiemethode). De veranderingen worden geregistreerd door gedurende een bepaalde tijd de volumeverandering van het proefstuk te meten. De druk in de cel en, afhankelijk van de consolidatiemethode, ook de belasting worden omgerekend naar de spanning in het proefstuk (consolidatiespanning). Het uiteindelijke resultaat wordt vastgelegd in het Volumeverloop bij consolidatie. Ook worden enkele kengetallen van de consolidatiefase gegeven (verticale rek, gronddrukcoëfficiënt).
+
+Tijdens de belastingfase laat men het proefstuk onder verticale druk vervormen door het te belasten en daarbij de belasting zo te regelen dat de snelheid van verticaal vervormen constant blijft. In de bepalingsmethode ligt vast of er tijdens deze fase water in en uit het proefstuk kan stromen. De veranderingen in het proefstuk worden geregistreerd door gedurende een bepaalde tijd de belasting te meten en, afhankelijk van de bepalingsmethode, de waterspanning of het volume van het proefstuk. De meetwaarden worden omgerekend naar verticale spanning, schuifspanning, volumeverandering en verschilwaterspanning. Het uiteindelijke resultaat wordt vastgelegd als het Schuifspanningsverloop bij belasting. De snelheid van vervormen wordt ter controle altijd precies gemeten (verlopen tijd en verticale rek). Aan het einde van de bepaling wordt de vorm van het proefstuk vastgelegd (vorm proefstuk).
+
 ## Bepaling van het schuifspanningsverloop bij horizontale vervorming
+
+Het schuifspanningsverloop kan ook bepaald worden door een proefstuk onder horizontale druk te vervormen. Het schuifspanningsverloop wordt bepaald van cohesieve grond en stelt dezelfde eisen aan een proefstuk als bij de bepaling bij belasting.
+
+Het proefstuk wordt altijd heel precies tot een cilinder gevormd, tussen twee poreuze stenen in een waterdicht membraan verpakt en dan in metalen ringen in een DSS-apparaat geplaatst (<a href ="#DSS-apparaat"></a>). De afkorting staat voor direct simple shear. De metalen ringen zorgen er voor dat het proefstuk tijdens de bepaling niet lateraal kan vervormen. In plaats van ringen kan ook een met ijzerdraad verstevigd membraan worden gebruikt.
+
+<figure id='DSS-apparaat'>
+	<img src="./media/DSSapparaat.png" alt="DSS-Apparaat" width="600"/>
+	<figcaption>Het DSS-apparaat dat gebruikt wordt voor het bepalen van het schuifspanningsverloop bij horizontale vervorming. In het begin wordt het proefstuk dat in de ringen zit alleen belast (a) en daarna wordt het voetstuk ten opzichte van het bovenstuk verplaatst door er een horizontale kracht op uit te oefenen (b). Er bestaan ook apparaten waarin juist het bovenstuk wordt verplaatst.</figcaption>
+</figure>
+
+Normaliter wordt het proefstuk tijdens de bepaling droog gehouden. Het deel van het apparaat waar het proefstuk in wordt geplaatst kan met water gevuld worden en men kan het proefstuk de gelegenheid geven om voorafgaand aan de bepaling water op te nemen (waterverzadigd).
+
+De bepaling kent twee fasen en dan laat men eerst het proefstuk onder belasting consolideren (Consolidatiefase) en vervolgens gaat men het proefstuk vervormen (Schuiffase).
+
+Tijdens ieder van de fasen worden metingen uitgevoerd. Tijdens de consolidatiefase wordt het proefstuk in één of meerdere stappen belast. Tijdens deze fase kan het voetstuk vast worden gezet. De veranderingen worden geregistreerd door gedurende een bepaalde tijd de verandering in hoogte van het proefstuk te meten. Het resultaat wordt vastgelegd in Hoogteverloop bij consolidatie.
+
+Tijdens de schuiffase laat men het proefstuk onder horizontale druk vervormen door de bovenkant of onderkant van het proefstuk met een constante snelheid in horizontale richting te verplaatsen. Gedurende de fase wordt het proefstuk op gelijke hoogte gehouden. De veranderingen in het proefstuk worden geregistreerd door gedurende een bepaalde tijd de horizontale verplaatsing en de horizontale en verticale druk te meten. De meetwaarden worden omgerekend naar schuifrek, schuifspanning en verticale spanning en het uiteindelijke resultaat wordt vastgelegd als het Schuifspanningsverloop bij horizontale vervorming.
 
 ## Bepaling van de consistentiegrenzen
 
+Cohesieve grond heeft een zekere samenhang. De mate van samenhang, de consistentie, wordt bepaald door de verhouding tussen de hoeveelheid water en de hoeveelheid vaste materie en door de samenstelling van de vaste materie. Door bij verschillende watergehalten metingen uit te voeren bepaalt men de zgn. Atterbergse grenzen: de vloeigrens, de uitrolgrens en de krimpgrens. In standaard geotechnisch onderzoek worden alleen de vloeigrens en de uitrolgrens bepaald. Tussen die twee grenzen gedraagt de grond zich plastisch. Bij een watergehalte boven de vloeigrens gedraagt grond zich als een vloeistof, bij een watergehalte onder de uitrolgrens is de grond niet makkelijk vervormbaar en noemt men de grond semi-vast. De uitrolgrens wordt altijd op dezelfde manier bepaald, voor de vloeigrens heeft men de keuze uit de Casagrande-methode en de valconus-methode. De laatste methode krijgt in de uitvoeringspraktijk meer en meer de voorkeur.
+
 ## Bepaling van de korrelgrootteverdeling
+
+Voor de korrelgrootteverdeling wordt de samenstelling van het materiaal bepaald vanuit het perspectief dat grond een mengsel van minerale deeltjes van verschillende grootte is. De deeltjes worden korrels genoemd. Volgens een bepaalde methode, of combinatie van methoden, wordt het aandeel van de gekozen groottefracties in het totale mengsel bepaald. De fracties bij elkaar vormen een aaneensluitende reeks die het groottebereik volledig dekt.
+
+De opdracht en de aard van het materiaal bepalen welke methode is gebruikt en welke fracties zijn onderscheiden. Het is van belang te weten of er voorafgaand aan de bepaling materiaal verwijderd is. Als voorbehandeling kan het nodig zijn samengeklonterde korreltjes van elkaar los te maken (dispersie).
+
+De metingen worden altijd omgerekend naar een percentage van de totale massa en wanneer de lasermethode gekozen is, wordt een zekere correctie doorgevoerd. In alle gevallen wordt in het resultaat onderscheid gemaakt tussen de fractie groter en de fractie kleiner dan 63µm; bij die grootte ligt de grens tussen wat fijn en wat grof wordt genoemd. Ieder van de fracties kent een standaardonderverdeling en die wordt in de meeste onderzoeken toegepast. De opdracht kan een meer gedetailleerde onderverdeling vragen en met name voor de grove fractie bestaan verscheidene opties.
+
+De korrelgrootteverdeling wordt in eerste instantie gebruikt om het materiaal te classificeren.
 
 ## Bepaling van de verzadigde waterdoorlatendheid
 
+De waterdoorlatendheid van met waterverzadigde grond is de snelheid waarmee water erdoorheen stroomt. In de geotechniek wordt de verzadigde waterdoorlatendheid bepaald volgens de constant head methode of de falling head methode. Bij beide methoden laat men water van een bepaalde soort (gebruikt medium) door de grond stromen, en daarvan wordt vastgelegd of de daarin aanwezige gassen eruit verwijderd zijn (water ontgast). Men laat het water meestal van onder naar boven door het proefstuk stromen. De variabelen die van invloed zijn op het resultaat worden vastgelegd (temperatuur, maximale gradiënt).
+
+De constant head methode wordt gebruikt voor niet-cohesieve grond en daarvan wordt volgens een bepaalde methode een proefstuk gemaakt (maakmethode) die een bepaalde dichtheid krijgt (droge volumieke massa). Het proefstuk kan tevoren met CO2 worden verzadigd. De verzadigde waterdoorlatendheid wordt een aantal malen bepaald steeds bij een andere droge volumieke massa.
+
+De falling head methode wordt gebruikt voor cohesieve grond en wordt bijna altijd bepaald aan een proefstuk dat met een ring uit een niet verstoord monster is gestoken. Bij een dergelijk proefstuk leg je vast of de doorlatendheid verticaal is gemeten (verticaal bepaald). In het laboratorium kiest men of de poreuze stenen in de proefstelling nat of droog moeten zijn en of in de steekring een waterafstotende laag moet krijgen en legt men het proefstuk een bepaalde belasting op. Aan het einde van de proef wordt het watergehalte bepaald. Het resultaat van de proef is de verzadigde waterdoorlatendheid bij de opgelegde belasting.
+
 ## Bepaling van het watergehalte
+
+Het watergehalte wordt bepaald door het in het materiaal aanwezige water op een bepaalde manier te verwijderen, het massaverlies te meten en het resultaat uit te drukken in de verhouding tussen de hoeveelheid water en de hoeveelheid droge stof. Het is van belang te weten of er voorafgaand aan de bepaling materiaal verwijderd is. Temperatuur en droogtijd zijn van belang en voor de aanwezigheid van zouten in het poriënwater wordt een bepaalde correctie doorgevoerd. In sommige gevallen wordt het gegeven bij twee verschillende temperaturen bepaald.
+
+Het watergehalte is een basisparameter die altijd samen met andere gegevens gebruikt wordt in berekeningen.
 
 ## Bepaling van het organischestofgehalte
 
+Het gehalte aan organische stof wordt bepaald door het organisch materiaal op een bepaalde manier te verwijderen en het verlies aan massa te meten. Het is van belang te weten of er voorafgaand aan de bepaling materiaal verwijderd is. Bij de berekening van het gehalte kan het nodig zijn te corrigeren voor het verlies van water dat aan klei is gebonden (lutumcorrectie).
+
+Het organische stofgehalte is een basisparameter die primair gebruikt wordt om de grond te classificeren.
+
 ## Bepaling van het kalkgehalte
+
+Het gehalte aan kalk wordt bepaald door het aanwezige calciumcarbonaat (koolzure kalk) op een bepaalde manier te verwijderen en het verlies aan massa te meten. Het is van belang te weten of er voorafgaand aan de bepaling materiaal verwijderd is.
+
+Het kalkgehalte is een basisparameter die primair gebruikt wordt om de grond te classificeren.
 
 ## Bepaling van de volumieke massa
 
+De volumieke massa, de massa per eenheid van volume, wordt bepaald door de massa en het volume op een bepaalde manier te meten.
+
+Het gegeven is een basisparameter die altijd samen met andere gegevens gebruikt wordt in berekeningen.
+
 ## Bepaling van de volumieke massa vaste delen
+
+De volumieke massa van de vaste delen wordt bepaald door de massa en het volume van gedroogd materiaal te meten. Zo nodig wordt het materiaal vergruisd en worden de korrels van elkaar los gemaakt zodat het volume van de ruimte tussen de korrels nauwkeurig kan worden bepaald. Dat volume wordt bepaald door die ruimte met gas of vloeistof te vullen.
+
+Het gegeven is een basisparameter die altijd samen met andere gegevens gebruikt wordt in berekeningen.
 
 # INSPIRE
 
