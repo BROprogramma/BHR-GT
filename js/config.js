@@ -2,8 +2,8 @@ let respecConfig = {
   useLogo: true,
   useLabel: true,
   //-- title is verplicht! Neem hier de titel van het document op ----------------------
-  title: "Basisregistratie Ondergrond Catalogus Overheidsbesluit bodemverontreiniging",
-  subtitle: "Geotechnische boormonsterbeschrijving en boormonsteranalyse",
+  title: "Basisregistratie Ondergrond Catalogus Overheidsbesluit bodemverontreiniging - Geotechnische boormonsterbeschrijving en boormonsteranalyse",
+  //subtitle: "Versie 1.0",
   //-- specStatus is verplicht! (activeer 1 van de volgende) --------------------------
   specStatus: "wv",                   // Werkversie
   //specStatus: "cv",               // Consultatieversie
@@ -27,7 +27,7 @@ let respecConfig = {
   //licence: "cc0",                 // Public Domain Dedication
   licence: "cc-by",                 // Attribution, met bronvermelding
   //-- shortName is verplicht! (komt in de URL: kies logische afkorting)--------------
-  shortName: "BHR-GT",
+  shortName: "bhr-gt",
   //-- publishDate is verplicht -------------------------------------------------------
   //-- NB: in de werkversie uitzetten, want dan pakt Respec de pushdate ---------------
   //publishDate: "2024-06-13",
