@@ -40,7 +40,7 @@
 		<Waarde>klasse3</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>De lagen zijn beschreven volgens de eisen die in NEN-EN-ISO 14688-1 gesteld zijn aan verkennend (hand)booronderzoek (B3). Er is geen gesteente beschreven.</Omschrijving>
+		<Omschrijving>De lagen zijn beschreven volgens de eisen die in NEN-EN-ISO 14688-1 gesteld zijn aan verkennend handbooronderzoek (B3). Er is geen gesteente beschreven.</Omschrijving>
 	</Beschrijfkwaliteit>
 	<Beschrijfkwaliteit>
 		<Waarde>nietGespecificeerd</Waarde>
@@ -49,3 +49,4 @@
 		<Omschrijving>De lagen zijn beschreven op basis van NEN 5104 en met verschillen in bemonsteringskwaliteit is bij de beschrijving niet consequent rekening gehouden. Er is geen gesteente beschreven.</Omschrijving>
 	</Beschrijfkwaliteit>
 </domeintabel>
+
