@@ -6,10 +6,16 @@
 		<IMBROA>v</IMBROA>
 		<Omschrijving>De boormonsteranalyse is niet volgens een praktijkrichtlijn uitgevoerd.</Omschrijving>
 	</Analyseprocedure>
+		<Analyseprocedure>
+		<Waarde>NEN8992v2025</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 8992:2025 Geotechnisch onderzoek en beproeving - Aanvullende bepalingen bij internationale en Europese laboratoriumproeven.</Omschrijving>
+	</Analyseprocedure>
 	<Analyseprocedure>
 		<Waarde>NPR2021</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>De boormonsteranalyse is uitgevoerd conform de Nationale praktijkrichtlijn 2021.</Omschrijving>
+		<Omschrijving>De boormonsteranalyse is uitgevoerd conform de Nationale praktijkrichtlijn 2021. Deze praktijkrichtlijn is binnen de branche afgesproken maar nooit officieel uitgewerkt.</Omschrijving>
 	</Analyseprocedure>
 </domeintabel>
