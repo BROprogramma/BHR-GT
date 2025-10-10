@@ -19,6 +19,12 @@
 		<Omschrijving>NEN-ISO 13320:2009 Analyse van de deeltjesgrootteverdeling - Methoden met laserdiffractie beschrijft de procedure voor het bepalen van de korrelgrootteverdeling door middel van laserdiffractie. Een internationale norm geaccepteerd door Nederland.</Omschrijving>
 	</Bepalingsprocedure>
 	<Bepalingsprocedure>
+		<Waarde>ISO13320v2020</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-ISO 13320:2020 Analyse van de deeltjesgrootteverdeling - Methoden met laserdiffractie beschrijft de procedure voor het bepalen van de korrelgrootteverdeling door middel van laserdiffractie. Een internationale norm geaccepteerd door Nederland.</Omschrijving>
+	</Bepalingsprocedure>
+	<Bepalingsprocedure>
 		<Waarde>ISO13322-2v2022</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
@@ -72,7 +78,13 @@
 		<IMBROA>v</IMBROA>
 		<Omschrijving>NEN-EN-ISO 17892-5:2017 Geotechnisch onderzoek en beproeving - Beproeving van grond in het laboratorium - Deel 5: Eén-dimensionale samendrukkingsproef beschrijft de procedure voor het bepalen van het zettingsverloop door middel van stapsgewijs samendrukken, de samendrukkingsproef. Een internationale norm geaccepteerd door Europa en Nederland.</Omschrijving>
 	</Bepalingsprocedure>
-		<Bepalingsprocedure>
+	<Bepalingsprocedure>
+		<Waarde>ISO17892d6v2017</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-EN-ISO 17892-6:2017 Geotechnisch onderzoek en beproeving - Beproeving van grond in het laboratorium - Deel 6: Valconusproef beschrijft de procedure voor het bepalen van het schuifspanningsverloop met de Valconusproef. Een internationale norm geaccepteerd door Europa en Nederland.</Omschrijving>
+	</Bepalingsprocedure>
+	<Bepalingsprocedure>
 		<Waarde>ISO17892d7v2018</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
