@@ -72,6 +72,12 @@
 		<IMBROA>v</IMBROA>
 		<Omschrijving>NEN-EN-ISO 17892-5:2017 Geotechnisch onderzoek en beproeving - Beproeving van grond in het laboratorium - Deel 5: Eén-dimensionale samendrukkingsproef beschrijft de procedure voor het bepalen van het zettingsverloop door middel van stapsgewijs samendrukken, de samendrukkingsproef. Een internationale norm geaccepteerd door Europa en Nederland.</Omschrijving>
 	</Bepalingsprocedure>
+		<Bepalingsprocedure>
+		<Waarde>ISO17892d7v2018</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-EN-ISO 17892-7:2018 Geotechnisch onderzoek en beproeving - Beproeving van grond in het laboratorium - Deel 7: Samendrukkingsproef beschrijft de procedure voor het bepalen van het schuifspanningsverloop met de samendrukkingsproef. Een internationale norm geaccepteerd door Europa en Nederland.</Omschrijving>
+	</Bepalingsprocedure>
 	<Bepalingsprocedure>
 		<Waarde>ISO17892d8v2018</Waarde>
 		<IMBRO>v</IMBRO>
