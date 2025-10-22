@@ -6,4 +6,4 @@
 		<p><a href ="#gegevensdefinitie">Hoofdstuk 5</a> vertelt hoe de gegevensdefinitie is opgebouwd en welke aspecten van de gegevens daarin worden beschreven.</p>
 		<p><a href ="#gegevensdefinitie-0">Hoofdstuk 6</a> geeft de inhoud weer van het eerste artikel van de ministeriële regeling en dat is het deel waarin de definitie is opgenomen van het registratieobject, van de delen waaruit het is opgebouwd, de entiteiten, en van de eigenschappen van die delen, de attributen.</p>
 		<p><a href ="#uitbreidbare-waardelijsten">Hoofdstuk 7</a> geeft de inhoud weer van het tweede artikel van de ministeriële regeling en dat is het deel waarin de uitbreidbare waardelijsten staan waarnaar in hoofdstuk 6 verwezen wordt.</p>
-		<p><a href ="#lijstwaardemappings-uitgifte">Hoofdstuk 8</a> bevat de lijstwaardemappings waarin vervallen waarden worden gemapt naar vervangende waarden.</p>
+		<p><a href ="#lijstwaardemappings-uitgifte">Hoofdstuk 8</a> geeft met betrekking tot uitbreidbare waardelijsten aan welke waarden worden uitgegeven in de plaats van vervallen waarden.</p>
