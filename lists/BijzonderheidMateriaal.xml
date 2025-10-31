@@ -22,7 +22,7 @@
 		<Waarde>insluiting</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>In het onderzochte materiaal blijken 1 of meer insluitingen voor te komen, bijvoorbeeld een grindkorrel, schelp, een stukje puin of hout.</Omschrijving>
+		<Omschrijving>In het onderzochte materiaal blijken één of meer insluitingen voor te komen, bijvoorbeeld een grindkorrel, schelp, een stukje puin of hout.</Omschrijving>
 	</BijzonderheidMateriaal>
 	<BijzonderheidMateriaal>
 		<Waarde>scheur</Waarde>
@@ -40,6 +40,7 @@
 		<Waarde>wortelgang</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>In het onderzochte materiaal blijken 1 of meer wortelgangen voor te komen.</Omschrijving>
+		<Omschrijving>In het onderzochte materiaal blijken één of meer wortelgangen voor te komen.</Omschrijving>
 	</BijzonderheidMateriaal>
 </domeintabel>
+
