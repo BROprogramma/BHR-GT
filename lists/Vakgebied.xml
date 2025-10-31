@@ -19,6 +19,18 @@
 		<Omschrijving>Booronderzoek uitgevoerd vanuit geotechnische expertise met ondersteuning vanuit archeologische en milieukundige expertise.</Omschrijving>
 	</Vakgebied>
 	<Vakgebied>
+		<Waarde>geotechniekGeologie</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Booronderzoek uitgevoerd vanuit geotechnische expertise met ondersteuning vanuit geologische expertise.</Omschrijving>
+	</Vakgebied>
+	<Vakgebied>
+		<Waarde>geotechniekHydrologie</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Booronderzoek uitgevoerd vanuit geotechnische expertise met ondersteuning vanuit hydrologische expertise.</Omschrijving>
+	</Vakgebied>
+	<Vakgebied>
 		<Waarde>geotechniekMilieukunde</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
