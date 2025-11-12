@@ -193,6 +193,24 @@
 		<Omschrijving>NEN-EN-ISO 17892-7:2018 Geotechnisch onderzoek en beproeving - Beproeving van grond in het laboratorium - Deel 7: Samendrukkingsproef beschrijft de procedure voor het bepalen van het schuifspanningsverloop met de samendrukkingsproef. Een internationale norm geaccepteerd door Europa en Nederland. + NEN 8992:2025 Geotechnisch onderzoek en beproeving - Aanvullende bepalingen bij internationale en Europese laboratoriumproeven. Een internationale norm geaccepteerd door Europa en vertaald in het Nederlands met een Nederlandse aanvulling.</Omschrijving>
 	</Bepalingsprocedure>
 	<Bepalingsprocedure>
+		<Waarde>NEN_EN_ISO17892d8v2018NEN8992v2025</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-EN-ISO 17892-8:2018 Geotechnisch onderzoek en beproeving - Beproeving van grond in het laboratorium - Deel 8: Ongeconsolideerde, ongedraineerde triaxiaal proef beschrijft de procedure voor het bepalen van het schuifspanningsverloop met de triaxiaalproef. Een internationale norm geaccepteerd door Europa en Nederland. + NEN 8992:2025 Geotechnisch onderzoek en beproeving - Aanvullende bepalingen bij internationale en Europese laboratoriumproeven. Een internationale norm geaccepteerd door Europa en vertaald in het Nederlands met een Nederlandse aanvulling.</Omschrijving>
+	</Bepalingsprocedure>
+	<Bepalingsprocedure>
+		<Waarde>NEN_EN_ISO17892d9v2018NEN8992v2025</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-EN-ISO 17892-9:2018 Geotechnisch onderzoek en beproeving - Beproeving van grond in het laboratorium - Deel 9: Geconsolideerde triaxiaal proeven op waterverzadigde grond beschrijft de procedure voor het bepalen van het schuifspanningsverloop met de triaxiaalproef. Een internationale norm geaccepteerd door Europa en Nederland. + NEN 8992:2025 Geotechnisch onderzoek en beproeving - Aanvullende bepalingen bij internationale en Europese laboratoriumproeven. Een internationale norm geaccepteerd door Europa en vertaald in het Nederlands met een Nederlandse aanvulling.</Omschrijving>
+	</Bepalingsprocedure>
+	<Bepalingsprocedure>
+		<Waarde>NEN_EN_ISO17892d11v2019NEN8992v2025</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-EN-ISO 17892-11:2019: Geotechnisch onderzoek en beproeving - Beproeving van grond in het laboratorium - Deel 11. Beproeven van de doorlatendheid beschrijft de procedure voor het bepalen van de doorlatendheid. Een internationale norm geaccepteerd door Europa en Nederland. + NEN 8992:2025 Geotechnisch onderzoek en beproeving - Aanvullende bepalingen bij internationale en Europese laboratoriumproeven. Een internationale norm geaccepteerd door Europa en vertaald in het Nederlands met een Nederlandse aanvulling.</Omschrijving>
+	</Bepalingsprocedure>
+	<Bepalingsprocedure>
 		<Waarde>NEN_EN_ISO17892d12v2021NEN8992v2025</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
@@ -223,4 +241,5 @@
 		<Omschrijving>NEN 8992:2025 Geotechnisch onderzoek en beproeving - Aanvullende bepalingen bij internationale en Europese laboratoriumproeven.</Omschrijving>
 	</Bepalingsprocedure>
 </domeintabel>
+
 
