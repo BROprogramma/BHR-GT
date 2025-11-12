@@ -25,6 +25,18 @@
 		<Omschrijving>ASTM-D6528 versie 2017 Standard test method for consolidated undrained direct simple shear testing of cohesive soils beschrijft de procedure voor het bepalen van het schuifspanningsverloop bij horizontale vervorming met de zogenaamde Direct Simple Shear (DSS). Een Amerikaanse norm die in Nederland wordt gebruikt.</Omschrijving>
 	</Bepalingsprocedure>
 	<Bepalingsprocedure>
+		<Waarde>ASTM_D6528v2024</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>ASTM-D6528 versie 2024 Standard test method for consolidated undrained direct simple shear testing of cohesive soils beschrijft de procedure voor het bepalen van het schuifspanningsverloop bij horizontale vervorming met de zogenaamde Direct Simple Shear (DSS). Een Amerikaanse norm die in Nederland wordt gebruikt.</Omschrijving>
+	</Bepalingsprocedure>
+	<Bepalingsprocedure>
+		<Waarde>ASTM_D6528v2024NEN8992v2025</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>ASTM-D6528 versie 2024 Standard test method for consolidated undrained direct simple shear testing of cohesive soils beschrijft de procedure voor het bepalen van het schuifspanningsverloop bij horizontale vervorming met de zogenaamde Direct Simple Shear (DSS). Een Amerikaanse norm die in Nederland wordt gebruikt. + NEN 8992:2025 Geotechnisch onderzoek en beproeving - Aanvullende bepalingen bij internationale en Europese laboratoriumproeven. Een internationale norm geaccepteerd door Europa en vertaald in het Nederlands met een Nederlandse aanvulling.</Omschrijving>
+	</Bepalingsprocedure>
+	<Bepalingsprocedure>
 		<Waarde>ISO13320v2009</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
@@ -211,3 +223,4 @@
 		<Omschrijving>NEN 8992:2025 Geotechnisch onderzoek en beproeving - Aanvullende bepalingen bij internationale en Europese laboratoriumproeven.</Omschrijving>
 	</Bepalingsprocedure>
 </domeintabel>
+
