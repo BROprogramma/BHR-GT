@@ -25,12 +25,6 @@
 		<Omschrijving>NEN-ISO 13320:2020 Analyse van de deeltjesgrootteverdeling - Methoden met laserdiffractie beschrijft de procedure voor het bepalen van de korrelgrootteverdeling door middel van laserdiffractie. Een internationale norm geaccepteerd door Nederland.</Omschrijving>
 	</Bepalingsprocedure>
 	<Bepalingsprocedure>
-		<Waarde>ISO13322-2v2022</Waarde>
-		<IMBRO>v</IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>NEN-ISO 13322-2:2022 Deeltjesgroottebepaling - Beeldanalyse methoden - Deel 2: Dynamische beeldanalyse methoden beschrijft de procedure voor het bepalen van de korrelgrootteverdeling door middel van beeldanalyse. Een internationale norm geaccepteerd door Nederland.</Omschrijving>
-	</Bepalingsprocedure>
-	<Bepalingsprocedure>
 		<Waarde>ISO14688d2v2019</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
@@ -149,6 +143,24 @@
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
 		<Omschrijving>NEN-EN-ISO 17892-4:2016 Geotechnisch onderzoek en beproeving - Beproeving van grond in het laboratorium - Deel 4: Bepaling van de korrelgrootte verdeling beschrijft de procedure voor het bepalen van de korrelgrootteverdeling van fracties door middel van natte zeving over de 63µm-zeef, droge zeving voor fracties groter dan 63 µm en voor de fracties kleiner dan 63 µm met de hydrometer en de pipetmethode + NEN 8992:2025 Geotechnisch onderzoek en beproeving - Aanvullende bepalingen bij internationale en Europese laboratoriumproeven + NEN-ISO 13317-3:2001 Bepaling van de deeltjesgrootteverdeling met zwaartekracht-sedimentatiemethoden in vloeistof – Deel 3: Zwaartekrachttechniek met röntgenstraling beschrijft de procedure voor het bepalen van de verdeling van fracties kleiner dan 63 µm door middel van röntgenstraling. Een internationale norm geaccepteerd door Europa en vertaald in het Nederlands met een Nederlandse aanvulling.</Omschrijving>
+	</Bepalingsprocedure>
+	<Bepalingsprocedure>
+		<Waarde>NEN_ISO13320v2020NEN8992v2025</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-ISO 13320:2020 Analyse van de deeltjesgrootteverdeling - Methoden met laserdiffractie beschrijft de procedure voor het bepalen van de korrelgrootteverdeling door middel van laserdiffractie. Een internationale norm geaccepteerd door Nederland. + NEN 8992:2025 Geotechnisch onderzoek en beproeving - Aanvullende bepalingen bij internationale en Europese laboratoriumproeven. Een internationale norm geaccepteerd door Europa en vertaald in het Nederlands met een Nederlandse aanvulling.</Omschrijving>
+	</Bepalingsprocedure>
+	<Bepalingsprocedure>
+		<Waarde>NEN_ISO13322d2v2022</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-ISO 13322-2:2022 Deeltjesgroottebepaling - Beeldanalyse methoden - Deel 2: Dynamische beeldanalyse methoden beschrijft de procedure voor het bepalen van de korrelgrootteverdeling door middel van beeldanalyse. Een internationale norm geaccepteerd door Nederland.</Omschrijving>
+	</Bepalingsprocedure>
+	<Bepalingsprocedure>
+		<Waarde>NEN_ISO13322d2v2022NEN8992v2025</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-ISO 13322-2:2022 Deeltjesgroottebepaling - Beeldanalyse methoden - Deel 2: Dynamische beeldanalyse methoden beschrijft de procedure voor het bepalen van de korrelgrootteverdeling door middel van beeldanalyse. Een internationale norm geaccepteerd door Nederland. + NEN 8992:2025 Geotechnisch onderzoek en beproeving - Aanvullende bepalingen bij internationale en Europese laboratoriumproeven. Een internationale norm geaccepteerd door Europa en vertaald in het Nederlands met een Nederlandse aanvulling.</Omschrijving>
 	</Bepalingsprocedure>
 	<Bepalingsprocedure>
 		<Waarde>NEN8992v2025</Waarde>
