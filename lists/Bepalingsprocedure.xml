@@ -120,6 +120,40 @@
 		<IMBROA>v</IMBROA>
 		<Omschrijving>NEN-EN-ISO 17892-12:2018 Geotechnisch onderzoek en beproeving - Beproeving van grond in het laboratorium - Deel 12: Bepaling van de Atterbergse grenzen beschrijft de procedure voor het bepalen van de consistentiegrenzen, de vloeigrens met behulp van de valconus of volgens de Casagrandemethode en de uitrolgrens door middel van het rollen van een kleistaafje. Een internationale norm geaccepteerd door Europa en Nederland.</Omschrijving>
 	</Bepalingsprocedure>
+	<Bepalingsprocedure>
+		<Waarde>NEN_EN_ISO17892d1v2022NEN8992v2025</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-EN-ISO 17892-1:2022 Geotechnisch onderzoek en beproeving - Beproeving van grond in het laboratorium - Deel 1: Bepaling van het watergehalte beschrijft de procedure voor het bepalen van het watergehalte door middel van drogen + NEN 8992:2025 Geotechnisch onderzoek en beproeving - Aanvullende bepalingen bij internationale en Europese laboratoriumproeven. Een internationale norm geaccepteerd door Europa en vertaald in het Nederlands met een Nederlandse aanvulling.</Omschrijving>
+	</Bepalingsprocedure>
+	<Bepalingsprocedure>
+		<Waarde>NEN_EN_ISO17892d2v2014NEN8992v2025</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-EN-ISO 17892-2:2014 Geotechnisch onderzoek en beproeving - Beproeving van grond in het laboratorium - Deel 2: Bepaling van de dichtheid van fijn korrelige grond beschrijft de procedure voor het bepalen van de volumieke massa + NEN 8992:2025 Geotechnisch onderzoek en beproeving - Aanvullende bepalingen bij internationale en Europese laboratoriumproeven. Een internationale norm geaccepteerd door Europa en vertaald in het Nederlands met een Nederlandse aanvulling.</Omschrijving>
+	</Bepalingsprocedure>
+	<Bepalingsprocedure>
+		<Waarde>NEN_EN_ISO17892d3v2016NEN8992v2025</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-EN-ISO 17892-3:2016 Geotechnisch onderzoek en beproeving - Beproeving van grond in het laboratorium - Deel 3: Bepaling van de dichtheid van gronddeeltjes beschrijft de procedure voor het bepalen van volumieke massa van de vaste delen met de gas- en vloeistofpyknometer + NEN 8992:2025 Geotechnisch onderzoek en beproeving - Aanvullende bepalingen bij internationale en Europese laboratoriumproeven. Een internationale norm geaccepteerd door Europa en vertaald in het Nederlands met een Nederlandse aanvulling.</Omschrijving>
+	</Bepalingsprocedure>
+	<Bepalingsprocedure>
+		<Waarde>NEN_EN_ISO17892d4v2016NEN8992v2025</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-EN-ISO 17892-4:2016 Geotechnisch onderzoek en beproeving - Beproeving van grond in het laboratorium - Deel 4: Bepaling van de korrelgrootte verdeling beschrijft de procedure voor het bepalen van de korrelgrootteverdeling van fracties door middel van natte zeving over de 63µm-zeef, droge zeving voor fracties groter dan 63 µm en voor de fracties kleiner dan 63 µm met de hydrometer en de pipetmethode + NEN 8992:2025 Geotechnisch onderzoek en beproeving - Aanvullende bepalingen bij internationale en Europese laboratoriumproeven. Een internationale norm geaccepteerd door Europa en vertaald in het Nederlands met een Nederlandse aanvulling.</Omschrijving>
+	</Bepalingsprocedure>
+	<Bepalingsprocedure>
+		<Waarde>NEN_EN_ISO17892d4v2016NEN8992v2025NEN_ISO13317d3v2001</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-EN-ISO 17892-4:2016 Geotechnisch onderzoek en beproeving - Beproeving van grond in het laboratorium - Deel 4: Bepaling van de korrelgrootte verdeling beschrijft de procedure voor het bepalen van de korrelgrootteverdeling van fracties door middel van natte zeving over de 63µm-zeef, droge zeving voor fracties groter dan 63 µm en voor de fracties kleiner dan 63 µm met de hydrometer en de pipetmethode + NEN 8992:2025 Geotechnisch onderzoek en beproeving - Aanvullende bepalingen bij internationale en Europese laboratoriumproeven + NEN-ISO 13317-3:2001 Bepaling van de deeltjesgrootteverdeling met zwaartekracht-sedimentatiemethoden in vloeistof – Deel 3: Zwaartekrachttechniek met röntgenstraling beschrijft de procedure voor het bepalen van de verdeling van fracties kleiner dan 63 µm door middel van röntgenstraling. Een internationale norm geaccepteerd door Europa en vertaald in het Nederlands met een Nederlandse aanvulling.</Omschrijving>
+	</Bepalingsprocedure>
+	<Bepalingsprocedure>
+		<Waarde>NEN8992v2025</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN 8992:2025 Geotechnisch onderzoek en beproeving - Aanvullende bepalingen bij internationale en Europese laboratoriumproeven.</Omschrijving>
+	</Bepalingsprocedure>
 </domeintabel>
-
-
