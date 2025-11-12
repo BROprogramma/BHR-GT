@@ -4,13 +4,13 @@
 		<Waarde>ASTM_D4186v2012</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>ASTM-D4186 versie 2012, editorial corrected in 2014 (e1) Standard Test Method for One-Dimensional Consolidation Properties of Saturated Cohesive Soils Using Controlled-Strain Loading beschrijft de procedure voor het bepalen van het zettingsverloop door middel van snelheidgestuurd samendrukken, de CRS-proef (Constant Rate of Strain). Een amerikaanse norm die in Nederland wordt gebruikt.</Omschrijving>
+		<Omschrijving>ASTM-D4186 versie 2012, editorial corrected in 2014 (e1) Standard Test Method for One-Dimensional Consolidation Properties of Saturated Cohesive Soils Using Controlled-Strain Loading beschrijft de procedure voor het bepalen van het zettingsverloop door middel van snelheidgestuurd samendrukken, de CRS-proef (Constant Rate of Strain). Een Amerikaanse norm die in Nederland wordt gebruikt.</Omschrijving>
 	</Bepalingsprocedure>
 	<Bepalingsprocedure>
 		<Waarde>ASTM_D6528v2017</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>ASTM-D6528 versie 2017 Standard test method for consolidated undrained direct simple shear testing of cohesive soils beschrijft de procedure voor het bepalen van het schuifspanningsverloop bij horizontale vervorming met de zogenaamde Direct Simple Shear (DSS). Een amerikaanse norm die in Nederland wordt gebruikt.</Omschrijving>
+		<Omschrijving>ASTM-D6528 versie 2017 Standard test method for consolidated undrained direct simple shear testing of cohesive soils beschrijft de procedure voor het bepalen van het schuifspanningsverloop bij horizontale vervorming met de zogenaamde Direct Simple Shear (DSS). Een Amerikaanse norm die in Nederland wordt gebruikt.</Omschrijving>
 	</Bepalingsprocedure>
 	<Bepalingsprocedure>
 		<Waarde>ISO13320v2009</Waarde>
@@ -121,4 +121,5 @@
 		<Omschrijving>NEN-EN-ISO 17892-12:2018 Geotechnisch onderzoek en beproeving - Beproeving van grond in het laboratorium - Deel 12: Bepaling van de Atterbergse grenzen beschrijft de procedure voor het bepalen van de consistentiegrenzen, de vloeigrens met behulp van de valconus of volgens de Casagrandemethode en de uitrolgrens door middel van het rollen van een kleistaafje. Een internationale norm geaccepteerd door Europa en Nederland.</Omschrijving>
 	</Bepalingsprocedure>
 </domeintabel>
+
 
