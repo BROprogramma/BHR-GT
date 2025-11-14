@@ -10,13 +10,13 @@
 			<Waarde>ASTM_D4186v2020</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>ASTM-D4186 versie 2020, editorial corrected in 2014 (e1) Standard Test Method for One-Dimensional Consolidation Properties of Saturated Cohesive Soils Using Controlled-Strain Loading beschrijft de procedure voor het bepalen van het zettingsverloop door middel van snelheidgestuurd samendrukken, de CRS-proef (Constant Rate of Strain). Een Amerikaanse norm die in Nederland wordt gebruikt.</Omschrijving>
+		<Omschrijving>ASTM-D4186 versie 2020 Standard Test Method for One-Dimensional Consolidation Properties of Saturated Cohesive Soils Using Controlled-Strain Loading beschrijft de procedure voor het bepalen van het zettingsverloop door middel van snelheidgestuurd samendrukken, de CRS-proef (Constant Rate of Strain). Een Amerikaanse norm die in Nederland wordt gebruikt.</Omschrijving>
 	</Bepalingsprocedure>
 	<Bepalingsprocedure>
 			<Waarde>ASTM_D4186v2020NEN8992v2025</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>ASTM-D4186 versie 2020, editorial corrected in 2014 (e1) Standard Test Method for One-Dimensional Consolidation Properties of Saturated Cohesive Soils Using Controlled-Strain Loading beschrijft de procedure voor het bepalen van het zettingsverloop door middel van snelheidgestuurd samendrukken, de CRS-proef (Constant Rate of Strain). Een Amerikaanse norm die in Nederland wordt gebruikt. NEN 8992:2025 Geotechnisch onderzoek en beproeving - Aanvullende bepalingen bij internationale en Europese laboratoriumproeven. Een internationale norm geaccepteerd door Europa en vertaald in het Nederlands met een Nederlandse aanvulling.</Omschrijving>
+		<Omschrijving>ASTM-D4186 versie 2020 Standard Test Method for One-Dimensional Consolidation Properties of Saturated Cohesive Soils Using Controlled-Strain Loading beschrijft de procedure voor het bepalen van het zettingsverloop door middel van snelheidgestuurd samendrukken, de CRS-proef (Constant Rate of Strain). Een Amerikaanse norm die in Nederland wordt gebruikt. NEN 8992:2025 Geotechnisch onderzoek en beproeving - Aanvullende bepalingen bij internationale en Europese laboratoriumproeven. Een internationale norm geaccepteerd door Europa en vertaald in het Nederlands met een Nederlandse aanvulling.</Omschrijving>
 	</Bepalingsprocedure>
 	<Bepalingsprocedure>
 		<Waarde>ASTM_D6528v2017</Waarde>
@@ -247,4 +247,5 @@
 		<Omschrijving>NEN 8992:2025 Geotechnisch onderzoek en beproeving - Aanvullende bepalingen bij internationale en Europese laboratoriumproeven.</Omschrijving>
 	</Bepalingsprocedure>
 </domeintabel>
+
 
