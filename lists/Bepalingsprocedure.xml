@@ -139,6 +139,12 @@
 		<Omschrijving>NEN-EN-ISO 17892-12:2018 Geotechnisch onderzoek en beproeving - Beproeving van grond in het laboratorium - Deel 12: Bepaling van de Atterbergse grenzen beschrijft de procedure voor het bepalen van de consistentiegrenzen, de vloeigrens met behulp van de valconus of volgens de Casagrandemethode en de uitrolgrens door middel van het rollen van een kleistaafje. Een internationale norm geaccepteerd door Europa en Nederland.</Omschrijving>
 	</Bepalingsprocedure>
 	<Bepalingsprocedure>
+		<Waarde>NEN_EN_ISO17892d1v2022</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-EN-ISO 17892-1:2022 Geotechnisch onderzoek en beproeving - Beproeving van grond in het laboratorium - Deel 1: Bepaling van het watergehalte beschrijft de procedure voor het bepalen van het watergehalte door middel van drogen. Een internationale norm geaccepteerd door Europa en Nederland.</Omschrijving>
+	</Bepalingsprocedure>
+	<Bepalingsprocedure>
 		<Waarde>NEN_EN_ISO17892d12v2021</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
@@ -241,5 +247,6 @@
 		<Omschrijving>NEN 8992:2025 Geotechnisch onderzoek en beproeving - Aanvullende bepalingen bij internationale en Europese laboratoriumproeven.</Omschrijving>
 	</Bepalingsprocedure>
 </domeintabel>
+
 
 
