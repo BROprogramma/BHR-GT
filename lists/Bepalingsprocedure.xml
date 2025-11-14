@@ -52,19 +52,19 @@
 		<Waarde>ISO14688d2v2019</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>NEN-EN-ISO 14688-2:2019 Geotechnisch onderzoek en beproeving - Identificatie en classificatie van grond - Deel 2: Grondslagen voor een classificatie. Een door de NEN voor Nederland vastgestelde norm t.b.v. het classificeren van onverharde grondmonsters voor geotechniek gebaseerd op de ISO norm. De uitwerking van de bepaling van de ongedraineerde schuifsterke, het organischestofgehalte en het kalkgehalte zijn in de Nederlandse bijlage opgenomen.</Omschrijving>
+		<Omschrijving>NEN-EN-ISO 14688-2:2019 Geotechnisch onderzoek en beproeving - Identificatie en classificatie van grond - Deel 2: Grondslagen voor een classificatie. Een door de NEN voor Nederland vastgestelde norm t.b.v. het classificeren van onverharde grondmonsters voor geotechniek gebaseerd op de ISO norm. De uitwerking van de bepaling van de ongedraineerde schuifsterkte, het organischestofgehalte en het kalkgehalte zijn in de Nederlandse bijlage opgenomen.</Omschrijving>
 	</Bepalingsprocedure>
 	<Bepalingsprocedure>
 		<Waarde>ISO14688d2v2019NEN8990v2020</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>NEN-EN-ISO 14688-2:2019+NEN 8990:2020 Geotechnisch onderzoek en beproeving - Identificatie en classificatie van grond - Deel 2: Grondslagen voor een classificatie + NEN 8991:2020 Geotechnisch onderzoek en beproeving – Identificatie en classificatie van grond – Nederlandse aanvulling op NEN-EN-ISO 14688-2 beschrijft de zogenaamde classificatieproeven. De uitwerking van de bepaling van de ongedraineerde schuifsterke, het organischestofgehalte en het kalkgehalte zijn in de Nederlandse bijlage opgenomen. Deze waarde is vervallen en opgegaan in de waarde <i>ISO14688d2v2019NEN8991v2020</i>. Reden hiervoor is een schrijffout: <i>8990</i> moet zijn: <i>8991</i>.</Omschrijving>
+		<Omschrijving>NEN-EN-ISO 14688-2:2019+NEN 8990:2020 Geotechnisch onderzoek en beproeving - Identificatie en classificatie van grond - Deel 2: Grondslagen voor een classificatie + NEN 8991:2020 Geotechnisch onderzoek en beproeving – Identificatie en classificatie van grond – Nederlandse aanvulling op NEN-EN-ISO 14688-2 beschrijft de zogenaamde classificatieproeven. De uitwerking van de bepaling van de ongedraineerde schuifsterkte, het organischestofgehalte en het kalkgehalte zijn in de Nederlandse bijlage opgenomen. Deze waarde is vervallen en opgegaan in de waarde <i>ISO14688d2v2019NEN8991v2020</i>. Reden hiervoor is een schrijffout: <i>8990</i> moet zijn: <i>8991</i>.</Omschrijving>
 	</Bepalingsprocedure>
 	<Bepalingsprocedure>
 		<Waarde>ISO14688d2v2019NEN8991v2020</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>NEN-EN-ISO 14688-2:2019+NEN 8991:2020 Geotechnisch onderzoek en beproeving - Identificatie en classificatie van grond - Deel 2: Grondslagen voor een classificatie + NEN 8991:2020 Geotechnisch onderzoek en beproeving – Identificatie en classificatie van grond – Nederlandse aanvulling op NEN-EN-ISO 14688-2 beschrijft de zogenaamde classificatieproeven. De uitwerking van de bepaling van de ongedraineerde schuifsterke, het organischestofgehalte en het kalkgehalte zijn in de Nederlandse bijlage opgenomen. De vervallen waarde <i>ISO14688d2v2019NEN8990v2020</i> is opgegaan in deze waarde.</Omschrijving>
+		<Omschrijving>NEN-EN-ISO 14688-2:2019+NEN 8991:2020 Geotechnisch onderzoek en beproeving - Identificatie en classificatie van grond - Deel 2: Grondslagen voor een classificatie + NEN 8991:2020 Geotechnisch onderzoek en beproeving – Identificatie en classificatie van grond – Nederlandse aanvulling op NEN-EN-ISO 14688-2 beschrijft de zogenaamde classificatieproeven. De uitwerking van de bepaling van de ongedraineerde schuifsterkte, het organischestofgehalte en het kalkgehalte zijn in de Nederlandse bijlage opgenomen. De vervallen waarde <i>ISO14688d2v2019NEN8990v2020</i> is opgegaan in deze waarde.</Omschrijving>
 	</Bepalingsprocedure>
 	<Bepalingsprocedure>
 		<Waarde>ISO17892d1v2014</Waarde>
@@ -130,7 +130,7 @@
 		<Waarde>ISO17892d11v2019</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>NEN-EN-ISO 17892-11:2019: Geotechnisch onderzoek en beproeving - Beproeving van grond in het laboratorium - Deel 11. Beproeven van de doorlatendheid beschrijft de procedure voor het bepalen van de doorlatendheid. Een internationale norm geaccepteerd door Europa en Nederland.</Omschrijving>
+		<Omschrijving>NEN-EN-ISO 17892-11:2019 Geotechnisch onderzoek en beproeving - Beproeving van grond in het laboratorium - Deel 11: Beproeven van de doorlatendheid beschrijft de procedure voor het bepalen van de doorlatendheid. Een internationale norm geaccepteerd door Europa en Nederland.</Omschrijving>
 	</Bepalingsprocedure>
 	<Bepalingsprocedure>
 		<Waarde>ISO17892d12v2018</Waarde>
@@ -214,7 +214,7 @@
 		<Waarde>NEN_EN_ISO17892d11v2019NEN8992v2025</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>NEN-EN-ISO 17892-11:2019: Geotechnisch onderzoek en beproeving - Beproeving van grond in het laboratorium - Deel 11. Beproeven van de doorlatendheid beschrijft de procedure voor het bepalen van de doorlatendheid. Een internationale norm geaccepteerd door Europa en Nederland. NEN 8992:2025 Geotechnisch onderzoek en beproeving - Aanvullende bepalingen bij internationale en Europese laboratoriumproeven. Een internationale norm geaccepteerd door Europa en vertaald in het Nederlands met een Nederlandse aanvulling.</Omschrijving>
+		<Omschrijving>NEN-EN-ISO 17892-11:2019: Geotechnisch onderzoek en beproeving - Beproeving van grond in het laboratorium - Deel 11: Beproeven van de doorlatendheid beschrijft de procedure voor het bepalen van de doorlatendheid. Een internationale norm geaccepteerd door Europa en Nederland. NEN 8992:2025 Geotechnisch onderzoek en beproeving - Aanvullende bepalingen bij internationale en Europese laboratoriumproeven. Een internationale norm geaccepteerd door Europa en vertaald in het Nederlands met een Nederlandse aanvulling.</Omschrijving>
 	</Bepalingsprocedure>
 	<Bepalingsprocedure>
 		<Waarde>NEN_EN_ISO17892d12v2021NEN8992v2025</Waarde>
@@ -247,5 +247,6 @@
 		<Omschrijving>NEN 8992:2025 Geotechnisch onderzoek en beproeving - Aanvullende bepalingen bij internationale en Europese laboratoriumproeven.</Omschrijving>
 	</Bepalingsprocedure>
 </domeintabel>
+
 
 
