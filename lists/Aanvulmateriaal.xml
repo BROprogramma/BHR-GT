@@ -4,13 +4,13 @@
 		<Waarde>aanvulgrind2tot5</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Grind dat gezeefd is en uit korrels bestaat met een grootte tussen 2 mm en 5 mm.</Omschrijving>
+		<Omschrijving>Grind dat gezeefd is en uit korrels bestaat met een grootte van 2 mm tot 5 mm.</Omschrijving>
 	</Aanvulmateriaal>
 	<Aanvulmateriaal>
 		<Waarde>aanvulgrind2tot8</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Grind dat gezeefd is en uit korrels bestaat met een grootte tussen 2 mm en 8 mm.</Omschrijving>
+		<Omschrijving>Grind dat gezeefd is en uit korrels bestaat met een grootte van 2 mm tot 8 mm.</Omschrijving>
 	</Aanvulmateriaal>
 	<Aanvulmateriaal>
 		<Waarde>bentoniet</Waarde>
@@ -22,61 +22,61 @@
 		<Waarde>filtergrind0.6tot1.0</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Zand dat gezeefd is en uit korrels bestaat met een grootte tussen 0,6 mm en 1,0 mm.</Omschrijving>
+		<Omschrijving>Zand dat gezeefd is en uit korrels bestaat met een grootte van 0,6 mm tot 1,0 mm.</Omschrijving>
 	</Aanvulmateriaal>
 	<Aanvulmateriaal>
 		<Waarde>filtergrind0.8tot1.25</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Zand dat gezeefd is en uit korrels bestaat met een grootte tussen 0,8 mm en 1,25 mm.</Omschrijving>
+		<Omschrijving>Zand dat gezeefd is en uit korrels bestaat met een grootte van 0,8 mm tot 1,25 mm.</Omschrijving>
 	</Aanvulmateriaal>
 	<Aanvulmateriaal>
 		<Waarde>filtergrind1.0tot1.6</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Zand dat gezeefd is en uit korrels bestaat met een grootte tussen 1,0 mm en 1,6 mm.</Omschrijving>
+		<Omschrijving>Zand dat gezeefd is en uit korrels bestaat met een grootte van 1,0 mm tot 1,6 mm.</Omschrijving>
 	</Aanvulmateriaal>
 		<Aanvulmateriaal>
 		<Waarde>filtergrind1.0tot2.0</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Zand dat gezeefd is en uit korrels bestaat met een grootte tussen 1,0 mm en 2 mm.</Omschrijving>
+		<Omschrijving>Zand dat gezeefd is en uit korrels bestaat met een grootte van 1,0 mm tot 2 mm.</Omschrijving>
 	</Aanvulmateriaal>
 	<Aanvulmateriaal>
 		<Waarde>filtergrind1.2tot1.7</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Zand dat gezeefd is en uit korrels bestaat met een grootte tussen 1,2 mm en 1,7 mm.</Omschrijving>
+		<Omschrijving>Zand dat gezeefd is en uit korrels bestaat met een grootte van 1,2 mm tot 1,7 mm.</Omschrijving>
 	</Aanvulmateriaal>
 	<Aanvulmateriaal>
 		<Waarde>filtergrind1.2tot2.2</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Een mengsel van zand en fijn grind dat gezeefd is en uit korrels bestaat met een grootte tussen 1,2 mm en 2,2 mm.</Omschrijving>
+		<Omschrijving>Een mengsel van zand en fijn grind dat gezeefd is en uit korrels bestaat met een grootte van 1,2 mm tot 2,2 mm.</Omschrijving>
 	</Aanvulmateriaal>
 	<Aanvulmateriaal>
 		<Waarde>filtergrind1.4tot2.0</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Zand dat gezeefd is en uit korrels bestaat met een grootte tussen 1,4 mm en 2,0 mm.</Omschrijving>
+		<Omschrijving>Zand dat gezeefd is en uit korrels bestaat met een grootte van 1,4 mm tot 2,0 mm.</Omschrijving>
 	</Aanvulmateriaal>
 	<Aanvulmateriaal>
 		<Waarde>filtergrind1.5tot2.5</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Een mengsel van zand en fijn grind dat gezeefd is en uit korrels bestaat met een grootte tussen 1,5 mm en 2,5 mm.</Omschrijving>
+		<Omschrijving>Een mengsel van zand en fijn grind dat gezeefd is en uit korrels bestaat met een grootte van 1,5 mm tot 2,5 mm.</Omschrijving>
 	</Aanvulmateriaal>
 	<Aanvulmateriaal>
 		<Waarde>filtergrind1.7tot2.5</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Een mengsel van zand en fijn grind dat gezeefd is en uit korrels bestaat met een grootte tussen 1,7 mm en 2,5 mm.</Omschrijving>
+		<Omschrijving>Een mengsel van zand en fijn grind dat gezeefd is en uit korrels bestaat met een grootte van 1,7 mm tot 2,5 mm.</Omschrijving>
 	</Aanvulmateriaal>
 	<Aanvulmateriaal>
 		<Waarde>filtergrind2.0tot3.0</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Fijn grind dat gezeefd is en uit korrels bestaat met een grootte tussen 2,0 mm en 3,0 mm.</Omschrijving>
+		<Omschrijving>Fijn grind dat gezeefd is en uit korrels bestaat met een grootte van 2,0 mm tot 3,0 mm.</Omschrijving>
 	</Aanvulmateriaal>
 	<Aanvulmateriaal>
 		<Waarde>geen</Waarde>
@@ -88,19 +88,19 @@
 		<Waarde>grind</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Grind dat gezeefd is en uit korrels bestaat met een grootte die tussen 2 en 6,3 mm ligt.</Omschrijving>
+		<Omschrijving>Grind dat gezeefd is en uit korrels bestaat met een grootte van 2 tot 6,3 mm.</Omschrijving>
 	</Aanvulmateriaal>
 	<Aanvulmateriaal>
 		<Waarde>grindZand</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Een mengsel van zand en grind dat gezeefd is en uit korrels bestaat met een grootte die tussen 63 µm en 6,3 mm ligt.</Omschrijving>
+		<Omschrijving>Een mengsel van zand en grind dat gezeefd is en uit korrels bestaat met een grootte van 63 µm tot 6,3 mm.</Omschrijving>
 	</Aanvulmateriaal>
 	<Aanvulmateriaal>
 		<Waarde>grindZandGrof</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Een mengsel van zand en grind dat gezeefd is en uit korrels bestaat met een grootte die tussen 0,63 en 6,3 mm ligt.</Omschrijving>
+		<Omschrijving>Een mengsel van zand en grind dat gezeefd is en uit korrels bestaat met een grootte van 0,63 tot 6,3 mm.</Omschrijving>
 	</Aanvulmateriaal>
 	<Aanvulmateriaal>
 		<Waarde>grindZandOngezeefd</Waarde>
@@ -184,24 +184,24 @@
 		<Waarde>zand</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Zand dat gezeefd is en uit korrels bestaat met een grootte die tussen 63 µm en 2 mm ligt.</Omschrijving>
+		<Omschrijving>Zand dat gezeefd is en uit korrels bestaat met een grootte van 63 µm tot 2 mm.</Omschrijving>
 	</Aanvulmateriaal>
 	<Aanvulmateriaal>
 		<Waarde>zandMiddelgrof</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Zand dat gezeefd is en uit korrels bestaat met een grootte die tussen 0,2 en 0,63 mm ligt.</Omschrijving>
+		<Omschrijving>Zand dat gezeefd is en uit korrels bestaat met een grootte van 0,2 tot 0,63 mm.</Omschrijving>
 	</Aanvulmateriaal>
 	<Aanvulmateriaal>
 		<Waarde>zandMiddelgrofGrof</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Zand dat gezeefd is en uit korrels bestaat met een grootte die tussen 0,2 en 2 mm ligt.</Omschrijving>
+		<Omschrijving>Zand dat gezeefd is en uit korrels bestaat met een grootte van 0,2 tot 2 mm.</Omschrijving>
 	</Aanvulmateriaal>
 	<Aanvulmateriaal>
 		<Waarde>zandGrof</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Zand dat gezeefd is en uit korrels bestaat met een grootte die tussen 0,63 en 2 mm ligt.</Omschrijving>
+		<Omschrijving>Zand dat gezeefd is en uit korrels bestaat met een grootte van 0,63 tot 2 mm.</Omschrijving>
 	</Aanvulmateriaal>
 </domeintabel>
