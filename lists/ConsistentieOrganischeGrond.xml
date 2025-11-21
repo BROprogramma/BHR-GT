@@ -22,7 +22,7 @@
 		<Waarde>matigStevig</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>De grond is met stevig knijpen nog juist tussen de vingers door te krijgen. Deze waarde is geldig tot en met <i>ISO14688d1v2019NEN8990v2020</i>. In opvolgende versies van de norm is deze waarde opgegaan in de waarde <i>stevig2025</i>.</Omschrijving>
+		<Omschrijving>De grond is met stevig knijpen nog juist tussen de vingers door te krijgen. Deze waarde is geldig tot en met <i>ISO14688d1v2019_NEN8990v2020</i>. In opvolgende versies van de norm is deze waarde opgegaan in de waarde <i>stevig2025</i>.</Omschrijving>
 	</ConsistentieOrganischeGrond>
 	<ConsistentieOrganischeGrond>
 		<Waarde>stevig</Waarde>
@@ -34,7 +34,7 @@
 		<Waarde>stevig2025</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>De grond is met stevig knijpen nog juist tussen de vingers door te krijgen. Deze waarde is geldig vanaf <i>NEN_EN_ISO14688d1v2019NEN8990v2025</i>. Deze komt overeen met de waarde <i>matigStevig</i> uit <i>ISO14688d1v2019NEN8990v2020</i> en eerder.</Omschrijving>
+		<Omschrijving>De grond is met stevig knijpen nog juist tussen de vingers door te krijgen. Deze waarde is geldig vanaf <i>NEN_EN_ISO14688d1v2019_NEN8990v2025</i>. Deze komt overeen met de waarde <i>matigStevig</i> uit <i>ISO14688d1v2019NEN8990v2020</i> en eerder.</Omschrijving>
 	</ConsistentieOrganischeGrond>
 	<ConsistentieOrganischeGrond>
 		<Waarde>vast</Waarde>
@@ -46,12 +46,12 @@
 		<Waarde>stijf</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>De grond is ook met stevig knijpen niet tussen de vingers door te krijgen. Deze waarde is geldig vanaf <i>NEN_EN_ISO14688d1v2019NEN8990v2025</i>. Deze waarde komt overeen met de waarde <i>stevig</i> uit <i>ISO14688d1v2019NEN8990v2020</i> en eerder.</Omschrijving>
+		<Omschrijving>De grond is ook met stevig knijpen niet tussen de vingers door te krijgen. Deze waarde is geldig vanaf <i>NEN_EN_ISO14688d1v2019_NEN8990v2025</i>. Deze waarde komt overeen met de waarde <i>stevig</i> uit <i>ISO14688d1v2019NEN8990v2020</i> en eerder.</Omschrijving>
 	</ConsistentieOrganischeGrond>
 		<ConsistentieOrganischeGrond>
 		<Waarde>zeerStijf</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>De grond is nog met de nagel in te drukken. Deze waarde is geldig vanaf <i>NEN_EN_ISO14688d1v2019NEN8990v2025</i>. Deze waarde komt overeen met de waarde <i>vast</i> uit <i>ISO14688d1v2019NEN8990v2020</i> en eerder.</Omschrijving>
+		<Omschrijving>De grond is nog met de nagel in te drukken. Deze waarde is geldig vanaf <i>NEN_EN_ISO14688d1v2019_NEN8990v2025</i>. Deze waarde komt overeen met de waarde <i>vast</i> uit <i>ISO14688d1v2019NEN8990v2020</i> en eerder.</Omschrijving>
 	</ConsistentieOrganischeGrond>
 </domeintabel>
