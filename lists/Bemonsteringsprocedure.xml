@@ -31,10 +31,10 @@
 		<Omschrijving>NEN-EN-ISO 19901-8:2023 Petroleum and natural gas industries — Specific requirements for offshore structures — Part 8: Marine soil investigations is een internationale norm overgenomen als Europese norm (EN-ISO 19901-8:2023) en als Nederlandse norm NEN-EN-ISO 19901-8:2023 Aardolie- en aardgasindustrie - Specifieke eisen voor buitengaatse constructies - Deel 8: Zeebodemonderzoeken. De procedure wordt gebruikt voor booronderzoek op zee en dat is aan de zeezijde van de UNCLOS-basislijn.</Omschrijving>
 	</Bemonsteringsprocedure>
 	<Bemonsteringsprocedure>
-		<Waarde>NEN_EN_ISO22475d1v2021NEN8993v2025</Waarde>
+		<Waarde>NEN_EN_ISO22475d1v2021_NEN8993v2025</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>NEN-EN-ISO 22475-1:2021 Methoden voor monsterneming en grondwatermeting - Deel 1: Technische grondslagen voor de uitvoering + NEN 8993:2025 Geotechnisch onderzoek en beproeving - Bemonstering van bodem, gesteente en grondwater - Deel 1: Technische principes voorde bemonstering van bodem, gesteente en grondwater - Nederlandse aanvulling op NEN-EN-ISO 22475-1.</Omschrijving>
+		<Omschrijving>Combinatie van de volgende normen.<br/><br/><br/>NEN-EN-ISO 22475-1:2021 Methoden voor monsterneming en grondwatermeting - Deel 1: Technische grondslagen voor de uitvoering.<br/><br/><br/>NEN 8993:2025 Geotechnisch onderzoek en beproeving - Bemonstering van bodem, gesteente en grondwater - Deel 1: Technische principes voorde bemonstering van bodem, gesteente en grondwater - Nederlandse aanvulling op NEN-EN-ISO 22475-1.</Omschrijving>
 	</Bemonsteringsprocedure>
 	<Bemonsteringsprocedure>
 		<Waarde>NEN5119</Waarde>
@@ -49,5 +49,3 @@
 		<Omschrijving>Het is niet bekend onder welke afspraken het bemonsteren is uitgevoerd.</Omschrijving>
 	</Bemonsteringsprocedure>
 </domeintabel>
-
-
