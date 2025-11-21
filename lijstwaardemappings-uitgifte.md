@@ -16,7 +16,7 @@ Als een vervallen waarde is vervangen door één nieuwe waarde, dan geeft de lan
   <tr>
     <td><a class="link" href="#detail_class_Model_Bepalingsprocedure">Bepalingsprocedure</a></td>
     <td>ISO14688d2v2019NEN8990v2020</td>
-    <td>ISO14688d2v2019NEN8991v2020</td>
+    <td>ISO14688d2v2019_NEN8991v2020</td>
     <td>2.2</td>
   </tr>
 </table>
