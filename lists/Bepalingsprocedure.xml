@@ -43,7 +43,7 @@
 		<Omschrijving>NEN-ISO 13320:2009 Analyse van de deeltjesgrootteverdeling - Methoden met laserdiffractie beschrijft de procedure voor het bepalen van de korrelgrootteverdeling door middel van laserdiffractie. Een internationale norm geaccepteerd door Nederland.</Omschrijving>
 	</Bepalingsprocedure>
 	<Bepalingsprocedure>
-		<Waarde>ISO13320v2020</Waarde>
+		<Waarde>NEN_ISO13320v2020</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
 		<Omschrijving>NEN-ISO 13320:2020 Analyse van de deeltjesgrootteverdeling - Methoden met laserdiffractie beschrijft de procedure voor het bepalen van de korrelgrootteverdeling door middel van laserdiffractie. Een internationale norm geaccepteerd door Nederland.</Omschrijving>
@@ -247,3 +247,4 @@
 		<Omschrijving>NEN 8992:2025 Geotechnisch onderzoek en beproeving - Aanvullende bepalingen bij internationale en Europese laboratoriumproeven.</Omschrijving>
 	</Bepalingsprocedure>
 </domeintabel>
+
