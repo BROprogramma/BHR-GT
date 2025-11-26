@@ -19,4 +19,16 @@ Als een vervallen waarde is vervangen door één nieuwe waarde, dan geeft de lan
     <td>ISO14688d2v2019_NEN8991v2020</td>
     <td>2.2</td>
   </tr>
+  <tr>
+    <td><a class="link" href="#detail_class_Model_OuderdomAfzetting">OuderdomAfzetting</a></td>
+    <td>prePleistoceenBoom</td>
+    <td>prePleistoceen</td>
+    <td>2.2</td>
+  </tr>
+  <tr>
+    <td><a class="link" href="#detail_class_Model_OuderdomAfzetting">OuderdomAfzetting</a></td>
+    <td>prePleistoceenGeenBoom</td>
+    <td>prePleistoceen</td>
+    <td>2.2</td>
+  </tr>
 </table>
