@@ -79,6 +79,12 @@
 		<Omschrijving>Methode voor het bepalen van de korrelgrootteverdeling. Het materiaal is nat gezeefd over de 63 µm-zeef. De verdeling van de korrels groter dan 63 µm is bepaald door middel van droge zeving.</Omschrijving>
 	</Bepalingsmethode>
 	<Bepalingsmethode>
+		<Waarde>natDroogZevenDynamischeBeeldanalyse</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Methode voor het bepalen van de korrelgrootteverdeling. Het materiaal is nat gezeefd over de 2mm-zeef. De verdeling van de korrels kleiner dan 2 mm is bepaald door middel van dynamische beeldanalyse. De verdeling van de korrels groter dan 2 mm is bepaald door middel van droge zeving.</Omschrijving>
+	</Bepalingsmethode>
+	<Bepalingsmethode>
 		<Waarde>natDroogZevenHydrometer</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
@@ -101,6 +107,12 @@
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
 		<Omschrijving>Methode voor het bepalen van de korrelgrootteverdeling. Het materiaal is nat gezeefd over de 63 µm-zeef. De verdeling van de korrels kleiner dan 63 µm is bepaald met behulp van röntgenstraling. Wanneer de verdeling van de korrels groter dan 63 µm is bepaald is dit gebeurd door middel van droge zeving.</Omschrijving>
+	</Bepalingsmethode>
+		<Bepalingsmethode>
+		<Waarde>NatDroogZevenSedigraaf</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Methode voor het bepalen van de korrelgrootteverdeling. Het materiaal is nat gezeefd over de 63 µm-zeef. De verdeling van de korrels kleiner dan 63 µm is bepaald met behulp een sedigraaf. Wanneer de verdeling van de korrels groter dan 63 µm is bepaald is dit gebeurd door middel van droge zeving.</Omschrijving>
 	</Bepalingsmethode>
 	<Bepalingsmethode>
 		<Waarde>natOxideren</Waarde>
