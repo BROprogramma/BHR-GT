@@ -16,7 +16,7 @@
 		<Waarde>prePleistoceen</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Het deel van de ondergrond dat voor het Pleistoceen is afgezet.</Omschrijving>
+		<Omschrijving>Het deel van de ondergrond dat voor het Pleistoceen is afgezet. De vervallen waarden prePleistoceenBoom en prePleistoceenGeenBoom zijn door samenvoeging opgegaan in deze waarde.</Omschrijving>
 	</OuderdomAfzetting>
 	<OuderdomAfzetting>
 		<Waarde>prePleistoceenBoom</Waarde>
@@ -31,3 +31,4 @@
 		<Omschrijving>Het deel van de ondergrond dat voor het Pleistoceen is afgezet en niet uit klei bestaat die deel uitmaakt van het Laagpakket van Boom van de Rupel Formatie.  Deze waarde is vervallen door samenvoeging met prePleistoceenBoom in de waarde prePleistoceen.</Omschrijving>
 	</OuderdomAfzetting>
 </domeintabel>
+
