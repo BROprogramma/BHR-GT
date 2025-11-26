@@ -36,6 +36,19 @@
 		<IMBROA>v</IMBROA>
 		<Omschrijving>Methode voor het bepalen van de waterdoorlatendheid van verzadigde grond. Er wordt een hydraulische gradiënt aangelegd tussen de bovenkant van het proefstuk en de onderkant en die wordt tijdens de proef constant gehouden. Zodra het debiet niet meer verandert, wordt de meting uitgevoerd. De verzadigde waterdoorlatendheid wordt berekend met de wet van Darcy.</Omschrijving>
 	</Bepalingsmethode>
+		<Bepalingsmethode>
+		<Waarde>constantHeadFlexibleWall</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Methode voor het bepalen van de waterdoorlatendheid van verzadigde grond. Er wordt gebruik gemaakt van een testopstelling met een container met flexibele wanden. Er wordt een hydraulische gradiënt aangelegd tussen de bovenkant van het proefstuk en de onderkant en die wordt tijdens de proef constant gehouden. Zodra het debiet niet meer verandert, wordt de meting uitgevoerd. De verzadigde waterdoorlatendheid wordt berekend met de wet van Darcy.</Omschrijving>
+	</Bepalingsmethode>
+		</Bepalingsmethode>
+		<Bepalingsmethode>
+		<Waarde>constantHeadRigidWall</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Methode voor het bepalen van de waterdoorlatendheid van verzadigde grond. Er wordt gebruik gemaakt van een testopstelling met een container met onbuigzame wanden. Er wordt een hydraulische gradiënt aangelegd tussen de bovenkant van het proefstuk en de onderkant en die wordt tijdens de proef constant gehouden. Zodra het debiet niet meer verandert, wordt de meting uitgevoerd. De verzadigde waterdoorlatendheid wordt berekend met de wet van Darcy.</Omschrijving>
+	</Bepalingsmethode>
 	<Bepalingsmethode>
 		<Waarde>drogen</Waarde>
 		<IMBRO>v</IMBRO>
@@ -53,6 +66,18 @@
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
 		<Omschrijving>Methode voor het bepalen van de waterdoorlatendheid van verzadigde grond. Het monster wordt onder een bepaalde druk in de opstelling geplaatst en van onderaf verzadigd. Er wordt een hydraulische gradiënt aangelegd tussen de bovenkant van het proefstuk en de onderkant en die neemt tijdens de proef af. De tijd die nodig is om een bepaald volume water door het monster te laten stromen wordt gemeten. De verzadigde waterdoorlatendheid wordt berekend met de wet van Darcy.</Omschrijving>
+	</Bepalingsmethode>
+	<Bepalingsmethode>
+		<Waarde>fallingHeadFlexibleWall</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Methode voor het bepalen van de waterdoorlatendheid van verzadigde grond. Er wordt gebruik gemaakt van een testopstelling met een container met flexibele wanden. Het monster wordt onder een bepaalde druk in de opstelling geplaatst en van onderaf verzadigd. Er wordt een hydraulische gradiënt aangelegd tussen de bovenkant van het proefstuk en de onderkant en die neemt tijdens de proef af. De tijd die nodig is om een bepaald volume water door het monster te laten stromen wordt gemeten. De verzadigde waterdoorlatendheid wordt berekend met de wet van Darcy.</Omschrijving>
+	</Bepalingsmethode>
+	<Bepalingsmethode>
+		<Waarde>fallingHeadRigidWall</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Methode voor het bepalen van de waterdoorlatendheid van verzadigde grond. Er wordt gebruik gemaakt van een testopstelling met een container met onbuigzame wanden. Het monster wordt onder een bepaalde druk in de opstelling geplaatst en van onderaf verzadigd. Er wordt een hydraulische gradiënt aangelegd tussen de bovenkant van het proefstuk en de onderkant en die neemt tijdens de proef af. De tijd die nodig is om een bepaald volume water door het monster te laten stromen wordt gemeten. De verzadigde waterdoorlatendheid wordt berekend met de wet van Darcy.</Omschrijving>
 	</Bepalingsmethode>
 	<Bepalingsmethode>
 		<Waarde>getrimdVolumeMeten</Waarde>
@@ -193,3 +218,4 @@
 		<Omschrijving>Methode voor het bepalen van de maximale ongedraineerde schuifsterkte. De zakpenetrometer wordt met de hand met gelijkmatige krachttoename 5 mm in het materiaal gedrukt. Uit de drukkracht wordt de schuifspanning berekend.</Omschrijving>
 	</Bepalingsmethode>
 </domeintabel>
+
