@@ -13,6 +13,12 @@
 		<Omschrijving>De onderste holocene veenlaag liggend op pleistocene afzettingen. Niet op grond van consistentie te onderscheiden van het Hollandveen laagpakket.</Omschrijving>
 	</GeotechnischeAfzettingskarakteristiek>
 	<GeotechnischeAfzettingskarakteristiek>
+		<Waarde>BoomseKlei</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>......</Omschrijving>
+	</GeotechnischeAfzettingskarakteristiek>
+	<GeotechnischeAfzettingskarakteristiek>
 		<Waarde>dekzand</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
@@ -97,3 +103,4 @@
 		<Omschrijving>Grond die het product is van verwerking van onderliggend intact gesteente. Gekenmerkt door naast elkaar voorkomen van brokken onverweerd gesteente en volledig verweerd materiaal, dat als klei, silt of zand wordt beschreven.</Omschrijving>
 	</GeotechnischeAfzettingskarakteristiek>
 </domeintabel>
+
