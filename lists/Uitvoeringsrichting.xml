@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Uitvoeringsrichting>
+		<Waarde>horizontaal</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De test ten behoeve van de bepaling is in horizontale richting uitgevoerd.</Omschrijving>
+	</Uitvoeringsrichting>
+	<Uitvoeringsrichting>
+		<Waarde>verticaal</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De test ten behoeve van de bepaling is in verticale richting uitgevoerd.</Omschrijving>
+	</Uitvoeringsrichting>
+</domeintabel>
