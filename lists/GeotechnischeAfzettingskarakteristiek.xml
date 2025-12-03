@@ -16,7 +16,7 @@
 		<Waarde>BoomseKlei</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>......</Omschrijving>
+		<Omschrijving>Klei die voorkomt in het Laagpakket van Boom en zich kenmerkt door een hoge plasticiteit en slechte doorlatendheid.</Omschrijving>
 	</GeotechnischeAfzettingskarakteristiek>
 	<GeotechnischeAfzettingskarakteristiek>
 		<Waarde>dekzand</Waarde>
@@ -103,4 +103,5 @@
 		<Omschrijving>Grond die het product is van verwerking van onderliggend intact gesteente. Gekenmerkt door naast elkaar voorkomen van brokken onverweerd gesteente en volledig verweerd materiaal, dat als klei, silt of zand wordt beschreven.</Omschrijving>
 	</GeotechnischeAfzettingskarakteristiek>
 </domeintabel>
+
 
