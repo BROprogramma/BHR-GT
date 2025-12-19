@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Uitrolmethode>
+		<Waarde>handmatig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De grond is met de hand uitgerold.</Omschrijving>
+	</Uitrolmethode>
+	<Uitrolmethode>
+		<Waarde>plasticLimitRoller</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De grond is uitgerold door gebruik te maken van een plastic limit-roller.</Omschrijving>
+	</Uitrolmethode>
+</domeintabel>
