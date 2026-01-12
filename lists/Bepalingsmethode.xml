@@ -142,7 +142,7 @@
 		<Waarde>ongetrimdVolumeMeten</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Methode voor het bepalen van de volumieke massa. De volumieke massa is bepaald terwijl het materiaal nog in de monstercontainer zit. Dit gebeurt in het veld. Massa en inhoud van de container zijn bekend. De afmetingen van het met materiaal gevulde deel zijn zo goed mogelijk gemeten. De massa van de container met monster is bepaald met een unster.</Omschrijving>
+		<Omschrijving>Methode voor het bepalen van de volumieke massa. De volumieke massa is bepaald terwijl het materiaal nog in de monstercontainer zit. Dit gebeurt in het veld, waarom de methode ook wel de veldmethode wordt genoemd. Massa en inhoud van de container zijn bekend. De afmetingen van het met materiaal gevulde deel zijn zo goed mogelijk gemeten. De massa van de container met monster is bepaald met een unster. Deze methode is minder nauwkeurig dan andere methoden waarmee de volumieke massa kan worden bepaald.</Omschrijving>
 	</Bepalingsmethode>
 	<Bepalingsmethode>
 		<Waarde>oplossen</Waarde>
@@ -205,6 +205,7 @@
 		<Omschrijving>Methode voor het bepalen van de maximale ongedraineerde schuifsterkte. De zakpenetrometer wordt met de hand met gelijkmatige krachttoename 5 mm in het materiaal gedrukt. Uit de drukkracht wordt de schuifspanning berekend.</Omschrijving>
 	</Bepalingsmethode>
 </domeintabel>
+
 
 
 
