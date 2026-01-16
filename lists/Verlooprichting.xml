@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Verlooprichting>
+		<Waarde>afnemend</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het gehalte is afgenomen gedurende het uitvoeren van de bepaling.</Omschrijving>
+	</Verlooprichting>
+	<Verlooprichting>
+		<Waarde>toenemend</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het gehalte is toegenomen gedurende het uitvoeren van de bepaling.</Omschrijving>
+	</Verlooprichting>
+</domeintabel>
