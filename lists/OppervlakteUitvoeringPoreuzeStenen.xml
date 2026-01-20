@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<OppervlakteUitvoeringPoreuzeStenen>
+		<Waarde>naalden</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Op de poreuze stenen zijn naalden aangebracht.</Omschrijving>
+	</OppervlakteUitvoeringPoreuzeStenen>
+	<OppervlakteUitvoeringPoreuzeStenen>
+		<Waarde>pinnen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Op de poreuze stenen zijn kegelvormige pinnen aangebracht.</Omschrijving>
+	</OppervlakteUitvoeringPoreuzeStenen>
+	<OppervlakteUitvoeringPoreuzeStenen>
+		<Waarde>ribbels</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Op de poreuze stenen zijn ribbels aangebracht.</Omschrijving>
+	</OppervlakteUitvoeringPoreuzeStenen>
+</domeintabel>
