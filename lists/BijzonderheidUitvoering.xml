@@ -76,7 +76,7 @@
 		<Waarde>volumeProefstuk</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Het volume van het proefstuk is kleiner dan de procedure voorschrijft.De waarde is relevant bij triaxiaalproeven (bepaling schuifspanningsverloop bij belasting) en direct simple shearproeven (bepaling schuifspanningsverloop bij horizontale vervorming).</Omschrijving>
+		<Omschrijving>Het volume van het proefstuk is kleiner dan de procedure voorschrijft.<br/>De waarde is relevant bij triaxiaalproeven (bepaling schuifspanningsverloop bij belasting) en direct simple shearproeven (bepaling schuifspanningsverloop bij horizontale vervorming).</Omschrijving>
 	</BijzonderheidUitvoering>
 	<BijzonderheidUitvoering>
 		<Waarde>waterspanningsratio</Waarde>
