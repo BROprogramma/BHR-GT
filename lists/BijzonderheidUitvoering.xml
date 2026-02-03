@@ -34,7 +34,7 @@
 		<Waarde>massaProefstukVloeigrens</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>De massa van het materiaal gebruikt voor de bepaling van de vloeigrens is kleiner dan de procedure voorschrijft.<br/>De waarde is relevant bij het bepalen van de Atterbergse grenzen (bepaling consistentiegrenzen).</Omschrijving>
+		<Omschrijving>De massa van het materiaal gebruikt voor de bepaling van de vloeigrens is kleiner dan de procedure voorschrijft.<br/>De waarde is relevant bij het bepalen van de Atterbergse grenzen (bepaling consistentiegrenzen) en bepaling watergehalte.</Omschrijving>
 	</BijzonderheidUitvoering>
 	<BijzonderheidUitvoering>
 		<Waarde>materiaalVerloren</Waarde>
@@ -64,7 +64,7 @@
 		<Waarde>onverwachtVerloopZetting</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>TODO - Tijdens de proef abnormaal verloop van de zetting door o.a. aanwezigheid van organisch materiaal (takjes).<br/>De waarde is relevant bij samendrukkingsproeven (bepaling zettingseigenschappen).</Omschrijving>
+		<Omschrijving>TODO - Tijdens de proef verliep de zetting abnormaal door o.a. aanwezigheid van organisch materiaal (takjes).<br/>De waarde is relevant bij samendrukkingsproeven (bepaling zettingseigenschappen).</Omschrijving>
 	</BijzonderheidUitvoering>
 	<BijzonderheidUitvoering>
 		<Waarde>onvoldoendeVerzadigd</Waarde>
@@ -94,7 +94,7 @@
 		<Waarde>volumeProefstuk</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Het volume van het proefstuk is kleiner dan de procedure voorschrijft.<br/>De waarde is relevant bij triaxiaalproeven en vrije prismaproeven (bepaling schuifspanningsverloop bij belasting) en direct simple shearproeven (bepaling schuifspanningsverloop bij horizontale vervorming).</Omschrijving>
+		<Omschrijving>Het volume van het proefstuk is kleiner dan de procedure voorschrijft.<br/>De waarde is relevant bij triaxiaalproeven en vrije prismaproeven (bepaling schuifspanningsverloop bij belasting), direct simple shearproeven (bepaling schuifspanningsverloop bij horizontale vervorming) en bepaling volumieke massa.</Omschrijving>
 	</BijzonderheidUitvoering>
 	<BijzonderheidUitvoering>
 		<Waarde>vroegtijdigStoppenProef</Waarde>
