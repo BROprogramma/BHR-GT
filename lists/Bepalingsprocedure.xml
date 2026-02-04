@@ -112,7 +112,7 @@
 		<Waarde>ISO17892d7v2018</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>NEN-EN-ISO 17892-7:2018 Geotechnisch onderzoek en beproeving - Beproeving van grond in het laboratorium - Deel 7: Samendrukkingsproef beschrijft de procedure voor het bepalen van het schuifspanningsverloop met de samendrukkingsproef. Een internationale norm geaccepteerd door Europa en Nederland.</Omschrijving>
+		<Omschrijving>NEN-EN-ISO 17892-7:2018 Geotechnisch onderzoek en beproeving - Beproeving van grond in het laboratorium - Deel 7: Samendrukkingsproef beschrijft de procedure voor het bepalen de onbeklemde druksterkte en is een sterkteproef. Een internationale norm geaccepteerd door Europa en Nederland.</Omschrijving>
 	</Bepalingsprocedure>
 	<Bepalingsprocedure>
 		<Waarde>ISO17892d8v2018</Waarde>
@@ -196,7 +196,7 @@
 		<Waarde>NEN_EN_ISO17892d7v2018_NEN8992v2025</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Combinatie van de volgende normen.<br/><br/><br/>NEN-EN-ISO 17892-7:2018 Geotechnisch onderzoek en beproeving - Beproeving van grond in het laboratorium - Deel 7: Samendrukkingsproef beschrijft de procedure voor het bepalen van het schuifspanningsverloop met de samendrukkingsproef. Een internationale norm geaccepteerd door Europa en Nederland.<br/><br/><br/>NEN 8992:2025 Geotechnisch onderzoek en beproeving - Aanvullende bepalingen bij internationale en Europese laboratoriumproeven. Een internationale norm geaccepteerd door Europa en vertaald in het Nederlands met een Nederlandse aanvulling.</Omschrijving>
+		<Omschrijving>Combinatie van de volgende normen.<br/><br/><br/>NEN-EN-ISO 17892-7:2018 Geotechnisch onderzoek en beproeving - Beproeving van grond in het laboratorium - Deel 7: Samendrukkingsproef beschrijft de procedure voor het bepalen de onbeklemde druksterkte en is een sterkteproef. Een internationale norm geaccepteerd door Europa en Nederland.<br/><br/><br/>NEN 8992:2025 Geotechnisch onderzoek en beproeving - Aanvullende bepalingen bij internationale en Europese laboratoriumproeven. Een internationale norm geaccepteerd door Europa en vertaald in het Nederlands met een Nederlandse aanvulling.</Omschrijving>
 	</Bepalingsprocedure>
 	<Bepalingsprocedure>
 		<Waarde>NEN_EN_ISO17892d8v2018_NEN8992v2025</Waarde>
@@ -247,5 +247,3 @@
 		<Omschrijving>NEN 8992:2025 Geotechnisch onderzoek en beproeving - Aanvullende bepalingen bij internationale en Europese laboratoriumproeven.</Omschrijving>
 	</Bepalingsprocedure>
 </domeintabel>
-
-

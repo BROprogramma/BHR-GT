@@ -187,6 +187,12 @@
 		<Omschrijving>Methode voor het bepalen van het zettingsverloop van grond door het uitvoeren van de samendrukkingsproef. De proef kent een aantal stappen, waarin gedurende een bepaalde tijd een bepaalde druk wordt uitgeoefend op een proefstuk en gemeten hoe snel de hoogte van het proefstuk verandert.</Omschrijving>
 	</Bepalingsmethode>
 	<Bepalingsmethode>
+		<Waarde>samendrukkenOnbeklemd</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Methode voor het bepalen van de onbegrensde druksterkte en een indicatie van de ongedraineerde schuifsterkte van een samenhangend grondmonster door het uitvoeren van de vrije prismaproef (unconfined compression test, UCS). Hierbij wordt het monster zonder zijdelingse opsluiting axiaal tussen drukplaten met een gecontroleerde vervormingssnelheid samengedrukt tot bezwijken en wordt de maximale verticale spanning bepaald.</Omschrijving>
+	</Bepalingsmethode>
+	<Bepalingsmethode>
 		<Waarde>samendrukkenSnelheidgestuurd</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
@@ -227,12 +233,6 @@
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
 		<Omschrijving>Methode voor het bepalen van het kalkgehalte. Het materiaal wordt verhit van 500 tot 900 °C waardoor de koolzure kalk wordt omgezet in calciumoxide. Uit het massaverlies is het gehalte berekend.</Omschrijving>
-	</Bepalingsmethode>
-	<Bepalingsmethode>
-		<Waarde>vrijePrismaProef</Waarde>
-		<IMBRO>v</IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Methode voor het bepalen van de onbegrensde druksterkte en een indicatie van de ongedraineerde schuifsterkte van een samenhangend grondmonster, waarbij het monster zonder zijdelingse opsluiting axiaal tussen drukplaten wordt samengedrukt (met gecontroleerde vervormingssnelheid) tot bezwijken en de maximale verticale spanning wordt bepaald.</Omschrijving>
 	</Bepalingsmethode>
 	<Bepalingsmethode>
 		<Waarde>volumeVoorbepaald</Waarde>
