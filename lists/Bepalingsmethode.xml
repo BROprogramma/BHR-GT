@@ -109,12 +109,6 @@
 		<Omschrijving>Methode voor het bepalen van de korrelgrootteverdeling. Het materiaal is nat gezeefd over de 63µm-zeef. De verdeling van de korrels groter dan 63 µm is bepaald door middel van droge zeving.</Omschrijving>
 	</Bepalingsmethode>
 	<Bepalingsmethode>
-		<Waarde>natDroogZevenDynamischeBeeldanalyse</Waarde>
-		<IMBRO>v</IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Methode voor het bepalen van de korrelgrootteverdeling. Het materiaal is nat gezeefd over de 2mm-zeef. De verdeling van de korrels kleiner dan 2 mm is bepaald door middel van dynamische beeldanalyse. De verdeling van de korrels groter dan 2 mm is bepaald door middel van droge zeving.</Omschrijving>
-	</Bepalingsmethode>
-	<Bepalingsmethode>
 		<Waarde>natDroogZevenHydrometer</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
@@ -247,3 +241,4 @@
 		<Omschrijving>Methode voor het bepalen van de maximale ongedraineerde schuifsterkte. De zakpenetrometer wordt met de hand met gelijkmatige krachttoename 5 mm in het materiaal gedrukt. Uit de drukkracht wordt de schuifspanning berekend.</Omschrijving>
 	</Bepalingsmethode>
 </domeintabel>
+
