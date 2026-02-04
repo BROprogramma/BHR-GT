@@ -130,7 +130,7 @@
 		<Waarde>natDroogZevenLaser</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Methode voor het bepalen van de korrelgrootteverdeling. Het materiaal is nat gezeefd over de 2mm-zeef. De verdeling van de korrels kleiner dan 2 mm is bepaald door middel van laserdiffractie. De verdeling van de korrels groter dan 2 mm is bepaald door middel van droge zeving.</Omschrijving>
+		<Omschrijving>Methode voor het bepalen van de korrelgrootteverdeling. Het materiaal is nat gezeefd over de 2mm-zeef. De verdeling van de korrels kleiner dan 2 mm is bepaald door middel van laserdiffractie. De verdeling van de korrels groter dan 2 mm is bepaald door middel van droge zeving. Deze waarde is vervallen. Reden hiervoor dat de waarde <i>laserdiffractie</i> is opgenomen. Middels het aanleveren van twee korrelgrootteverdelingen is het mogelijk om een combinatie van twee bepalingsmethoden te maken.</Omschrijving>
 	</Bepalingsmethode>
 	<Bepalingsmethode>
 		<Waarde>natDroogZevenPipet</Waarde>
@@ -259,5 +259,6 @@
 		<Omschrijving>Methode voor het bepalen van de maximale ongedraineerde schuifsterkte. De zakpenetrometer wordt met de hand met gelijkmatige krachttoename 5 mm in het materiaal gedrukt. Uit de drukkracht wordt de schuifspanning berekend.</Omschrijving>
 	</Bepalingsmethode>
 </domeintabel>
+
 
 
