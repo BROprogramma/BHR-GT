@@ -61,6 +61,12 @@
 		<Omschrijving>Methode voor het bepalen van de korrelgrootteverdeling. Voor het bepalen van de verdeling van de fractie groter dan 63 µm is droge zeving gebruikt. Deze methode wordt gebruikt wanneer men ervan uitgaat dat er geen fractie kleiner dan 63 µm aanwezig is.</Omschrijving>
 	</Bepalingsmethode>
 	<Bepalingsmethode>
+		<Waarde>dynamischeBeeldanalyse</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Methode voor het bepalen van de korrelgrootteverdeling. Met een camera wordt de grootte van de korrels gemeten. De methode wordt gebruikt voor het bepalen van de fractie kleiner dan 30 mm. </Omschrijving>
+	</Bepalingsmethode>
+	<Bepalingsmethode>
 		<Waarde>extensieGeconsolideerdGedraineerd</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
@@ -103,6 +109,12 @@
 		<Omschrijving>Methode voor het bepalen van het verloop van de schuifspanning in de grond als gevolg van horizontale vervorming onder druk door het uitvoeren van de direct simple shear (DSS) proef. Gedurende een bepaalde tijd wordt met een bepaalde constante snelheid de boven- en onderkant van het proefstuk uit elkaar getrokken en de schuifspanning in het proefstuk wordt bepaald. Tijdens de bepaling wordt het proefstuk op gelijke hoogte gehouden.</Omschrijving>
 	</Bepalingsmethode>
 	<Bepalingsmethode>
+		<Waarde>laserdiffractie</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Methode voor het bepalen van de korrelgrootteverdeling, ook wel bekend als statische lichtverstrooiing. De methode wordt gebruikt voor het bepalen van de fractie kleiner dan 2 mm.</Omschrijving>
+	</Bepalingsmethode>
+	<Bepalingsmethode>
 		<Waarde>natDroogZeven</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
@@ -118,7 +130,7 @@
 		<Waarde>natDroogZevenLaser</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Methode voor het bepalen van de korrelgrootteverdeling. Het materiaal is nat gezeefd over de 2mm-zeef. De verdeling van de korrels kleiner dan 2 mm is bepaald door middel van laserdiffractie. De verdeling van de korrels groter dan 2 mm is bepaald door middel van droge zeving.</Omschrijving>
+		<Omschrijving>Methode voor het bepalen van de korrelgrootteverdeling. Het materiaal is nat gezeefd over de 2mm-zeef. De verdeling van de korrels kleiner dan 2 mm is bepaald door middel van laserdiffractie. De verdeling van de korrels groter dan 2 mm is bepaald door middel van droge zeving. Deze waarde is vervallen. Reden hiervoor dat de waarde <i>laserdiffractie</i> is opgenomen. Middels het aanleveren van twee korrelgrootteverdelingen is het mogelijk om een combinatie van twee bepalingsmethoden te maken.</Omschrijving>
 	</Bepalingsmethode>
 	<Bepalingsmethode>
 		<Waarde>natDroogZevenPipet</Waarde>
@@ -149,6 +161,12 @@
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
 		<Omschrijving>Methode voor het bepalen van de korrelgrootteverdeling. Het materiaal is nat gezeefd over de 63µm-zeef.</Omschrijving>
+	</Bepalingsmethode>
+	<Bepalingsmethode>
+		<Waarde>natZevenHydrometer</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Methode voor het bepalen van de korrelgrootteverdeling. Het materiaal is nat gezeefd over de 63 µm-zeef. De verdeling van de korrels kleiner dan 63 µm is bepaald met een hydrometer.</Omschrijving>	
 	</Bepalingsmethode>
 	<Bepalingsmethode>
 		<Waarde>ongetrimdVolumeMeten</Waarde>
@@ -241,4 +259,6 @@
 		<Omschrijving>Methode voor het bepalen van de maximale ongedraineerde schuifsterkte. De zakpenetrometer wordt met de hand met gelijkmatige krachttoename 5 mm in het materiaal gedrukt. Uit de drukkracht wordt de schuifspanning berekend.</Omschrijving>
 	</Bepalingsmethode>
 </domeintabel>
+
+
 
