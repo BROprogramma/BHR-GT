@@ -52,19 +52,19 @@
 		<Waarde>metingNietConstant</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>TODO - Volumemeting in de tijd is niet constant (stabiel).<br/>De waarde is relevant bij waterdoorlatendheidsproeven (bepaling verzadigde waterdoorlatendheid bij bepaalde droge volumieke massa / bij bepaalde belasting).</Omschrijving>
+		<Omschrijving>TODO - De volumemeting is in de tijd niet constant (stabiel).<br/>De waarde is relevant bij waterdoorlatendheidsproeven (bepaling verzadigde waterdoorlatendheid bij bepaalde droge volumieke massa / bij bepaalde belasting).</Omschrijving>
 	</BijzonderheidUitvoering>
 	<BijzonderheidUitvoering>
 		<Waarde>nazakkenConus</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>De conus is na de bepaling van de indringingsdiepte dieper in het materiaal gezakt.<br/>De waarde is relevant bij valconusproeven (bepaling consistentiegrenzen).</Omschrijving>
+		<Omschrijving>De conus is na de bepaling van de indringingsdiepte dieper in het materiaal gezakt.<br/>De waarde is relevant bij valconusproeven (bepaling maximale ongedraineerde schuifsterkte).</Omschrijving>
 	</BijzonderheidUitvoering>
 	<BijzonderheidUitvoering>
 		<Waarde>onverwachtVerloopZetting</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>TODO - Tijdens de proef verliep de zetting abnormaal door o.a. aanwezigheid van organisch materiaal (takjes).<br/>De waarde is relevant bij samendrukkingsproeven (bepaling zettingseigenschappen).</Omschrijving>
+		<Omschrijving>Tijdens de proef verliep de zetting afwijkend door o.a. de aanwezigheid van organisch materiaal (takjes).<br/>De waarde is relevant bij samendrukkingsproeven (bepaling zettingseigenschappen).</Omschrijving>
 	</BijzonderheidUitvoering>
 	<BijzonderheidUitvoering>
 		<Waarde>onvoldoendeVerzadigd</Waarde>
@@ -100,7 +100,7 @@
 		<Waarde>vroegtijdigStoppenProef</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>TODO - Apparatuur buiten bereik?<br/>De waarde is relevant bij samendrukkingsproeven (bepaling zettingseigenschappen), triaxiaalproeven en vrije prismaproeven (bepaling schuifspanningsverloop bij belasting) en direct simple shearproeven (bepaling schuifspanningsverloop bij horizontale vervorming).</Omschrijving>
+		<Omschrijving>De proef is eerder gestopt dan vooraf is opgelegd of dan de norm voorschrijft door beperkingen van de apparatuur.<br/>De waarde is relevant bij samendrukkingsproeven (bepaling zettingseigenschappen), triaxiaalproeven en vrije prismaproeven (bepaling schuifspanningsverloop bij belasting) en direct simple shearproeven (bepaling schuifspanningsverloop bij horizontale vervorming).</Omschrijving>
 	</BijzonderheidUitvoering>
 	<BijzonderheidUitvoering>
 		<Waarde>waterspanningsratio</Waarde>
@@ -112,6 +112,6 @@
 		<Waarde>zijdelingseVervorming</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>TODO - Tijdens de zettingsproef trad zijdelingse vervorming van het proefstuk op (squeezing), waardoor de spanningsconditie niet langer eendimensionaal was.<br/>De waarde is relevant bij samendrukkingsproeven (bepaling zettingseigenschappen).</Omschrijving>
+		<Omschrijving>Tijdens de zettingsproef trad zijdelingse vervorming van het proefstuk op (squeezing), waardoor de spanningsconditie niet langer eendimensionaal was.<br/>De waarde is relevant bij samendrukkingsproeven (bepaling zettingseigenschappen).</Omschrijving>
 	</BijzonderheidUitvoering>
 </domeintabel>
