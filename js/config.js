@@ -5,8 +5,8 @@ let respecConfig = {
   title: "Basisregistratie Ondergrond Catalogus Overheidsbesluit bodemverontreiniging - Geotechnische boormonsterbeschrijving en boormonsteranalyse",
   //subtitle: "Versie 1.0",
   //-- specStatus is verplicht! (activeer 1 van de volgende) --------------------------
-  specStatus: "wv",                   // Werkversie
-  //specStatus: "cv",               // Consultatieversie
+  //specStatus: "wv",                   // Werkversie
+  specStatus: "cv",               // Consultatieversie
   //specStatus: "vv",               // Versie ter vaststelling
   //specStatus: "def",              // Vastgestelde versie
   //specStatus: "basis",            // Basis Document
