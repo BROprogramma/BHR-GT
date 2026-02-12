@@ -43,12 +43,6 @@
 		<Omschrijving>NEN-ISO 13320:2009 Analyse van de deeltjesgrootteverdeling - Methoden met laserdiffractie beschrijft de procedure voor het bepalen van de korrelgrootteverdeling door middel van laserdiffractie. Een internationale norm geaccepteerd door Nederland.</Omschrijving>
 	</Bepalingsprocedure>
 	<Bepalingsprocedure>
-		<Waarde>NEN_ISO13320v2020</Waarde>
-		<IMBRO>v</IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>NEN-ISO 13320:2020 Analyse van de deeltjesgrootteverdeling - Methoden met laserdiffractie beschrijft de procedure voor het bepalen van de korrelgrootteverdeling door middel van laserdiffractie. Een internationale norm geaccepteerd door Nederland.</Omschrijving>
-	</Bepalingsprocedure>
-	<Bepalingsprocedure>
 		<Waarde>ISO14688d2v2019</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
@@ -145,12 +139,6 @@
 		<Omschrijving>NEN-EN-ISO 17892-1:2022 Geotechnisch onderzoek en beproeving - Beproeving van grond in het laboratorium - Deel 1: Bepaling van het watergehalte beschrijft de procedure voor het bepalen van het watergehalte door middel van drogen. Een internationale norm geaccepteerd door Europa en Nederland.</Omschrijving>
 	</Bepalingsprocedure>
 	<Bepalingsprocedure>
-		<Waarde>NEN_EN_ISO17892d12v2021</Waarde>
-		<IMBRO>v</IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>NEN-EN-ISO 17892-12:2021 Geotechnisch onderzoek en beproeving - Beproeving van grond in het laboratorium - Deel 12: Bepaling van de Atterbergse grenzen beschrijft de procedure voor het bepalen van de consistentiegrenzen, de vloeigrens met behulp van de valconus of volgens de Casagrandemethode en de uitrolgrens door middel van het rollen van een kleistaafje. Een internationale norm geaccepteerd door Europa en Nederland.</Omschrijving>
-	</Bepalingsprocedure>
-	<Bepalingsprocedure>
 		<Waarde>NEN_EN_ISO17892d1v2022_NEN8992v2025</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
@@ -217,10 +205,34 @@
 		<Omschrijving>Combinatie van de volgende normen.<br/><br/><br/>NEN-EN-ISO 17892-11:2019: Geotechnisch onderzoek en beproeving - Beproeving van grond in het laboratorium - Deel 11: Beproeven van de doorlatendheid beschrijft de procedure voor het bepalen van de doorlatendheid. Een internationale norm geaccepteerd door Europa en Nederland.<br/><br/><br/>NEN 8992:2025 Geotechnisch onderzoek en beproeving - Aanvullende bepalingen bij internationale en Europese laboratoriumproeven. Een internationale norm geaccepteerd door Europa en vertaald in het Nederlands met een Nederlandse aanvulling.</Omschrijving>
 	</Bepalingsprocedure>
 	<Bepalingsprocedure>
+		<Waarde>NEN_EN_ISO17892d12v2021</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-EN-ISO 17892-12:2021 Geotechnisch onderzoek en beproeving - Beproeving van grond in het laboratorium - Deel 12: Bepaling van de Atterbergse grenzen beschrijft de procedure voor het bepalen van de consistentiegrenzen, de vloeigrens met behulp van de valconus of volgens de Casagrandemethode en de uitrolgrens door middel van het rollen van een kleistaafje. Een internationale norm geaccepteerd door Europa en Nederland.</Omschrijving>
+	</Bepalingsprocedure>
+	<Bepalingsprocedure>
 		<Waarde>NEN_EN_ISO17892d12v2021_NEN8992v2025</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
 		<Omschrijving>Combinatie van de volgende normen.<br/><br/><br/>NEN-EN-ISO 17892-12:2021 Geotechnisch onderzoek en beproeving - Beproeving van grond in het laboratorium - Deel 12: Bepaling van de Atterbergse grenzen beschrijft de procedure voor het bepalen van de consistentiegrenzen, de vloeigrens met behulp van de valconus of volgens de Casagrandemethode en de uitrolgrens door middel van het rollen van een kleistaafje. Een internationale norm geaccepteerd door Europa en Nederland.<br/><br/><br/>NEN 8992:2025 Geotechnisch onderzoek en beproeving - Aanvullende bepalingen bij internationale en Europese laboratoriumproeven. Een internationale norm geaccepteerd door Europa en vertaald in het Nederlands met een Nederlandse aanvulling.</Omschrijving>
+	</Bepalingsprocedure>
+	<Bepalingsprocedure>
+		<Waarde>NEN_EN_ISO17892d12v2022</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-EN-ISO 17892-12:2022 Geotechnisch onderzoek en beproeving - Beproeving van grond in het laboratorium - Deel 12: Bepaling van de Atterbergse grenzen beschrijft de procedure voor het bepalen van de consistentiegrenzen, de vloeigrens met behulp van de valconus of volgens de Casagrandemethode en de uitrolgrens door middel van het rollen van een kleistaafje. Een internationale norm geaccepteerd door Europa en Nederland.</Omschrijving>
+	</Bepalingsprocedure>
+	<Bepalingsprocedure>
+		<Waarde>NEN_EN_ISO17892d12v2022_NEN8992v2025</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Combinatie van de volgende normen.<br/><br/><br/>NEN-EN-ISO 17892-12:2022 Geotechnisch onderzoek en beproeving - Beproeving van grond in het laboratorium - Deel 12: Bepaling van de Atterbergse grenzen beschrijft de procedure voor het bepalen van de consistentiegrenzen, de vloeigrens met behulp van de valconus of volgens de Casagrandemethode en de uitrolgrens door middel van het rollen van een kleistaafje. Een internationale norm geaccepteerd door Europa en Nederland.<br/><br/><br/>NEN 8992:2025 Geotechnisch onderzoek en beproeving - Aanvullende bepalingen bij internationale en Europese laboratoriumproeven. Een internationale norm geaccepteerd door Europa en vertaald in het Nederlands met een Nederlandse aanvulling.</Omschrijving>
+	</Bepalingsprocedure>
+	<Bepalingsprocedure>
+		<Waarde>NEN_ISO13320v2020</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-ISO 13320:2020 Analyse van de deeltjesgrootteverdeling - Methoden met laserdiffractie beschrijft de procedure voor het bepalen van de korrelgrootteverdeling door middel van laserdiffractie. Een internationale norm geaccepteerd door Nederland.</Omschrijving>
 	</Bepalingsprocedure>
 	<Bepalingsprocedure>
 		<Waarde>NEN_ISO13320v2020_NEN8992v2025</Waarde>
@@ -247,3 +259,4 @@
 		<Omschrijving>NEN 8992:2025 Geotechnisch onderzoek en beproeving - Aanvullende bepalingen bij internationale en Europese laboratoriumproeven.</Omschrijving>
 	</Bepalingsprocedure>
 </domeintabel>
+
