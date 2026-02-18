@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<Totstandkomingswijze>
+	<Bepalingswijze>
 		<Waarde>aangenomen</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>De waarde is tot stand gekomen op basis van een aanname.</Omschrijving>
-	</Totstandkomingswijze>
-		<Totstandkomingswijze>
-		<Waarde>berekende</Waarde>
+		<Omschrijving>De waarde is tot stand gekomen op basis van aanname.</Omschrijving>
+	</Bepalingswijze>
+		<Bepalingswijze>
+		<Waarde>berekend</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
 		<Omschrijving>De waarde is tot stand gekomen door een berekening op basis van beschikbare gegevens.</Omschrijving>
-	</Totstandkomingswijze>
-	<Totstandkomingswijze>
+	</Bepalingswijze>
+	<Bepalingswijze>
 		<Waarde>gemeten</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
 		<Omschrijving>De waarde is tot stand gekomen door het uitvoeren van een meting.</Omschrijving>
-	</Totstandkomingswijze>
+	</Bepalingswijze>
 </domeintabel>
