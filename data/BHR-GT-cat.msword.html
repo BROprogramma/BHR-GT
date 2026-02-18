@@ -6,7 +6,7 @@
                     table.list tbody tr th {background-color: #d3d3d3;}
                     table.list tbody tr th,
                     table.list tbody tr td {border: 1px solid black;}
-                </style></head><body><p>Conceptual model/Geotechnisch booronderzoek (BHR-GT)/20220901</p><p>Imvertor: Nightly-build.0</p><p>Model release: Conceptualmodel-GeotechnischbooronderzoekBHR-GT-2.2-1-20220901-20260218-111812</p><hr><section><h1>Artikel 1 Definitie van registratieobject, entiteiten en attributen</h1><section><h2>Registratieobject</h2><section id="global_class_Model_Registratieobject">
+                </style></head><body><p>Conceptual model/Geotechnisch booronderzoek (BHR-GT)/20220901</p><p>Imvertor: Nightly-build.0</p><p>Model release: Conceptualmodel-GeotechnischbooronderzoekBHR-GT-2.2-1-20220901-20260218-135158</p><hr><section><h1>Artikel 1 Definitie van registratieobject, entiteiten en attributen</h1><section><h2>Registratieobject</h2><section id="global_class_Model_Registratieobject">
                <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th scope="row">Naam</th><td>Booronderzoek</td></tr><tr><th scope="row">Code</th><td>BHR</td></tr><tr><th scope="row">Definitie</th><td>
                         <p>Het geheel van gegevens dat betrekking heeft op een booronderzoek dat vanuit een bepaalde opdracht is uitgevoerd door op een bepaald moment op een bepaalde locatie in Nederland of zijn Exclusieve Economische Zone een boring uit te voeren en de monsters die daarmee uit de ondergrond zijn verkregen te beschrijven en/of te onderzoeken en/of in het boorgat zelf metingen aan de ondergrond uit te voeren.</p>
                      </td></tr><tr><th scope="row">Populatie</th><td>
@@ -5205,8 +5205,9 @@ De bepaling organischestofgehalte wordt uitgevoerd middels de proeven Bepaling v
                         </td></tr><tr><th scope="row">Juridische status</th><td>Authentiek</td></tr><tr><th scope="row">Kardinaliteit</th><td>0..1</td></tr><tr><th scope="row">Domein</th><td></td></tr><tr><th scope="row">&nbsp;&nbsp;Naam</th><td>
                            IndicatieJaNee
                         </td></tr><tr><th scope="row">&nbsp;&nbsp;Type</th><td>Waardelijst niet uitbreidbaar</td></tr><tr><th scope="row">Regels</th><td>
-                           <p>Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>bepalingsmethode</em> gelijk is aan <em>natOxideren</em>.<br clear="none">
-Het attribuut mag niet aanwezig zijn wanneer het attribuut <em>massapercentage lutum</em> niet aanwezig is.</p>
+                           <p>De waarde van het attribuut moet gelijk zijn aan <em>ja</em> wanneer de waarde van het attribuut <em>bepalingsmethode</em> gelijk is aan <em>verhitten500</em> en de waarde van het attribuut <em>bepalingsprocedure</em> gelijk is aan <em>NEN8992v2025</em> en het attribuut <em>massapercentage lutum</em> aanwezig is.<br clear="none">
+Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>bepalingsmethode</em> gelijk is aan <em>natOxideren</em>.<br clear="none">
+                           </p>
                         </td></tr><tr><th scope="row">Toelichting</th><td>
                            <p>De meetresultaten kunnen zijn gecorrigeerd voor het verlies van water dat door kleideeltjes wordt vastgehouden. De correctie is gebaseerd op het aandeel van de fractie 0-2 µm (de lutumfractie) zoals bepaald in de korrelgrootteverdeling.</p>
                         </td></tr></tbody></table>
@@ -5215,14 +5216,16 @@ Het attribuut mag niet aanwezig zijn wanneer het attribuut <em>massapercentage l
                            <p>Het aandeel organische stof in de massa van het materiaal.</p>
                         </td></tr><tr><th scope="row">Juridische status</th><td>Authentiek</td></tr><tr><th scope="row">Kardinaliteit</th><td>0..1</td></tr><tr><th scope="row">Domein</th><td></td></tr><tr><th scope="row">&nbsp;&nbsp;Naam</th><td>Meetwaarde 
                         3.1</td></tr><tr><th scope="row">&nbsp;&nbsp;Eenheid</th><td>% (procent)</td></tr><tr><th scope="row">&nbsp;&nbsp;Waardebereik</th><td>0 tot 100</td></tr><tr><th scope="row">Regels</th><td>
-                           <p>Het attribuut mag niet aanwezig zijn wanneer het attribuut <em>massapercentage lutum</em> niet aanwezig is.</p>
+                           <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>bepalingsprocedure</em> gelijk is aan <em>ISO14688d2v2019</em> of <em>ISO14688d2v2019NEN8990v2020</em>.<br clear="none">
+Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>bepalingsprocedure</em> gelijk is aan <em>ISO14688d2v2019NEN8991v2020</em> of <em>NEN8992v2025</em> en de waarde van het attribuut <em>bepalingsmethode</em> gelijk is aan <em>verhitten500</em> en het attribuut <em>massapercentage lutum</em> aanwezig is.<br clear="none">
+Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>bepalingsprocedure</em> gelijk is aan <em>ISO14688d2v2019NEN8991v2020</em> of <em>NEN8992v2025</em> en de waarde van het attribuut <em>bepalingsmethode</em> gelijk is aan <em>natOxideren</em>.</p>
                         </td></tr></tbody></table>
                </section><section id="detail_attribute_Model_Bepalingorganischestofgehalte_massapercentagelutum"><h4>  massapercentage lutum</h4>
                   <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th scope="row">Type gegeven</th><td>Attribuut van Bepaling organischestofgehalte</td></tr><tr><th scope="row">Definitie</th><td>
                            <p>Het aandeel lutum in de massa van het monster, uitgedrukt in een massapercentage.</p>
                         </td></tr><tr><th scope="row">Juridische status</th><td>Authentiek</td></tr><tr><th scope="row">Kardinaliteit</th><td>0..1</td></tr><tr><th scope="row">Domein</th><td></td></tr><tr><th scope="row">&nbsp;&nbsp;Naam</th><td>Meetwaarde 
                         3.1</td></tr><tr><th scope="row">&nbsp;&nbsp;Eenheid</th><td>% (procent)</td></tr><tr><th scope="row">&nbsp;&nbsp;Waardebereik</th><td>0 tot 100</td></tr><tr><th scope="row">Regels</th><td>
-                           <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>bepalingsprocedure</em> gelijk is aan <em>NEN8992v2025</em> en de waarde van het attribuut <em>bepalingsmethode</em> gelijk is aan <em>verhitten500</em>.<br clear="none">
+                           <p>Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>bepalingsprocedure</em> niet gelijk is aan <em>NEN8992v2025</em> en de waarde van het attribuut <em>bepalingsmethode</em> niet gelijk is aan <em>verhitten500</em>.<br clear="none">
 Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>bepalingsmethode</em> gelijk is aan <em>natOxideren</em>.</p>
                         </td></tr></tbody></table>
                </section><section id="detail_attribute_Model_Bepalingorganischestofgehalte_gloeiverlies"><h4>  gloeiverlies</h4>
@@ -5239,8 +5242,7 @@ Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>bep
                         </td></tr><tr><th scope="row">Juridische status</th><td>Authentiek</td></tr><tr><th scope="row">Kardinaliteit</th><td>0..1</td></tr><tr><th scope="row">Domein</th><td></td></tr><tr><th scope="row">&nbsp;&nbsp;Naam</th><td>
                            IndicatieJaNee
                         </td></tr><tr><th scope="row">&nbsp;&nbsp;Type</th><td>Waardelijst niet uitbreidbaar</td></tr><tr><th scope="row">Regels</th><td>
-                           <p>Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>bepalingsmethode</em> gelijk is aan <em>natOxideren</em>.<br clear="none">
-Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>bepalingsprocedure</em> niet gelijk is aan <em>NEN8992v2025</em>.<br clear="none">
+                           <p>Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>bepalingsmethode</em> niet gelijk is aan <em>verhitten500</em> en de waarde van het attribuut <em>bepalingsprocedure</em> niet gelijk is aan <em>NEN8992v2025</em>.<br clear="none">
                            </p>
                         </td></tr><tr><th scope="row">Toelichting</th><td>
                            <p>De meetresultaten kunnen zijn gecorrigeerd voor het verlies van extra adsorptievocht dat door het gedeelte aan 'vrij ijzer' wordt vastgehouden. De correctie is gebaseerd op 15% van het massagedeelte aan 'vrij ijzer'.</p>
