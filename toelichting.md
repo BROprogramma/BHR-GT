@@ -5,33 +5,33 @@
   
 De catalogus voor het geotechnisch booronderzoek beschrijft de gegevens die in de registratie ondergrond zijn opgenomen van het booronderzoek dat vanuit het vakgebied van de geotechniek is uitgevoerd. De catalogus beschrijft de algemene gegevens van dit booronderzoek samen met de gedetailleerde uitwerking van de gegevens van de boormonsterbeschrijving, en van de gegevens die voortkomen uit het analyseren van boormonsters.
 
-Een booronderzoek is het geheel van gegevens dat betrekking heeft op een specifiek booronderzoek dat op een specifiek moment en op een specifieke locatie in Nederland is uitgevoerd en onder een bepaalde opdracht is uitgevoerd. De belangrijkste gegevens om het onderzoek te preciseren zijn het vakgebied en de uitgevoerde deelonderzoeken.
+Een booronderzoek is het geheel van gegevens dat betrekking heeft op een specifiek booronderzoek dat op een specifiek moment en op een specifieke locatie in Nederland is uitgevoerd en op basis van een bepaalde opdracht is uitgevoerd. De belangrijkste gegevens om het onderzoek te preciseren zijn het vakgebied en de uitgevoerde deelonderzoeken.
 
-Booronderzoek in de basisregistratie ondergrond omvat onderzoek uit vier verschillende vakgebieden. Naast geotechniek zijn dat bodemkunde, geologie en cultuurtechniek. De catalogus voor het registratieobject komt in delen tot stand. Eerst wordt voor ieder vakgebied een catalogus gemaakt. Wanneer de vier catalogi gereed zijn wordt een nieuwe catalogus gemaakt die alle vakgebieden omvat en waarin de ongewenste verschillen zijn weggenomen. Die catalogus geeft een samenhangende beschrijving van het registratieobject booronderzoek.
+Booronderzoek in de BRO omvat onderzoek uit vijf verschillende vakgebieden. Naast geotechniek zijn dat bodemkunde, geologie, cultuurtechniek en toegepaste geologie. De catalogus voor het registratieobject komt in delen tot stand. Eerst wordt voor ieder vakgebied een catalogus gemaakt. Het is de bedoeling om op het moment dat de vijf catalogi gereed zijn een nieuwe catalogus te maken die alle vakgebieden omvat en waarin de ongewenste verschillen zijn weggenomen. Die catalogus geeft een samenhangende beschrijving van het registratieobject booronderzoek.
 
 ## Geotechnisch booronderzoek
 
-Geotechnisch booronderzoek wordt uitgevoerd in het kader van projecten in de grond-, weg- en waterbouw en in de woning- en utiliteitsbouw. Het onderzoek heeft tot doel de opbouw en de eigenschappen van de ondergrond te onderzoeken om de locatie, het ontwerp, de uitvoering of de toestand van bouwwerken te kunnen vaststellen. Het kan een verkennend karakter hebben en dan is het veelal voldoende de opbouw van de ondergrond globaal te bepalen. Vaker wil men precies weten hoe de ondergrond is opgebouwd en uit welk soort materiaal die bestaat en laat men monsters onderzoeken om bepaalde eigenschappen te bepalen om die in allerlei berekeningen te kunnen gebruiken. Het uiteindelijke doel daarbij is bijvoorbeeld het draagvermogen, het zettingsgedrag of de stabiliteit van de ondergrond in algemenere zin te bepalen of aspecten als de erosiebestendigheid.
+Geotechnisch booronderzoek wordt uitgevoerd in het kader van projecten in de grond-, weg- en waterbouw en in de woning- en utiliteitsbouw. Het onderzoek heeft tot doel de opbouw en de eigenschappen van de ondergrond te onderzoeken om de locatie, het ontwerp, de uitvoering of de toestand van bouwwerken te kunnen vaststellen. Het kan een verkennend karakter hebben en dan is het veelal voldoende de opbouw van de ondergrond globaal te bepalen. Vaker wil men precies weten hoe de ondergrond is opgebouwd en uit welk soort materiaal die bestaat en laat men monsters onderzoeken om bepaalde eigenschappen te bepalen om die in allerlei berekeningen te kunnen gebruiken. Het uiteindelijke doel daarbij is om bijvoorbeeld het draagvermogen, het zettingsgedrag, de stabiliteit van de ondergrond in algemenere zin of aspecten als de erosiebestendigheid te bepalen.
 
 De verscheidenheid in geotechnisch booronderzoek is groot. Het wordt zowel op land als op zee uitgevoerd en kan tot wel 150 meter diepte onder maaiveld of waterbodem reiken. In het grootste deel van Nederland bestaat de ondergrond op die diepte uit grond, maar in het zuiden en oosten wordt op bepaalde plaatsen het gesteente bereikt.
 
 Voorts beperkt geotechnisch onderzoek zich niet tot de natuurlijke ondergrond, maar richt het zich ook op grondlichamen die door de mens zijn neergelegd.
 
-Om de informatie die voortkomt uit geotechnisch booronderzoek te kunnen standaardiseren zijn grenzen gesteld aan de verscheidenheid en worden niet alle resultaten of alle vormen van onderzoek in de basisregistratie ondergrond opgenomen. Het accent ligt op standaard geotechnisch booronderzoek. Wat dat inhoudt is in de gegevensdefinitie vastgelegd. Uitgangspunt daarbij is dat de informatie in de basisregistratie ondergrond alleen betrekking heeft op boringen die verticaal bedoeld zijn. Gegevens die niet onder het standaard onderzoek vallen zijn niet opgenomen. Wanneer de grenzen verlegd worden, en dat zal in de toekomst zeker gebeuren, zal de gegevensdefinitie moeten worden aangepast.
+Om de informatie die voortkomt uit geotechnisch booronderzoek te kunnen standaardiseren, zijn grenzen gesteld aan de verscheidenheid en worden niet alle resultaten of alle vormen van onderzoek in de BRO opgenomen. Het accent ligt op standaard geotechnisch booronderzoek. Wat dat inhoudt is in de gegevensdefinitie vastgelegd. Uitgangspunt daarbij is dat de informatie in de BRO alleen betrekking heeft op boringen die verticaal bedoeld zijn. Gegevens die niet onder het standaard onderzoek vallen, zijn niet opgenomen. Wanneer de grenzen verlegd worden, en dat zal in de toekomst zeker gebeuren, zal de gegevensdefinitie moeten worden aangepast.
 
-Geotechnisch booronderzoek is een van de vier soorten booronderzoek in de basisregistratie ondergrond en het komt voor dat booronderzoek vanuit een combinatie van vakgebieden is uitgevoerd. De bijzondere eisen die voor een dergelijke combinatie gelden, worden in de catalogus die voor het booronderzoek in zijn geheel gaat gelden vastgelegd.
+Geotechnisch booronderzoek is een van de vijf soorten booronderzoek in de BRO en het komt voor dat booronderzoek vanuit een combinatie van vakgebieden is uitgevoerd. De bijzondere eisen die voor een dergelijke combinatie gelden, worden in de catalogus die voor het booronderzoek in zijn geheel gaat gelden vastgelegd.
 
-Archeologisch en milieukundig booronderzoek vallen buiten het bereik van de basisregistratie ondergrond. Wanneer geotechnisch onderzoek wordt gecombineerd met archeologisch of milieukundig onderzoek wordt alleen het geotechnische onderzoek in de basisregistratie ondergrond opgenomen. In zo’n geval wordt wel gepreciseerd dat slechts een deel van de resultaten is geregistreerd.
+Archeologisch booronderzoek valt buiten het bereik van de BRO. Milieuhygiënisch booronderzoek maakt binnen de BRO deel uit van het Milieuhygiënisch grondonderzoek. Wanneer geotechnisch onderzoek wordt gecombineerd met archeologisch of milieuhygiënisch onderzoek wordt alleen het geotechnische onderzoek in de BRO opgenomen onder het registratieobject geotechnisch booronderzoek. In zo’n geval wordt wel gepreciseerd dat slechts een deel van de resultaten is geregistreerd.
 
 ## Boren
 
-Booronderzoek omvat vormen van onderzoek die ermee beginnen dat de ondergrond door boren wordt ontsloten. Wat onder boren moet worden verstaan is in verreweg de meeste gevallen triviaal, het is het maken van een gat met behulp van een apparaat dat we een boor noemen. In de definities wordt duidelijk dat er ook andere manieren zijn om een gat in de ondergrond te maken en die worden gemakshalve toch tot het boren gerekend. Er worden ook gaten in de ondergrond gemaakt met afwijkende methoden die buiten het bereik van deze catalogus vallen. Dat zijn allemaal methoden die op water worden gebruikt en die tot doel hebben een hap uit de waterbodem te nemen. Apparaten die daarvoor gebruikt worden zijn bijvoorbeeld de boxcorer en de Van Veen-bodemhapper. Onderzoek dat gebaseerd is op dergelijke technieken valt buiten het bereik van de basisregistratie ondergrond en de reden daarvoor is dat de resultaten een zeer geringe waarde voor hergebruik hebben, omdat de diepte van het bemonsterde interval niet goed bepaald is en de waterbodem binnen korte tijd kan veranderen.
+Booronderzoek omvat vormen van onderzoek die ermee beginnen dat de ondergrond door boren wordt ontsloten. Wat onder boren moet worden verstaan, is in verreweg de meeste gevallen triviaal, het is het maken van een gat met behulp van een apparaat dat we een boor noemen. In de definities wordt duidelijk dat er ook andere manieren zijn om een gat in de ondergrond te maken en die worden gemakshalve toch tot het boren gerekend. Er worden ook gaten in de ondergrond gemaakt met afwijkende methoden die buiten het bereik van deze catalogus vallen. Dat zijn allemaal methoden die op water worden gebruikt en die tot doel hebben een hap uit de waterbodem te nemen. Apparaten die daarvoor gebruikt worden zijn bijvoorbeeld de boxcorer en de Van Veen-bodemhapper. Onderzoek dat gebaseerd is op dergelijke technieken valt buiten het bereik van de BRO en de reden daarvoor is dat de resultaten een zeer geringe waarde voor hergebruik hebben, omdat de diepte van het bemonsterde interval niet goed bepaald is en de waterbodem binnen korte tijd kan veranderen.
 
 ## Kwaliteit van monsters
 
-De gegevens over de opbouw en de eigenschappen van de ondergrond die uit geotechnisch booronderzoek voortkomen, zijn gebaseerd op monsters die uit de ondergrond genomen zijn. Voor het hergebruik van de gegevens is het van belang te weten in welke mate de monsters waarop de waarnemingen en metingen zijn gebaseerd representatief geacht kunnen worden voor de situatie in-situ. Anders gezegd, voor hergebruik is het van belang de kwaliteit van de monsters vast te leggen.
+De gegevens over de opbouw en de eigenschappen van de ondergrond die uit geotechnisch booronderzoek voortkomen, zijn, op de boorgatlogging na, gebaseerd op monsters die uit de ondergrond genomen zijn. Voor het hergebruik van de gegevens is het van belang te weten in welke mate de monsters waarop de waarnemingen en metingen zijn gebaseerd representatief geacht kunnen worden voor de situatie in-situ. Anders gezegd, voor hergebruik is het van belang de kwaliteit van de monsters vast te leggen.
 
-e kwaliteit van de monsters is van een groot aantal factoren afhankelijk: hoe er geboord is, hoe de monsters genomen zijn, met wat voor apparaat, hoe de monsters boven de grond zijn behandeld, getransporteerd en opgeslagen. De gegevens over het boren, bemonsteren en de relevante specificaties van het apparaat zijn in deze catalogus opgenomen. Die gegevens bepalen het maximaal te bereiken kwaliteitsniveau. Om die kwaliteit in het verdere proces te kunnen behouden, zijn binnen het werkveld procedures opgesteld. Monsters worden ingedeeld in categorieën en voor iedere categorie is vastgelegd hoe de monsters behandeld moeten worden vanaf het moment dat ze boven de grond zijn gekomen. In de catalogus wordt verwezen naar die procedures. In hoeverre de kwaliteit op het moment dat de monsters worden beschreven of geanalyseerd afwijkt van de initiële kwaliteit, wordt vastgelegd als onderdeel van het onderzoek.
+De kwaliteit van de monsters is van een groot aantal factoren afhankelijk: hoe er geboord is, hoe de monsters genomen zijn, met wat voor apparaat, hoe de monsters boven de grond zijn behandeld, getransporteerd en opgeslagen. De gegevens over het boren, bemonsteren en de relevante specificaties van het apparaat zijn in deze catalogus opgenomen. Die gegevens bepalen het maximaal te bereiken kwaliteitsniveau. Om die kwaliteit in het verdere proces te kunnen behouden, zijn binnen het werkveld procedures opgesteld. Monsters worden ingedeeld in categorieën en voor iedere categorie is vastgelegd hoe de monsters behandeld moeten worden vanaf het moment dat ze boven de grond zijn gekomen. In de catalogus wordt verwezen naar die procedures. In hoeverre de kwaliteit op het moment dat de monsters worden beschreven of geanalyseerd afwijkt van de initiële kwaliteit, wordt vastgelegd als onderdeel van het onderzoek.
 
 De eisen die een gebruiker van de basisregistratie aan de gegevens over de kwaliteit van monsters stelt worden vooral bepaald door het detail dat hij zoekt. Wil de gebruiker een globaal inzicht in de opbouw van de ondergrond verkrijgen, dan zal het voldoende zijn te weten of de monsters geroerd of ongeroerd zijn. Wil een geotechnisch adviseur gegevens uit de boormonsteranalyse gebruiken in berekeningen, dan zal hij de details willen kennen om de waarde van een gegeven te kunnen bepalen.
 
@@ -46,17 +46,17 @@ Geotechnisch booronderzoek omvat gewoonlijk drie van de vier deelonderzoeken die
 	</figcaption>
 </figure>
 
-In de boormonsterbeschrijving wordt het materiaal dat uit de ondergrond naar boven is gehaald, beschreven op een manier die inzicht geeft in de opbouw van de ondergrond en de globale eigenschappen ervan. In het laboratorium worden allerlei proeven uitgevoerd om de samenstelling en een grote verscheidenheid aan eigenschappen nauwkeurig te bepalen. De verscheidenheid aan bepalingen is groot en iedere bepaling vraagt een eigen definitie. Dat vergt tijd en om die reden wordt de standaardisatie van boormonsteranalyse in twee fasen gerealiseerd.
+In de boormonsterbeschrijving wordt het materiaal dat uit de ondergrond naar boven is gehaald, beschreven op een manier die inzicht geeft in de opbouw van de ondergrond en de globale eigenschappen ervan. In het laboratorium worden allerlei proeven uitgevoerd om de samenstelling en een grote verscheidenheid aan eigenschappen nauwkeurig te bepalen. De verscheidenheid aan bepalingen is groot en iedere bepaling vraagt een eigen definitie. Dat vergt tijd en om die reden wordt de standaardisatie van boormonsteranalyse in twee fasen gerealiseerd waarbij voorlopig de focus is gelegd op nieuw geproduceerde gegevens en archiefgegevens buiten scope zijn.
 
 ## Verandering in de beschrijfprocedure van grond
 
-Sinds 2017 is onder verantwoordelijkheid van NEN gewerkt aan een Nederlandse annex op NEN-EN-ISO 14688-1. Dat deel van de norm gaat over de identificatie van grond en vervangt binnen de wereld van de geotechniek NEN 5104. De verandering is groot omdat er op een manier naar grond wordt gekeken die wezenlijk anders is dan wat gebruikelijk was. In NEN-EN-ISO 14688-1 is de identificatie van grond geheel en al gebaseerd op visuele en tactiele waarneming, op zien en voelen. Bij het voelen staan de aspecten centraal die over het gedrag van grond gaan.
+Sinds 2017 is onder verantwoordelijkheid van NEN gewerkt aan een Nederlandse annex op NEN-EN-ISO 14688-1. In 2020 is deze annex verheven tot NEN 8990 die gekoppeld is aan NEN-EN-ISO 14688-1. Dat deel van de norm gaat over de identificatie van grond en vervangt binnen de wereld van de geotechniek NEN 5104. De verandering is groot omdat er op een manier naar grond wordt gekeken die wezenlijk anders is dan wat gebruikelijk was. In NEN-EN-ISO 14688-1 is de identificatie van grond geheel en al gebaseerd op visuele en tactiele waarneming, op zien en voelen. Bij het voelen staan de aspecten centraal die over het gedrag van grond gaan.
 
 De oude NEN 5104 was eerder een classificatiesysteem waarmee het mogelijk was een willekeurig mengsel precies te benoemen wanneer het gehalte aan grind, zand, silt, lutum en organische stof nauwkeurig was bepaald. Die benadering werkt prima wanneer de gehaltes werkelijk gemeten zijn door proeven uit te voeren. Om de benadering toe te passen bij het beschrijven van monsters gebaseerd op alleen zintuigelijke waarneming, moesten referentiemonsters waarvan de samenstelling door metingen was bepaald gebruikt worden. Dat bleef in de praktijk dikwijls achterwege. Bovendien kende de methode bezwaren van meer fundamentele aard, waardoor al lange tijd werd ervaren dat de norm niet meer goed aansloot op de eisen van het geotechnisch werkveld.
 
 ## Gevolgen van de verandering
 
-In de basisregistratie ondergrond kunnen niet alleen beschrijvingen die onder NEN-EN-ISO 14688-1 zijn gemaakt, maar ook beschrijvingen die onder NEN 5104 zijn gemaakt worden geregistreerd. De verandering in de methode van beschrijven maakt dat het verschil tussen een boormonsterbeschrijving die onder NEN 5104 tot stand is gekomen en een die onder NEN-EN-ISO 14688 is gemaakt groot is. Onder NEN 5104 worden minder gegevens vastgelegd, is de samenhang minder strikt geborgd en kan de betekenis van gegevens anders zijn. Sommige gegevens kunnen alleen bestaan onder NEN 5104, andere gegevens kunnen juist niet bestaan onder die norm. Een ander verschil is dat de nieuwe methode een strikt onderscheid maakt tussen gegevens die uit het beschrijven en de gegevens die uit het meten voortkomen. In het verleden was dat niet het geval met als gevolg dat niet altijd duidelijk is waarop de gegevens van een oude beschrijving berusten.
+In de BRO kunnen niet alleen beschrijvingen die onder NEN-EN-ISO 14688-1 zijn gemaakt, maar ook beschrijvingen die onder NEN 5104 zijn gemaakt, worden geregistreerd. De verandering in de methode van beschrijven maakt dat het verschil tussen een boormonsterbeschrijving die onder NEN 5104 tot stand is gekomen en een die onder NEN-EN-ISO 14688-1 tot stand is gekomen, groot is. Onder NEN 5104 worden minder gegevens vastgelegd, is de samenhang minder strikt geborgd en kan de betekenis van gegevens anders zijn. Sommige gegevens kunnen alleen bestaan onder NEN 5104, andere gegevens kunnen juist niet bestaan onder die norm. Een ander verschil is dat de nieuwe methode een strikt onderscheid maakt tussen gegevens die uit het beschrijven en de gegevens die uit het meten voortkomen. In het verleden was dat niet het geval met als gevolg dat niet altijd duidelijk is waarop de gegevens van een oude beschrijving berusten.
 
 Overigens valt een boormonsterbeschrijving die onder NEN 5104 tot stand is gekomen per definitie onder booronderzoek met kwaliteitsregime IMBRO/A.
 
@@ -68,9 +68,10 @@ Hoewel het meeste geotechnisch booronderzoek zich richt op grond, kan het ook be
 
 ## Booronderzoek
 
-Deze entiteit draagt de naam van het registratieobject zelf en bevat de gegevens die het booronderzoek identificeren en allerlei administratieve gegevens die betrekking hebben op onder meer de herkomst van het onderzoek in de registratie. Zo geeft de entiteit informatie over het doel waarvoor het onderzoek is uitgevoerd (kader inwinning), en de grondslag voor de verplichting tot aanlevering (kader aanlevering).
+Deze entiteit draagt de naam van het registratieobject zelf en bevat de gegevens die het booronderzoek identificeren en allerlei administratieve gegevens die betrekking hebben op onder meer de herkomst van het onderzoek in de registratie. Zo geeft de entiteit informatie over het doel waarvoor het onderzoek is uitgevoerd (kader inwinning) en de grondslag voor de verplichting tot aanlevering (kader aanlevering).
 
-Booronderzoek begint eigenlijk altijd met activiteiten in het veld en die worden in bepaalde gevallen gevolgd door activiteiten binnenshuis, veelal in een laboratorium. Er is maar een geval waarin er geen werkzaamheden in het veld worden uitgevoerd en dat is wanneer booronderzoek gebruik maakt van de resultaten uit eerder veldwerk of uit veldwerk dat voor een andere opdrachtgever is uitgevoerd.<a href="#voetnoot1" style="position: relative; top: -0.5em; font-size: 80%;">noot</a>
+Booronderzoek begint eigenlijk altijd met activiteiten in het veld en die worden in bepaalde gevallen gevolgd door activiteiten binnenshuis, veelal in een laboratorium. Er is maar één geval waarin er geen werkzaamheden in het veld worden uitgevoerd en dat is wanneer booronderzoek gebruikmaakt van de resultaten uit eerder veldwerk of uit veldwerk dat voor een andere opdrachtgever is uitgevoerd.
+<a href="#voetnoot1" style="position: relative; top: -0.5em; font-size: 80%;">noot</a>
 
 <div class="note" role="note" id="voetnoot1">
 <div role="heading" class="note-title marker" id="h-note" aria-level="5"></div>
@@ -85,6 +86,10 @@ De registratiegeschiedenis van een booronderzoek geeft de essentie van de geschi
 
 De bronhouder beslist of hij de resultaten van een booronderzoek in delen of in hun geheel gerapporteerd wil krijgen. Wanneer een rapport dat onder de wettelijke verplichtingen valt door de bronhouder is geaccepteerd, wordt het ter registratie aan de landelijke voorziening aangeboden. De rapportagegeschiedenis geeft de essentie van het verloop van de rapportage en vormt de zgn. materiële geschiedenis van het object booronderzoek.
 
+## Terreintoestand
+
+Voor, tijdens of direct na het boren kunnen in het veld waarnemingen worden gedaan die deel uitmaken van het booronderzoek. Die waarnemingen hebben betrekking op de toestand van het terrein. Dat begrip wordt in nogal ruime zin opgevat en dekt alle gegevens die vastgelegd worden om een goed begrip te krijgen van de ruimtelijke context waarbinnen het onderzoek is uitgevoerd.
+
 ## Boring
 
 De kernactiviteit in het veld is het maken van het gat, de boring. Voor het onderzoek is het van het grootste belang de gegevens vast te leggen die van invloed zijn op de uiteindelijke resultaten van het onderzoek. Daarnaast betekent boren dat men de toestand van de ondergrond verandert. Om de gevolgen van die ingreep later te kunnen beoordelen is het van belang te weten hoe men de ondergrond heeft achtergelaten.
@@ -93,11 +98,11 @@ Aan het maken van een boorgat kunnen voorbereidende werkzaamheden zijn voorafgeg
 
 Bij het boren gebruikt men een bepaalde techniek om het apparaat dat men gekozen heeft de grond in te drijven. Bij verkennend onderzoek dat zich tot geringe diepte beperkt boort men vaak met de hand, voor ander onderzoek gebeurt dat veelal mechanisch. Tijdens het boren kan men herhaaldelijk van techniek wisselen, en voor een goed begrip van de onderzoeksresultaten is het van belang te weten welk deel van de ondergrond met welke techniek is doorboord (Geboord interval).
 
-Wanneer men tevoren weet dat men in gesteente gaat boren wordt ook de Boorsnelheid vastgelegd. Die geeft namelijk informatie over de opbouw van de ondergrond.
+Wanneer men tevoren weet dat men in gesteente gaat boren, wordt ook de Boorsnelheid vastgelegd. Die geeft namelijk informatie over de opbouw van de ondergrond.
 
 Het doel van het boren is dat er monsters uit de ondergrond worden gehaald. Dat kan op allerlei manieren gebeuren en tijdens het boren kan men herhaaldelijk van manier wisselen (Bemonsterd interval).
 
-Heeft men kernen genomen in gesteente dan wordt ook de opbrengst van het gekernde traject vastgelegd (Kernopbrengst).
+Heeft men kernen genomen in gesteente, dan wordt ook de opbrengst van het gekernde traject vastgelegd (Kernopbrengst).
 
 Tijdens het boren kan men constateren dat er in bepaalde intervallen sporen van verontreiniging voorkomen (Verontreinigd interval) en dat wordt dan vastgelegd om latere gebruikers te kunnen informeren.
 
@@ -105,7 +110,7 @@ Wanneer men ten slotte klaar is met boren kan het ontstane gat op een bepaalde m
 
 ## Bemonsteringsapparaat
 
-In het geval men monsters gestoken of gekernd heeft worden ook specificaties vastgelegd van het apparaat dat daarvoor gebruikt is. In <a href ="#bemonsteringsapparaat1"></a> en <a href ="#bemonsteringsapparaat2"></a> wordt geïllustreerd wat de belangrijkste kenmerken zijn.
+In het geval dat men monsters heeft gestoken of gekernd, worden ook specificaties vastgelegd van het apparaat dat daarvoor is gebruikt. In <a href ="#bemonsteringsapparaat1"></a> en <a href ="#bemonsteringsapparaat2"></a> wordt geïllustreerd wat de belangrijkste kenmerken zijn.
 
 <figure id='bemonsteringsapparaat1'>
 	<img src="./media/Bemonsteringsapparaat1.png" alt="Bemonsteringsapparaat" width="500"/>
@@ -120,10 +125,6 @@ In het geval men monsters gestoken of gekernd heeft worden ook specificaties vas
 		Het bemonsteringsapparaat: (a) een apparaat met een afschroefbare steekmond en een vanger en (b) een zelfde apparaat maar dan met een variabele diameter en een container die voorzien is van een liner. De letter l geeft de lengte van de container aan, d1 de doorgangsdiameter, d2 de diameter van de steekmond en d3  de diameter van de container.
 	</figcaption>
 </figure>
-
-## Terreintoestand
-
-Voor, tijdens of direct na het boren kunnen in het veld waarnemingen worden gedaan die deel uitmaken van het booronderzoek. Die waarnemingen hebben betrekking op de toestand van het terrein. Dat begrip wordt in nogal ruime zin opgevat en dekt alle gegevens die vastgelegd worden om een goed begrip te krijgen van de ruimtelijke context waarbinnen het onderzoek is uitgevoerd.
 
 ## Sliblaag
 
@@ -141,7 +142,7 @@ Een boorprofiel is een resultaat van de boormonsterbeschrijving en beschrijft de
 
 Een boorprofiel heeft een bepaalde beschrijfkwaliteit. Onder NEN 5104 heeft dat begrip eigenlijk geen onderscheidende waarde, omdat er altijd maar een profiel is. De kwaliteit daarvan wordt niet gespecificeerd omdat gewoonlijk niet meer te achterhalen is waarop de gegevens precies zijn gebaseerd.
 
-Onder NEN-EN-ISO 14688-1 heeft het begrip beschrijfkwaliteit wel onderscheidende waarde. Het betekent dat de kwaliteit van de monsters waarop de beschrijving gebaseerd is en de mate van detail in de beschrijving over het hele profiel vergelijkbaar zijn. <a href ="#boorprofielen"></a> illustreert het geval waarin een booronderzoek twee boorprofielen oplevert.
+Onder NEN-EN-ISO 14688-1 heeft het begrip beschrijfkwaliteit wel onderscheidende waarde. Het betekent dat de kwaliteit van de monsters (die gerelateerd is aan de boor- en bemonsteringsmethode) waarop de beschrijving gebaseerd is en de mate van detail in de beschrijving over het hele profiel vergelijkbaar zijn. <a href ="#boorprofielen"></a> illustreert het geval waarin een booronderzoek twee boorprofielen oplevert. Deze opsplitsing geeft de relatie van de monsterkwaliteit en de beschrijfkwaliteit juist weer en kan bij de boorprofielen een overlap in de beschreven trajecten in zich hebben. Het is daarbij aan de gebruiker hoe hij deze informatie wil vertalen.
 
 <figure id='boorprofielen'>
 	<img src="./media/BHR_GT_boorprofiel.png" alt="boorprofielen" width="600"/>
@@ -150,15 +151,17 @@ Onder NEN-EN-ISO 14688-1 heeft het begrip beschrijfkwaliteit wel onderscheidende
 
 Een geval waarin een boormonsterbeschrijving NEN-EN-ISO 14688-1 twee boorprofielen oplevert is wanneer op een bepaalde plaats een boring is gezet die op twee manieren bemonsterd is. Over het hele boortraject zijn monsters met een relatief lage kwaliteit, geroerde monsters, genomen. Daarnaast zijn van bepaalde dieptes monsters met een hoge kwaliteit, ongeroerde monsters, verkregen. Het verschil in kwaliteit is zo groot dat de monsters apart beschreven moeten worden. In het eerste geval ontstaat een continu profiel, in het tweede een discontinu profiel.
 
-Een derde profiel is nodig wanneer bovendien een deel van de monsters, gewoonlijk uit het bovenste deel van de ondergrond, beschreven is onder de eisen die aan verkennend onderzoek zijn gesteld. Die eisen zijn laag en dekken maar een deel van  kenmerken.
+Een derde profiel is nodig wanneer bovendien een deel van de monsters, gewoonlijk uit het bovenste deel van de ondergrond, beschreven is onder de eisen die aan verkennend onderzoek zijn gesteld. Die eisen zijn laag en dekken maar een deel van kenmerken.
+
+In de gevallen dat er bij een booronderzoek meer onderscheid aangebracht wordt in de mate van detail waarin beschreven wordt, kan de boormonsterbeschrijving uit maximaal vijf boorprofielen bestaan.
 
 Het uitgangspunt is in alle gevallen dat het boorprofiel alle met een bepaalde kwaliteit bemonsterde intervallen dekt en het hele traject compleet in lagen is beschreven. Het kan echter zijn dat dit niet gelukt is, bijvoorbeeld omdat er per ongeluk een monster verdwenen is. De intervallen die niet beschreven konden worden, worden expliciet in het profiel opgenomen (Niet-beschreven interval) en de reden waarom het niet beschreven is wordt vastgelegd.
 
 ## Laag
 
-De belangrijkste entiteiten in een boorprofiel zijn de lagen. Iedereen die de ondergrond beschrijft beschouwt de ondergrond als opgebouwd uit lagen. De dikte daarvan varieert met de schaal waarop men de ondergrond wil beschrijven. In de beschrijving van boormonsters zou men de doorsnijding kunnen waarnemen van lagen met de dikte die varieert van een millimeter tot tientallen meters.
+De belangrijkste entiteiten in een boorprofiel zijn de lagen. Iedereen die de ondergrond beschrijft, beschouwt de ondergrond als opgebouwd uit lagen welke bestaan uit grond, bijzonder materiaal of gesteente. De dikte van een laag varieert met de schaal waarop men de ondergrond wil beschrijven en hangt samen met de wijze van boren en bemonsteren. In de beschrijving van boormonsters zou men de doorsnijding kunnen waarnemen van lagen met de dikte die varieert van een millimeter tot tientallen meters.
 
-De praktijk is anders. De lagen in het boorprofiel zijn niet altijd waargenomen lagen of de doorsnijding daarvan. Vaak zijn het beschrijfeenheden en dat zijn in zekere zin artefacten omdat ze het resultaat zijn van de procedurele afspraken die in NEN-EN-ISO 14688 zijn vastgelegd. Daarin is de minimale dikte van een laag in de beschrijving op 2 cm gesteld en de maximale op 100 cm.
+De praktijk is anders. De lagen in het boorprofiel zijn niet altijd waargenomen lagen of de doorsnijding daarvan. Vaak zijn het beschrijfeenheden en dat zijn in zekere zin artefacten omdat ze het resultaat zijn van de procedurele afspraken die in NEN-EN-ISO 14688-1 zijn vastgelegd. Daarin is de minimale dikte van een laag in de beschrijving op 2 cm gesteld en de maximale op 100 cm.
 
 Onder NEN 5104 is niet vastgelegd op welke wijze de grenzen van lagen zijn bepaald. Ook zijn er geen beperkingen gesteld aan de laagdikte. Veiligheidshalve zou men de lagen die onder NEN 5104 beschreven zijn, altijd moeten beschouwen als beschrijfeenheden.
 
@@ -193,13 +196,13 @@ In sommige gevallen vereist een bepaling een niet verstoord monster. Het deel da
 <figure id='onderzocht-interval'>
 	<img src="./media/Onderzochtinterval.png" alt="Onderzochtinterval" width="600"/>
 	<figcaption>
-		Van een niet verstoord boormonster worden twee intervallen geanalyseerd. In het bovenste van de twee wordt een ring gestoken en het materiaal in de ring vormt het proefstuk dat wordt onderzocht; er blijft voldoende materiaal over om het materiaal op normale wijze te beschrijven. Van het monster dat het onderste interval omvat, worden de boven- en onderkant afgesneden. Het resterende proefstuk gaat in zijn geheel worden onderzocht; het materiaal kan niet op de normale wijze worden beschreven en blijft buiten de boormonsterbeschrijving. In bepaalde gevallen worden de afsnijdsels wel gebruikt voor aanvullende bepalingen.
+		Van een niet verstoord boormonster worden twee intervallen geanalyseerd. In het bovenste van de twee wordt een ring gestoken en het materiaal in de ring vormt het proefstuk dat wordt onderzocht; er blijft voldoende materiaal over om het materiaal op normale wijze te beschrijven. Van het monster dat het onderste interval omvat, worden de boven- en onderkant afgesneden. Het resterende proefstuk wordt in zijn geheel onderzocht; het materiaal kan niet op de normale wijze worden beschreven en blijft buiten de boormonsterbeschrijving. In bepaalde gevallen worden de afsnijdsels wel gebruikt voor aanvullende bepalingen.
 	</figcaption>
 </figure>
 
 Welke bepalingen er zijn uitgevoerd, wordt voor ieder interval vastgelegd. Het gaat om een aantal basisparameters die op de toestand of de samenstelling van het materiaal betrekking hebben, en om de zettingseigenschappen, maximale ongedraineerde schuifsterkte, schuifspanningsverloop bij belasting en schuifspanningsverloop bij horizontale vervorming, consistentiegrenzen en korrelgrootteverdeling en verzadigde waterdoorlatendheid.
 
-Iedere bepaling die als onderdeel van de boormonsteranalyse wordt uitgevoerd, is aan een bepaalde procedure onderworpen en wordt volgens een bepaalde methode uitgevoerd. Wanneer er in de uitvoering keuzen worden gemaakt die voor de gebruiker van de gegevens relevant kan zijn, worden die vastgelegd. Datzelfde geldt voor de eventuele bijzonderheden die zich tijdens de uitvoering voordoen of die men na afloop constateert door het materiaal te bekijken.
+Iedere bepaling die als onderdeel van de boormonsteranalyse wordt uitgevoerd, is aan een bepaalde procedure onderworpen en wordt volgens een bepaalde methode uitgevoerd. Wanneer er in de uitvoering keuzen worden gemaakt die voor de gebruiker van de gegevens relevant kunnen zijn, worden die vastgelegd. Datzelfde geldt voor de eventuele bijzonderheden die zich tijdens de uitvoering voordoen of die men na afloop constateert door het materiaal te bekijken.
 
 ## Onderzocht materiaal
 
@@ -268,7 +271,7 @@ Tijdens de belastingfase laat men het proefstuk onder verticale druk vervormen d
 
 Het schuifspanningsverloop kan ook bepaald worden door een proefstuk onder horizontale druk te vervormen. Het schuifspanningsverloop wordt bepaald van cohesieve grond en stelt dezelfde eisen aan een proefstuk als bij de bepaling bij belasting.
 
-Het proefstuk wordt altijd heel precies tot een cilinder gevormd, tussen twee poreuze stenen in een waterdicht membraan verpakt en dan in metalen ringen in een DSS-apparaat geplaatst (<a href ="#DSS-apparaat"></a>). De afkorting staat voor direct simple shear. De metalen ringen zorgen er voor dat het proefstuk tijdens de bepaling niet lateraal kan vervormen. In plaats van ringen kan ook een met ijzerdraad verstevigd membraan worden gebruikt.
+Het proefstuk wordt altijd heel precies tot een cilinder gevormd, tussen twee poreuze stenen in een waterdicht membraan verpakt en dan in metalen ringen in een DSS-apparaat geplaatst (<a href ="#DSS-apparaat"></a>). De afkorting staat voor direct simple shear. De metalen ringen zorgen ervoor dat het proefstuk tijdens de bepaling niet lateraal kan vervormen. In plaats van ringen kan ook een met ijzerdraad verstevigd membraan worden gebruikt.
 
 <figure id='DSS-apparaat'>
 	<img src="./media/DSSapparaat.png" alt="DSS-Apparaat" width="600"/>
@@ -295,7 +298,7 @@ Voor de korrelgrootteverdeling wordt de samenstelling van het materiaal bepaald 
 
 De opdracht en de aard van het materiaal bepalen welke methode is gebruikt en welke fracties zijn onderscheiden. Het is van belang te weten of er voorafgaand aan de bepaling materiaal verwijderd is. Als voorbehandeling kan het nodig zijn samengeklonterde korreltjes van elkaar los te maken (dispersie).
 
-De metingen worden altijd omgerekend naar een percentage van de totale massa en wanneer de lasermethode gekozen is, wordt een zekere correctie doorgevoerd. In alle gevallen wordt in het resultaat onderscheid gemaakt tussen de fractie groter en de fractie kleiner dan 63µm; bij die grootte ligt de grens tussen wat fijn en wat grof wordt genoemd. Ieder van de fracties kent een standaardonderverdeling en die wordt in de meeste onderzoeken toegepast. De opdracht kan een meer gedetailleerde onderverdeling vragen en met name voor de grove fractie bestaan verscheidene opties.
+De metingen worden altijd omgerekend naar een percentage van de totale massa en wanneer de lasermethode gekozen is, wordt een zekere correctie doorgevoerd. In alle gevallen wordt in het resultaat onderscheid gemaakt tussen de fractie groter en de fractie kleiner dan 63 µm; bij die grootte ligt de grens tussen wat fijn en wat grof wordt genoemd. Ieder van de fracties kent een standaardonderverdeling en die wordt in de meeste onderzoeken toegepast. De opdracht kan een meer gedetailleerde onderverdeling vragen en met name voor de grove fractie bestaan verscheidene opties.
 
 De korrelgrootteverdeling wordt in eerste instantie gebruikt om het materiaal te classificeren.
 
@@ -305,7 +308,7 @@ De waterdoorlatendheid van met waterverzadigde grond is de snelheid waarmee wate
 
 De constant head methode wordt gebruikt voor niet-cohesieve grond en daarvan wordt volgens een bepaalde methode een proefstuk gemaakt (maakmethode) die een bepaalde dichtheid krijgt (droge volumieke massa). Het proefstuk kan tevoren met CO2 worden verzadigd. De verzadigde waterdoorlatendheid wordt een aantal malen bepaald steeds bij een andere droge volumieke massa.
 
-De falling head methode wordt gebruikt voor cohesieve grond en wordt bijna altijd bepaald aan een proefstuk dat met een ring uit een niet verstoord monster is gestoken. Bij een dergelijk proefstuk leg je vast of de doorlatendheid verticaal is gemeten (verticaal bepaald). In het laboratorium kiest men of de poreuze stenen in de proefstelling nat of droog moeten zijn en of in de steekring een waterafstotende laag moet krijgen en legt men het proefstuk een bepaalde belasting op. Aan het einde van de proef wordt het watergehalte bepaald. Het resultaat van de proef is de verzadigde waterdoorlatendheid bij de opgelegde belasting.
+De falling head methode wordt gebruikt voor cohesieve grond en wordt bijna altijd bepaald aan een proefstuk dat met een ring uit een niet verstoord monster is gestoken. Bij een dergelijk proefstuk legt men vast of de doorlatendheid verticaal is gemeten (verticaal bepaald). In het laboratorium kiest men of de poreuze stenen in de proefstelling nat of droog moeten zijn en of de steekring een waterafstotende laag moet krijgen en legt men het proefstuk een bepaalde belasting op. Aan het einde van de proef wordt het watergehalte bepaald. Het resultaat van de proef is de verzadigde waterdoorlatendheid bij de opgelegde belasting.
 
 ## Bepaling van het watergehalte
 
@@ -333,7 +336,7 @@ Het gegeven is een basisparameter die altijd samen met andere gegevens gebruikt 
 
 ## Bepaling van de volumieke massa vaste delen
 
-De volumieke massa van de vaste delen wordt bepaald door de massa en het volume van gedroogd materiaal te meten. Zo nodig wordt het materiaal vergruisd en worden de korrels van elkaar los gemaakt zodat het volume van de ruimte tussen de korrels nauwkeurig kan worden bepaald. Dat volume wordt bepaald door die ruimte met gas of vloeistof te vullen.
+De volumieke massa van de vaste delen wordt bepaald door de massa en het volume van gedroogd materiaal te meten. Zo nodig wordt het materiaal vergruisd en worden de korrels van elkaar losgemaakt zodat het volume van de ruimte tussen de korrels nauwkeurig kan worden bepaald. Dat volume wordt bepaald door die ruimte met gas of vloeistof te vullen.
 
 Het gegeven is een basisparameter die altijd samen met andere gegevens gebruikt wordt in berekeningen.
 
