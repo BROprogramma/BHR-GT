@@ -7,7 +7,7 @@ De catalogus voor het geotechnisch booronderzoek beschrijft de gegevens die in d
 
 Een booronderzoek is het geheel van gegevens dat betrekking heeft op een specifiek booronderzoek dat op een specifiek moment en op een specifieke locatie in Nederland is uitgevoerd en op basis van een bepaalde opdracht is uitgevoerd. De belangrijkste gegevens om het onderzoek te preciseren zijn het vakgebied en de uitgevoerde deelonderzoeken.
 
-Booronderzoek in de BRO omvat onderzoek uit vijf verschillende vakgebieden. Naast geotechniek zijn dat bodemkunde, geologie, cultuurtechniek en toegepaste geologie. De catalogus voor het registratieobject komt in delen tot stand. Eerst wordt voor ieder vakgebied een catalogus gemaakt. Het is de bedoeling om op het moment dat de vijf catalogi gereed zijn een nieuwe catalogus te maken die alle vakgebieden omvat en waarin de ongewenste verschillen zijn weggenomen. Die catalogus geeft een samenhangende beschrijving van het registratieobject booronderzoek.
+Booronderzoek in de basisregistratie ondergrond (BRO) omvat onderzoek uit vijf verschillende vakgebieden. Naast geotechniek zijn dat bodemkunde, geologie, cultuurtechniek en toegepaste geologie. De catalogus voor het registratieobject komt in delen tot stand. Eerst wordt voor ieder vakgebied een catalogus gemaakt. Het is de bedoeling om op het moment dat de vijf catalogi gereed zijn een nieuwe catalogus te maken die alle vakgebieden omvat en waarin de ongewenste verschillen zijn weggenomen. Die catalogus geeft een samenhangende beschrijving van het registratieobject booronderzoek.
 
 ## Geotechnisch booronderzoek
 
