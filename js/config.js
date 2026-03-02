@@ -34,7 +34,7 @@ let respecConfig = {
   //custom header lines  
   //eventueel is het mogelijk een versienummer mee te geven, maar bij Geonovum werken we gewoonlijk alleen met datum als onderdeel van de permanente URI.
   publishVersion: "0.0.2",
-  previousVersion: "0.0.1",
+  previousVersion: "2.2",
   //-- Voor dit blok geldt: alleen als er eerdere versies zijn en altijd beiden aan/uit! 
   previousPublishDate: "2022-09-01",
   previousMaturity: "def",
@@ -59,6 +59,54 @@ let respecConfig = {
      ],
   //neem hier de URL van de github repository op waar het respec document in staat
   github: "https://github.com/BROprogramma/BHR-GT",
+  postProcess: [
+    ...((typeof organisationConfig !== "undefined" && Array.isArray(organisationConfig.postProcess))
+      ? organisationConfig.postProcess
+      : []),
+    () => {
+      const headDl = document.querySelector(".head dl");
+      if (!headDl) return;
+      const participateDt = [...headDl.querySelectorAll("dt")].find(dt => {
+        return dt.textContent && dt.textContent.trim().startsWith("Doe mee");
+      });
+      if (!participateDt || participateDt.querySelector("#logo_bro")) return;
+
+      const logo = document.createElement("img");
+      logo.id = "logo_bro";
+      logo.src = "https://docs.geostandaarden.nl/bro/gen/logo_bro.png";
+      logo.alt = "Basisregistratie Ondergrond";
+      logo.width = 223;
+      logo.height = 115;
+      logo.setAttribute("align", "right");
+      participateDt.prepend(logo);
+    },
+    () => {
+      try {
+        // bepaal taal (document.lang of default nl)
+        var lang =
+          document.documentElement && document.documentElement.lang
+            ? document.documentElement.lang.split("-")[0]
+            : "nl";
+        lang = lang === "en" ? "en" : "nl";
+
+        // ReSpec plaatst de SOTD-tekst meestal in #sotd > p
+        var p =
+          document.querySelector("#sotd > p") ||
+          document.querySelector("#sotd");
+        if (!p) return;
+
+        var vv =
+          organisationConfig.sotdText &&
+          organisationConfig.sotdText[lang] &&
+          organisationConfig.sotdText[lang].vv;
+        if (!vv) return;
+
+        p.innerHTML = vv;
+      } catch (err) {
+        console.error("setSotdHtml error", err);
+      }
+    },
+  ],  
   // Create PDF and link to file in header (optional):
   //alternateFormats: [{label: "pdf", uri: "template.pdf",},],
 };
