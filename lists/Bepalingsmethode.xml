@@ -229,6 +229,12 @@
 		<Omschrijving>Methode voor het bepalen van het verloop van de schuifspanning in grond als gevolg van vervorming onder axiale trek, waarbij het proefstuk daadwerkelijk op trek wordt gebracht, door het uitvoeren van de triaxiaalproef. Gedurende een bepaalde tijd wordt het proefstuk met een constante snelheid axiaal ontlast (meestal bij gelijkblijvende opsluitdruk) totdat het proefstuk in trek komt, en is het proefstuk vrij om in horizontale richting te vervormen. Het schuifspanningsverloop wordt bepaald van een onverzadigd, ongeconsolideerd proefstuk in ongedraineerde toestand.</Omschrijving>
 	</Bepalingsmethode>
 	<Bepalingsmethode>
+		<Waarde>valconus</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Methode voor het bepalen van de maximale ongedraineerde schuifsterkte. Een conus wordt met de punt naar beneden op een grondmonster losgelaten, waarna de indringingsdiepte van de conus in de grond wordt gemeten. De indringingswaarden worden gebruikt om de ongedraineerde schuifsterkte te schatten.</Omschrijving>
+	</Bepalingsmethode>
+	<Bepalingsmethode>
 		<Waarde>valconusKleistaaf</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
@@ -259,6 +265,3 @@
 		<Omschrijving>Methode voor het bepalen van de maximale ongedraineerde schuifsterkte. De zakpenetrometer wordt met de hand met gelijkmatige krachttoename 5 mm in het materiaal gedrukt. Uit de drukkracht wordt de schuifspanning berekend.</Omschrijving>
 	</Bepalingsmethode>
 </domeintabel>
-
-
-
