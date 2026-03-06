@@ -2,7 +2,7 @@ let respecConfig = {
   useLogo: true,
   useLabel: true,
   //-- title is verplicht! Neem hier de titel van het document op ----------------------
-  title: "Basisregistratie Ondergrond Catalogus - Geotechnische boormonsterbeschrijving en boormonsteranalyse",
+  title: "Catalogus registratie ondergrond - Geotechnische boormonsterbeschrijving en boormonsteranalyse",
   //subtitle: "Versie 1.0",
   //-- specStatus is verplicht! (activeer 1 van de volgende) --------------------------
   specStatus: "wv",                   // Werkversie
@@ -12,8 +12,8 @@ let respecConfig = {
   //specStatus: "basis",            // Basis Document
   //-- specType is verplicht bij alle andere dan BASIS ---------------------------------
   //specType: "NO",                 // Norm
-  //specType: "ST",                 // Standaard
-  specType: "IM",                 // Informatie Model
+  specType: "ST",                 // Standaard
+  //specType: "IM",                 // Informatie Model
   //specType: "PR",                 // Praktijkrichtlijn
   //specType: "HR",                 // HandReiking
   //specType: "WA",                 // Werkafspraak
