@@ -1,1 +1,62 @@
-{"error":"WCAG-check mislukt (axe-cli). Zie logs voor details."}
+[
+  {
+    "url": "http://localhost:8080/snapshot.html",
+    "id": "color-contrast",
+    "impact": "serious",
+    "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/color-contrast?application=webdriverjs",
+    "nodes": [
+      {
+        "target": [
+          ".sidelabel"
+        ],
+        "html": "<div class=\"sidelabel\">BRO Standaard - Werkversie</div>",
+        "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.99 (foreground color: #ffffff, background color: #ff0000, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+      }
+    ]
+  },
+  {
+    "url": "http://localhost:8080/snapshot.html",
+    "id": "image-alt",
+    "impact": "critical",
+    "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/image-alt?application=webdriverjs",
+    "nodes": [
+      {
+        "target": [
+          "#image001 > img[width=\"350\"]"
+        ],
+        "html": "<img src=\"https://docs.geostandaarden.nl/bro/gen/media/image002.png\" width=\"350\">",
+        "failureSummary": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+      },
+      {
+        "target": [
+          "#indeling_ruimte > img[width=\"350\"]"
+        ],
+        "html": "<img src=\"https://docs.geostandaarden.nl/bro/bg/indeling_ruimte.png\" width=\"350\">",
+        "failureSummary": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+      },
+      {
+        "target": [
+          "img[width=\"50\"]"
+        ],
+        "html": "<img src=\"https://docs.geostandaarden.nl/bro/bg/BG_lokaal_verticaal_referentiepunt.png\" width=\"50\">",
+        "failureSummary": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+      },
+      {
+        "target": [
+          "#booronderzoek_deelonderzoeken > img[width=\"350\"]"
+        ],
+        "html": "<img src=\"https://docs.geostandaarden.nl/bro/bg/booronderzoek_deelonderzoeken.png\" width=\"350\">",
+        "failureSummary": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+      },
+      {
+        "target": [
+          "#domeinmodel > img"
+        ],
+        "html": "<img src=\"https://docs.geostandaarden.nl/bro/gen/media/domeinmodel-intro-class-model.png\">",
+        "failureSummary": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+      }
+    ]
+  }
+]
