@@ -13,7 +13,7 @@ Booronderzoek in de BRO omvat onderzoek uit vijf verschillende vakgebieden. Naas
 
 Geotechnisch booronderzoek wordt uitgevoerd in het kader van projecten in de grond-, weg- en waterbouw en in de woning- en utiliteitsbouw. Het onderzoek heeft tot doel de opbouw en de eigenschappen van de ondergrond te onderzoeken om de locatie, het ontwerp, de uitvoering of de toestand van bouwwerken te kunnen vaststellen. Het kan een verkennend karakter hebben en dan is het veelal voldoende de opbouw van de ondergrond globaal te bepalen. Vaker wil men precies weten hoe de ondergrond is opgebouwd en uit welk soort materiaal die bestaat en laat men monsters onderzoeken om bepaalde eigenschappen te bepalen om die in allerlei berekeningen te kunnen gebruiken. Het uiteindelijke doel daarbij is om bijvoorbeeld het draagvermogen, het zettingsgedrag, de stabiliteit van de ondergrond in algemenere zin of aspecten als de erosiebestendigheid te bepalen.
 
-De verscheidenheid in geotechnisch booronderzoek is groot. Het wordt zowel op land als op zee uitgevoerd en kan tot wel 150 meter diepte onder maaiveld of waterbodem reiken. In het grootste deel van Nederland bestaat de ondergrond op die diepte uit grond, maar in het zuiden en oosten wordt op bepaalde plaatsen het gesteente bereikt.
+De verscheidenheid in geotechnisch booronderzoek is groot. Het wordt zowel op land als op zee uitgevoerd en kan reiken tot meer dan 150 meter onder maaiveld of waterbodem. In het grootste deel van Nederland bestaat de ondergrond op die diepte uit grond, maar in het zuiden en oosten wordt op bepaalde plaatsen het gesteente bereikt.
 
 Voorts beperkt geotechnisch onderzoek zich niet tot de natuurlijke ondergrond, maar richt het zich ook op grondlichamen die door de mens zijn neergelegd.
 
