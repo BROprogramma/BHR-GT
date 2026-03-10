@@ -9,37 +9,33 @@
   <script src="js/config.js" class="remove"></script>    
   <script class="remove"> respecConfig = {...organisationConfig, ...respecConfig}</script>
   <script>document.title = respecConfig.title</script>  
-  <title>Basisregistratie Ondergrond Catalogus Booronderzoek - Geotechnische boormonsterbeschrijving en boormonsteranalyse</title>
+  <title>Catalogus registratie ondergrond - Geotechnische boormonsterbeschrijving en boormonsteranalyse</title>
   <link rel="shortcut icon" type="image/x-icon" href="https://tools.geostandaarden.nl/respec/style/logos/Geonovum.ico" />
   <link rel="stylesheet" type="text/css" href="https://tools.geostandaarden.nl/respec/style/bro-localstyle.css"/>
   <script src="https://gitdocumentatie.logius.nl/publicatie/respec/builds/respec-nlgov.js" class="remove" async></script> 
 </head>
 
 <body>
-  <!-- Samenvatting -->
-	<section id="abstract" data-include-format="markdown" data-include="samenvatting.md"></section>
-
 	<!-- Status van dit document document -->
 	<section id="sotd"></section><!-- Wordt automatisch gevuld -->
 
+	<!-- Samenvatting -->
+	<section id="abstract" data-include-format="markdown" data-include="samenvatting.md"></section>
+
 	<!-- Hoofdstuk 1. Inleiding -->
-	<section id='inleiding' class='generic informative'>
+	<section id='inleiding'>
 		<h2>Inleiding</h2>
-			<section id='leeswijzer' data-include='leeswijzer.md' data-include-format='markdown'></section>
-			<section id='doel-en-doelgroep' data-include='https://docs.geostandaarden.nl/bro/gen/doel-en-doelgroep.html'></section>
-			<section id='totstandkoming' data-include='https://docs.geostandaarden.nl/bro/gen/totstandkoming.html'></section>
-			<section id='beheer' data-include='https://docs.geostandaarden.nl/bro/gen/beheer.html'></section>
-	</section>	
+		<section id="leeswijzer" data-include="leeswijzer.md" data-include-format="markdown"></section>
+		<section id="doel-en-doelgroep" data-include-format="markdown" data-include="https://raw.githubusercontent.com/BROprogramma/generiek/gh-pages/doel-en-doelgroep.md"></section>
+		<section id="totstandkoming" data-include-format="markdown" data-include="https://raw.githubusercontent.com/BROprogramma/generiek/gh-pages/totstandkoming.md"></section>
+		<section id="beheer" data-include-format="markdown" data-include="https://raw.githubusercontent.com/BROprogramma/generiek/gh-pages/beheer.md"></section>
+	</section>
 
 	<!-- Hoofdstuk 2. Algemene kenmerken en bergippen -->
-	<section
-		id="algemene-kenmerken-begrippen"
-		data-include='https://docs.geostandaarden.nl/bro/gen/algemene-kenmerken-en-begrippen.html'
-		class='generic informative'>
-	</section>
+	<section id="h2-algemene-kenmerken-en-begrippen" data-include-format="markdown" data-include="https://raw.githubusercontent.com/BROprogramma/generiek/gh-pages/h2-algemene-kenmerken-en-begrippen.md" ></section>
 	
 	<!-- Hoofdstuk 3. Booronderzoek -->
-	<section id='booronderzoek' class='generic informative'>
+	<section id='booronderzoek'>
 		<h2>Booronderzoek</h2>
 			<section id="bodem-grondonderzoek">
 				<h3>Bodem- en grondonderzoek</h3>
@@ -67,41 +63,10 @@
 	</section>	
 
 	<!-- Hoofdstuk 4. Booronderzoek - Geotechnische boormonsterbeschrijving en boormonsteranalyse (normatieve/juridische deel) -->
-	<section id='geotechnisch-booronderzoek' data-include='https://raw.githubusercontent.com/BROprogramma/BHR-GT/gh-pages/toelichting.md' data-include-format='markdown'>
-	</section>
+	<section id='geotechnisch-booronderzoek' data-include='https://raw.githubusercontent.com/BROprogramma/BHR-GT/gh-pages/toelichting.md' data-include-format='markdown'></section>
 	
 	<!-- Hoofdstuk 5. Opbouw van de gegevensdefinitie -->
-	<section id="opbouw_gegevensdefinitie" class='generic informative'>
-	<h2>Opbouw van de gegevensdefinitie</h2>
-		<section id="gegevensdefinitie" data-include="https://docs.geostandaarden.nl/bro/gen/intro-cat-inleiding.html"></section>
-		<section id="domeinen">
-			<h3>Domeinen</h3>
-				<div id="domeinen-intro" data-include="https://docs.geostandaarden.nl/bro/gen/domeinen-intro.html"></div>
-				<section id="aantal" data-include="https://docs.geostandaarden.nl/bro/gen/aantal.html"></section>
-				<section id="code" data-include="https://docs.geostandaarden.nl/bro/gen/code.html"></section>
-				<section id="gemeten-waarden">
-					<h4>Gemeten waarden</h4>
-						<div id="gemeten-waarden-intro" data-include="https://docs.geostandaarden.nl/bro/gen/gemeten-waarden-intro.html"></div>
-						<section id="meetwaarde" data-include="https://docs.geostandaarden.nl/bro/gen/meetwaarde.html"></section>
-						<section id="meetwaarde-in-machten" data-include="https://docs.geostandaarden.nl/bro/gen/meetwaarde-machten.html"></section>
-						<section id="inname-gemeten-waarden" data-include="https://docs.geostandaarden.nl/bro/gen/inname-gemeten-waarden.html"></section>
-				</section>
-				<section id="nummer" data-include="https://docs.geostandaarden.nl/bro/gen/nummer.html"></section>
-				<section id="tekst" data-include="https://docs.geostandaarden.nl/bro/gen/tekst.html"></section>		
-				<section id="tijdstip" data-include="https://docs.geostandaarden.nl/bro/gen/datumtijd.html"></section>
-				<section id="waardelijsten">
-					<h4>Waardelijsten</h4>
-					<div id="waardelijst-intro" data-include="https://docs.geostandaarden.nl/bro/gen/waardelijst.html"></div>
-						<section id="waardelijst-niet-uitbreidbaar" data-include="https://docs.geostandaarden.nl/bro/gen/enumeratie.html"></section>
-						<section id="waardelijst-uitbreidbaar" data-include="https://docs.geostandaarden.nl/bro/gen/codelijst.html"></section>
-				</section>
-				<section id="coordinatenpaar" data-include="https://docs.geostandaarden.nl/bro/gen/coordinatenpaar.html"></section>
-				<section id="organisatie" data-include="https://docs.geostandaarden.nl/bro/gen/organisatie.html"></section>
-		</section>
-		<section id="meetreeks" data-include="https://docs.geostandaarden.nl/bro/gen/meetreeks.html"></section>
-		<section id="domeinmodel" data-include="https://docs.geostandaarden.nl/bro/gen/domeinmodel-gen.html"></section>
-		<section id="verplichte-gegevens-waarden" data-include="https://docs.geostandaarden.nl/bro/gen/verplichte-gegevens-waarden.html"></section>
-	</section>
+	<section id="h5-gegevensdefinitie" data-include-format="markdown" data-include="https://raw.githubusercontent.com/BROprogramma/generiek/gh-pages/h5-gegevensdefinitie.md"></section>		
 
 	<!-- Hoofdstukken 6 en 7. Gegevensdefinitie en Uitbreidbare waardenlijsten  -->
 	<div data-include="data/BHR-GT-cat.respec.html" data-include-replace=true></div>
