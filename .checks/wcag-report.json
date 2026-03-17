@@ -56,13 +56,6 @@
         ],
         "html": "<img src=\"https://docs.geostandaarden.nl/bro/bg/booronderzoek_deelonderzoeken.png\" width=\"350\">",
         "failureSummary": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
-      },
-      {
-        "target": [
-          "#fig-voorbeeld-class-model > img"
-        ],
-        "html": "<img src=\"https://docs.geostandaarden.nl/bro/gen/media/domeinmodel-intro-class-model.png\">",
-        "failureSummary": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
       }
     ]
   }
