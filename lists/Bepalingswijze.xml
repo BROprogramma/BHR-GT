@@ -18,4 +18,10 @@
 		<IMBROA>v</IMBROA>
 		<Omschrijving>De waarde is tot stand gekomen door het uitvoeren van een meting.</Omschrijving>
 	</Bepalingswijze>
+	<Bepalingswijze>
+		<Waarde>onbekend</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het is niet bekend hoe de waarde tot stand is gekomen.</Omschrijving>
+	</Bepalingswijze>	
 </domeintabel>
