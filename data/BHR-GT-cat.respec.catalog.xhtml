@@ -2,7 +2,7 @@
    <body>
       <section id="cat" class="normative">
          <h2>Gegevensdefinitie</h2>
-         <!--Conceptualmodel-GeotechnischbooronderzoekBHR-GT-2.2-1-20220901-20260318-143318 imvertor Nightly-build.0-->
+         <!--Conceptualmodel-GeotechnischbooronderzoekBHR-GT-2.2-1-20220901-20260318-153434 imvertor Nightly-build.0-->
          <section>
             <h3>Het domeinmodel   </h3>
             <div class="imageinfo overview"><img id="img-EAID_BA14D577_33EB_4e1b_AD18_920180363FDE" src="Images/EAID_BA14D577_33EB_4e1b_AD18_920180363FDE.png" usemap="#imagemap-EAID_BA14D577_33EB_4e1b_AD18_920180363FDE" alt="Diagram: Domeinmodel geotechnisch booronderzoek - Algemeen deel - overzicht"></img><map name="imagemap-EAID_BA14D577_33EB_4e1b_AD18_920180363FDE"><area shape="rect" alt="Registratieobject" coords="628,14,914,188" href="#global_class_Model_Registratieobject"></area><area shape="rect" alt="Boormonsteranalyse" coords="14,409,371,531" href="#global_class_Model_Boormonsteranalyse"></area><area shape="rect" alt="Verontreinigd interval" coords="688,1273,992,1395" href="#global_class_Model_Verontreinigdinterval"></area><area shape="rect" alt="Boormonsterbeschrijving" coords="14,246,371,367" href="#global_class_Model_Boormonsterbeschrijving"></area><area shape="rect" alt="Afgewerkt interval" coords="564,1434,991,1662" href="#global_class_Model_Afgewerktinterval"></area><area shape="rect" alt="Bemonsterd interval" coords="1186,1043,1665,1311" href="#global_class_Model_Bemonsterdinterval"></area><area shape="rect" alt="Geboord interval" coords="1186,853,1545,1010" href="#global_class_Model_Geboordinterval"></area><area shape="rect" alt="Weggegraven laag" coords="1186,667,1545,807" href="#global_class_Model_Weggegravenlaag"></area><area shape="rect" alt="Boring" coords="560,667,988,1149" href="#global_class_Model_Boring"></area><area shape="rect" alt="Sliblaag" coords="1119,246,1550,403" href="#global_class_Model_Sliblaag"></area><area shape="rect" alt="Booronderzoek" coords="560,246,988,600" href="#global_class_Model_Booronderzoek"></area></map><p><b>Domeinmodel geotechnisch booronderzoek- Algemeen deel</b>
@@ -37365,7 +37365,6 @@
                            <td>
                               
                               <p>De waarde van het attribuut moet gelijk zijn aan <em>ja</em> wanneer het attribuut <em>massapercentage lutum</em> aanwezig is.<br clear="none"></br>
-                                 De waarde van het attribuut moet gelijk zijn aan <em>nee</em> wanneer het attribuut <em>organischestofgehalte</em> niet aanwezig is.<br clear="none"></br>
                                  Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>bepalingsmethode</em> gelijk is aan <em>natOxideren</em>.<br clear="none"></br>
                                  </p>
                               </td>
@@ -37376,7 +37375,7 @@
                               
                               <p>De meetresultaten kunnen zijn gecorrigeerd voor het verlies van water dat door kleideeltjes
                                  wordt vastgehouden. De correctie is gebaseerd op het aandeel van de fractie 0-2 µm
-                                 (de lutumfractie) zoals bepaald in de korrelgrootteverdeling.</p>
+                                 (de <em>lutumfractie</em>) zoals bepaald in de <em>korrelgrootteverdeling</em>.</p>
                               </td>
                         </tr>
                      </tbody>
@@ -37429,7 +37428,8 @@
                            <th scope="row">Regels</th>
                            <td>
                               
-                              <p>Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>bepalingsprocedure</em> gelijk is aan <em>NEN8992v2025</em> en de waarde van het attribuut <em>bepalingsmethode</em> gelijk is aan <em>verhitten500</em> en het attribuut <em>massapercentage lutum</em> niet aanwezig is.<br clear="none"></br>
+                              <p>Het attribuut moet aanwezig zijn wanneer het attribuut <em>massapercentage lutum</em> aanwezig is.<br clear="none"></br>
+                                 Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>bepalingsprocedure</em> gelijk is aan <em>NEN8992v2025</em> en de waarde van het attribuut <em>bepalingsmethode</em> gelijk is aan <em>verhitten500</em> en het attribuut <em>massapercentage lutum</em> niet aanwezig is.<br clear="none"></br>
                                  </p>
                               </td>
                         </tr>
@@ -37437,10 +37437,8 @@
                            <th scope="row">Toelichting</th>
                            <td>
                               
-                              <p>Het organischestofgehalte kan op verschillende manieren worden bepaald. Afhankelijk
-                                 van de bepalingsmethode kan er een verschil zitten in het uitgangspunt achter het
-                                 bepalen van het organischestofgehalte. Dit is inzichtelijk gemaakt middels de attributen
-                                 lutumcorrectie toegepast en ijzercorrectie toegepast.</p>
+                              <p>Het <em>organischestofgehalte</em> kan op verschillende manieren worden bepaald. Afhankelijk van de <em>bepalingsmethode</em> kan er een verschil zitten in het uitgangspunt achter het bepalen van het <em>organischestofgehalte</em>. Dit is inzichtelijk gemaakt middels de attributen <em>lutumcorrectie toegepast</em> en <em>ijzercorrectie toegepast</em>.<br clear="none"></br>
+                                 In specifieke gevallen wordt alleen het <em>gloeiverlies</em> bepaald en ontbreekt het <em>organischestofgehalte</em>. </p>
                               </td>
                         </tr>
                      </tbody>
