@@ -10,7 +10,7 @@
 		<Waarde>knedenEnStampen</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Methode voor cohesief materiaal. Het materiaal wordt met een menger gekneed tot een homogeen geheel. Eventueel wordt water toegevoegd of verwijderd. Vervolgens wordt het materiaal aangestampt in een proctormal en wordt een cilinder uitgestoken. Deze methode komt maar weinig voor en wordt voornamelijk gebruikt bij klei.</Omschrijving>
+		<Omschrijving>Methode voor cohesief materiaal. Het materiaal wordt met een menger gekneed tot een homogeen geheel. Eventueel wordt water toegevoegd of verwijderd. Vervolgens wordt het materiaal aangestampt in een proctormal en wordt een cilinder uitgestoken. Deze methode komt maar weinig voor en wordt voornamelijk gebruikt bij klei.</Omschrijving>
 	</Maakmethode>
 	<Maakmethode>
 		<Waarde>samenstellenStampenDroog</Waarde>
@@ -34,13 +34,13 @@
 		<Waarde>samenstellenStrooienDroog</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Methode voor niet-cohesief materiaal. Het droge materiaal wordt met een continu stroom via een trechter en slangetje in een mal gestrooid. Het slangetje komt op de bovenkant van het proefstuk uit en wordt langzaam omhoog getrokken zodat de korrels soepel over het oppervlak van het proefstuk heen geleiden en niet vallen en sorteren. Tegelijkertijd wordt tegen de mal getikt om de dichtheid te verhogen. Droog strooien is geschikt om tot een middellage dichtheid te komen.</Omschrijving>
+		<Omschrijving>Methode voor niet-cohesief materiaal. Het droge materiaal wordt met een continue stroom via een trechter en slangetje in een mal gestrooid. Het slangetje komt op de bovenkant van het proefstuk uit en wordt langzaam omhoog getrokken zodat de korrels soepel over het oppervlak van het proefstuk heen geleiden en niet vallen en sorteren. Tegelijkertijd wordt tegen de mal getikt om de dichtheid te verhogen. Droog strooien is geschikt om tot een middellage dichtheid te komen.</Omschrijving>
 	</Maakmethode>
 	<Maakmethode>
 		<Waarde>samenstellenStrooienOnderWater</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Methode voor niet-cohesief materiaal. Het droge materiaal wordt met een continu stroom via een trechter en slangetje in een vooraf met een laagje water gevulde mal gestrooid. Het slangetje komt op de bovenkant van het proefstuk uit en wordt langzaam omhoog getrokken zodat de korrels soepel over het oppervlak van het proefstuk heen geleiden en niet vallen en sorteren. Tegelijkertijd wordt tegen de mal getikt om de dichtheid te verhogen. Strooien onder water is geschikt om tot een middelhoge dichtheid te komen.</Omschrijving>
+		<Omschrijving>Methode voor niet-cohesief materiaal. Het droge materiaal wordt met een continue stroom via een trechter en slangetje in een vooraf met een laagje water gevulde mal gestrooid. Het slangetje komt op de bovenkant van het proefstuk uit en wordt langzaam omhoog getrokken zodat de korrels soepel over het oppervlak van het proefstuk heen geleiden en niet vallen en sorteren. Tegelijkertijd wordt tegen de mal getikt om de dichtheid te verhogen. Strooien onder water is geschikt om tot een middelhoge dichtheid te komen.</Omschrijving>
 	</Maakmethode>
 	<Maakmethode>
 		<Waarde>stampenProctor</Waarde>
