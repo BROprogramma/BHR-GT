@@ -14,5 +14,28 @@
         "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.99 (foreground color: #ffffff, background color: #ff0000, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
       }
     ]
+  },
+  {
+    "url": "http://localhost:8080/snapshot.html",
+    "id": "image-alt",
+    "impact": "critical",
+    "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/image-alt?application=webdriverjs",
+    "nodes": [
+      {
+        "target": [
+          "#fig-de-twee-grote-deelsystemen-van-de-landelijke-voorziening-van-de-bro > img[width=\"350\"]"
+        ],
+        "html": "<img src=\"https://docs.geostandaarden.nl/bro/gen/media/image002.png\" width=\"350\">",
+        "failureSummary": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+      },
+      {
+        "target": [
+          "#fig-overzicht-verschillen-tussen-de-kwaliteitsregimes > img[width=\"350\"]"
+        ],
+        "html": "<img src=\"https://raw.githubusercontent.com/BROprogramma/generiek/gh-pages/media/tabel_kwaliteitsregime.png\" width=\"350\">",
+        "failureSummary": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+      }
+    ]
   }
 ]
