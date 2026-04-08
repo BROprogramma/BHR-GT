@@ -6,8 +6,8 @@ let respecConfig = {
   //subtitle: "Versie 1.0",
   //-- specStatus is verplicht! (activeer 1 van de volgende) --------------------------
   //specStatus: "wv",                   // Werkversie
-  //specStatus: "cv",               // Consultatieversie
-  specStatus: "vv",               // Versie ter vaststelling
+  specStatus: "cv",               // Consultatieversie
+  //specStatus: "vv",               // Versie ter vaststelling
   //specStatus: "def",              // Vastgestelde versie
   //specStatus: "basis",            // Basis Document
   //-- specType is verplicht bij alle andere dan BASIS ---------------------------------
@@ -80,33 +80,33 @@ let respecConfig = {
       logo.setAttribute("align", "right");
       participateDt.prepend(logo);
     },
-//     () => {
-//       try {
-//         // bepaal taal (document.lang of default nl)
-//         var lang =
-//           document.documentElement && document.documentElement.lang
-//             ? document.documentElement.lang.split("-")[0]
-//             : "nl";
-//         lang = lang === "en" ? "en" : "nl";
+    () => {
+      try {
+        // bepaal taal (document.lang of default nl)
+        var lang =
+          document.documentElement && document.documentElement.lang
+            ? document.documentElement.lang.split("-")[0]
+            : "nl";
+        lang = lang === "en" ? "en" : "nl";
 
-//         // ReSpec plaatst de SOTD-tekst meestal in #sotd > p
-//         var p =
-//           document.querySelector("#sotd > p") ||
-//           document.querySelector("#sotd");
-//         if (!p) return;
+        // ReSpec plaatst de SOTD-tekst meestal in #sotd > p
+        var p =
+          document.querySelector("#sotd > p") ||
+          document.querySelector("#sotd");
+        if (!p) return;
 
-//         var vv =
-//           organisationConfig.sotdText &&
-//           organisationConfig.sotdText[lang] &&
-//           organisationConfig.sotdText[lang].vv;
-//         if (!vv) return;
+        var vv =
+          organisationConfig.sotdText &&
+          organisationConfig.sotdText[lang] &&
+          organisationConfig.sotdText[lang].vv;
+        if (!vv) return;
 
-//         p.innerHTML = vv;
-//       } catch (err) {
-//         console.error("setSotdHtml error", err);
-//       }
-//     },
+        p.innerHTML = vv;
+      } catch (err) {
+        console.error("setSotdHtml error", err);
+      }
+    },
   ],  
-//   // Create PDF and link to file in header (optional):
-//   //alternateFormats: [{label: "pdf", uri: "template.pdf",},],
+  // Create PDF and link to file in header (optional):
+  //alternateFormats: [{label: "pdf", uri: "template.pdf",},],
 };
