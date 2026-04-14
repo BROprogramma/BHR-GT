@@ -5,8 +5,8 @@ let respecConfig = {
   title: "Catalogus registratie ondergrond Booronderzoek - Geotechnische boormonsterbeschrijving en boormonsteranalyse",
   //subtitle: "Versie 1.0",
   //-- specStatus is verplicht! (activeer 1 van de volgende) --------------------------
-  //specStatus: "wv",                   // Werkversie
-  specStatus: "cv",               // Consultatieversie
+  specStatus: "wv",                   // Werkversie
+  //specStatus: "cv",               // Consultatieversie
   //specStatus: "vv",               // Versie ter vaststelling
   //specStatus: "def",              // Vastgestelde versie
   //specStatus: "basis",            // Basis Document
@@ -30,7 +30,7 @@ let respecConfig = {
   shortName: "bhr-gt",
   //-- publishDate is verplicht -------------------------------------------------------
   //-- NB: in de werkversie uitzetten, want dan pakt Respec de pushdate ---------------
-  publishDate: "2026-04-22",
+  //publishDate: "2026-04-22",
   //custom header lines  
   //eventueel is het mogelijk een versienummer mee te geven, maar bij Geonovum werken we gewoonlijk alleen met datum als onderdeel van de permanente URI.
   publishVersion: "2.3",
