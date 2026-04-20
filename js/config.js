@@ -2,17 +2,18 @@ let respecConfig = {
   useLogo: true,
   useLabel: true,
   //-- title is verplicht! Neem hier de titel van het document op ----------------------
-  title: "Catalogus registratie ondergrond Booronderzoek - Geotechnische boormonsterbeschrijving en boormonsteranalyse",
+  title:
+    "Catalogus registratie ondergrond Booronderzoek - Geotechnische boormonsterbeschrijving en boormonsteranalyse",
   //subtitle: "Versie 1.0",
   //-- specStatus is verplicht! (activeer 1 van de volgende) --------------------------
   //specStatus: "wv",                   // Werkversie
-  specStatus: "cv",               // Consultatieversie
+  specStatus: "cv", // Consultatieversie
   //specStatus: "vv",               // Versie ter vaststelling
   //specStatus: "def",              // Vastgestelde versie
   //specStatus: "basis",            // Basis Document
   //-- specType is verplicht bij alle andere dan BASIS ---------------------------------
   //specType: "NO",                 // Norm
-  specType: "ST",                 // Standaard
+  specType: "ST", // Standaard
   //specType: "IM",                 // Informatie Model
   //specType: "PR",                 // Praktijkrichtlijn
   //specType: "HR",                 // HandReiking
@@ -25,48 +26,48 @@ let respecConfig = {
   //-- license: voor de geldende gebruiksvoorwaarden. Default is cc-by.
   //licence: "cc-by-nd",            // bronvermelding, geen afgeleide werken (default)
   //licence: "cc0",                 // Public Domain Dedication
-  licence: "cc-by",                 // Attribution, met bronvermelding
+  licence: "cc-by", // Attribution, met bronvermelding
   //-- shortName is verplicht! (komt in de URL: kies logische afkorting)--------------
   shortName: "bhr-gt",
   //-- publishDate is verplicht -------------------------------------------------------
   //-- NB: in de werkversie uitzetten, want dan pakt Respec de pushdate ---------------
   publishDate: "2026-04-24",
-  //custom header lines  
+  //custom header lines
   //eventueel is het mogelijk een versienummer mee te geven, maar bij Geonovum werken we gewoonlijk alleen met datum als onderdeel van de permanente URI.
   publishVersion: "2.3",
   previousVersion: "2.2",
-  //-- Voor dit blok geldt: alleen als er eerdere versies zijn en altijd beiden aan/uit! 
+  //-- Voor dit blok geldt: alleen als er eerdere versies zijn en altijd beiden aan/uit!
   previousPublishDate: "2022-09-01",
   previousMaturity: "def",
   //-- de namen van de Editor(s) / Redacteur(en)---------------------------------------
   //-- vul in: per Editor: name:, company:, companyURL: -------------------------------
-  editors:
-    [
-      { name: "Geonovum",
-        company: "Geonovum",
-        companyURL: "https://www.geonovum.nl",
-      }
-    ],
+  editors: [
+    {
+      name: "Geonovum",
+      company: "Geonovum",
+      companyURL: "https://www.geonovum.nl",
+    },
+  ],
   //-- de namen van de auteur(s) ------------------------------------------------------
   //-- vul in: per auteur: name:, company:, companyURL: -------------------------------
-  authors:
-    [
-      {
-        name: "Geonovum",
-        company: "Geonovum",
-        companyURL: "https://www.geonovum.nl",
-      }
-     ],
+  authors: [
+    {
+      name: "Geonovum",
+      company: "Geonovum",
+      companyURL: "https://www.geonovum.nl",
+    },
+  ],
   //neem hier de URL van de github repository op waar het respec document in staat
   github: "https://github.com/BROprogramma/BHR-GT",
   postProcess: [
-    ...((typeof organisationConfig !== "undefined" && Array.isArray(organisationConfig.postProcess))
+    ...(typeof organisationConfig !== "undefined" &&
+    Array.isArray(organisationConfig.postProcess)
       ? organisationConfig.postProcess
       : []),
     () => {
       const headDl = document.querySelector(".head dl");
       if (!headDl) return;
-      const participateDt = [...headDl.querySelectorAll("dt")].find(dt => {
+      const participateDt = [...headDl.querySelectorAll("dt")].find((dt) => {
         return dt.textContent && dt.textContent.trim().startsWith("Doe mee");
       });
       if (!participateDt || participateDt.querySelector("#logo_bro")) return;
@@ -80,38 +81,7 @@ let respecConfig = {
       logo.setAttribute("align", "right");
       participateDt.prepend(logo);
     },
-    () => {
-      try {
-        // bepaal taal (document.lang of default nl)
-        var lang =
-          document.documentElement && document.documentElement.lang
-            ? document.documentElement.lang.split("-")[0]
-            : "nl";
-        lang = lang === "en" ? "en" : "nl";
-
-        // ReSpec plaatst de SOTD-tekst meestal in #sotd > p
-          var sotdSection = document.querySelector("#sotd");
-                  if (!sotdSection) return;
-
-        var specStatus = (typeof respecConfig !== "undefined" && respecConfig.specStatus) ? respecConfig.specStatus : "";
-        var sotdText =
-          organisationConfig.sotdText &&
-          organisationConfig.sotdText[lang] &&
-          organisationConfig.sotdText[lang][specStatus];
-        
-        if (!sotdText) return;
-          var h2 = sotdSection.querySelector('h2');
-                    if (h2) {
-                                    Array.from(sotdSection.querySelectorAll('p')).forEach(function(el) { el.remove(); });
-                                    h2.insertAdjacentHTML('afterend', '<p>' + sotdText + '</p>');
-                    } else {
-                                    sotdSection.innerHTML = sotdText;
-                    }
-      } catch (err) {
-        console.error("setSotdHtml error", err);
-      }
-    },
-  ],  
+  ],
   // Create PDF and link to file in header (optional):
   //alternateFormats: [{label: "pdf", uri: "template.pdf",},],
 };
