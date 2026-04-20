@@ -95,13 +95,14 @@ let respecConfig = {
           document.querySelector("#sotd");
         if (!p) return;
 
-        var vv =
+        var specStatus = (typeof respecConfig !== "undefined" && respecConfig.specStatus) ? respecConfig.specStatus : "";
+        var sotdText =
           organisationConfig.sotdText &&
           organisationConfig.sotdText[lang] &&
-          organisationConfig.sotdText[lang].vv;
-        if (!vv) return;
-
-        p.innerHTML = vv;
+          organisationConfig.sotdText[lang][specStatus];
+        
+        if (!sotdText) return;
+        p.innerHTML = sotdText;
       } catch (err) {
         console.error("setSotdHtml error", err);
       }
