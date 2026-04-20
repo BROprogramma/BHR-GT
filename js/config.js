@@ -90,10 +90,8 @@ let respecConfig = {
         lang = lang === "en" ? "en" : "nl";
 
         // ReSpec plaatst de SOTD-tekst meestal in #sotd > p
-        var p =
-          document.querySelector("#sotd > p") ||
-          document.querySelector("#sotd");
-        if (!p) return;
+          var sotdSection = document.querySelector("#sotd");
+                  if (!sotdSection) return;
 
         var specStatus = (typeof respecConfig !== "undefined" && respecConfig.specStatus) ? respecConfig.specStatus : "";
         var sotdText =
@@ -102,7 +100,13 @@ let respecConfig = {
           organisationConfig.sotdText[lang][specStatus];
         
         if (!sotdText) return;
-        p.innerHTML = sotdText;
+          var h2 = sotdSection.querySelector('h2');
+                    if (h2) {
+                                    Array.from(sotdSection.querySelectorAll('p')).forEach(function(el) { el.remove(); });
+                                    h2.insertAdjacentHTML('afterend', '<p>' + sotdText + '</p>');
+                    } else {
+                                    sotdSection.innerHTML = sotdText;
+                    }
       } catch (err) {
         console.error("setSotdHtml error", err);
       }
