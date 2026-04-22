@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<SchelpmateriaalVoorkomen>
+		<Waarde>fragmenten</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Schelpmateriaal dat volledig bestaat uit schelpfragmenten.</Omschrijving>
+	</SchelpmateriaalVoorkomen>
+	<SchelpmateriaalVoorkomen>
+		<Waarde>fragmentenGruis</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Schelpmateriaal dat in afnemende volgorde van massa-aandeel bestaat uit schelpfragmenten en schelpgruis.</Omschrijving>
+	</SchelpmateriaalVoorkomen>
+	<SchelpmateriaalVoorkomen>
+		<Waarde>fragmentenGruisHeel</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Schelpmateriaal dat in afnemende volgorde van massa-aandeel bestaat uit schelpfragmenten, schelpgruis en hele schelpen.</Omschrijving>
+	</SchelpmateriaalVoorkomen>
+	<SchelpmateriaalVoorkomen>
+		<Waarde>fragmentenHeel</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Schelpmateriaal dat in afnemende volgorde van massa-aandeel bestaat uit schelpfragmenten en hele schelpen.</Omschrijving>
+	</SchelpmateriaalVoorkomen>
+	<SchelpmateriaalVoorkomen>
+		<Waarde>fragmentenHeelGruis</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Schelpmateriaal dat in afnemende volgorde van massa-aandeel bestaat uit schelpfragmenten, hele schelpen en schelpgruis.</Omschrijving>
+	</SchelpmateriaalVoorkomen>
+	<SchelpmateriaalVoorkomen>
+		<Waarde>gruis</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Schelpmateriaal dat volledig bestaat uit schelpgruis.</Omschrijving>
+	</SchelpmateriaalVoorkomen>
+	<SchelpmateriaalVoorkomen>
+		<Waarde>gruisFragmenten</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Schelpmateriaal dat in afnemende volgorde van massa-aandeel bestaat uit schelpgruis en schelpfragmenten.</Omschrijving>
+	</SchelpmateriaalVoorkomen>
+	<SchelpmateriaalVoorkomen>
+		<Waarde>gruisFragmentenHeel</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Schelpmateriaal dat in afnemende volgorde van massa-aandeel bestaat uit schelpgruis, schelpfragmenten en hele schelpen.</Omschrijving>
+	</SchelpmateriaalVoorkomen>
+	<SchelpmateriaalVoorkomen>
+		<Waarde>gruisHeel</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Schelpmateriaal dat in afnemende volgorde van massa-aandeel bestaat uit schelpgruis en hele schelpen.</Omschrijving>
+	</SchelpmateriaalVoorkomen>
+	<SchelpmateriaalVoorkomen>
+		<Waarde>gruisHeelFragmenten</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Schelpmateriaal dat in afnemende volgorde van massa-aandeel bestaat uit schelpgruis, hele schelpen en schelpfragmenten.</Omschrijving>
+	</SchelpmateriaalVoorkomen>
+	<SchelpmateriaalVoorkomen>
+		<Waarde>heel</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Schelpmateriaal dat volledig bestaat uit hele schelpen.</Omschrijving>
+	</SchelpmateriaalVoorkomen>
+	<SchelpmateriaalVoorkomen>
+		<Waarde>heelFragmenten</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Schelpmateriaal dat in afnemende volgorde van massa-aandeel bestaat uit hele schelpen en schelpfragmenten.</Omschrijving>
+	</SchelpmateriaalVoorkomen>
+	<SchelpmateriaalVoorkomen>
+		<Waarde>heelFragmentenGruis</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Schelpmateriaal dat in afnemende volgorde van massa-aandeel bestaat uit hele schelpen, schelpfragmenten en schelpgruis.</Omschrijving>
+	</SchelpmateriaalVoorkomen>
+	<SchelpmateriaalVoorkomen>
+		<Waarde>heelGruis</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Schelpmateriaal dat in afnemende volgorde van massa-aandeel bestaat uit hele schelpen en schelpgruis.</Omschrijving>
+	</SchelpmateriaalVoorkomen>
+	<SchelpmateriaalVoorkomen>
+		<Waarde>heelGruisFragmenten</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Schelpmateriaal dat in afnemende volgorde van massa-aandeel bestaat uit hele schelpen, schelpgruis en schelpfragmenten.</Omschrijving>
+	</SchelpmateriaalVoorkomen>
+</domeintabel>

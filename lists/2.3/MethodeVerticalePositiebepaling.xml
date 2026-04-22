@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<MethodeVerticalePositiebepaling>
+		<Waarde>PPPGPS0tot4cm</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Meting d.m.v. PPP (Precise Point Positioning) satellietnavigatie, afwijking kleiner dan 4 cm. De nauwkeurigheid wordt bereikt wanneer de meting is uitgevoerd met Ambiguity Resolution (PPP-AR) of bij een lange meettijd. PPP maakt gebruik van een wereldwijd satellietnavigatiesysteem, Global Navigation Satellite System (GNSS). GNSS wordt in het dagelijks gebruik vaak aangeduid met GPS als verzamelnaam voor de 4 systemen GPS, Glonass, Galileo en Beidou.</Omschrijving>
+	</MethodeVerticalePositiebepaling>
+	<MethodeVerticalePositiebepaling>
+		<Waarde>PPPGPS4tot10cm</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Meting d.m.v. PPP (Precise Point Positioning) satellietnavigatie, afwijking tussen 4 en 10 cm. De nauwkeurigheid wordt bereikt wanneer de meting is uitgevoerd met Ambiguity Resolution (PPP-AR) of bij een lange meettijd. PPP maakt gebruik van een wereldwijd satellietnavigatiesysteem, Global Navigation Satellite System (GNSS). GNSS wordt in het dagelijks gebruik vaak aangeduid met GPS als verzamelnaam voor de 4 systemen GPS, Glonass, Galileo en Beidou.</Omschrijving>
+	</MethodeVerticalePositiebepaling>
+	<MethodeVerticalePositiebepaling>
+		<Waarde>PPPGPS10tot20cm</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Meting d.m.v. PPP (Precise Point Positioning) satellietnavigatie, afwijking tussen 10 en 20 cm. De nauwkeurigheid wordt bereikt wanneer de meting is uitgevoerd met Ambiguity Resolution (PPP-AR) of bij een lange meettijd. PPP maakt gebruik van een wereldwijd satellietnavigatiesysteem, Global Navigation Satellite System (GNSS). GNSS wordt in het dagelijks gebruik vaak aangeduid met GPS als verzamelnaam voor de 4 systemen GPS, Glonass, Galileo en Beidou.</Omschrijving>
+	</MethodeVerticalePositiebepaling>
+	<MethodeVerticalePositiebepaling>
+		<Waarde>PPPGPS20tot100cm</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Meting d.m.v. PPP (Precise Point Positioning) satellietnavigatie, afwijking tussen 20 en 100 cm. De nauwkeurigheid wordt bereikt wanneer de meting is uitgevoerd in korte tijd zonder Ambiguity Resolution. PPP maakt gebruik van een wereldwijd satellietnavigatiesysteem, Global Navigation Satellite System (GNSS). GNSS wordt in het dagelijks gebruik vaak aangeduid met GPS als verzamelnaam voor de 4 systemen GPS, Glonass, Galileo en Beidou.</Omschrijving>
+	</MethodeVerticalePositiebepaling>
+	<MethodeVerticalePositiebepaling>
+		<Waarde>RTKGPS0tot4cm</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Meting d.m.v. RTK (Real Time Kinematic) satellietnavigatie, in het dagelijks gebruik ook wel aangeduid als DGPS, afwijking kleiner dan 4 cm. De nauwkeurigheid wordt bereikt wanneer de meting is uitgevoerd met Ambiguity Resolution (ook wel fix). RTK maakt gebruik van een wereldwijd satellietnavigatiesysteem, Global Navigation Satellite System (GNSS). GNSS wordt in het dagelijks gebruik vaak aangeduid met GPS als verzamelnaam voor de 4 systemen GPS, Glonass, Galileo en Beidou.</Omschrijving>
+	</MethodeVerticalePositiebepaling>
+	<MethodeVerticalePositiebepaling>
+		<Waarde>RTKGPS4tot10cm</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Meting d.m.v. RTK (Real Time Kinematic) satellietnavigatie, in het dagelijks gebruik ook wel aangeduid als DGPS, afwijking tussen 4 en 10 cm. De nauwkeurigheid wordt bereikt wanneer de meting is uitgevoerd met Ambiguity Resolution (ook wel fix). RTK maakt gebruik van een wereldwijd satellietnavigatiesysteem, Global Navigation Satellite System (GNSS). GNSS wordt in het dagelijks gebruik vaak aangeduid met GPS als verzamelnaam voor de 4 systemen GPS, Glonass, Galileo en Beidou.</Omschrijving>
+	</MethodeVerticalePositiebepaling>
+	<MethodeVerticalePositiebepaling>
+		<Waarde>RTKGPS10tot20cm</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Meting d.m.v. RTK (Real Time Kinematic) satellietnavigatie, in het dagelijks gebruik ook wel aangeduid als DGPS, afwijking tussen 10 en 20 cm. De nauwkeurigheid wordt bereikt wanneer de meting is uitgevoerd met Ambiguity Resolution (ook wel fix). RTK maakt gebruik van een wereldwijd satellietnavigatiesysteem, Global Navigation Satellite System (GNSS). GNSS wordt in het dagelijks gebruik vaak aangeduid met GPS als verzamelnaam voor de 4 systemen GPS, Glonass, Galileo en Beidou.</Omschrijving>
+	</MethodeVerticalePositiebepaling>
+	<MethodeVerticalePositiebepaling>
+		<Waarde>RTKGPS20tot100cm</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Meting d.m.v. RTK (Real Time Kinematic) satellietnavigatie, in het dagelijks gebruik ook wel aangeduid als DGPS, afwijking tussen 20 en 100 cm. De nauwkeurigheid wordt bereikt wanneer de meting is uitgevoerd zonder Ambiguity Resolution (ook wel fix). RTK maakt gebruik van een wereldwijd satellietnavigatiesysteem, Global Navigation Satellite System (GNSS). GNSS wordt in het dagelijks gebruik vaak aangeduid met GPS als verzamelnaam voor de 4 systemen GPS, Glonass, Galileo en Beidou.</Omschrijving>
+	</MethodeVerticalePositiebepaling>
+	<MethodeVerticalePositiebepaling>
+		<Waarde>tachymetrie0tot10cm</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Meting d.m.v. tachymetrie, ook wel als landmeting of Total Station aangeduid, vanaf een referentiepunt dat geen NAP-peilmerk is, afwijking kleiner dan 10 cm.</Omschrijving>
+	</MethodeVerticalePositiebepaling>
+	<MethodeVerticalePositiebepaling>
+		<Waarde>tachymetrie10tot50cm</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Meting d.m.v. tachymetrie, ook wel als landmeting of Total Station aangeduid, vanaf een referentiepunt dat geen NAP-peilmerk is, afwijking tussen 10 en 50 cm.</Omschrijving>
+	</MethodeVerticalePositiebepaling>
+	<MethodeVerticalePositiebepaling>
+		<Waarde>waterpassing0tot2cm</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Meting d.m.v. waterpassing vanaf een NAP-peilmerk, afwijking kleiner dan 2 cm.</Omschrijving>
+	</MethodeVerticalePositiebepaling>
+	<MethodeVerticalePositiebepaling>
+		<Waarde>waterpassing2tot4cm</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Meting d.m.v. waterpassing vanaf een NAP-peilmerk, afwijking tussen 2 en 4 cm.</Omschrijving>
+	</MethodeVerticalePositiebepaling>
+	<MethodeVerticalePositiebepaling>
+		<Waarde>waterpassing4tot10cm</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Meting d.m.v. waterpassing vanaf een NAP-peilmerk, afwijking tussen 4 en 10 cm.</Omschrijving>
+	</MethodeVerticalePositiebepaling>
+	<MethodeVerticalePositiebepaling>
+		<Waarde>AHN1</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Positie bepaald m.b.v. Actueel Hoogtebestand Nederland, versie 1 ingewonnen tussen 1996 en 2003. Het is niet bekend welk rasterbestand is gebruikt.</Omschrijving>
+	</MethodeVerticalePositiebepaling>
+	<MethodeVerticalePositiebepaling>
+		<Waarde>AHN2</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Positie bepaald d.m.v. Actueel Hoogtebestand Nederland, versie 2 ingewonnen tussen 2007 en 2012. Het is niet bekend welk rasterbestand is gebruikt.</Omschrijving>
+	</MethodeVerticalePositiebepaling>
+	<MethodeVerticalePositiebepaling>
+		<Waarde>AHN3</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Positie bepaald m.b.v. Actueel Hoogtebestand Nederland, versie 3 ingewonnen tussen 2014 en 2019. Het is niet bekend welk rasterbestand is gebruikt.</Omschrijving>
+	</MethodeVerticalePositiebepaling>
+	<MethodeVerticalePositiebepaling>
+		<Waarde>AHNOnbekend</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Positie bepaald m.b.v. Actueel Hoogtebestand Nederland, versie onbekend.</Omschrijving>
+	</MethodeVerticalePositiebepaling>
+	<MethodeVerticalePositiebepaling>
+		<Waarde>DGPS0tot10cm</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Meting d.m.v. RTK (Real Time Kinematic) satellietnavigatie, in het dagelijks gebruik ook wel aangeduid als DGPS, afwijking kleiner dan 10 cm. De nauwkeurigheid wordt bereikt wanneer de meting is uitgevoerd met Ambiguity Resolution (ook wel fix). RTK maakt gebruik van een wereldwijd satellietnavigatiesysteem, Global Navigation Satellite System (GNSS). GNSS wordt in het dagelijks gebruik vaak aangeduid met GPS als verzamelnaam voor de 4 systemen GPS, Glonass, Galileo en Beidou.</Omschrijving>
+	</MethodeVerticalePositiebepaling>
+	<MethodeVerticalePositiebepaling>
+		<Waarde>geen</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Er is geen positie bepaald.</Omschrijving>
+	</MethodeVerticalePositiebepaling>
+	<MethodeVerticalePositiebepaling>
+		<Waarde>GPSOnbekend</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Meting d.m.v. satellietnavigatie zonder correctie, SPP (Single Point Positioning), in het dagelijks gebruik aangeduid als GPS. Afwijking onbekend. SPP maakt gebruik van een wereldwijd satellietnavigatiesysteem, Global Navigation Satellite System (GNSS). GNSS wordt in het dagelijks gebruik vaak aangeduid met GPS als verzamelnaam voor de 4 systemen GPS, Glonass, Galileo en Beidou.</Omschrijving>
+	</MethodeVerticalePositiebepaling>
+	<MethodeVerticalePositiebepaling>
+		<Waarde>kaartGrootschalig</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Locatie bepaald aan de hand van niet-digitale kaart, afwijking onbekend. Een grootschalige kaart is een kaart met een schaalgrootte niet kleiner dan 1:10.000 (bijvoorbeeld 1:500, 1:5.000 of 1:10.000).</Omschrijving>
+	</MethodeVerticalePositiebepaling>
+	<MethodeVerticalePositiebepaling>
+		<Waarde>kaartKleinschalig</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Locatie bepaald aan de hand van niet-digitale kaart, afwijking onbekend. Een kleinschalige kaart is een kaart met een schaalgrootte kleiner dan 1:10.000 (bijvoorbeeld 1:25.000, 1:50.000 of 1:100.000).</Omschrijving>
+	</MethodeVerticalePositiebepaling>
+	<MethodeVerticalePositiebepaling>
+		<Waarde>kaartOnbekend</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Positie bepaald aan de hand van niet-digitale kaart, afwijking onbekend.</Omschrijving>
+	</MethodeVerticalePositiebepaling>
+	<MethodeVerticalePositiebepaling>
+		<Waarde>landmetingOnbekend</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Meting d.m.v. landmeting, afwijking onbekend.</Omschrijving>
+	</MethodeVerticalePositiebepaling>
+	<MethodeVerticalePositiebepaling>
+		<Waarde>onbekend</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het is niet bekend op welke manier de verticale positie is bepaald.</Omschrijving>
+	</MethodeVerticalePositiebepaling>
+</domeintabel>

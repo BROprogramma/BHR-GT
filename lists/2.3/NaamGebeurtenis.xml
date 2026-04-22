@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<NaamGebeurtenis>
+		<Waarde>eindGerapporteerd</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Er is na de rapportage van een of meerdere deelonderzoeken een volgend deelonderzoek gerapporteerd, en dat is het rapport waarmee het onderzoek wordt gecompleteerd.</Omschrijving>
+	</NaamGebeurtenis>
+	<NaamGebeurtenis>
+		<Waarde>startGerapporteerd</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het eerste deel van het onderzoek is gerapporteerd, maar daarmee is het onderzoek nog niet compleet.</Omschrijving>
+	</NaamGebeurtenis>
+	<NaamGebeurtenis>
+		<Waarde>vervolgGerapporteerd</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Er is na de eerste rapportage een volgend rapport overgedragen, maar dat is nog niet het rapport waarmee het onderzoek wordt gecompleteerd.</Omschrijving>
+	</NaamGebeurtenis>
+	<NaamGebeurtenis>
+		<Waarde>volledigGerapporteerd</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het onderzoek is in een keer volledig gerapporteerd.</Omschrijving>
+	</NaamGebeurtenis>
+</domeintabel>

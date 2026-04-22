@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<MassaPercentageklasse>
+		<Waarde>spoorTot1</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Er komt een spoor voor en dat betekent dat het aandeel in de massa minder dan 1 % is.</Omschrijving>
+	</MassaPercentageklasse>
+	<MassaPercentageklasse>
+		<Waarde>weinig1tot25</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Er komt weinig voor en dat betekent dat het aandeel in de massa tussen minimaal 1 en minder dan 25 % is.</Omschrijving>
+	</MassaPercentageklasse>
+	<MassaPercentageklasse>
+		<Waarde>veel25tot50</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Er komt veel voor en dat betekent dat het aandeel in de massa minimaal 25 en minder dan 50 % is.</Omschrijving>
+	</MassaPercentageklasse>
+	<MassaPercentageklasse>
+		<Waarde>zeerVeel50tot75</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Er komt zeer veel voor en dat betekent dat het aandeel in de massa minimaal 50 en minder dan 75 % is.</Omschrijving>
+	</MassaPercentageklasse>
+	<MassaPercentageklasse>
+		<Waarde>uiterstVeelMinstens75</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Er komt uiterst veel voor en dat betekent dat het aandeel in de massa minstens 75 % is.</Omschrijving>
+	</MassaPercentageklasse>
+</domeintabel>

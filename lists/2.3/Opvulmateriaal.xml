@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Opvulmateriaal>
+		<Waarde>calciet</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Vast materiaal: neergeslagen koolzure kalk.</Omschrijving>
+	</Opvulmateriaal>
+	<Opvulmateriaal>
+		<Waarde>gips</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Vast materiaal: neergeslagen calciumsulfaat.</Omschrijving>
+	</Opvulmateriaal>
+	<Opvulmateriaal>
+		<Waarde>ijzeroxide</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Vast materiaal: neergeslagen ijzeroxide.</Omschrijving>
+	</Opvulmateriaal>
+	<Opvulmateriaal>
+		<Waarde>kalk</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Los materiaal: ingespoelde kalk.</Omschrijving>
+	</Opvulmateriaal>
+	<Opvulmateriaal>
+		<Waarde>klei</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Los materiaal: ingespoelde klei. Onbekend of het een zwellend vermogen heeft.</Omschrijving>
+	</Opvulmateriaal>
+	<Opvulmateriaal>
+		<Waarde>kleiZwellend</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Los materiaal: ingespoelde klei met smectiet (kleimineraal).</Omschrijving>
+	</Opvulmateriaal>
+	<Opvulmateriaal>
+		<Waarde>kwarts</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Vast materiaal: neergeslagen siliciumoxide.</Omschrijving>
+	</Opvulmateriaal>
+	<Opvulmateriaal>
+		<Waarde>zand</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Los materiaal: kwartskorrels met een grootte die tussen 63 µm en 2 mm ligt.</Omschrijving>
+	</Opvulmateriaal>
+</domeintabel>

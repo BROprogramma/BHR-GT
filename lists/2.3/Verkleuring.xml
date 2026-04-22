@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Verkleuring>
+		<Waarde>nietVerkleurd</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Geen zichtbare verkleuring van gesteentemateriaal, eventueel met lichte verkleuring op discontinuïteitsvlakken.</Omschrijving>
+	</Verkleuring>
+	<Verkleuring>
+		<Waarde>gedeeltelijkVerkleurd</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het materiaal is verkleurd, maar niet door en door.</Omschrijving>
+	</Verkleuring>
+	<Verkleuring>
+		<Waarde>volledigVerkleurd</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het materiaal is door en door verkleurd.</Omschrijving>
+	</Verkleuring>
+</domeintabel>

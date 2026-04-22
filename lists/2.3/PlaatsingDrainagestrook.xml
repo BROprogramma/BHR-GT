@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<PlaatsingDrainagestrook>
+		<Waarde>diagonaal35tot60graden</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De drainagestroken zijn diagonaal in een hoek tussen 35 en 60 graden rondom het proefstuk geplaatst.</Omschrijving>
+	</PlaatsingDrainagestrook>
+	<PlaatsingDrainagestrook>
+		<Waarde>diagonaal60tot80graden</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De drainagestroken zijn diagonaal in een hoek tussen 60 en 80 graden rondom het proefstuk geplaatst.</Omschrijving>
+	</PlaatsingDrainagestrook>
+	<PlaatsingDrainagestrook>
+		<Waarde>verticaal</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De drainagestroken zijn verticaal aan de buitenkant van het proefstuk geplaatst.</Omschrijving>
+	</PlaatsingDrainagestrook>
+</domeintabel>

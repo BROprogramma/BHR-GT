@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<TextuurOrganischeGrond>
+		<Waarde>amorf</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Geen zichtbare plantaardige structuur, sponsachtige consistentie. Een klasse onder de NEN-EN-ISO 14688 procedure.</Omschrijving>
+	</TextuurOrganischeGrond>
+	<TextuurOrganischeGrond>
+		<Waarde>pseudoVezelig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Mengsel van vezels en amorfe massa. Er is geen onderscheid gemaakt tussen fijne en grove vezels (fijnVezelig en grofVezelig). Een klasse onder de NEN-EN-ISO 14688 procedure.</Omschrijving>
+	</TextuurOrganischeGrond>
+	<TextuurOrganischeGrond>
+		<Waarde>pseudoVezeligFijn</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Mengsel van vezels met een lengte kleiner dan 1 mm en amorfe massa. Een klasse onder de NEN-EN-ISO 14688 procedure.</Omschrijving>
+	</TextuurOrganischeGrond>
+	<TextuurOrganischeGrond>
+		<Waarde>pseudoVezeligGrof</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Mengsel van vezels met een lengte of diameter groter dan 1 mm en amorfe massa. Een klasse onder de NEN-EN-ISO 14688 procedure.</Omschrijving>
+	</TextuurOrganischeGrond>
+	<TextuurOrganischeGrond>
+		<Waarde>vezelig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Vezelige structuur, eenvoudig te herkennen plantaardige structuur, behoudt enige sterkte. Er is geen onderscheid gemaakt tussen fijne en grove vezels (fijnVezelig en grofVezelig). Een klasse onder de NEN-EN-ISO 14688 procedure.</Omschrijving>
+	</TextuurOrganischeGrond>
+	<TextuurOrganischeGrond>
+		<Waarde>vezeligFijn</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Vezelige structuur, vezels met een lengte kleiner dan 1 mm, eenvoudig te herkennen plantaardige structuur, behoudt enige sterkte. Een klasse onder de NEN-EN-ISO 14688 procedure.</Omschrijving>
+	</TextuurOrganischeGrond>
+	<TextuurOrganischeGrond>
+		<Waarde>vezeligGrof</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Vezelige structuur, vezels met een lengte of diameter groter dan 1 mm, eenvoudig te herkennen plantaardige structuur, behoudt enige sterkte. Een klasse onder de NEN-EN-ISO 14688 procedure.</Omschrijving>
+	</TextuurOrganischeGrond>
+	<TextuurOrganischeGrond>
+		<Waarde>zwakAmorfNEN5104</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Niet tot zwak vergane plantenresten. Bij handpersen ontwijkt geen veen tussen de vingers en het uitgeperste water is kleurloos tot troebel. Een klasse onder de NEN 5104 procedure.</Omschrijving>
+	</TextuurOrganischeGrond>
+	<TextuurOrganischeGrond>
+		<Waarde>matigAmorfNEN5104</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Matig vergane plantenresten, de structuur is nog zichtbaar. Bij handpersen glijdt veel van het veen tussen de vingers door en het uitgeknepen water is troebel. Een klasse onder de NEN 5104 procedure.</Omschrijving>
+	</TextuurOrganischeGrond>
+	<TextuurOrganischeGrond>
+		<Waarde>sterkAmorfNEN5104</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Zeer sterk vergane plantenresten, structuur ontbreekt geheel. Bij handpersen glijdt het grootste deel van het veen tussen de vingers door. Een klasse onder de NEN 5104 procedure.</Omschrijving>
+	</TextuurOrganischeGrond>
+</domeintabel>

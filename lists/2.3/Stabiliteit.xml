@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Stabiliteit>
+		<Waarde>stabiel</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het gesteente blijft onveranderd in water.</Omschrijving>
+	</Stabiliteit>
+	<Stabiliteit>
+		<Waarde>matigStabiel</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het gesteente valt oppervlakkig uiteen in water.</Omschrijving>
+	</Stabiliteit>
+	<Stabiliteit>
+		<Waarde>instabiel</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het gesteente valt uiteen in water of het oppervlak van het monster valt al uiteen bij blootstelling aan lucht.</Omschrijving>
+	</Stabiliteit>
+</domeintabel>

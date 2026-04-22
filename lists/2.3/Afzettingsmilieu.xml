@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Afzettingsmilieu>
+		<Waarde>Antropogeen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Antropogeen. Het afzettingsmilieu is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</Afzettingsmilieu>
+	<Afzettingsmilieu>
+		<Waarde>Carbonaatplatform</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Carbonaatplatform. Het afzettingsmilieu is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</Afzettingsmilieu>
+	<Afzettingsmilieu>
+		<Waarde>Delta</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Delta. Het afzettingsmilieu is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</Afzettingsmilieu>
+	<Afzettingsmilieu>
+		<Waarde>Eluvium</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Eluvium. Het afzettingsmilieu is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</Afzettingsmilieu>
+	<Afzettingsmilieu>
+		<Waarde>Eolisch</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Eolisch. Het afzettingsmilieu is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</Afzettingsmilieu>
+	<Afzettingsmilieu>
+		<Waarde>Fluviatiel</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Fluviatiel. Het afzettingsmilieu is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</Afzettingsmilieu>
+	<Afzettingsmilieu>
+		<Waarde>Getijde</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Getijde. Het afzettingsmilieu is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</Afzettingsmilieu>
+	<Afzettingsmilieu>
+		<Waarde>Glaciaal</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Glaciaal. Het afzettingsmilieu is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</Afzettingsmilieu>
+	<Afzettingsmilieu>
+		<Waarde>Kust</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Kust. Het afzettingsmilieu is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</Afzettingsmilieu>
+	<Afzettingsmilieu>
+		<Waarde>Lacustrien</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Lacustrien. Het afzettingsmilieu is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</Afzettingsmilieu>
+	<Afzettingsmilieu>
+		<Waarde>Lagunair</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Lagunair. Het afzettingsmilieu is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</Afzettingsmilieu>
+	<Afzettingsmilieu>
+		<Waarde>Marien</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Marien. Het afzettingsmilieu is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</Afzettingsmilieu>
+	<Afzettingsmilieu>
+		<Waarde>Moeras</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Moeras. Het afzettingsmilieu is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</Afzettingsmilieu>
+	<Afzettingsmilieu>
+		<Waarde>PlayaSabkha</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Playa - sabkha. Het afzettingsmilieu is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</Afzettingsmilieu>
+	<Afzettingsmilieu>
+		<Waarde>Stollingsgesteente</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Stollingsgesteente. Het afzettingsmilieu is omschreven in de Stratigrafische Nomenclator van Nederland.</Omschrijving>
+	</Afzettingsmilieu>
+</domeintabel>

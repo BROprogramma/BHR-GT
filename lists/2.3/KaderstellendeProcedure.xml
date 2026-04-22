@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<KaderstellendeProcedure>
+		<Waarde>EN1997d2v2007</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-EN 1997-2:2007 Eurocode 7 Geotechnisch ontwerp. Deel 2: Grondonderzoek en beproeving inclusief nationale bijlage. De Eurocode 7 maakt deel uit van de eurocode serie van Europese standaarden (EN) gerelateerd aan constructies. In Eurocode 7 Geotechnisch ontwerp wordt omschreven hoe geotechnische constructies worden ontworpen. Eurocode 7 is op 12 juni 2006 goed gekeurd door het Europese Comité voor Standaardisatie en verplicht in de lidstaten vanaf maart 2010.</Omschrijving>
+	</KaderstellendeProcedure>
+	<KaderstellendeProcedure>
+		<Waarde>ISO19901d8v2014</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>ISO 19901-8:2014 Petroleum and natural gas industries — Specific requirements for offshore structures — Part 8: Marine soil investigations is een internationale norm overgenomen als Europese norm (EN-ISO 19901-8:2015) en als Nederlandse norm NEN-EN-ISO 19901-8:2015 Aardolie- en aardgasindustrie - Specifieke eisen voor buitengaatse constructies - Deel 8: Zeebodemonderzoeken. De procedure wordt gebruikt voor booronderzoek op zee en dat is aan de zeezijde van de UNCLOS-basislijn.</Omschrijving>
+	</KaderstellendeProcedure>
+	<KaderstellendeProcedure>
+		<Waarde>NEN_EN_ISO19901d8v2023</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-EN-ISO 19901-8:2023 Petroleum and natural gas industries — Specific requirements for offshore structures — Part 8: Marine soil investigations is een internationale norm overgenomen als Europese norm (EN-ISO 19901-8:2023) en als Nederlandse norm NEN-EN-ISO 19901-8:2023 Aardolie- en aardgasindustrie - Specifieke eisen voor buitengaatse constructies - Deel 8: Zeebodemonderzoeken. De procedure wordt gebruikt voor booronderzoek op zee en dat is aan de zeezijde van de UNCLOS-basislijn.</Omschrijving>
+	</KaderstellendeProcedure>
+	<KaderstellendeProcedure>
+		<Waarde>NEN_EN1997d2v2007/NBv2011en</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>NEN-EN 1997-2:2007/NB:2011 en Eurocode 7 Geotechnisch ontwerp. Deel 2: Grondonderzoek en beproeving inclusief nationale bijlage. De Eurocode 7 maakt deel uit van de eurocode serie van Europese standaarden (EN) gerelateerd aan constructies. In Eurocode 7 Geotechnisch ontwerp wordt omschreven hoe geotechnische constructies worden ontworpen.</Omschrijving>
+	</KaderstellendeProcedure>
+	<KaderstellendeProcedure>
+		<Waarde>onbekend</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het is niet bekend binnen welke procedurele kaders het booronderzoek is uitgevoerd.</Omschrijving>
+	</KaderstellendeProcedure>
+</domeintabel>

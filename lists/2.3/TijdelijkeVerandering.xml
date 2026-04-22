@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<TijdelijkeVerandering>
+		<Waarde>bevriezing</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Voor de start van het onderzoek was de ondergrond ten behoeve van andere werkzaamheden bevroren.</Omschrijving>
+	</TijdelijkeVerandering>
+	<TijdelijkeVerandering>
+		<Waarde>bouwput</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Voor de start van het onderzoek was de ondergrond ten behoeve van bouwwerkzaamheden uitgegraven.</Omschrijving>
+	</TijdelijkeVerandering>
+	<TijdelijkeVerandering>
+		<Waarde>bronbemaling</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Voor de start van het onderzoek was de grondwaterstand verlaagd ten behoeve van andere werkzaamheden.</Omschrijving>
+	</TijdelijkeVerandering>
+	<TijdelijkeVerandering>
+		<Waarde>injectie</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Voor de start van het onderzoek was er materiaal in de ondergrond geïnjecteerd ten behoeve van andere werkzaamheden.</Omschrijving>
+	</TijdelijkeVerandering>
+	<TijdelijkeVerandering>
+		<Waarde>vacuumconsolidatie</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Voor de start van het onderzoek was er in de ondergrond vacuümconsolidatie toegepast ten behoeve van andere werkzaamheden.</Omschrijving>
+	</TijdelijkeVerandering>
+	<TijdelijkeVerandering>
+		<Waarde>verticaleDrainage</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Voor de start van het onderzoek was de ondergrond tot op enige diepte verticaal gedraineerd (met strips, grindpalen, etc.) ten behoeve van andere werkzaamheden.</Omschrijving>
+	</TijdelijkeVerandering>
+	<TijdelijkeVerandering>
+		<Waarde>voorbelasting</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Voor de start van het onderzoek was de ondergrond voorbelast ten behoeve van andere werkzaamheden.</Omschrijving>
+	</TijdelijkeVerandering>
+</domeintabel>

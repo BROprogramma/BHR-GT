@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Zandmediaanklasse>
+		<Waarde>fijn</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De zandmediaan is groter dan 63 μm en kleiner dan of gelijk aan 200 μm. Een klasse binnen de categorie fijn onder de NEN-EN-ISO 14688 procedure.</Omschrijving>
+	</Zandmediaanklasse>
+	<Zandmediaanklasse>
+		<Waarde>fijn63tot105um</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De zandmediaan is groter dan 63 μm en kleiner dan of gelijk aan 105 μm. Een klasse binnen de categorie fijn onder de NEN-EN-ISO 14688 procedure.</Omschrijving>
+	</Zandmediaanklasse>
+	<Zandmediaanklasse>
+		<Waarde>fijn105tot150um</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De zandmediaan is groter dan 105 μm en kleiner dan of gelijk aan 150 μm. Een klasse binnen de categorie fijn onder de NEN-EN-ISO 14688 procedure.</Omschrijving>
+	</Zandmediaanklasse>
+	<Zandmediaanklasse>
+		<Waarde>fijn150tot200um</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De zandmediaan is groter dan 150 μm en kleiner dan of gelijk aan 200 μm. Een klasse binnen de categorie fijn onder de NEN-EN-ISO 14688 procedure.</Omschrijving>
+	</Zandmediaanklasse>
+	<Zandmediaanklasse>
+		<Waarde>middelgrof</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De zandmediaan ligt tussen 200 en 630 µm. Een klasse onder de NEN-EN-ISO 14688 procedure.</Omschrijving>
+	</Zandmediaanklasse>
+	<Zandmediaanklasse>
+		<Waarde>middelgrof200tot300um</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De zandmediaan is groter dan 200 μm en kleiner dan of gelijk aan 300 μm. Een klasse binnen de categorie middelgrof onder de NEN-EN-ISO 14688 procedure.</Omschrijving>
+	</Zandmediaanklasse>
+	<Zandmediaanklasse>
+		<Waarde>middelgrof300tot420um</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De zandmediaan is groter dan 300 μm en kleiner dan of gelijk aan 420 μm. Een klasse binnen de categorie middelgrof onder de NEN-EN-ISO 14688 procedure.</Omschrijving>
+	</Zandmediaanklasse>
+	<Zandmediaanklasse>
+		<Waarde>middelgrof420tot630um</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De zandmediaan is groter dan 420 μm en kleiner dan of gelijk aan 630 μm. Een klasse binnen de categorie middelgrof onder de NEN-EN-ISO 14688 procedure.</Omschrijving>
+	</Zandmediaanklasse>
+	<Zandmediaanklasse>
+		<Waarde>grof</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De zandmediaan is groter dan 630 μm en kleiner dan of gelijk aan 2000 μm. Een klasse onder de NEN-EN-ISO 14688 procedure.</Omschrijving>
+	</Zandmediaanklasse>
+	<Zandmediaanklasse>
+		<Waarde>uiterstFijnNEN5104</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De zandmediaan ligt tussen 63 en 105 µm. Een klasse onder de NEN5104 procedure.</Omschrijving>
+	</Zandmediaanklasse>
+	<Zandmediaanklasse>
+		<Waarde>zeerFijnNEN5104</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De zandmediaan ligt tussen 105 en 150 µm. Een klasse onder de NEN5104 procedure.</Omschrijving>
+	</Zandmediaanklasse>
+	<Zandmediaanklasse>
+		<Waarde>matigFijnNEN5104</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De zandmediaan ligt tussen 150 en 210 µm. Een klasse onder de NEN 5104 procedure.</Omschrijving>
+	</Zandmediaanklasse>
+	<Zandmediaanklasse>
+		<Waarde>matigGrofNEN5104</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De zandmediaan ligt tussen 210 en 300 µm. Een klasse onder de NEN 5104 procedure.</Omschrijving>
+	</Zandmediaanklasse>
+	<Zandmediaanklasse>
+		<Waarde>zeerGrofNEN5104</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De zandmediaan ligt tussen 300 en 420 µm. Een klasse onder de NEN 5104 procedure.</Omschrijving>
+	</Zandmediaanklasse>
+	<Zandmediaanklasse>
+		<Waarde>uiterstGrofNEN5104</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De zandmediaan ligt tussen 420 en 2000 µm. Een klasse onder de NEN 5104 procedure.</Omschrijving>
+	</Zandmediaanklasse>
+</domeintabel>

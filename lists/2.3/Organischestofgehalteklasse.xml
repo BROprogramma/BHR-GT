@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Organischestofgehalteklasse>
+		<Waarde>nietOrganisch</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Organische stof is niet aanwezig.</Omschrijving>
+	</Organischestofgehalteklasse>
+	<Organischestofgehalteklasse>
+		<Waarde>zwakOrganisch</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Organische stof is waarneembaar aanwezig en heeft voelbaar geen invloed op het gedrag van de grond.</Omschrijving>
+	</Organischestofgehalteklasse>
+	<Organischestofgehalteklasse>
+		<Waarde>sterkOrganisch</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Organische stof is waarneembaar aanwezig en heeft voelbaar geen invloed op het gedrag van de grond.</Omschrijving>
+	</Organischestofgehalteklasse>
+</domeintabel>

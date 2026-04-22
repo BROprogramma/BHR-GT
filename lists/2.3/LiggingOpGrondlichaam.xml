@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<LiggingOpGrondlichaam>
+		<Waarde>achterland</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het gebied aan de binnenzijde (bij dijken de landzijde) van het grondlichaam, beginnend bij de binnenteen.</Omschrijving>
+	</LiggingOpGrondlichaam>
+	<LiggingOpGrondlichaam>
+		<Waarde>binnenberm</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het (meestal vlakke) gebied aan het einde van het binnentalud.</Omschrijving>
+	</LiggingOpGrondlichaam>
+	<LiggingOpGrondlichaam>
+		<Waarde>binnentalud</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het hellend vlak aan de binnenzijde (bij dijken de landzijde) van het grondlichaam.</Omschrijving>
+	</LiggingOpGrondlichaam>
+	<LiggingOpGrondlichaam>
+		<Waarde>binnenteen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het gebied waar de dijk kruist met het achterland.</Omschrijving>
+	</LiggingOpGrondlichaam>
+	<LiggingOpGrondlichaam>
+		<Waarde>buitenberm</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het (meestal vlakke) gebied aan het einde van het buitentalud.</Omschrijving>
+	</LiggingOpGrondlichaam>
+	<LiggingOpGrondlichaam>
+		<Waarde>buitentalud</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het hellend vlak aan de buitenzijde (bij dijken de waterzijde) van het grondlichaam.</Omschrijving>
+	</LiggingOpGrondlichaam>
+	<LiggingOpGrondlichaam>
+		<Waarde>buitenteen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het gebied waar de dijk kruist met de vooroever of het voorland.</Omschrijving>
+	</LiggingOpGrondlichaam>
+	<LiggingOpGrondlichaam>
+		<Waarde>kruin</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De (meestal vlakke) top van het grondlichaam.</Omschrijving>
+	</LiggingOpGrondlichaam>
+	<LiggingOpGrondlichaam>
+		<Waarde>talud</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het hellend vlak van het grondlichaam, niet nader gespecificeerd naar binnen- of buitenzijde.</Omschrijving>
+	</LiggingOpGrondlichaam>
+	<LiggingOpGrondlichaam>
+		<Waarde>teen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het gebied waar de dijk kruist met het achterland, de vooroever of het voorland.</Omschrijving>
+	</LiggingOpGrondlichaam>
+	<LiggingOpGrondlichaam>
+		<Waarde>voorland</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het gebied aan de buitenzijde (bij dijken de waterzijde) van het grondlichaam, beginnend bij de buitenteen.</Omschrijving>
+	</LiggingOpGrondlichaam>
+</domeintabel>

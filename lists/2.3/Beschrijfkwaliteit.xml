@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Beschrijfkwaliteit>
+		<Waarde>klasse1geroerd</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De lagen zijn beschreven volgens de eisen die in NEN-EN-ISO 14688-1 gesteld zijn aan uitgebreide monsterbeschrijving (B1) voor het beschrijven van monsters met bemonsteringskwaliteit E. Het eventueel aanwezige gesteente is beschreven op een gelijkwaardige manier. Deze beschrijfkwaliteit is in de basis gelijk aan klasse2geroerd, maar uitgebreid met één of meer aanvullende bepalingen.</Omschrijving>
+	</Beschrijfkwaliteit>
+	<Beschrijfkwaliteit>
+		<Waarde>klasse1ongedifferentieerd</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De lagen zijn beschreven volgens de eisen die in NEN-EN-ISO 14688-1 gesteld zijn aan uitgebreide monsterbeschrijving (B1) voor handboringen waarvan alle monsters in het veld zijn beschreven, waarbij de bemonsteringskwaliteit van de monsters niet relevant is. Er is geen gesteente beschreven. Deze beschrijfkwaliteit is in de basis gelijk aan klasse2ongedifferentieerd, maar uitgebreid met één of meer aanvullende bepalingen.</Omschrijving>
+	</Beschrijfkwaliteit>
+	<Beschrijfkwaliteit>
+		<Waarde>klasse1ongeroerd</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De lagen zijn beschreven volgens de eisen die in NEN-EN-ISO 14688-1 gesteld zijn aan uitgebreide monsterbeschrijving (B1) voor het beschrijven van monsters met bemonsteringskwaliteit A t/m D. Het eventueel aanwezige gesteente is beschreven op een gelijkwaardige manier. Deze beschrijfkwaliteit is in de basis gelijk aan klasse2ongeroerd, maar uitgebreid met één of meer aanvullende bepalingen.</Omschrijving>
+	</Beschrijfkwaliteit>
+	<Beschrijfkwaliteit>
+		<Waarde>klasse2geroerd</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De lagen zijn beschreven volgens de eisen die in NEN-EN-ISO 14688-1 gesteld zijn aan standaard geotechnisch booronderzoek (B2) voor het beschrijven van monsters met bemonsteringskwaliteit E. Het eventueel aanwezige gesteente is beschreven op een gelijkwaardige manier.</Omschrijving>
+	</Beschrijfkwaliteit>
+	<Beschrijfkwaliteit>
+		<Waarde>klasse2ongedifferentieerd</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De lagen zijn beschreven volgens de eisen die in NEN-EN-ISO 14688-1 gesteld zijn aan standaard geotechnisch booronderzoek (B2) voor handboringen waarvan alle monsters in het veld zijn beschreven, waarbij de bemonsteringskwaliteit van de monsters niet relevant is. Er is geen gesteente beschreven.</Omschrijving>
+	</Beschrijfkwaliteit>
+	<Beschrijfkwaliteit>
+		<Waarde>klasse2ongeroerd</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De lagen zijn beschreven volgens de eisen die in NEN-EN-ISO 14688-1 gesteld zijn aan standaard geotechnisch booronderzoek (B2) voor het beschrijven van monsters met bemonsteringskwaliteit A t/m D. Het eventueel aanwezige gesteente is beschreven op een gelijkwaardige manier.</Omschrijving>
+	</Beschrijfkwaliteit>
+	<Beschrijfkwaliteit>
+		<Waarde>klasse3</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De lagen zijn beschreven volgens de eisen die in NEN-EN-ISO 14688-1 gesteld zijn aan verkennend handbooronderzoek (B3). Er is geen gesteente beschreven.</Omschrijving>
+	</Beschrijfkwaliteit>
+	<Beschrijfkwaliteit>
+		<Waarde>nietGespecificeerd</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De lagen zijn beschreven op basis van NEN 5104 en met verschillen in bemonsteringskwaliteit is bij de beschrijving niet consequent rekening gehouden. Er is geen gesteente beschreven.</Omschrijving>
+	</Beschrijfkwaliteit>
+</domeintabel>
+

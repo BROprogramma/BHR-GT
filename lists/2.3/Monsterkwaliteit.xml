@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Monsterkwaliteit>
+		<Waarde>QM1</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Gelaagdheid, interne gelaagdheid (ofwel interne structuur), consistentie, veldvochtigheid (ofwel monstervochtigheid) en spanningstoestand intact (verandering door monstername reversibel).</Omschrijving>
+	</Monsterkwaliteit>
+	<Monsterkwaliteit>
+		<Waarde>QM2</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Gelaagdheid, interne gelaagdheid (ofwel interne structuur), consistentie en veldvochtigheid (ofwel monstervochtigheid) intact.</Omschrijving>
+	</Monsterkwaliteit>
+	<Monsterkwaliteit>
+		<Waarde>QM3</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Gelaagdheid, interne gelaagdheid (ofwel interne structuur) en veldvochtigheid (ofwel monstervochtigheid) intact.</Omschrijving>
+	</Monsterkwaliteit>
+	<Monsterkwaliteit>
+		<Waarde>QM4</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Gelaagdheid intact.</Omschrijving>
+	</Monsterkwaliteit>
+	<Monsterkwaliteit>
+		<Waarde>QM5</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Gelaagdheid niet intact.</Omschrijving>
+	</Monsterkwaliteit>
+</domeintabel>

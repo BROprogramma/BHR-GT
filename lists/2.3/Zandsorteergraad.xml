@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Zandsorteergraad>
+		<Waarde>zeerGoedGesorteerd</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Alle korrels hebben vrijwel dezelfde grootte.</Omschrijving>
+	</Zandsorteergraad>
+	<Zandsorteergraad>
+		<Waarde>goedGesorteerd</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Enige variatie in korrelgrootte, maar nog steeds redelijk uniform.</Omschrijving>
+	</Zandsorteergraad>
+	<Zandsorteergraad>
+		<Waarde>matigGesorteerd</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Duidelijke variatie in korrelgrootte, maar geen extreem grote verschillen.</Omschrijving>
+	</Zandsorteergraad>
+	<Zandsorteergraad>
+		<Waarde>slechtGesorteerd</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Grote variatie in korrelgrootte: zowel fijne als grove deeltjes zijn aanwezig.</Omschrijving>
+	</Zandsorteergraad>
+	<Zandsorteergraad>
+		<Waarde>zeerSlechtGesorteerd</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Zeer brede spreiding van korrelgroottes van fijn tot grof zand. Vaak in combinatie aanwezig met lutum, silt en/of grind.</Omschrijving>
+	</Zandsorteergraad>
+</domeintabel>

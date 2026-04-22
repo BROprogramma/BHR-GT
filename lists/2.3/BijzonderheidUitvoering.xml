@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<BijzonderheidUitvoering>
+		<Waarde>drukplaatScheef</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Tijdens het belasten is de drukplaat scheef gezakt en is mogelijk gaan aanlopen.<br/>De waarde is met name relevant bij samendrukkingsproeven (bepaling zettingseigenschappen).</Omschrijving>
+	</BijzonderheidUitvoering>
+	<BijzonderheidUitvoering>
+		<Waarde>gatOpgevuld</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een gat in het proefstuk, ontstaan door verwijdering van een insluitsel, is opgevuld met hetzelfde materiaal.<br/>De waarde is met name relevant bij triaxiaalproeven en vrije prismaproeven (bepaling schuifspanningsverloop bij belasting).</Omschrijving>
+	</BijzonderheidUitvoering>
+	<BijzonderheidUitvoering>
+		<Waarde>hoogteProefstuk</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De hoogte van het proefstuk is na consolidatie onvoldoende tussen de pinnen of de ribbels.<br/>De waarde is met name relevant bij direct simple shearproeven (bepaling schuifspanningsverloop bij horizontale vervorming).</Omschrijving>
+	</BijzonderheidUitvoering>
+	<BijzonderheidUitvoering>
+		<Waarde>massaProefstuk</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De massa van het proefstuk is kleiner dan de procedure voorschrijft.<br/>De waarde is met name relevant bij de bepaling korrelgrootteverdeling, de bepaling watergehalte en de bepaling volumieke massa vaste delen.</Omschrijving>
+	</BijzonderheidUitvoering>
+	<BijzonderheidUitvoering>
+		<Waarde>massaProefstukUitrolgrens</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De massa van het materiaal gebruikt voor de bepaling van de uitrolgrens is kleiner dan de procedure voorschrijft.<br/>De waarde is met name relevant bij het bepalen van de Atterbergse grenzen (bepaling consistentiegrenzen).</Omschrijving>
+	</BijzonderheidUitvoering>
+	<BijzonderheidUitvoering>
+		<Waarde>massaProefstukVloeigrens</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De massa van het materiaal gebruikt voor de bepaling van de vloeigrens is kleiner dan de procedure voorschrijft.<br/>De waarde is met name relevant bij het bepalen van de Atterbergse grenzen (bepaling consistentiegrenzen) en bepaling watergehalte.</Omschrijving>
+	</BijzonderheidUitvoering>
+	<BijzonderheidUitvoering>
+		<Waarde>materiaalVerloren</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Er is een correctie op de verdeling van de fractie groter dan 63 µm toegepast omdat tijdens het zeven een klein deel (niet meer dan 1 %) van het materiaal verloren is gegaan.<br/>De waarde is met name relevant bij de bepaling korrelgrootteverdeling.</Omschrijving>
+	</BijzonderheidUitvoering>
+	<BijzonderheidUitvoering>
+		<Waarde>membraanOpgerekt</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Tijdens het belasten is een schuifvlak ontstaan waardoor het membraan lokaal extreem is opgerekt, waardoor het kan lijken dat het materiaal na bezwijken weer kracht opbouwt.<br/>De waarde is met name relevant bij triaxiaalproeven (bepaling schuifspanningsverloop bij belasting).</Omschrijving>
+	</BijzonderheidUitvoering>
+	<BijzonderheidUitvoering>
+		<Waarde>metingNietConstant</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De volumemeting is in de tijd niet stabiel.<br/>De waarde is met name relevant bij waterdoorlatendheidsproeven (bepaling verzadigde waterdoorlatendheid bij bepaalde droge volumieke massa / bij bepaalde belasting).</Omschrijving>
+	</BijzonderheidUitvoering>
+	<BijzonderheidUitvoering>
+		<Waarde>nazakkenConus</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De conus is na de bepaling van de indringingsdiepte dieper in het materiaal gezakt.<br/>De waarde is met name relevant bij valconusproeven (bepaling maximale ongedraineerde schuifsterkte).</Omschrijving>
+	</BijzonderheidUitvoering>
+	<BijzonderheidUitvoering>
+		<Waarde>onverwachtVerloopZetting</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Tijdens de proef verliep de zetting afwijkend door o.a. de aanwezigheid van organisch materiaal (takjes).<br/>De waarde is met name relevant bij samendrukkingsproeven (bepaling zettingseigenschappen).</Omschrijving>
+	</BijzonderheidUitvoering>
+	<BijzonderheidUitvoering>
+		<Waarde>onvoldoendeVerzadigd</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het is niet gelukt om het proefstuk vooraf voldoende te verzadigen waardoor een toename in celdruk niet snel genoeg is opgenomen door de waterspanning.<br/>De waarde is met name relevant bij samendrukkingsproeven met constante vervormingssnelheid (bepaling zettingseigenschappen) en triaxiaalproeven (bepaling schuifspanningsverloop bij belasting).</Omschrijving>
+	</BijzonderheidUitvoering>
+	<BijzonderheidUitvoering>
+		<Waarde>poreuzeSteenGebroken</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Na afloop van de bepaling is geconstateerd dat een van de poreuze stenen is gebroken.<br/>De waarde is met name relevant bij samendrukkingsproeven (bepaling zettingseigenschappen), triaxiaalproeven en vrije prismaproeven (bepaling schuifspanningsverloop bij belasting), direct simple shearproeven (bepaling schuifspanningsverloop bij horizontale vervorming) en waterdoorlatendheidsproeven (bepaling verzadigde waterdoorlatendheid bij bepaalde droge volumieke massa / bij bepaalde belasting).</Omschrijving>
+	</BijzonderheidUitvoering>
+	<BijzonderheidUitvoering>
+		<Waarde>ringenstapelScheef</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Tijdens de uitvoering van de bepaling is de ringenstapel scheef gegaan.<br/>De waarde is met name relevant bij direct simple shearproeven (bepaling schuifspanningsverloop bij horizontale vervorming).</Omschrijving>
+	</BijzonderheidUitvoering>
+	<BijzonderheidUitvoering>
+		<Waarde>sequentieelUitgevoerd</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De bepalingen organischestofgehalte, kalkgehalte en korrelgrootteverdeling zijn achter elkaar op hetzelfde materiaal uitgevoerd. De bepalingen kunnen minder nauwkeurig zijn doordat er materiaal kan zijn weggespoeld.<br/>De waarde is met name relevant bij de bepaling korrelgrootteverdeling.</Omschrijving>
+	</BijzonderheidUitvoering>
+	<BijzonderheidUitvoering>
+		<Waarde>volumeProefstuk</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het volume van het proefstuk is kleiner dan de procedure voorschrijft.<br/>De waarde is met name relevant bij triaxiaalproeven en vrije prismaproeven (bepaling schuifspanningsverloop bij belasting), direct simple shearproeven (bepaling schuifspanningsverloop bij horizontale vervorming) en bepaling volumieke massa.</Omschrijving>
+	</BijzonderheidUitvoering>
+	<BijzonderheidUitvoering>
+		<Waarde>vroegtijdigStoppenProef</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De proef is eerder gestopt dan vooraf is opgelegd of dan de norm voorschrijft door beperkingen van de apparatuur (bijv. de plunjer is te kort of de verplaatsingsmeter is buiten het bereik van de slag).<br/>De waarde is met name relevant bij samendrukkingsproeven (bepaling zettingseigenschappen), triaxiaalproeven en vrije prismaproeven (bepaling schuifspanningsverloop bij belasting) en direct simple shearproeven (bepaling schuifspanningsverloop bij horizontale vervorming).</Omschrijving>
+	</BijzonderheidUitvoering>
+	<BijzonderheidUitvoering>
+		<Waarde>waterspanningsratio</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het quotiënt van de verschilwaterspanning en de verticale spanning (Ru) voldoet gedurende de hele bepaling niet aan de eisen van de procedure.<br/>De waarde is met name relevant bij samendrukkingsproeven met constante vervormingssnelheid (bepaling zettingseigenschappen).</Omschrijving>
+	</BijzonderheidUitvoering>
+	<BijzonderheidUitvoering>
+		<Waarde>zijdelingseVervorming</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Tijdens de zettingsproef trad zijdelingse vervorming van het proefstuk op (squeezing), waardoor de spanningsconditie niet langer eendimensionaal was.<br/>De waarde is met name relevant bij samendrukkingsproeven (bepaling zettingseigenschappen).</Omschrijving>
+	</BijzonderheidUitvoering>
+</domeintabel>
+

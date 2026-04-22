@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Schelptype>
+		<Waarde>angulusSp</Waarde>
+		<Taxonomie>Geslacht</Taxonomie>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Tweekleppigen van het geslacht Angulus, die niet op soort zijn gedetermineerd; marien.</Omschrijving>
+	</Schelptype>
+	<Schelptype>
+		<Waarde>barneaCandida</Waarde>
+		<Taxonomie>Soort</Taxonomie>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Witte boormossel (Barnea candida), mariene tweekleppige. Geaccepteerd synoniem van Pholas candidus.</Omschrijving>
+	</Schelptype>
+	<Schelptype>
+		<Waarde>bittiumReticulatum</Waarde>
+		<Taxonomie>Soort</Taxonomie>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Muizenkeutel (Bittium reticulatum), mariene gastropode. Geaccepteerd synoniem van Strombiformis reticulatus en Cerithium reticulatum.</Omschrijving>
+	</Schelptype>
+	<Schelptype>
+		<Waarde>buccinumUndatum</Waarde>
+		<Taxonomie>Soort</Taxonomie>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Wulk (Buccinum undatum), mariene gastropode.</Omschrijving>
+	</Schelptype>
+	<Schelptype>
+		<Waarde>cerastodermaSp</Waarde>
+		<Taxonomie>Geslacht</Taxonomie>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Tweekleppigen van het geslacht Cerastoderma, die niet op soort zijn gedetermineerd; marien. Geaccepteerd synoniem van Cardium sp.</Omschrijving>
+	</Schelptype>
+	<Schelptype>
+		<Waarde>chameleaSp</Waarde>
+		<Taxonomie>Geslacht</Taxonomie>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Tweekleppigen van het geslacht Chamelea die niet op soort zijn gedetermineerd; marien.</Omschrijving>
+	</Schelptype>
+	<Schelptype>
+		<Waarde>donaxSp</Waarde>
+		<Taxonomie>Geslacht</Taxonomie>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Tweekleppigen van het geslacht Donax die niet op soort zijn gedetermineerd; marien.</Omschrijving>
+	</Schelptype>
+		<Schelptype>
+		<Waarde>ensisSp</Waarde>
+		<Taxonomie>Geslacht</Taxonomie>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Tweekleppigen van het geslacht Ensis, die niet op soort zijn gedetermineerd; marien.</Omschrijving>
+	</Schelptype>
+		<Schelptype>
+		<Waarde>euspiraSp</Waarde>
+		<Taxonomie>Geslacht</Taxonomie>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Gastropoden van het geslacht Euspira die niet op soort zijn gedetermineerd; marien.</Omschrijving>
+	</Schelptype>
+		<Schelptype>
+		<Waarde>lucinellaDivaricata</Waarde>
+		<Taxonomie>Soort</Taxonomie>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Dubbeltjesschelp (Lucinella divaricata), mariene tweekleppige. Geaccepteerd synoniem van Tellina divaricata.</Omschrijving>
+	</Schelptype>
+		<Schelptype>
+		<Waarde>macomaSp</Waarde>
+		<Taxonomie>Geslacht</Taxonomie>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Tweekleppigen van het geslacht Macoma die niet op soort zijn gedetermineerd; marien.</Omschrijving>
+	</Schelptype>
+		<Schelptype>
+		<Waarde>mactraCorallina</Waarde>
+		<Taxonomie>Soort</Taxonomie>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Grote strandschelp, grote gestreepte trogschelp (Mactra corallina), mariene tweekleppige.</Omschrijving>
+	</Schelptype>
+		<Schelptype>
+		<Waarde>mactraGlauca</Waarde>
+		<Taxonomie>Soort</Taxonomie>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Brede strandschelp (Mactra glauca), mariene tweekleppige.</Omschrijving>
+	</Schelptype>
+	<Schelptype>
+		<Waarde>mactraStultorum</Waarde>
+		<Taxonomie>Soort</Taxonomie>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Grote strandschelp (Mactra stultorum), mariene tweekleppige. Geaccepteerd synoniem van Cardium stultorum en Mactra corallina.</Omschrijving>
+	</Schelptype>
+	<Schelptype>
+		<Waarde>mytilusSp</Waarde>
+		<Taxonomie>Geslacht</Taxonomie>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Tweekleppigen van het geslacht Mytilus die niet op soort zijn gedetermineerd; marien.</Omschrijving>
+	</Schelptype>
+	<Schelptype>
+		<Waarde>ostreaEdulis</Waarde>
+		<Taxonomie>Soort</Taxonomie>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Zeeuwse oester (Ostrea edulis), mariene tweekleppige. </Omschrijving>
+	</Schelptype>
+	<Schelptype>
+		<Waarde>peringiaUlvae</Waarde>
+		<Taxonomie>Soort</Taxonomie>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Wadslakje (Peringia ulvae), mariene en brakwater gastropode. Geaccepteerd synoniem van Hydrobia ulvae.</Omschrijving>
+	</Schelptype>
+	<Schelptype>
+		<Waarde>petricolariaPholadiformis</Waarde>
+		<Taxonomie>Soort</Taxonomie>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Amerikaanse boormossel (Petricolaria pholadiformis), mariene tweekleppige.</Omschrijving>
+	</Schelptype>
+	<Schelptype>
+		<Waarde>polititapesAureus</Waarde>
+		<Taxonomie>Soort</Taxonomie>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Gouden tapijtschelp (Polititapes aureus), mariene tweekleppige.</Omschrijving>
+	</Schelptype>
+	<Schelptype>
+		<Waarde>scrobiculariaPlana</Waarde>
+		<Taxonomie>Soort</Taxonomie>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Platte slijkgaper (Scrobicularia plana), mariene tweekleppige. Geaccepteerd synoniem van Trigonella plana.</Omschrijving>
+	</Schelptype>
+	<Schelptype>
+		<Waarde>spisulaSp</Waarde>
+		<Taxonomie>Geslacht</Taxonomie>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Tweekleppigen van het geslacht Spisula die niet op soort zijn gedetermineerd; marien.</Omschrijving>
+	</Schelptype>
+	<Schelptype>
+		<Waarde>tritiaSp</Waarde>
+		<Taxonomie>Geslacht</Taxonomie>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Gastropoden van het geslacht Tritia die niet verder op soort zijn gedetermineerd, marien. Geaccepteerd synoniem van Hinia sp.</Omschrijving>
+	</Schelptype>
+	<Schelptype>
+		<Waarde>turritellinellaSp</Waarde>
+		<Taxonomie>Geslacht</Taxonomie>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Buikpotigen van het geslacht Turritellinella die niet op soort zijn gedetermineerd; marien.</Omschrijving>
+	</Schelptype>
+	<Schelptype>
+		<Waarde>zirfaeaCrispata</Waarde>
+		<Taxonomie>Soort</Taxonomie>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Ruwe boormossel (Zirfaea crispata), mariene tweekleppige. Geaccepteerd synoniem van Mya crispata en Pholas crispata.</Omschrijving>
+	</Schelptype>
+</domeintabel>

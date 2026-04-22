@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Sterkteklasse>
+		<Waarde>uiterstZwak</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het gesteente kan met een duimnagel worden ingedrukt. Komt overeen met een uniaxiale druksterkte van 0,6 tot 1 MPa.</Omschrijving>
+	</Sterkteklasse>
+	<Sterkteklasse>
+		<Waarde>zeerZwak</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het gesteente verkruimelt bij een slag met de punt van een geologenhamer; kan met een zakmes worden geschild. Komt overeen met een uniaxiale druksterkte van 1 tot 5 MPa.</Omschrijving>
+	</Sterkteklasse>
+	<Sterkteklasse>
+		<Waarde>zwak</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het gesteente kan met enige moeite met een zakmes worden geschild. Met de punt van een geologenhamer kunnen er deuken in worden geslagen. Komt overeen met een uniaxiale druksterkte van 5 tot 25 MPa.</Omschrijving>
+	</Sterkteklasse>
+	<Sterkteklasse>
+		<Waarde>matigSterk</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het gesteente kan met een zakmes niet worden geschild of geschraapt. Een gesteentemonster kan worden gebroken met een enkele ferme slag met een geologenhamer. Komt overeen met een uniaxiale druksterkte van 25 tot 50 MPa.</Omschrijving>
+	</Sterkteklasse>
+	<Sterkteklasse>
+		<Waarde>sterk</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het gesteente breekt pas na enkele slagen met een geologenhamer. Komt overeen met een uniaxiale druksterkte van 50 tot 100 MPa.</Omschrijving>
+	</Sterkteklasse>
+	<Sterkteklasse>
+		<Waarde>zeerSterk</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het gesteente breekt na meerdere slagen met een geologenhamer. Komt overeen met een uniaxiale druksterkte van 100 tot 250 MPa.</Omschrijving>
+	</Sterkteklasse>
+	<Sterkteklasse>
+		<Waarde>uiterstSterk</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Met een geologenhamer kunnen alleen fragmenten van het gesteente worden afgeslagen. Komt overeen met een uniaxiale druksterkte groter dan 250 MPa.</Omschrijving>
+	</Sterkteklasse>
+</domeintabel>

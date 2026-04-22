@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<ZijdelingseOndersteuning>
+		<Waarde>draadversteviging</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het membraan is intern verstevigd met ijzerdraad in spiraalvorm.</Omschrijving>
+	</ZijdelingseOndersteuning>
+	<ZijdelingseOndersteuning>
+		<Waarde>ringenstapel</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Rondom het membraan is een stapel ringen aangebracht.</Omschrijving>
+	</ZijdelingseOndersteuning>
+</domeintabel>

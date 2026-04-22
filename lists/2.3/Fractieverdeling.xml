@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Fractieverdeling>
+		<Waarde>basisBasis</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De fractie kleiner dan 63 µm is niet onderverdeeld; de fractie groter dan 63 µm is niet onderverdeeld.</Omschrijving>
+	</Fractieverdeling>
+	<Fractieverdeling>
+		<Waarde>basisStandaard</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De fractie kleiner dan 63 µm is niet onderverdeeld; de fractie groter dan 63 µm is op de standaardmanier onderverdeeld (in de fracties 63 tot 90 µm, 90 tot 125 µm, 125 tot 180 µm, 180 tot 250 µm, 250 tot 355 µm, 355 tot 500 µm, 500 tot 710 µm, 710 tot 1000 µm, 1000 tot 1400 µm, 1400 µm tot 2 mm, 2 tot 4 mm, 4 tot 8 mm, 8 tot 16 mm, 16 tot 31,5 mm, 31,5 mm tot 63 mm, groter dan 63 mm).</Omschrijving>
+	</Fractieverdeling>
+	<Fractieverdeling>
+		<Waarde>basisUitgebreid</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De fractie kleiner dan 63 µm is niet onderverdeeld; de fractie groter dan 63 µm is op de uitgebreide manier onderverdeeld en dat betekent dat de standaardverdeling is uitgebreid met 1 tot 6 extra fracties (bij volledige uitbreiding in de fracties 63 tot 75 µm, 75 tot 90 µm, 90 tot 106 µm, 106 tot 125 µm, 125 tot 150 µm, 150 tot 180 µm, 180 tot 212 µm, 212 tot 250 µm, 250 tot 355 µm, 355 tot 500 µm, 500 tot 710 µm, 710 tot 1000 µm, 1000 tot 1400 µm, 1400 µm tot 2 mm, 2 tot 4 mm, 4 tot 5,6 mm, 5,6 tot 8 mm, 8 tot 11,2 mm, 11,2 tot 16 mm, 16 tot 31,5 mm, 31,5 mm tot 63 mm, groter dan 63 mm).</Omschrijving>
+	</Fractieverdeling>
+	<Fractieverdeling>
+		<Waarde>standaardBasis</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De fractie kleiner dan 63 µm is op de standaardmanier onderverdeeld (in de fracties 0 tot 2 µm, 2 tot 32 µm, 32 tot 50 µm, 50 tot 63 µm); de fractie groter dan 63 µm is niet onderverdeeld.</Omschrijving>
+	</Fractieverdeling>
+	<Fractieverdeling>
+		<Waarde>standaardStandaard</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De fractie kleiner dan 63 µm is op de standaardmanier onderverdeeld (in de fracties 0 tot 2 µm, 2 tot 32 µm, 32 tot 50 µm, 50 tot 63 µm); de fractie groter dan 63 µm is op de standaardmanier onderverdeeld (in de fracties 63 tot 90 µm, 90 tot 125 µm, 125 tot 180 µm, 180 tot 250 µm, 250 tot 355 µm, 355 tot 500 µm, 500 tot 710 µm, 710 tot 1000 µm, 1000 tot 1400 µm, 1400 µm tot 2 mm, 2 tot 4 mm, 4 tot 8 mm, 8 tot 16 mm, 16 tot 31,5 mm, 31,5 mm tot 63 mm, groter dan 63 mm).</Omschrijving>
+	</Fractieverdeling>
+	<Fractieverdeling>
+		<Waarde>standaardUitgebreid</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De fractie kleiner dan 63 µm is op de standaardmanier onderverdeeld (in de fracties 0 tot 2 µm, 2 tot 32 µm, 32 tot 50 µm, 50 tot 63 µm); de fractie groter dan 63 µm is op de uitgebreide manier onderverdeeld en dat betekent dat de standaardverdeling is uitgebreid met 1 tot 6 extra fracties (bij volledige uitbreiding in de fracties 63 tot 75 µm, 75 tot 90 µm, 90 tot 106 µm, 106 tot 125 µm, 125 tot 150 µm, 150 tot 180 µm, 180 tot 212 µm, 212 tot 250 µm, 250 tot 355 µm, 355 tot 500 µm, 500 tot 710 µm, 710 tot 1000 µm, 1000 tot 1400 µm, 1400 µm tot 2 mm, 2 tot 4 mm, 4 tot 5,6 mm, 5,6 tot 8 mm, 8 tot 11,2 mm, 11,2 tot 16 mm, 16 tot 31,5 mm, 31,5 mm tot 63 mm, groter dan 63 mm).</Omschrijving>
+	</Fractieverdeling>
+	<Fractieverdeling>
+		<Waarde>uitgebreidBasis</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De fractie kleiner dan 63 µm is op de uitgebreide manier onderverdeeld (in de fracties 0 tot 2 µm, 2 tot 4 µm, 4 tot 8 µm, 8 tot 16 µm, 16 tot 32 µm, 32 tot 50 µm, 50 tot 63 µm); de fractie groter dan 63 µm is niet onderverdeeld.</Omschrijving>
+	</Fractieverdeling>
+	<Fractieverdeling>
+		<Waarde>uitgebreidStandaard</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De fractie kleiner dan 63 µm is op de uitgebreide manier onderverdeeld (in de fracties 0 tot 2 µm, 2 tot 4 µm, 4 tot 8 µm, 8 tot 16 µm, 16 tot 32 µm, 32 tot 50 µm, 50 tot 63 µm); de fractie groter dan 63 µm is op de standaardmanier onderverdeeld (in de fracties 63 tot 90 µm, 90 tot 125 µm, 125 tot 180 µm, 180 tot 250 µm, 250 tot 355 µm, 355 tot 500 µm, 500 tot 710 µm, 710 tot 1000 µm, 1000 tot 1400 µm, 1400 µm tot 2 mm, 2 tot 4 mm, 4 tot 8 mm, 8 tot 16 mm, 16 tot 31,5 mm, 31,5 mm tot 63 mm, groter dan 63 mm).</Omschrijving>
+	</Fractieverdeling>
+	<Fractieverdeling>
+		<Waarde>uitgebreidUitgebreid</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De fractie kleiner dan 63 µm is op de uitgebreide manier onderverdeeld (in de fracties 0 tot 2 µm, 2 tot 4 µm, 4 tot 8 µm, 8 tot 16 µm, 16 tot 32 µm, 32 tot 50 µm, 50 tot 63 µm); de fractie groter dan 63 µm is op de uitgebreide manier onderverdeeld en dat betekent dat de standaardverdeling is uitgebreid met 1 tot 6 extra fracties (bij volledige uitbreiding in de fracties 63 tot 75 µm, 75 tot 90 µm, 90 tot 106 µm, 106 tot 125 µm, 125 tot 150 µm, 150 tot 180 µm, 180 tot 212 µm, 212 tot 250 µm, 250 tot 355 µm, 355 tot 500 µm, 500 tot 710 µm, 710 tot 1000 µm, 1000 tot 1400 µm, 1400 µm tot 2 mm, 2 tot 4 mm, 4 tot 5,6 mm, 5,6 tot 8 mm, 8 tot 11,2 mm, 11,2 tot 16 mm, 16 tot 31,5 mm, 31,5 mm tot 63 mm, groter dan 63 mm).</Omschrijving>
+	</Fractieverdeling>
+</domeintabel>

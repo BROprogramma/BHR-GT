@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<BijzonderGesteentebestanddeel>
+		<Waarde>donkereMineralen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Deeltjes die opaak en donker van kleur en minder hard dan kwarts zijn.</Omschrijving>
+	</BijzonderGesteentebestanddeel>
+	<BijzonderGesteentebestanddeel>
+		<Waarde>fosfaatconcretie</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Concretie die in belangrijke mate uit fosfaat bestaat.</Omschrijving>
+	</BijzonderGesteentebestanddeel>
+	<BijzonderGesteentebestanddeel>
+		<Waarde>geen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Geen bijzondere bestanddelen.</Omschrijving>
+	</BijzonderGesteentebestanddeel>
+	<BijzonderGesteentebestanddeel>
+		<Waarde>glauconiet</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Groene, groenige of bruine korrels die uit glauconiet of goethiet bestaan.</Omschrijving>
+	</BijzonderGesteentebestanddeel>
+	<BijzonderGesteentebestanddeel>
+		<Waarde>glimmer</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Gladde plaatvormige deeltjes die meestal uit de mineralen muskoviet of biotiet bestaan.</Omschrijving>
+	</BijzonderGesteentebestanddeel>
+	<BijzonderGesteentebestanddeel>
+		<Waarde>ijzersulfide</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Mineralen die uit ijzersulfide bestaan, vrijwel altijd pyriet of markasiet.</Omschrijving>
+	</BijzonderGesteentebestanddeel>
+	<BijzonderGesteentebestanddeel>
+		<Waarde>mangaanconcretie</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Concretie die uit mangaanoxide bestaat.</Omschrijving>
+	</BijzonderGesteentebestanddeel>
+	<BijzonderGesteentebestanddeel>
+		<Waarde>siderietconcretie</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Concretie die uit sideriet bestaat.</Omschrijving>
+	</BijzonderGesteentebestanddeel>
+	<BijzonderGesteentebestanddeel>
+		<Waarde>vuursteenconcretie</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Concretie die uit vrijwel amorfe kwarts bestaat.</Omschrijving>
+	</BijzonderGesteentebestanddeel>
+</domeintabel>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<BijzonderheidMateriaal>
+		<Waarde>anders</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het onderzochte materiaal blijkt een bijzonderheid te hebben anders dan desintegratie, gelaagd, insluiting, scheur, verkleuring of wortelgang.</Omschrijving>
+	</BijzonderheidMateriaal>
+	<BijzonderheidMateriaal>
+		<Waarde>desintegratie</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het onderzochte materiaal blijkt na droging in de oven op 105 of 110 °C gedesintegreerd. Dit kan wijzen op een bijzondere samenstelling van het materiaal.</Omschrijving>
+	</BijzonderheidMateriaal>
+	<BijzonderheidMateriaal>
+		<Waarde>gelaagd</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het onderzochte materiaal blijkt gelaagd.</Omschrijving>
+	</BijzonderheidMateriaal>
+	<BijzonderheidMateriaal>
+		<Waarde>insluiting</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>In het onderzochte materiaal blijken één of meer insluitingen voor te komen, bijvoorbeeld een grindkorrel, schelp, een stukje puin of hout.</Omschrijving>
+	</BijzonderheidMateriaal>
+	<BijzonderheidMateriaal>
+		<Waarde>scheur</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het onderzochte materiaal blijkt gescheurd.</Omschrijving>
+	</BijzonderheidMateriaal>
+	<BijzonderheidMateriaal>
+		<Waarde>verkleuring</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het onderzochte materiaal blijkt na droging in de oven op 105 of 110 °C van kleur veranderd. Dit kan wijzen op een bijzondere samenstelling van het materiaal.</Omschrijving>
+	</BijzonderheidMateriaal>
+	<BijzonderheidMateriaal>
+		<Waarde>wortelgang</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>In het onderzochte materiaal blijken één of meer wortelgangen voor te komen.</Omschrijving>
+	</BijzonderheidMateriaal>
+</domeintabel>
+

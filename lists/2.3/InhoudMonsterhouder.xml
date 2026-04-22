@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<InhoudMonsterhouder>
+		<Waarde>50ml</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De monsterhouder heeft een inhoud van ca. 50 ml.</Omschrijving>
+	</InhoudMonsterhouder>
+	<InhoudMonsterhouder>
+		<Waarde>100ml</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De monsterhouder heeft een inhoud van ca. 100 ml. Deze wordt gebruikt bij materialen met een lage volumieke massa van de vaste delen, zoals veen.</Omschrijving>
+	</InhoudMonsterhouder>
+</domeintabel>

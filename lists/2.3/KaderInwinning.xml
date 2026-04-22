@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<KaderInwinning>
+		<Waarde>bouwwerk</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Onderzoek met als hoofddoel de geotechnische eigenschappen van de ondergrond te bepalen die voor gebouwen, kunstwerken die deel uitmaken van de wegen, waterwegen en spoorwegen en andere bouwwerken van belang zijn. Het accent ligt veelal op onderzoek voor de berekening van de fundering.</Omschrijving>
+	</KaderInwinning>
+	<KaderInwinning>
+		<Waarde>controleOnderzoek</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Onderzoek met als doel om vast te stellen of er als het gevolg van werkzaamheden veranderingen in de ondergrond zijn opgetreden. Dit onderzoek heeft veelal een lokaal karakter. Voorafgaand aan de werkzaamheden is ook onderzoek gedaan en dat geldt als referentie.</Omschrijving>
+	</KaderInwinning>
+	<KaderInwinning>
+		<Waarde>detectieObstakels</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Onderzoek naar de diepte en ligging van obstakels in de ondergrond (natuurlijk of door de mens gemaakt).</Omschrijving>
+	</KaderInwinning>
+	<KaderInwinning>
+		<Waarde>gevoeligheidsOnderzoek</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Onderzoek met als doel de aardbevingsgevoeligheid, trillingsgevoeligheid of erosiegevoeligheid van de ondergrond te bepalen.</Omschrijving>
+	</KaderInwinning>
+	<KaderInwinning>
+		<Waarde>grondwaterput</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Onderzoek voor de aanleg van grondwatermonitoringputten of grondwatergebruiksystemen.</Omschrijving>
+	</KaderInwinning>
+	<KaderInwinning>
+		<Waarde>hydrologischeVerkenning</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Onderzoek met als hoofddoel de geohydrologische eigenschappen van de ondergrond te bepalen ten behoeve van bronbemaling, grondwateronttrekking, waterinfiltratie of peilbeheer.</Omschrijving>
+	</KaderInwinning>
+	<KaderInwinning>
+		<Waarde>infrastructuurLand</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Onderzoek met als hoofddoel de geotechnische eigenschappen van de ondergrond te bepalen voor de aanleg en het onderhoud van wegen, spoorwegen, fiets- en voetpaden.</Omschrijving>
+	</KaderInwinning>
+	<KaderInwinning>
+		<Waarde>infrastructuurWater</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Onderzoek met als hoofddoel de geotechnische eigenschappen van de ondergrond te bepalen voor de aanleg en het onderhoud van waterwegen.</Omschrijving>
+	</KaderInwinning>
+	<KaderInwinning>
+		<Waarde>kabelsLeidingen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Onderzoek met als hoofddoel de geotechnische eigenschappen van de ondergrond te bepalen voor de aanleg en het onderhoud van kabels en leidingen.</Omschrijving>
+	</KaderInwinning>
+	<KaderInwinning>
+		<Waarde>monitoring</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Onderzoek met als doel het beoordelen van veranderingen in de toestand van de ondergrond die het gevolg zijn van natuurlijke of door de mens in gang gezette processen of herhaaldelijk optredende gebeurtenissen; voorbeelden zijn bodemdaling, verdroging, trillingen en aardbevingen.</Omschrijving>
+	</KaderInwinning>
+	<KaderInwinning>
+		<Waarde>ontgronding</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Onderzoek ten behoeve van ontgrondingen (bijvoorbeeld zandwinning, grindwinning, baggeren).</Omschrijving>
+	</KaderInwinning>
+	<KaderInwinning>
+		<Waarde>verkennendOnderzoek</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Verkennend geotechnisch onderzoek.</Omschrijving>
+	</KaderInwinning>
+	<KaderInwinning>
+		<Waarde>waterkering</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Onderzoek met als hoofddoel de geotechnische eigenschappen te bepalen voor de aanleg en het onderhoud alsmede beoordeling van dijken en dammen.</Omschrijving>
+	</KaderInwinning>
+	<KaderInwinning>
+		<Waarde>onbekend</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het is niet bekend voor welk doel het onderzoek is uitgevoerd.</Omschrijving>
+	</KaderInwinning>
+</domeintabel>

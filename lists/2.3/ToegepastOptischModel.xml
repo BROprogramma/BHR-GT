@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<ToegepastOptischModel>
+		<Waarde>Fraunhofer</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het meetresultaat van de laserdiffractie is met behulp van het Fraunhofermodel op basis van lichtverstrooiing omgerekend naar de korrelgrootteverdeling. Het Fraunhofermodel is met name geschikt voor materiaal met grote korrels.</Omschrijving>
+	</ToegepastOptischModel>
+	<ToegepastOptischModel>
+		<Waarde>Mie</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het meetresultaat van de laserdiffractie is met behulp van het Miemodel op basis van lichtbuiging (refractie) omgerekend naar de korrelgrootteverdeling. Het Miemodel is met name geschikt voor fijne korrels.</Omschrijving>
+	</ToegepastOptischModel>
+</domeintabel>

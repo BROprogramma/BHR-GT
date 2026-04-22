@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Consolidatiemethode>
+		<Waarde>anisotroopSpanningsgestuurd</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het proefstuk wordt geconsolideerd door de celdruk en de verticale belasting geleidelijk in een vaste verhouding te verhogen. Om tot de gewenste verhouding te komen wordt eerst de celdruk een klein beetje verhoogd (met ca. 5 kPa).</Omschrijving>
+	</Consolidatiemethode>
+	<Consolidatiemethode>
+		<Waarde>anisotroopVervormingsgestuurd</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het proefstuk wordt geconsolideerd door de celdruk en de verticale belasting tegelijk te verhogen. De celdruk wordt geleidelijk verhoogd en de extra verticale druk wordt zodanig gestuurd dat de diameter van het proefstuk gelijk blijft. Eerst wordt de celdruk een klein beetje verhoogd (met ca. 5 kPa).</Omschrijving>
+	</Consolidatiemethode>
+	<Consolidatiemethode>
+		<Waarde>isotroop</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het proefstuk wordt geconsolideerd door de celdruk in 1 keer te verhogen en die voor de duur van de consolidatiefase constant te houden en het proefstuk de gelegenheid te geven in evenwicht te komen.</Omschrijving>
+	</Consolidatiemethode>
+	<Consolidatiemethode>
+		<Waarde>isotroopAnisotroop</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het proefstuk wordt geconsolideerd door eerst de celdruk in 1 keer te verhogen en die voor een bepaalde duur constant te houden. Vervolgens wordt het proefstuk verder geconsolideerd door de verticale belasting voor een bepaalde duur geleidelijk te verhogen.</Omschrijving>
+	</Consolidatiemethode>
+</domeintabel>

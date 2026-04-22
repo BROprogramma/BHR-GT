@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<VormProefstuk>
+		<Waarde>onveranderd</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het proefstuk is niet bezweken, er zijn geen schuifvlakken. De vorm van het proefstuk is in laterale richting niet verandert.</Omschrijving>
+	</VormProefstuk>
+	<VormProefstuk>
+		<Waarde>schuifvlakEnkel</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het proefstuk is tijdens de bepaling bezweken en in het proefstuk is een schuifvlak ontstaan.</Omschrijving>
+	</VormProefstuk>
+	<VormProefstuk>
+		<Waarde>schuifvlakMeervoudig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het proefstuk is tijdens de bepaling bezweken en in het proefstuk zijn meerdere schuifvlakken ontstaan.</Omschrijving>
+	</VormProefstuk>
+	<VormProefstuk>
+		<Waarde>veranderdGeenTon</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het proefstuk is niet bezweken. De vorm van het proefstuk is in laterale richting veranderd, maar het is geen tonvorm geworden.</Omschrijving>
+	</VormProefstuk>
+	<VormProefstuk>
+		<Waarde>veranderdTonvorm</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het proefstuk is niet bezweken. De vorm van het proefstuk is in laterale richting veranderd van recht naar bol. Het proefstuk heeft een tonvorm gekregen.</Omschrijving>
+	</VormProefstuk>
+</domeintabel>

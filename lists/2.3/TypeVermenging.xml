@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<TypeVermenging>
+		<Waarde>bioturbaat</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De grond is, kort na afzetting van het sediment, vermengd door de activiteit van gravende en borende dierlijke organismen.</Omschrijving>
+	</TypeVermenging>
+	<TypeVermenging>
+		<Waarde>kryoturbaat</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De grond is, na afzetting van het sediment, vermengd door herhaaldelijk bevriezen en ontdooien.</Omschrijving>
+	</TypeVermenging>
+	<TypeVermenging>
+		<Waarde>vervloeiing</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De grond is, na afzetting van het sediment, vermengd door een proces dat bodemvloeiing heet.</Omschrijving>
+	</TypeVermenging>
+</domeintabel>

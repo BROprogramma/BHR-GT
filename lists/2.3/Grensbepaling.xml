@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Grensbepaling>
+		<Waarde>afgeleid</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De grens is gebaseerd op een verandering die niet waargenomen is in de monsters, maar afgeleid is uit het boorgedrag; het begrip scherpte is niet van toepassing.</Omschrijving>
+	</Grensbepaling>
+	<Grensbepaling>
+		<Waarde>afgeleidSondering</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De grens is gebaseerd op een verandering die niet waargenomen is in de monsters, maar afgeleid is uit een sondering die op minder dan 5 meter van de boring vandaan ligt; het begrip scherpte is niet van toepassing.</Omschrijving>
+	</Grensbepaling>
+	<Grensbepaling>
+		<Waarde>voorbepaald</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De grens is niet gebaseerd op een verandering maar is kunstmatig bepaald; het begrip scherpte is niet van toepassing.</Omschrijving>
+	</Grensbepaling>
+	<Grensbepaling>
+		<Waarde>waargenomenScherp</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De grens is gebaseerd op een verandering die waargenomen is in de monsters. De verandering waarop de grens is gebaseerd voltrekt zich binnen een bereik van minder dan 3 mm.</Omschrijving>
+	</Grensbepaling>
+	<Grensbepaling>
+		<Waarde>waargenomenGeleidelijk</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De grens is gebaseerd op een verandering die waargenomen is in de monsters. De verandering voltrekt zich binnen een bereik dat tussen 3 en 30 mm ligt.</Omschrijving>
+	</Grensbepaling>
+	<Grensbepaling>
+		<Waarde>waargenomenDiffuus</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De grens is gebaseerd op een verandering die waargenomen is in de monsters. De verandering voltrekt zich binnen een bereik dat tussen 30 en 100 mm ligt.</Omschrijving>
+	</Grensbepaling>
+	<Grensbepaling>
+		<Waarde>waargenomenWillekeurig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De grens is gebaseerd op een verandering die waargenomen is in de monsters, maar de verandering is zo geleidelijk dat de grens op een willekeurige plaats is gelegd.</Omschrijving>
+	</Grensbepaling>
+</domeintabel>

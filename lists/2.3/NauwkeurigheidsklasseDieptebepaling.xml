@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<NauwkeurigheidsklasseDieptebepaling>
+		<Waarde>goed</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De bepaalde diepten kunnen 5 cm afwijken van de werkelijke diepten.</Omschrijving>
+	</NauwkeurigheidsklasseDieptebepaling>
+	<NauwkeurigheidsklasseDieptebepaling>
+		<Waarde>matig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De bepaalde diepten kunnen 50 cm afwijken van de werkelijke diepten.</Omschrijving>
+	</NauwkeurigheidsklasseDieptebepaling>
+	<NauwkeurigheidsklasseDieptebepaling>
+		<Waarde>slecht</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De bepaalde diepten kunnen 100 cm afwijken van de werkelijke diepten.</Omschrijving>
+	</NauwkeurigheidsklasseDieptebepaling>
+</domeintabel>

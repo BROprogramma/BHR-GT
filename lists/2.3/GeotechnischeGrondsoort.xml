@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<GeotechnischeGrondsoort>
+		<Waarde>keien</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Zeer grove minerale grond, waarvan de zeer grove fractie voor meer dan 50 % uit keien bestaat, zonder waarneembare andere bijmenging.</Omschrijving>
+	</GeotechnischeGrondsoort>
+	<GeotechnischeGrondsoort>
+		<Waarde>keienMetGrind</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Zeer grove minerale grond, waarvan de zeer grove fractie voor meer dan 50 % uit keien bestaat, en die voor de rest vooral uit grind bestaat.</Omschrijving>
+	</GeotechnischeGrondsoort>
+	<GeotechnischeGrondsoort>
+		<Waarde>keienMetZand</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Zeer grove minerale grond, waarvan de zeer grove fractie voor meer dan 50 % uit keien bestaat, en die voor de rest vooral uit zand bestaat.</Omschrijving>
+	</GeotechnischeGrondsoort>
+	<GeotechnischeGrondsoort>
+		<Waarde>keienMetSilt</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Zeer grove minerale grond, waarvan de zeer grove fractie voor meer dan 50 % uit keien bestaat met daartussen fijn materiaal dat zich gedraagt als silt.</Omschrijving>
+	</GeotechnischeGrondsoort>
+	<GeotechnischeGrondsoort>
+		<Waarde>keienMetKlei</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Zeer grove minerale grond, waarvan de zeer grove fractie voor meer dan 50 % uit keien bestaat met daartussen fijn materiaal dat zich gedraagt als klei.</Omschrijving>
+	</GeotechnischeGrondsoort>
+	<GeotechnischeGrondsoort>
+		<Waarde>keitjes</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Zeer grove minerale grond, waarvan de zeer grove fractie voor meer dan 50 % uit keitjes bestaat, zonder waarneembare andere bijmenging.</Omschrijving>
+	</GeotechnischeGrondsoort>
+	<GeotechnischeGrondsoort>
+		<Waarde>keitjesMetGrind</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Zeer grove minerale grond, waarvan de zeer grove fractie voor meer dan 50 % uit keitjes bestaat, en die voor de rest vooral uit grind bestaat.</Omschrijving>
+	</GeotechnischeGrondsoort>
+	<GeotechnischeGrondsoort>
+		<Waarde>keitjesMetZand</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Zeer grove minerale grond, waarvan de zeer grove fractie voor meer dan 50 % uit keitjes bestaat, en die voor de rest vooral uit zand bestaat.</Omschrijving>
+	</GeotechnischeGrondsoort>
+	<GeotechnischeGrondsoort>
+		<Waarde>keitjesMetSilt</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Zeer grove minerale grond, waarvan de zeer grove fractie voor meer dan 50 % uit keitjes bestaat met daartussen fijn materiaal dat zich gedraagt als silt.</Omschrijving>
+	</GeotechnischeGrondsoort>
+	<GeotechnischeGrondsoort>
+		<Waarde>keitjesMetKlei</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Zeer Grove minerale grond, waarvan de zeer grove fractie voor meer dan 50 % uit keitjes bestaat met daartussen fijn materiaal dat zich gedraagt als klei.</Omschrijving>
+	</GeotechnischeGrondsoort>
+	<GeotechnischeGrondsoort>
+		<Waarde>grind</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Grove minerale grond, waarvan de grove fractie bestaat uit grind zonder waarneembare bijmenging.</Omschrijving>
+	</GeotechnischeGrondsoort>
+	<GeotechnischeGrondsoort>
+		<Waarde>grindMetKeien</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Grove minerale grond, waarvan de grove fractie voor meer dan 50 % uit grind bestaat, en die voor de rest vooral uit keien bestaat.</Omschrijving>
+	</GeotechnischeGrondsoort>
+	<GeotechnischeGrondsoort>
+		<Waarde>grindMetKeitjes</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Grove minerale grond, waarvan de grove fractie voor meer dan 50 % uit grind bestaat, en die voor de rest vooral uit keitjes bestaat.</Omschrijving>
+	</GeotechnischeGrondsoort>
+	<GeotechnischeGrondsoort>
+		<Waarde>zwakZandigGrind</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Grove minerale grond, waarvan de grove fractie voor meer dan 50 % uit grind bestaat en voor 5 tot 20 % uit zand bestaat.</Omschrijving>
+	</GeotechnischeGrondsoort>
+	<GeotechnischeGrondsoort>
+		<Waarde>sterkZandigGrind</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Grove minerale grond, waarvan de grove fractie voor meer dan 50 % uit grind en voor meer dan 20 % uit zand bestaat.</Omschrijving>
+	</GeotechnischeGrondsoort>
+	<GeotechnischeGrondsoort>
+		<Waarde>siltigGrind</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Grove minerale grond, waarvan de grove fractie bestaat uit grind met daartussen fijn materiaal dat zich gedraagt als silt.</Omschrijving>
+	</GeotechnischeGrondsoort>
+	<GeotechnischeGrondsoort>
+		<Waarde>kleiigGrind</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Grove minerale grond, waarvan de grove fractie voor meer dan 50 % uit grind bestaat met daartussen fijn materiaal dat zich gedraagt als klei.</Omschrijving>
+	</GeotechnischeGrondsoort>
+	<GeotechnischeGrondsoort>
+		<Waarde>zand</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Grove minerale grond, waarvan de grove fractie uit zand bestaat, zonder waarneembare bijmenging.</Omschrijving>
+	</GeotechnischeGrondsoort>
+	<GeotechnischeGrondsoort>
+		<Waarde>zandMetKeien</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Grove minerale grond, waarvan de grove fractie voor meer dan 50 % uit zand bestaat, en die voor de rest vooral uit keien bestaat.</Omschrijving>
+	</GeotechnischeGrondsoort>
+	<GeotechnischeGrondsoort>
+		<Waarde>zandMetKeitjes</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Grove minerale grond, waarvan de grove fractie voor meer dan 50 % uit zand bestaat, en die voor de rest vooral uit keitjes bestaat.</Omschrijving>
+	</GeotechnischeGrondsoort>
+	<GeotechnischeGrondsoort>
+		<Waarde>zwakGrindigZand</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Grove minerale grond, waarvan de grove fractie voor meer dan 50 % uit zand bestaat, en die voor 5 tot 20 % uit grind bestaat.</Omschrijving>
+	</GeotechnischeGrondsoort>
+	<GeotechnischeGrondsoort>
+		<Waarde>sterkGrindigZand</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Grove minerale grond, waarvan de grove fractie voor meer dan 50 % uit zand bestaat, en die voor meer dan 20 % uit grind bestaat.</Omschrijving>
+	</GeotechnischeGrondsoort>
+	<GeotechnischeGrondsoort>
+		<Waarde>siltigZand</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Grove minerale grond, waarvan de grove fractie voor meer dan 50 % uit zand bestaat, en die verder uit fijn materiaal bestaat, dat zich gedraagt als silt.</Omschrijving>
+	</GeotechnischeGrondsoort>
+	<GeotechnischeGrondsoort>
+		<Waarde>siltigZandMetGrind</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Grove minerale grond, waarvan de grove fractie voor meer dan 50 % uit zand bestaat, en die verder bestaat uit fijn materiaal dat zich gedraagt als silt, en die grind bevat.</Omschrijving>
+	</GeotechnischeGrondsoort>
+	<GeotechnischeGrondsoort>
+		<Waarde>kleiigZand</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Grove minerale grond, waarvan de grove fractie voor meer dan 50 % uit zand bestaat, en die verder uit fijn materiaal bestaat, dat zich gedraagt als klei.</Omschrijving>
+	</GeotechnischeGrondsoort>
+	<GeotechnischeGrondsoort>
+		<Waarde>kleiigZandMetGrind</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Grove minerale grond, waarvan de grove fractie voor meer dan 50 % uit zand bestaat, en die verder bestaat uit fijn materiaal dat zich gedraagt als klei, en die grind bevat.</Omschrijving>
+	</GeotechnischeGrondsoort>
+	<GeotechnischeGrondsoort>
+		<Waarde>silt</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Fijne minerale grond die zich gedraagt als silt, geen grind of zeer grof materiaal en geen zichtbaar of voelbaar zand (bij uitsmeren over de hand) bevat.</Omschrijving>
+	</GeotechnischeGrondsoort>
+	<GeotechnischeGrondsoort>
+		<Waarde>siltMetKeien</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Fijne minerale grond die zich gedraagt als silt en keien bevat.</Omschrijving>
+	</GeotechnischeGrondsoort>
+	<GeotechnischeGrondsoort>
+		<Waarde>siltMetKeitjes</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Fijne minerale grond die zich gedraagt als silt en keitjes bevat.</Omschrijving>
+	</GeotechnischeGrondsoort>
+	<GeotechnischeGrondsoort>
+		<Waarde>zwakGrindigSilt</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Fijne minerale grond die zich gedraagt als silt en enkele grindkorrels bevat.</Omschrijving>
+	</GeotechnischeGrondsoort>
+	<GeotechnischeGrondsoort>
+		<Waarde>sterkGrindigSilt</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Fijne minerale grond die zich gedraagt als silt en veel grindkorrels bevat.</Omschrijving>
+	</GeotechnischeGrondsoort>
+	<GeotechnischeGrondsoort>
+		<Waarde>zwakZandigSilt</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Fijne minerale grond die zich gedraagt als silt, zichtbaar en nauwelijks voelbaar zand en geen grind of zeer grof materiaal bevat.</Omschrijving>
+	</GeotechnischeGrondsoort>
+	<GeotechnischeGrondsoort>
+		<Waarde>zwakZandigSiltMetGrind</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Fijne minerale grond grond die zich gedraagt als silt, zichtbaar en nauwelijks voelbaar zand en enkele grindkorrels bevat.</Omschrijving>
+	</GeotechnischeGrondsoort>
+	<GeotechnischeGrondsoort>
+		<Waarde>sterkZandigSilt</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Fijne minerale grond die zich gedraagt als silt, goed zichtbaar en duidelijk voelbaar zand en geen grind of zeer grof materiaal bevat.</Omschrijving>
+	</GeotechnischeGrondsoort>
+	<GeotechnischeGrondsoort>
+		<Waarde>sterkZandigSiltMetGrind</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Fijne minerale grond die zich gedraagt als silt, goed zichtbaar en duidelijk voelbaar zand en enkele grindkorrels bevat.</Omschrijving>
+	</GeotechnischeGrondsoort>
+	<GeotechnischeGrondsoort>
+		<Waarde>klei</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Fijne minerale grond die zich gedraagt als klei, geen grind of zeer grof materiaal en geen zichtbaar of voelbaar zand bevat.</Omschrijving>
+	</GeotechnischeGrondsoort>
+	<GeotechnischeGrondsoort>
+		<Waarde>kleiMetKeien</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Fijne minerale grond die zich gedraagt als klei en keien bevat.</Omschrijving>
+	</GeotechnischeGrondsoort>
+	<GeotechnischeGrondsoort>
+		<Waarde>kleiMetKeitjes</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Fijne minerale grond die zich gedraagt als klei en keitjes bevat.</Omschrijving>
+	</GeotechnischeGrondsoort>
+	<GeotechnischeGrondsoort>
+		<Waarde>zwakGrindigeKlei</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Fijne minerale grond die zich gedraagt als klei, enkele grindkorrels en geen zichtbaar of voelbaar zand bevat.</Omschrijving>
+	</GeotechnischeGrondsoort>
+	<GeotechnischeGrondsoort>
+		<Waarde>sterkGrindigeKlei</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Fijne minerale grond die zich gedraagt als klei, veel grindkorrels en geen zichtbaar of voelbaar zand bevat.</Omschrijving>
+	</GeotechnischeGrondsoort>
+	<GeotechnischeGrondsoort>
+		<Waarde>zwakZandigeKlei</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Fijne minerale grond die zich gedraagt als klei, zichtbaar en nauwelijks voelbaar zand en geen grind of grover materiaal bevat.</Omschrijving>
+	</GeotechnischeGrondsoort>
+	<GeotechnischeGrondsoort>
+		<Waarde>zwakZandigeKleiMetGrind</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Fijne minerale grond die zich gedraagt als klei, zichtbaar en nauwelijks voelbaar zand en enkele grindkorrels bevat.</Omschrijving>
+	</GeotechnischeGrondsoort>
+	<GeotechnischeGrondsoort>
+		<Waarde>sterkZandigeKlei</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Fijne minerale grond die zich gedraagt als klei, goed zichtbaar en duidelijk voelbaar zand en geen grind of grover materiaal bevat.</Omschrijving>
+	</GeotechnischeGrondsoort>
+	<GeotechnischeGrondsoort>
+		<Waarde>sterkZandigeKleiMetGrind</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Fijne minerale grond die zich gedraagt als klei, goed zichtbaar en duidelijk voelbaar zand en enkele grindkorrels bevat.</Omschrijving>
+	</GeotechnischeGrondsoort>
+	<GeotechnischeGrondsoort>
+		<Waarde>detritus</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Organische grond die uit detritus bestaat, een organisch materiaal met nauwelijks enige treksterkte, dat uit gebroken vezels bestaat en weinig samenhang vertoont.</Omschrijving>
+	</GeotechnischeGrondsoort>
+	<GeotechnischeGrondsoort>
+		<Waarde>zwakZandigeDetritus</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Organische grond die uit detritus bestaat en nauwelijks voelbaar zand bevat.</Omschrijving>
+	</GeotechnischeGrondsoort>
+	<GeotechnischeGrondsoort>
+		<Waarde>sterkZandigeDetritus</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Organische grond die uit detritus bestaat en zichtbaar zand bevat.</Omschrijving>
+	</GeotechnischeGrondsoort>
+	<GeotechnischeGrondsoort>
+		<Waarde>siltigeDetritus</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Organische grond die uit detritus bestaat en waarneembaar silt bevat.</Omschrijving>
+	</GeotechnischeGrondsoort>
+	<GeotechnischeGrondsoort>
+		<Waarde>kleiigeDetritus</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Organische grond die uit detritus bestaat en waarneembaar klei bevat.</Omschrijving>
+	</GeotechnischeGrondsoort>
+	<GeotechnischeGrondsoort>
+		<Waarde>humus</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Organische grond die uit humus bestaat, een gehomogeniseerd mengsel zonder treksterkte dat hoofdzakelijk bestaat uit de niet-makkelijk afbreekbare resten van de bovengrondse delen van planten.</Omschrijving>
+	</GeotechnischeGrondsoort>
+	<GeotechnischeGrondsoort>
+		<Waarde>zwakZandigeHumus</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Organische grond die uit humus bestaat en nauwelijks voelbaar zand bevat.</Omschrijving>
+	</GeotechnischeGrondsoort>
+	<GeotechnischeGrondsoort>
+		<Waarde>sterkZandigeHumus</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Organische grond die uit humus bestaat en zichtbaar zand bevat.</Omschrijving>
+	</GeotechnischeGrondsoort>
+	<GeotechnischeGrondsoort>
+		<Waarde>siltigeHumus</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Organische grond die uit humus bestaat en waarneembaar silt bevat.</Omschrijving>
+	</GeotechnischeGrondsoort>
+	<GeotechnischeGrondsoort>
+		<Waarde>kleiigeHumus</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Organische grond die uit humus bestaat en waarneembaar klei bevat.</Omschrijving>
+	</GeotechnischeGrondsoort>
+	<GeotechnischeGrondsoort>
+		<Waarde>veen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Organische grond die uit veen bestaat, een vezelig en samenhangend organisch materiaal met enige treksterkte dat bestaat uit de nog gedeeltelijk als zodanig herkenbare delen van planten.</Omschrijving>
+	</GeotechnischeGrondsoort>
+	<GeotechnischeGrondsoort>
+		<Waarde>zwakZandigVeen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Organische grond die uit veen bestaat en nauwelijks voelbaar zand bevat.</Omschrijving>
+	</GeotechnischeGrondsoort>
+	<GeotechnischeGrondsoort>
+		<Waarde>sterkZandigVeen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Organische grond die uit veen bestaat en zichtbaar zand bevat.</Omschrijving>
+	</GeotechnischeGrondsoort>
+	<GeotechnischeGrondsoort>
+		<Waarde>siltigVeen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Organische grond die uit veen bestaat en waarneembaar silt bevat.</Omschrijving>
+	</GeotechnischeGrondsoort>
+	<GeotechnischeGrondsoort>
+		<Waarde>kleiigVeen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Organische grond die uit veen bestaat en waarneembaar klei bevat.</Omschrijving>
+	</GeotechnischeGrondsoort>
+	<GeotechnischeGrondsoort>
+		<Waarde>bruinkool</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Organische grond die compact is en een hoge treksterkte heeft.</Omschrijving>
+	</GeotechnischeGrondsoort>
+	<GeotechnischeGrondsoort>
+		<Waarde>gyttja</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Organische grond die amorf is, stroef aanvoelt en een pasta-achtige consistentie heeft.</Omschrijving>
+	</GeotechnischeGrondsoort>
+</domeintabel>

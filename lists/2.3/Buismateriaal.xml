@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Buismateriaal>
+		<Waarde>pe</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De buis bestaat uit polyethyleen, waarbij onbekend is of het high density of low density polyethyleen betreft.</Omschrijving>
+	</Buismateriaal>
+	<Buismateriaal>
+		<Waarde>peHighDensity</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De buis bestaat uit high density polyethyleen.</Omschrijving>
+	</Buismateriaal>
+	<Buismateriaal>
+		<Waarde>peLowDensity</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De buis bestaat uit low density polyethyleen.</Omschrijving>
+	</Buismateriaal>
+	<Buismateriaal>
+		<Waarde>pePvc</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De buis bestaat uit polyethyleen en pvc, waarbij onbekend is of het high density of low density polyethyleen betreft.</Omschrijving>
+	</Buismateriaal>
+	<Buismateriaal>
+		<Waarde>staal</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De buis bestaat uit staal, waarbij onbekend is welk type staal het betreft.</Omschrijving>
+	</Buismateriaal>
+	<Buismateriaal>
+		<Waarde>staalGegalvaniseerd</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De buis bestaat uit gegalvaniseerd staal.</Omschrijving>
+	</Buismateriaal>
+	<Buismateriaal>
+		<Waarde>staalRoestvrij</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De buis bestaat uit roestvrij staal.</Omschrijving>
+	</Buismateriaal>
+</domeintabel>

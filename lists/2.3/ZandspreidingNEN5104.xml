@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<ZandspreidingNEN5104>
+		<Waarde>zeerKlein</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Zand waarvan meer dan 90 % van de korrels binnen dezelfde zandmediaanklasse valt.</Omschrijving>
+	</ZandspreidingNEN5104>
+	<ZandspreidingNEN5104>
+		<Waarde>matigKlein</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Zand waarvan meer dan 90 % van de korrels binnen twee aansluitende zandmediaanklassen valt.</Omschrijving>
+	</ZandspreidingNEN5104>
+	<ZandspreidingNEN5104>
+		<Waarde>matigGroot</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Zand waarvan meer dan 90 % van de korrels binnen drie aansluitende zandmediaanklassen valt en de zandmediaan in de middelste van de drie zandmediaanklassen ligt.</Omschrijving>
+	</ZandspreidingNEN5104>
+	<ZandspreidingNEN5104>
+		<Waarde>zeerGroot</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Zand waarvan minder dan 90 % van de korrels binnen drie aansluitende zandmediaanklassen valt en de zandmediaan niet in de middelste van de drie zandmediaanklassen ligt.</Omschrijving>
+	</ZandspreidingNEN5104>
+	<ZandspreidingNEN5104>
+		<Waarde>tweetoppig</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Zand waarvan de korrels tot twee populaties horen die meestal niet in aaneensluitende zandmediaanklassen liggen.</Omschrijving>
+	</ZandspreidingNEN5104>
+</domeintabel>

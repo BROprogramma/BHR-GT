@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<StijfheidsklasseMembraan>
+		<Waarde>1400kPa</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Membraan met een stijfheid van ca. 1400 kPa.</Omschrijving>
+	</StijfheidsklasseMembraan>
+	<StijfheidsklasseMembraan>
+		<Waarde>1500kPa</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Membraan met een stijfheid van ca. 1500 kPa.</Omschrijving>
+	</StijfheidsklasseMembraan>
+	<StijfheidsklasseMembraan>
+		<Waarde>1600kPa</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Membraan met een stijfheid van ca. 1600 kPa.</Omschrijving>
+	</StijfheidsklasseMembraan>
+	<StijfheidsklasseMembraan>
+		<Waarde>1700kPa</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Membraan met een stijfheid van ca. 1700 kPa.</Omschrijving>
+	</StijfheidsklasseMembraan>
+	<StijfheidsklasseMembraan>
+		<Waarde>1800kPa</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Membraan met een stijfheid van ca. 1800 kPa.</Omschrijving>
+	</StijfheidsklasseMembraan>
+</domeintabel>

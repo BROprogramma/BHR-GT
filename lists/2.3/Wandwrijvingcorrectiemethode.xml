@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Wandwrijvingcorrectiemethode>
+		<Waarde>nietToegepast</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De verticale spanning is niet gecorrigeerd voor wrijving in de ring.</Omschrijving>
+	</Wandwrijvingcorrectiemethode>
+	<Wandwrijvingcorrectiemethode>
+		<Waarde>wrijvingAangenomen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De verticale spanning is gecorrigeerd voor wrijving in de ring. De wrijving is een aangenomen waarde op basis van het Protocol laboratoriumproeven voor grondonderzoek aan waterkeringen, 2016.</Omschrijving>
+	</Wandwrijvingcorrectiemethode>
+	<Wandwrijvingcorrectiemethode>
+		<Waarde>wrijvingBepaald</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De verticale spanning is gecorrigeerd voor wrijving in de ring. De wandwrijving is (automatisch) bepaald.</Omschrijving>
+	</Wandwrijvingcorrectiemethode>
+</domeintabel>

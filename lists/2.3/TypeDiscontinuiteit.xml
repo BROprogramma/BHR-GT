@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<TypeDiscontinuiteit>
+		<Waarde>antropogeen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Grensvlak in antropogene grond dat niet als laagscheiding kan worden beschreven.</Omschrijving>
+	</TypeDiscontinuiteit>
+	<TypeDiscontinuiteit>
+		<Waarde>krimpscheur</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een smalle, (sub)verticale wigvormige discontinuïteit in fijnkorrelige grond, die met andersoortig materiaal gevuld is.</Omschrijving>
+	</TypeDiscontinuiteit>
+	<TypeDiscontinuiteit>
+		<Waarde>schuifvlak</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een door afschuiving ontstaan vlak. Kan parallel aan gelaagdheid en door gelaagdheid heen voorkomen. Voorbeelden zijn schuifvlakken in de buurt van een wiel (dijkdoorbraak) en schuifvlakken in glaciaal belaste klei.</Omschrijving>
+	</TypeDiscontinuiteit>
+	<TypeDiscontinuiteit>
+		<Waarde>vorstwig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een met ingevallen grond gevulde ruimte die ontstaan is door smelten van in de ijstijd gegroeide ijslenzen en –wiggen.</Omschrijving>
+	</TypeDiscontinuiteit>
+</domeintabel>

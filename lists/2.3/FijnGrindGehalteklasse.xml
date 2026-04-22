@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<FijnGrindGehalteklasse>
+		<Waarde>spoorTot1</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De fractie 2-5,6 mm maakt minder dan 1 procent van de massa van de grindfractie uit.</Omschrijving>
+	</FijnGrindGehalteklasse>
+	<FijnGrindGehalteklasse>
+		<Waarde>weinig1tot25</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De fractie 2-5,6 mm maakt tussen 1 en 25 procent van de massa van de grindfractie uit.</Omschrijving>
+	</FijnGrindGehalteklasse>
+	<FijnGrindGehalteklasse>
+		<Waarde>veel25tot50</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De fractie 2-5,6 mm maakt tussen 25 en 50 procent van de massa van de grindfractie uit.</Omschrijving>
+	</FijnGrindGehalteklasse>
+	<FijnGrindGehalteklasse>
+		<Waarde>zeerVeel50tot75</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De fractie 2-5,6 mm maakt tussen 50 en 75 procent van de massa van de grindfractie uit.</Omschrijving>
+	</FijnGrindGehalteklasse>
+	<FijnGrindGehalteklasse>
+		<Waarde>uiterstVeelMinstens75</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De fractie 2-5,6 mm maakt minstens 75 procent van de massa van de grindfractie uit.</Omschrijving>
+	</FijnGrindGehalteklasse>
+</domeintabel>
