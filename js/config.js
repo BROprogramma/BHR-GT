@@ -74,6 +74,10 @@ let respecConfig = {
             value: "088 - 8664 999",
             href: "tel:+31888664999",
           },
+          {
+            value: "088 - 8664 999",
+            href: "javascript:void(0)",
+          },
         ],
       },
     ],
