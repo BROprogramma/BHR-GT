@@ -89,7 +89,9 @@ let respecConfig = {
       const headDl = document.querySelector(".head dl");
       if (!headDl) return;
       const participateDt = [...headDl.querySelectorAll("dt")].find((dt) => {
-        return dt.textContent && dt.textContent.trim().startsWith("Doe mee");
+
+//        return dt.textContent && dt.textContent.trim().startsWith("Doe mee");
+      return dt.textContent && dt.textContent.trim().startsWith("Contact");
       });
       if (!participateDt || participateDt.querySelector("#logo_bro")) return;
 
