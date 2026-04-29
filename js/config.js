@@ -64,7 +64,15 @@ let respecConfig = {
         data: [
           {
             value: "BRO Servicedesk",
-            href: "support@broservicedesk.nl",
+            href: "https://basisregistratieondergrond.nl/service-contact/",
+          },
+          {
+            value: "support@broservicedesk.nl",
+            href: "mailto:support@broservicedesk.nl",
+          },
+          {
+            value: "088 - 8664 999",
+            href: "tel:+31888664999",
           },
         ],
       },
