@@ -79,7 +79,7 @@ let respecConfig = {
     ],
   //neem hier de URL van de github repository op waar het respec document in staat
   //JV, 29-04-2026: disabled next line to remove 'Doe mee' part
-  github: "https://github.com/BROprogramma/BHR-GT",
+  //github: "https://github.com/BROprogramma/BHR-GT",
   postProcess: [
     ...(typeof organisationConfig !== "undefined" &&
     Array.isArray(organisationConfig.postProcess)
