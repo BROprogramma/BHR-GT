@@ -57,8 +57,21 @@ let respecConfig = {
       companyURL: "https://www.geonovum.nl",
     },
   ],
+  //JV, 29-04-2026: added to test alternative way to include 'Contact' part
+otherLinks: [
+    {
+      key: "Contact:",
+      data: [
+        {
+          value: "BRO Servicedesk",
+          href: "support@broservicedesk.nl",
+        },
+      ],
+    },
+  ],
   //neem hier de URL van de github repository op waar het respec document in staat
-  github: "https://github.com/BROprogramma/BHR-GT",
+  //JV, 29-04-2026: disabled next line to remove 'Doe mee' part
+  //github: "https://github.com/BROprogramma/BHR-GT",
   postProcess: [
     ...(typeof organisationConfig !== "undefined" &&
     Array.isArray(organisationConfig.postProcess)
