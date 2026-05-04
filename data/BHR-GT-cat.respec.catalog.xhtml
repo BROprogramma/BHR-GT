@@ -2,7 +2,7 @@
    <body>
       <section id="cat" class="normative">
          <h2>Gegevensdefinitie</h2>
-         <!--Conceptualmodel-GeotechnischbooronderzoekBHR-GT-2.3-2-20260424-20260504-074847 imvertor Nightly-build.0-->
+         <!--Conceptualmodel-GeotechnischbooronderzoekBHR-GT-2.3-2-20260424-20260504-081616 imvertor Nightly-build.0-->
          <section>
             <h3>Het domeinmodel   </h3>
             <div class="imageinfo overview"><img id="img-EAID_BA14D577_33EB_4e1b_AD18_920180363FDE" src="Images/EAID_BA14D577_33EB_4e1b_AD18_920180363FDE.png" usemap="#imagemap-EAID_BA14D577_33EB_4e1b_AD18_920180363FDE" alt="Diagram: Domeinmodel geotechnisch booronderzoek - Algemeen deel - overzicht"></img><map name="imagemap-EAID_BA14D577_33EB_4e1b_AD18_920180363FDE"><area shape="rect" alt="Registratieobject" coords="629,14,916,189" href="#global_class_Model_Registratieobject"></area><area shape="rect" alt="Boormonsteranalyse" coords="14,410,372,532" href="#global_class_Model_Boormonsteranalyse"></area><area shape="rect" alt="Verontreinigd interval" coords="689,1275,994,1397" href="#global_class_Model_Verontreinigdinterval"></area><area shape="rect" alt="Boormonsterbeschrijving" coords="14,246,372,368" href="#global_class_Model_Boormonsterbeschrijving"></area><area shape="rect" alt="Afgewerkt interval" coords="564,1436,992,1665" href="#global_class_Model_Afgewerktinterval"></area><area shape="rect" alt="Bemonsterd interval" coords="1188,1044,1685,1313" href="#global_class_Model_Bemonsterdinterval"></area><area shape="rect" alt="Geboord interval" coords="1188,854,1547,1011" href="#global_class_Model_Geboordinterval"></area><area shape="rect" alt="Weggegraven laag" coords="1188,668,1547,808" href="#global_class_Model_Weggegravenlaag"></area><area shape="rect" alt="Boring" coords="560,668,989,1151" href="#global_class_Model_Boring"></area><area shape="rect" alt="Sliblaag" coords="1121,246,1553,403" href="#global_class_Model_Sliblaag"></area><area shape="rect" alt="Booronderzoek" coords="560,246,989,601" href="#global_class_Model_Booronderzoek"></area></map><p><b>Domeinmodel geotechnisch booronderzoek- Algemeen deel</b>
@@ -19755,7 +19755,7 @@
                                  i.c.m. NEN 8992 vanaf versie 2025 is toegepast.<br clear="none"></br>
                                  Het gegeven staat niet in een brondocument, maar wordt automatisch door de basisregistratie
                                  ondergrond gegenereerd. Het wordt als volgt berekend: ((volumieke massa vaste delen
-                                 x (1 + watergehalte vooraf / 100)) / volumieke massa vooraf) - 1.</p>
+                                 * (1 + watergehalte vooraf / 100)) / volumieke massa vooraf) - 1.</p>
                               </td>
                         </tr>
                      </tbody>
@@ -24825,7 +24825,7 @@
                                  het symbool e<sub>0</sub>.<br clear="none"></br>
                                  Het gegeven staat niet in een brondocument, maar wordt automatisch door de basisregistratie
                                  ondergrond gegenereerd. Het wordt als volgt berekend: ((volumieke massa vaste delen
-                                 x (1 + watergehalte vooraf / 100)) / volumieke massa vooraf) - 1.<br clear="none"></br>
+                                 * (1 + watergehalte vooraf / 100)) / volumieke massa vooraf) - 1.<br clear="none"></br>
                                  Het gegeven is altijd aanwezig wanneer als bepalingsprocedure NEN-EN-ISO 17892-8 vanaf
                                  versie 2018 of NEN-EN-ISO 17892-9 vanaf versie 2018 is toegepast i.c.m. NEN 8992 vanaf
                                  versie 2025.</p>
@@ -24890,7 +24890,7 @@
                                  het symbool e<sub>0</sub>.<br clear="none"></br>
                                  Het gegeven staat niet in een brondocument, maar wordt automatisch door de basisregistratie
                                  ondergrond gegenereerd. Het wordt als volgt berekend: ((volumieke massa vaste delen
-                                 x (1 + watergehalte na afloop / 100)) / volumieke massa na afloop) - 1.<br clear="none"></br>
+                                 * (1 + watergehalte na afloop / 100)) / volumieke massa na afloop) - 1.<br clear="none"></br>
                                  Het gegeven is altijd aanwezig wanneer als bepalingsprocedure NEN-EN-ISO 17892-9 vanaf
                                  versie 2018 i.c.m. NEN 8992 vanaf versie 2025 is toegepast.</p>
                               </td>
@@ -24952,8 +24952,8 @@
                               
                               <p>De verzadigingsgraad wordt aangeduid met het symbool Sr.<br clear="none"></br>
                                  Het gegeven staat niet in een brondocument, maar wordt automatisch door de basisregistratie
-                                 ondergrond gegenereerd. Het wordt als volgt berekend: (watergehalte vooraf x volumieke
-                                 massa vaste delen) / (poriëngetal vooraf x volumieke massa water). Voor volumieke
+                                 ondergrond gegenereerd. Het wordt als volgt berekend: (watergehalte vooraf * volumieke
+                                 massa vaste delen) / (poriëngetal vooraf * volumieke massa water). Voor volumieke
                                  massa water wordt 0,9972 Mg/m<sup>3</sup> gehanteerd, de standaard volumieke massa voor water bij 20 graden Celsius.<br clear="none"></br>
                                  Het gegeven is altijd aanwezig wanneer als bepalingsprocedure NEN-EN-ISO 17892-8 vanaf
                                  versie 2018 of NEN-EN-ISO 17892-9 vanaf versie 2018 is toegepast i.c.m. NEN 8992 vanaf
@@ -25017,8 +25017,8 @@
                               
                               <p>De verzadigingsgraad wordt aangeduid met het symbool S<sub>r</sub>.<br clear="none"></br>
                                  Het gegeven staat niet in een brondocument, maar wordt automatisch door de basisregistratie
-                                 ondergrond gegenereerd. Het wordt als volgt berekend: (watergehalte na afloop x volumieke
-                                 massa vaste delen) / (poriëngetal na afloop x volumieke massa water). Voor volumieke
+                                 ondergrond gegenereerd. Het wordt als volgt berekend: (watergehalte na afloop * volumieke
+                                 massa vaste delen) / (poriëngetal na afloop * volumieke massa water). Voor volumieke
                                  massa water wordt 0,9972 Mg/m<sup>3</sup> gehanteerd, de standaard volumieke massa voor water bij 20 graden Celsius.<br clear="none"></br>
                                  Het gegeven is altijd aanwezig wanneer als bepalingsprocedure NEN-EN-ISO 17892-9 vanaf
                                  versie 2018 i.c.m. NEN 8992 vanaf versie 2025 is toegepast.</p>
@@ -27204,8 +27204,8 @@
                                  volumeverandering opgetreden en is de waarde van het gegeven aan het begin van de
                                  consolidatiefase gelijk aan 0. Wanneer het volume van het proefstuk tijdens de verzadigingsfase
                                  is veranderd wordt de volumeverandering afgeleid uit de hoogteverandering tijdens
-                                 verzadiging, op basis van de volgende relatie: volumeverandering = 3 x begindiameter
-                                 x hoogteverandering (ΔV=3A x ΔH).</p>
+                                 verzadiging, op basis van de volgende relatie: volumeverandering = 3 * begindiameter
+                                 * hoogteverandering (ΔV=3A * ΔH).</p>
                               </td>
                         </tr>
                      </tbody>
@@ -29782,7 +29782,7 @@
                                  versie 2024 i.c.m. NEN 8992 vanaf versie 2025 is toegepast.<br clear="none"></br>
                                  Het gegeven staat niet in een brondocument, maar wordt automatisch door de basisregistratie
                                  ondergrond gegenereerd. Het wordt als volgt berekend: ((volumieke massa vaste delen
-                                 x (1 + watergehalte vooraf / 100)) / volumieke massa vooraf) - 1.</p>
+                                 * (1 + watergehalte vooraf / 100)) / volumieke massa vooraf) - 1.</p>
                               </td>
                         </tr>
                      </tbody>
@@ -29844,8 +29844,8 @@
                                  Het gegeven is in ieder geval aanwezig wanneer als bepalingsprocedure ASTM D6528 vanaf
                                  versie 2024 i.c.m. NEN 8992 vanaf versie 2025 is toegepast.<br clear="none"></br>
                                  Het gegeven staat niet in een brondocument, maar wordt automatisch door de basisregistratie
-                                 ondergrond gegenereerd. Het wordt als volgt berekend: (watergehalte vooraf x volumieke
-                                 massa vaste delen) / (poriëngetal vooraf x volumieke massa water). Voor volumieke
+                                 ondergrond gegenereerd. Het wordt als volgt berekend: (watergehalte vooraf * volumieke
+                                 massa vaste delen) / (poriëngetal vooraf * volumieke massa water). Voor volumieke
                                  massa water wordt 0,9972 Mg/m<sup>3</sup> gehanteerd, de standaard volumieke massa voor water bij 20 graden Celsius.</p>
                               </td>
                         </tr>
@@ -39343,7 +39343,7 @@
                                  vanaf versie 2019 i.c.m. NEN 8992 vanaf versie 2025 is toegepast.<br clear="none"></br>
                                  Het gegeven staat niet in een brondocument, maar wordt automatisch door de basisregistratie
                                  ondergrond gegenereerd. Het wordt als volgt berekend: ((volumieke massa vaste delen
-                                 x (1 + watergehalte vooraf / 100)) / volumieke massa vooraf) - 1.</p>
+                                 * (1 + watergehalte vooraf / 100)) / volumieke massa vooraf) - 1.</p>
                               </td>
                         </tr>
                      </tbody>
@@ -39405,8 +39405,8 @@
                                  Het gegeven is in ieder geval aanwezig wanneer als bepalingsprocedure NEN-EN-ISO 17892-11
                                  vanaf versie 2019 i.c.m. NEN 8992 vanaf versie 2025 is toegepast.<br clear="none"></br>
                                  Het gegeven staat niet in een brondocument, maar wordt automatisch door de basisregistratie
-                                 ondergrond gegenereerd. Het wordt als volgt berekend: (watergehalte vooraf x volumieke
-                                 massa vaste delen) / (poriëngetal vooraf x volumieke massa water). Voor volumieke
+                                 ondergrond gegenereerd. Het wordt als volgt berekend: (watergehalte vooraf * volumieke
+                                 massa vaste delen) / (poriëngetal vooraf * volumieke massa water). Voor volumieke
                                  massa water wordt 0,9972 Mg/m<sup>3</sup> gehanteerd, de standaard volumieke massa voor water bij 20 graden Celsius.</p>
                               </td>
                         </tr>
