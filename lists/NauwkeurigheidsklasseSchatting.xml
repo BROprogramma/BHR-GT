@@ -4,18 +4,18 @@
 		<Waarde>maximaal5procent</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>De geschatte waarde wijkt maximaal 5 % af van de werkelijke waarde.</Omschrijving>
+		<Omschrijving>De geschatte waarde kan tot 5 % afwijken van de werkelijke waarde.</Omschrijving>
 	</NauwkeurigheidsklasseSchatting>
 	<NauwkeurigheidsklasseSchatting>
 		<Waarde>maximaal10procent</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>De geschatte waarde wijkt maximaal 10 % af van de werkelijke waarde.</Omschrijving>
+		<Omschrijving>De geschatte waarde kan tot 10 % afwijken van de werkelijke waarde.</Omschrijving>
 	</NauwkeurigheidsklasseSchatting>
 	<NauwkeurigheidsklasseSchatting>
 		<Waarde>maximaal20procent</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>De geschatte waarde wijkt maximaal 20 % af van de werkelijke waarde.</Omschrijving>
+		<Omschrijving>De geschatte waarde kan tot 20 % afwijken van de werkelijke waarde.</Omschrijving>
 	</NauwkeurigheidsklasseSchatting>
 </domeintabel>
