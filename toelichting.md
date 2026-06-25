@@ -183,6 +183,10 @@ Van gesteente worden altijd de gesteentesoort, de eventueel voorkomende bijzonde
 
 De laagopbouw kan verstoord zijn doordat discontinuïteiten de lagen doorsnijden. Wanneer de laagopbouw ondanks de verstoring nog goed te beschrijven is, worden naast de lagen ook de kenmerken van de discontinuïteit vastgelegd. Als door verstoring de beschrijving van de laagopbouw praktisch onmogelijk is, wordt het verstoorde interval niet beschreven.
 
+## Geologisch geïnterpreteerd boorprofiel
+
+TODO
+
 ## Boormonsteranalyse
 
 Boormonsteranalyse is het deelonderzoek dat betrekking heeft op het doen van metingen aan boormonsters. Bijna zonder uitzondering worden de metingen in een laboratorium uitgevoerd. De catalogus dekt de bepalingen die in standaard geotechnisch booronderzoek uitgevoerd worden en dat zijn altijd  bepalingen aan grond en bijzonder materiaal. Analyse van gesteente is buiten beschouwing gelaten.
