@@ -67,6 +67,12 @@
 		<Omschrijving>Zeer regelmatig gelamineerde opeenvolging ontstaan door seizoensinvloed op afzetting in glaciaal meer, bijvoorbeeld potklei en glaciale klei in Bekken van Amsterdam (Laag van Oosterdok, Formatie van Drente). Warven tonen een afwisseling in zomerlagen (licht) en winterlagen (donker).</Omschrijving>
 	</GeotechnischeAfzettingskarakteristiek>
 	<GeotechnischeAfzettingskarakteristiek>
+		<Waarde>Hollandveen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Holocene veenlaag die geen Basisveenlaag, Griendtsveen of veen van de Flevomeerlaag is.</Omschrijving>
+	</GeotechnischeAfzettingskarakteristiek>
+	<GeotechnischeAfzettingskarakteristiek>
 		<Waarde>katteklei</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
@@ -103,5 +109,3 @@
 		<Omschrijving>Grond die het product is van verwerking van onderliggend intact gesteente. Gekenmerkt door naast elkaar voorkomen van brokken onverweerd gesteente en volledig verweerd materiaal, dat als klei, silt of zand wordt beschreven.</Omschrijving>
 	</GeotechnischeAfzettingskarakteristiek>
 </domeintabel>
-
-
