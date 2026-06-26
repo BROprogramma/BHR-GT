@@ -185,7 +185,11 @@ De laagopbouw kan verstoord zijn doordat discontinuïteiten de lagen doorsnijden
 
 ## Geologisch geïnterpreteerd boorprofiel
 
-TODO
+Een geologisch geïnterpreteerd boorprofiel is het resultaat van de geologische interpretatie van de opbouw van de ondergrond. Het wordt opgesteld op basis van één of meer beschreven boorprofielen die in de boormonsterbeschrijving zijn opgenomen. Het geologisch geïnterpreteerde boorprofiel is ingedeeld in stratigrafische lagen.
+
+In NEN 8990:2025 kan bij een klasse 1-beschrijving de geologische herkomst worden beschreven. Deze beschrijving is een interpretatie die wordt gemaakt met behulp van de Stratigrafische Nomenclator die door de Geologische Dienst Nederland (GDN) wordt beheerd. Wat in de norm geologische herkomst wordt genoemd, wordt in de registratie ondergrond vertaald naar de entiteit Geologisch geïnterpreteerd boorprofiel. De norm gebruikt hierbij de termen stratigrafie, ouderdom en afzettingsmilieu. In de registratie ondergrond worden deze vastgelegd als respectievelijk de attributen lithostratigrafische eenheid, tijdvak afzetting en afzettingsmilieu.
+
+Bij een klasse 2-beschrijving wordt wat de norm geologische herkomst noemt, in de registratie ondergrond vastgelegd met de attributen geotechnische afzettingskarakteristiek en ouderdom afzetting van de entiteit Grond. Geotechnische afzettingskarakteristiek is vergelijkbaar met afzettingsmilieu en ouderdom afzetting met tijdvak afzetting, die bij een klasse 1-beschrijving worden vastgelegd. De waarden van geotechnische afzettingskarakteristiek en ouderdom afzetting zijn niet overeenkomstig de Stratigrafische Nomenclator. De entiteit Geologisch geïnterpreteerd boorprofiel is opgenomen vanwege klasse 1-beschrijvingen, maar mag ook bij klasse 2-beschrijvingen worden aangeleverd.
 
 ## Boormonsteranalyse
 
