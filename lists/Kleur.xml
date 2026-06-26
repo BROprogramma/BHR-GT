@@ -22,13 +22,13 @@
 		<Waarde>lichtbruin</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Lichtbruin omvat de Munsellkleuren 7.5YR 6/3, 7.5YR 6/4, 5YR 5/6(light brown), 2.5Y 5/3, 2.5Y 5/4, 2.5Y 5/6, 2.5Y 5/8, 5Y 5/6 (light olive brown), 2.5YR 6/3, 2.5YR 6/4, 2.5YR 7/3, 2.5YR 7/4, 5YR 6/3, 5YR 6/4 (light reddish brown), 10YR 6/4, 2.5Y 6/3, 2.5Y 6/4 (light yellowish brown), 2.5Y 7/3, 2.5Y 7/4, 2.5Y 8/2, 2.5Y 8/3, 2.5Y 8/4, 10YR 6/3, 5YR 5/2 (pale brown), 10YR 6/2 (pale yellowish brown) en 10YR 7/3, 10YR 7/4, 10YR 8/2, 10YR 8/3, 10YR 8/4, 10YR 8.5/2 (very pale brown).<br/><br/><br/>Lichtbruin gebruikt onder <i>NEN5104Synthetisch</i> wordt niet gedefinieerd door de Munsellkleuren.</Omschrijving>
+		<Omschrijving>Lichtbruin omvat de Munsellkleuren 7.5YR 6/3, 7.5YR 6/4, 5YR 5/6 (light brown), 2.5Y 5/3, 2.5Y 5/4, 2.5Y 5/6, 2.5Y 5/8, 5Y 5/6 (light olive brown), 2.5YR 6/3, 2.5YR 6/4, 2.5YR 7/3, 2.5YR 7/4, 5YR 6/3, 5YR 6/4 (light reddish brown), 10YR 6/4, 2.5Y 6/3, 2.5Y 6/4 (light yellowish brown), 2.5Y 7/3, 2.5Y 7/4, 2.5Y 8/2, 2.5Y 8/3, 2.5Y 8/4, 10YR 6/3, 5YR 5/2 (pale brown), 10YR 6/2 (pale yellowish brown) en 10YR 7/3, 10YR 7/4, 10YR 8/2, 10YR 8/3, 10YR 8/4, 10YR 8.5/2 (very pale brown).<br/><br/><br/>Lichtbruin gebruikt onder <i>NEN5104Synthetisch</i> wordt niet gedefinieerd door de Munsellkleuren.</Omschrijving>
 	</Kleur>
 	<Kleur>
 		<Waarde>standaardBruin</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>StandaardBruin, tussen lichtbruin en donkerbruin, omvat de Munsellkleuren 10YR 4/3, 10YR 5/3, 7.5YR 4/2, 7.5YR 4/3, 7.5YR 4/4, 7.5YR 5/2, 7.5YR 5/3, 7.5YR 5/4 (brown), 10YR 5/2, 2.5Y 5/2, 5YR 3/2, 5Y 8/4 (grayish brown), 2.5Y 4/3, 2.5Y 4/4, 2.5Y 4/6(olive brown), 5Y 4/4 (moderate olive brown), 2.5YR 4/3, 2.5YR 4/4, 2.5YR 5/3, 2.5YR 5/4, 5YR 4/3, 5YR 4/4, 5YR 5/3, 5YR 5/4 (reddish brown), 7.5YR 4/6, 7.5YR 5/6, 7.5YR 5/8 (strong brown), 5YR 3/4 (moderate brown), 10R 4/6 (moderate reddish brown) en 10YR 5/4, 10YR 5/6, 10YR 5/8 (yellowish brown).<br/><br/><br/>StandaardBruin wordt niet gebruikt onder <i>NEN5104Synthetisch</i>.</Omschrijving>
+		<Omschrijving>StandaardBruin, tussen lichtbruin en donkerbruin, omvat de Munsellkleuren 10YR 4/3, 10YR 5/3, 7.5YR 4/2, 7.5YR 4/3, 7.5YR 4/4, 7.5YR 5/2, 7.5YR 5/3, 7.5YR 5/4 (brown), 10YR 5/2, 2.5Y 5/2, 5YR 3/2, 5Y 8/4 (grayish brown), 2.5Y 4/3, 2.5Y 4/4, 2.5Y 4/6 (olive brown), 5Y 4/4 (moderate olive brown), 2.5YR 4/3, 2.5YR 4/4, 2.5YR 5/3, 2.5YR 5/4, 5YR 4/3, 5YR 4/4, 5YR 5/3, 5YR 5/4 (reddish brown), 7.5YR 4/6, 7.5YR 5/6, 7.5YR 5/8 (strong brown), 5YR 3/4 (moderate brown), 10R 4/6 (moderate reddish brown) en 10YR 5/4, 10YR 5/6, 10YR 5/8 (yellowish brown).<br/><br/><br/>StandaardBruin wordt niet gebruikt onder <i>NEN5104Synthetisch</i>.</Omschrijving>
 	</Kleur>
 	<Kleur>
 		<Waarde>donkerbruin</Waarde>
@@ -52,7 +52,7 @@
 		<Waarde>donkergeel</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Donkergeel is gelijk aan de Munsellkleur 10Y 6/6 (dark greenish yellow) en 10YR 6/6, 10YR 6/8 (brownish yellow).<br/><br/><br/>Donkergeel gebruikt onder <i>NEN5104Synthetisch</i> wordt niet gedefinieerd door de Munsellkleuren.</Omschrijving>
+		<Omschrijving>Donkergeel is gelijk aan de Munsellkleuren 10Y 6/6 (dark greenish yellow) en 10YR 6/6, 10YR 6/8 (brownish yellow).<br/><br/><br/>Donkergeel gebruikt onder <i>NEN5104Synthetisch</i> wordt niet gedefinieerd door de Munsellkleuren.</Omschrijving>
 	</Kleur>
 	<Kleur>
 		<Waarde>lichtgrijs</Waarde>
@@ -94,7 +94,7 @@
 		<Waarde>lichtolijf</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Lichtolijf omvat de Munsellkleuren 10Y 5/4(light olive) en 10Y 6/2, 10Y 6/4, 5Y 6/3(pale olive).<br/><br/><br/>Lichtolijf gebruikt onder <i>NEN5104Synthetisch</i> wordt niet gedefinieerd door de Munsellkleuren.</Omschrijving>
+		<Omschrijving>Lichtolijf omvat de Munsellkleuren 10Y 5/4 (light olive) en 10Y 6/2, 10Y 6/4, 5Y 6/3 (pale olive).<br/><br/><br/>Lichtolijf gebruikt onder <i>NEN5104Synthetisch</i> wordt niet gedefinieerd door de Munsellkleuren.</Omschrijving>
 	</Kleur>
 	<Kleur>
 		<Waarde>standaardOlijf</Waarde>
@@ -118,13 +118,13 @@
 		<Waarde>standaardOranje</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>StandaardOranje, tussen lichtoranje en donkeroranje, omvat de Munsellkleuren 5YR 7/6, 5YR 7/8, 7.5YR 7/6 en 7.5YR 7/8 (reddish yellow).<br/><br/><br/>Deze waarden zijn geldig vanaf <i>NEN_EN_ISO14688d1v2019_NEN8990v2025</i>.</Omschrijving>
+		<Omschrijving>StandaardOranje, tussen lichtoranje en donkeroranje, omvat de Munsellkleuren 5YR 7/6, 5YR 7/8, 7.5YR 7/6 en 7.5YR 7/8 (reddish yellow).<br/><br/><br/>Deze waarde is geldig vanaf <i>NEN_EN_ISO14688d1v2019_NEN8990v2025</i>.</Omschrijving>
 	</Kleur>
 	<Kleur>
 		<Waarde>donkeroranje</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Donkeroranje omvat de Munsellkleuren 5YR 6/6, 5YR 6/8, 7.5YR 6/6 en 7.5YR 6/8 (reddish yellow).<br/><br/><br/>Deze waarden zijn geldig vanaf <i>NEN_EN_ISO14688d1v2019_NEN8990v2025</i>.</Omschrijving>
+		<Omschrijving>Donkeroranje omvat de Munsellkleuren 5YR 6/6, 5YR 6/8, 7.5YR 6/6 en 7.5YR 6/8 (reddish yellow).<br/><br/><br/>Deze waarde is geldig vanaf <i>NEN_EN_ISO14688d1v2019_NEN8990v2025</i>.</Omschrijving>
 	</Kleur>
 	<Kleur>
 		<Waarde>lichtrood</Waarde>
