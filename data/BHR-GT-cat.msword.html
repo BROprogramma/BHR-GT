@@ -6,7 +6,7 @@
                     table.list tbody tr th {background-color: #d3d3d3;}
                     table.list tbody tr th,
                     table.list tbody tr td {border: 1px solid black;}
-                </style></head><body><p>Conceptual model/Geotechnisch booronderzoek (BHR-GT)/20260424</p><p>Imvertor: Nightly-build.0</p><p>Model release: Conceptualmodel-GeotechnischbooronderzoekBHR-GT-2.3-2-20260424-20260701-084257</p><hr><section><h1>Artikel 1 Definitie van registratieobject, entiteiten en attributen</h1><section><h2>Registratieobject</h2><section id="global_class_Model_Registratieobject">
+                </style></head><body><p>Conceptual model/Geotechnisch booronderzoek (BHR-GT)/20260424</p><p>Imvertor: Nightly-build.0</p><p>Model release: Conceptualmodel-GeotechnischbooronderzoekBHR-GT-2.3-2-20260424-20260701-112116</p><hr><section><h1>Artikel 1 Definitie van registratieobject, entiteiten en attributen</h1><section><h2>Registratieobject</h2><section id="global_class_Model_Registratieobject">
                <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th scope="row">Naam</th><td>Booronderzoek</td></tr><tr><th scope="row">Code</th><td>BHR</td></tr><tr><th scope="row">Definitie</th><td>
                         <p>Het geheel van gegevens dat betrekking heeft op een booronderzoek dat vanuit een bepaalde opdracht is uitgevoerd door op een bepaald moment op een bepaalde locatie in Nederland of zijn Exclusieve Economische Zone een boring uit te voeren en de monsters die daarmee uit de ondergrond zijn verkregen te beschrijven en/of te onderzoeken en/of in het boorgat zelf metingen aan de ondergrond uit te voeren.</p>
                      </td></tr><tr><th scope="row">Populatie</th><td>
@@ -5719,20 +5719,12 @@ Bij welke temperatuur er is gedroogd en hoe lang dat is gedaan, wordt uitgedrukt
                            <p>De verhouding tussen de hoeveelheid water en de hoeveelheid droge stof, uitgedrukt in massaprocenten.</p>
                         </td></tr><tr><th scope="row">Juridische status</th><td>Authentiek</td></tr><tr><th scope="row">Kardinaliteit</th><td>1</td></tr><tr><th scope="row">Domein</th><td></td></tr><tr><th scope="row">&nbsp;&nbsp;Naam</th><td>Meetwaarde 
                         4.1</td></tr><tr><th scope="row">&nbsp;&nbsp;Eenheid</th><td>% (procent)</td></tr><tr><th scope="row">&nbsp;&nbsp;Waardebereik</th><td>0 tot 2000</td></tr></tbody></table>
-               </section><section id="detail_attribute_Model_Resultaatbepaling_tijdsduurdrogen"><h4>  tijdsduur drogen</h4>
-                  <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th scope="row">Type gegeven</th><td>Attribuut van Resultaat bepaling</td></tr><tr><th scope="row">Definitie</th><td>
-                           <p>De lengte van de periode gedurende welke het materiaal is gedroogd.</p>
-                        </td></tr><tr><th scope="row">Juridische status</th><td>Authentiek</td></tr><tr><th scope="row">Kardinaliteit</th><td>0..1</td></tr><tr><th scope="row">Domein</th><td></td></tr><tr><th scope="row">&nbsp;&nbsp;Naam</th><td>Meetwaarde 
-                        2.0</td></tr><tr><th scope="row">&nbsp;&nbsp;Eenheid</th><td>h (uur)</td></tr><tr><th scope="row">&nbsp;&nbsp;Waardebereik</th><td> vanaf 0</td></tr><tr><th scope="row">Regels</th><td>
-                           <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>bepalingsprocedure</em> van de entiteit <em>Bepaling watergehalte</em> gelijk is aan <em>NEN_EN_ISO17892d1v2022_NEN8992v2025</em>.</p>
-                        </td></tr><tr><th scope="row">Toelichting</th><td>
-                           <p>Meestal wordt het materiaal 16 tot 24 uur gedroogd en neemt men aan dat al het water dan verdampt is. In uitzonderlijke gevallen is dat niet voldoende. Om zeker te weten dat al het water is verdampt, droogt men dan tot de massa van het materiaal na een uur drogen niet meer is veranderd.</p>
-                        </td></tr></tbody></table>
                </section><section id="detail_attribute_Model_Resultaatbepaling_droogtemperatuurklasse"><h4>  droogtemperatuurklasse</h4>
                   <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th scope="row">Type gegeven</th><td>Attribuut van Resultaat bepaling</td></tr><tr><th scope="row">Definitie</th><td>
                            <p>De temperatuur waarbij het materiaal is gedroogd, uitgedrukt in een klasse.</p>
                         </td></tr><tr><th scope="row">Juridische status</th><td>Authentiek</td></tr><tr><th scope="row">Kardinaliteit</th><td>0..1</td></tr><tr><th scope="row">Domein</th><td></td></tr><tr><th scope="row">&nbsp;&nbsp;Naam</th><td><a class="link" href="#detail_class_Model_Droogtemperatuur">Droogtemperatuur</a></td></tr><tr><th scope="row">&nbsp;&nbsp;Type</th><td>Waardelijst uitbreidbaar</td></tr><tr><th scope="row">Regels</th><td>
-                           <p>Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>bepalingsprocedure</em> van de entiteit <em>Bepaling watergehalte</em> gelijk is aan <em>NEN_EN_ISO17892d1v2022_NEN8992v2025</em>.</p>
+                           <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>bepalingsprocedure</em> van de entiteit <em>Bepaling watergehalte</em> gelijk is aan <em>ISO17892d1v2014</em>.<br clear="none">
+Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>bepalingsprocedure</em> van de entiteit <em>Bepaling watergehalte</em> gelijk is aan <em>NEN_EN_ISO17892d1v2022_NEN8992v2025</em>.</p>
                         </td></tr><tr><th scope="row">Toelichting</th><td>
                            <p>Afhankelijk van hoe nauwkeurig de droogtemperatuur op de apparatuur kan worden ingesteld, kan de geregistreerde temperatuur afwijken van de werkelijke temperatuur. De bepalingsprocedure kan voorwaarden stellen wat betreft de toegestane afwijking in het meten van de temperatuur.</p>
                         </td></tr></tbody></table>
@@ -5749,7 +5741,17 @@ Bij welke temperatuur er is gedroogd en hoe lang dat is gedaan, wordt uitgedrukt
                   <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th scope="row">Type gegeven</th><td>Attribuut van Resultaat bepaling</td></tr><tr><th scope="row">Definitie</th><td>
                            <p>De lengte van de periode gedurende welke het materiaal is gedroogd, uitgedrukt in een klasse.</p>
                         </td></tr><tr><th scope="row">Juridische status</th><td>Authentiek</td></tr><tr><th scope="row">Kardinaliteit</th><td>0..1</td></tr><tr><th scope="row">Domein</th><td></td></tr><tr><th scope="row">&nbsp;&nbsp;Naam</th><td><a class="link" href="#detail_class_Model_Droogtijd">Droogtijd</a></td></tr><tr><th scope="row">&nbsp;&nbsp;Type</th><td>Waardelijst uitbreidbaar</td></tr><tr><th scope="row">Regels</th><td>
-                           <p>Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>bepalingsprocedure</em> van de entiteit <em>Bepaling watergehalte</em> gelijk is aan <em>NEN_EN_ISO17892d1v2022_NEN8992v2025</em>.</p>
+                           <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>bepalingsprocedure</em> van de entiteit <em>Bepaling watergehalte</em> gelijk is aan <em>ISO17892d1v2014</em>.<br clear="none">
+Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>bepalingsprocedure</em> van de entiteit <em>Bepaling watergehalte</em> gelijk is aan <em>NEN_EN_ISO17892d1v2022_NEN8992v2025</em>.</p>
+                        </td></tr><tr><th scope="row">Toelichting</th><td>
+                           <p>Meestal wordt het materiaal 16 tot 24 uur gedroogd en neemt men aan dat al het water dan verdampt is. In uitzonderlijke gevallen is dat niet voldoende. Om zeker te weten dat al het water is verdampt, droogt men dan tot de massa van het materiaal na een uur drogen niet meer is veranderd.</p>
+                        </td></tr></tbody></table>
+               </section><section id="detail_attribute_Model_Resultaatbepaling_tijdsduurdrogen"><h4>  tijdsduur drogen</h4>
+                  <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th scope="row">Type gegeven</th><td>Attribuut van Resultaat bepaling</td></tr><tr><th scope="row">Definitie</th><td>
+                           <p>De lengte van de periode gedurende welke het materiaal is gedroogd.</p>
+                        </td></tr><tr><th scope="row">Juridische status</th><td>Authentiek</td></tr><tr><th scope="row">Kardinaliteit</th><td>0..1</td></tr><tr><th scope="row">Domein</th><td></td></tr><tr><th scope="row">&nbsp;&nbsp;Naam</th><td>Meetwaarde 
+                        2.0</td></tr><tr><th scope="row">&nbsp;&nbsp;Eenheid</th><td>h (uur)</td></tr><tr><th scope="row">&nbsp;&nbsp;Waardebereik</th><td> vanaf 0</td></tr><tr><th scope="row">Regels</th><td>
+                           <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>bepalingsprocedure</em> van de entiteit <em>Bepaling watergehalte</em> gelijk is aan <em>NEN_EN_ISO17892d1v2022_NEN8992v2025</em>.</p>
                         </td></tr><tr><th scope="row">Toelichting</th><td>
                            <p>Meestal wordt het materiaal 16 tot 24 uur gedroogd en neemt men aan dat al het water dan verdampt is. In uitzonderlijke gevallen is dat niet voldoende. Om zeker te weten dat al het water is verdampt, droogt men dan tot de massa van het materiaal na een uur drogen niet meer is veranderd.</p>
                         </td></tr></tbody></table>
