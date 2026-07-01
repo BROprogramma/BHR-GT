@@ -2,7 +2,7 @@
    <body>
       <section id="cat" class="normative">
          <h2>Gegevensdefinitie</h2>
-         <!--Conceptualmodel-GeotechnischbooronderzoekBHR-GT-2.3-2-20260424-20260701-084257 imvertor Nightly-build.0-->
+         <!--Conceptualmodel-GeotechnischbooronderzoekBHR-GT-2.3-2-20260424-20260701-112116 imvertor Nightly-build.0-->
          <section>
             <h3>Het domeinmodel   </h3>
             <div class="imageinfo overview"><img id="img-EAID_BA14D577_33EB_4e1b_AD18_920180363FDE" src="Images/EAID_BA14D577_33EB_4e1b_AD18_920180363FDE.png" usemap="#imagemap-EAID_BA14D577_33EB_4e1b_AD18_920180363FDE" alt="Diagram: Domeinmodel geotechnisch booronderzoek - Algemeen deel - overzicht"></img><map name="imagemap-EAID_BA14D577_33EB_4e1b_AD18_920180363FDE"><area shape="rect" alt="Registratieobject" coords="629,14,917,189" href="#global_class_Model_Registratieobject"></area><area shape="rect" alt="Boormonsteranalyse" coords="14,410,372,532" href="#global_class_Model_Boormonsteranalyse"></area><area shape="rect" alt="Verontreinigd interval" coords="690,1276,995,1398" href="#global_class_Model_Verontreinigdinterval"></area><area shape="rect" alt="Boormonsterbeschrijving" coords="14,246,372,368" href="#global_class_Model_Boormonsterbeschrijving"></area><area shape="rect" alt="Afgewerkt interval" coords="565,1438,993,1666" href="#global_class_Model_Afgewerktinterval"></area><area shape="rect" alt="Bemonsterd interval" coords="1189,1045,1687,1315" href="#global_class_Model_Bemonsterdinterval"></area><area shape="rect" alt="Geboord interval" coords="1189,855,1549,1012" href="#global_class_Model_Geboordinterval"></area><area shape="rect" alt="Weggegraven laag" coords="1189,669,1549,809" href="#global_class_Model_Weggegravenlaag"></area><area shape="rect" alt="Boring" coords="561,669,991,1152" href="#global_class_Model_Boring"></area><area shape="rect" alt="Sliblaag" coords="1122,246,1554,404" href="#global_class_Model_Sliblaag"></area><area shape="rect" alt="Booronderzoek" coords="561,246,991,602" href="#global_class_Model_Booronderzoek"></area></map><p><b>Domeinmodel geotechnisch booronderzoek- Algemeen deel</b>
@@ -39677,69 +39677,6 @@
                      </tbody>
                   </table>
                   </section>
-               <section id="detail_attribute_Model_Resultaatbepaling_tijdsduurdrogen">
-                  <h5>  tijdsduur drogen</h5>
-                  
-                  <table style="width: 100%;">
-                     <colgroup style="width: 30%;"></colgroup>
-                     <colgroup style="width: 70%;"></colgroup>
-                     <tbody>
-                        <tr>
-                           <th scope="row">Type gegeven</th>
-                           <td>Attribuut van Resultaat bepaling</td>
-                        </tr>
-                        <tr>
-                           <th scope="row">Definitie</th>
-                           <td>
-                              
-                              <p>De lengte van de periode gedurende welke het materiaal is gedroogd.</p>
-                              </td>
-                        </tr>
-                        <tr>
-                           <th scope="row">Juridische status</th>
-                           <td>Authentiek</td>
-                        </tr>
-                        <tr>
-                           <th scope="row">Kardinaliteit</th>
-                           <td>0..1</td>
-                        </tr>
-                        <tr>
-                           <th scope="row">Domein</th>
-                           <td></td>
-                        </tr>
-                        <tr>
-                           <th scope="row">  Naam</th>
-                           <td>Meetwaarde 
-                              2.0</td>
-                        </tr>
-                        <tr>
-                           <th scope="row">  Eenheid</th>
-                           <td>h (uur)</td>
-                        </tr>
-                        <tr>
-                           <th scope="row">  Waardebereik</th>
-                           <td> vanaf 0</td>
-                        </tr>
-                        <tr>
-                           <th scope="row">Regels</th>
-                           <td>
-                              
-                              <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>bepalingsprocedure</em> van de entiteit <em>Bepaling watergehalte</em> gelijk is aan <em>NEN_EN_ISO17892d1v2022_NEN8992v2025</em>.</p>
-                              </td>
-                        </tr>
-                        <tr>
-                           <th scope="row">Toelichting</th>
-                           <td>
-                              
-                              <p>Meestal wordt het materiaal 16 tot 24 uur gedroogd en neemt men aan dat al het water
-                                 dan verdampt is. In uitzonderlijke gevallen is dat niet voldoende. Om zeker te weten
-                                 dat al het water is verdampt, droogt men dan tot de massa van het materiaal na een
-                                 uur drogen niet meer is veranderd.</p>
-                              </td>
-                        </tr>
-                     </tbody>
-                  </table>
-                  </section>
                <section id="detail_attribute_Model_Resultaatbepaling_droogtemperatuurklasse">
                   <h5>  droogtemperatuurklasse</h5>
                   
@@ -39782,7 +39719,8 @@
                            <th scope="row">Regels</th>
                            <td>
                               
-                              <p>Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>bepalingsprocedure</em> van de entiteit <em>Bepaling watergehalte</em> gelijk is aan <em>NEN_EN_ISO17892d1v2022_NEN8992v2025</em>.</p>
+                              <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>bepalingsprocedure</em> van de entiteit <em>Bepaling watergehalte</em> gelijk is aan <em>ISO17892d1v2014</em>.<br clear="none"></br>
+                                 Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>bepalingsprocedure</em> van de entiteit <em>Bepaling watergehalte</em> gelijk is aan <em>NEN_EN_ISO17892d1v2022_NEN8992v2025</em>.</p>
                               </td>
                         </tr>
                         <tr>
@@ -39902,7 +39840,71 @@
                            <th scope="row">Regels</th>
                            <td>
                               
-                              <p>Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>bepalingsprocedure</em> van de entiteit <em>Bepaling watergehalte</em> gelijk is aan <em>NEN_EN_ISO17892d1v2022_NEN8992v2025</em>.</p>
+                              <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>bepalingsprocedure</em> van de entiteit <em>Bepaling watergehalte</em> gelijk is aan <em>ISO17892d1v2014</em>.<br clear="none"></br>
+                                 Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>bepalingsprocedure</em> van de entiteit <em>Bepaling watergehalte</em> gelijk is aan <em>NEN_EN_ISO17892d1v2022_NEN8992v2025</em>.</p>
+                              </td>
+                        </tr>
+                        <tr>
+                           <th scope="row">Toelichting</th>
+                           <td>
+                              
+                              <p>Meestal wordt het materiaal 16 tot 24 uur gedroogd en neemt men aan dat al het water
+                                 dan verdampt is. In uitzonderlijke gevallen is dat niet voldoende. Om zeker te weten
+                                 dat al het water is verdampt, droogt men dan tot de massa van het materiaal na een
+                                 uur drogen niet meer is veranderd.</p>
+                              </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  </section>
+               <section id="detail_attribute_Model_Resultaatbepaling_tijdsduurdrogen">
+                  <h5>  tijdsduur drogen</h5>
+                  
+                  <table style="width: 100%;">
+                     <colgroup style="width: 30%;"></colgroup>
+                     <colgroup style="width: 70%;"></colgroup>
+                     <tbody>
+                        <tr>
+                           <th scope="row">Type gegeven</th>
+                           <td>Attribuut van Resultaat bepaling</td>
+                        </tr>
+                        <tr>
+                           <th scope="row">Definitie</th>
+                           <td>
+                              
+                              <p>De lengte van de periode gedurende welke het materiaal is gedroogd.</p>
+                              </td>
+                        </tr>
+                        <tr>
+                           <th scope="row">Juridische status</th>
+                           <td>Authentiek</td>
+                        </tr>
+                        <tr>
+                           <th scope="row">Kardinaliteit</th>
+                           <td>0..1</td>
+                        </tr>
+                        <tr>
+                           <th scope="row">Domein</th>
+                           <td></td>
+                        </tr>
+                        <tr>
+                           <th scope="row">  Naam</th>
+                           <td>Meetwaarde 
+                              2.0</td>
+                        </tr>
+                        <tr>
+                           <th scope="row">  Eenheid</th>
+                           <td>h (uur)</td>
+                        </tr>
+                        <tr>
+                           <th scope="row">  Waardebereik</th>
+                           <td> vanaf 0</td>
+                        </tr>
+                        <tr>
+                           <th scope="row">Regels</th>
+                           <td>
+                              
+                              <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>bepalingsprocedure</em> van de entiteit <em>Bepaling watergehalte</em> gelijk is aan <em>NEN_EN_ISO17892d1v2022_NEN8992v2025</em>.</p>
                               </td>
                         </tr>
                         <tr>
