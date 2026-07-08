@@ -2,7 +2,7 @@
    <body>
       <section id="cat" class="normative">
          <h2>Gegevensdefinitie</h2>
-         <!--Conceptualmodel-GeotechnischbooronderzoekBHR-GT-2.3-2-20260424-20260708-082951 imvertor Nightly-build.0-->
+         <!--Conceptualmodel-GeotechnischbooronderzoekBHR-GT-2.3-2-20260424-20260708-110743 imvertor Nightly-build.0-->
          <section>
             <h3>Het domeinmodel   </h3>
             <div class="imageinfo overview"><img id="img-EAID_BA14D577_33EB_4e1b_AD18_920180363FDE" src="Images/EAID_BA14D577_33EB_4e1b_AD18_920180363FDE.png" usemap="#imagemap-EAID_BA14D577_33EB_4e1b_AD18_920180363FDE" alt="Diagram: Domeinmodel geotechnisch booronderzoek - Algemeen deel - overzicht"></img><map name="imagemap-EAID_BA14D577_33EB_4e1b_AD18_920180363FDE"><area shape="rect" alt="Registratieobject" coords="629,14,916,189" href="#global_class_Model_Registratieobject"></area><area shape="rect" alt="Boormonsteranalyse" coords="14,410,372,532" href="#global_class_Model_Boormonsteranalyse"></area><area shape="rect" alt="Verontreinigd interval" coords="689,1275,994,1397" href="#global_class_Model_Verontreinigdinterval"></area><area shape="rect" alt="Boormonsterbeschrijving" coords="14,246,372,368" href="#global_class_Model_Boormonsterbeschrijving"></area><area shape="rect" alt="Afgewerkt interval" coords="564,1436,992,1665" href="#global_class_Model_Afgewerktinterval"></area><area shape="rect" alt="Bemonsterd interval" coords="1188,1044,1685,1313" href="#global_class_Model_Bemonsterdinterval"></area><area shape="rect" alt="Geboord interval" coords="1188,854,1547,1011" href="#global_class_Model_Geboordinterval"></area><area shape="rect" alt="Weggegraven laag" coords="1188,668,1547,808" href="#global_class_Model_Weggegravenlaag"></area><area shape="rect" alt="Boring" coords="560,668,989,1151" href="#global_class_Model_Boring"></area><area shape="rect" alt="Sliblaag" coords="1121,246,1553,403" href="#global_class_Model_Sliblaag"></area><area shape="rect" alt="Booronderzoek" coords="560,246,989,601" href="#global_class_Model_Booronderzoek"></area></map><p><b>Domeinmodel geotechnisch booronderzoek- Algemeen deel</b>
@@ -12566,7 +12566,8 @@
                            <th scope="row">Definitie</th>
                            <td>
                               
-                              <p>De mate van variatie in de grootte van de zandkorrels, uitgedrukt in een klasse.</p>
+                              <p>De indicatie van de mate waarin de zandkorrels een gelijke grootte hebben, uitgedrukt
+                                 in een klasse.</p>
                               </td>
                         </tr>
                         <tr>
@@ -12614,7 +12615,7 @@
                            <th scope="row">Definitie</th>
                            <td>
                               
-                              <p>De spreiding van zand, uitgedrukt in een klasse.</p>
+                              <p>De mate van variatie in de grootte van de zandkorrels, uitgedrukt in een klasse.</p>
                               </td>
                         </tr>
                         <tr>
@@ -12650,7 +12651,7 @@
                               
                               <p>Het attribuut mag aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfprocedure</em> van de entiteit <em>Boormonsterbeschrijving</em> gelijk is aan <em>NEN5104Synthetisch</em> en de waarde van <em>grondsoort NEN5104</em> gelijk is aan <em>kleiigZand</em>, <em>zwakSiltigZand</em>, <em>matigSiltigZand</em>, <em>sterkSiltigZand</em> of <em>uiterstSiltigZand</em>.<br clear="none"></br>
                                  Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>beschrijfprocedure</em> van de entiteit <em>Boormonsterbeschrijving</em> gelijk is aan <em>NEN5104Synthetisch</em> en de waarde van <em>grondsoort NEN5104</em> niet gelijk is aan <em>kleiigZand</em>, <em>zwakSiltigZand</em>, <em>matigSiltigZand</em>, <em>sterkSiltigZand</em> of <em>uiterstSiltigZand</em>.<br clear="none"></br>
-                                 Het attribuut mag niet aanwezig zijn wanneer het attribuut <em>zandspreiding NEN5104</em> aanwezig is.</p>
+                                 Het attribuut mag niet aanwezig zijn wanneer het attribuut <em>zandsorteergraad</em> aanwezig is.</p>
                               </td>
                         </tr>
                      </tbody>
@@ -61805,34 +61806,42 @@
                      </tr>
                      <tr>
                         <td>zeerKlein</td>
-                        <td> </td>
+                        <td></td>
                         <td>v</td>
-                        <td>Zand waarvan meer dan 90 % van de korrels binnen dezelfde zandmediaanklasse valt.</td>
+                        <td>Zand met een matig kleine variatie in grootte van de zandkorrels. De gelijkmatigheidscoefficient
+                           D60/D10 (de verhouding tussen de korrelgrootten waarbij respectievelijk 60 % en 10
+                           % van de massa van de zandfractie kleiner is) is groter dan of gelijk aan 1,0 en kleiner
+                           dan 1,8.</td>
                      </tr>
                      <tr>
                         <td>matigKlein</td>
-                        <td> </td>
+                        <td></td>
                         <td>v</td>
-                        <td>Zand waarvan meer dan 90 % van de korrels binnen twee aansluitende zandmediaanklassen
-                           valt.</td>
+                        <td>Zand met een matig kleine variatie in grootte van de zandkorrels. De gelijkmatigheidscoefficient
+                           D60/D10 (de verhouding tussen de korrelgrootten waarbij respectievelijk 60 % en 10
+                           % van de massa van de zandfractie kleiner is) is groter dan of gelijk aan 1,8 en kleiner
+                           dan 2,2.</td>
                      </tr>
                      <tr>
                         <td>matigGroot</td>
-                        <td> </td>
+                        <td></td>
                         <td>v</td>
-                        <td>Zand waarvan meer dan 90 % van de korrels binnen drie aansluitende zandmediaanklassen
-                           valt en de zandmediaan in de middelste van de drie zandmediaanklassen ligt.</td>
+                        <td>Zand met een matig grote variatie in grootte van de zandkorrels. De gelijkmatigheidscoefficient
+                           D60/D10 (de verhouding tussen de korrelgrootten waarbij respectievelijk 60 % en 10
+                           % van de massa van de zandfractie kleiner is) is groter dan of gelijk aan 2,2 en kleiner
+                           dan 3,0.</td>
                      </tr>
                      <tr>
                         <td>zeerGroot</td>
-                        <td> </td>
+                        <td></td>
                         <td>v</td>
-                        <td>Zand waarvan minder dan 90 % van de korrels binnen drie aansluitende zandmediaanklassen
-                           valt en de zandmediaan niet in de middelste van de drie zandmediaanklassen ligt.</td>
+                        <td>Zand met een zeer grote variatie in grootte van de zandkorrels. De gelijkmatigheidscoefficient
+                           D60/D10 (de verhouding tussen de korrelgrootten waarbij respectievelijk 60 % en 10
+                           % van de massa van de zandfractie kleiner is) groter is dan of gelijk aan 3,0.</td>
                      </tr>
                      <tr>
                         <td>tweetoppig</td>
-                        <td> </td>
+                        <td></td>
                         <td>v</td>
                         <td>Zand waarvan de korrels tot twee populaties horen die meestal niet in aaneensluitende
                            zandmediaanklassen liggen.</td>
