@@ -2,31 +2,31 @@
 <domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<ZandspreidingNEN5104>
 		<Waarde>zeerKlein</Waarde>
-		<IMBRO> </IMBRO>
+		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Zand waarvan meer dan 90 % van de korrels binnen dezelfde zandmediaanklasse valt.</Omschrijving>
+		<Omschrijving>Zand met een matig kleine variatie in grootte van de zandkorrels. De gelijkmatigheidscoefficient D60/D10 (de verhouding tussen de korrelgrootten waarbij respectievelijk 60 % en 10 % van de massa van de zandfractie kleiner is) is groter dan of gelijk aan 1,0 en kleiner dan 1,8.</Omschrijving>
 	</ZandspreidingNEN5104>
 	<ZandspreidingNEN5104>
 		<Waarde>matigKlein</Waarde>
-		<IMBRO> </IMBRO>
+		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Zand waarvan meer dan 90 % van de korrels binnen twee aansluitende zandmediaanklassen valt.</Omschrijving>
+		<Omschrijving>Zand met een matig kleine variatie in grootte van de zandkorrels. De gelijkmatigheidscoefficient D60/D10 (de verhouding tussen de korrelgrootten waarbij respectievelijk 60 % en 10 % van de massa van de zandfractie kleiner is) is groter dan of gelijk aan 1,8 en kleiner dan 2,2.</Omschrijving>
 	</ZandspreidingNEN5104>
 	<ZandspreidingNEN5104>
 		<Waarde>matigGroot</Waarde>
-		<IMBRO> </IMBRO>
+		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Zand waarvan meer dan 90 % van de korrels binnen drie aansluitende zandmediaanklassen valt en de zandmediaan in de middelste van de drie zandmediaanklassen ligt.</Omschrijving>
+		<Omschrijving>Zand met een matig grote variatie in grootte van de zandkorrels. De gelijkmatigheidscoefficient D60/D10 (de verhouding tussen de korrelgrootten waarbij respectievelijk 60 % en 10 % van de massa van de zandfractie kleiner is) is groter dan of gelijk aan 2,2 en kleiner dan 3,0.</Omschrijving>
 	</ZandspreidingNEN5104>
 	<ZandspreidingNEN5104>
 		<Waarde>zeerGroot</Waarde>
-		<IMBRO> </IMBRO>
+		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Zand waarvan minder dan 90 % van de korrels binnen drie aansluitende zandmediaanklassen valt en de zandmediaan niet in de middelste van de drie zandmediaanklassen ligt.</Omschrijving>
+		<Omschrijving>Zand met een zeer grote variatie in grootte van de zandkorrels. De gelijkmatigheidscoefficient D60/D10 (de verhouding tussen de korrelgrootten waarbij respectievelijk 60 % en 10 % van de massa van de zandfractie kleiner is) groter is dan of gelijk aan 3,0.</Omschrijving>
 	</ZandspreidingNEN5104>
 	<ZandspreidingNEN5104>
 		<Waarde>tweetoppig</Waarde>
-		<IMBRO> </IMBRO>
+		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
 		<Omschrijving>Zand waarvan de korrels tot twee populaties horen die meestal niet in aaneensluitende zandmediaanklassen liggen.</Omschrijving>
 	</ZandspreidingNEN5104>
