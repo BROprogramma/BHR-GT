@@ -4,25 +4,25 @@
 		<Waarde>belastenGeconsolideerdGedraineerd</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Methode voor het bepalen van het verloop van de schuifspanning in grond als gevolg van vervorming onder belasting door het uitvoeren van de triaxiaalproef. Gedurende een bepaalde tijd wordt het geconsolideerde proefstuk met een constante snelheid samengedrukt en is het proefstuk vrij om in horizontale richting te vervormen. Het schuifspanningsverloop wordt bepaald in gedraineerde toestand.</Omschrijving>
+		<Omschrijving>Methode voor het bepalen van het verloop van de schuifspanning in grond als gevolg van vervorming onder belasting door het uitvoeren van de triaxiaalproef (consolidated drained, CD). Gedurende een bepaalde tijd wordt het geconsolideerde proefstuk met een constante snelheid samengedrukt en is het proefstuk vrij om in horizontale richting te vervormen. Het schuifspanningsverloop wordt bepaald in gedraineerde toestand.</Omschrijving>
 	</Bepalingsmethode>
 	<Bepalingsmethode>
 		<Waarde>belastenGeconsolideerdOngedraineerd</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Methode voor het bepalen van het verloop van de schuifspanning in grond als gevolg van vervorming onder belasting door het uitvoeren van de triaxiaalproef. Gedurende een bepaalde tijd wordt het geconsolideerde proefstuk met een constante snelheid samengedrukt en is het proefstuk vrij om in horizontale richting te vervormen. Het schuifspanningsverloop wordt bepaald in ongedraineerde toestand.</Omschrijving>
+		<Omschrijving>Methode voor het bepalen van het verloop van de schuifspanning in grond als gevolg van vervorming onder belasting door het uitvoeren van de triaxiaalproef (consolidated undrained, CU). Gedurende een bepaalde tijd wordt het geconsolideerde proefstuk met een constante snelheid samengedrukt en is het proefstuk vrij om in horizontale richting te vervormen. Het schuifspanningsverloop wordt bepaald in ongedraineerde toestand.</Omschrijving>
 	</Bepalingsmethode>
 	<Bepalingsmethode>
 		<Waarde>belastenOngeconsolideerdOngedraineerd</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Methode voor het bepalen van het verloop van de schuifspanning in grond als gevolg van vervorming onder belasting door het uitvoeren van de triaxiaalproef. Gedurende een bepaalde tijd wordt het proefstuk met een constante snelheid samengedrukt en is het proefstuk vrij om in horizontale richting te vervormen. Het schuifspanningsverloop wordt bepaald van een onverzadigd, ongeconsolideerd proefstuk in ongedraineerde toestand.</Omschrijving>
+		<Omschrijving>Methode voor het bepalen van het verloop van de schuifspanning in grond als gevolg van vervorming onder belasting door het uitvoeren van de triaxiaalproef (unconsolidated undrained, UU). Gedurende een bepaalde tijd wordt het proefstuk met een constante snelheid samengedrukt en is het proefstuk vrij om in horizontale richting te vervormen. Het schuifspanningsverloop wordt bepaald van een onverzadigd, ongeconsolideerd proefstuk in ongedraineerde toestand.</Omschrijving>
 	</Bepalingsmethode>
 	<Bepalingsmethode>
 		<Waarde>berekenenWatergehalte</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Methode voor het bepalen van het watergehalte. De hoeveelheid water in het materiaal is voorafgaand aan de bepaling door uitpersing veranderd. Het materiaal wordt alsnog gedroogd in een oven waardoor het water verdampt. Uit het massaverlies dat het gevolg is van de verdamping van het water en de hoeveelheid uitgeperst water wordt het watergehalte berekend.</Omschrijving>
+		<Omschrijving>Methode voor het bepalen van het watergehalte (water content, WC). De hoeveelheid water in het materiaal is voorafgaand aan de bepaling door uitpersing veranderd. Het materiaal wordt alsnog gedroogd in een oven waardoor het water verdampt. Uit het massaverlies dat het gevolg is van de verdamping van het water en de hoeveelheid uitgeperst water wordt het watergehalte berekend.</Omschrijving>
 	</Bepalingsmethode>
 	<Bepalingsmethode>
 		<Waarde>casagrandeKleistaaf</Waarde>
@@ -52,19 +52,19 @@
 		<Waarde>drogen</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Methode voor het bepalen van het watergehalte. Het materiaal wordt gedroogd in een oven waardoor het water verdampt. Uit het massaverlies wordt het watergehalte berekend.</Omschrijving>
+		<Omschrijving>Methode voor het bepalen van het watergehalte (water content, WC). Het materiaal wordt gedroogd in een oven waardoor het water verdampt. Uit het massaverlies wordt het watergehalte berekend.</Omschrijving>
 	</Bepalingsmethode>
 	<Bepalingsmethode>
 		<Waarde>droogZeven</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Methode voor het bepalen van de korrelgrootteverdeling. Voor het bepalen van de verdeling van de fractie groter dan 63 µm is droge zeving gebruikt. Deze methode wordt gebruikt wanneer men ervan uitgaat dat er geen fractie kleiner dan 63 µm aanwezig is.</Omschrijving>
+		<Omschrijving>Methode voor het bepalen van de korrelgrootteverdeling (particle size distribution, PSD). Voor het bepalen van de verdeling van de fractie groter dan 63 µm is droge zeving gebruikt. Deze methode wordt gebruikt wanneer men ervan uitgaat dat er geen fractie kleiner dan 63 µm aanwezig is.</Omschrijving>
 	</Bepalingsmethode>
 	<Bepalingsmethode>
 		<Waarde>dynamischeBeeldanalyse</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Methode voor het bepalen van de korrelgrootteverdeling. Met een camera wordt de grootte van de korrels gemeten. De methode wordt gebruikt voor het bepalen van de fractie kleiner dan 30 mm. </Omschrijving>
+		<Omschrijving>Methode voor het bepalen van de korrelgrootteverdeling (particle size distribution, PSD). Met een camera wordt de grootte van de korrels gemeten. De methode wordt gebruikt voor het bepalen van de fractie kleiner dan 30 mm. </Omschrijving>
 	</Bepalingsmethode>
 	<Bepalingsmethode>
 		<Waarde>extensieGeconsolideerdGedraineerd</Waarde>
@@ -118,37 +118,37 @@
 		<Waarde>natDroogZeven</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Methode voor het bepalen van de korrelgrootteverdeling. Het materiaal is nat gezeefd over de 63µm-zeef. De verdeling van de korrels groter dan 63 µm is bepaald door middel van droge zeving.</Omschrijving>
+		<Omschrijving>Methode voor het bepalen van de korrelgrootteverdeling (particle size distribution, PSD). Het materiaal is nat gezeefd over de 63µm-zeef. De verdeling van de korrels groter dan 63 µm is bepaald door middel van droge zeving.</Omschrijving>
 	</Bepalingsmethode>
 	<Bepalingsmethode>
 		<Waarde>natDroogZevenHydrometer</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Methode voor het bepalen van de korrelgrootteverdeling. Het materiaal is nat gezeefd over de 63µm-zeef. De verdeling van de korrels kleiner dan 63 µm is bepaald met een hydrometer. Wanneer de verdeling van de korrels groter dan 63 µm is bepaald, is dit gebeurd door middel van droge zeving.</Omschrijving>
+		<Omschrijving>Methode voor het bepalen van de korrelgrootteverdeling (particle size distribution, PSD). Het materiaal is nat gezeefd over de 63µm-zeef. De verdeling van de korrels kleiner dan 63 µm is bepaald met een hydrometer. Wanneer de verdeling van de korrels groter dan 63 µm is bepaald, is dit gebeurd door middel van droge zeving.</Omschrijving>
 	</Bepalingsmethode>
 	<Bepalingsmethode>
 		<Waarde>natDroogZevenLaser</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Methode voor het bepalen van de korrelgrootteverdeling. Het materiaal is nat gezeefd over de 2mm-zeef. De verdeling van de korrels kleiner dan 2 mm is bepaald door middel van laserdiffractie. De verdeling van de korrels groter dan 2 mm is bepaald door middel van droge zeving. Deze waarde is vervallen. Reden hiervoor dat de waarde <i>laserdiffractie</i> is opgenomen. Middels het aanleveren van twee korrelgrootteverdelingen is het mogelijk om een combinatie van twee bepalingsmethoden te maken.</Omschrijving>
+		<Omschrijving>Methode voor het bepalen van de korrelgrootteverdeling (particle size distribution, PSD). Het materiaal is nat gezeefd over de 2mm-zeef. De verdeling van de korrels kleiner dan 2 mm is bepaald door middel van laserdiffractie. De verdeling van de korrels groter dan 2 mm is bepaald door middel van droge zeving. Deze waarde is vervallen. Reden hiervoor dat de waarde <i>laserdiffractie</i> is opgenomen. Middels het aanleveren van twee korrelgrootteverdelingen is het mogelijk om een combinatie van twee bepalingsmethoden te maken.</Omschrijving>
 	</Bepalingsmethode>
 	<Bepalingsmethode>
 		<Waarde>natDroogZevenPipet</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Methode voor het bepalen van de korrelgrootteverdeling. Het materiaal is nat gezeefd over de 63µm-zeef. De verdeling van de korrels kleiner dan 63 µm is bepaald door middel van pipetteren. Wanneer de verdeling van de korrels groter dan 63 µm is bepaald, is dit gebeurd door middel van droge zeving.</Omschrijving>
+		<Omschrijving>Methode voor het bepalen van de korrelgrootteverdeling (particle size distribution, PSD). Het materiaal is nat gezeefd over de 63µm-zeef. De verdeling van de korrels kleiner dan 63 µm is bepaald door middel van pipetteren. Wanneer de verdeling van de korrels groter dan 63 µm is bepaald, is dit gebeurd door middel van droge zeving.</Omschrijving>
 	</Bepalingsmethode>
 	<Bepalingsmethode>
 		<Waarde>natDroogZevenRoentgen</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Methode voor het bepalen van de korrelgrootteverdeling. Het materiaal is nat gezeefd over de 63µm-zeef. De verdeling van de korrels kleiner dan 63 µm is bepaald met behulp van röntgenstraling. Wanneer de verdeling van de korrels groter dan 63 µm is bepaald, is dit gebeurd door middel van droge zeving.</Omschrijving>
+		<Omschrijving>Methode voor het bepalen van de korrelgrootteverdeling (particle size distribution, PSD). Het materiaal is nat gezeefd over de 63µm-zeef. De verdeling van de korrels kleiner dan 63 µm is bepaald met behulp van röntgenstraling. Wanneer de verdeling van de korrels groter dan 63 µm is bepaald, is dit gebeurd door middel van droge zeving.</Omschrijving>
 	</Bepalingsmethode>
 	<Bepalingsmethode>
 		<Waarde>natDroogZevenSedigraaf</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Methode voor het bepalen van de korrelgrootteverdeling. Het materiaal is nat gezeefd over de 63µm-zeef. De verdeling van de korrels kleiner dan 63 µm is bepaald met behulp van een sedigraaf. Wanneer de verdeling van de korrels groter dan 63 µm is bepaald, is dit gebeurd door middel van droge zeving.</Omschrijving>
+		<Omschrijving>Methode voor het bepalen van de korrelgrootteverdeling (particle size distribution, PSD). Het materiaal is nat gezeefd over de 63µm-zeef. De verdeling van de korrels kleiner dan 63 µm is bepaald met behulp van een sedigraaf. Wanneer de verdeling van de korrels groter dan 63 µm is bepaald, is dit gebeurd door middel van droge zeving.</Omschrijving>
 	</Bepalingsmethode>
 	<Bepalingsmethode>
 		<Waarde>natOxideren</Waarde>
@@ -160,13 +160,13 @@
 		<Waarde>natZeven</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Methode voor het bepalen van de korrelgrootteverdeling. Het materiaal is nat gezeefd over de 63µm-zeef.</Omschrijving>
+		<Omschrijving>Methode voor het bepalen van de korrelgrootteverdeling (particle size distribution, PSD). Het materiaal is nat gezeefd over de 63µm-zeef.</Omschrijving>
 	</Bepalingsmethode>
 	<Bepalingsmethode>
 		<Waarde>natZevenHydrometer</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Methode voor het bepalen van de korrelgrootteverdeling. Het materiaal is nat gezeefd over de 63 µm-zeef. De verdeling van de korrels kleiner dan 63 µm is bepaald met een hydrometer.</Omschrijving>	
+		<Omschrijving>Methode voor het bepalen van de korrelgrootteverdeling (particle size distribution, PSD). Het materiaal is nat gezeefd over de 63 µm-zeef. De verdeling van de korrels kleiner dan 63 µm is bepaald met een hydrometer.</Omschrijving>	
 	</Bepalingsmethode>
 	<Bepalingsmethode>
 		<Waarde>ongetrimdVolumeMeten</Waarde>
@@ -196,7 +196,7 @@
 		<Waarde>samendrukkenBelastinggestuurd</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Methode voor het bepalen van het zettingsverloop van grond door het uitvoeren van de samendrukkingsproef. De proef kent een aantal stappen, waarin gedurende een bepaalde tijd een bepaalde druk wordt uitgeoefend op een proefstuk en gemeten hoe snel de hoogte van het proefstuk verandert.</Omschrijving>
+		<Omschrijving>Methode voor het bepalen van het zettingsverloop van grond door het uitvoeren van de samendrukkingsproef (incremental loading oedometer, IL-OED). De proef kent een aantal stappen, waarin gedurende een bepaalde tijd een bepaalde druk wordt uitgeoefend op een proefstuk en gemeten hoe snel de hoogte van het proefstuk verandert.</Omschrijving>
 	</Bepalingsmethode>
 	<Bepalingsmethode>
 		<Waarde>samendrukkenOnbeklemd</Waarde>
