@@ -115,14 +115,14 @@ In het geval dat men monsters heeft gestoken of gekernd, worden ook specificatie
 <figure id='bemonsteringsapparaat1'>
 	<img src="./media/Bemonsteringsapparaat1.png" alt="Bemonsteringsapparaat" width="500"/>
 	<figcaption>
-		Het bemonsteringsapparaat: (A) een apparaat met een haakse steekmond, (B) een apparaat waarvan de steekmond een hoek (α) maakt met de verticaal en (C) een apparaat als B maar dan voorzien van een passieve zuiger. De letter l geeft de lengte van de container aan, d1 de doorgangsdiameter en d2 de diameter van de steekmond. De diameter van de container is gelijk aan de doorgangsdiameter.
+		Het bemonsteringsapparaat: (A) een apparaat met een haakse steekmond, (B) een apparaat waarvan de steekmond een hoek (α) maakt met de verticaal en (C) een apparaat als B maar dan voorzien van een passieve zuiger. De letter l geeft de lengte van de container aan, d<sub>1</sub> de doorgangsdiameter en d<sub>2</sub> de diameter van de steekmond. De diameter van de container is gelijk aan de doorgangsdiameter.
 	</figcaption>
 </figure>
 
 <figure id='bemonsteringsapparaat2'>
 	<img src="./media/Bemonsteringsapparaat2.png" alt="Bemonsteringsapparaat2" width="500"/>
 	<figcaption>
-		Het bemonsteringsapparaat: (A) een apparaat met een afschroefbare steekmond en een vanger en (B) een zelfde apparaat maar dan met een variabele diameter en een container die voorzien is van een liner. De letter l geeft de lengte van de container aan, d1 de doorgangsdiameter, d2 de diameter van de steekmond en d3  de diameter van de container.
+		Het bemonsteringsapparaat: (A) een apparaat met een afschroefbare steekmond en een vanger en (B) een zelfde apparaat maar dan met een variabele diameter en een container die voorzien is van een liner. De letter l geeft de lengte van de container aan, d<sub>1</sub> de doorgangsdiameter, d<sub>2</sub> de diameter van de steekmond en d<sub>3</sub> de diameter van de container.
 	</figcaption>
 </figure>
 
