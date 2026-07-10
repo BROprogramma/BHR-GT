@@ -2,7 +2,7 @@
    <body>
       <section id="cat" class="normative">
          <h2>Gegevensdefinitie</h2>
-         <!--Conceptualmodel-GeotechnischbooronderzoekBHR-GT-2.3-2-20260424-20260710-110513 imvertor Nightly-build.0-->
+         <!--Conceptualmodel-GeotechnischbooronderzoekBHR-GT-2.3-2-20260424-20260710-112544 imvertor Nightly-build.0-->
          <section>
             <h3>Het domeinmodel   </h3>
             <div class="imageinfo overview"><img id="img-EAID_BA14D577_33EB_4e1b_AD18_920180363FDE" src="Images/EAID_BA14D577_33EB_4e1b_AD18_920180363FDE.png" usemap="#imagemap-EAID_BA14D577_33EB_4e1b_AD18_920180363FDE" alt="Diagram: Domeinmodel geotechnisch booronderzoek - Algemeen deel - overzicht"></img><map name="imagemap-EAID_BA14D577_33EB_4e1b_AD18_920180363FDE"><area shape="rect" alt="Registratieobject" coords="629,14,916,189" href="#global_class_Model_Registratieobject"></area><area shape="rect" alt="Boormonsteranalyse" coords="14,410,372,532" href="#global_class_Model_Boormonsteranalyse"></area><area shape="rect" alt="Verontreinigd interval" coords="689,1275,994,1397" href="#global_class_Model_Verontreinigdinterval"></area><area shape="rect" alt="Boormonsterbeschrijving" coords="14,246,372,368" href="#global_class_Model_Boormonsterbeschrijving"></area><area shape="rect" alt="Afgewerkt interval" coords="564,1436,992,1665" href="#global_class_Model_Afgewerktinterval"></area><area shape="rect" alt="Bemonsterd interval" coords="1188,1044,1685,1313" href="#global_class_Model_Bemonsterdinterval"></area><area shape="rect" alt="Geboord interval" coords="1188,854,1547,1011" href="#global_class_Model_Geboordinterval"></area><area shape="rect" alt="Weggegraven laag" coords="1188,668,1547,808" href="#global_class_Model_Weggegravenlaag"></area><area shape="rect" alt="Boring" coords="560,668,989,1151" href="#global_class_Model_Boring"></area><area shape="rect" alt="Sliblaag" coords="1121,246,1553,403" href="#global_class_Model_Sliblaag"></area><area shape="rect" alt="Booronderzoek" coords="560,246,989,601" href="#global_class_Model_Booronderzoek"></area></map><p><b>Domeinmodel geotechnisch booronderzoek- Algemeen deel</b>
@@ -18098,6 +18098,57 @@
                      </tbody>
                   </table>
                   </section>
+               <section id="detail_attribute_Model_Bepalingzettingseigenschappen_proefstukgemaakt">
+                  <h5>  proefstuk gemaakt</h5>
+                  
+                  <table style="width: 100%;">
+                     <colgroup style="width: 30%;"></colgroup>
+                     <colgroup style="width: 70%;"></colgroup>
+                     <tbody>
+                        <tr>
+                           <th scope="row">Type gegeven</th>
+                           <td>Attribuut van Bepaling zettingseigenschappen</td>
+                        </tr>
+                        <tr>
+                           <th scope="row">Definitie</th>
+                           <td>
+                              
+                              <p>De aanduiding die aangeeft of het proefstuk is gemaakt.</p>
+                              </td>
+                        </tr>
+                        <tr>
+                           <th scope="row">Juridische status</th>
+                           <td>Authentiek</td>
+                        </tr>
+                        <tr>
+                           <th scope="row">Kardinaliteit</th>
+                           <td>0..1</td>
+                        </tr>
+                        <tr>
+                           <th scope="row">Domein</th>
+                           <td></td>
+                        </tr>
+                        <tr>
+                           <th scope="row">  Naam</th>
+                           <td>
+                              IndicatieJaNee
+                              </td>
+                        </tr>
+                        <tr>
+                           <th scope="row">  Type</th>
+                           <td>Waardelijst niet uitbreidbaar</td>
+                        </tr>
+                        <tr>
+                           <th scope="row">Regels</th>
+                           <td>
+                              
+                              <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>bepalingsprocedure</em> gelijk is aan <em>NEN_EN_ISO17892d5v2017_NEN8992v2025</em> of <em>ASTM_D4186v2020_NEN8992v2025.</em>
+                                 </p>
+                              </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  </section>
                <section id="detail_attribute_Model_Bepalingzettingseigenschappen_verticaalbepaald">
                   <h5>  verticaal bepaald</h5>
                   
@@ -18142,8 +18193,8 @@
                            <th scope="row">Regels</th>
                            <td>
                               
-                              <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>bepalingsprocedure</em> gelijk is aan <em>NEN_EN_ISO17892d5v2017_NEN8992v2025</em> of <em>ASTM_D4186v2020_NEN8992v2025</em>.<br clear="none"></br>
-                                 Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>proefstuk gemaakt</em> gelijk is aan <em>ja</em>.</p>
+                              <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>proefstuk gemaakt</em> gelijk is aan <em>nee</em>.<br clear="none"></br>
+                                 Het attribuut mag niet aanwezig zijn in alle andere gevallen.</p>
                               </td>
                         </tr>
                         <tr>
@@ -18201,57 +18252,6 @@
                            <td>
                               
                               <p>De bepaling kan op veldvochtig tot volledig uitgedroogd materiaal worden uitgevoerd.</p>
-                              </td>
-                        </tr>
-                     </tbody>
-                  </table>
-                  </section>
-               <section id="detail_attribute_Model_Bepalingzettingseigenschappen_proefstukgemaakt">
-                  <h5>  proefstuk gemaakt</h5>
-                  
-                  <table style="width: 100%;">
-                     <colgroup style="width: 30%;"></colgroup>
-                     <colgroup style="width: 70%;"></colgroup>
-                     <tbody>
-                        <tr>
-                           <th scope="row">Type gegeven</th>
-                           <td>Attribuut van Bepaling zettingseigenschappen</td>
-                        </tr>
-                        <tr>
-                           <th scope="row">Definitie</th>
-                           <td>
-                              
-                              <p>De aanduiding die aangeeft of het proefstuk is gemaakt.</p>
-                              </td>
-                        </tr>
-                        <tr>
-                           <th scope="row">Juridische status</th>
-                           <td>Authentiek</td>
-                        </tr>
-                        <tr>
-                           <th scope="row">Kardinaliteit</th>
-                           <td>0..1</td>
-                        </tr>
-                        <tr>
-                           <th scope="row">Domein</th>
-                           <td></td>
-                        </tr>
-                        <tr>
-                           <th scope="row">  Naam</th>
-                           <td>
-                              IndicatieJaNee
-                              </td>
-                        </tr>
-                        <tr>
-                           <th scope="row">  Type</th>
-                           <td>Waardelijst niet uitbreidbaar</td>
-                        </tr>
-                        <tr>
-                           <th scope="row">Regels</th>
-                           <td>
-                              
-                              <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>bepalingsprocedure</em> gelijk is aan <em>NEN_EN_ISO17892d5v2017_NEN8992v2025</em> of <em>ASTM_D4186v2020_NEN8992v2025.</em>
-                                 </p>
                               </td>
                         </tr>
                      </tbody>
@@ -19502,7 +19502,7 @@
                      </tbody>
                   </table>
                   </section>
-               <section id="detail_d477313e76037">
+               <section id="detail_d477313e76030">
                   <h5>  verzadigingsfase bij samendrukken</h5>
                   <table style="width: 100%;">
                      <colgroup style="width: 30%;"></colgroup>
@@ -19536,7 +19536,7 @@
                      </tbody>
                   </table>
                </section>
-               <section id="detail_d477313e76222">
+               <section id="detail_d477313e76215">
                   <h5>  bepalingsstap</h5>
                   <table style="width: 100%;">
                      <colgroup style="width: 30%;"></colgroup>
@@ -19570,7 +19570,7 @@
                      </tbody>
                   </table>
                </section>
-               <section id="detail_d477313e76407">
+               <section id="detail_d477313e76400">
                   <h5>  afgeleide zettingsparameters</h5>
                   <table style="width: 100%;">
                      <colgroup style="width: 30%;"></colgroup>
@@ -21013,7 +21013,7 @@
                      </tbody>
                   </table>
                   </section>
-               <section id="detail_d477313e81956">
+               <section id="detail_d477313e81949">
                   <h5>  zettingsverloop</h5>
                   <table style="width: 100%;">
                      <colgroup style="width: 30%;"></colgroup>
@@ -21047,7 +21047,7 @@
                      </tbody>
                   </table>
                </section>
-               <section id="detail_d477313e82141">
+               <section id="detail_d477313e82134">
                   <h5>  spanningsverloop bij zetting</h5>
                   <table style="width: 100%;">
                      <colgroup style="width: 30%;"></colgroup>
@@ -21123,7 +21123,7 @@
                      </tr>
                   </tbody>
                </table>
-               <section id="detail_d477313e82497">
+               <section id="detail_d477313e82490">
                   <h5>  zettingstoestand</h5>
                   <table style="width: 100%;">
                      <colgroup style="width: 30%;"></colgroup>
@@ -21331,7 +21331,7 @@
                      </tr>
                   </tbody>
                </table>
-               <section id="detail_d477313e83382">
+               <section id="detail_d477313e83375">
                   <h5>  spanning bij bepaalde zetting</h5>
                   <table style="width: 100%;">
                      <colgroup style="width: 30%;"></colgroup>
@@ -24672,7 +24672,7 @@
                      </tbody>
                   </table>
                   </section>
-               <section id="detail_d477313e95766">
+               <section id="detail_d477313e95759">
                   <h5>  belastingfase</h5>
                   <table style="width: 100%;">
                      <colgroup style="width: 30%;"></colgroup>
@@ -24706,7 +24706,7 @@
                      </tbody>
                   </table>
                </section>
-               <section id="detail_d477313e95951">
+               <section id="detail_d477313e95944">
                   <h5>  consolidatiefase bij belasten</h5>
                   <table style="width: 100%;">
                      <colgroup style="width: 30%;"></colgroup>
@@ -24740,7 +24740,7 @@
                      </tbody>
                   </table>
                </section>
-               <section id="detail_d477313e96136">
+               <section id="detail_d477313e96129">
                   <h5>  membraancorrectie</h5>
                   <table style="width: 100%;">
                      <colgroup style="width: 30%;"></colgroup>
@@ -24774,7 +24774,7 @@
                      </tbody>
                   </table>
                </section>
-               <section id="detail_d477313e96321">
+               <section id="detail_d477313e96314">
                   <h5>  drainagestrookcorrectie</h5>
                   <table style="width: 100%;">
                      <colgroup style="width: 30%;"></colgroup>
@@ -24808,7 +24808,7 @@
                      </tbody>
                   </table>
                </section>
-               <section id="detail_d477313e96506">
+               <section id="detail_d477313e96499">
                   <h5>  verzadigingsfase bij belasten</h5>
                   <table style="width: 100%;">
                      <colgroup style="width: 30%;"></colgroup>
@@ -24842,7 +24842,7 @@
                      </tbody>
                   </table>
                </section>
-               <section id="detail_d477313e96691">
+               <section id="detail_d477313e96684">
                   <h5>  gemaakt proefstuk voor belasten</h5>
                   <table style="width: 100%;">
                      <colgroup style="width: 30%;"></colgroup>
@@ -24876,7 +24876,7 @@
                      </tbody>
                   </table>
                </section>
-               <section id="detail_d477313e96876">
+               <section id="detail_d477313e96869">
                   <h5>  afgeleide schuifspanningsverloopparameters</h5>
                   <table style="width: 100%;">
                      <colgroup style="width: 30%;"></colgroup>
@@ -26588,7 +26588,7 @@
                      </tbody>
                   </table>
                   </section>
-               <section id="detail_d477313e103342">
+               <section id="detail_d477313e103335">
                   <h5>  volumeverloop bij consolidatie</h5>
                   <table style="width: 100%;">
                      <colgroup style="width: 30%;"></colgroup>
@@ -26654,7 +26654,7 @@
                      </tr>
                   </tbody>
                </table>
-               <section id="detail_d477313e103678">
+               <section id="detail_d477313e103671">
                   <h5>  volume bij bepaalde consolidatie</h5>
                   <table style="width: 100%;">
                      <colgroup style="width: 30%;"></colgroup>
@@ -27099,7 +27099,7 @@
                      </tbody>
                   </table>
                   </section>
-               <section id="detail_d477313e105448">
+               <section id="detail_d477313e105441">
                   <h5>  schuifspanningsverloop bij belasting</h5>
                   <table style="width: 100%;">
                      <colgroup style="width: 30%;"></colgroup>
@@ -27166,7 +27166,7 @@
                      </tr>
                   </tbody>
                </table>
-               <section id="detail_d477313e105758">
+               <section id="detail_d477313e105751">
                   <h5>  schuifspanning bij bepaalde belasting</h5>
                   <table style="width: 100%;">
                      <colgroup style="width: 30%;"></colgroup>
@@ -29442,7 +29442,7 @@
                      </tbody>
                   </table>
                   </section>
-               <section id="detail_d477313e114180">
+               <section id="detail_d477313e114173">
                   <h5>  consolidatiefase bij horizontaal vervormen</h5>
                   <table style="width: 100%;">
                      <colgroup style="width: 30%;"></colgroup>
@@ -29476,7 +29476,7 @@
                      </tbody>
                   </table>
                </section>
-               <section id="detail_d477313e114365">
+               <section id="detail_d477313e114358">
                   <h5>  gemaakt proefstuk voor horizontaal vervormen</h5>
                   <table style="width: 100%;">
                      <colgroup style="width: 30%;"></colgroup>
@@ -29510,7 +29510,7 @@
                      </tbody>
                   </table>
                </section>
-               <section id="detail_d477313e114550">
+               <section id="detail_d477313e114543">
                   <h5>  schuiffase</h5>
                   <table style="width: 100%;">
                      <colgroup style="width: 30%;"></colgroup>
@@ -29811,7 +29811,7 @@
                      </tbody>
                   </table>
                   </section>
-               <section id="detail_d477313e115762">
+               <section id="detail_d477313e115755">
                   <h5>  consolidatiestap</h5>
                   <table style="width: 100%;">
                      <colgroup style="width: 30%;"></colgroup>
@@ -29963,7 +29963,7 @@
                      </tbody>
                   </table>
                   </section>
-               <section id="detail_d477313e116449">
+               <section id="detail_d477313e116442">
                   <h5>  hoogteverloop bij consolidatie</h5>
                   <table style="width: 100%;">
                      <colgroup style="width: 30%;"></colgroup>
@@ -30028,7 +30028,7 @@
                      </tr>
                   </tbody>
                </table>
-               <section id="detail_d477313e116759">
+               <section id="detail_d477313e116752">
                   <h5>  hoogte na bepaalde consolidatietijd</h5>
                   <table style="width: 100%;">
                      <colgroup style="width: 30%;"></colgroup>
@@ -30322,7 +30322,7 @@
                      </tbody>
                   </table>
                   </section>
-               <section id="detail_d477313e117959">
+               <section id="detail_d477313e117952">
                   <h5>  schuifspanningsverloop bij horizontale vervorming</h5>
                   <table style="width: 100%;">
                      <colgroup style="width: 30%;"></colgroup>
@@ -30388,7 +30388,7 @@
                      </tr>
                   </tbody>
                </table>
-               <section id="detail_d477313e118270">
+               <section id="detail_d477313e118263">
                   <h5>  schuifspanning bij bepaalde horizontale vervorming</h5>
                   <table style="width: 100%;">
                      <colgroup style="width: 30%;"></colgroup>
@@ -31413,7 +31413,7 @@
                      </tbody>
                   </table>
                   </section>
-               <section id="detail_d477313e122066">
+               <section id="detail_d477313e122059">
                   <h5>  plasticiteit bij bepaald watergehalte</h5>
                   <table style="width: 100%;">
                      <colgroup style="width: 30%;"></colgroup>
@@ -32514,7 +32514,7 @@
                      </tbody>
                   </table>
                   </section>
-               <section id="detail_d477313e126282">
+               <section id="detail_d477313e126275">
                   <h5>  basis korrelgrootteverdeling</h5>
                   <table style="width: 100%;">
                      <colgroup style="width: 30%;"></colgroup>
@@ -32549,7 +32549,7 @@
                      </tbody>
                   </table>
                </section>
-               <section id="detail_d477313e126485">
+               <section id="detail_d477313e126478">
                   <h5>  afgeleide korrelgrootteverdelingsparameters</h5>
                   <table style="width: 100%;">
                      <colgroup style="width: 30%;"></colgroup>
@@ -32705,7 +32705,7 @@
                      </tbody>
                   </table>
                   </section>
-               <section id="detail_d477313e127234">
+               <section id="detail_d477313e127227">
                   <h5>  standaardverdeling fractie kleiner63um</h5>
                   <table style="width: 100%;">
                      <colgroup style="width: 30%;"></colgroup>
@@ -32739,7 +32739,7 @@
                      </tbody>
                   </table>
                </section>
-               <section id="detail_d477313e127437">
+               <section id="detail_d477313e127430">
                   <h5>  uitgebreide verdeling fractie kleiner63um</h5>
                   <table style="width: 100%;">
                      <colgroup style="width: 30%;"></colgroup>
@@ -32774,7 +32774,7 @@
                      </tbody>
                   </table>
                </section>
-               <section id="detail_d477313e127640">
+               <section id="detail_d477313e127633">
                   <h5>  standaardverdeling fractie groter63um</h5>
                   <table style="width: 100%;">
                      <colgroup style="width: 30%;"></colgroup>
@@ -32808,7 +32808,7 @@
                      </tbody>
                   </table>
                </section>
-               <section id="detail_d477313e127843">
+               <section id="detail_d477313e127836">
                   <h5>  uitgebreide verdeling fractie groter63um</h5>
                   <table style="width: 100%;">
                      <colgroup style="width: 30%;"></colgroup>
@@ -38908,7 +38908,7 @@
                      </tbody>
                   </table>
                   </section>
-               <section id="detail_d477313e150809">
+               <section id="detail_d477313e150802">
                   <h5>  verzadigde waterdoorlatendheid bij bepaalde droge volumieke massa</h5>
                   <table style="width: 100%;">
                      <colgroup style="width: 30%;"></colgroup>
@@ -38943,7 +38943,7 @@
                      </tbody>
                   </table>
                </section>
-               <section id="detail_d477313e150994">
+               <section id="detail_d477313e150987">
                   <h5>  verzadigde waterdoorlatendheid bij bepaalde belasting</h5>
                   <table style="width: 100%;">
                      <colgroup style="width: 30%;"></colgroup>
@@ -39733,7 +39733,7 @@
                      </tbody>
                   </table>
                   </section>
-               <section id="detail_d477313e153963">
+               <section id="detail_d477313e153956">
                   <h5>  resultaat bepaling</h5>
                   <table style="width: 100%;">
                      <colgroup style="width: 30%;"></colgroup>
