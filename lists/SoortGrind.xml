@@ -19,6 +19,12 @@
 		<Omschrijving>Grind van kwarts dat bestaat uit siliciumdioxide (SiO2) (transparant of wit).</Omschrijving>
 	</SoortGrind>
 	<SoortGrind>
+		<Waarde>kwartsietOfZandsteen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Grind van kwartsiet (een metamorfe zandsteen) of zandsteen.</Omschrijving>
+	</SoortGrind>
+	<SoortGrind>
 		<Waarde>kwartsietRevenien</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
@@ -29,12 +35,6 @@
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
 		<Omschrijving>Grind van Taunuskwartsiet. Deze kwartsiet is grijs, geelwit tot heel licht roodgrijs en heeft onregelmatige wijn- tot steenrode vlekken. (gidsgesteente Rijnafzetting).</Omschrijving>
-	</SoortGrind>
-	<SoortGrind>
-		<Waarde>kwartsietZandsteen</Waarde>
-		<IMBRO>v</IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Grind van kwartsiet (een metamorfe zandsteen) of zandsteen.</Omschrijving>
 	</SoortGrind>
 	<SoortGrind>
 		<Waarde>lydiet</Waarde>
