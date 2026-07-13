@@ -84,9 +84,9 @@ Het domein wordt volledig gespecificeerd door met de aanduiding meetwaarde ook d
 
 ### Meetwaarde in machten
 
-Het domein 'Meetwaarde in machten' wordt gebruikt wanneer de waarde een heel groot bereik heeft en het aantal decimalen voor kleine getallen anders is dan voor grote getallen. In dat geval wordt de meetwaarde uitgedrukt in machten. In de basisregistratie ondergrond wordt de meetwaarde in machten altijd uitgedrukt in een macht van tien. De notatie voor de meetwaarde in machten is (m . 10^e^). De m staat voor mantisse en is een meetwaarde, en de e staat voor de exponent.
+Het domein 'Meetwaarde in machten' wordt gebruikt wanneer de waarde een heel groot bereik heeft en het aantal decimalen voor kleine getallen anders is dan voor grote getallen. In dat geval wordt de meetwaarde uitgedrukt in machten. In de basisregistratie ondergrond wordt de meetwaarde in machten altijd uitgedrukt in een macht van tien. De notatie voor de meetwaarde in machten is (m . 10<sup>>e</sup>). De m staat voor mantisse en is een meetwaarde, en de e staat voor de exponent.
 
-De mantisse (m) is een rationaal getal met een bepaalde opbouw. Het aantal cijfers voor het decimaalteken is in de basisregistratie ondergrond altijd 1. Het aantal cijfers achter het decimaalteken ligt vast. De meetwaarde wordt uitgedrukt in machten van tien (10^e^). De exponent (e) is in de basisregistratie ondergrond altijd een geheel getal.
+De mantisse (m) is een rationaal getal met een bepaalde opbouw. Het aantal cijfers voor het decimaalteken is in de basisregistratie ondergrond altijd 1. Het aantal cijfers achter het decimaalteken ligt vast. De meetwaarde wordt uitgedrukt in machten van tien (10<sup>e</sup>). De exponent (e) is in de basisregistratie ondergrond altijd een geheel getal.
 
 Het domein wordt volledig gespecificeerd door met de aanduiding meetwaarde in machten ook de opbouw (meetwaarde 1.N in machten), de eenheid en het bereik van de machten mee te geven. Het bereik van de machten is vastgelegd in het waardebereik. De waardeverzameling wordt gewoonlijk verder ingeperkt door een bereik te specificeren. In het domeinmodel wordt volstaan met de algemene aanduiding 'Meetwaarde in machten'.
 
