@@ -9,7 +9,7 @@ De gegevensdefinitie vormt het hart van de catalogus en geeft een beschrijving v
 
 * **Naam** De Nederlandse naam van het gegeven.
 
-* **Code** De afkorting die voor het registratieobject wordt gebruikt (alleen van toepassing op Registratieobject). N.B.: Het metagegeven ‘Code’ moet niet worden verward met het domein [‘Code’](#Code).
+* **Code** De afkorting die voor het registratieobject wordt gebruikt (alleen van toepassing op Registratieobject). N.B.: Het metagegeven ‘Code’ moet niet worden verward met het domein [‘Code’](#code).
 
 * **Definitie** De definitie van het gegeven.
 
@@ -22,11 +22,11 @@ De gegevensdefinitie vormt het hart van de catalogus en geeft een beschrijving v
 
 * **Kardinaliteit** De kardinaliteit van een attribuut, wat aangeeft hoe vaak het attribuut moet of mag voorkomen.
 
-* ** Domein – Naam** De naam van het domein voor de waarden van het attribuut. Als het domein een uitbreidbare waardelijst is, dan is de naam van het domein de naam van die waardelijst en kan er via de naam naar die waardelijst genavigeerd worden.
+* **Domein – Naam** De naam van het domein voor de waarden van het attribuut. Als het domein een uitbreidbare waardelijst is, dan is de naam van het domein de naam van die waardelijst en kan er via de naam naar die waardelijst genavigeerd worden.
 
-* ** Domein – Type** Het soort domein, bijv. een uitbreidbare waardelijst of een meetwaarde. De mogelijke typen staan beschreven in de paragraaf [Domeinen](# Domeinen). Afhankelijk van het type domein worden er extra metagegevens getoond, zoals bijv. Eenheid, Lengte, Opbouw en Waardebereik. Dit staat bij de betreffende typen in de paragraaf Domeinen beschreven.
+* **Domein – Type** Het soort domein, bijv. een uitbreidbare waardelijst of een meetwaarde. De mogelijke typen staan beschreven in de paragraaf [Domeinen](# Domeinen). Afhankelijk van het type domein worden er extra metagegevens getoond, zoals bijv. Eenheid, Lengte, Opbouw en Waardebereik. Dit staat bij de betreffende typen in de paragraaf Domeinen beschreven.
 
-* ** Domein – Naam IMBRO/A** Eventueel de naam van het domein van het attribuut voor IMBRO/A, wanneer het uitzonderlijke geval zich voordoet dat er voor IMBRO/A een ander domein geldt dan voor IMBRO.
+* **Domein – Naam IMBRO/A** Eventueel de naam van het domein van het attribuut voor IMBRO/A, wanneer het uitzonderlijke geval zich voordoet dat er voor IMBRO/A een ander domein geldt dan voor IMBRO.
 
 * **Gegevensgroeptype** Als het gegeven een gegevensgroep is, van welk type die groep is. Via de naam van het gegevensgroeptype kan naar dat gegevensgroeptype genavigeerd worden.
 
@@ -84,9 +84,9 @@ Het domein wordt volledig gespecificeerd door met de aanduiding meetwaarde ook d
 
 ### Meetwaarde in machten
 
-Het domein 'Meetwaarde in machten' wordt gebruikt wanneer de waarde een heel groot bereik heeft en het aantal decimalen voor kleine getallen anders is dan voor grote getallen. In dat geval wordt de meetwaarde uitgedrukt in machten. In de basisregistratie ondergrond wordt de meetwaarde in machten altijd uitgedrukt in een macht van tien. De notatie voor de meetwaarde in machten is (m . 10<sup>e</sup>). De m staat voor mantisse en is een meetwaarde, en de e staat voor de exponent.
+Het domein 'Meetwaarde in machten' wordt gebruikt wanneer de waarde een heel groot bereik heeft en het aantal decimalen voor kleine getallen anders is dan voor grote getallen. In dat geval wordt de meetwaarde uitgedrukt in machten. In de basisregistratie ondergrond wordt de meetwaarde in machten altijd uitgedrukt in een macht van tien. De notatie voor de meetwaarde in machten is (m . 10^e^). De m staat voor mantisse en is een meetwaarde, en de e staat voor de exponent.
 
-De mantisse (m) is een rationaal getal met een bepaalde opbouw. Het aantal cijfers voor het decimaalteken is in de basisregistratie ondergrond altijd 1. Het aantal cijfers achter het decimaalteken ligt vast. De meetwaarde wordt uitgedrukt in machten van tien (10<sup>e</sup>). De exponent (e) is in de basisregistratie ondergrond altijd een geheel getal.
+De mantisse (m) is een rationaal getal met een bepaalde opbouw. Het aantal cijfers voor het decimaalteken is in de basisregistratie ondergrond altijd 1. Het aantal cijfers achter het decimaalteken ligt vast. De meetwaarde wordt uitgedrukt in machten van tien (10^e^). De exponent (e) is in de basisregistratie ondergrond altijd een geheel getal.
 
 Het domein wordt volledig gespecificeerd door met de aanduiding meetwaarde in machten ook de opbouw (meetwaarde 1.N in machten), de eenheid en het bereik van de machten mee te geven. Het bereik van de machten is vastgelegd in het waardebereik. De waardeverzameling wordt gewoonlijk verder ingeperkt door een bereik te specificeren. In het domeinmodel wordt volstaan met de algemene aanduiding 'Meetwaarde in machten'.
 
@@ -207,7 +207,7 @@ Het domein 'Punt' wordt gebruikt om de positie van een object vast te leggen. De
 <figure>
     <img src="https://docs.geostandaarden.nl/bro/gen/media/punt.png" alt="Punt" width="150"/>
     <figcaption>Een puntgeometrie (ISO 19107:2003 Spatial Schema).</figcaption>
-</figure><br><br>
+</figure>
 
 ### Lijn
 
@@ -216,7 +216,7 @@ Het domein 'Lijn' wordt gebruikt om de vorm, afmetingen en positie van een objec
 <figure>
     <img src="https://docs.geostandaarden.nl/bro/gen/media/lijn.png" alt="Lijn" width="150"/>
     <figcaption>Een lijngeometrie (ISO 19107:2003 Spatial Schema).</figcaption>
-</figure><br><br>
+</figure>
 
 ### Multilijn
 
@@ -225,7 +225,7 @@ Het domein 'Multilijn' bestaat uit een verzameling van lijnen die gezamenlijk é
 <figure>
     <img src="https://docs.geostandaarden.nl/bro/gen/media/multilijn.png" alt="Multilijn" width="150"/>
     <figcaption>Een multilijngeometrie</figcaption>
-</figure><br><br>
+</figure>
 
 ### Vlak
 
@@ -234,7 +234,7 @@ Het domein 'Vlak' wordt binnen de geometrie gebruikt voor de representatie van d
 <figure>
     <img src="https://docs.geostandaarden.nl/bro/gen/media/vlak.png" alt="Vlak" width="150"/>
     <figcaption>Een vlak is een geometrie die een beeld van een continue regio of vlak vertegenwoordigt (ISO 19107:2003 Spatial Schema).</figcaption>
-</figure><br><br>
+</figure>
 
 ### Multivlak
 
@@ -243,7 +243,7 @@ Het domein 'Multivlak' bestaat uit een verzameling van vlakken die gezamenlijk �
 <figure>
     <img src="https://docs.geostandaarden.nl/bro/gen/media/multivlak.png" alt="Multivlak" width="150"/>
     <figcaption>Een multivlakgeometrie.</figcaption>
-</figure><br><br>
+</figure>
 
 ### Volume
 
@@ -252,7 +252,7 @@ Het domein 'Volume' wordt gebruikt om de vorm, afmetingen en positie van een obj
 <figure>
     <img src="https://docs.geostandaarden.nl/bro/gen/media/volume.png" alt="Volume" width="150"/>
     <figcaption>Een volumegeometrie (ISO 19107:2003 Spatial Schema).</figcaption>
-</figure><br><br>
+</figure>
 
 ### Minimum begrenzing
 
@@ -261,7 +261,7 @@ Het domein 'Minimum begrenzing' wordt gebruikt om de positie van één of meer g
 <figure>
     <img src="https://raw.githubusercontent.com/BROprogramma/generiek/gh-pages/media/minimumBegrenzing3.png" alt="Minimum begrenzing" width="150"/>
     <figcaption>Minimum begrenzing.</figcaption>
-</figure><br><br>
+</figure>
 
 ## Coördinatenpaar
 

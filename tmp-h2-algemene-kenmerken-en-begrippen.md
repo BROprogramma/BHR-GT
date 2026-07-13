@@ -9,7 +9,7 @@ De opzet van de BRO moet begrepen worden vanuit de verantwoordelijkheden die in 
 
 Bij wet is geregeld dat de BRO zo wordt opgezet dat er onderscheid bestaat tussen de gegevens die aan de registerbeheerder zijn aangeleverd en de gegevens die de registerbeheerder aan de afnemers verstrekt. De BRO valt uiteen in twee grote deelsystemen, het register brondocumenten ondergrond en de registratie ondergrond (Figuur 1).
 
-Een geheel van gegevens dat een bronhouder levert, wordt een â€˜brondocumentâ€™ genoemd. De brondocumenten worden in het register brondocumenten ondergrond opgeslagen. De gegevens uit de brondocumenten worden samen met de gegevens die de registerbeheerder toevoegt, in de registratie ondergrond vastgelegd. De registratie ondergrond is het deelsysteem dat gebruikt wordt voor uitgifte.
+Een geheel van gegevens dat een bronhouder levert, wordt een ‘brondocument’ genoemd. De brondocumenten worden in het register brondocumenten ondergrond opgeslagen. De gegevens uit de brondocumenten worden samen met de gegevens die de registerbeheerder toevoegt, in de registratie ondergrond vastgelegd. De registratie ondergrond is het deelsysteem dat gebruikt wordt voor uitgifte.
 
 <figure>
 	<img src="https://docs.geostandaarden.nl/bro/gen/media/image002.png"  width="350"/>
@@ -17,7 +17,7 @@ Een geheel van gegevens dat een bronhouder levert, wordt een â€˜brondocument
 </figure><br><br>
 
 
-Met deze opzet verkrijgt de BRO de nodige flexibiliteit. Zo kan een object in de registratie ondergrond gegevens bevatten die uit meer dan Ã©Ã©n brondocument afkomstig zijn en bij uitgifte kunnen gegevens van verschillende objecten met elkaar gecombineerd worden. Ook is het mogelijk met het brondocument gegevens op te slaan die alleen voor de bronhouder en de dataleverancier van belang zijn.
+Met deze opzet verkrijgt de BRO de nodige flexibiliteit. Zo kan een object in de registratie ondergrond gegevens bevatten die uit meer dan één brondocument afkomstig zijn en bij uitgifte kunnen gegevens van verschillende objecten met elkaar gecombineerd worden. Ook is het mogelijk met het brondocument gegevens op te slaan die alleen voor de bronhouder en de dataleverancier van belang zijn.
 
 De catalogus dekt alle gegevens die opgenomen zijn in de registratie ondergrond. Verreweg de meeste gegevens komen uit de brondocumenten die de dataleverancier levert. Verder komen nog enkele gegevens voort uit de overdracht van een brondocument aan de registerbeheerder. Aan de geleverde gegevens voegt de registerbeheerder enkele gegevens toe. Als de registerbeheerder een gegeven heeft toegevoegd wordt dat in de beschrijving expliciet vermeld.
 
@@ -25,9 +25,9 @@ Alle gegevens in de registratie ondergrond worden uitgegeven, maar niet alle afn
 
 # Registratieobject
 
-Het registratieobject is dÃ© eenheid in de data-architectuur van de BRO. Voor de registerbeheerder is het de elementaire bouwsteen van de BRO.
+Het registratieobject is dé eenheid in de data-architectuur van de BRO. Voor de registerbeheerder is het de elementaire bouwsteen van de BRO.
 
-Een â€˜registratieobjectâ€™ is een beschrijving van een object in of waarneming of schematische weergave van de werkelijkheid, waarover onderling samenhangende gegevens worden vastgelegd (artikel 1.1 van het Besluit basisregistratie ondergrond; Besluit Bro). Het is in directe of indirecte zin gedefinieerd in de ruimte en dat wil zeggen dat een registratieobject een plaats op het aardoppervlak heeft of dat het gekoppeld is aan een ander type registratieobject met een plaats op het aardoppervlak. 
+Een ‘registratieobject’ is een beschrijving van een object in of waarneming of schematische weergave van de werkelijkheid, waarover onderling samenhangende gegevens worden vastgelegd (artikel 1.1 van het Besluit basisregistratie ondergrond; Besluit Bro). Het is in directe of indirecte zin gedefinieerd in de ruimte en dat wil zeggen dat een registratieobject een plaats op het aardoppervlak heeft of dat het gekoppeld is aan een ander type registratieobject met een plaats op het aardoppervlak. 
 
 Een registratieobject is niet alleen in de ruimte maar ook in de tijd gedefinieerd. Het leven van een object begint op het moment dat de gegevens zijn geregistreerd en dat is zo kort mogelijk nadat de gegevens zijn geproduceerd. De levensduur van een object, en de veranderlijkheid van de gegevens verschilt van registratieobject tot registratieobject. Een grondwatermonitoringput (GMW) kan tientallen jaren gebruikt worden voor het meten van grondwaterstanden en in de periode kunnen er nieuwe gegevens ontstaan. Dat betekent dat de gegevens van de put in de BRO gedurende zijn hele levensduur bijgewerkt moeten kunnen worden. Aan de andere kant van het spectrum staan de registratieobjecten waarvan alle gegevens in een keer worden vastgelegd. Een geotechnisch sondeeronderzoek (CPT) is daar een voorbeeld van. Sondeeronderzoek is eenmalig onderzoek en het resultaat ervan kan al na een of enkele dagen aan de bronhouder worden overhandigd.
 
@@ -55,9 +55,9 @@ NB: deze registratiedomeinen zijn niet de domeinen als bedoeld in Hoofdstuk 5 va
 In de BRO worden niet alleen gegevens geregistreerd die dateren van na de datum waarop de Wet Bro van kracht is geworden. Ook oudere gegevens worden in de BRO opgenomen. Gegevens uit de eerder bestaande systemen Registratie Data en Informatie Nederlandse Ondergrond (DINO) en Bodemkundig Informatie Systeem (BIS) worden zo veel mogelijk naar de BRO overgezet. Verder verplicht artikel 40 van de Wet Bro bronhouders om digitale, gestructureerde gegevens binnen vijf jaar na inwerkingtreding - van de wetswijziging per 1 juli 2025 of van een registratieobject - ter registratie aan te bieden.
 Deze historische gegevens kunnen niet altijd voldoen aan de strikte regels die de BRO stelt. Zo kan het voorkomen dat voor gegevens die volgens de strikte regels van de BRO verplicht zijn, geen waarde bekend is. 
 
-Om de verwerking van twee categorieÃ«n gegevens naast elkaar mogelijk te maken, worden twee kwaliteitsregimes gehanteerd. Voor de levering van gegevens aan de BRO gelden de regels van het informatiemodel BRO (IMBRO)-regime zoals de catalogus registratie ondergrond voorschrijft. Bij de levering van historische gegevens wordt geaccepteerd dat een aantal verplichte attributen geen waarde of andere waarden heeft. Voor deze gegevens wordt het IMBRO/archief (A)-regime gehanteerd. Als historische gegevens wel aan de voorwaarden van het IMBRO-regime voldoen, worden de gegevens echter onder dit regime geleverd.
+Om de verwerking van twee categorieën gegevens naast elkaar mogelijk te maken, worden twee kwaliteitsregimes gehanteerd. Voor de levering van gegevens aan de BRO gelden de regels van het informatiemodel BRO (IMBRO)-regime zoals de catalogus registratie ondergrond voorschrijft. Bij de levering van historische gegevens wordt geaccepteerd dat een aantal verplichte attributen geen waarde of andere waarden heeft. Voor deze gegevens wordt het IMBRO/archief (A)-regime gehanteerd. Als historische gegevens wel aan de voorwaarden van het IMBRO-regime voldoen, worden de gegevens echter onder dit regime geleverd.
 
-Artikel 41 van de Wet Bro geeft de bronhouder van een gegeven over een registratieobject dat valt onder de categorie verkenningen, gedurende drie jaar na inwerkingtreding van dit registratieobject, een zekere mate van vrijheid om bij levering van gegevens te kiezen voor IMBRO/A. Als een gegeven voortkomt uit een schriftelijke opdracht van voor inwerkingtreding van dit registratieobject, kan het praktisch blijken het IMBRO/A-regime te hanteren voor gegevens die pas na deze datum zijn geproduceerd. De periode waarin de bronhouders die vrijheid hebben wordt de â€˜transitieperiodeâ€™ genoemd. Na afloop van de transitieperiode kunnen alleen gegevens onder het strikte IMBRO-regime worden geleverd.
+Artikel 41 van de Wet Bro geeft de bronhouder van een gegeven over een registratieobject dat valt onder de categorie verkenningen, gedurende drie jaar na inwerkingtreding van dit registratieobject, een zekere mate van vrijheid om bij levering van gegevens te kiezen voor IMBRO/A. Als een gegeven voortkomt uit een schriftelijke opdracht van voor inwerkingtreding van dit registratieobject, kan het praktisch blijken het IMBRO/A-regime te hanteren voor gegevens die pas na deze datum zijn geproduceerd. De periode waarin de bronhouders die vrijheid hebben wordt de ‘transitieperiode’ genoemd. Na afloop van de transitieperiode kunnen alleen gegevens onder het strikte IMBRO-regime worden geleverd.
 
 In schema (artikelen verwijzen naar de wet Bro):
 
@@ -68,11 +68,11 @@ In schema (artikelen verwijzen naar de wet Bro):
 
 Voor een nadere toelichting van het kwaliteitsregime met een beschrijving van verschillende scenario's voor het corrigeren van het kwaliteitsregime van geleverde gegevens, wordt verwezen naar de <a href="https://www.bro-productomgeving.nl/bpo/latest/handreiking-aanleveren-bro-gegevens">Handreiking aanleveren BRO-gegevens</a> op de BRO-Productomgeving.
 
-# Formele en materiÃ«le geschiedenis
+# Formele en materiële geschiedenis
 
-De BRO maakt deel uit van een stelsel van basisregistraties. Binnen het stelsel maakt men onderscheid tussen de materiÃ«le geschiedenis en de formele geschiedenis van een object.
+De BRO maakt deel uit van een stelsel van basisregistraties. Binnen het stelsel maakt men onderscheid tussen de materiële geschiedenis en de formele geschiedenis van een object.
 
-Het begrip materiÃ«le geschiedenis wordt gebruikt om de veranderingen van eigenschappen van een object in de werkelijkheid aan te duiden (dus niet attributen in een systeem). De materiÃ«le geschiedenis van een object wordt, voor zover relevant, in de BRO vastgelegd. Niet alle registratieobjecten hebben een materiÃ«le geschiedenis, alleen de registratieobjecten met een levensduur, zoals de grondwatermonitoringput.
+Het begrip materiële geschiedenis wordt gebruikt om de veranderingen van eigenschappen van een object in de werkelijkheid aan te duiden (dus niet attributen in een systeem). De materiële geschiedenis van een object wordt, voor zover relevant, in de BRO vastgelegd. Niet alle registratieobjecten hebben een materiële geschiedenis, alleen de registratieobjecten met een levensduur, zoals de grondwatermonitoringput.
 
 Het begrip formele geschiedenis wordt gebruikt voor de veranderingen van attributen van een object in de registratie zelf. De meeste van die veranderingen gaan terug op een verandering van eigenschappen in de werkelijkheid, en de formele geschiedenis geeft aan wanneer de veranderingen in de BRO geregistreerd zijn. De formele geschiedenis kent ook gebeurtenissen die niet het gevolg zijn van een verandering in de werkelijke eigenschappen van een object. Die gebeurtenissen hebben betrekking op correcties. Het kan gebeuren dat een bronhouder erachter komt dat er een onjuiste waarde was geregistreerd en dan zorgt hij ervoor dat die verbeterd wordt. De registratie van de verbetering is een formele gebeurtenis.
 
@@ -80,13 +80,13 @@ Alle registratieobjecten hebben een formele geschiedenis en die wordt in de regi
 
 Bij een correctie wordt het betreffende gegeven in de registratie ondergrond overschreven en is de oude waarde van het gegeven niet meer direct beschikbaar voor de afnemers. Zou een afnemer toch willen weten wat de eerdere foute waarde was, dan moet hij het register brondocumenten ondergrond raadplegen.
 
-# CoÃ¶rdinaten en referentiestelsels
+# Coördinaten en referentiestelsels
 
 De registratieobjecten van de BRO zijn gedefinieerd in de ruimte en dat wil zeggen dat een object zelf een plaats op het aardoppervlak, een locatie, heeft, of dat het gekoppeld is aan een ander type registratieobject met een locatie. Afhankelijk van het type registratieobject, wordt de locatie van het object geregistreerd als een punt, een lijn of een vlak.
 
 De locatie is de horizontale positie van een object. Voor bepaalde registratieobjecten is het voldoende dat alleen die horizontale positie wordt vastgelegd, maar voor veel registratieobjecten is ook de verticale positie van belang.
 
-Posities worden vastgelegd in coÃ¶rdinaten die zijn gedefinieerd in een bepaald referentiestelsel.
+Posities worden vastgelegd in coördinaten die zijn gedefinieerd in een bepaald referentiestelsel.
 
 Er zijn verschillende typen referentiestelsels. Zo spreekt men van horizontale referentiestelsels (2D), verticale referentiestelsels (1D), gecombineerde referentiestelsels (2D, 1D) en werkelijke 3D referentiestelsels. In Nederland worden de horizontale en de verticale component van een positie in een afzonderlijk stelsel uitgedrukt. Het is vandaag de dag mogelijk met gps een positie in een 3D-referentiestelsel vast te leggen, maar de wens over te stappen op het gebruik van 3D is nog door geen van de partijen die betrokken zijn bij de BRO naar voren gebracht.
 
@@ -94,7 +94,7 @@ Er zijn verschillende typen referentiestelsels. Zo spreekt men van horizontale r
 
 In Nederland zijn traditioneel verschillende referentiestelsels voor de horizontale positie in gebruik. In 2009, bij de eerste voorbereidingen voor de totstandkoming van de BRO, is al vastgesteld dat de verscheidenheid aan referentiestelsels de BRO voor problemen stelt omdat de registratie dan niet gemakkelijk op een eenduidige manier bevraagd kan worden. In de BRO worden namelijk zowel gegevens met een locatie op land als gegevens met een locatie op zee geregistreerd. In de toenmalige praktijk werden op land en op zee verschillende stelsels gebruikt. Op land werd het *Stelsel van de Rijksdriehoeksmeting* (RD) gebruikt en op zee waren verschillende stelsels in gebruik, waarvan het *World Geodetic System 1984* (WGS84) de belangrijkste was.
 
-In 2009 was ook al bekend dat de Europese Inspire (Richtlijn 2007/2/EG van het Europees Parlement en de Raad van de Europese Unie van 14 maart 2007 tot oprichting van een infrastructuur voor ruimtelijke informatie in de Gemeenschap zoals gewijzigd in 2019 en 2024, PbEU 2024 L 2829), de lidstaten vraagt de gegevens in Europa in Ã©Ã©n referentiestelsel uit te gaan wisselen, te weten in *het Europees Terrestrisch Referentiesysteem 1989*  (ETRS89). Daarom is het besluit genomen de BRO zo in te richten, dat de registratie bevraagd gaat worden in ETRS89.
+In 2009 was ook al bekend dat de Europese Inspire (Richtlijn 2007/2/EG van het Europees Parlement en de Raad van de Europese Unie van 14 maart 2007 tot oprichting van een infrastructuur voor ruimtelijke informatie in de Gemeenschap zoals gewijzigd in 2019 en 2024, PbEU 2024 L 2829), de lidstaten vraagt de gegevens in Europa in één referentiestelsel uit te gaan wisselen, te weten in *het Europees Terrestrisch Referentiesysteem 1989*  (ETRS89). Daarom is het besluit genomen de BRO zo in te richten, dat de registratie bevraagd gaat worden in ETRS89.
 
 Het besluit wordt ondersteund door ontwikkelingen in Nederland. Sinds 2013 werken de drie belangrijkste autoriteiten in Nederland op het gebied van referentiestelsels, het Kadaster, de Dienst der Hydrografie van het ministerie van Defensie en Rijkswaterstaat, aan de totstandkoming van nieuwe afspraken. Die afspraken moeten in lijn zijn met Europese afspraken en leiden tot heldere en eenduidige transformatieprocedures tussen referentiestelsels. Concreet betekent dit dat in Nederland op termijn het ETRS89 als standaard zal worden gehanteerd voor het uitwisselen van geo-informatie.
 
@@ -105,15 +105,15 @@ Het besluit betekent niet dat de gegevens ook in ETRS89 geleverd moeten worden. 
 (WGS84 is niet geschikt voor nauwkeurige toepassingen, bij wijze van uitzondering wordt binnen het registratiedomein milieukwaliteit WGS84 op land toegestaan. WGS84 is daarvoor wel nauwkeurig genoeg)
 	- Voor locaties op zee wordt alleen WGS84 of ETRS89 toegestaan.
 
-- De geleverde coÃ¶rdinaten worden in de registratie opgeslagen.
+- De geleverde coördinaten worden in de registratie opgeslagen.
 
-- De geleverde coÃ¶rdinaten transformeert de BRO naar het ETRS89-referentiestelsel.
+- De geleverde coördinaten transformeert de BRO naar het ETRS89-referentiestelsel.
 
-- De getransformeerde coÃ¶rdinaten worden naast de geleverde coÃ¶rdinaten opgeslagen.
+- De getransformeerde coördinaten worden naast de geleverde coördinaten opgeslagen.
 
-- Bij de getransformeerde coÃ¶rdinaten wordt ook een identificatie van de gebruikte transformatiemethode opgeslagen.
+- Bij de getransformeerde coördinaten wordt ook een identificatie van de gebruikte transformatiemethode opgeslagen.
 
-- Als de coÃ¶rdinaten in ETRS89 zijn geleverd, dan staat bij geleverde en getransformeerde positie dezelfde informatie. Voor de locatie worden de getransformeerde coÃ¶rdinaten en de aangeleverde coÃ¶rdinaten beide aan de afnemers verstrekt.
+- Als de coördinaten in ETRS89 zijn geleverd, dan staat bij geleverde en getransformeerde positie dezelfde informatie. Voor de locatie worden de getransformeerde coördinaten en de aangeleverde coördinaten beide aan de afnemers verstrekt.
 
 ## Referentiestelsels voor de verticale positie
 
