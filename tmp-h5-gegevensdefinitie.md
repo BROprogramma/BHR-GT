@@ -84,7 +84,7 @@ Het domein wordt volledig gespecificeerd door met de aanduiding meetwaarde ook d
 
 ### Meetwaarde in machten
 
-Het domein 'Meetwaarde in machten' wordt gebruikt wanneer de waarde een heel groot bereik heeft en het aantal decimalen voor kleine getallen anders is dan voor grote getallen. In dat geval wordt de meetwaarde uitgedrukt in machten. In de basisregistratie ondergrond wordt de meetwaarde in machten altijd uitgedrukt in een macht van tien. De notatie voor de meetwaarde in machten is (m . 10<sup>>e</sup>). De m staat voor mantisse en is een meetwaarde, en de e staat voor de exponent.
+Het domein 'Meetwaarde in machten' wordt gebruikt wanneer de waarde een heel groot bereik heeft en het aantal decimalen voor kleine getallen anders is dan voor grote getallen. In dat geval wordt de meetwaarde uitgedrukt in machten. In de basisregistratie ondergrond wordt de meetwaarde in machten altijd uitgedrukt in een macht van tien. De notatie voor de meetwaarde in machten is (m . 10<sup>e</sup>). De m staat voor mantisse en is een meetwaarde, en de e staat voor de exponent.
 
 De mantisse (m) is een rationaal getal met een bepaalde opbouw. Het aantal cijfers voor het decimaalteken is in de basisregistratie ondergrond altijd 1. Het aantal cijfers achter het decimaalteken ligt vast. De meetwaarde wordt uitgedrukt in machten van tien (10<sup>e</sup>). De exponent (e) is in de basisregistratie ondergrond altijd een geheel getal.
 
