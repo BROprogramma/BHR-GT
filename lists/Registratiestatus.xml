@@ -4,18 +4,18 @@
 		<Waarde>aangevuld</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Het registeren van de gegevens van het object heeft na de start van de registratie een vervolg gekregen. De gegevens in de registratie ondergrond zijn minimaal een keer aangevuld met nieuwe gegevens.</Omschrijving>
+		<Omschrijving>Het registreren van de gegevens van het object heeft na de start van de registratie een vervolg gekregen. De gegevens in de registratie ondergrond zijn minimaal een keer aangevuld met nieuwe gegevens.</Omschrijving>
 	</Registratiestatus>
 	<Registratiestatus>
 		<Waarde>geregistreerd</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Het registeren van de gegevens van het object is gestart. De gegevens uit het eerste brondocument zijn in de registratie ondergrond vastgelegd. Er zijn daarna geen nieuwe gegevens geregistreerd.</Omschrijving>
+		<Omschrijving>Het registreren van de gegevens van het object is gestart. De gegevens uit het eerste brondocument zijn in de registratie ondergrond vastgelegd. Er zijn daarna geen nieuwe gegevens geregistreerd.</Omschrijving>
 	</Registratiestatus>
 	<Registratiestatus>
 		<Waarde>voltooid</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Het registeren van de gegevens van het object is voltooid. Alle gegevens zijn in de registratie ondergrond vastgelegd en er kunnen geen nieuwe gegevens meer worden geregistreerd.</Omschrijving>
+		<Omschrijving>Het registreren van de gegevens van het object is voltooid. Alle gegevens zijn in de registratie ondergrond vastgelegd en er kunnen geen nieuwe gegevens meer worden geregistreerd.</Omschrijving>
 	</Registratiestatus>
 </domeintabel>
