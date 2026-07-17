@@ -94,7 +94,7 @@
 		<Waarde>siltigGrind</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Grove minerale grond, waarvan de grove fractie bestaat uit grind met daartussen fijn materiaal dat zich gedraagt als silt.</Omschrijving>
+		<Omschrijving>Grove minerale grond, waarvan de grove fractie voor meer dan 50 % uit grind bestaat met daartussen fijn materiaal dat zich gedraagt als silt.</Omschrijving>
 	</GeotechnischeGrondsoort>
 	<GeotechnischeGrondsoort>
 		<Waarde>kleiigGrind</Waarde>
