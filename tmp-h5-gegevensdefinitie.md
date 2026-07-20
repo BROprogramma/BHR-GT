@@ -36,7 +36,7 @@ De gegevensdefinitie vormt het hart van de catalogus en geeft een beschrijving v
 
 * **Reden geen waarde** Van attributen waarvan de waarde mag ontbreken de omschrijving van de reden waarom de waarde mag ontbreken.
 
-* **Is afgeleid** Eventueel de aanduiding dat het gegeven niet wordt aangeleverd aan de BRO, maar dat de registratie ondergrond het gegeven bepaalt (bijv. berekent) op basis van aangeleverde gegevens, in het uitzonderlijke geval dat het gegeven wordt afgeleid.
+* **Is afgeleid** Eventueel de aanduiding dat het gegeven niet in het aangeleverde brondocument is opgenomen, maar dat de registratie ondergrond het gegeven bepaalt (bijv. berekent) op basis van aangeleverde gegevens, in het uitzonderlijke geval dat het gegeven wordt afgeleid.
 
 * **Materiële geschiedenis** Van attributen van registratieobjecten met een materiële geschiedenis de aanduiding of het attribuut al dan niet een materiële geschiedenis kan hebben.
 
