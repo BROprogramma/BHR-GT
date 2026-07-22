@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Grensspanningsbepalingsmethode>
+		<Waarde>lineaireRekNEN8992</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De grensspanning is bepaald op basis van lineaire rek zoals is beschreven in de norm NEN 8992.</Omschrijving>
+	</Grensspanningsbepalingsmethode>
+	<Grensspanningsbepalingsmethode>
+		<Waarde>natuurlijkeRekBecker</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De grensspanning is bepaald op basis van natuurlijke rek volgens de methode Becker zoals die is aangehaald in de norm NEN 8992.</Omschrijving>
+	</Grensspanningsbepalingsmethode>
+	<Grensspanningsbepalingsmethode>
+		<Waarde>natuurlijkeRekNEN8992</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De grensspanning is bepaald op basis van natuurlijke rek zoals is beschreven in de norm NEN 8992.</Omschrijving>
+	</Grensspanningsbepalingsmethode>
+</domeintabel>
