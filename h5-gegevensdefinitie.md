@@ -3,7 +3,7 @@
 
 # De gegevensdefinitie
 
-De gegevensdefinitie vormt het hart van de catalogus en geeft een beschrijving van alle gegevens van het registratieobject. Eerst wordt de definitie van het registratieobject gegeven inclusief de plaatjes van het zgn. domeinmodel, en vervolgens de definities van de entiteiten waaruit het registratieobject is opgebouwd met de eigenschappen van die entiteiten, de attributen. De entiteiten worden op volgorde van de nummers in het domeinmodel behandeld. De volgende aspecten van de gegevens worden vastgelegd.
+De gegevensdefinitie vormt het hart van de catalogus en geeft een beschrijving van alle gegevens van het registratieobject. Eerst wordt de definitie van het registratieobject gegeven inclusief de plaatjes van het zgn. domeinmodel, en vervolgens de definities van de entiteiten waaruit het registratieobject is opgebouwd met de eigenschappen van die entiteiten, de attributen. De volgende aspecten van de gegevens worden vastgelegd.
 
 * **Type gegeven** Of het gegeven een entiteit, een attribuut of een gegevensgroep is, met in de laatste twee gevallen van welke entiteit het een attribuut is.
 
@@ -22,7 +22,7 @@ De gegevensdefinitie vormt het hart van de catalogus en geeft een beschrijving v
 
 * **Kardinaliteit** De kardinaliteit van een attribuut, wat aangeeft hoe vaak het attribuut moet of mag voorkomen.
 
-* **Domein – Naam** De naam van het domein voor de waarden van het attribuut. Als het domein een uitbreidbare waardelijst is, dan is de naam van het domein de naam van die waardelijst en kan er via de naam naar die waardelijst genavigeerd worden.
+* **Domein – Naam** De naam van het domein die de verzameling van alle toegestane waarden van het attribuut beschrijft. Als het domein een uitbreidbare waardelijst is, dan is de naam van het domein de naam van die waardelijst en kan er via de naam naar die waardelijst genavigeerd worden.
 
 * **Domein – Type** Het soort domein, bijv. een uitbreidbare waardelijst of een meetwaarde. De mogelijke typen staan beschreven in de paragraaf [Domeinen](# Domeinen). Afhankelijk van het type domein worden er extra metagegevens getoond, zoals bijv. Eenheid, Lengte, Opbouw en Waardebereik. Dit staat bij de betreffende typen in de paragraaf Domeinen beschreven.
 
@@ -36,7 +36,7 @@ De gegevensdefinitie vormt het hart van de catalogus en geeft een beschrijving v
 
 * **Reden geen waarde** Van attributen waarvan de waarde mag ontbreken de omschrijving van de reden waarom de waarde mag ontbreken.
 
-* **Is afgeleid** Eventueel de aanduiding dat het gegeven niet wordt aangeleverd, maar dat de registratie ondergrond het gegeven bepaalt (bijv. berekent) op basis van aangeleverde gegevens, in het uitzonderlijke geval dat het gegeven wordt afgeleid.
+* **Is afgeleid** Eventueel de aanduiding dat het gegeven niet in het aangeleverde brondocument is opgenomen, maar dat de registratie ondergrond het gegeven bepaalt (bijv. berekent) op basis van aangeleverde gegevens, in het uitzonderlijke geval dat het gegeven wordt afgeleid.
 
 * **Materiële geschiedenis** Van attributen van registratieobjecten met een materiële geschiedenis de aanduiding of het attribuut al dan niet een materiële geschiedenis kan hebben.
 
@@ -52,9 +52,7 @@ Een domein in *Unified Modeling Language* (UML)-context beschrijft welke waarden
 
 Sommige domeinen zijn samengesteld uit twee of meer elementen die in samenhang betekenisvol zijn. Een voorbeeld van een samengesteld domein dat in de registratie ondergrond bestaat is Datuminterval. Datuminterval bestaat uit twee elementen, beide van het domein 'Datum' (jaar, maand en dag), namelijk een begindatum en een einddatum.
 
-Bij een attribuut kunnen ook twee of meer domeinen mogelijk zijn. Voor dit attribuut geldt dat verschillende domeinen valide zijn; er kan echter bij levering van de gegevens aan de BRO altijd maar één van de domeinen gekozen worden.
-
-In de gegevensdefinitie wordt in dat geval een attribuut gemodelleerd waarvan het domein dat de mogelijke waarde beschrijft een keuze is tussen twee of meer domeinen. Dit maakt het mogelijk waar in het domeinmodel normaal gesproken maar één mogelijkheid bestaat, een opsomming te geven van meerdere mogelijke domeinen, waarbij altijd precies één van deze mogelijkheden wordt gebruikt.
+Bij een attribuut kunnen ook twee of meer domeinen mogelijk zijn. Voor dit attribuut geldt dat verschillende domeinen valide zijn; er kan echter bij levering van de gegevens aan de BRO altijd maar één van de domeinen gekozen worden. In de gegevensdefinitie wordt in dat geval een attribuut gemodelleerd waarvan het domein dat de mogelijke waarde beschrijft een keuze is tussen twee of meer domeinen. Dit maakt het mogelijk waar in het domeinmodel normaal gesproken maar één mogelijkheid bestaat, een opsomming te geven van meerdere mogelijke domeinen, waarbij altijd precies één van deze mogelijkheden wordt gebruikt.
 
 Hier volgt een toelichting op de domeinen die in de gegevensdefinitie worden gebruikt.
 
@@ -72,7 +70,7 @@ Het domein wordt volledig gespecificeerd door met de naam van de code ook de opb
 
 ## Gemeten waarden
 
-Meetwaarden worden gebruikt voor grootheden. De waarde van een grootheid is een getal met een bepaalde opbouw en een bepaalde eenheid. Voor de waarde van grootheden worden twee domeinen gebruikt. Het ene voor een waarde waarvan het aantal decimalen altijd hetzelfde is (Meetwaarde) en het andere voor een waarde waarvan het aantal decimalen varieert (Meetwaarde in machten) en dat is het geval wanneer het aantal decimalen voor kleine getallen anders is dan het aantal decimalen voor grote getallen omdat een ander apparaat of een andere methode is gebruikt.
+Meetwaarden worden gebruikt voor grootheden. De waarde van een grootheid is een getal met een bepaalde opbouw en een bepaalde eenheid. Voor de waarde van grootheden worden twee domeinen gebruikt. Het ene voor een waarde waarvan het aantal decimalen altijd hetzelfde is (Meetwaarde). Het andere voor een waarde waarvan het aantal decimalen varieert (Meetwaarde in machten) en dat is het geval wanneer het aantal decimalen voor kleine getallen anders is dan het aantal decimalen voor grote getallen omdat een ander apparaat of een andere methode is gebruikt.
 
 De registratie ondergrond gebruikt voor de eenheden de codes uit het UCUM *(Unified Code for Units of Measure)*-systeem. In bijzondere gevallen is de eenheid dimensieloos.
 
@@ -84,7 +82,7 @@ Het domein wordt volledig gespecificeerd door met de aanduiding meetwaarde ook d
 
 ### Meetwaarde in machten
 
-Het domein 'Meetwaarde in machten' wordt gebruikt wanneer de waarde een heel groot bereik heeft en het aantal decimalen voor kleine getallen anders is dan voor grote getallen. In dat geval wordt de meetwaarde uitgedrukt in machten. In de basisregistratie ondergrond wordt de meetwaarde in machten altijd uitgedrukt in een macht van tien. De notatie voor de meetwaarde in machten is (m . 10<sup>e</sup>). De m staat voor mantisse en is een meetwaarde, en de e staat voor de exponent.
+Het domein 'Meetwaarde in machten' wordt gebruikt wanneer de waarde een heel groot bereik heeft en het aantal decimalen voor kleine getallen anders is dan voor grote getallen. In dat geval wordt de meetwaarde uitgedrukt in machten. In de BRO wordt de meetwaarde in machten altijd uitgedrukt in een macht van tien. De notatie voor de meetwaarde in machten is (m . 10<sup>e</sup>). De m staat voor mantisse en is een meetwaarde, en de e staat voor de exponent.
 
 De mantisse (m) is een rationaal getal met een bepaalde opbouw. Het aantal cijfers voor het decimaalteken is in de basisregistratie ondergrond altijd 1. Het aantal cijfers achter het decimaalteken ligt vast. De meetwaarde wordt uitgedrukt in machten van tien (10<sup>e</sup>). De exponent (e) is in de basisregistratie ondergrond altijd een geheel getal.
 
@@ -220,7 +218,7 @@ Het domein 'Lijn' wordt gebruikt om de vorm, afmetingen en positie van een objec
 
 ### Multilijn
 
-Het domein 'Multilijn' bestaat uit een verzameling van lijnen die gezamenlijk één object vormen en wordt gebruikt om de vorm, afmetingen en positie van een object in meerdere lijnen uit te drukken. De positie wordt bepaald in een specifiek referentiestelsel en uitgedrukt in meerdere lijnen met één of meerdere lijnsegmenten. Tussen de lijnen die samen een Multilijn vormen mag geen intersectie plaatsvinden, tenzij dit gebeurt in de eindpunten van de lijnen (er mag geen kruising van lijnen plaatsvinden, wel vertakkingen). Een Multilijn kan in een tweedimensionaal vlak (x- en y-coördinaat) of in een driedimensionale ruimte (x-, y- en z-coördinaat) worden vastgelegd.
+Het domein 'Multilijn' bestaat uit een verzameling van lijnen die gezamenlijk één object vormen en wordt gebruikt om de vorm, afmetingen en positie van een object in meerdere lijnen uit te drukken. De positie wordt bepaald in een specifiek referentiestelsel en uitgedrukt in meerdere lijnen met één of meer lijnsegmenten. Tussen de lijnen die samen een Multilijn vormen mag geen intersectie plaatsvinden, tenzij dit gebeurt in de eindpunten van de lijnen (er mag geen kruising van lijnen plaatsvinden, wel vertakkingen). Een Multilijn kan in een tweedimensionaal vlak (x- en y-coördinaat) of in een driedimensionale ruimte (x-, y- en z-coördinaat) worden vastgelegd.
 
 <figure>
     <img src="https://docs.geostandaarden.nl/bro/gen/media/multilijn.png" alt="Multilijn" width="150"/>
@@ -318,7 +316,7 @@ Het domeinmodel geeft een overzicht van de gegevens van het registratieobject en
 
 Het domeinmodel kent een aantal vaste elementen die bij ieder registratieobject terugkomen. Een begrip van deze elementen vergroot de leesbaarheid van het domeinmodel en de catalogus. De elementen zijn: entiteiten, attributen, gegevensgroepen en relaties. Een entiteit is een onderscheidend geheel van eigenschappen die gezamenlijk betekenis hebben. Een entiteit heeft altijd een naam en een definitie. In het domeinmodel zijn de entiteiten te herkennen aan het begrip Objecttype.
 
-In de entiteiten staan de namen opgesomd van de attributen, de eigenschappen van de entiteiten, met daarachter de naam van de bijbehorende waardenverzameling (domein) en de kardinaliteit. Bij attributen is de kardinaliteit alleen opgenomen wanneer die ongelijk is aan 1. Overigens moet de kardinaliteit altijd in samenhang met de regels die in de definitie van het gegeven zijn opgenomen worden begrepen. De kardinaliteit en de regels bepalen samen of een gegeven al dan niet aanwezig is. De figuren laten ook zien welke attributen alleen aan de dataleverancier en de bronhouder worden uitgeleverd. In het domeinmodel zijn de attributen te herkennen aan het begrip 'Attribuutsoort'.
+In de entiteiten staan de namen opgesomd van de attributen, de eigenschappen van de entiteiten, met daarachter de naam van de bijbehorende waardeverzameling (domein) en de kardinaliteit. Bij attributen is de kardinaliteit alleen opgenomen wanneer die ongelijk is aan 1. Overigens moet de kardinaliteit altijd in samenhang met de regels die in de definitie van het gegeven zijn opgenomen worden begrepen. De kardinaliteit en de regels bepalen samen of een gegeven al dan niet aanwezig is. De figuren laten ook zien welke attributen alleen aan de dataleverancier en de bronhouder worden uitgeleverd. In het domeinmodel zijn de attributen te herkennen aan het begrip 'Attribuutsoort'.
 
 Soms is een aantal attributen gegroepeerd in een groep, aangeduid als gegevensgroep. Het blijven attributen van de entiteit, maar de inhoudelijke definiëring van de gegevensgroep staat elders. Gegevensgroepen kunnen bij meerdere entiteiten terugkomen.
 
