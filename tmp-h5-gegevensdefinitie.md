@@ -3,7 +3,7 @@
 
 # De gegevensdefinitie
 
-De gegevensdefinitie vormt het hart van de catalogus en geeft een beschrijving van alle gegevens van het registratieobject. Eerst wordt de definitie van het registratieobject gegeven inclusief de plaatjes van het zgn. domeinmodel, en vervolgens de definities van de entiteiten waaruit het registratieobject is opgebouwd met de eigenschappen van die entiteiten, de attributen. De entiteiten worden op volgorde van de nummers in het domeinmodel behandeld. De volgende aspecten van de gegevens worden vastgelegd.
+De gegevensdefinitie vormt het hart van de catalogus en geeft een beschrijving van alle gegevens van het registratieobject. Eerst wordt de definitie van het registratieobject gegeven inclusief de plaatjes van het zgn. domeinmodel, en vervolgens de definities van de entiteiten waaruit het registratieobject is opgebouwd met de eigenschappen van die entiteiten, de attributen. De volgende aspecten van de gegevens worden vastgelegd.
 
 * **Type gegeven** Of het gegeven een entiteit, een attribuut of een gegevensgroep is, met in de laatste twee gevallen van welke entiteit het een attribuut is.
 
@@ -22,7 +22,7 @@ De gegevensdefinitie vormt het hart van de catalogus en geeft een beschrijving v
 
 * **Kardinaliteit** De kardinaliteit van een attribuut, wat aangeeft hoe vaak het attribuut moet of mag voorkomen.
 
-* **Domein – Naam** De naam van het domein welke de verzameling van alle toegestane of mogelijke waarden binnen de BRO beschrijft. Als het domein een uitbreidbare waardelijst is, dan is de naam van het domein de naam van die waardelijst en kan er via de naam naar die waardelijst genavigeerd worden.
+* **Domein – Naam** De naam van het domein die de verzameling van alle toegestane waarden van het attribuut beschrijft. Als het domein een uitbreidbare waardelijst is, dan is de naam van het domein de naam van die waardelijst en kan er via de naam naar die waardelijst genavigeerd worden.
 
 * **Domein – Type** Het soort domein, bijv. een uitbreidbare waardelijst of een meetwaarde. De mogelijke typen staan beschreven in de paragraaf [Domeinen](# Domeinen). Afhankelijk van het type domein worden er extra metagegevens getoond, zoals bijv. Eenheid, Lengte, Opbouw en Waardebereik. Dit staat bij de betreffende typen in de paragraaf Domeinen beschreven.
 

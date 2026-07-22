@@ -12,6 +12,6 @@
 
 [Hoofdstuk 6](#gegevensdefinitie) geeft de inhoud weer van het registratieobject, van de delen waaruit het is opgebouwd, de entiteiten, en van de eigenschappen van die entiteiten, de attributen.
 
-[Hoofdstuk 7](#uitbreidbare-waardelijsten) geeft de inhoud weer van de uitbreidbare waardelijsten staan waarnaar in hoofdstuk 6 verwezen wordt.
+[Hoofdstuk 7](#uitbreidbare-waardelijsten) geeft de inhoud weer van de uitbreidbare waardelijsten, dat wil zeggen lijsten met de mogelijke waarden voor de attributen uit hoofdstuk 6 die naar een waardelijst verwijzen.
 
 [Hoofdstuk 8](#lijstwaardemappings-uitgifte) geeft met betrekking tot uitbreidbare waardelijsten aan welke waarden worden uitgegeven in de plaats van vervallen waarden.

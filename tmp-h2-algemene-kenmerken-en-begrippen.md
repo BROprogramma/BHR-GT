@@ -53,7 +53,6 @@ NB: deze registratiedomeinen zijn niet de domeinen als bedoeld in Hoofdstuk 5 va
 # Kwaliteitsregime
 
 In de BRO worden niet alleen gegevens geregistreerd die dateren van na de datum waarop de Wet Bro van kracht is geworden. Ook oudere gegevens worden in de BRO opgenomen. Gegevens uit de eerder bestaande systemen Registratie Data en Informatie Nederlandse Ondergrond (DINO) en Bodemkundig Informatie Systeem (BIS) worden zo veel mogelijk naar de BRO overgezet. Verder verplicht artikel 40 van de Wet Bro bronhouders om digitale, gestructureerde gegevens binnen vijf jaar na inwerkingtreding - van de wetswijziging per 1 juli 2025 of van een registratieobject - ter registratie aan te bieden.
-Deze historische gegevens kunnen niet altijd voldoen aan de strikte regels die de BRO stelt. Zo kan het voorkomen dat voor gegevens die volgens de strikte regels van de BRO verplicht zijn, geen waarde bekend is. 
 
 Om de verwerking van twee categorieën gegevens naast elkaar mogelijk te maken, worden twee kwaliteitsregimes gehanteerd. Voor de levering van gegevens aan de BRO gelden de regels van het informatiemodel BRO (IMBRO)-regime zoals de catalogus registratie ondergrond voorschrijft. Bij de levering van historische gegevens wordt geaccepteerd dat een aantal verplichte attributen geen waarde of andere waarden heeft. Voor deze gegevens wordt het IMBRO/archief (A)-regime gehanteerd. Als historische gegevens wel aan de voorwaarden van het IMBRO-regime voldoen, worden de gegevens echter onder dit regime geleverd.
 
