@@ -244,7 +244,7 @@
 		<Waarde>verhitten500</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Methode voor het bepalen van het organischestofgehalte. Het materiaal wordt verhit tot 500 °C, waardoor de organische stof verbrandt. Uit het massaverlies wordt het gehalte berekend.</Omschrijving>
+		<Omschrijving>Methode voor het bepalen van het gloeiverlies. Het materiaal wordt verhit tot 500 °C, waardoor de organische stof verbrandt. Uit het massaverlies wordt het gehalte berekend. Door het gloeiverlies te corrigeren voor het lutumgehalte kan het organischestofgehalte worden bepaald.</Omschrijving>
 	</Bepalingsmethode>
 	<Bepalingsmethode>
 		<Waarde>verhitten900</Waarde>
