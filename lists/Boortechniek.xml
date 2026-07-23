@@ -58,7 +58,7 @@
 		<Waarde>mechanischHameren</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>De techniek waarbij een apparaat mechanisch wordt aangedreven en een hamer wordt gebruikt om het de grond in te drijven. Voorbeelden zijn de ramgutsboor, de window sampler en het Ackermann-apparaat; een gutsboor wordt gehamerd wanneer de aard van de ondergrond dat vereist.</Omschrijving>
+		<Omschrijving>De techniek waarbij een apparaat mechanisch wordt aangedreven en een hamer wordt gebruikt om het apparaat de grond in te drijven. Voorbeelden zijn de ramgutsboor, de window sampler en het Ackermann-apparaat; een gutsboor wordt gehamerd wanneer de aard van de ondergrond dat vereist.</Omschrijving>
 	</Boortechniek>
 	<Boortechniek>
 		<Waarde>mechanischPulsen</Waarde>
