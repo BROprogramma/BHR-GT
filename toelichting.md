@@ -5,7 +5,7 @@
   
 De catalogus voor het geotechnisch booronderzoek beschrijft de gegevens die in de basisregistratie ondergrond (BRO) zijn opgenomen van het booronderzoek dat vanuit het vakgebied van de geotechniek is uitgevoerd. De catalogus beschrijft de algemene gegevens van dit booronderzoek samen met de gedetailleerde uitwerking van de gegevens van de boormonsterbeschrijving, en van de gegevens die voortkomen uit het analyseren van boormonsters.
 
-Een booronderzoek is het geheel van gegevens dat betrekking heeft op een specifiek booronderzoek dat op een specifiek moment en op een specifieke locatie in Nederland is uitgevoerd en op basis van een bepaalde opdracht is uitgevoerd. De belangrijkste gegevens om het onderzoek te preciseren zijn het vakgebied en de uitgevoerde deelonderzoeken.
+Een booronderzoek is het geheel van gegevens over een specifiek booronderzoek dat op een bepaald moment, op een bepaalde locatie in Nederland en op basis van een bepaalde opdracht is uitgevoerd. De belangrijkste gegevens om het onderzoek te preciseren zijn het vakgebied en de uitgevoerde deelonderzoeken.
 
 Booronderzoek in de BRO omvat onderzoek uit vijf verschillende vakgebieden. Naast geotechniek zijn dat bodemkunde, geologie, cultuurtechniek en toegepaste geologie. De catalogus voor het registratieobject komt in delen tot stand. Eerst wordt voor ieder vakgebied een catalogus gemaakt. Het is de bedoeling om op het moment dat de vijf catalogi gereed zijn een nieuwe catalogus te maken die alle vakgebieden omvat en waarin de ongewenste verschillen zijn weggenomen. Die catalogus geeft een samenhangende beschrijving van het registratieobject booronderzoek.
 
@@ -149,13 +149,13 @@ Onder NEN-EN-ISO 14688-1 heeft het begrip beschrijfkwaliteit wel onderscheidende
 	<figcaption>Uit een boring komen geroerde en ongeroerde monsters en in de beschrijving worden dan twee boorprofielen gemaakt.</figcaption>
 </figure>
 
-Een geval waarin een boormonsterbeschrijving NEN-EN-ISO 14688-1 twee boorprofielen oplevert is wanneer op een bepaalde plaats een boring is gezet die op twee manieren bemonsterd is. Over het hele boortraject zijn monsters met een relatief lage kwaliteit, geroerde monsters, genomen. Daarnaast zijn van bepaalde dieptes monsters met een hoge kwaliteit, ongeroerde monsters, verkregen. Het verschil in kwaliteit is zo groot dat de monsters apart beschreven moeten worden. In het eerste geval ontstaat een continu profiel, in het tweede een discontinu profiel.
+Een geval waarin een boormonsterbeschrijving volgens NEN-EN-ISO 14688-1 twee boorprofielen oplevert, is wanneer op een bepaalde plaats een boring is gezet die op twee manieren bemonsterd is. Over het hele boortraject zijn monsters met een relatief lage kwaliteit, geroerde monsters, genomen. Daarnaast zijn van bepaalde dieptes monsters met een hoge kwaliteit, ongeroerde monsters, verkregen. Het verschil in kwaliteit is zo groot dat de monsters apart beschreven moeten worden. In het eerste geval ontstaat een continu profiel, in het tweede een discontinu profiel.
 
-Een derde profiel is nodig wanneer bovendien een deel van de monsters, gewoonlijk uit het bovenste deel van de ondergrond, beschreven is onder de eisen die aan verkennend onderzoek zijn gesteld. Die eisen zijn laag en dekken maar een deel van kenmerken.
+Een derde profiel is nodig wanneer bovendien een deel van de monsters, gewoonlijk uit het bovenste deel van de ondergrond, beschreven is onder de eisen die aan verkennend onderzoek zijn gesteld. Die eisen zijn laag en dekken maar een deel van de kenmerken.
 
 In de gevallen dat er bij een booronderzoek meer onderscheid aangebracht wordt in de mate van detail waarin beschreven wordt, kan de boormonsterbeschrijving uit maximaal vijf boorprofielen bestaan.
 
-Het uitgangspunt is in alle gevallen dat het boorprofiel alle met een bepaalde kwaliteit bemonsterde intervallen dekt en het hele traject compleet in lagen is beschreven. Het kan echter zijn dat dit niet gelukt is, bijvoorbeeld omdat er per ongeluk een monster verdwenen is. De intervallen die niet beschreven konden worden, worden expliciet in het profiel opgenomen (Niet-beschreven interval) en de reden waarom het niet beschreven is wordt vastgelegd.
+Het uitgangspunt is in alle gevallen dat het boorprofiel alle met een bepaalde kwaliteit bemonsterde intervallen dekt en het hele traject compleet in lagen is beschreven. Het kan echter zijn dat dit niet gelukt is, bijvoorbeeld omdat er per ongeluk een monster verdwenen is. De intervallen die niet beschreven konden worden, worden expliciet in het profiel opgenomen (Niet-beschreven interval) en de reden waarom ze niet beschreven zijn, wordt vastgelegd.
 
 ## Laag
 
@@ -199,7 +199,7 @@ Boormonsteranalyse is het deelonderzoek dat betrekking heeft op het doen van met
 
 In de boormonsteranalyse worden aan een of meer intervallen bepalingen gedaan, de onderzochte intervallen. De kwaliteit van het monster en de beschikbare hoeveelheid materiaal bepalen in eerste instantie wat er allemaal van een interval kan worden bepaald. De beperking in hoeveelheid materiaal betekent dat bepaalde bepalingen elkaar in de praktijk uitsluiten en dat bepalingen die wel gecombineerd kunnen worden elkaar veelal in een strikte volgorde moeten opvolgen.
 
-In sommige gevallen vereist een bepaling een niet verstoord monster. Het deel dat moet worden geanalyseerd, het proefstuk, wordt uit het monster genomen en de rest wordt beschreven. Wanneer de volledige doorsnede van het monster wordt gebruikt, blijft er een gat in het monster achter dat niet beschreven kan worden (zie <a href ="#onderzocht-interval"></a>). Het proefstuk gaat onbeschreven de bepaling in en het materiaal wordt na uitvoering van de bepaling beschreven door degene die de bepaling heeft uitgevoerd. De kwaliteit van het materiaal is dan ingrijpend veranderd en niet langer vergelijkbaar met dat van de niet onderzochte intervallen. Daarom wordt de beschrijving van het materiaal waaruit het proefstuk bestaat, als onderdeel van de boormonsteranalyse vastgelegd en niet opgenomen in de boormonsterbeschrijving.
+In sommige gevallen vereist een bepaling een niet verstoord monster. Het deel dat moet worden geanalyseerd, het proefstuk, wordt uit het monster genomen en de rest wordt beschreven. Wanneer de volledige doorsnede van het monster wordt gebruikt, blijft er een gat in het monster achter dat niet beschreven kan worden (zie <a href ="#onderzocht-interval"></a>). Het proefstuk gaat onbeschreven de bepaling in en het materiaal wordt na uitvoering van de bepaling beschreven door degene die de bepaling heeft uitgevoerd. De kwaliteit van het materiaal is dan ingrijpend veranderd en niet langer vergelijkbaar met die van de niet onderzochte intervallen. Daarom wordt de beschrijving van het materiaal waaruit het proefstuk bestaat, als onderdeel van de boormonsteranalyse vastgelegd en niet opgenomen in de boormonsterbeschrijving.
 
 <figure id='onderzocht-interval'>
 	<img src="./media/Onderzochtinterval.png" alt="Onderzochtinterval" width="600"/>
@@ -312,11 +312,11 @@ De korrelgrootteverdeling wordt in eerste instantie gebruikt om het materiaal te
 
 ## Bepaling van de verzadigde waterdoorlatendheid
 
-De waterdoorlatendheid van met waterverzadigde grond is de snelheid waarmee water erdoorheen stroomt. In de geotechniek wordt de verzadigde waterdoorlatendheid bepaald volgens de constant head methode of de falling head methode. Bij beide methoden laat men water van een bepaalde soort (gebruikt medium) door de grond stromen, en daarvan wordt vastgelegd of de daarin aanwezige gassen eruit verwijderd zijn (water ontgast). Men laat het water meestal van onder naar boven door het proefstuk stromen. De variabelen die van invloed zijn op het resultaat worden vastgelegd (temperatuur, maximale gradiënt).
+De waterdoorlatendheid van met waterverzadigde grond is de snelheid waarmee water erdoorheen stroomt. In de geotechniek wordt de verzadigde waterdoorlatendheid bepaald volgens de constant head methode of de falling-headmethode. Bij beide methoden laat men water van een bepaalde soort (gebruikt medium) door de grond stromen, en daarvan wordt vastgelegd of de daarin aanwezige gassen eruit verwijderd zijn (water ontgast). Men laat het water meestal van onder naar boven door het proefstuk stromen. De variabelen die van invloed zijn op het resultaat worden vastgelegd (temperatuur, maximale gradiënt).
 
-De constant head methode wordt gebruikt voor niet-cohesieve grond en daarvan wordt volgens een bepaalde methode een proefstuk gemaakt (maakmethode) die een bepaalde dichtheid krijgt (droge volumieke massa). Het proefstuk kan tevoren met CO2 worden verzadigd. De verzadigde waterdoorlatendheid wordt een aantal malen bepaald steeds bij een andere droge volumieke massa.
+De constant-headmethode wordt gebruikt voor niet-cohesieve grond en daarvan wordt volgens een bepaalde methode (maakmethode) een proefstuk gemaakt dat een bepaalde dichtheid (droge volumieke massa) krijgt. Het proefstuk kan tevoren met CO2 worden verzadigd. De verzadigde waterdoorlatendheid wordt een aantal malen bepaald steeds bij een andere droge volumieke massa.
 
-De falling head methode wordt gebruikt voor cohesieve grond en wordt bijna altijd bepaald aan een proefstuk dat met een ring uit een niet verstoord monster is gestoken. Bij een dergelijk proefstuk legt men vast of de doorlatendheid verticaal is gemeten (verticaal bepaald). In het laboratorium kiest men of de poreuze stenen in de proefstelling nat of droog moeten zijn en of de steekring een waterafstotende laag moet krijgen en legt men het proefstuk een bepaalde belasting op. Aan het einde van de proef wordt het watergehalte bepaald. Het resultaat van de proef is de verzadigde waterdoorlatendheid bij de opgelegde belasting.
+De falling-headmethode wordt gebruikt voor cohesieve grond en wordt bijna altijd bepaald aan een proefstuk dat met een ring uit een niet verstoord monster is gestoken. Bij een dergelijk proefstuk legt men vast of de doorlatendheid verticaal is gemeten (verticaal bepaald). In het laboratorium kiest men of de poreuze stenen in de proefstelling nat of droog moeten zijn en of de steekring een waterafstotende laag moet krijgen en legt men het proefstuk een bepaalde belasting op. Aan het einde van de proef wordt het watergehalte bepaald. Het resultaat van de proef is de verzadigde waterdoorlatendheid bij de opgelegde belasting.
 
 ## Bepaling van het watergehalte
 
@@ -328,7 +328,7 @@ Het watergehalte is een basisparameter die altijd samen met andere gegevens gebr
 
 Het gehalte aan organische stof wordt bepaald door het organisch materiaal op een bepaalde manier te verwijderen en het verlies aan massa te meten. Het is van belang te weten of er voorafgaand aan de bepaling materiaal verwijderd is. Bij de berekening van het gehalte kan het nodig zijn te corrigeren voor het verlies van water dat aan klei is gebonden (lutumcorrectie).
 
-Het organische stofgehalte is een basisparameter die primair gebruikt wordt om de grond te classificeren.
+Het organischestofgehalte is een basisparameter die primair gebruikt wordt om de grond te classificeren.
 
 ## Bepaling van het kalkgehalte
 
