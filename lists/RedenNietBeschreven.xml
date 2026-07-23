@@ -10,7 +10,7 @@
 		<Waarde>geenOpbrengst</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Het interval is niet beschreven omdat de monstercontainer voor een deel leeg was (of omdat een deel van interval dat continu gestoken had moeten worden, niet helemaal bemonsterd kon worden). Het ‘lege’ deel wordt altijd vastgelegd als diepste deel van een interval.</Omschrijving>
+		<Omschrijving>Het interval is niet beschreven omdat de monstercontainer voor een deel leeg was (of omdat een deel van het interval dat continu gestoken had moeten worden, niet helemaal bemonsterd kon worden). Het ‘lege’ deel wordt altijd vastgelegd als diepste deel van een interval.</Omschrijving>
 	</RedenNietBeschreven>
 	<RedenNietBeschreven>
 		<Waarde>geenOpdracht</Waarde>
