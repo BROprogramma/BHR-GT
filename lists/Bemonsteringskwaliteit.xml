@@ -52,7 +52,7 @@
 		<Waarde>deelsOngeroerd</Waarde>
 		<IMBRO> </IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Een niet nader gespecificeerd deel van de monsters is ongeroerd. Dat houdt in dat de kwaliteit daarvan tenminste vergelijkbaar is met klasse D onder IMBRO.</Omschrijving>
+		<Omschrijving>Een niet nader gespecificeerd deel van de monsters is ongeroerd. Dat houdt in dat de kwaliteit daarvan ten minste vergelijkbaar is met klasse D onder IMBRO.</Omschrijving>
 	</Bemonsteringskwaliteit>
 	<Bemonsteringskwaliteit>
 		<Waarde>geroerd</Waarde>
@@ -70,6 +70,6 @@
 		<Waarde>ongeroerd</Waarde>
 		<IMBRO> </IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>De monsters zijn ongeroerd. Dat houdt in dat de kwaliteit tenminste vergelijkbaar is met klasse D onder IMBRO.</Omschrijving>
+		<Omschrijving>De monsters zijn ongeroerd. Dat houdt in dat de kwaliteit ten minste vergelijkbaar is met klasse D onder IMBRO.</Omschrijving>
 	</Bemonsteringskwaliteit>
 </domeintabel>
