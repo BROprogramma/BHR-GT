@@ -17,7 +17,7 @@
         "target": [
           "#fig-overzicht-verschillen-tussen-de-kwaliteitsregimes > img[width=\"350\"]"
         ],
-        "html": "<img src=\"https://raw.githubusercontent.com/BROprogramma/generiek/gh-pages/media/tabel_kwaliteitsregime.png\" width=\"350\">",
+        "html": "<img src=\"https://docs.geostandaarden.nl/bro/gen/media/tabel_kwaliteitsregime.png\" width=\"350\">",
         "failureSummary": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
       }
     ]
