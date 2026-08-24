@@ -7,6 +7,10 @@ on:
   release:
     types: [published, edited]
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event_name == 'release' && github.event.release.target_commitish || github.ref }}
+  cancel-in-progress: false
+
 jobs:
   build:
     uses: ./.github/workflows/build.yml
