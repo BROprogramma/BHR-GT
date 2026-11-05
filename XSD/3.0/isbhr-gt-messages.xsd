@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:bhrgtcom="http://www.broservices.nl/xsd/bhrgtcommon/3"
+           xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3"
+           xmlns:gml="http://www.opengis.net/gml/3.2"
+           xmlns:gmlsf="http://www.opengis.net/gmlsf/2.0"
+           xmlns:isbhrgt="http://www.broservices.nl/xsd/isbhrgt/3"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://www.broservices.nl/xsd/isbhrgt/3"
+           elementFormDefault="qualified"
+           attributeFormDefault="unqualified"
+           version="3.0.0">
+   <xs:annotation>
+      <xs:appinfo source="http://schemas.opengis.net/gmlsfProfile/2.0/gmlsfLevels.xsd">
+         <gmlsf:ComplianceLevel>0</gmlsf:ComplianceLevel>
+      </xs:appinfo>
+   </xs:annotation>
+   <xs:import
+      namespace="http://www.broservices.nl/xsd/bhrgtcommon/3"
+      schemaLocation="https://schema.broservices.nl/xsd/bhrgtcommon/3/bhrgtcommon.xsd" />
+   <xs:import namespace="http://www.broservices.nl/xsd/brocommon/3"
+      schemaLocation="https://schema.broservices.nl/xsd/brocommon/3/brocommon.xsd" />
+   <xs:import namespace="http://www.opengis.net/gml/3.2"
+      schemaLocation="https://schema.broservices.nl/profile/gml/1.0/gml-profile.xsd" />
+
+   <xs:element name="CorrectionRequest"
+               type="isbhrgt:CorrectionRequestType">
+      <xs:annotation>
+         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het bericht RegistrationRequest is een specialisatie van de abstract klasse RegistrationRequest uit de package brocommon, waaraan het een sourceDocument toevoegt. Met dit bericht kan een nog niet geregistreerd geotechnisch booronderzoek in de BRO worden opgenomen of kan een een geregistreerd geotechnisch booronderzoek worden aangevuld of voltooid.</xs:documentation>
+      </xs:annotation>
+   </xs:element>
+   <xs:complexType name="CorrectionRequestType">
+      <xs:complexContent>
+         <xs:extension base="brocom:CorrectionRequestType">
+            <xs:sequence>
+               <xs:element name="correctionReason"
+                           type="isbhrgt:CorrectionReasonPropertyType"
+                           minOccurs="1"
+                           maxOccurs="1">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Reden waarom de geregistreerde gegevens gecorrigeerd worden.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="sourceDocument"
+                           type="isbhrgt:SourceDocumentPropertyType"
+                           minOccurs="1"
+                           maxOccurs="1">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het element sourceDocument bevat gegevens die in het BRO-systeem geregistreerd zullen worden en die in de catalogus van het registratieobject zijn gespecificeerd, met uitzondering van de gegevens die door het BRO-systeem worden gegenereerd of afgeleid uit het registratieverzoek.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:complexType name="CorrectionRequestPropertyType">
+      <xs:sequence minOccurs="0">
+         <xs:element ref="isbhrgt:CorrectionRequest"/>
+      </xs:sequence>
+      <xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
+   </xs:complexType>
+   <xs:element name="RegistrationRequest"
+               type="isbhrgt:RegistrationRequestType">
+      <xs:annotation>
+         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het bericht RegistrationRequest is een specialisatie van de abstract klasse RegistrationRequest uit de package brocommon, waaraan het een sourceDocument toevoegt. Met dit bericht kan een nog niet geregistreerd geotechnisch booronderzoek in de BRO worden opgenomen of kan een een geregistreerd geotechnisch booronderzoek worden aangevuld of voltooid.</xs:documentation>
+      </xs:annotation>
+   </xs:element>
+   <xs:complexType name="RegistrationRequestType">
+      <xs:complexContent>
+         <xs:extension base="brocom:RegistrationRequestType">
+            <xs:sequence>
+               <xs:element name="sourceDocument"
+                           type="isbhrgt:SourceDocumentPropertyType"
+                           minOccurs="1"
+                           maxOccurs="1">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het element sourceDocument bevat gegevens die in het BRO-systeem geregistreerd zullen worden en die in de catalogus van het registratieobject zijn gespecificeerd, met uitzondering van de gegevens die door het BRO-systeem worden gegenereerd of afgeleid uit het registratieverzoek.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:complexType name="RegistrationRequestPropertyType">
+      <xs:sequence minOccurs="0">
+         <xs:element ref="isbhrgt:RegistrationRequest"/>
+      </xs:sequence>
+      <xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
+   </xs:complexType>
+   <xs:element name="BHR_GT_CompleteReport"
+               type="isbhrgt:BHR_GT_CompleteReportType"
+               substitutionGroup="isbhrgt:BHR_GT_StartReport">
+      <xs:annotation>
+         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het brondocument wordt aangeboden wanneer de rapportage van het geotechnisch booronderzoek in een keer volledig wordt gerapporteerd. De registratie is met dit brondocument direct voltooid.</xs:documentation>
+      </xs:annotation>
+   </xs:element>
+   <xs:complexType name="BHR_GT_CompleteReportType">
+      <xs:complexContent>
+         <xs:extension base="isbhrgt:BHR_GT_StartReportType">
+            <xs:sequence>
+               <xs:element name="researchReportDate"
+                           type="brocom:PartialDateType"
+                           minOccurs="1"
+                           maxOccurs="1">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Datum waarop het onderzoek is gerapporteerd</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element minOccurs="0"
+                           maxOccurs="1"
+                           name="boreholeSampleAnalysis"
+                           nillable="false"
+                           type="bhrgtcom:BoreholeSampleAnalysisPropertyType"/>
+               <xs:element minOccurs="1"
+                           maxOccurs="1"
+                           name="boreholeSampleDescription"
+                           nillable="false"
+                           type="bhrgtcom:BoreholeSampleDescriptionPropertyType"/>
+            </xs:sequence>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:complexType name="BHR_GT_CompleteReportPropertyType">
+      <xs:sequence minOccurs="0">
+         <xs:element ref="isbhrgt:BHR_GT_CompleteReport"/>
+      </xs:sequence>
+      <xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
+   </xs:complexType>
+   <xs:element name="BHR_GT_EndReport"
+               type="isbhrgt:BHR_GT_EndReportType"
+               substitutionGroup="gml:AbstractFeature">
+      <xs:annotation>
+         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het brondocument wordt aangeboden wanneer het geotechnisch booronderzoek wordt aangevuld met de laatste rapportage en daarmee volledig is gerapporteerd. De registratie is met dit brondocument voltooid.</xs:documentation>
+      </xs:annotation>
+   </xs:element>
+   <xs:complexType name="BHR_GT_EndReportType">
+      <xs:complexContent>
+         <xs:extension base="gml:AbstractFeatureType">
+            <xs:sequence>
+               <xs:element minOccurs="1"
+                           maxOccurs="1"
+                           name="boreholeSampleAnalysis"
+                           nillable="false"
+                           type="bhrgtcom:BoreholeSampleAnalysisPropertyType"/>
+               <xs:element minOccurs="0"
+                           maxOccurs="1"
+                           name="boreholeSampleDescription"
+                           nillable="false"
+                           type="bhrgtcom:BoreholeSampleDescriptionPropertyType"/>
+               <xs:element name="researchReportDate"
+                           type="brocom:PartialDateType"
+                           minOccurs="1"
+                           maxOccurs="1">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Datum waarop het onderzoek is gerapporteerd</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:complexType name="BHR_GT_EndReportPropertyType">
+      <xs:sequence minOccurs="0">
+         <xs:element ref="isbhrgt:BHR_GT_EndReport"/>
+      </xs:sequence>
+      <xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
+   </xs:complexType>
+   <xs:element name="BHR_GT_StartReport"
+               type="isbhrgt:BHR_GT_StartReportType"
+               substitutionGroup="gml:AbstractFeature">
+      <xs:annotation>
+         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het brondocument wordt aangeboden wanneer de rapportage van het geotechnisch booronderzoek in delen wordt gerapporteerd. De registratie is met dit brondocument gestart</xs:documentation>
+      </xs:annotation>
+   </xs:element>
+   <xs:complexType name="BHR_GT_StartReportType">
+      <xs:complexContent>
+         <xs:extension base="gml:AbstractFeatureType">
+            <xs:sequence>
+               <xs:element name="objectIdAccountableParty"
+                           minOccurs="1"
+                           maxOccurs="1"
+                           type="xs:string">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: TODO</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="deliveryContext"
+                           type="bhrgtcom:DeliveryContextPropertyType"
+                           minOccurs="1"
+                           maxOccurs="1"/>
+               <xs:element name="surveyPurpose"
+                           type="bhrgtcom:SurveyPurposePropertyType"
+                           minOccurs="1"
+                           maxOccurs="1"/>
+               <xs:element name="discipline"
+                           type="bhrgtcom:DisciplinePropertyType"
+                           minOccurs="1"
+                           maxOccurs="1"/>
+               <xs:element name="surveyProcedure"
+                           type="bhrgtcom:SurveyProcedurePropertyType"
+                           minOccurs="1"
+                           maxOccurs="1"/>
+               <xs:element name="researchOperator"
+                           type="brocom:OrganizationType"
+                           minOccurs="0"
+                           maxOccurs="1"/>
+               <xs:element name="siteCharacteristicDetermined"
+                           minOccurs="0"
+                           maxOccurs="1"
+                           nillable="true">
+                  <xs:complexType>
+                     <xs:simpleContent>
+                        <xs:extension base="brocom:IndicationYesNoType">
+                           <xs:attribute name="nilReason" type="xs:string" use="optional"/>
+                        </xs:extension>
+                     </xs:simpleContent>
+                  </xs:complexType>
+               </xs:element>
+               <xs:element minOccurs="1"
+                  maxOccurs="1"
+                  name="siteCharacteristic"
+                  nillable="false"
+                  type="bhrgtcom:SiteCharacteristicType" />
+               <xs:element minOccurs="1"
+                  maxOccurs="1"
+                  name="deliveredLocation"
+                  nillable="false"
+                  type="bhrgtcom:DeliveredLocationType" />
+               <xs:element minOccurs="1"
+                  maxOccurs="1"
+                  name="boring"
+                  nillable="false"
+                  type="bhrgtcom:BoringPropertyType" />
+               <xs:element minOccurs="1"
+                  maxOccurs="1"
+                  name="fluidMudLayer"
+                  nillable="false"
+                  type="bhrgtcom:FluidMudLayerPropertyType" />
+               <xs:element minOccurs="1"
+                  maxOccurs="1"
+                  name="deliveredVerticalPosition"
+                  nillable="false"
+                  type="bhrgtcom:DeliveredVerticalPositionType" />
+            </xs:sequence>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:complexType name="BHR_GT_StartReportPropertyType">
+      <xs:sequence minOccurs="0">
+         <xs:element ref="isbhrgt:BHR_GT_StartReport" />
+      </xs:sequence>
+      <xs:attributeGroup ref="gml:AssociationAttributeGroup" />
+   </xs:complexType>
+   <xs:element name="CorrectionReason" type="isbhrgt:CorrectionReasonType">
+      <xs:annotation>
+         <xs:appinfo source="http://www.imvertor.org/data-info/uri">urn:bro:bhrgt:CorrectionReason</xs:appinfo>
+         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition:
+            Reden waarom de geregistreerde gegevens gecorrigeerd worden.</xs:documentation>
+      </xs:annotation>
+   </xs:element>
+   <xs:complexType name="CorrectionReasonType" />
+   <xs:complexType name="CorrectionReasonPropertyType">
+      <xs:sequence minOccurs="0">
+         <xs:element ref="isbhrgt:CorrectionReason" />
+      </xs:sequence>
+   </xs:complexType>
+   <xs:element name="SourceDocument" type="isbhrgt:SourceDocumentType">
+      <xs:annotation>
+         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition:
+            Het datatype sourceDocument biedt de keuze uit een aantal verschillende typen
+            brondocumenten, waarvan er één opgenomen is in het registratieverzoek.</xs:documentation>
+      </xs:annotation>
+   </xs:element>
+   <xs:complexType name="SourceDocumentType">
+      <xs:choice minOccurs="1" maxOccurs="1">
+         <xs:element name="BHR_GT_CompleteReport" type="isbhrgt:BHR_GT_CompleteReportType" />
+         <xs:element name="BHR_GT_StartReport" type="isbhrgt:BHR_GT_StartReportType" />
+         <xs:element name="BHR_GT_EndReport" type="isbhrgt:BHR_GT_EndReportType" />
+      </xs:choice>
+   </xs:complexType>
+   <xs:complexType name="SourceDocumentPropertyType">
+      <xs:sequence minOccurs="0">
+         <xs:element ref="isbhrgt:SourceDocument" />
+      </xs:sequence>
+   </xs:complexType>
+</xs:schema>

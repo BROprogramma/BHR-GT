@@ -1,0 +1,8 @@
+Changelog
+
+----------------------------
+Versie 1.0.0 - 04.11.2026
+----------------------------
+
+Voor bhrgtcommon, dsbhr-gt-messages, isbhr-gt-messages:
+- 
