@@ -368,12 +368,12 @@ Explanation: Wanneer de ondergrond niet uit grond maar uit gesteente bestaat, wo
                      </xs:simpleContent>
                   </xs:complexType>
                </xs:element>
-               <xs:element minOccurs="1"
+               <xs:element minOccurs="0"
                   maxOccurs="1"
                   name="boreholeSampleAnalysis"
                   nillable="false"
                   type="bhrgtcom:BoreholeSampleAnalysisPropertyType" />
-               <xs:element minOccurs="1"
+               <xs:element minOccurs="0"
                   maxOccurs="1"
                   name="boreholeSampleDescription"
                   nillable="false"
@@ -383,7 +383,7 @@ Explanation: Wanneer de ondergrond niet uit grond maar uit gesteente bestaat, wo
                   name="boring"
                   nillable="false"
                   type="bhrgtcom:BoringPropertyType" />
-               <xs:element minOccurs="1"
+               <xs:element minOccurs="0"
                   maxOccurs="1"
                   name="fluidMudLayer"
                   nillable="false"

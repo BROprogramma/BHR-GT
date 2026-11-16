@@ -1,8 +1,17 @@
 Changelog
 
 ----------------------------
+Versie 1.0.1 - 13.11.2026
+----------------------------
+Voor dsbhr-gt-messages en isbhr-gt-messages:
+- FluidMudLayer, boreholeSampleAnalysis, boreholeSampleDescription  - cardinaliteit bijgewerkt (van 1..1 naa juiste 0..1)
+
+voor isbhr-gt-messages:
+- siteCharacteristic cardinaliteit aangepast (van 1..1 naar 0..1)
+
+----------------------------
 Versie 1.0.0 - 04.11.2026
 ----------------------------
 
 Voor bhrgtcommon, dsbhr-gt-messages, isbhr-gt-messages:
-- 
+-  Nieuwe elementen toegevoegd (volgens nieuwe versie van catalogus)
