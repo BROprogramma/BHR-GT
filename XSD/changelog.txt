@@ -1,6 +1,12 @@
 Changelog
 
 ----------------------------
+Versie 1.0.1 - 16.11.2026
+----------------------------
+Voor dsbhr-gt-messages en isbhr-gt-messages:
+- namespace bijgewerkt van dsbhrgt naar dsbhr-gt en van isbhgt naar isbhr-gt (waar nodig)
+
+----------------------------
 Versie 1.0.1 - 13.11.2026
 ----------------------------
 Voor dsbhr-gt-messages en isbhr-gt-messages:

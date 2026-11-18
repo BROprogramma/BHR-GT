@@ -3,9 +3,9 @@
            xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3"
            xmlns:gml="http://www.opengis.net/gml/3.2"
            xmlns:gmlsf="http://www.opengis.net/gmlsf/2.0"
-           xmlns:isbhrgt="http://www.broservices.nl/xsd/isbhrgt/3"
+           xmlns:isbhrgt="http://www.broservices.nl/xsd/isbhr-gt/3"
            xmlns:xs="http://www.w3.org/2001/XMLSchema"
-           targetNamespace="http://www.broservices.nl/xsd/isbhrgt/3"
+           targetNamespace="http://www.broservices.nl/xsd/isbhr-gt/3"
            elementFormDefault="qualified"
            attributeFormDefault="unqualified"
            version="3.0.0">
